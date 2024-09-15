@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function FaqHRM() {
   return (
@@ -184,7 +184,7 @@ export default function FaqHRM() {
 
         <div className="text-center faq-btn-area pt-60">
           <h4 className="pb-20 faq-btn-text">Still have a question?</h4>
-          <Link to="/contact-two" className="btn btn-red">
+          <Link href="/contact-two" className="btn btn-red">
             Contact Us
           </Link>
         </div>

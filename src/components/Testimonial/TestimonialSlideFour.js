@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
 import Slider from "react-slick";

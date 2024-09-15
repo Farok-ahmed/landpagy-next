@@ -8,7 +8,6 @@ import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import PriceOne from "@/components/PricePack/PriceOne";
 import TestimonialsSlideTwo from "@/components/Testimonial/TestimonialsSlideTwo";
 // import AboutVideo from "@/components/Videos/AboutVideo";
-import React from "react";
 
 export default function HomeSc() {
   return (

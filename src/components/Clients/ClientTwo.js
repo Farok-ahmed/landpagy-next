@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function ClientTwo() {
   return (
@@ -68,7 +68,7 @@ export default function ClientTwo() {
         </div>
 
         <div className="text-center row">
-          <Link className="customer-more" to="/testimonials">
+          <Link className="customer-more" href="/testimonials">
             More customer stories <i className="arrow_right"></i>
           </Link>
         </div>

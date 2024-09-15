@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function PosBlog() {
   return (
@@ -32,7 +32,7 @@ export default function PosBlog() {
                     alt="Author"
                     className="author-img"
                   />
-                  <Link to="/blog-details" className="author-name">
+                  <Link href="/blog-details" className="author-name">
                     Andrew Millium
                   </Link>
                   <span className="date">
@@ -41,11 +41,11 @@ export default function PosBlog() {
                   </span>
                 </div>
                 <h5 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link href="/blog-details">
                     Introducing morph and distortion animations.
                   </Link>
                 </h5>
-                <Link to="/blog" className="blog-link">
+                <Link href="/blog" className="blog-link">
                   Read more <i className="arrow_carrot-right"></i>
                 </Link>
               </div>
@@ -65,7 +65,7 @@ export default function PosBlog() {
                     alt="Author"
                     className="author-img"
                   />
-                  <Link to="/blog-details" className="author-name">
+                  <Link href="/blog-details" className="author-name">
                     Andrew Millium
                   </Link>
                   <span className="date">
@@ -74,11 +74,11 @@ export default function PosBlog() {
                   </span>
                 </div>
                 <h5 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link href="/blog-details">
                     Introducing morph and distortion animations.
                   </Link>
                 </h5>
-                <Link to="/blog" className="blog-link">
+                <Link href="/blog" className="blog-link">
                   Read more <i className="arrow_carrot-right"></i>
                 </Link>
               </div>
@@ -98,7 +98,7 @@ export default function PosBlog() {
                     alt="Author"
                     className="author-img"
                   />
-                  <Link to="/blog-details" className="author-name">
+                  <Link href="/blog-details" className="author-name">
                     Andrew Millium
                   </Link>
                   <span className="date">
@@ -107,11 +107,11 @@ export default function PosBlog() {
                   </span>
                 </div>
                 <h5 className="blog-title">
-                  <Link to="/blog-details">
+                  <Link href="/blog-details">
                     Introducing morph and distortion animations.
                   </Link>
                 </h5>
-                <Link to="/blog" className="blog-link">
+                <Link href="/blog" className="blog-link">
                   Read more <i className="arrow_carrot-right"></i>
                 </Link>
               </div>

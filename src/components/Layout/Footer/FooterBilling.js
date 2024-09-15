@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function FooterBilling() {
   return (
@@ -17,7 +17,7 @@ export default function FooterBilling() {
                 className="footer-widget wow fadeInDown"
                 data-wow-delay="0.1s"
               >
-                <Link to="/" className="mb-10 footer-logo">
+                <Link href="/" className="mb-10 footer-logo">
                   <img src="/images/logo-2.png" alt="Logo" />
                 </Link>
                 <p className="footer-text">

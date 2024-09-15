@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function FeatureWithImgOne() {
   return (
@@ -13,7 +13,7 @@ export default function FeatureWithImgOne() {
                 The best place to ask for support. Solve any issue with the help
                 of our experts.
               </p>
-              <Link className="soft-btn" to="/contact-one">
+              <Link className="soft-btn" href="/contact-one">
                 Explore Now
               </Link>
             </div>
@@ -70,7 +70,7 @@ export default function FeatureWithImgOne() {
                 Custumize pre-build content quick and easy with new element
                 editor – Yelow pencil.
               </p>
-              <Link className="soft-btn" to="/contact-one">
+              <Link className="soft-btn" href="/contact-one">
                 Explore Now
               </Link>
             </div>
@@ -84,7 +84,7 @@ export default function FeatureWithImgOne() {
                 The best place to ask for support. Solve any issue with the help
                 of our experts.
               </p>
-              <Link className="soft-btn" to="/contact-one">
+              <Link className="soft-btn" href="/contact-one">
                 Explore Now
               </Link>
             </div>

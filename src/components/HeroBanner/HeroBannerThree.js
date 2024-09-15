@@ -1,7 +1,9 @@
+"use client";
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 import { Parallax } from "react-scroll-parallax";
 import GLightbox from "glightbox";
+import Link from "next/link";
 
 export default function HeroBannerThree() {
   useEffect(() => {
@@ -47,10 +49,10 @@ export default function HeroBannerThree() {
                 interface blocks.All-in-one WordPress theme that’s modern, super
                 customizable, & blazing fast.
               </p>
-              <Link to="/price-one" className="btn border-btn">
+              <Link href="/price-one" className="btn border-btn">
                 Buy Now
               </Link>
-              <Link to="/contact-one" className="btn white-btn">
+              <Link href="/contact-one" className="btn white-btn">
                 See Demo
               </Link>
             </div>

@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function FooterApp() {
   return (
@@ -12,7 +12,7 @@ export default function FooterApp() {
                 className="footer-widget wow fadeInDown"
                 data-wow-delay="0.7s"
               >
-                <Link to="/" className="footer-logo mb-10">
+                <Link href="/" className="footer-logo mb-10">
                   <img src="/images/logo.svg" alt="Logo" />
                 </Link>
                 <p className="footer-text mb-40">
@@ -48,19 +48,19 @@ export default function FooterApp() {
                     <h4 className="widget-title">Product</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <Link to="/integrations">Download</Link>
+                        <Link href="/integrations">Download</Link>
                       </li>
                       <li>
-                        <Link to="/pricing">Pricing plans</Link>
+                        <Link href="/pricing">Pricing plans</Link>
                       </li>
                       <li>
-                        <Link to="/contact">changelog</Link>
+                        <Link href="/contact">changelog</Link>
                       </li>
                       <li>
-                        <Link to="/integrations">integrations</Link>
+                        <Link href="/integrations">integrations</Link>
                       </li>
                       <li>
-                        <Link to="/integrations">open source</Link>
+                        <Link href="/integrations">open source</Link>
                       </li>
                     </ul>
                   </div>
@@ -73,19 +73,19 @@ export default function FooterApp() {
                     <h4 className="widget-title">Company</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <Link to="/about">About us</Link>
+                        <Link href="/about">About us</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact us</Link>
+                        <Link href="/contact">Contact us</Link>
                       </li>
                       <li>
-                        <Link to="/job-details">Application</Link>
+                        <Link href="/job-details">Application</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link href="/blog">Blog</Link>
                       </li>
                       <li>
-                        <Link to="/jobs">Jobs</Link>
+                        <Link href="/jobs">Jobs</Link>
                       </li>
                     </ul>
                   </div>
@@ -98,19 +98,19 @@ export default function FooterApp() {
                     <h4 className="widget-title">Support</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <Link to="/">Getting started</Link>
+                        <Link href="/">Getting started</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Chat our support</Link>
+                        <Link href="/contact">Chat our support</Link>
                       </li>
                       <li>
-                        <Link to="/home-help-center">Help center</Link>
+                        <Link href="/home-help-center">Help center</Link>
                       </li>
                       <li>
-                        <Link to="/services">Service Status</Link>
+                        <Link href="/services">Service Status</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Report a bug</Link>
+                        <Link href="/contact">Report a bug</Link>
                       </li>
                     </ul>
                   </div>

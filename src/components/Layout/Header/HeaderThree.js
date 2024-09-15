@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+import Link from "next/link";
 export default function HeaderThree() {
   return (
     <header className="header-area">
       <nav className="navbar navbar-expand-lg menu_two sticky-nav">
         <div className="container-fluid">
-          <Link className="navbar-brand header_logo" to="/">
+          <Link className="navbar-brand header_logo" href="/">
             <img className="main_logo" src="/images/logo-4.svg" alt="logo" />
           </Link>
           <button
@@ -36,7 +36,7 @@ export default function HeaderThree() {
           >
             <ul className="mx-auto navbar-nav menu">
               <li className="nav-item dropdown submenu mega-home">
-                <Link to="/" className="nav-link dropdown-toggle">
+                <Link href="/" className="nav-link dropdown-toggle">
                   Home
                 </Link>
                 <i
@@ -47,7 +47,7 @@ export default function HeaderThree() {
                 <ul className="dropdown-menu">
                   {demoLinks.map((item, index) => (
                     <li className={`nav-item`} key={index}>
-                      <Link to={item.to} className="nav-link">
+                      <Link href={item.to} className="nav-link">
                         <img src={item.imgSrc} alt={item.alt} />
                         <span>{item.text}</span>
                       </Link>
@@ -56,7 +56,7 @@ export default function HeaderThree() {
                 </ul>
               </li>
               <li className="nav-item dropdown submenu ">
-                <Link to="/" className="nav-link dropdown-toggle">
+                <Link href="/" className="nav-link dropdown-toggle">
                   Pages
                 </Link>
                 <i
@@ -74,7 +74,7 @@ export default function HeaderThree() {
                     >
                       {item.submenu ? (
                         <>
-                          <Link to="/" className="nav-link">
+                          <Link href="/" className="nav-link">
                             {item.name}
                           </Link>
                           <i
@@ -85,7 +85,7 @@ export default function HeaderThree() {
                           <ul className="dropdown-menu">
                             {item.submenu.map((subItem, subIndex) => (
                               <li key={subIndex} className="nav-item">
-                                <Link to={subItem.link} className="nav-link">
+                                <Link href={subItem.link} className="nav-link">
                                   {subItem.name}
                                 </Link>
                               </li>
@@ -93,7 +93,7 @@ export default function HeaderThree() {
                           </ul>
                         </>
                       ) : (
-                        <Link to={item.link} className="nav-link">
+                        <Link href={item.link} className="nav-link">
                           {item.name}
                         </Link>
                       )}
@@ -114,7 +114,7 @@ export default function HeaderThree() {
                 <ul className="container dropdown-menu">
                   {elementsLinks.container.map((item, index) => (
                     <li key={index} className="nav-item">
-                      <Link to="/" className="nav-link">
+                      <Link href="/" className="nav-link">
                         {item.name}
                       </Link>
                       <i
@@ -125,7 +125,7 @@ export default function HeaderThree() {
                       <ul className="dropdown-menu">
                         {item.submenu.map((subItem, subIndex) => (
                           <li key={subIndex} className="nav-item">
-                            <Link to={subItem.link} className="nav-link">
+                            <Link href={subItem.link} className="nav-link">
                               {subItem.name}
                             </Link>
                           </li>
@@ -137,7 +137,7 @@ export default function HeaderThree() {
               </li>
 
               <li className="nav-item dropdown submenu ">
-                <Link to="/career" className="nav-link dropdown-toggle">
+                <Link href="/career" className="nav-link dropdown-toggle">
                   Jobs
                 </Link>
                 <i
@@ -147,24 +147,24 @@ export default function HeaderThree() {
                 ></i>
                 <ul className="dropdown-menu">
                   <li className="nav-item">
-                    <Link to="/career" className="nav-link">
+                    <Link href="/career" className="nav-link">
                       Career
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/job-post" className="nav-link">
+                    <Link href="/job-post" className="nav-link">
                       Jobs
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/job-details" className="nav-link">
+                    <Link href="/job-details" className="nav-link">
                       Job Application
                     </Link>
                   </li>
                 </ul>
               </li>
               <li className="nav-item dropdown submenu ">
-                <Link to="/blog" className="nav-link dropdown-toggle">
+                <Link href="/blog" className="nav-link dropdown-toggle">
                   Blog
                 </Link>
                 <i
@@ -174,17 +174,17 @@ export default function HeaderThree() {
                 ></i>
                 <ul className="dropdown-menu">
                   <li className="nav-item">
-                    <Link to="/blog" className="nav-link">
+                    <Link href="/blog" className="nav-link">
                       Blog
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/blog-details" className="nav-link">
+                    <Link href="/blog-details" className="nav-link">
                       Blog Single
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link to="/blog-grid" className="nav-link">
+                    <Link href="/blog-grid" className="nav-link">
                       Extended Grid
                     </Link>
                   </li>
@@ -195,8 +195,8 @@ export default function HeaderThree() {
               <a href="/" className="language-bar">
                 <span className="active">En.</span> <span>Ru</span>
               </a>
-              <Link to="/sign-in">Login</Link>
-              <Link className="btn" to="/sign-up">
+              <Link href="/sign-in">Login</Link>
+              <Link className="btn" href="/sign-up">
                 Sign Up
               </Link>
             </div>

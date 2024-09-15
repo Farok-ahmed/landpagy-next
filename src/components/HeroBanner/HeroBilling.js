@@ -1,5 +1,7 @@
+"use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function HeroBilling() {
@@ -94,7 +96,7 @@ export default function HeroBilling() {
                 Best Accounts Billing Software
               </h1>
               <Link
-                to="/sign-up"
+                href="/sign-up"
                 className="btn btn-red wow fadeInDown"
                 data-wow-delay="0.4s"
               >

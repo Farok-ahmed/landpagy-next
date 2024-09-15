@@ -1,5 +1,7 @@
+"use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function HeroHRM() {
@@ -214,7 +216,7 @@ export default function HeroHRM() {
         </div>
 
         <div className="text-center row">
-          <Link className="customer-more" to="/testimonials">
+          <Link className="customer-more" href="/testimonials">
             More customer stories <i className="arrow_right"></i>
           </Link>
         </div>

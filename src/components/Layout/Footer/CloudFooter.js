@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function CloudFooter() {
   return (
@@ -136,7 +136,7 @@ export default function CloudFooter() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-3">
-              <Link to="/" className="footer-logo">
+              <Link href="/" className="footer-logo">
                 <img src="/images/logo.svg" alt="Logo" />
               </Link>
             </div>

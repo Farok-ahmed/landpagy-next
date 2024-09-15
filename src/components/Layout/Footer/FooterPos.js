@@ -1,5 +1,7 @@
+"use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function FooterPos() {
@@ -58,19 +60,19 @@ export default function FooterPos() {
                     <h4>Company</h4>
                     <ul>
                       <li>
-                        <Link to="/about">About</Link>
+                        <Link href="/about">About</Link>
                       </li>
                       <li>
-                        <Link to="/career">Careers</Link>
+                        <Link href="/career">Careers</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link href="/blog">Blog</Link>
                       </li>
                       <li>
-                        <Link to="/home-help-center">Support</Link>
+                        <Link href="/home-help-center">Support</Link>
                       </li>
                     </ul>
                   </div>
@@ -83,19 +85,19 @@ export default function FooterPos() {
                     <h4>Useful inks</h4>
                     <ul>
                       <li>
-                        <Link to="/about">About</Link>
+                        <Link href="/about">About</Link>
                       </li>
                       <li>
-                        <Link to="/career">Careers</Link>
+                        <Link href="/career">Careers</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link href="/blog">Blog</Link>
                       </li>
                       <li>
-                        <Link to="/home-help-center">Support</Link>
+                        <Link href="/home-help-center">Support</Link>
                       </li>
                     </ul>
                   </div>
@@ -108,16 +110,16 @@ export default function FooterPos() {
                     <h4>Products</h4>
                     <ul>
                       <li>
-                        <Link to="/about">About</Link>
+                        <Link href="/about">About</Link>
                       </li>
                       <li>
-                        <Link to="/career">Careers</Link>
+                        <Link href="/career">Careers</Link>
                       </li>
                       <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                       <li>
-                        <Link to="/home-help-center">Support</Link>
+                        <Link href="/home-help-center">Support</Link>
                       </li>
                     </ul>
                   </div>

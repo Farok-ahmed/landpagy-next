@@ -1,3 +1,4 @@
+"use client";
 import { React, useEffect, useRef, useState } from "react";
 import Isotope from "isotope-layout";
 import imagesLoaded from "imagesloaded";

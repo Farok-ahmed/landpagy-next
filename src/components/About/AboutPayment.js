@@ -1,5 +1,6 @@
+"use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 import { Parallax } from "react-scroll-parallax";
 
 export default function AboutPayment() {
@@ -23,7 +24,7 @@ export default function AboutPayment() {
                 <span className="name">Ariful Haque</span>
                 <span className="pos">UI Designer, Spider Themes</span>
               </div>
-              <Link to="/testimonials">
+              <Link href="/testimonials">
                 See all customer stories <i className="arrow_right"></i>
               </Link>
             </div>

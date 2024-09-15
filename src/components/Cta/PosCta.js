@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function PosCta() {
   return (
@@ -23,7 +23,7 @@ export default function PosCta() {
               </p>
             </div>
             <div className="col-lg-6 col-md-4">
-              <Link to="/contact-one" className="btn float-md-end">
+              <Link href="/contact-one" className="btn float-md-end">
                 Request A Demo
               </Link>
             </div>

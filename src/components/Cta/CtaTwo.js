@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 export default function CtaTwo() {
   return (
@@ -21,7 +20,7 @@ export default function CtaTwo() {
             >
               <h2>Looking for a Custom Design Landing Page?</h2>
               <p>We can create it as per your requirements.</p>
-              <Link to="/contact-two">GET A QUOTE NOW</Link>
+              <Link href="/contact-two">GET A QUOTE NOW</Link>
             </div>
           </div>
         </div>

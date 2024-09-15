@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function FaqPos() {
   return (
@@ -56,7 +56,7 @@ export default function FaqPos() {
                       automatically receive a 30-day free trial of Plus. To get
                       started with Premium,
                       <span>
-                        <Link to="/contact-one">contact our sales team.</Link>
+                        <Link href="/contact-one">contact our sales team.</Link>
                       </span>
                     </p>
                   </div>
@@ -90,7 +90,7 @@ export default function FaqPos() {
                       automatically receive a 30-day free trial of Plus. To get
                       started with Premium,
                       <span>
-                        <Link to="/contact-one">contact our sales team.</Link>
+                        <Link href="/contact-one">contact our sales team.</Link>
                       </span>
                     </p>
                   </div>
@@ -124,7 +124,7 @@ export default function FaqPos() {
                       automatically receive a 30-day free trial of Plus. To get
                       started with Premium,
                       <span>
-                        <Link to="/contact-one">contact our sales team.</Link>
+                        <Link href="/contact-one">contact our sales team.</Link>
                       </span>
                     </p>
                   </div>
@@ -158,7 +158,7 @@ export default function FaqPos() {
                       automatically receive a 30-day free trial of Plus. To get
                       started with Premium,
                       <span>
-                        <Link to="/contact-one">contact our sales team.</Link>
+                        <Link href="/contact-one">contact our sales team.</Link>
                       </span>
                     </p>
                   </div>
@@ -192,7 +192,7 @@ export default function FaqPos() {
                       automatically receive a 30-day free trial of Plus. To get
                       started with Premium,
                       <span>
-                        <Link to="/contact-one">contact our sales team.</Link>
+                        <Link href="/contact-one">contact our sales team.</Link>
                       </span>
                     </p>
                   </div>
@@ -226,7 +226,10 @@ export default function FaqPos() {
                       automatically receive a 30-day free trial of Plus. To get
                       started with Premium,
                       <span>
-                        <Link to="/contact-one"> contact our sales team.</Link>
+                        <Link href="/contact-one">
+                          {" "}
+                          contact our sales team.
+                        </Link>
                       </span>
                     </p>
                   </div>

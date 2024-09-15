@@ -1,5 +1,6 @@
+"use client";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 
 export default function IntegrationTwo() {
   const [timeCount, setTimeCount] = useState(0);
@@ -57,7 +58,7 @@ export default function IntegrationTwo() {
                 <i className="icon_check"></i> Orci lacus velit augue
               </li>
             </ul>
-            <Link to="/contact-one" className="btn">
+            <Link href="/contact-one" className="btn">
               Start your free trial
             </Link>
           </div>
