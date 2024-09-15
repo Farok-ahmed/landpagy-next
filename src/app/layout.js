@@ -16,28 +16,6 @@ import "../assets/scss/style.scss";
 import "../assets/css/responsive.css";
 import BootstrapClient from "@/utils/BootstrapClient";
 import Layout from "@/components/Layout/Layout";
-// import { Poppins, Inter, Kalam } from "next/font/google";
-
-// const poppins = Poppins({
-//   subsets: ["latin"],
-//   display: "swap",
-//   variable: "--font-poppins",
-//   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-// });
-
-// const inter = Inter({
-//   subsets: ["latin"],
-//   display: "swap",
-//   variable: "--font-inter",
-//   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-// });
-
-// const kalam = Kalam({
-//   subsets: ["latin"],
-//   display: "swap",
-//   variable: "--font-kalam",
-//   weight: ["300", "400", "700"], // Kalam has fewer available weights
-// });
 
 export const metadata = {
   title: "Landpagy Next",

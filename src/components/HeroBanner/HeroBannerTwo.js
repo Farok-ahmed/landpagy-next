@@ -1,5 +1,7 @@
+"use client";
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
+
 import { Parallax } from "react-scroll-parallax";
 
 export default function HeroBannerTwo() {
@@ -55,7 +57,7 @@ export default function HeroBannerTwo() {
                 We provide all the best features so you can stop focusing on
                 your project management and get back to your life’s work.
               </p>
-              <Link to="/contact-one" className="btn btn-red">
+              <Link href="/contact-one" className="btn btn-red">
                 Request A Demo
               </Link>
             </div>

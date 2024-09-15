@@ -3,6 +3,7 @@ import React, { useEffect, useLayoutEffect, useState } from "react";
 import dynamic from "next/dynamic";
 // import { landpagyUtils } from "../../utils";
 import { useRouter } from "next/navigation";
+import { ParallaxProvider } from "react-scroll-parallax";
 // Dynamically import landpagyUtils
 const landpagyUtils = dynamic(
   () => import("../../utils").then((mod) => mod.landpagyUtils),
@@ -80,14 +81,16 @@ export default function Layout({ children }) {
 
   return (
     <>
-      <div className="position-relative">
-        {children}
-        {isVisible && (
-          <button className="scrollToTop" onClick={scrollToTop}>
-            <img src="/images/scroll.svg" alt="Scroll to Top" />
-          </button>
-        )}
-      </div>
+      <ParallaxProvider>
+        <div className="position-relative">
+          {children}
+          {isVisible && (
+            <button className="scrollToTop" onClick={scrollToTop}>
+              <img src="/images/scroll.svg" alt="Scroll to Top" />
+            </button>
+          )}
+        </div>
+      </ParallaxProvider>
     </>
   );
 }

@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function CtaOne() {
   return (
@@ -23,7 +23,7 @@ export default function CtaOne() {
               </p>
             </div>
             <div className="col-md-5">
-              <Link to="/contact-two" className="btn float-md-end">
+              <Link href="/contact-two" className="btn float-md-end">
                 Request A Demo
               </Link>
             </div>

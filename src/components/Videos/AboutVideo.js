@@ -1,7 +1,9 @@
+"use client";
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
+
 import Slider from "react-slick";
 import GLightbox from "glightbox";
+import Link from "next/link";
 
 export default function AboutVideo() {
   useEffect(() => {
@@ -38,7 +40,37 @@ export default function AboutVideo() {
                     />
                     <Link
                       className="play-btn"
-                      to="https://www.youtube.com/watch?v=xcJtL7QggTI"
+                      href="https://www.youtube.com/watch?v=xcJtL7QggTI"
+                    >
+                      <i className="fas fa-play"></i>
+                    </Link>
+                    <div className="smile-icon">
+                      <img src="/images/home_2/smile.png" alt="" />
+                    </div>
+                  </div>
+                  <div className="widget-bottom">
+                    <p>
+                      I’m not sure how i would be able to do support - at Bhumi
+                      or any whare else - without Help Landpaggy.
+                    </p>
+                    <div className="author-info">
+                      <span className="name">Ariful Haque, UI Designer</span>
+                      <span className="location">Bhumi</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="single-user-slide-widget">
+                  <div className="widget-top">
+                    <img
+                      className="user-img"
+                      src="/images/home_2/user-slide.png"
+                      alt=""
+                    />
+                    <Link
+                      className="play-btn"
+                      href="https://www.youtube.com/watch?v=xcJtL7QggTI"
                     >
                       {" "}
                       <i className="fas fa-play"></i>
@@ -69,38 +101,7 @@ export default function AboutVideo() {
                     />
                     <Link
                       className="play-btn"
-                      to="https://www.youtube.com/watch?v=xcJtL7QggTI"
-                    >
-                      {" "}
-                      <i className="fas fa-play"></i>
-                    </Link>
-                    <div className="smile-icon">
-                      <img src="/images/home_2/smile.png" alt="" />
-                    </div>
-                  </div>
-                  <div className="widget-bottom">
-                    <p>
-                      I’m not sure how i would be able to do support - at Bhumi
-                      or any whare else - without Help Landpaggy.
-                    </p>
-                    <div className="author-info">
-                      <span className="name">Ariful Haque, UI Designer</span>
-                      <span className="location">Bhumi</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <div className="single-user-slide-widget">
-                  <div className="widget-top">
-                    <img
-                      className="user-img"
-                      src="/images/home_2/user-slide.png"
-                      alt=""
-                    />
-                    <Link
-                      className="play-btn"
-                      to="https://www.youtube.com/watch?v=xcJtL7QggTI"
+                      href="https://www.youtube.com/watch?v=xcJtL7QggTI"
                     >
                       {" "}
                       <i className="fas fa-play"></i>
@@ -125,7 +126,7 @@ export default function AboutVideo() {
           </div>
           <div className="row-item wow fadeInUp">
             <h3>Trusted by more than 8,000 business in 140 countries.</h3>
-            <Link className="btn" to="/testimonials">
+            <Link className="btn" href="/testimonials">
               Meet our coustomers
             </Link>
             <div className="row justify-content-center mt-lg-80 mt-60">
