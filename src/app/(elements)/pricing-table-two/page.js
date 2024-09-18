@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function ComingSoonThree() {
+export default function PricingTableTwo() {
   return <div>page</div>;
 }

@@ -1,6 +1,7 @@
+"use client";
 import React, { useEffect } from "react";
 import GLightbox from "glightbox";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 export default function AboutTwoHero() {
   useEffect(() => {
     // eslint-disable-next-line
@@ -50,7 +51,7 @@ export default function AboutTwoHero() {
                 </div>
                 <Link
                   className="play-btn"
-                  to="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"
+                  href="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"
                 >
                   <i className="fas fa-play"></i>
                 </Link>

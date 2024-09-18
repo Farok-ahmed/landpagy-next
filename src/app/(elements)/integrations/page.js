@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function ComingSoonFour() {
+export default function Integrations() {
   return <div>page</div>;
 }

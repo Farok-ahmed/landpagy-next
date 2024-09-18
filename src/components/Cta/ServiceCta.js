@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function ServiceCta() {
   return (
@@ -25,7 +25,7 @@ export default function ServiceCta() {
             <p className="cta-text">
               We will turn your ideas to viable product
             </p>
-            <Link to="/contact-one" className="btn">
+            <Link href="/contact-one" className="btn">
               Contact Us
             </Link>
           </div>

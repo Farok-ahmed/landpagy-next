@@ -25,6 +25,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <link
+        rel="shortcut icon"
+        href="/images/favicon.ico"
+        type="image/x-icon"
+      />
       <body>
         <Layout>{children}</Layout>
         <BootstrapClient />

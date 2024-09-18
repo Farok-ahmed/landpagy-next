@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function ComingSoonOne() {
+export default function ContactForms() {
   return <div>page</div>;
 }
