@@ -1,5 +1,6 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
+
 
 export default function BlogPosts() {
   return (
@@ -13,7 +14,7 @@ export default function BlogPosts() {
                 Development Tips
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Landpagy Improved Development Process{" "}
                 </Link>
@@ -47,7 +48,7 @@ export default function BlogPosts() {
                 Product Update
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Landpagy elevated the design.{" "}
                 </Link>
@@ -79,7 +80,7 @@ export default function BlogPosts() {
                 Case Study
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Ceros launched Sketch, Photoshop.{" "}
                 </Link>
@@ -111,7 +112,7 @@ export default function BlogPosts() {
                 Development Tips
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Landpagy elevated the design.{" "}
                 </Link>
@@ -143,7 +144,7 @@ export default function BlogPosts() {
                 Creative
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Ceros launched Sketch, Photoshop.{" "}
                 </Link>
@@ -175,7 +176,7 @@ export default function BlogPosts() {
                 Product Update
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Landpagy elevated the design.{" "}
                 </Link>
@@ -207,7 +208,7 @@ export default function BlogPosts() {
                 Case Study
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Ceros launched Sketch, Photoshop.{" "}
                 </Link>
@@ -239,7 +240,7 @@ export default function BlogPosts() {
                 Development Tips
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Landpagy elevated the design.{" "}
                 </Link>
@@ -271,7 +272,7 @@ export default function BlogPosts() {
                 Creative
               </a>
               <h4 className="post-title">
-                <Link to="/blog-details">
+                <Link href="/blog-details">
                   {" "}
                   How Ceros launched Sketch, Photoshop.{" "}
                 </Link>

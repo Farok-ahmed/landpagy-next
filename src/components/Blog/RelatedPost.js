@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function RelatedPost() {
   return (
@@ -10,11 +10,13 @@ export default function RelatedPost() {
         <div className="post-item">
           <img src="/images/blog/post2.jpg" alt="Blog Post" />
           <div className="post-content">
-            <Link to="/" className="cate-btn">
+            <Link href="/" className="cate-btn">
               Product Update
             </Link>
             <h4 className="post-title">
-              <Link to="/blog-details">How Landpagy elevated the design.</Link>
+              <Link href="/blog-details">
+                How Landpagy elevated the design.
+              </Link>
             </h4>
             <p className="post-para">
               Cup of char brilliant horse play bro bread sloshed lavatory
@@ -43,7 +45,7 @@ export default function RelatedPost() {
               Case Study
             </a>
             <h4 className="post-title">
-              <Link to="/blog-details">
+              <Link href="/blog-details">
                 How Ceros launched Sketch, Photoshop.
               </Link>
             </h4>

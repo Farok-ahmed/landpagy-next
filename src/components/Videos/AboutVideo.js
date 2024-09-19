@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect } from "react";
-
 import Slider from "react-slick";
 import GLightbox from "glightbox";
 import Link from "next/link";

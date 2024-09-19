@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 const BlogPost = ({ posts }) => {
   return (
@@ -12,15 +12,15 @@ const BlogPost = ({ posts }) => {
             <img src={post.imageSrc} alt="" />
             <div className="grid_post_content">
               <div className="post_tag">
-                <Link to="/blog-details">{post.readTime}</Link>
+                <Link href="/blog-details">{post.readTime}</Link>
                 <Link
                   className={`cat-${post.category.toLowerCase()}`}
-                  to="/blog-details"
+                  href="/blog-details"
                 >
                   {post.category}
                 </Link>
               </div>
-              <Link to="/blog-details">
+              <Link href="/blog-details">
                 <h4 className="b_title">{post.title}</h4>
               </Link>
               <p>{post.excerpt}</p>

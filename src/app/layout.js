@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         href="/images/favicon.ico"
         type="image/x-icon"
       />
-      <body>
+      <body suppressHydrationWarning={true}>
         <Layout>{children}</Layout>
         <BootstrapClient />
       </body>

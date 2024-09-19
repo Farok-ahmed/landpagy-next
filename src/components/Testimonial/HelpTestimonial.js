@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -12,9 +13,6 @@ export default function HelpTestimonial() {
       prevEl: ".swiper-button-prev",
     },
     modules: [Navigation],
-    breakpoints: {
-      768: {},
-    },
   };
   return (
     <section className="testimonial-area-four bg-white-800 section-padding-xl">

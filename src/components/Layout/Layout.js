@@ -1,16 +1,9 @@
 "use client";
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import dynamic from "next/dynamic";
-// import { landpagyUtils } from "../../utils";
 import { useRouter } from "next/navigation";
 import { ParallaxProvider } from "react-scroll-parallax";
-// Dynamically import landpagyUtils
-const landpagyUtils = dynamic(
-  () => import("../../utils").then((mod) => mod.landpagyUtils),
-  {
-    ssr: false, // Disable server-side rendering for this import
-  }
-);
+import dynamic from "next/dynamic";
+import { animationUtils } from "@/utils";
 
 export default function Layout({ children }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -43,19 +36,6 @@ export default function Layout({ children }) {
   }, []);
 
   useEffect(() => {
-    if (landpagyUtils) {
-      // Check if landpagyUtils and animation function exist
-      console.log("landpagyUtils:", landpagyUtils);
-      // Assuming the method is animation, not animaiton
-      if (landpagyUtils.animation) {
-        landpagyUtils.animation(); // Call animation method if it exists
-      } else {
-        console.error("animation method not found in landpagyUtils");
-      }
-    }
-  }, []);
-
-  useEffect(() => {
     const handleScroll = () => {
       const stickyNav = document.querySelector(".sticky-nav");
       if (stickyNav) {
@@ -78,6 +58,12 @@ export default function Layout({ children }) {
       behavior: "instant",
     });
   }, [router.pathname]);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      animationUtils.animaiton(); // Call the animation function only in the browser
+    }
+  }, []);
 
   return (
     <>

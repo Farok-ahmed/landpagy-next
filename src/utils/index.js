@@ -1,12 +1,10 @@
-import WOW from "wowjs";
-
-export const landpagyUtils = {
+export const animationUtils = {
   animaiton() {
     if (typeof window !== "undefined") {
-      window.WOW = require("wowjs");
+      const WOW = require("wowjs"); // Require only if window is available
+      new WOW.WOW({
+        live: false,
+      }).init();
     }
-    new WOW.WOW({
-      live: false,
-    }).init();
   },
 };

@@ -1,6 +1,6 @@
 import BlogSlider from "@/components/Blog/BlogSlider";
 import AppClient from "@/components/Clients/AppClient";
-// import AppCounter from "@/components/Counter/AppCounter";
+import AppCounter from "@/components/Counter/AppCounter";
 import AppDownloadTwo from "@/components/Cta/AppDownloadTwo";
 import AppFeature from "@/components/Features/AppFeature";
 import AppLandingHero from "@/components/HeroBanner/AppLandingHero";
@@ -21,7 +21,7 @@ export default function HomeApp() {
       <AppHowItWorks />
       <AppPrice />
       <AppTestimonial />
-      {/* <AppCounter /> */}
+      <AppCounter />
       <BlogSlider />
       <AppDownloadTwo />
       <AppClient />

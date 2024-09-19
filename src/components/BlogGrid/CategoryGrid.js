@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import BlogPost from "./BlogPost";
+import Link from "next/link";
 
 const blogPosts = [
   {
@@ -90,47 +91,47 @@ export default function CategoryGrid() {
         <div className="container blog-grid-container">
           <ul className="nav blog_tab">
             <li className="nav-item">
-              <Link className="nav-link active" to="/blog">
+              <Link className="nav-link active" href="/blog">
                 Updates
               </Link>
             </li>
             <li className="nav-item cat-woocommerce">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 WooCommerce
               </Link>
             </li>
             <li className="nav-item cat-startups">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 Startups
               </Link>
             </li>
             <li className="nav-item cat-laravel">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 Laravel
               </Link>
             </li>
             <li className="nav-item cat-wordpress">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 WordPress
               </Link>
             </li>
             <li className="nav-item cat-megento">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 Megento
               </Link>
             </li>
             <li className="nav-item cat-startups">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 Startups
               </Link>
             </li>
             <li className="nav-item cat-Docy">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 Docy
               </Link>
             </li>
             <li className="nav-item cat-others">
-              <Link className="nav-link" to="/blog">
+              <Link className="nav-link" href="/blog">
                 Others
               </Link>
             </li>
