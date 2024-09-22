@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function ContactTwoHero() {
   return (
@@ -32,7 +32,7 @@ export default function ContactTwoHero() {
                   We’ll help you find the right products and pricing for your
                   business.
                 </p>
-                <Link to="/contact-one" className="item-btn btn btn-red">
+                <Link href="/contact-one" className="item-btn btn btn-red">
                   {" "}
                   Contact Sales{" "}
                 </Link>
@@ -54,7 +54,7 @@ export default function ContactTwoHero() {
                   Our help center is fresh and always open for business. If you
                   can’t find the answer.
                 </p>
-                <Link to="/home-help-center" className="item-btn btn btn-red">
+                <Link href="/home-help-center" className="item-btn btn btn-red">
                   {" "}
                   Go to the help center{" "}
                 </Link>
