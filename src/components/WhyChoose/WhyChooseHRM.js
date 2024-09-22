@@ -5,7 +5,6 @@ import { Navigation } from "swiper/modules";
 
 export default function WhyChooseHRM() {
   const swiperOptions = {
-    loop: true,
     centeredSlides: true,
     modules: [Navigation],
     navigation: {

@@ -8,9 +8,15 @@ import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import NewsLetterHRM from "@/components/NewsLetter/NewsLetterHRM";
 import PriceHRM from "@/components/PricePack/PriceHRM";
 import WorkFlowHRM from "@/components/TabSection/WorkFlowHRM";
-import TestimonialHRM from "@/components/Testimonial/TestimonialHRM";
 import WhyChooseHRM from "@/components/WhyChoose/WhyChooseHRM";
+import dynamic from "next/dynamic";
 import React from "react";
+const TestimonialHRM = dynamic(
+  () => import("@/components/Testimonial/TestimonialHRM"),
+  {
+    ssr: false,
+  }
+);
 
 export default function HomeHrm() {
   return (

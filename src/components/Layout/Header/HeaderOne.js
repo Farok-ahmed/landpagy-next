@@ -47,7 +47,7 @@ export default function HeaderOne({ pricingTwoMenu }) {
           >
             <ul className="mx-auto navbar-nav menu">
               <li className="nav-item dropdown submenu mega-home ">
-                <Link href="/" className="nav-link dropdown-toggle ">
+                <Link href="/" className="nav-link dropdown-toggle">
                   Home
                 </Link>
                 <i

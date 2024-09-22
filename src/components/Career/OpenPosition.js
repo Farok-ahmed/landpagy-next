@@ -2,7 +2,7 @@ import React from "react";
 
 import InformationSystem from "./JobCategory/InformationSystem";
 import ProductDevelopment from "./JobCategory/ProductDevelopment";
-import WebDesign from "./JobCategory/Web Design";
+import WebDesign from "./JobCategory/WebDesign";
 import Marketing from "./JobCategory/Marketing";
 import Administration from "./JobCategory/Administration";
 import WebDevelopment from "./JobCategory/WebDevelopment";

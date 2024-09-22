@@ -4,7 +4,10 @@ import ClientThree from "@/components/Clients/ClientThree";
 import ClientTwo from "@/components/Clients/ClientTwo";
 import ElementsBreadcrumb from "@/components/Layout/ElementsBreadcrumb";
 import ElementsLayout from "@/components/Layout/ElementsLayout";
-import AboutVideo from "@/components/Videos/AboutVideo";
+import dynamic from "next/dynamic";
+const AboutVideo = dynamic(() => import("@/components/Videos/AboutVideo"), {
+  ssr: false,
+});
 
 export default function Clients() {
   return (

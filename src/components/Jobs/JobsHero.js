@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function JobsHero() {
   return (
@@ -15,10 +15,10 @@ export default function JobsHero() {
                 <h1>Job Posts</h1>
                 <ul>
                   <li>
-                    <Link to="/">home</Link>
+                    <Link href="/">home</Link>
                   </li>
                   <li>
-                    <Link to="/">pages</Link>
+                    <Link href="/">pages</Link>
                   </li>
                   <li>Careers</li>
                 </ul>

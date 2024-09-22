@@ -8,7 +8,6 @@ import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import PriceThree from "@/components/PricePack/PriceThree";
 import TestimonialBilling from "@/components/Testimonial/TestimonialBilling";
 import HowItWorks from "@/components/Workflow/HowItWorks";
-import React from "react";
 
 export default function HomeBilling() {
   return (

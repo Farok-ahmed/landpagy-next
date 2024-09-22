@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function FeatureJobs() {
   return (
@@ -12,7 +12,7 @@ export default function FeatureJobs() {
             </div>
           </div>
           <div className="col-md-4 mt-md-0 mt-3 text-md-end text-start">
-            <Link to="/jobs" className="wow fadeInLeft btn">
+            <Link href="/jobs" className="wow fadeInLeft btn">
               Show All
               <i className="arrow_right"></i>
             </Link>
@@ -24,7 +24,7 @@ export default function FeatureJobs() {
             <div className="feature-job-tab">
               <ul className="feature-job-list">
                 <li className="mt-0">
-                  <Link to="/job-details">
+                  <Link href="/job-details">
                     <div
                       className="single-feature-job wow fadeInUp"
                       data-wow-delay="0.1s"
@@ -45,7 +45,7 @@ export default function FeatureJobs() {
                 </li>
 
                 <li>
-                  <Link to="/job-details">
+                  <Link href="/job-details">
                     <div
                       className="single-feature-job wow fadeInUp"
                       data-wow-delay="0.3s"
@@ -66,7 +66,7 @@ export default function FeatureJobs() {
                 </li>
 
                 <li>
-                  <Link to="/job-details">
+                  <Link href="/job-details">
                     <div
                       className="single-feature-job wow fadeInUp"
                       data-wow-delay="0.5s"
@@ -87,7 +87,7 @@ export default function FeatureJobs() {
                 </li>
 
                 <li>
-                  <Link to="/job-details">
+                  <Link href="/job-details">
                     <div
                       className="single-feature-job wow fadeInUp"
                       data-wow-delay="0.7s"
@@ -135,7 +135,7 @@ export default function FeatureJobs() {
                 plans to position.
               </p>
 
-              <Link to="/job-details" className="btn">
+              <Link href="/job-details" className="btn">
                 Apply Now
                 <i className="arrow_right"></i>
               </Link>

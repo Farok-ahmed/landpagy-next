@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function JobList() {
   return (
@@ -23,7 +23,7 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">Manager- Products & Marketing</Link>
+              <Link href="/job-details">Manager- Products & Marketing</Link>
             </h6>
             <div className="flex-wrap d-flex">
               <div className="job-location me-lg-3 me-2">
@@ -51,7 +51,7 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">
+              <Link href="/job-details">
                 Officer Admin and Finance (LRS Position)
               </Link>
             </h6>
@@ -82,7 +82,9 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">Head of Information and Technology</Link>
+              <Link href="/job-details">
+                Head of Information and Technology
+              </Link>
             </h6>
             <div className="flex-wrap d-flex">
               <div className="job-location me-lg-3 me-2">
@@ -110,7 +112,7 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">Assistant Accounts Officer</Link>
+              <Link href="/job-details">Assistant Accounts Officer</Link>
             </h6>
             <div className="flex-wrap d-flex">
               <div className="job-location me-lg-3 me-2">
@@ -138,7 +140,7 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">
+              <Link href="/job-details">
                 Manager- Products & Marketing, Retail Business
               </Link>
             </h6>
@@ -168,7 +170,7 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">
+              <Link href="/job-details">
                 Assistant Branch Manager II (Senior)
               </Link>
             </h6>
@@ -198,7 +200,7 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">
+              <Link href="/job-details">
                 Manager- Products & Marketing, Retail Business
               </Link>
             </h6>
@@ -228,7 +230,9 @@ export default function JobList() {
         <div className="post-header">
           <div>
             <h6 className="job-title">
-              <Link to="/job-details">Accounts Payable/Receivable Manager</Link>
+              <Link href="/job-details">
+                Accounts Payable/Receivable Manager
+              </Link>
             </h6>
             <div className="flex-wrap d-flex">
               <div className="job-location me-lg-3 me-2">

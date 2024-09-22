@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+"use client";
+import Link from "next/link";
+import { useState } from "react";
 
 const jobs = [
   {
@@ -146,7 +147,7 @@ export default function InformationSystem() {
                 ))}
               </ul>
 
-              <Link className="btn btn--apply" to="/job-details">
+              <Link className="btn btn--apply" href="/job-details">
                 Apply For This Job
               </Link>
             </div>

@@ -57,7 +57,7 @@ export default function AppTestimonial() {
     autoplay: true,
     infinite: true,
     autoplaySpeed: 3000,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1200,

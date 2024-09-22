@@ -1,5 +1,6 @@
+"use client";
+import Link from "next/link";
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 
 const jobs = [
   {
@@ -214,7 +215,7 @@ export default function Administration() {
                 ))}
               </ul>
 
-              <Link className="btn btn--apply" to="/job-details">
+              <Link className="btn btn--apply" href="/job-details">
                 Apply For This Job
               </Link>
             </div>

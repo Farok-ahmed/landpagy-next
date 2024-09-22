@@ -1,5 +1,5 @@
+import Link from "next/link";
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function HelpCenterMenu() {
   return (
@@ -14,7 +14,7 @@ export default function HelpCenterMenu() {
                 </a>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -29,7 +29,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -44,7 +44,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -59,7 +59,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -74,7 +74,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -89,7 +89,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -111,7 +111,7 @@ export default function HelpCenterMenu() {
                 </a>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -126,7 +126,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -141,7 +141,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -156,7 +156,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -171,7 +171,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -186,7 +186,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -208,7 +208,7 @@ export default function HelpCenterMenu() {
                 </a>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -223,7 +223,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -238,7 +238,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -253,7 +253,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -268,7 +268,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -283,7 +283,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -305,7 +305,7 @@ export default function HelpCenterMenu() {
                 </a>
                 <ul className="sub-menu">
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -320,7 +320,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -335,7 +335,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -350,7 +350,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -365,7 +365,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"
@@ -380,7 +380,7 @@ export default function HelpCenterMenu() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/">
+                    <Link href="/">
                       <img
                         className="before-icon"
                         src="/images/icon/menu.svg"

@@ -7,14 +7,17 @@ import FooterTwo from "@/components/Layout/Footer/FooterTwo";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import PriceOne from "@/components/PricePack/PriceOne";
 import TestimonialsSlideTwo from "@/components/Testimonial/TestimonialsSlideTwo";
-// import AboutVideo from "@/components/Videos/AboutVideo";
+import dynamic from "next/dynamic";
+const AboutVideo = dynamic(() => import("@/components/Videos/AboutVideo"), {
+  ssr: false,
+});
 
 export default function HomeSc() {
   return (
     <div>
       <HeaderOne />
       <HeroBannerTwo />
-      {/* <AboutVideo /> */}
+      <AboutVideo />
       <OutstandingFeatures />
       <FeatureFour />
       <PriceOne hasShapes={true} />

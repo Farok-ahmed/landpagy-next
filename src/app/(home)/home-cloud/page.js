@@ -1,5 +1,6 @@
 "use client";
-// import CloudCounter from "@/components/Counter/CloudCounter";
+import React, { useEffect } from "react";
+import CloudCounter from "@/components/Counter/CloudCounter";
 import CloudCtaTwo from "@/components/Cta/CloudCtaTwo";
 import CloudFeature from "@/components/Features/CloudFeature";
 import HeroCloud from "@/components/HeroBanner/HeroCloud";
@@ -9,7 +10,6 @@ import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import CloudPrice from "@/components/PricePack/CloudPrice";
 import CloudService from "@/components/Service/CloudService";
 import CloudTestimonial from "@/components/Testimonial/CloudTestimonial";
-import React, { useEffect } from "react";
 
 export default function HomeCloud() {
   useEffect(() => {
@@ -51,7 +51,7 @@ export default function HomeCloud() {
       <CloudTestimonial />
       <CloudIntegration />
       <CloudCtaTwo />
-      {/* <CloudCounter /> */}
+      <CloudCounter />
       <CloudFooter />
     </div>
   );

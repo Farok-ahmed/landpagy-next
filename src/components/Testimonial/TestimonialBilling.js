@@ -5,7 +5,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 
 export default function TestimonialBilling() {
   const swiperOptions = {
-    loop: true,
     modules: [Pagination, Autoplay],
     pagination: {
       el: ".swiper-pagination",
