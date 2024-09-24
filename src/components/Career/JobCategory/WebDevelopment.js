@@ -251,7 +251,7 @@ export default function WebDevelopment() {
                 ))}
               </ul>
 
-              <Link className="btn btn--apply" to="/job-details">
+              <Link className="btn btn--apply" href="/job-details">
                 Apply For This Job
               </Link>
             </div>

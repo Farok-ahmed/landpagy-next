@@ -21,17 +21,17 @@ export default function FooterApp() {
                 </p>
                 <ul className="widget-social-list">
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <i className="fab fa-google"></i>
                     </a>
                   </li>
@@ -51,10 +51,10 @@ export default function FooterApp() {
                         <Link href="/integrations">Download</Link>
                       </li>
                       <li>
-                        <Link href="/pricing">Pricing plans</Link>
+                        <Link href="/pricing-table-one">Pricing plans</Link>
                       </li>
                       <li>
-                        <Link href="/contact">changelog</Link>
+                        <Link href="#">changelog</Link>
                       </li>
                       <li>
                         <Link href="/integrations">integrations</Link>
@@ -76,7 +76,7 @@ export default function FooterApp() {
                         <Link href="/about">About us</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Contact us</Link>
+                        <Link href="/contact-two">Contact us</Link>
                       </li>
                       <li>
                         <Link href="/job-details">Application</Link>
@@ -98,10 +98,10 @@ export default function FooterApp() {
                     <h4 className="widget-title">Support</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <Link href="/">Getting started</Link>
+                        <Link href="/contact-one">Getting started</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Chat our support</Link>
+                        <Link href="/contact-two">Chat our support</Link>
                       </li>
                       <li>
                         <Link href="/home-help-center">Help center</Link>
@@ -110,7 +110,7 @@ export default function FooterApp() {
                         <Link href="/services">Service Status</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Report a bug</Link>
+                        <Link href="/contact-two">Report a bug</Link>
                       </li>
                     </ul>
                   </div>
@@ -146,13 +146,13 @@ export default function FooterApp() {
               >
                 <ul>
                   <li>
-                    <a href="/">Terms &amp; Conditions</a>
+                    <a href="#">Terms &amp; Conditions</a>
                   </li>
                   <li>
-                    <a href="/">Privacy Policy</a>
+                    <a href="#">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="/">Legal Notice</a>
+                    <a href="#">Legal Notice</a>
                   </li>
                 </ul>
               </div>
@@ -162,7 +162,7 @@ export default function FooterApp() {
                 className="copyright-text float-md-end wow fadeInDown"
                 data-wow-delay="0.2s"
               >
-                Copyright 2021, All Rights Reserved
+                Copyright {new Date().getFullYear()}, All Rights Reserved
               </p>
             </div>
           </div>

@@ -38,19 +38,19 @@ export default function CloudFooter() {
                     <h4 className="widget-title">Company</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <a href="/">About us</a>
+                        <Link href="/about-one">About us</Link>
                       </li>
                       <li>
-                        <a href="/">Contact us</a>
+                        <Link href="/contact-one">Contact us</Link>
                       </li>
                       <li>
-                        <a href="/">Plans</a>
+                        <Link href="/price-table-two">Plans</Link>
                       </li>
                       <li>
-                        <a href="/">Security</a>
+                        <Link href="/about-two">Security</Link>
                       </li>
                       <li>
-                        <a href="/">Features</a>
+                        <Link href="/features">Features</Link>
                       </li>
                     </ul>
                   </div>
@@ -60,19 +60,19 @@ export default function CloudFooter() {
                     <h4 className="widget-title">Support</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <a href="/">Help center</a>
+                        <Link href="/home-help-center">Help center</Link>
                       </li>
                       <li>
-                        <a href="/">Contact us</a>
+                        <Link href="/contact-one">Contact us</Link>
                       </li>
                       <li>
-                        <a href="/">Cookies</a>
+                        <Link href="/contact-two">Cookies</Link>
                       </li>
                       <li>
-                        <a href="/">Privacy & terms</a>
+                        <a href="#">Privacy & terms</a>
                       </li>
                       <li>
-                        <a href="/">Sitemap</a>
+                        <a href="#">Sitemap</a>
                       </li>
                     </ul>
                   </div>
@@ -82,13 +82,13 @@ export default function CloudFooter() {
                     <h4 className="widget-title">Download</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <a href="/">Drive for Mac/PC</a>
+                        <a href="#">Drive for Mac/PC</a>
                       </li>
                       <li>
-                        <a href="/">Drive for Android</a>
+                        <a href="#">Drive for Android</a>
                       </li>
                       <li>
-                        <a href="/">Drive for iOS</a>
+                        <a href="#">Drive for iOS</a>
                       </li>
                     </ul>
                   </div>
@@ -111,17 +111,17 @@ export default function CloudFooter() {
                 <p className="mb-40">We promise to never spam your inbox.</p>
                 <ul className="widget-social-list">
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="/">
+                    <a href="#">
                       <i className="fab fa-google"></i>
                     </a>
                   </li>
@@ -142,7 +142,7 @@ export default function CloudFooter() {
             </div>
             <div className="col-lg-6 col-md-5">
               <p className="copyright-text text-md-center">
-                Copyright 2021, All Rights Reserved
+                Copyright {new Date().getFullYear()}, All Rights Reserved
               </p>
             </div>
             <div className="col-lg-3 col-md-4">

@@ -34,19 +34,19 @@ export default function FooterBilling() {
                 <h4 className="widget-title">Company</h4>
                 <ul className="widget-link-list">
                   <li>
-                    <a href="/">About us</a>
+                    <Link href="/about-one">About us</Link>
                   </li>
                   <li>
-                    <a href="/">Contact us</a>
+                    <Link href="/contact-one">Contact us</Link>
                   </li>
                   <li>
-                    <a href="/">Plans</a>
+                    <Link href="/pricing-table-one">Plans</Link>
                   </li>
                   <li>
-                    <a href="/">Security</a>
+                    <Link href="/about-one">Security</Link>
                   </li>
                   <li>
-                    <a href="/">Features</a>
+                    <Link href="/features">Features</Link>
                   </li>
                 </ul>
               </div>
@@ -59,19 +59,19 @@ export default function FooterBilling() {
                 <h4 className="widget-title">Support</h4>
                 <ul className="widget-link-list">
                   <li>
-                    <a href="/">Help center</a>
+                    <Link href="/home-help-center">Help center</Link>
                   </li>
                   <li>
-                    <a href="/">Contact us</a>
+                    <Link href="/contact-two">Contact us</Link>
                   </li>
                   <li>
-                    <a href="/">Cookies</a>
+                    <Link href="/contact-one">Cookies</Link>
                   </li>
                   <li>
-                    <a href="/">Privacy & terms</a>
+                    <Link href="/about-two">Privacy & terms</Link>
                   </li>
                   <li>
-                    <a href="/">Sitemap</a>
+                    <Link href="/subscribe">Sitemap</Link>
                   </li>
                 </ul>
               </div>
@@ -129,7 +129,7 @@ export default function FooterBilling() {
                 className="copyright-text float-start float-md-end wow fadeInRight"
                 data-wow-delay="0.2s"
               >
-                &copy; 2021 Landpagy. All rights reserved.
+                &copy; {new Date().getFullYear()} Landpagy. All rights reserved.
               </p>
             </div>
           </div>

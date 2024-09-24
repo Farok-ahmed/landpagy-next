@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 import { useParallax } from "react-scroll-parallax";
 
@@ -64,19 +65,19 @@ export default function FooterThree() {
                     <h4>Company</h4>
                     <ul>
                       <li>
-                        <a href="/">About</a>
+                        <Link href="/about-one">About</Link>
                       </li>
                       <li>
-                        <a href="/">Careers</a>
+                        <Link href="/career">Careers</Link>
                       </li>
                       <li>
-                        <a href="/">Contact</a>
+                        <Link href="/contact-one">Contact</Link>
                       </li>
                       <li>
-                        <a href="/">Blog</a>
+                        <Link href="/blog">Blog</Link>
                       </li>
                       <li>
-                        <a href="/">Support</a>
+                        <Link href="/home-help-center">Support</Link>
                       </li>
                     </ul>
                   </div>
@@ -89,19 +90,19 @@ export default function FooterThree() {
                     <h4>Useful inks</h4>
                     <ul>
                       <li>
-                        <a href="/">Design</a>
+                        <a href="#">Design</a>
                       </li>
                       <li>
-                        <a href="/">Social media</a>
+                        <a href="#">Social media</a>
                       </li>
                       <li>
-                        <a href="/">Develop</a>
+                        <a href="#">Develop</a>
                       </li>
                       <li>
-                        <a href="/">Design</a>
+                        <a href="#">Design</a>
                       </li>
                       <li>
-                        <a href="/">Social media</a>
+                        <a href="#">Social media</a>
                       </li>
                     </ul>
                   </div>
@@ -114,16 +115,16 @@ export default function FooterThree() {
                     <h4>Products</h4>
                     <ul>
                       <li>
-                        <a href="/">Scheduling</a>
+                        <a href="#">Scheduling</a>
                       </li>
                       <li>
-                        <a href="/">Employee</a>
+                        <a href="#">Employee</a>
                       </li>
                       <li>
-                        <a href="/">Team Messaging</a>
+                        <a href="#">Team Messaging</a>
                       </li>
                       <li>
-                        <a href="/">Digital Timesheets</a>
+                        <a href="#">Digital Timesheets</a>
                       </li>
                     </ul>
                   </div>
@@ -166,13 +167,13 @@ export default function FooterThree() {
             <div className="col-lg-3 text-sm-center text-md-start">
               <ul>
                 <li>
-                  <a href="/">
+                  <Link href="/">
                     <img
                       className="d-md-block d-sm-inline-block"
                       src="/images/logo-5.svg"
                       alt="Footer Logo"
                     />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -180,13 +181,13 @@ export default function FooterThree() {
               <div className="footer-bottom-menu">
                 <ul className="">
                   <li>
-                    <a href="/">Terms & Conditions</a>
+                    <a href="#">Terms & Conditions</a>
                   </li>
                   <li>
-                    <a href="/">Privacy Policy</a>
+                    <a href="#">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="/">Legal Notice</a>
+                    <a href="#">Legal Notice</a>
                   </li>
                 </ul>
               </div>
@@ -194,22 +195,22 @@ export default function FooterThree() {
             <div className="col-lg-3">
               <ul className="social-link-bg-2">
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>

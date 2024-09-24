@@ -60,13 +60,13 @@ export default function FooterPos() {
                     <h4>Company</h4>
                     <ul>
                       <li>
-                        <Link href="/about">About</Link>
+                        <Link href="/about-one">About</Link>
                       </li>
                       <li>
                         <Link href="/career">Careers</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact-two">Contact</Link>
                       </li>
                       <li>
                         <Link href="/blog">Blog</Link>
@@ -85,13 +85,13 @@ export default function FooterPos() {
                     <h4>Useful inks</h4>
                     <ul>
                       <li>
-                        <Link href="/about">About</Link>
+                        <Link href="/about-one">About</Link>
                       </li>
                       <li>
                         <Link href="/career">Careers</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact-two">Contact</Link>
                       </li>
                       <li>
                         <Link href="/blog">Blog</Link>
@@ -110,13 +110,13 @@ export default function FooterPos() {
                     <h4>Products</h4>
                     <ul>
                       <li>
-                        <Link href="/about">About</Link>
+                        <Link href="/about-one">About</Link>
                       </li>
                       <li>
                         <Link href="/career">Careers</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Contact</Link>
+                        <Link href="/contact-two">Contact</Link>
                       </li>
                       <li>
                         <Link href="/home-help-center">Support</Link>
@@ -162,13 +162,13 @@ export default function FooterPos() {
             <div className="col-lg-3 text-sm-center text-md-start">
               <ul>
                 <li>
-                  <a href="/">
+                  <Link href="/">
                     <img
                       className="d-md-block d-sm-inline-block"
-                      src="./images/logo-7.svg"
+                      src="/images/logo-7.svg"
                       alt="Footer Logo"
                     />
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -176,13 +176,13 @@ export default function FooterPos() {
               <div className="footer-bottom-menu">
                 <ul className="">
                   <li>
-                    <a href="/">Terms & Conditions</a>
+                    <a href="#">Terms & Conditions</a>
                   </li>
                   <li>
-                    <a href="/">Privacy Policy</a>
+                    <a href="#">Privacy Policy</a>
                   </li>
                   <li>
-                    <a href="/">Legal Notice</a>
+                    <a href="#">Legal Notice</a>
                   </li>
                 </ul>
               </div>
@@ -190,22 +190,22 @@ export default function FooterPos() {
             <div className="col-lg-3">
               <ul className="social-link-bg-2">
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-twitter"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-linkedin-in"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="/">
+                  <a href="#">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>

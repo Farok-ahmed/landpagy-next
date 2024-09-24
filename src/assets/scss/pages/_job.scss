@@ -1012,10 +1012,6 @@
     }
 
     &.active {
-      .btn--details {
-        display: none;
-      }
-
       .btn--details--active {
         display: inline-block;
       }
