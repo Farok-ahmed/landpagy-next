@@ -5,7 +5,7 @@ import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import ServiceHero from "@/components/Service/ServiceHero";
 import ServiceList from "@/components/Service/ServiceList";
 import ServiceTestimonial from "@/components/Testimonial/ServiceTestimonial";
-import React from "react";
+;
 
 export default function Service() {
   return (

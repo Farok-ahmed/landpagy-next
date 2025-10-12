@@ -1,7 +1,7 @@
 "use client";
-import React from "react";
-import Slider from "react-slick";
+;
 import CountUp from "react-countup";
+import Slider from "react-slick";
 export default function StatisticsGrid() {
   const slickOptions = {
     dots: true,

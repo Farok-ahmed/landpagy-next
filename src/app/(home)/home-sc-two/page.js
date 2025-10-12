@@ -1,3 +1,5 @@
+"use client";
+
 import ClientThree from "@/components/Clients/ClientThree";
 import ClientTwo from "@/components/Clients/ClientTwo";
 import InnovateCounter from "@/components/Counter/InnovateCounter";

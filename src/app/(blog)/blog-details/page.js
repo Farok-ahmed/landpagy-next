@@ -8,7 +8,7 @@ import RelatedPost from "@/components/Blog/RelatedPost";
 import RecentPosts from "@/components/BlogGrid/RecentPosts";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
-import React from "react";
+;
 
 export default function BlogDetails() {
   return (

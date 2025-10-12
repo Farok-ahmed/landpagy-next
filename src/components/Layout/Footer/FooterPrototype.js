@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import React from "react";
 import { useParallax } from "react-scroll-parallax";
+;
 
 export default function FooterPrototype() {
   const kiteParallax = useParallax({

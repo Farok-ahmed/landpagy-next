@@ -12,7 +12,7 @@ import TestimonialSlideOne from "@/components/Testimonial/TestimonialSlideOne";
 import TestimonialSlideThree from "@/components/Testimonial/TestimonialSlideThree";
 import TestimonialsSlideTwo from "@/components/Testimonial/TestimonialsSlideTwo";
 import WhyChooseHRM from "@/components/WhyChoose/WhyChooseHRM";
-import React from "react";
+;
 
 export default function Testimonials() {
   return (

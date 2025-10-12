@@ -11,7 +11,7 @@ import HeaderPos from "@/components/Layout/Header/HeaderPos";
 import PosPrice from "@/components/PricePack/PosPrice";
 import PosService from "@/components/Service/PosService";
 import PosTestimonial from "@/components/Testimonial/PosTestimonial";
-import React from "react";
+;
 
 export default function HomePos() {
   return (

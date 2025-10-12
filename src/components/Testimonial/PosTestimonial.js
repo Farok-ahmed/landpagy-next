@@ -1,7 +1,7 @@
 "use client";
-import React from "react";
-import { SwiperSlide, Swiper } from "swiper/react";
+
 import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function PosTestimonial() {
   const swiperOptions = {

@@ -1,8 +1,8 @@
-import React from "react";
+;
 import JobCategory from "./JobCategory";
+import JobLocation from "./JobLocation";
 import JobSchedule from "./JobSchedule";
 import JobSearchForm from "./JobSearchForm";
-import JobLocation from "./JobLocation";
 
 export default function JobSidebar() {
   return (

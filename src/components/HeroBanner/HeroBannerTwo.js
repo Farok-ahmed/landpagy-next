@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React from "react";
+;
 
 import { Parallax } from "react-scroll-parallax";
 

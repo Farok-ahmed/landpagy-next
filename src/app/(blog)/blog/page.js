@@ -4,7 +4,7 @@ import BlogSidebar from "@/components/Blog/BlogSidebar";
 import Pagination from "@/components/Blog/Pagination";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
-import React from "react";
+;
 
 export default function Blog() {
   return (

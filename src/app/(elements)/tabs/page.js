@@ -1,3 +1,5 @@
+"use client";
+
 import ElementsBreadcrumb from "@/components/Layout/ElementsBreadcrumb";
 import ElementsLayout from "@/components/Layout/ElementsLayout";
 import DealTab from "@/components/TabSection/DealTab";

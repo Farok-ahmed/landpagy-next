@@ -1,8 +1,8 @@
-import React from "react";
+;
 
-import CustomSelect from "../../Select/CustomSelect";
-import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
 import Link from "next/link";
+import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+import CustomSelect from "../../Select/CustomSelect";
 
 const options = [
   { value: "EN", label: "En" },

@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+;
 import { Parallax, useParallax } from "react-scroll-parallax";
 
 export default function HeroPos() {

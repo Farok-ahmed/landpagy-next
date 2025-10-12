@@ -1,3 +1,5 @@
+"use client";
+
 import CtaOne from "@/components/Cta/CtaOne";
 import FaqTwo from "@/components/Faqs/FaqTwo";
 import FeatureFour from "@/components/Features/FeatureFour";

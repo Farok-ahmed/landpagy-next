@@ -1,7 +1,7 @@
 "use client";
 import Timer from "@/components/Timer/Timer";
 import Link from "next/link";
-import React from "react";
+;
 
 export default function ComingSoonFour() {
   return (

@@ -4,7 +4,7 @@ import FullWidthPost from "@/components/BlogGrid/FullWidthPost";
 import ThreePostColumn from "@/components/BlogGrid/ThreePostColumn";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
-import React from "react";
+;
 
 export default function BlogGrid() {
   return (

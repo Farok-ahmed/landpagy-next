@@ -1,6 +1,6 @@
-import React from "react";
-import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+;
 import Link from "next/link";
+import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
 export default function HeaderThree() {
   return (
     <header className="header-area">

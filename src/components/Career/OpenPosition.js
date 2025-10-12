@@ -1,10 +1,10 @@
-import React from "react";
+;
 
+import Administration from "./JobCategory/Administration";
 import InformationSystem from "./JobCategory/InformationSystem";
+import Marketing from "./JobCategory/Marketing";
 import ProductDevelopment from "./JobCategory/ProductDevelopment";
 import WebDesign from "./JobCategory/WebDesign";
-import Marketing from "./JobCategory/Marketing";
-import Administration from "./JobCategory/Administration";
 import WebDevelopment from "./JobCategory/WebDevelopment";
 
 export default function OpenPosition() {

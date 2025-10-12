@@ -1,3 +1,7 @@
+"use client";
+
+"use client";
+
 import HelpCenterCta from "@/components/Cta/HelpCenterCta";
 import FaqHelp from "@/components/Faqs/FaqHelp";
 import CommunityLinks from "@/components/HelpCenter/CommunityLinks";
@@ -8,7 +12,6 @@ import FooterOne from "@/components/Layout/Footer/FooterOne";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import HelpTestimonial from "@/components/Testimonial/HelpTestimonial";
 import dynamic from "next/dynamic";
-import React from "react";
 const HelpDoc = dynamic(() => import("@/components/HelpCenter/HelpDoc"), {
   ssr: false,
 });

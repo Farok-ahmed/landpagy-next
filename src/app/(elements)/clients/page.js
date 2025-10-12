@@ -1,3 +1,5 @@
+"use client";
+
 import AboutPayment from "@/components/About/AboutPayment";
 import ClientOne from "@/components/Clients/ClientOne";
 import ClientThree from "@/components/Clients/ClientThree";

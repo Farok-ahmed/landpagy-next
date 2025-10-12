@@ -1,3 +1,5 @@
+"use client";
+
 import DownloadHRM from "@/components/Cta/DownloadHRM";
 import FaqHRM from "@/components/Faqs/FaqHRM";
 import FeatureHRM from "@/components/Features/FeatureHRM";
@@ -10,7 +12,6 @@ import PriceHRM from "@/components/PricePack/PriceHRM";
 import WorkFlowHRM from "@/components/TabSection/WorkFlowHRM";
 import WhyChooseHRM from "@/components/WhyChoose/WhyChooseHRM";
 import dynamic from "next/dynamic";
-import React from "react";
 const TestimonialHRM = dynamic(
   () => import("@/components/Testimonial/TestimonialHRM"),
   {

@@ -1,10 +1,10 @@
-import React from "react";
-import SubscribeWidget from "./SubscribeWidget";
-import SocialLinks from "./SocialLinks";
+;
 import CategoryWidget from "./CategoryWidget";
-import RecentNews from "./RecentNews";
-import TagWidget from "./TagWidget";
 import InstagramWidget from "./InstagramWidget";
+import RecentNews from "./RecentNews";
+import SocialLinks from "./SocialLinks";
+import SubscribeWidget from "./SubscribeWidget";
+import TagWidget from "./TagWidget";
 
 export default function BlogSidebar() {
   return (

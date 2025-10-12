@@ -1,3 +1,5 @@
+"use client";
+
 import BlogSlider from "@/components/Blog/BlogSlider";
 import AppClient from "@/components/Clients/AppClient";
 import AppCounter from "@/components/Counter/AppCounter";

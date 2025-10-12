@@ -1,12 +1,12 @@
-import React from "react";
-import {
-  demoLinks,
-  elementsLinks,
-  pagesLinks,
-  blogLinks,
-  jobLinks,
-} from "../../../utils/data";
+;
 import Link from "next/link";
+import {
+    blogLinks,
+    demoLinks,
+    elementsLinks,
+    jobLinks,
+    pagesLinks,
+} from "../../../utils/data";
 
 export default function HeaderOne({ pricingTwoMenu }) {
   return (

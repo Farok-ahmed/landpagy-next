@@ -4,7 +4,7 @@ import JobsHero from "@/components/Jobs/JobsHero";
 import JobSidebar from "@/components/Jobs/JobSidebar";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import CareerHeader from "@/components/Layout/Header/CareerHeader";
-import React from "react";
+;
 
 export default function page() {
   return (

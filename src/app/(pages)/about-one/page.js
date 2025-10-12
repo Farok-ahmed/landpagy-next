@@ -8,7 +8,7 @@ import AboutOneClient from "@/components/Clients/AboutOneClient";
 import AboutCounter from "@/components/Counter/AboutCounter";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
-import React from "react";
+;
 
 export default function AboutOne() {
   return (

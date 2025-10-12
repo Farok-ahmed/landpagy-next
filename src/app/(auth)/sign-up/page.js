@@ -1,8 +1,8 @@
 "use client";
-import React from "react";
-import { useParallax } from "react-scroll-parallax";
-import Link from "next/link";
+;
 import ElementsLayout from "@/components/Layout/ElementsLayout";
+import Link from "next/link";
+import { useParallax } from "react-scroll-parallax";
 
 export default function SignUp() {
   const parallaxOne = useParallax({

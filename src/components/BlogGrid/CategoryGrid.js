@@ -1,7 +1,7 @@
-import React from "react";
+;
 
-import BlogPost from "./BlogPost";
 import Link from "next/link";
+import BlogPost from "./BlogPost";
 
 const blogPosts = [
   {
