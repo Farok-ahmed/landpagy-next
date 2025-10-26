@@ -1,4 +1,12 @@
 "use client";
+import Image from "next/image";
+import bannerShape1 from "@/assets/images/home_5/shapes/banner-shape1.png";
+import bannerShape2 from "@/assets/images/home_5/shapes/banner-shape2.png";
+import bannerShape3 from "@/assets/images/home_5/shapes/banner-shape3.png";
+import bannerShape4 from "@/assets/images/home_5/shapes/banner-shape4.png";
+import banner1 from "@/assets/images/home_5/banner1.png";
+import banner2 from "@/assets/images/home_5/banner2.png";
+import banner3 from "@/assets/images/home_5/banner3.png";
 ;
 import { Parallax, useParallax } from "react-scroll-parallax";
 
@@ -47,11 +55,8 @@ export default function HeroPos() {
             easing="easeInQuad"
             speed={-10}
           >
-            <img
-              src="/images/home_5/shapes/banner-shape1.png"
-              className="layer"
-              alt="shapes"
-            />
+            <Image src={bannerShape1} className="layer"
+              alt="shapes" />
           </Parallax>
         </div>
         <div className="shape">
@@ -68,7 +73,7 @@ export default function HeroPos() {
             easing="easeInQuad"
             speed={-10}
           >
-            <img src="/images/home_5/shapes/banner-shape1.png" alt="shapes" />
+            <Image src={bannerShape1} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape">
@@ -94,13 +99,13 @@ export default function HeroPos() {
           </Parallax>
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/banner-shape2.png" alt="shapes" />
+          <Image src={bannerShape2} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/banner-shape3.png" alt="shapes" />
+          <Image src={bannerShape3} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/banner-shape4.png" alt="shapes" />
+          <Image src={bannerShape4} alt="shapes" />
         </div>
       </div>
 
@@ -142,24 +147,18 @@ export default function HeroPos() {
           </div>
           <div className="col-md-5">
             <div className="banner-right wow fadeInRight" data-wow-delay="0.3s">
-              <img
-                ref={shape4Parallax.ref}
+              <Image src={banner1} ref={shape4Parallax.ref}
                 className="banner-img-1 layer"
-                src="/images/home_5/banner1.png"
-                alt="Banner "
-              />
-              <img
-                ref={shape5Parallax.ref}
+                
+                alt="Banner " />
+              <Image src={banner2} ref={shape5Parallax.ref}
                 className="banner-img-2 layer"
-                src="/images/home_5/banner2.png"
-                alt="Banner "
-              />
-              <img
-                ref={shape6Parallax.ref}
+                
+                alt="Banner " />
+              <Image src={banner3} ref={shape6Parallax.ref}
                 className="banner-img-3 layer"
-                src="/images/home_5/banner3.png"
-                alt="Banner "
-              />
+                
+                alt="Banner " />
             </div>
           </div>
         </div>

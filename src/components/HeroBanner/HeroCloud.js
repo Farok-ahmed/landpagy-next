@@ -1,3 +1,11 @@
+import Image from "next/image";
+import shape1 from "@/assets/images/home_9/shapes/shape1.svg";
+import shape2 from "@/assets/images/home_9/shapes/shape2.svg";
+import shape3 from "@/assets/images/home_9/shapes/shape3.svg";
+import shape4 from "@/assets/images/home_9/shapes/shape4.svg";
+import shape5 from "@/assets/images/home_9/shapes/shape5.svg";
+import shape6 from "@/assets/images/home_9/shapes/shape6.svg";
+import shape7 from "@/assets/images/home_9/shapes/shape7.svg";
 ;
 import { Parallax } from "react-scroll-parallax";
 
@@ -13,7 +21,7 @@ export default function HeroCloud() {
               rotateY={[0, 0]}
               easing="easeInQuad"
             >
-              <img src="/images/home_9/shapes/shape1.svg" alt="Shape 1" />
+              <Image src={shape1} alt="Shape 1" />
             </Parallax>
           </div>
           <div className="shape">
@@ -23,7 +31,7 @@ export default function HeroCloud() {
               rotateY={[0, 0]}
               easing="easeInQuad"
             >
-              <img src="/images/home_9/shapes/shape2.svg" alt="Shape 2" />
+              <Image src={shape2} alt="Shape 2" />
             </Parallax>
           </div>
           <div className="shape">
@@ -33,7 +41,7 @@ export default function HeroCloud() {
               rotateY={[0, 0]}
               easing="easeInQuad"
             >
-              <img src="/images/home_9/shapes/shape3.svg" alt="Shape 3" />
+              <Image src={shape3} alt="Shape 3" />
             </Parallax>
           </div>
           <div className="shape">
@@ -43,7 +51,7 @@ export default function HeroCloud() {
               rotateY={[0, 0]}
               easing="easeInQuad"
             >
-              <img src="/images/home_9/shapes/shape4.svg" alt="Shape 4" />
+              <Image src={shape4} alt="Shape 4" />
             </Parallax>
           </div>
           <div className="shape">
@@ -53,14 +61,14 @@ export default function HeroCloud() {
               rotateY={[0, 0]}
               easing="easeInQuad"
             >
-              <img src="/images/home_9/shapes/shape5.svg" alt="Shape 5" />
+              <Image src={shape5} alt="Shape 5" />
             </Parallax>
           </div>
           <div className="shape">
-            <img src="/images/home_9/shapes/shape6.svg" alt="Shape 6" />
+            <Image src={shape6} alt="Shape 6" />
           </div>
           <div className="shape">
-            <img src="/images/home_9/shapes/shape7.svg" alt="Shape 7" />
+            <Image src={shape7} alt="Shape 7" />
           </div>
         </div>
         <div className="row">

@@ -1,4 +1,10 @@
 "use client";
+import Image from "next/image";
+import object2 from "@/assets/images/home_2/object2.svg";
+import object1 from "@/assets/images/home_2/object1.svg";
+import dashboard1 from "@/assets/images/home_2/dashboard-1.png";
+import dashboard2 from "@/assets/images/home_2/dashboard-2.png";
+import featureShape from "@/assets/images/home_2/feature-shape.svg";
 ;
 import { Parallax } from "react-scroll-parallax";
 
@@ -13,7 +19,7 @@ export default function FeatureFour() {
             rotateZ={[0, 500]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/object2.svg" alt="Object" />
+            <Image src={object2} alt="Object" />
           </Parallax>
         </div>
         <div className="shapes">
@@ -23,7 +29,7 @@ export default function FeatureFour() {
             rotateZ={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/object1.svg" alt="Object" />
+            <Image src={object1} alt="Object" />
           </Parallax>
         </div>
         <div className="shapes">
@@ -33,7 +39,7 @@ export default function FeatureFour() {
             rotateZ={[0, 500]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/object2.svg" alt="Object" />
+            <Image src={object2} alt="Object" />
           </Parallax>
         </div>
         <div className="shapes">
@@ -43,7 +49,7 @@ export default function FeatureFour() {
             rotateZ={[0, 500]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/object2.svg" alt="Object" />
+            <Image src={object2} alt="Object" />
           </Parallax>
         </div>
         <div className="shapes">
@@ -53,7 +59,7 @@ export default function FeatureFour() {
             rotateZ={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/object1.svg" alt="Object" />
+            <Image src={object1} alt="Object" />
           </Parallax>
         </div>
         <div className="shapes">
@@ -63,7 +69,7 @@ export default function FeatureFour() {
             rotateZ={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/object2.svg" alt="Object" />
+            <Image src={object2} alt="Object" />
           </Parallax>
         </div>
       </div>
@@ -79,13 +85,11 @@ export default function FeatureFour() {
           </div>
           <div className="col-lg-6">
             <div className="dash-img wow fadeInLeft">
-              <img src="/images/home_2/dashboard-1.png" alt="" />
-              <img src="/images/home_2/dashboard-2.png" alt="" />
-              <img
-                className="shape"
-                src="/images/home_2/feature-shape.svg"
-                alt=""
-              />
+              <Image src={dashboard1} alt="" />
+              <Image src={dashboard2} alt="" />
+              <Image src={featureShape} className="shape"
+                
+                alt="" />
             </div>
           </div>
         </div>

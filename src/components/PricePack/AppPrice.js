@@ -1,3 +1,8 @@
+import Image from "next/image";
+import shape8 from "@/assets/images/home_10/shapes/shape8.svg";
+import shape9 from "@/assets/images/home_10/shapes/shape9.svg";
+import border from "@/assets/images/home_10/shapes/border.svg";
+import shape10 from "@/assets/images/home_10/shapes/shape10.svg";
 ;
 
 export default function AppPrice() {
@@ -9,10 +14,10 @@ export default function AppPrice() {
         <div className="shape"></div>
         <div className="shape"></div>
         <div className="shape">
-          <img src="/images/home_10/shapes/shape8.svg" alt="Shape" />
+          <Image src={shape8} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_10/shapes/shape9.svg" alt="Shape" />
+          <Image src={shape9} alt="Shape" />
         </div>
       </div>
       <div className="container">
@@ -24,11 +29,9 @@ export default function AppPrice() {
             >
               <span>
                 Plan &
-                <img
-                  className="border-shape"
-                  src="/images/home_10/shapes/border.svg"
-                  alt="Border"
-                />
+                <Image src={border} className="border-shape"
+                  
+                  alt="Border" />
               </span>
               {""} Price
             </h2>
@@ -128,11 +131,8 @@ export default function AppPrice() {
                       className="app-pricing-item wow fadeInUp active"
                       data-wow-delay="0.3s"
                     >
-                      <img
-                        src="/images/home_10/shapes/shape10.svg"
-                        alt="Shape"
-                        className="popular-shape"
-                      />
+                      <Image src={shape10} alt="Shape"
+                        className="popular-shape" />
                       <h4 className="item-title">The Standard</h4>
                       <p className="item-label">Free for 7 days then</p>
                       <p className="item-price">
@@ -253,11 +253,8 @@ export default function AppPrice() {
                   </div>
                   <div className="col-lg-4 col-md-6">
                     <div className="app-pricing-item active">
-                      <img
-                        src="/images/home_10/shapes/shape10.svg"
-                        alt="Shape"
-                        className="popular-shape"
-                      />
+                      <Image src={shape10} alt="Shape"
+                        className="popular-shape" />
                       <h4 className="item-title">The Standard</h4>
                       <p className="item-label">Free for 7 days then</p>
                       <p className="item-price">

@@ -2,6 +2,11 @@
 
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import quoteIcon from "@/assets/images/home_5/icons/quote-icon.svg";
+import author3 from "@/assets/images/home_5/author3.png";
+import author2 from "@/assets/images/home_5/author2.png";
+import author1 from "@/assets/images/home_5/author1.png";
 
 export default function PosTestimonial() {
   const swiperOptions = {
@@ -45,11 +50,8 @@ export default function PosTestimonial() {
           <Swiper {...swiperOptions} className="overflow-visible pb-50">
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
-                  alt="Icon"
-                  className="testimonial-icon mx-auto mb-20"
-                />
+                <Image src={quoteIcon} alt="Icon"
+                  className="testimonial-icon mx-auto mb-20" />
                 <p className="author-text">
                   “Landpagy takes the hassle out of paying, and instead makes it
                   part of a tailored experience, which is essential when
@@ -57,11 +59,8 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author3.png"
-                      alt="Man"
-                      className="author-img"
-                    />
+                    <Image src={author3} alt="Man"
+                      className="author-img" />
                   </div>
                   <p className="author-name">
                     EH Jewel <span>UI/UX Designer</span>
@@ -71,11 +70,8 @@ export default function PosTestimonial() {
             </SwiperSlide>
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
-                  alt="Icon"
-                  className="testimonial-icon mx-auto mb-20"
-                />
+                <Image src={quoteIcon} alt="Icon"
+                  className="testimonial-icon mx-auto mb-20" />
                 <p className="author-text">
                   “Landpagy takes the hassle out of paying, and instead makes it
                   part of a tailored experience, which is essential when
@@ -83,11 +79,8 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author2.png"
-                      alt="Man"
-                      className="author-img"
-                    />
+                    <Image src={author2} alt="Man"
+                      className="author-img" />
                   </div>
                   <p className="author-name">
                     Juhan Ahamed <span>Frontend Dev</span>
@@ -97,11 +90,8 @@ export default function PosTestimonial() {
             </SwiperSlide>{" "}
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
-                  alt="Icon"
-                  className="testimonial-icon mx-auto mb-20"
-                />
+                <Image src={quoteIcon} alt="Icon"
+                  className="testimonial-icon mx-auto mb-20" />
                 <p className="author-text">
                   “Landpagy takes the hassle out of paying, and instead makes it
                   part of a tailored experience, which is essential when
@@ -109,11 +99,8 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author2.png"
-                      alt="Man"
-                      className="author-img"
-                    />
+                    <Image src={author2} alt="Man"
+                      className="author-img" />
                   </div>
                   <p className="author-name">
                     Juhan Ahamed <span>Frontend Dev</span>
@@ -123,11 +110,8 @@ export default function PosTestimonial() {
             </SwiperSlide>
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
-                  alt="Icon"
-                  className="testimonial-icon mx-auto mb-20"
-                />
+                <Image src={quoteIcon} alt="Icon"
+                  className="testimonial-icon mx-auto mb-20" />
                 <p className="author-text">
                   “Landpagy takes the hassle out of paying, and instead makes it
                   part of a tailored experience, which is essential when
@@ -135,11 +119,8 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author1.png"
-                      alt="Man"
-                      className="author-img"
-                    />
+                    <Image src={author1} alt="Man"
+                      className="author-img" />
                   </div>
                   <p className="author-name">
                     EH Jewel <span>UI/UX Designer</span>

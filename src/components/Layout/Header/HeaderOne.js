@@ -1,4 +1,5 @@
-;
+import logo from "@/assets/images/logo.svg";
+import Image from "next/image";
 import Link from "next/link";
 import {
     blogLinks,
@@ -7,6 +8,7 @@ import {
     jobLinks,
     pagesLinks,
 } from "../../../utils/data";
+;
 
 export default function HeaderOne({ pricingTwoMenu }) {
   return (
@@ -18,7 +20,7 @@ export default function HeaderOne({ pricingTwoMenu }) {
       >
         <div className="container-fluid">
           <Link className="navbar-brand header_logo" href="/">
-            <img className="main_logo" src="/images/logo.svg" alt="logo" />
+            <Image src={logo} className="main_logo"  alt="logo" />
           </Link>
           <button
             className="navbar-toggler collapsed"
@@ -59,7 +61,7 @@ export default function HeaderOne({ pricingTwoMenu }) {
                   {demoLinks.map((item, index) => (
                     <li className={`nav-item`} key={index}>
                       <Link href={item.to} className="nav-link">
-                        <img src={item.imgSrc} alt={item.alt} />
+                        <Image src={item.imgSrc} alt={item.alt} />
                         <span>{item.text}</span>
                       </Link>
                     </li>

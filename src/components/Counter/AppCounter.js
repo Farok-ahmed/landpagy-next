@@ -1,4 +1,9 @@
 "use client";
+import Image from "next/image";
+import icon4 from "@/assets/images/home_10/icons/icon4.svg";
+import icon5 from "@/assets/images/home_10/icons/icon5.svg";
+import icon6 from "@/assets/images/home_10/icons/icon6.svg";
+import icon7 from "@/assets/images/home_10/icons/icon7.svg";
 ;
 import CountUp from "react-countup";
 
@@ -9,11 +14,9 @@ export default function AppCounter() {
         <div className="row">
           <div className="col-md-3 col-6">
             <div className="app-counter-item">
-              <img
-                className="icon"
-                src="/images/home_10/icons/icon4.svg"
-                alt="Icon"
-              />
+              <Image src={icon4} className="icon"
+                
+                alt="Icon" />
               <p className="item-amout">
                 <span className="counter">
                   <CountUp start={0} end={22} delay={1} duration={2.5} />
@@ -25,11 +28,9 @@ export default function AppCounter() {
           </div>
           <div className="col-md-3 col-6">
             <div className="app-counter-item">
-              <img
-                className="icon"
-                src="/images/home_10/icons/icon5.svg"
-                alt="Icon"
-              />
+              <Image src={icon5} className="icon"
+                
+                alt="Icon" />
               <p className="item-amout">
                 <span className="counter">
                   {" "}
@@ -42,11 +43,9 @@ export default function AppCounter() {
           </div>
           <div className="col-md-3 col-6">
             <div className="app-counter-item">
-              <img
-                className="icon"
-                src="/images/home_10/icons/icon6.svg"
-                alt="Icon"
-              />
+              <Image src={icon6} className="icon"
+                
+                alt="Icon" />
               <p className="item-amout">
                 <span className="counter">
                   <CountUp start={0} end={22} delay={1} duration={2.5} />
@@ -58,11 +57,9 @@ export default function AppCounter() {
           </div>
           <div className="col-md-3 col-6">
             <div className="app-counter-item">
-              <img
-                className="icon"
-                src="/images/home_10/icons/icon7.svg"
-                alt="Icon"
-              />
+              <Image src={icon7} className="icon"
+                
+                alt="Icon" />
               <p className="item-amout">
                 <span className="counter">
                   <CountUp start={0} end={130} delay={1} duration={2.5} />

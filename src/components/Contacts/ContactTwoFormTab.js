@@ -1,3 +1,5 @@
+import Image from "next/image";
+import formIcon from "@/assets/images/contact_2/icons/form-icon.svg";
 ;
 
 export default function ContactTwoFormTab() {
@@ -97,11 +99,9 @@ export default function ContactTwoFormTab() {
                   aria-labelledby="nav-general-tab"
                 >
                   <div className="text-center contact-tab-info">
-                    <img
-                      className="mx-auto"
-                      src="/images/contact_2/icons/form-icon.svg"
-                      alt="Icon"
-                    />
+                    <Image src={formIcon} className="mx-auto"
+                      
+                      alt="Icon" />
                     <h4 className="tab-title">General Contact</h4>
                     <p className="tab-para">
                       Have some feedback or a general question? <br />
@@ -140,11 +140,9 @@ export default function ContactTwoFormTab() {
                   aria-labelledby="nav-support-tab"
                 >
                   <div className="text-center contact-tab-info">
-                    <img
-                      className="mx-auto"
-                      src="/images/contact_2/icons/form-icon.svg"
-                      alt="Icon"
-                    />
+                    <Image src={formIcon} className="mx-auto"
+                      
+                      alt="Icon" />
                     <h4 className="tab-title">Support Contact</h4>
                     <p className="tab-para">
                       Have some feedback or a general question? <br />
@@ -183,11 +181,9 @@ export default function ContactTwoFormTab() {
                   aria-labelledby="nav-business-tab"
                 >
                   <div className="text-center contact-tab-info">
-                    <img
-                      className="mx-auto"
-                      src="/images/contact_2/icons/form-icon.svg"
-                      alt="Icon"
-                    />
+                    <Image src={formIcon} className="mx-auto"
+                      
+                      alt="Icon" />
                     <h4 className="tab-title">Business Contact</h4>
                     <p className="tab-para">
                       Have some feedback or a general question? <br />
@@ -226,11 +222,9 @@ export default function ContactTwoFormTab() {
                   aria-labelledby="nav-partnership-tab"
                 >
                   <div className="text-center contact-tab-info">
-                    <img
-                      className="mx-auto"
-                      src="/images/contact_2/icons/form-icon.svg"
-                      alt="Icon"
-                    />
+                    <Image src={formIcon} className="mx-auto"
+                      
+                      alt="Icon" />
                     <h4 className="tab-title">Partnership Contact</h4>
                     <p className="tab-para">
                       Have some feedback or a general question? <br />
@@ -269,11 +263,9 @@ export default function ContactTwoFormTab() {
                   aria-labelledby="nav-optily-tab"
                 >
                   <div className="text-center contact-tab-info">
-                    <img
-                      className="mx-auto"
-                      src="/images/contact_2/icons/form-icon.svg"
-                      alt="Icon"
-                    />
+                    <Image src={formIcon} className="mx-auto"
+                      
+                      alt="Icon" />
                     <h4 className="tab-title">Optily Contact</h4>
                     <p className="tab-para">
                       Have some feedback or a general question? <br />

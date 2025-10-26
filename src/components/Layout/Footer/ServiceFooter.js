@@ -1,6 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useParallax } from "react-scroll-parallax";
+import Image from "next/image";
+import kite from "@/assets/images/footer/kite.svg";
+import women from "@/assets/images/footer/women.svg";
+import leaf from "@/assets/images/footer/leaf.svg";
+import logo5 from "@/assets/images/logo-5.svg";
 ;
 
 export default function ServiceFooter() {
@@ -26,13 +31,13 @@ export default function ServiceFooter() {
     <footer className="bg-black footer-hrm footer-common">
       <div className="bg-shapes">
         <div className="shape layer" ref={kiteParallax.ref}>
-          <img src="/images/footer/kite.svg" alt="Shape" />
+          <Image src={kite} alt="Shape" />
         </div>
         <div className="shape layer" ref={womenParallax.ref}>
-          <img src="/images/footer/women.svg" alt="Shape" />
+          <Image src={women} alt="Shape" />
         </div>
         <div className="shape layer" ref={leafParallax.ref}>
-          <img src="/images/footer/leaf.svg" alt="Shape" />
+          <Image src={leaf} alt="Shape" />
         </div>
       </div>
       <div className="footer-top">
@@ -151,11 +156,9 @@ export default function ServiceFooter() {
               <ul>
                 <li>
                   <Link href="/">
-                    <img
-                      className="d-md-block d-sm-inline-block"
-                      src="/images/logo-5.svg"
-                      alt="Footer Logo"
-                    />
+                    <Image src={logo5} className="d-md-block d-sm-inline-block"
+                      
+                      alt="Footer Logo" />
                   </Link>
                 </li>
               </ul>

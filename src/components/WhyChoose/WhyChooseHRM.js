@@ -2,6 +2,12 @@
 
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import testShape2 from "@/assets/images/home_4/test-shape2.svg";
+import testShape3 from "@/assets/images/home_4/test-shape3.svg";
+import testShape4 from "@/assets/images/home_4/test-shape4.svg";
+import testItemImg1 from "@/assets/images/home_4/test-item-img1.jpg";
+import testItemImg2 from "@/assets/images/home_4/test-item-img2.jpg";
 
 export default function WhyChooseHRM() {
   const swiperOptions = {
@@ -26,10 +32,10 @@ export default function WhyChooseHRM() {
     <section className="testimonial-area-eight pt-125 pb-140">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/test-shape2.svg" alt="shape" />
+          <Image src={testShape2} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/test-shape3.svg" alt="shape" />
+          <Image src={testShape3} alt="shape" />
         </div>
       </div>
 
@@ -56,13 +62,10 @@ export default function WhyChooseHRM() {
                 <div className="img-box">
                   <div className="img-shape"></div>
                   <div className="img-shape">
-                    <img src=".//images/home_4/test-shape4.svg" alt="" />
+                    <Image src={testShape4} alt="" />
                   </div>
-                  <img
-                    src=".//images/home_4/test-item-img1.jpg"
-                    alt="User"
-                    className="testimonial-item-img"
-                  />
+                  <Image src={testItemImg1} alt="User"
+                    className="testimonial-item-img" />
                 </div>
                 <div className="testimonial-content">
                   <i className="testimonial-icon icon_quotations mb-25"></i>
@@ -83,13 +86,10 @@ export default function WhyChooseHRM() {
                 <div className="img-box">
                   <div className="img-shape"></div>
                   <div className="img-shape">
-                    <img src=".//images/home_4/test-shape4.svg" alt="" />
+                    <Image src={testShape4} alt="" />
                   </div>
-                  <img
-                    src=".//images/home_4/test-item-img2.jpg"
-                    alt="User"
-                    className="testimonial-item-img"
-                  />
+                  <Image src={testItemImg2} alt="User"
+                    className="testimonial-item-img" />
                 </div>
                 <div className="testimonial-content">
                   <i className="testimonial-icon icon_quotations mb-25"></i>

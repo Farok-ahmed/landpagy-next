@@ -1,4 +1,7 @@
 "use client";
+import Image from "next/image";
+import ctaShape2 from "@/assets/images/home_6/cta-shape2.png";
+import ctaShape3 from "@/assets/images/home_6/cta-shape3.png";
 ;
 import { useParallax } from "react-scroll-parallax";
 
@@ -19,10 +22,10 @@ export default function ProtoCta() {
     <section className="cta-area-7 pt-80 pb-80 wow fadeInUp">
       <div className="bg-shapes">
         <div className="shape" ref={shape1Parallax.ref}>
-          <img src="/images/home_6/cta-shape2.png" alt="Shape 1" />
+          <Image src={ctaShape2} alt="Shape 1" />
         </div>
         <div className="shape" ref={shape2Parallax.ref}>
-          <img src="/images/home_6/cta-shape3.png" alt="Shape 2" />
+          <Image src={ctaShape3} alt="Shape 2" />
         </div>
       </div>
       <div className="container">

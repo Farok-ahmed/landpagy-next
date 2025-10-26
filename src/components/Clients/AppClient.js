@@ -1,3 +1,10 @@
+import Image from "next/image";
+import border from "@/assets/images/home_10/shapes/border.svg";
+import brand1 from "@/assets/images/brand/brand-1.svg";
+import brand2 from "@/assets/images/brand/brand-2.svg";
+import brand3 from "@/assets/images/brand/brand-3.svg";
+import brand4 from "@/assets/images/brand/brand-4.svg";
+import brand5 from "@/assets/images/brand/brand-5.svg";
 ;
 
 export default function AppClient() {
@@ -12,11 +19,9 @@ export default function AppClient() {
             >
               <span>
                 Trusted
-                <img
-                  className="border-shape"
-                  src="/images/home_10/shapes/border.svg"
-                  alt="Border"
-                />
+                <Image src={border} className="border-shape"
+                  
+                  alt="Border" />
               </span>
               {""} by Companies
             </h2>
@@ -26,27 +31,27 @@ export default function AppClient() {
         <div className="row justify-content-center">
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.1s">
-              <img src="/images/brand/brand-1.svg" alt="Brand " />
+              <Image src={brand1} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.3s">
-              <img src="/images/brand/brand-2.svg" alt="Brand " />
+              <Image src={brand2} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.5s">
-              <img src="/images/brand/brand-3.svg" alt="Brand " />
+              <Image src={brand3} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.7s">
-              <img src="/images/brand/brand-4.svg" alt="Brand " />
+              <Image src={brand4} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.9s">
-              <img src="/images/brand/brand-5.svg" alt="Brand " />
+              <Image src={brand5} alt="Brand " />
             </div>
           </div>
         </div>

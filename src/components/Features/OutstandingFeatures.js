@@ -1,3 +1,8 @@
+import Image from "next/image";
+import outFeature1 from "@/assets/images/home_2/out-feature-1.svg";
+import outFeature2 from "@/assets/images/home_2/out-feature-2.svg";
+import outFeature3 from "@/assets/images/home_2/out-feature-3.svg";
+import outFeature4 from "@/assets/images/home_2/out-feature-4.svg";
 ;
 
 export default function OutstandingFeatures() {
@@ -9,7 +14,7 @@ export default function OutstandingFeatures() {
       <div className="container pt-30">
         <div className="row gy-lg-0 gy-4">
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <img src="/images/home_2/out-feature-1.svg" alt="img" />
+            <Image src={outFeature1} alt="img" />
             <h5>24/7 Support</h5>
             <p>
               We'll treat your customers like they're ours · We have an
@@ -17,7 +22,7 @@ export default function OutstandingFeatures() {
             </p>
           </div>
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <img src="/images/home_2/out-feature-2.svg" alt="img" />
+            <Image src={outFeature2} alt="img" />
             <h5>Tested Security</h5>
             <p>
               The tested Security here. To review and adjust your security
@@ -25,14 +30,14 @@ export default function OutstandingFeatures() {
             </p>
           </div>
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-            <img src="/images/home_2/out-feature-3.svg" alt="img" />
+            <Image src={outFeature3} alt="img" />
             <h5>Smart Dashboard</h5>
             <p>
               The Best Mobile App Awards honors the best mobile apps on iPhone,
             </p>
           </div>
           <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-            <img src="/images/home_2/out-feature-4.svg" alt="img" />
+            <Image src={outFeature4} alt="img" />
             <h5>XO Award 2021</h5>
             <p>
               The Best Mobile App Awards honors the best mobile apps on iPhone,

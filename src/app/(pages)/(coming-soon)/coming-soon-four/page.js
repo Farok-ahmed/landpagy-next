@@ -1,6 +1,20 @@
 "use client";
 import Timer from "@/components/Timer/Timer";
 import Link from "next/link";
+import Image from "next/image";
+import shape11 from "@/assets/images/comming_soon/shape11.svg";
+import shape12 from "@/assets/images/comming_soon/shape12.svg";
+import shape13 from "@/assets/images/comming_soon/shape13.svg";
+import shape14 from "@/assets/images/comming_soon/shape14.svg";
+import shape15 from "@/assets/images/comming_soon/shape15.svg";
+import shape16 from "@/assets/images/comming_soon/shape16.svg";
+import shape17 from "@/assets/images/comming_soon/shape17.svg";
+import shape18 from "@/assets/images/comming_soon/shape18.svg";
+import shape19 from "@/assets/images/comming_soon/shape19.svg";
+import shape20 from "@/assets/images/comming_soon/shape20.svg";
+import star from "@/assets/images/comming_soon/star.svg";
+import logoBlack from "@/assets/images/logo-black.svg";
+import bg3 from "@/assets/images/comming_soon/bg3.svg";
 ;
 
 export default function ComingSoonFour() {
@@ -8,43 +22,43 @@ export default function ComingSoonFour() {
     <section className="comming-soon-wrapper comming-soon-4 pt-100">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/comming_soon/shape11.svg" alt="Shape" />
+          <Image src={shape11} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape12.svg" alt="Shape" />
+          <Image src={shape12} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape13.svg" alt="Shape" />
+          <Image src={shape13} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape14.svg" alt="Shape" />
+          <Image src={shape14} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape15.svg" alt="Shape" />
+          <Image src={shape15} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape16.svg" alt="Shape" />
+          <Image src={shape16} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape17.svg" alt="Shape" />
+          <Image src={shape17} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape18.svg" alt="Shape" />
+          <Image src={shape18} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape19.svg" alt="Shape" />
+          <Image src={shape19} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape20.svg" alt="Shape" />
+          <Image src={shape20} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/star.svg" alt="Shape" />
+          <Image src={star} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/star.svg" alt="Shape" />
+          <Image src={star} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/star.svg" alt="Shape" />
+          <Image src={star} alt="Shape" />
         </div>
       </div>
 
@@ -53,7 +67,7 @@ export default function ComingSoonFour() {
           <div className="col-lg-8">
             <div className="comming-soon-inner">
               <Link href="/" className="logo">
-                <img src="/images/logo-black.svg" alt="Logo" />
+                <Image src={logoBlack} alt="Logo" />
               </Link>
 
               <h1 className="page-title">Something great is coming soon</h1>
@@ -102,11 +116,8 @@ export default function ComingSoonFour() {
 
           <div className="col-lg-4">
             <div className="right-img">
-              <img
-                src="/images/comming_soon/bg3.svg"
-                alt="Bg Shape"
-                className=""
-              />
+              <Image src={bg3} alt="Bg Shape"
+                className="" />
             </div>
           </div>
         </div>

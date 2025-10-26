@@ -1,3 +1,11 @@
+import Image from "next/image";
+import shape3 from "@/assets/images/home_10/shapes/shape3.svg";
+import shape4 from "@/assets/images/home_10/shapes/shape4.svg";
+import feturesImg from "@/assets/images/home_10/fetures-img.png";
+import border from "@/assets/images/home_10/shapes/border.svg";
+import icon1 from "@/assets/images/home_10/icons/icon1.svg";
+import icon2 from "@/assets/images/home_10/icons/icon2.svg";
+import icon3 from "@/assets/images/home_10/icons/icon3.svg";
 ;
 
 export default function AppFeature() {
@@ -14,13 +22,13 @@ export default function AppFeature() {
                 <div className="shape"></div>
                 <div className="shape"></div>
                 <div className="shape">
-                  <img src="/images/home_10/shapes/shape3.svg" alt="Shape" />
+                  <Image src={shape3} alt="Shape" />
                 </div>
                 <div className="shape">
-                  <img src="/images/home_10/shapes/shape4.svg" alt="Shape" />
+                  <Image src={shape4} alt="Shape" />
                 </div>
               </div>
-              <img src="/images/home_10/fetures-img.png" alt="Feature " />
+              <Image src={feturesImg} alt="Feature " />
             </div>
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-8">
@@ -32,11 +40,9 @@ export default function AppFeature() {
                 Some of the best
                 <span>
                   Features
-                  <img
-                    className="border-shape"
-                    src="/images/home_10/shapes/border.svg"
-                    alt="Border"
-                  />
+                  <Image src={border} className="border-shape"
+                    
+                    alt="Border" />
                 </span>
               </h2>
 
@@ -44,7 +50,7 @@ export default function AppFeature() {
                 <div className="item">
                   <div className="item-icon">
                     <div className="icon">
-                      <img src="/images/home_10/icons/icon1.svg" alt="Icon" />
+                      <Image src={icon1} alt="Icon" />
                     </div>
                   </div>
                   <div className="item-content">
@@ -58,7 +64,7 @@ export default function AppFeature() {
                 <div className="item">
                   <div className="item-icon">
                     <div className="icon">
-                      <img src="/images/home_10/icons/icon2.svg" alt="Icon" />
+                      <Image src={icon2} alt="Icon" />
                     </div>
                   </div>
                   <div className="item-content">
@@ -72,7 +78,7 @@ export default function AppFeature() {
                 <div className="item">
                   <div className="item-icon">
                     <div className="icon">
-                      <img src="/images/home_10/icons/icon3.svg" alt="Icon" />
+                      <Image src={icon3} alt="Icon" />
                     </div>
                   </div>
                   <div className="item-content">

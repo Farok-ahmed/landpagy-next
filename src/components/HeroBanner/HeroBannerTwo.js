@@ -1,5 +1,12 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import bannerShape4 from "@/assets/images/home_2/banner-shape-4.svg";
+import bannerShape1 from "@/assets/images/home_2/banner-shape-1.svg";
+import bannerShape2 from "@/assets/images/home_2/banner-shape-2.svg";
+import bannerShape3 from "@/assets/images/home_2/banner-shape-3.svg";
+import bannerShape5 from "@/assets/images/home_2/banner-shape-5.svg";
+import heroImg from "@/assets/images/home_2/hero-img.svg";
 ;
 
 import { Parallax } from "react-scroll-parallax";
@@ -12,7 +19,7 @@ export default function HeroBannerTwo() {
     >
       <div className="banner-shapes">
         <div className="shape">
-          <img src="/images/home_2/banner-shape-4.svg" alt="shapes" />
+          <Image src={bannerShape4} alt="shapes" />
         </div>
         <div className="shape">
           <Parallax
@@ -21,7 +28,7 @@ export default function HeroBannerTwo() {
             rotateY={[360, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/banner-shape-1.svg" alt="shapes" />
+            <Image src={bannerShape1} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape">
@@ -31,7 +38,7 @@ export default function HeroBannerTwo() {
             rotateZ={[500, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/banner-shape-2.svg" alt="shapes" />
+            <Image src={bannerShape2} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape">
@@ -41,11 +48,11 @@ export default function HeroBannerTwo() {
             rotateZ={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_2/banner-shape-3.svg" alt="shapes" />
+            <Image src={bannerShape3} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape">
-          <img src="/images/home_2/banner-shape-5.svg" alt="shapes" />
+          <Image src={bannerShape5} alt="shapes" />
         </div>
       </div>
       <div className="container">
@@ -64,7 +71,7 @@ export default function HeroBannerTwo() {
           </div>
           <div className="col-xxl-4 col-md-5">
             <div className="banner-right wow fadeInRight">
-              <img src="/images/home_2/hero-img.svg" alt="" />
+              <Image src={heroImg} alt="" />
             </div>
           </div>
         </div>

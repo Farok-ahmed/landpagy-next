@@ -1,3 +1,6 @@
+import Image from "next/image";
+import bannerShape4 from "@/assets/images/home_2/banner-shape-4.svg";
+import bannerShape5 from "@/assets/images/home_2/banner-shape-5.svg";
 ;
 
 export default function FaqTwo() {
@@ -5,10 +8,10 @@ export default function FaqTwo() {
     <section className="faq-area-two">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_2/banner-shape-4.svg" alt="Shape" />
+          <Image src={bannerShape4} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_2/banner-shape-5.svg" alt="Shape" />
+          <Image src={bannerShape5} alt="Shape" />
         </div>
       </div>
 

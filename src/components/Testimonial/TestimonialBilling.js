@@ -2,6 +2,9 @@
 
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import testimonialImg1 from "@/assets/images/home_8/testimonial-img1.png";
+import testimonialImg2 from "@/assets/images/home_8/testimonial-img2.png";
 
 export default function TestimonialBilling() {
   const swiperOptions = {
@@ -51,7 +54,7 @@ export default function TestimonialBilling() {
               <SwiperSlide>
                 <div className="testimonial-content">
                   <div className="testimonial-img">
-                    <img src="/images/home_8/testimonial-img1.png" alt="" />
+                    <Image src={testimonialImg1} alt="" />
                   </div>
                   <div className="testimonial-text">
                     <p className="author-text">
@@ -67,7 +70,7 @@ export default function TestimonialBilling() {
               <SwiperSlide>
                 <div className="testimonial-content">
                   <div className="testimonial-img">
-                    <img src="/images/home_8/testimonial-img2.png" alt="" />
+                    <Image src={testimonialImg2} alt="" />
                   </div>
                   <div className="testimonial-text">
                     <p className="author-text">
@@ -83,7 +86,7 @@ export default function TestimonialBilling() {
               <SwiperSlide>
                 <div className="testimonial-content">
                   <div className="testimonial-img">
-                    <img src="/images/home_8/testimonial-img1.png" alt="" />
+                    <Image src={testimonialImg1} alt="" />
                   </div>
                   <div className="testimonial-text">
                     <p className="author-text">

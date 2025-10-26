@@ -1,4 +1,15 @@
 "use client";
+import Image from "next/image";
+import feaShape1 from "@/assets/images/home_5/shapes/fea-shape1.png";
+import feaShape2 from "@/assets/images/home_5/shapes/fea-shape2.png";
+import feaShape3 from "@/assets/images/home_5/shapes/fea-shape3.png";
+import feaImg1 from "@/assets/images/home_5/fea-img1.jpg";
+import feaShape4 from "@/assets/images/home_5/shapes/fea-shape4.png";
+import feaShape5 from "@/assets/images/home_5/shapes/fea-shape5.png";
+import feaImg2 from "@/assets/images/home_5/fea-img2.jpg";
+import feaShape6 from "@/assets/images/home_5/shapes/fea-shape6.png";
+import feaShape7 from "@/assets/images/home_5/shapes/fea-shape7.png";
+import feaImg3 from "@/assets/images/home_5/fea-img3.jpg";
 ;
 import { Parallax } from "react-scroll-parallax";
 
@@ -63,10 +74,7 @@ export default function FeaturePos() {
                         easing="easeInQuad"
                         speed={-10}
                       >
-                        <img
-                          src="/images/home_5/shapes/fea-shape1.png"
-                          alt="Shape"
-                        />
+                        <Image src={feaShape1} alt="Shape" />
                       </Parallax>
                     </div>
                     <div className="shape">
@@ -77,24 +85,15 @@ export default function FeaturePos() {
                         easing="easeInQuad"
                         speed={10}
                       >
-                        <img
-                          src="/images/home_5/shapes/fea-shape2.png"
-                          alt="Shape"
-                        />
+                        <Image src={feaShape2} alt="Shape" />
                       </Parallax>
                     </div>
                     <div className="shape wow fadeInRight">
-                      <img
-                        src="/images/home_5/shapes/fea-shape3.png"
-                        alt="Shape"
-                      />
+                      <Image src={feaShape3} alt="Shape" />
                     </div>
                   </div>
-                  <img
-                    src="/images/home_5/fea-img1.jpg"
-                    alt="Features"
-                    className="features-img"
-                  />
+                  <Image src={feaImg1} alt="Features"
+                    className="features-img" />
                 </div>
               </div>
             </div>
@@ -115,10 +114,7 @@ export default function FeaturePos() {
                         easing="easeInQuad"
                         speed={10}
                       >
-                        <img
-                          src="/images/home_5/shapes/fea-shape1.png"
-                          alt="Shape"
-                        />
+                        <Image src={feaShape1} alt="Shape" />
                       </Parallax>
                     </div>
                     <div className="shape">
@@ -129,24 +125,15 @@ export default function FeaturePos() {
                         easing="easeInQuad"
                         speed={10}
                       >
-                        <img
-                          src="/images/home_5/shapes/fea-shape4.png"
-                          alt="Shape"
-                        />
+                        <Image src={feaShape4} alt="Shape" />
                       </Parallax>
                     </div>
                     <div className="shape wow fadeInRight">
-                      <img
-                        src="/images/home_5/shapes/fea-shape5.png"
-                        alt="Shape"
-                      />
+                      <Image src={feaShape5} alt="Shape" />
                     </div>
                   </div>
-                  <img
-                    src="/images/home_5/fea-img2.jpg"
-                    alt="Features"
-                    className="features-img"
-                  />
+                  <Image src={feaImg2} alt="Features"
+                    className="features-img" />
                 </div>
               </div>
               <div className="col-md-6 col-lg-5 offset-lg-1">
@@ -221,10 +208,7 @@ export default function FeaturePos() {
                         easing="easeInQuad"
                         speed={10}
                       >
-                        <img
-                          src="/images/home_5/shapes/fea-shape1.png"
-                          alt="Shape"
-                        />
+                        <Image src={feaShape1} alt="Shape" />
                       </Parallax>
                     </div>
                     <div className="shape">
@@ -235,24 +219,15 @@ export default function FeaturePos() {
                         easing="easeInQuad"
                         speed={10}
                       >
-                        <img
-                          src="/images/home_5/shapes/fea-shape6.png"
-                          alt="Shape"
-                        />
+                        <Image src={feaShape6} alt="Shape" />
                       </Parallax>
                     </div>
                     <div className="shape wow fadeInRight">
-                      <img
-                        src="/images/home_5/shapes/fea-shape7.png"
-                        alt="Shape"
-                      />
+                      <Image src={feaShape7} alt="Shape" />
                     </div>
                   </div>
-                  <img
-                    src="/images/home_5/fea-img3.jpg"
-                    alt="Features"
-                    className="features-img"
-                  />
+                  <Image src={feaImg3} alt="Features"
+                    className="features-img" />
                 </div>
               </div>
             </div>

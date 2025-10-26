@@ -1,4 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
+import brand6 from "@/assets/images/brand/brand-6.svg";
+import brand7 from "@/assets/images/brand/brand-7.svg";
+import brand8 from "@/assets/images/brand/brand-8.svg";
+import brand9 from "@/assets/images/brand/brand-9.svg";
+import brand10 from "@/assets/images/brand/brand-10.svg";
+import brand11 from "@/assets/images/brand/brand-11.svg";
 ;
 
 export default function ClientTwo() {
@@ -11,32 +18,32 @@ export default function ClientTwo() {
           </h2>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.1s">
-              <img src="/images/brand/brand-6.svg" alt="brand" />
+              <Image src={brand6} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.3s">
-              <img src="/images/brand/brand-7.svg" alt="brand" />
+              <Image src={brand7} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.5s">
-              <img src="/images/brand/brand-8.svg" alt="brand" />
+              <Image src={brand8} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.7s">
-              <img src="/images/brand/brand-9.svg" alt="brand" />
+              <Image src={brand9} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.9s">
-              <img src="/images/brand/brand-10.svg" alt="brand" />
+              <Image src={brand10} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="1.1s">
-              <img src="/images/brand/brand-11.svg" alt="brand" />
+              <Image src={brand11} alt="brand" />
             </div>
           </div>
         </div>

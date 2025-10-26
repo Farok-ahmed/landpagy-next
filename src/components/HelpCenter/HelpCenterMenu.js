@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import menu from "@/assets/images/icon/menu.svg";
+import hoverMenu from "@/assets/images/icon/hover-menu.svg";
 ;
 
 export default function HelpCenterMenu() {
@@ -15,91 +18,67 @@ export default function HelpCenterMenu() {
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Basics of creating a Land
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Customize your Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Format data in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Use code and webhooks in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Other built-in Zap functions
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Recently updated
                     </Link>
                   </li>
@@ -112,91 +91,67 @@ export default function HelpCenterMenu() {
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Basics of creating a Land
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Customize your Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Format data in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Use code and webhooks in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Other built-in Zap functions
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Recently updated
                     </Link>
                   </li>
@@ -209,91 +164,67 @@ export default function HelpCenterMenu() {
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Basics of creating a Land
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Customize your Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Format data in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Use code and webhooks in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Other built-in Zap functions
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Recently updated
                     </Link>
                   </li>
@@ -306,91 +237,67 @@ export default function HelpCenterMenu() {
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Basics of creating a Land
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Customize your Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Format data in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Use code and webhooks in Lands
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Other built-in Zap functions
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
-                      <img
-                        className="before-icon"
-                        src="/images/icon/menu.svg"
-                        alt="icon"
-                      />
-                      <img
-                        className="after-icon"
-                        src="/images/icon/hover-menu.svg"
-                        alt="icon"
-                      />
+                      <Image src={menu} className="before-icon"
+                        
+                        alt="icon" />
+                      <Image src={hoverMenu} className="after-icon"
+                        
+                        alt="icon" />
                       Recently updated
                     </Link>
                   </li>

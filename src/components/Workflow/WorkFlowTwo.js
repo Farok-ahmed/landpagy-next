@@ -1,3 +1,7 @@
+import Image from "next/image";
+import feature5 from "@/assets/images/features/feature-5.png";
+import features8 from "@/assets/images/features/features-8.png";
+import features9 from "@/assets/images/features/features-9.png";
 
 
 export default function WorkFlowTwo() {
@@ -10,17 +14,11 @@ export default function WorkFlowTwo() {
               <h2 className="mt-n4">Move work forward from anywhere</h2>
             </div>
             <div className="feature-image">
-              <img src="/images/features/feature-5.png" alt="Features " />
-              <img
-                src="/images/features/features-8.png"
-                alt="Features "
-                className="features8"
-              />
-              <img
-                src="/images/features/features-9.png"
-                alt="Features "
-                className="features9"
-              />
+              <Image src={feature5} alt="Features " />
+              <Image src={features8} alt="Features "
+                className="features8" />
+              <Image src={features9} alt="Features "
+                className="features9" />
               <p>
                 We're here every step of the way making sure you and your team
                 deliver. We're here every step of the way making sure you and

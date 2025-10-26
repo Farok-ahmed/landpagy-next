@@ -1,3 +1,7 @@
+import Image from "next/image";
+import shape12 from "@/assets/images/home_9/shapes/shape12.svg";
+import shape13 from "@/assets/images/home_9/shapes/shape13.svg";
+import shape14 from "@/assets/images/home_9/shapes/shape14.svg";
 ;
 import { Parallax, useParallax } from "react-scroll-parallax";
 
@@ -31,11 +35,8 @@ export default function CloudCtaTwo() {
             easing="easeInCubic"
             speed={-10}
           >
-            <img
-              src="/images/home_9/shapes/shape12.svg"
-              className="layer"
-              alt=""
-            />
+            <Image src={shape12} className="layer"
+              alt="" />
           </Parallax>
         </div>
         <div className="shape">
@@ -46,15 +47,12 @@ export default function CloudCtaTwo() {
             easing="easeInCubic"
             speed={-10}
           >
-            <img
-              src="/images/home_9/shapes/shape13.svg"
-              className="layer"
-              alt=""
-            />
+            <Image src={shape13} className="layer"
+              alt="" />
           </Parallax>
         </div>
         <div className="shape">
-          <img src="/images/home_9/shapes/shape14.svg" alt="" />
+          <Image src={shape14} alt="" />
         </div>
       </div>
       <div className="container">

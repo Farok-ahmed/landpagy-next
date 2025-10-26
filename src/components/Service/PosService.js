@@ -1,3 +1,7 @@
+import Image from "next/image";
+import easyStartIcon1 from "@/assets/images/home_5/icons/easy-start-icon1.svg";
+import easyStartIcon2 from "@/assets/images/home_5/icons/easy-start-icon2.svg";
+import easyStartIcon3 from "@/assets/images/home_5/icons/easy-start-icon3.svg";
 
 
 export default function PosService() {
@@ -19,11 +23,8 @@ export default function PosService() {
           <div className="col-lg-4 col-md-6">
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
-                <img
-                  src="/images/home_5/icons/easy-start-icon1.svg"
-                  alt="Icon"
-                  className="item-icon mx-auto my-auto"
-                />
+                <Image src={easyStartIcon1} alt="Icon"
+                  className="item-icon mx-auto my-auto" />
               </div>
               <h4 className="item-title">Upload</h4>
               <p className="item-content">
@@ -35,11 +36,8 @@ export default function PosService() {
           <div className="col-lg-4 col-md-6">
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
-                <img
-                  src="/images/home_5/icons/easy-start-icon2.svg"
-                  alt="Icon"
-                  className="item-icon mx-auto my-auto"
-                />
+                <Image src={easyStartIcon2} alt="Icon"
+                  className="item-icon mx-auto my-auto" />
               </div>
               <h4 className="item-title">Customize</h4>
               <p className="item-content">
@@ -51,11 +49,8 @@ export default function PosService() {
           <div className="col-lg-4 col-md-6 mt-lg-0 mt-sm-5 mx-auto">
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
-                <img
-                  src="/images/home_5/icons/easy-start-icon3.svg"
-                  alt="Icon"
-                  className="item-icon mx-auto my-auto"
-                />
+                <Image src={easyStartIcon3} alt="Icon"
+                  className="item-icon mx-auto my-auto" />
               </div>
               <h4 className="item-title">Connect hardware</h4>
               <p className="item-content">

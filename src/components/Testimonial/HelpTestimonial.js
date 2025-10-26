@@ -2,6 +2,8 @@
 
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
+import testimonialImage from "@/assets/images/testimonial/testimonial-image.png";
 
 export default function HelpTestimonial() {
   const swiperOptions = {
@@ -31,10 +33,7 @@ export default function HelpTestimonial() {
             <SwiperSlide className=" testimonial-wrapper-four">
               <div className="testimonial-item">
                 <div className="testimonial-image">
-                  <img
-                    src="/images/testimonial/testimonial-image.png"
-                    alt="Testimonial "
-                  />
+                  <Image src={testimonialImage} alt="Testimonial " />
                 </div>
                 <div className="testimonial-right-content">
                   <h3>Making Dreams a reality!</h3>
@@ -79,10 +78,7 @@ export default function HelpTestimonial() {
             <SwiperSlide className=" testimonial-wrapper-four">
               <div className="testimonial-item">
                 <div className="testimonial-image">
-                  <img
-                    src="/images/testimonial/testimonial-image.png"
-                    alt="Testimonial "
-                  />
+                  <Image src={testimonialImage} alt="Testimonial " />
                 </div>
                 <div className="testimonial-right-content">
                   <h3>Making Dreams a reality!</h3>
@@ -127,10 +123,7 @@ export default function HelpTestimonial() {
             <SwiperSlide className="testimonial-wrapper-four">
               <div className="testimonial-item">
                 <div className="testimonial-image">
-                  <img
-                    src="/images/testimonial/testimonial-image.png"
-                    alt="Testimonial "
-                  />
+                  <Image src={testimonialImage} alt="Testimonial " />
                 </div>
                 <div className="testimonial-right-content">
                   <h3>Making Dreams a reality!</h3>

@@ -1,3 +1,13 @@
+import Image from "next/image";
+import feaImages1 from "@/assets/images/home_6/fea-images1.svg";
+import feaImages2 from "@/assets/images/home_6/fea-images2.svg";
+import feaImagesShape1 from "@/assets/images/home_6/fea-images-shape1.svg";
+import feaImagesShape2 from "@/assets/images/home_6/fea-images-shape2.svg";
+import feaShape1 from "@/assets/images/home_6/fea-shape1.svg";
+import feaImagesShape3 from "@/assets/images/home_6/fea-images-shape3.svg";
+import feaImages3 from "@/assets/images/home_6/fea-images3.svg";
+import feaImagesShape4 from "@/assets/images/home_6/fea-images-shape4.svg";
+import feaImages4 from "@/assets/images/home_6/fea-images4.svg";
 ;
 
 export default function ProtoFeatureTwo() {
@@ -27,18 +37,18 @@ export default function ProtoFeatureTwo() {
           <div className="col-xl-5 col-lg-6">
             <div className="fea-right">
               <div className="fea-images wow fadeInDown" data-wow-delay="0.1s">
-                <img src="/images/home_6/fea-images1.svg" alt="" />
+                <Image src={feaImages1} alt="" />
               </div>
               <div className="fea-images wow fadeInUp" data-wow-delay="0.1s">
-                <img src="/images/home_6/fea-images2.svg" alt="" />
+                <Image src={feaImages2} alt="" />
               </div>
               <div className="fea-images"></div>
               <div className="fea-images"></div>
               <div className="fea-images">
-                <img src="/images/home_6/fea-images-shape1.svg" alt="" />
+                <Image src={feaImagesShape1} alt="" />
               </div>
               <div className="fea-images">
-                <img src="/images/home_6/fea-images-shape2.svg" alt="" />
+                <Image src={feaImagesShape2} alt="" />
               </div>
             </div>
           </div>
@@ -50,21 +60,19 @@ export default function ProtoFeatureTwo() {
               <div className="bg-shapes">
                 <div className="fea-images"></div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-shape1.svg" alt="" />
+                  <Image src={feaShape1} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape2.svg" alt="" />
+                  <Image src={feaImagesShape2} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape3.svg" alt="" />
+                  <Image src={feaImagesShape3} alt="" />
                 </div>
               </div>
-              <img
-                className="fea-left-img wow fadeInLeft"
+              <Image src={feaImages3} className="fea-left-img wow fadeInLeft"
                 data-wow-delay="0.1s"
-                src="/images/home_6/fea-images3.svg"
-                alt=""
-              />
+                
+                alt="" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -107,21 +115,19 @@ export default function ProtoFeatureTwo() {
             <div className="fea-right-two ml-15">
               <div className="bg-shapes">
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape4.svg" alt="" />
+                  <Image src={feaImagesShape4} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-shape1.svg" alt="" />
+                  <Image src={feaShape1} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape1.svg" alt="" />
+                  <Image src={feaImagesShape1} alt="" />
                 </div>
               </div>
-              <img
-                className="fea-right-img wow fadeInRight"
+              <Image src={feaImages4} className="fea-right-img wow fadeInRight"
                 data-wow-delay="0.1s"
-                src="/images/home_6/fea-images4.svg"
-                alt=""
-              />
+                
+                alt="" />
             </div>
           </div>
         </div>

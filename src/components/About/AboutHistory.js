@@ -1,6 +1,10 @@
 "use client";
 import React, { useRef, useState, useEffect } from "react";
 import Slider from "react-slick";
+import Image from "next/image";
+import history1 from "@/assets/images/about_2/history1.png";
+import history3 from "@/assets/images/about_2/history3.png";
+import history2 from "@/assets/images/about_2/history2.png";
 
 export default function AboutHistory() {
   const [slideIndex, setSlideIndex] = useState(0);
@@ -66,7 +70,7 @@ export default function AboutHistory() {
             >
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history1.png" alt="" />
+                  <Image src={history1} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Birth of a Landpagy startup</h4>
@@ -79,7 +83,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history3.png" alt="" />
+                  <Image src={history3} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Landpagy think about future</h4>
@@ -92,7 +96,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history2.png" alt="" />
+                  <Image src={history2} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -105,7 +109,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history1.png" alt="" />
+                  <Image src={history1} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Birth of a Landpagy startup</h4>
@@ -118,7 +122,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history3.png" alt="" />
+                  <Image src={history3} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Landpagy think about future</h4>
@@ -131,7 +135,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history2.png" alt="" />
+                  <Image src={history2} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -144,7 +148,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history1.png" alt="" />
+                  <Image src={history1} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -157,7 +161,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history2.png" alt="" />
+                  <Image src={history2} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -170,7 +174,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <img src="/images/about_2/history1.png" alt="" />
+                  <Image src={history1} alt="" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>

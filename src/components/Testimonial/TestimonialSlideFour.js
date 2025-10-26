@@ -2,6 +2,11 @@
 
 import { Parallax } from "react-scroll-parallax";
 import Slider from "react-slick";
+import Image from "next/image";
+import testimonialShape from "@/assets/images/home_3/testimonial-shape.svg";
+import testimonial1 from "@/assets/images/home_3/testimonial-1.png";
+import testimonial2 from "@/assets/images/home_3/testimonial-2.jpg";
+import testimonial3 from "@/assets/images/home_3/testimonial-3.jpg";
 
 const SlickBtnPrev = ({ currentSlide, slideCount, children, ...props }) => (
   <button className="slick-prev" {...props}>
@@ -46,11 +51,8 @@ export default function TestimonialSlideFour() {
             rotateZ={[0, 90]}
             easing="easeInQuad"
           >
-            <img
-              src="/images/home_3/testimonial-shape.svg"
-              className="layer"
-              alt=""
-            />
+            <Image src={testimonialShape} className="layer"
+              alt="" />
           </Parallax>
         </div>
         <div className="section-title-center wow fadeInUp">
@@ -67,11 +69,9 @@ export default function TestimonialSlideFour() {
             <div className="row align-items-center">
               <div className="col-sm-8 col-lg-5">
                 <div className="author-img">
-                  <img
-                    className="main-img"
-                    src="/images/home_3/testimonial-1.png"
-                    alt="man"
-                  />
+                  <Image src={testimonial1} className="main-img"
+                    
+                    alt="man" />
                 </div>
               </div>
               <div className="col-lg-7 pl-lg-35">
@@ -91,11 +91,9 @@ export default function TestimonialSlideFour() {
             <div className="row align-items-center">
               <div className="col-sm-8 col-lg-5">
                 <div className="author-img">
-                  <img
-                    className="main-img"
-                    src="/images/home_3/testimonial-2.jpg"
-                    alt="man"
-                  />
+                  <Image src={testimonial2} className="main-img"
+                    
+                    alt="man" />
                 </div>
               </div>
               <div className="col-lg-7 pl-lg-35">
@@ -115,11 +113,9 @@ export default function TestimonialSlideFour() {
             <div className="row align-items-center">
               <div className="col-sm-8 col-lg-5">
                 <div className="author-img">
-                  <img
-                    className="main-img"
-                    src="/images/home_3/testimonial-3.jpg"
-                    alt="man"
-                  />
+                  <Image src={testimonial3} className="main-img"
+                    
+                    alt="man" />
                 </div>
               </div>
               <div className="col-lg-7 pl-lg-35">

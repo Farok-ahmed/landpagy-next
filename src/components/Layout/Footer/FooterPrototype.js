@@ -1,6 +1,11 @@
 "use client";
 import Link from "next/link";
 import { useParallax } from "react-scroll-parallax";
+import Image from "next/image";
+import kite from "@/assets/images/home_6/kite.svg";
+import women from "@/assets/images/home_6/women.svg";
+import leaf from "@/assets/images/home_6/leaf.svg";
+import logo5 from "@/assets/images/logo-5.svg";
 ;
 
 export default function FooterPrototype() {
@@ -23,13 +28,13 @@ export default function FooterPrototype() {
     <footer className="bg-black footer-proto footer-common">
       <div className="bg-shapes">
         <div className="shape" ref={kiteParallax.ref}>
-          <img src="/images/home_6/kite.svg" alt="Kite" />
+          <Image src={kite} alt="Kite" />
         </div>
         <div className="shape" ref={womenParallax.ref}>
-          <img src="/images/home_6/women.svg" alt="Women" />
+          <Image src={women} alt="Women" />
         </div>
         <div className="shape" ref={leafParallax.ref}>
-          <img src="/images/home_6/leaf.svg" alt="Leaf" />
+          <Image src={leaf} alt="Leaf" />
         </div>
       </div>
 
@@ -149,11 +154,9 @@ export default function FooterPrototype() {
               <ul>
                 <li>
                   <Link href="/">
-                    <img
-                      className="d-md-block d-sm-inline-block"
-                      src="/images/logo-5.svg"
-                      alt="Footer Logo"
-                    />
+                    <Image src={logo5} className="d-md-block d-sm-inline-block"
+                      
+                      alt="Footer Logo" />
                   </Link>
                 </li>
               </ul>

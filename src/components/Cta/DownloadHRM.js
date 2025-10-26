@@ -1,3 +1,6 @@
+import Image from "next/image";
+import mobileShape1 from "@/assets/images/home_4/mobile-shape1.svg";
+import mobileShape2 from "@/assets/images/home_4/mobile-shape2.svg";
 ;
 
 export default function DownloadHRM() {
@@ -5,10 +8,10 @@ export default function DownloadHRM() {
     <section className="mobile-app-area-two pt-120 pb-120">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/mobile-shape1.svg" alt="shape" />
+          <Image src={mobileShape1} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/mobile-shape2.svg" alt="shape" />
+          <Image src={mobileShape2} alt="shape" />
         </div>
       </div>
 

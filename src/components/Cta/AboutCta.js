@@ -1,3 +1,6 @@
+import Image from "next/image";
+import ctaShape1 from "@/assets/images/about_2/shape/cta-shape1.png";
+import ctaShape2 from "@/assets/images/about_2/shape/cta-shape2.png";
 ;
 import { Link } from "react-router-dom";
 
@@ -6,10 +9,10 @@ export default function AboutCta() {
     <section className="about-cta-area">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/about_2/shape/cta-shape1.png" alt="" />
+          <Image src={ctaShape1} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/about_2/shape/cta-shape2.png" alt="" />
+          <Image src={ctaShape2} alt="" />
         </div>
       </div>
       <div className="container">

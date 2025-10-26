@@ -1,4 +1,8 @@
 "use client";
+import Image from "next/image";
+import shape1 from "@/assets/images/home_8/shape/shape1.svg";
+import shape2 from "@/assets/images/home_8/shape/shape2.svg";
+import featureImg1 from "@/assets/images/home_8/feature-img1.png";
 ;
 import { Parallax } from "react-scroll-parallax";
 
@@ -20,14 +24,14 @@ export default function AutomateBilling() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img src="/images/home_8/shape/shape1.svg" alt="" />
+                    <Image src={shape1} alt="" />
                   </Parallax>
                 </div>
                 <div className="shape">
-                  <img src="/images/home_8/shape/shape2.svg" alt="" />
+                  <Image src={shape2} alt="" />
                 </div>
               </div>
-              <img src="/images/home_8/feature-img1.png" alt="Feature " />
+              <Image src={featureImg1} alt="Feature " />
             </div>
           </div>
           <div className="col-lg-6">

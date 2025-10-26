@@ -1,3 +1,8 @@
+import Image from "next/image";
+import icon1 from "@/assets/images/recruitment-proccess/icon-1.svg";
+import icon2 from "@/assets/images/recruitment-proccess/icon-2.svg";
+import icon3 from "@/assets/images/recruitment-proccess/icon-3.svg";
+import icon4 from "@/assets/images/recruitment-proccess/icon-4.svg";
 ;
 
 export default function RecruitmentProcess() {
@@ -20,11 +25,9 @@ export default function RecruitmentProcess() {
               className="feature-card-widget-2 wow fadeInUp text-start py-5"
               data-wow-delay="0.1s"
             >
-              <img
-                className="img-fluid"
-                src="/images/recruitment-proccess/icon-1.svg"
-                alt="icon svg"
-              />
+              <Image src={icon1} className="img-fluid"
+                
+                alt="icon svg" />
               <h4>CV Submission</h4>
               <p>
                 Submit your CV or resume through our online portal if you meet
@@ -37,11 +40,9 @@ export default function RecruitmentProcess() {
               className="feature-card-widget-2 wow fadeInUp text-start py-5"
               data-wow-delay="0.3s"
             >
-              <img
-                className="img-fluid"
-                src="/images/recruitment-proccess/icon-2.svg"
-                alt="icon svg"
-              />
+              <Image src={icon2} className="img-fluid"
+                
+                alt="icon svg" />
               <h4>Phone Screening</h4>
               <p>
                 After looking at your CV you will be inviled for a telephone
@@ -54,11 +55,9 @@ export default function RecruitmentProcess() {
               className="feature-card-widget-2 wow fadeInUp text-start py-5"
               data-wow-delay="0.5s"
             >
-              <img
-                className="img-fluid"
-                src="/images/recruitment-proccess/icon-3.svg"
-                alt="icon svg"
-              />
+              <Image src={icon3} className="img-fluid"
+                
+                alt="icon svg" />
               <h4>Skill Assessment</h4>
               <p>
                 You will be invited at our head office to take a skills and
@@ -71,11 +70,9 @@ export default function RecruitmentProcess() {
               className="feature-card-widget-2 wow fadeInUp text-start py-5"
               data-wow-delay="0.7s"
             >
-              <img
-                className="img-fluid"
-                src="/images/recruitment-proccess/icon-4.svg"
-                alt="icon svg"
-              />
+              <Image src={icon4} className="img-fluid"
+                
+                alt="icon svg" />
               <h4>Final Interview</h4>
               <p>
                 If you can pass all stages we will invite you for a final

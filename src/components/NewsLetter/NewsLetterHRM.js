@@ -1,3 +1,7 @@
+import Image from "next/image";
+import testShape3 from "@/assets/images/home_4/test-shape3.svg";
+import ctaShape from "@/assets/images/home_4/cta-shape.svg";
+import testShape2 from "@/assets/images/home_4/test-shape2.svg";
 ;
 
 export default function NewsLetterHRM() {
@@ -7,13 +11,13 @@ export default function NewsLetterHRM() {
         <div className="cta-box">
           <div className="bg-shapes">
             <div className="shape">
-              <img src="/images/home_4/test-shape3.svg" alt="" />
+              <Image src={testShape3} alt="" />
             </div>
             <div className="shape">
-              <img src="/images/home_4/cta-shape.svg" alt="" />
+              <Image src={ctaShape} alt="" />
             </div>
             <div className="shape">
-              <img src="/images/home_4/test-shape2.svg" alt="" />
+              <Image src={testShape2} alt="" />
             </div>
           </div>
           <div className="row align-items-center">

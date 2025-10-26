@@ -1,3 +1,6 @@
+import Image from "next/image";
+import logo3 from "@/assets/images/logo-3.png";
+import logo2 from "@/assets/images/logo-2.png";
 ;
 
 export default function FooterOne() {
@@ -11,7 +14,7 @@ export default function FooterOne() {
                 <span>
                   The Most Trusted Online Course Platform for WordPress.
                 </span>
-                <img src="/images/logo-3.png" alt="Footer Logo" />
+                <Image src={logo3} alt="Footer Logo" />
               </div>
             </div>
             <div className="col-lg-8">
@@ -102,7 +105,7 @@ export default function FooterOne() {
             <div className="col-lg-5">
               <ul>
                 <li>
-                  <img src="/images/logo-2.png" alt="Logo " />
+                  <Image src={logo2} alt="Logo " />
                 </li>
                 <li>
                   <span className="copyright">

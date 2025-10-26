@@ -1,4 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
+import feaImagesShape3 from "@/assets/images/home_6/fea-images-shape3.svg";
+import feaShape1 from "@/assets/images/home_6/fea-shape1.svg";
+import feaImagesShape1 from "@/assets/images/home_6/fea-images-shape1.svg";
+import feaImg1 from "@/assets/images/home_7/fea-img1.jpg";
+import feaImg2 from "@/assets/images/home_7/fea-img2.jpg";
+import feaImg3 from "@/assets/images/home_7/fea-img3.jpg";
 ;
 
 export default function FeatureWithImgOne() {
@@ -22,20 +29,17 @@ export default function FeatureWithImgOne() {
             <div className="fea-right wow fadeInRight" data-wow-delay="0.2s">
               <div className="shapes">
                 <div className="shape">
-                  <img src="/images/home_6/fea-images-shape3.svg" alt="" />
+                  <Image src={feaImagesShape3} alt="" />
                 </div>
                 <div className="shape">
-                  <img src="/images/home_6/fea-shape1.svg" alt="" />
+                  <Image src={feaShape1} alt="" />
                 </div>
                 <div className="shape">
-                  <img src="/images/home_6/fea-images-shape1.svg" alt="" />
+                  <Image src={feaImagesShape1} alt="" />
                 </div>
               </div>
-              <img
-                src="/images/home_7/fea-img1.jpg"
-                alt=""
-                className="fea-img"
-              />
+              <Image src={feaImg1} alt=""
+                className="fea-img" />
             </div>
           </div>
         </div>
@@ -44,20 +48,17 @@ export default function FeatureWithImgOne() {
             <div className="fea-right wow fadeInLeft" data-wow-delay="0.2s">
               <div className="shapes">
                 <div className="shape">
-                  <img src="/images/home_6/fea-images-shape3.svg" alt="" />
+                  <Image src={feaImagesShape3} alt="" />
                 </div>
                 <div className="shape">
-                  <img src="/images/home_6/fea-shape1.svg" alt="" />
+                  <Image src={feaShape1} alt="" />
                 </div>
                 <div className="shape">
-                  <img src="/images/home_6/fea-images-shape1.svg" alt="" />
+                  <Image src={feaImagesShape1} alt="" />
                 </div>
               </div>
-              <img
-                src="/images/home_7/fea-img2.jpg"
-                alt=""
-                className="fea-img"
-              />
+              <Image src={feaImg2} alt=""
+                className="fea-img" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -93,20 +94,17 @@ export default function FeatureWithImgOne() {
             <div className="fea-right wow fadeInRight" data-wow-delay="0.2s">
               <div className="shapes">
                 <div className="shape">
-                  <img src="/images/home_6/fea-images-shape3.svg" alt="" />
+                  <Image src={feaImagesShape3} alt="" />
                 </div>
                 <div className="shape">
-                  <img src="/images/home_6/fea-shape1.svg" alt="" />
+                  <Image src={feaShape1} alt="" />
                 </div>
                 <div className="shape">
-                  <img src="/images/home_6/fea-images-shape1.svg" alt="" />
+                  <Image src={feaImagesShape1} alt="" />
                 </div>
               </div>
-              <img
-                src="/images/home_7/fea-img3.jpg"
-                alt=""
-                className="fea-img"
-              />
+              <Image src={feaImg3} alt=""
+                className="fea-img" />
             </div>
           </div>
         </div>

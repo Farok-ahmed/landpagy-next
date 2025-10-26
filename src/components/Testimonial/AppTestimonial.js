@@ -1,6 +1,8 @@
 "use client";
 
 import Slider from "react-slick";
+import Image from "next/image";
+import border from "@/assets/images/home_10/shapes/border.svg";
 
 const clients = [
   {
@@ -94,11 +96,9 @@ export default function AppTestimonial() {
               What Our {""}
               <span>
                 Client
-                <img
-                  className="border-shape"
-                  src="/images/home_10/shapes/border.svg"
-                  alt="Border"
-                />
+                <Image src={border} className="border-shape"
+                  
+                  alt="Border" />
               </span>
               {""} Say
             </h2>

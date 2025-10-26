@@ -1,3 +1,10 @@
+import Image from "next/image";
+import insta1 from "@/assets/images/blog/insta1.png";
+import insta2 from "@/assets/images/blog/insta2.png";
+import insta3 from "@/assets/images/blog/insta3.png";
+import insta4 from "@/assets/images/blog/insta4.png";
+import insta5 from "@/assets/images/blog/insta5.png";
+import insta6 from "@/assets/images/blog/insta6.png";
 ;
 
 export default function InstagramWidget() {
@@ -6,22 +13,22 @@ export default function InstagramWidget() {
       <h4 className="widget-title">Instragram</h4>
       <div className="instagram-items">
         <a href="/" className="instagram-item">
-          <img src="/images/blog/insta1.png" alt="" />
+          <Image src={insta1} alt="" />
         </a>
         <a href="/" className="instagram-item">
-          <img src="/images/blog/insta2.png" alt="" />
+          <Image src={insta2} alt="" />
         </a>
         <a href="/" className="instagram-item">
-          <img src="/images/blog/insta3.png" alt="" />
+          <Image src={insta3} alt="" />
         </a>
         <a href="/" className="instagram-item">
-          <img src="/images/blog/insta4.png" alt="" />
+          <Image src={insta4} alt="" />
         </a>
         <a href="/" className="instagram-item">
-          <img src="/images/blog/insta5.png" alt="" />
+          <Image src={insta5} alt="" />
         </a>
         <a href="/" className="instagram-item">
-          <img src="/images/blog/insta6.png" alt="" />
+          <Image src={insta6} alt="" />
         </a>
       </div>
     </div>

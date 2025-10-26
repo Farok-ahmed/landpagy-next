@@ -1,4 +1,11 @@
 import Link from "next/link";
+import Image from "next/image";
+import shape1 from "@/assets/images/comming_soon/shape1.svg";
+import shape2 from "@/assets/images/comming_soon/shape2.svg";
+import shape3 from "@/assets/images/comming_soon/shape3.svg";
+import shape4 from "@/assets/images/comming_soon/shape4.svg";
+import shape5 from "@/assets/images/comming_soon/shape5.svg";
+import logo5 from "@/assets/images/logo-5.svg";
 ;
 
 export default function ComingSoonTwo() {
@@ -6,19 +13,19 @@ export default function ComingSoonTwo() {
     <section className="comming-soon-wrapper comming-soon-2 pt-100">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/comming_soon/shape1.svg" alt="Shape" />
+          <Image src={shape1} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape2.svg" alt="Shape" />
+          <Image src={shape2} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape3.svg" alt="Shape" />
+          <Image src={shape3} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape4.svg" alt="Shape" />
+          <Image src={shape4} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape5.svg" alt="Shape" />
+          <Image src={shape5} alt="Shape" />
         </div>
       </div>
 
@@ -27,7 +34,7 @@ export default function ComingSoonTwo() {
           <div className="col-lg-7">
             <div className="comming-soon-inner">
               <Link href="/" className="logo">
-                <img src="/images/logo-5.svg" alt="Logo" />
+                <Image src={logo5} alt="Logo" />
               </Link>
 
               <h1 className="page-title">COMING SOON</h1>

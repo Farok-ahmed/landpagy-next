@@ -1,5 +1,27 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import bannerShape1 from "@/assets/images/home_4/banner-shape-1.svg";
+import bannerShape2 from "@/assets/images/home_4/banner-shape-2.svg";
+import bannerShape3 from "@/assets/images/home_4/banner-shape-3.svg";
+import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
+import bannerBubbleIcon1 from "@/assets/images/home_4/banner-bubble-icon1.svg";
+import bannerBubbleIcon2 from "@/assets/images/home_4/banner-bubble-icon2.svg";
+import bannerBubbleIcon3 from "@/assets/images/home_4/banner-bubble-icon3.svg";
+import bannerFrame from "@/assets/images/home_4/banner-frame.png";
+import bannerFrame2 from "@/assets/images/home_4/banner-frame2.png";
+import bannerFrame3 from "@/assets/images/home_4/banner-frame3.png";
+import bannerWindow from "@/assets/images/home_4/banner-window.png";
+import bannerWindow2 from "@/assets/images/home_4/banner-window2.png";
+import bannerPlant from "@/assets/images/home_4/banner-plant.png";
+import bannerMan from "@/assets/images/home_4/banner-man.png";
+import bannerFloorBg from "@/assets/images/home_4/banner-floor-bg.png";
+import brand6 from "@/assets/images/brand/brand-6.svg";
+import brand7 from "@/assets/images/brand/brand-7.svg";
+import brand8 from "@/assets/images/brand/brand-8.svg";
+import brand9 from "@/assets/images/brand/brand-9.svg";
+import brand10 from "@/assets/images/brand/brand-10.svg";
+import brand11 from "@/assets/images/brand/brand-11.svg";
 ;
 
 import { useParallax } from "react-scroll-parallax";
@@ -39,19 +61,19 @@ export default function HeroHRM() {
     <section className="banner-area-4 pb-140">
       <div className="banner-shapes">
         <div className="shape">
-          <img src="/images/home_4/banner-shape-1.svg" alt="shapes" />
+          <Image src={bannerShape1} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-2.svg" alt="shapes" />
+          <Image src={bannerShape2} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-3.svg" alt="shapes" />
+          <Image src={bannerShape3} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-1.svg" alt="shapes" />
+          <Image src={bannerShape1} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-4.svg" alt="shapes" />
+          <Image src={bannerShape4} alt="shapes" />
         </div>
       </div>
       <div className="container">
@@ -81,77 +103,55 @@ export default function HeroHRM() {
           </div>
           <div className="col-md-5 offset-md-1 offset-lg-0">
             <div className="banner-right">
-              <img
-                className="banner-img-1 wow zoomIn"
+              <Image src={bannerBubbleIcon1} className="banner-img-1 wow zoomIn"
                 data-wow-delay="0.1s"
-                src="/images/home_4/banner-bubble-icon1.svg"
-                alt="Icon "
-              />
-              <img
-                className="banner-img-2 wow zoomIn"
+                
+                alt="Icon " />
+              <Image src={bannerBubbleIcon2} className="banner-img-2 wow zoomIn"
                 data-wow-delay="0.2s"
-                src="/images/home_4/banner-bubble-icon2.svg"
-                alt="Icon "
-              />
-              <img
-                className="banner-img-3 wow zoomIn"
+                
+                alt="Icon " />
+              <Image src={bannerBubbleIcon3} className="banner-img-3 wow zoomIn"
                 data-wow-delay="0.3s"
-                src="/images/home_4/banner-bubble-icon3.svg"
-                alt="Icon "
-              />
+                
+                alt="Icon " />
 
-              <img
-                className="banner-img-4 layer"
-                src="/images/home_4/banner-frame.png"
+              <Image src={bannerFrame} className="banner-img-4 layer"
+                
                 alt="Icon "
-                ref={shape1Parallax.ref}
-              />
+                ref={shape1Parallax.ref} />
 
-              <img
-                className="banner-img-5 layer"
-                src="/images/home_4/banner-frame2.png"
+              <Image src={bannerFrame2} className="banner-img-5 layer"
+                
                 alt="Icon "
-                ref={shape2Parallax.ref}
-              />
-              <img
-                className="banner-img-6 layer"
-                src="/images/home_4/banner-frame3.png"
+                ref={shape2Parallax.ref} />
+              <Image src={bannerFrame3} className="banner-img-6 layer"
+                
                 alt="Icon "
-                ref={shape3Parallax.ref}
-              />
+                ref={shape3Parallax.ref} />
 
-              <img
-                className="banner-img-7 layer"
-                src="/images/home_4/banner-window.png"
+              <Image src={bannerWindow} className="banner-img-7 layer"
+                
                 alt="Icon "
-                ref={shape4Parallax.ref}
-              />
+                ref={shape4Parallax.ref} />
 
-              <img
-                className="banner-img-8 layer"
-                src="/images/home_4/banner-window2.png"
+              <Image src={bannerWindow2} className="banner-img-8 layer"
+                
                 alt="Icon "
-                ref={shape5Parallax.ref}
-              />
+                ref={shape5Parallax.ref} />
 
-              <img
-                className="banner-img-9 wow fadeInRight"
+              <Image src={bannerPlant} className="banner-img-9 wow fadeInRight"
                 data-wow-delay="0.3s"
-                src="/images/home_4/banner-plant.png"
-                alt="Icon "
-              />
-              <img
-                className="banner-img-10 wow fadeInRight"
+                
+                alt="Icon " />
+              <Image src={bannerMan} className="banner-img-10 wow fadeInRight"
                 data-wow-delay="0.4s"
-                src="/images/home_4/banner-man.png"
-                alt="Icon "
-              />
-              <img
-                className="banner-img-11 wow fadeInDown"
+                
+                alt="Icon " />
+              <Image src={bannerFloorBg} className="banner-img-11 wow fadeInDown"
                 data-wow-delay="0.5s"
-                src="/images/home_4/banner-floor-bg.png"
-                alt="Icon "
-              />
+                
+                alt="Icon " />
             </div>
           </div>
         </div>
@@ -159,32 +159,32 @@ export default function HeroHRM() {
         <div className="pt-0 row pt-lg-4">
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.1s">
-              <img src="/images/brand/brand-6.svg" alt="brand" />
+              <Image src={brand6} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.3s">
-              <img src="/images/brand/brand-7.svg" alt="brand" />
+              <Image src={brand7} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.5s">
-              <img src="/images/brand/brand-8.svg" alt="brand" />
+              <Image src={brand8} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.7s">
-              <img src="/images/brand/brand-9.svg" alt="brand" />
+              <Image src={brand9} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.9s">
-              <img src="/images/brand/brand-10.svg" alt="brand" />
+              <Image src={brand10} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="1.1s">
-              <img src="/images/brand/brand-11.svg" alt="brand" />
+              <Image src={brand11} alt="brand" />
             </div>
           </div>
         </div>

@@ -1,3 +1,7 @@
+import Image from "next/image";
+import award1 from "@/assets/images/about_2/icons/award1.svg";
+import award2 from "@/assets/images/about_2/icons/award2.svg";
+import award3 from "@/assets/images/about_2/icons/award3.svg";
 ;
 
 export default function AwardArea() {
@@ -24,11 +28,9 @@ export default function AwardArea() {
             <div className="col-md-4">
               <div className="award-item text-center">
                 <div className="item-img">
-                  <img
-                    className="mx-auto"
-                    src="/images/about_2/icons/award1.svg"
-                    alt=""
-                  />
+                  <Image src={award1} className="mx-auto"
+                    
+                    alt="" />
                 </div>
                 <p className="item-text">
                   Ranked 11 on Fortune's 100 best companies to work.
@@ -38,11 +40,9 @@ export default function AwardArea() {
             <div className="col-md-4">
               <div className="award-item text-center">
                 <div className="item-img">
-                  <img
-                    className="mx-auto"
-                    src="/images/about_2/icons/award2.svg"
-                    alt=""
-                  />
+                  <Image src={award2} className="mx-auto"
+                    
+                    alt="" />
                 </div>
                 <p className="item-text">
                   People Magazine Companies awards for services.
@@ -52,11 +52,9 @@ export default function AwardArea() {
             <div className="col-md-4">
               <div className="award-item text-center">
                 <div className="item-img">
-                  <img
-                    className="mx-auto"
-                    src="/images/about_2/icons/award3.svg"
-                    alt=""
-                  />
+                  <Image src={award3} className="mx-auto"
+                    
+                    alt="" />
                 </div>
                 <p className="item-text">
                   Forbes America’s 2019 best employers for diversity.

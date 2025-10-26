@@ -1,3 +1,7 @@
+import Image from "next/image";
+import leader1 from "@/assets/images/about_2/leader1.png";
+import leader2 from "@/assets/images/about_2/leader2.png";
+import leader3 from "@/assets/images/about_2/leader3.png";
 ;
 
 export default function IntuitLeaders() {
@@ -20,7 +24,7 @@ export default function IntuitLeaders() {
           <div className="col-lg-3 col-md-6">
             <div className="team-leader-item text-center">
               <div className="item-img">
-                <img src="/images/about_2/leader1.png" alt="" />
+                <Image src={leader1} alt="" />
               </div>
               <h4 className="item-title">EH Jewel</h4>
               <p className="item-sub-title">CEO, Spider Themes</p>
@@ -29,7 +33,7 @@ export default function IntuitLeaders() {
           <div className="col-lg-3 col-md-6">
             <div className="team-leader-item text-center">
               <div className="item-img">
-                <img src="/images/about_2/leader2.png" alt="" />
+                <Image src={leader2} alt="" />
               </div>
               <h4 className="item-title">Mina Panna</h4>
               <p className="item-sub-title">HR Manager</p>
@@ -38,7 +42,7 @@ export default function IntuitLeaders() {
           <div className="col-lg-3 col-md-6">
             <div className="team-leader-item text-center">
               <div className="item-img">
-                <img src="/images/about_2/leader3.png" alt="" />
+                <Image src={leader3} alt="" />
               </div>
               <h4 className="item-title">Ariful Haque</h4>
               <p className="item-sub-title">UX/UI Designer</p>

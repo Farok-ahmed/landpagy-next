@@ -1,3 +1,17 @@
+import Image from "next/image";
+import testShape1 from "@/assets/images/home_4/test-shape1.svg";
+import integrationShape from "@/assets/images/home_4/integration-shape.svg";
+import slackApp from "@/assets/images/home_4/apps2/slack-app.svg";
+import contactApp from "@/assets/images/home_4/apps2/contact-app.svg";
+import msofficeApp from "@/assets/images/home_4/apps2/msoffice-app.svg";
+import calenderApp from "@/assets/images/home_4/apps2/calender-app.svg";
+import driveApp from "@/assets/images/home_4/apps2/drive-app.svg";
+import shopifyApp from "@/assets/images/home_4/apps2/shopify-app.svg";
+import excelApp from "@/assets/images/home_4/apps2/excel-app.svg";
+import meetApp from "@/assets/images/home_4/apps2/meet-app.svg";
+import gmailApp from "@/assets/images/home_4/apps2/gmail-app.svg";
+import mainApp from "@/assets/images/home_4/apps2/main-app.svg";
+import appBars from "@/assets/images/home_4/apps2/app-bars.svg";
 ;
 
 export default function IntegrationHRM() {
@@ -5,10 +19,10 @@ export default function IntegrationHRM() {
     <section className="app-integration-area-two pt-125 pb-120">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/test-shape1.svg" alt="shape" />
+          <Image src={testShape1} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/integration-shape.svg" alt="shape" />
+          <Image src={integrationShape} alt="shape" />
         </div>
       </div>
       <div className="container">
@@ -29,37 +43,37 @@ export default function IntegrationHRM() {
           <div className="col-md-12">
             <div className="apps-area">
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/slack-app.svg" alt="app" />
+                <Image src={slackApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/contact-app.svg" alt="app" />
+                <Image src={contactApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/msoffice-app.svg" alt="app" />
+                <Image src={msofficeApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/calender-app.svg" alt="app" />
+                <Image src={calenderApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/drive-app.svg" alt="app" />
+                <Image src={driveApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/shopify-app.svg" alt="app" />
+                <Image src={shopifyApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/excel-app.svg" alt="app" />
+                <Image src={excelApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/meet-app.svg" alt="app" />
+                <Image src={meetApp} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/gmail-app.svg" alt="app" />
+                <Image src={gmailApp} alt="app" />
               </div>
               <div className="app main wow zoomIn" data-wow-delay="0.2s">
-                <img src="/images/home_4/apps2/main-app.svg" alt="app" />
+                <Image src={mainApp} alt="app" />
               </div>
               <div className="bars">
-                <img src="/images/home_4/apps2/app-bars.svg" alt="app" />
+                <Image src={appBars} alt="app" />
               </div>
             </div>
           </div>

@@ -1,4 +1,7 @@
 "use client";
+import Image from "next/image";
+import statistic1 from "@/assets/images/about_2/statistic1.png";
+import statistic4 from "@/assets/images/about_2/statistic4.png";
 ;
 import CountUp from "react-countup";
 import Slider from "react-slick";
@@ -57,11 +60,9 @@ export default function StatisticsGrid() {
                   </Slider>
                 </div>
                 <div className="col-5">
-                  <img
-                    className="img-fluid"
-                    src="/images/about_2/statistic1.png"
-                    alt="img"
-                  />
+                  <Image src={statistic1} className="img-fluid"
+                    
+                    alt="img" />
                 </div>
               </div>
             </div>
@@ -166,11 +167,9 @@ export default function StatisticsGrid() {
             >
               <div className="row gx-0">
                 <div className="col-5">
-                  <img
-                    className="img-fluid"
-                    src="/images/about_2/statistic4.png"
-                    alt="img"
-                  />
+                  <Image src={statistic4} className="img-fluid"
+                    
+                    alt="img" />
                 </div>
                 <div className="col-7">
                   <div className="widget-content widget-8">

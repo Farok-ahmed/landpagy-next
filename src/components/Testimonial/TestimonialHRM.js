@@ -3,6 +3,11 @@ import React, { useEffect } from "react";
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import GLightbox from "glightbox";
+import Image from "next/image";
+import testShape1 from "@/assets/images/home_4/test-shape1.svg";
+import testShape2 from "@/assets/images/home_4/test-shape2.svg";
+import customerVideo from "@/assets/images/home_4/customer-video.png";
+import customerLogo from "@/assets/images/home_4/customer-logo.svg";
 
 export default function TestimonialHRM() {
   useEffect(() => {
@@ -36,10 +41,10 @@ export default function TestimonialHRM() {
     <section className="testimonial-area-seven pt-125 pb-140">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/test-shape1.svg" alt="shape" />
+          <Image src={testShape1} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/test-shape2.svg" alt="shape" />
+          <Image src={testShape2} alt="shape" />
         </div>
       </div>
       <div className="container">
@@ -59,11 +64,9 @@ export default function TestimonialHRM() {
         <div className="row">
           <div className="col-md-6">
             <div className="customer-video wow fadeInLeft">
-              <img
-                className="customer-img"
-                src=".//images/home_4/customer-video.png"
-                alt=""
-              />
+              <Image src={customerVideo} className="customer-img"
+                
+                alt="" />
               <a
                 className="play-btn"
                 href="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"
@@ -88,11 +91,8 @@ export default function TestimonialHRM() {
                       <p className="testimonial-author">
                         <span>Ariful Haque, </span> UI designer
                       </p>
-                      <img
-                        src=".//images/home_4/customer-logo.svg"
-                        alt="Author Logo"
-                        className="author-logo"
-                      />
+                      <Image src={customerLogo} alt="Author Logo"
+                        className="author-logo" />
                     </div>
                     <a className="check-more" href="/">
                       Check more collaboration in 2021
@@ -113,11 +113,8 @@ export default function TestimonialHRM() {
                       <p className="testimonial-author">
                         <span>Ariful Haque, </span> UI designer
                       </p>
-                      <img
-                        src=".//images/home_4/customer-logo.svg"
-                        alt="Author Logo"
-                        className="author-logo"
-                      />
+                      <Image src={customerLogo} alt="Author Logo"
+                        className="author-logo" />
                     </div>
                     <a className="check-more" href="/">
                       Check more collaboration in 2021
@@ -138,11 +135,8 @@ export default function TestimonialHRM() {
                       <p className="testimonial-author">
                         <span>Ariful Haque, </span> UI designer
                       </p>
-                      <img
-                        src=".//images/home_4/customer-logo.svg"
-                        alt="Author Logo"
-                        className="author-logo"
-                      />
+                      <Image src={customerLogo} alt="Author Logo"
+                        className="author-logo" />
                     </div>
                     <a className="check-more" href="/">
                       Check more collaboration in 2021

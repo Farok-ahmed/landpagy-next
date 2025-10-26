@@ -2,6 +2,9 @@
 import React, { useEffect } from "react";
 import GLightbox from "glightbox";
 import Link from "next/link";
+import Image from "next/image";
+import aboutShape from "@/assets/images/about_2/shape/about-shape.png";
+import aboutVideo from "@/assets/images/about_2/about-video.png";
 export default function AboutTwoHero() {
   useEffect(() => {
     // eslint-disable-next-line
@@ -15,7 +18,7 @@ export default function AboutTwoHero() {
     <section className="about-banner-2">
       <div className="banner-shapes">
         <div className="shape">
-          <img src="/images/about_2/shape/about-shape.png" alt="shapes" />
+          <Image src={aboutShape} alt="shapes" />
         </div>
       </div>
       <div className="container">
@@ -47,7 +50,7 @@ export default function AboutTwoHero() {
             <div className="banner-right wow fadeInRight" data-wow-delay="0.2s">
               <div className="video-wrapp">
                 <div className="video-img">
-                  <img src="./images/about_2/about-video.png" alt="Video" />
+                  <Image src={aboutVideo} alt="Video" />
                 </div>
                 <Link
                   className="play-btn"

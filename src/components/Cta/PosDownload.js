@@ -1,3 +1,13 @@
+import Image from "next/image";
+import hardwareIcon1 from "@/assets/images/home_5/icons/hardware-icon1.svg";
+import hardwareIcon2 from "@/assets/images/home_5/icons/hardware-icon2.svg";
+import hardwareIcon3 from "@/assets/images/home_5/icons/hardware-icon3.svg";
+import hardwareIcon4 from "@/assets/images/home_5/icons/hardware-icon4.svg";
+import hardwareIcon5 from "@/assets/images/home_5/icons/hardware-icon5.svg";
+import hardwareIcon6 from "@/assets/images/home_5/icons/hardware-icon6.svg";
+import appleIcon from "@/assets/images/home_5/icons/apple-icon.svg";
+import androidIcon from "@/assets/images/home_5/icons/android-icon.svg";
+import windowsIcon from "@/assets/images/home_5/icons/windows-icon.svg";
 ;
 
 export default function PosDownload() {
@@ -21,31 +31,22 @@ export default function PosDownload() {
                 <ul className="hardware-list">
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon1.svg"
-                        alt="Icon"
-                        className="hardware-icon"
-                      />
+                      <Image src={hardwareIcon1} alt="Icon"
+                        className="hardware-icon" />
                       Printers
                     </p>
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon2.svg"
-                        alt="Icon"
-                        className="hardware-icon"
-                      />
+                      <Image src={hardwareIcon2} alt="Icon"
+                        className="hardware-icon" />
                       Customer Display
                     </p>
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon3.svg"
-                        alt="Icon"
-                        className="hardware-icon"
-                      />
+                      <Image src={hardwareIcon3} alt="Icon"
+                        className="hardware-icon" />
                       Payment Terminals
                     </p>
                   </li>
@@ -55,31 +56,22 @@ export default function PosDownload() {
                 <ul className="hardware-list">
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon4.svg"
-                        alt="Icon"
-                        className="hardware-icon"
-                      />
+                      <Image src={hardwareIcon4} alt="Icon"
+                        className="hardware-icon" />
                       Cash Drawer
                     </p>
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon5.svg"
-                        alt="Icon"
-                        className="hardware-icon"
-                      />
+                      <Image src={hardwareIcon5} alt="Icon"
+                        className="hardware-icon" />
                       Barcode Scanner
                     </p>
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon6.svg"
-                        alt="Icon"
-                        className="hardware-icon"
-                      />
+                      <Image src={hardwareIcon6} alt="Icon"
+                        className="hardware-icon" />
                       NFC / RFID Readers
                     </p>
                   </li>
@@ -96,29 +88,20 @@ export default function PosDownload() {
                 <ul>
                   <li>
                     <a href="/">
-                      <img
-                        src="/images/home_5/icons/apple-icon.svg"
-                        alt="Icon"
-                        className="app-icon"
-                      />
+                      <Image src={appleIcon} alt="Icon"
+                        className="app-icon" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        src="/images/home_5/icons/android-icon.svg"
-                        alt="Icon"
-                        className="app-icon"
-                      />
+                      <Image src={androidIcon} alt="Icon"
+                        className="app-icon" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        src="/images/home_5/icons/windows-icon.svg"
-                        alt="Icon"
-                        className="app-icon"
-                      />
+                      <Image src={windowsIcon} alt="Icon"
+                        className="app-icon" />
                     </a>
                   </li>
                 </ul>

@@ -1,14 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
+import footerShape from "@/assets/images/home_8/shape/footer-shape.svg";
+import logo2 from "@/assets/images/logo-2.png";
 ;
 
 export default function FooterBilling() {
   return (
     <footer className="footer-billing bg-black-800">
-      <img
-        src="/images/home_8/shape/footer-shape.svg"
-        alt="Shape"
-        className="shape"
-      />
+      <Image src={footerShape} alt="Shape"
+        className="shape" />
       <div className="footer-top pt-125 pb-125">
         <div className="container">
           <div className="row">
@@ -18,7 +18,7 @@ export default function FooterBilling() {
                 data-wow-delay="0.1s"
               >
                 <Link href="/" className="mb-10 footer-logo">
-                  <img src="/images/logo-2.png" alt="Logo" />
+                  <Image src={logo2} alt="Logo" />
                 </Link>
                 <p className="footer-text">
                   For details about managing Customers and billing accounts

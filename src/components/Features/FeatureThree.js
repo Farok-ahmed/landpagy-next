@@ -1,4 +1,10 @@
 "use client";
+import Image from "next/image";
+import features4 from "@/assets/images/features/features-4.png";
+import featuresObject6 from "@/assets/images/features/features-object-6.svg";
+import featuresObject7 from "@/assets/images/features/features-object-7.svg";
+import featuresObject8 from "@/assets/images/features/features-object-8.svg";
+import featuresObject9 from "@/assets/images/features/features-object-9.svg";
 ;
 import { useParallax } from "react-scroll-parallax";
 
@@ -38,30 +44,18 @@ export default function FeatureThree() {
           </div>
           <div className="col-lg-6">
             <div className="features-image">
-              <img src="/images/features/features-4.png" alt="Features" />
-              <img
-                src="/images/features/features-object-6.svg"
-                alt="Features Object"
-                className="features-object6"
-              />
-              <img
-                src="/images/features/features-object-7.svg"
-                alt="Features Object"
+              <Image src={features4} alt="Features" />
+              <Image src={featuresObject6} alt="Features Object"
+                className="features-object6" />
+              <Image src={featuresObject7} alt="Features Object"
                 className="features-object7 object-element layer"
-                ref={shape2Parallax.ref}
-              />
-              <img
-                src="/images/features/features-object-8.svg"
-                alt="Features Object"
+                ref={shape2Parallax.ref} />
+              <Image src={featuresObject8} alt="Features Object"
                 className="features-object8 object-element layer"
-                ref={shape3Parallax.ref}
-              />
-              <img
-                src="/images/features/features-object-9.svg"
-                alt="Features Object"
+                ref={shape3Parallax.ref} />
+              <Image src={featuresObject9} alt="Features Object"
                 className="features-object9 object-element layer"
-                ref={shape4Parallax.ref}
-              />
+                ref={shape4Parallax.ref} />
             </div>
           </div>
         </div>

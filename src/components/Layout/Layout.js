@@ -4,6 +4,8 @@ import { useRouter } from "next/navigation";
 import { ParallaxProvider } from "react-scroll-parallax";
 import dynamic from "next/dynamic";
 import { animationUtils } from "@/utils";
+import Image from "next/image";
+import scroll from "@/assets/images/scroll.svg";
 
 export default function Layout({ children }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -72,7 +74,7 @@ export default function Layout({ children }) {
           {children}
           {isVisible && (
             <button className="scrollToTop" onClick={scrollToTop}>
-              <img src="/images/scroll.svg" alt="Scroll to Top" />
+              <Image src={scroll} alt="Scroll to Top" />
             </button>
           )}
         </div>

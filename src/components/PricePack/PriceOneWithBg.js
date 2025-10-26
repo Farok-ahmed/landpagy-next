@@ -1,3 +1,7 @@
+import Image from "next/image";
+import userIcon1 from "@/assets/images/home_2/user-icon-1.png";
+import userIcon2 from "@/assets/images/home_2/user-icon-2.png";
+import userIcon3 from "@/assets/images/home_2/user-icon-3.png";
 ;
 
 export default function PriceOneWithBg() {
@@ -60,7 +64,7 @@ export default function PriceOneWithBg() {
                     className="pricing-item-2 wow fadeInUp"
                     data-wow-delay="0.1s"
                   >
-                    <img src="/images/home_2/user-icon-1.png" alt="icon" />
+                    <Image src={userIcon1} alt="icon" />
                     <h4>Startaer</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -77,7 +81,7 @@ export default function PriceOneWithBg() {
                     className="pricing-item-2 wow fadeInUp active"
                     data-wow-delay="0.3s"
                   >
-                    <img src="/images/home_2/user-icon-2.png" alt="icon" />
+                    <Image src={userIcon2} alt="icon" />
                     <h4>Business</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -94,7 +98,7 @@ export default function PriceOneWithBg() {
                     className="pricing-item-2 wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    <img src="/images/home_2/user-icon-3.png" alt="icon" />
+                    <Image src={userIcon3} alt="icon" />
                     <h4>Entreprise</h4>
                     <p>
                       Best planning for big entreprise any kind of large
@@ -120,7 +124,7 @@ export default function PriceOneWithBg() {
               <div className="row gy-xl-0 gy-4 pricing-item-two-cotnainer">
                 <div className="col-xl-4 col-md-6">
                   <div className="pricing-item-2">
-                    <img src="/images/home_2/user-icon-1.png" alt="icon" />
+                    <Image src={userIcon1} alt="icon" />
                     <h4>Startaer</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -134,7 +138,7 @@ export default function PriceOneWithBg() {
                 </div>
                 <div className="col-xl-4 col-md-6">
                   <div className="pricing-item-2 active">
-                    <img src="/images/home_2/user-icon-2.png" alt="icon" />
+                    <Image src={userIcon2} alt="icon" />
                     <h4>Business</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -148,7 +152,7 @@ export default function PriceOneWithBg() {
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div className="pricing-item-2">
-                    <img src="/images/home_2/user-icon-3.png" alt="icon" />
+                    <Image src={userIcon3} alt="icon" />
                     <h4>Entreprise</h4>
                     <p>
                       Best planning for big entreprise any kind of large

@@ -1,3 +1,9 @@
+import Image from "next/image";
+import helpCenterShape from "@/assets/images/shape/help-center-shape.png";
+import helpCenterShape2 from "@/assets/images/shape/help-center-shape2.png";
+import helpCenterShape3 from "@/assets/images/shape/help-center-shape3.png";
+import helpCenterShape4 from "@/assets/images/shape/help-center-shape4.png";
+import shape16 from "@/assets/images/shape/shape16.svg";
 ;
 
 export default function HelpCenterHero() {
@@ -33,31 +39,21 @@ export default function HelpCenterHero() {
           </div>
         </div>
       </div>
-      <img
-        className="help-center-shape"
-        src="/images/shape/help-center-shape.png"
-        alt=""
-      />
-      <img
-        className="help-center-shape2"
-        src="/images/shape/help-center-shape2.png"
-        alt=""
-      />
-      <img
-        className="help-center-shape3"
-        src="/images/shape/help-center-shape3.png"
-        alt=""
-      />
-      <img
-        className="help-center-shape4"
-        src="/images/shape/help-center-shape4.png"
-        alt=""
-      />
-      <img
-        className="shape16 animate__animated wow animate__fadeInTopLeft animate__slow"
-        src="/images/shape/shape16.svg"
-        alt=""
-      />
+      <Image src={helpCenterShape} className="help-center-shape"
+        
+        alt="" />
+      <Image src={helpCenterShape2} className="help-center-shape2"
+        
+        alt="" />
+      <Image src={helpCenterShape3} className="help-center-shape3"
+        
+        alt="" />
+      <Image src={helpCenterShape4} className="help-center-shape4"
+        
+        alt="" />
+      <Image src={shape16} className="shape16 animate__animated wow animate__fadeInTopLeft animate__slow"
+        
+        alt="" />
     </section>
   );
 }

@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
+import logo5 from "@/assets/images/logo-5.svg";
 
 export default function FooterPayment() {
   const [selectedOption, setSelectedOption] = useState("english");
@@ -23,7 +25,7 @@ export default function FooterPayment() {
           <div className="row">
             <div className="col-lg-4 wow fadeInLeft">
               <div className="footer-content flex-column justify-content-start align-items-start">
-                <img src="/images/logo-5.svg" alt="Footer Logo" />
+                <Image src={logo5} alt="Footer Logo" />
                 <p className="mt-3">
                   Start working with Landpagy that can provide everything you
                   need to generate awareness, drive traffic, connect.

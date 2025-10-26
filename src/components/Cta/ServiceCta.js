@@ -1,4 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
+import shape1 from "@/assets/images/services/shape1.svg";
+import shape2 from "@/assets/images/services/shape2.svg";
+import shape3 from "@/assets/images/services/shape3.svg";
+import shape4 from "@/assets/images/services/shape4.svg";
 ;
 
 export default function ServiceCta() {
@@ -6,16 +11,16 @@ export default function ServiceCta() {
     <section className="services-cta-area pt-90 pb-100">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/services/shape1.svg" alt="" />
+          <Image src={shape1} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/services/shape2.svg" alt="" />
+          <Image src={shape2} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/services/shape3.svg" alt="" />
+          <Image src={shape3} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/services/shape4.svg" alt="" />
+          <Image src={shape4} alt="" />
         </div>
       </div>
       <div className="container">

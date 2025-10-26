@@ -1,13 +1,13 @@
+import Image from "next/image";
+import aboutShape from "@/assets/images/about_2/shape/about-shape.png";
 ;
 
 export default function ElementsBreadcrumb({ title, description, wider }) {
   return (
     <section className="process-banner-area pt-150 pb-150">
-      <img
-        className="shape"
-        src="/images/about_2/shape/about-shape.png"
-        alt="shapes"
-      />
+      <Image src={aboutShape} className="shape"
+        
+        alt="shapes" />
       <div className="container">
         <div className="row">
           {wider ? (

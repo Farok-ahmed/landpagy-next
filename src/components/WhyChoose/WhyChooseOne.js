@@ -1,3 +1,7 @@
+import Image from "next/image";
+import icon from "@/assets/images/icon/icon.svg";
+import icon2 from "@/assets/images/icon/icon-2.svg";
+import icon3 from "@/assets/images/icon/icon-3.svg";
 
 
 export default function WhyChooseOne() {
@@ -9,7 +13,7 @@ export default function WhyChooseOne() {
             <div className="col-md-4 wow fadeInUp animate__faster">
               <div className="why-choose-item">
                 <div className="why-choose-icon">
-                  <img src="/images/icon/icon.svg" alt="Why Choose Icon" />
+                  <Image src={icon} alt="Why Choose Icon" />
                 </div>
                 <h4>Deadlines will never surprise you again.</h4>
                 <p>
@@ -21,7 +25,7 @@ export default function WhyChooseOne() {
             <div className="col-md-4 wow fadeInUp animate__fast">
               <div className="why-choose-item">
                 <div className="why-choose-icon">
-                  <img src="/images/icon/icon-2.svg" alt="Why Choose Icon" />
+                  <Image src={icon2} alt="Why Choose Icon" />
                 </div>
                 <h4>Everyone knows what need to do.</h4>
                 <p>
@@ -33,7 +37,7 @@ export default function WhyChooseOne() {
             <div className="col-md-4 wow fadeInUp">
               <div className="why-choose-item">
                 <div className="why-choose-icon">
-                  <img src="/images/icon/icon-3.svg" alt="Why Choose Icon" />
+                  <Image src={icon3} alt="Why Choose Icon" />
                 </div>
                 <h4>Less juggling, more time for Real Work.</h4>
                 <p>

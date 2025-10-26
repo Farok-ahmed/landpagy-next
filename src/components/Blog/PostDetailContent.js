@@ -1,14 +1,15 @@
+import Image from "next/image";
+import singlePost1 from "@/assets/images/blog/single-post1.jpg";
+import singlePost2 from "@/assets/images/blog/single-post2.jpg";
 ;
 
 export default function PostDetailContent() {
   return (
     <div className="single-post-item">
       <a className="post-img" href="/">
-        <img
-          className="mb-20"
-          src="/images/blog/single-post1.jpg"
-          alt="Blog Post"
-        />
+        <Image src={singlePost1} className="mb-20"
+          
+          alt="Blog Post" />
       </a>
       <div className="post-content">
         <p className="post-para">
@@ -34,11 +35,9 @@ export default function PostDetailContent() {
           <li>Assets installation</li>
         </ul>
       </div>
-      <img
-        className="mb-30"
-        src="/images/blog/single-post2.jpg"
-        alt="Blog Post"
-      />
+      <Image src={singlePost2} className="mb-30"
+        
+        alt="Blog Post" />
       <div className="post-content">
         <p className="para-subtitle">
           This response is important for our ability to from mistakes but it

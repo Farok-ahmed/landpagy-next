@@ -1,3 +1,9 @@
+import Image from "next/image";
+import checkmark from "@/assets/images/icon/checkmark.svg";
+import allInApp from "@/assets/images/home_3/all-in-app.png";
+import icon1 from "@/assets/images/home_10/icons/icon1.svg";
+import icon2 from "@/assets/images/home_10/icons/icon2.svg";
+import feaImages2 from "@/assets/images/home_6/fea-images2.svg";
 ;
 
 export default function ProductFeature() {
@@ -21,7 +27,7 @@ export default function ProductFeature() {
                     <ul>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmark} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           <div className="text-block _16-px full-white">
@@ -31,7 +37,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmark} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           WiFi connectivity
@@ -39,7 +45,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmark} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           mobile SIM card plan
@@ -47,7 +53,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmark} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           10h battery life
@@ -55,7 +61,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmark} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           5-inch HD touch screen
@@ -63,11 +69,8 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img
-                            src="/images/icon/checkmark.svg"
-                            alt=""
-                            className="image contain"
-                          />
+                          <Image src={checkmark} alt=""
+                            className="image contain" />
                         </div>
                         <div className="product-tab-pointer-text">
                           built in thermal printer
@@ -80,7 +83,7 @@ export default function ProductFeature() {
                   </a>
                 </div>
                 <div className="produ">
-                  <img src="/images/home_3/all-in-app.png" alt="" />
+                  <Image src={allInApp} alt="" />
                 </div>
               </div>
               <div className="shadow-lg product-box-copy copy">
@@ -93,7 +96,7 @@ export default function ProductFeature() {
                   <div className="product-hero-box-pointers">
                     <div className="product-hero-box-pointer-item">
                       <div className="product-features-img">
-                        <img src=".//images/home_10/icons/icon1.svg" alt="" />
+                        <Image src={icon1} alt="" />
                       </div>
                       <h5 className="product-hero-box-pointer-title">
                         Phone Support
@@ -102,7 +105,7 @@ export default function ProductFeature() {
                     </div>
                     <div className="product-hero-box-pointer-item">
                       <div className="product-features-img">
-                        <img src=".//images/home_10/icons/icon2.svg" alt="" />
+                        <Image src={icon2} alt="" />
                       </div>
                       <h5 className="product-hero-box-pointer-title">
                         Remote Updates
@@ -115,7 +118,7 @@ export default function ProductFeature() {
                   </a>
                 </div>
                 <div className="product-hero-box-2">
-                  <img src=".//images/home_6/fea-images2.svg" alt="" />
+                  <Image src={feaImages2} alt="" />
                 </div>
               </div>
               <div className="product-dotted-line down"></div>

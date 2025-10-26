@@ -1,3 +1,6 @@
+import Image from "next/image";
+import topPost from "@/assets/images/blog_grid/top_post.jpg";
+import ansley from "@/assets/images/blog_grid/ansley.jpg";
 ;
 
 export default function FullWidthPost() {
@@ -6,11 +9,9 @@ export default function FullWidthPost() {
       <div className="container blog-grid-container">
         <div className="row blog_top_post flex-row-reverse shadow">
           <div className="col-lg-7 p_top_img">
-            <img
-              className="p_img"
-              src="/images/blog_grid/top_post.jpg"
-              alt=""
-            />
+            <Image src={topPost} className="p_img"
+              
+              alt="" />
           </div>
           <div className="col-lg-5 p-0">
             <div className="b_top_post_content">
@@ -33,7 +34,7 @@ export default function FullWidthPost() {
               </a>
               <div className="media post_author">
                 <div className="round_img">
-                  <img src="/images/blog_grid/ansley.jpg" alt="" />
+                  <Image src={ansley} alt="" />
                 </div>
                 <div className="media-body author_text">
                   <h4>Jason Response</h4>

@@ -1,4 +1,13 @@
 "use client";
+import Image from "next/image";
+import shape10 from "@/assets/images/home_9/shapes/shape10.svg";
+import shape111 from "@/assets/images/home_9/shapes/shape11-1.svg";
+import shape112 from "@/assets/images/home_9/shapes/shape11-2.svg";
+import shape113 from "@/assets/images/home_9/shapes/shape11-3.svg";
+import shape114 from "@/assets/images/home_9/shapes/shape11-4.svg";
+import shape115 from "@/assets/images/home_9/shapes/shape11-5.svg";
+import shape116 from "@/assets/images/home_9/shapes/shape11-6.svg";
+import pricingImg from "@/assets/images/home_9/pricing-img.png";
 ;
 import { Parallax } from "react-scroll-parallax";
 
@@ -39,7 +48,7 @@ export default function CloudPrice() {
             >
               <div className="bg-shapes">
                 <div className="shape">
-                  <img src="/images/home_9/shapes/shape10.svg" alt="Shape" />
+                  <Image src={shape10} alt="Shape" />
                 </div>
                 <div className="shape">
                   <Parallax
@@ -48,10 +57,7 @@ export default function CloudPrice() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img
-                      src="/images/home_9/shapes/shape11-1.svg"
-                      alt="Shape"
-                    />
+                    <Image src={shape111} alt="Shape" />
                   </Parallax>
                 </div>
                 <div className="shape">
@@ -61,10 +67,7 @@ export default function CloudPrice() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img
-                      src="/images/home_9/shapes/shape11-2.svg"
-                      alt="Shape"
-                    />
+                    <Image src={shape112} alt="Shape" />
                   </Parallax>
                 </div>
                 <div className="shape">
@@ -74,10 +77,7 @@ export default function CloudPrice() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img
-                      src="/images/home_9/shapes/shape11-3.svg"
-                      alt="Shape"
-                    />
+                    <Image src={shape113} alt="Shape" />
                   </Parallax>
                 </div>
                 <div className="shape">
@@ -87,10 +87,7 @@ export default function CloudPrice() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img
-                      src="/images/home_9/shapes/shape11-4.svg"
-                      alt="Shape"
-                    />
+                    <Image src={shape114} alt="Shape" />
                   </Parallax>
                 </div>
                 <div className="shape">
@@ -100,10 +97,7 @@ export default function CloudPrice() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img
-                      src="/images/home_9/shapes/shape11-5.svg"
-                      alt="Shape"
-                    />
+                    <Image src={shape115} alt="Shape" />
                   </Parallax>
                 </div>
                 <div className="shape">
@@ -113,14 +107,11 @@ export default function CloudPrice() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img
-                      src="/images/home_9/shapes/shape11-6.svg"
-                      alt="Shape"
-                    />
+                    <Image src={shape116} alt="Shape" />
                   </Parallax>
                 </div>
               </div>
-              <img src="/images/home_9/pricing-img.png" alt="" />
+              <Image src={pricingImg} alt="" />
             </div>
           </div>
           <div className="col-lg-8">

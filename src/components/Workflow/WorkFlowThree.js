@@ -1,3 +1,9 @@
+import Image from "next/image";
+import icon1 from "@/assets/images/home_7/icons/icon1.svg";
+import icon2 from "@/assets/images/home_7/icons/icon2.svg";
+import icon3 from "@/assets/images/home_7/icons/icon3.svg";
+import icon4 from "@/assets/images/home_7/icons/icon4.svg";
+import logoIcon from "@/assets/images/home_7/icons/logo-icon.svg";
 
 
 export default function WorkFlowThree() {
@@ -24,25 +30,25 @@ export default function WorkFlowThree() {
           <ul className="solution-list">
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon1.svg" alt="Icon" />
+                <Image src={icon1} alt="Icon" />
               </span>
               <span className="text">Business Management</span>
             </li>
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon2.svg" alt="Icon" />
+                <Image src={icon2} alt="Icon" />
               </span>
               <span className="text">Software Solutions</span>
             </li>
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon3.svg" alt="Icon" />
+                <Image src={icon3} alt="Icon" />
               </span>
               <span className="text">Online Security</span>
             </li>
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon4.svg" alt="Icon" />
+                <Image src={icon4} alt="Icon" />
               </span>
               <span className="text">E-Commerce Solutions</span>
             </li>
@@ -86,20 +92,20 @@ export default function WorkFlowThree() {
             </svg>
             <div className="icons">
               <div className="icon">
-                <img src="/images/home_7/icons/icon1.svg" alt="Icon" />
+                <Image src={icon1} alt="Icon" />
               </div>
               <div className="icon">
-                <img src="/images/home_7/icons/icon2.svg" alt="Icon" />
+                <Image src={icon2} alt="Icon" />
               </div>
               <div className="icon">
-                <img src="/images/home_7/icons/icon3.svg" alt="Icon" />
+                <Image src={icon3} alt="Icon" />
               </div>
               <div className="icon">
-                <img src="/images/home_7/icons/icon4.svg" alt="Icon" />
+                <Image src={icon4} alt="Icon" />
               </div>
             </div>
             <div className="main-img">
-              <img src="/images/home_7/icons/logo-icon.svg" alt="Logo" />
+              <Image src={logoIcon} alt="Logo" />
             </div>
           </div>
         </div>

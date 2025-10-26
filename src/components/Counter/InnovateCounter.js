@@ -1,4 +1,7 @@
 "use client";
+import Image from "next/image";
+import counterShape1 from "@/assets/images/home_7/shapes/counter-shape1.svg";
+import counterShape2 from "@/assets/images/home_7/shapes/counter-shape2.svg";
 ;
 import CountUp from "react-countup";
 
@@ -7,10 +10,10 @@ export default function InnovateCounter() {
     <section className="soft-counter-area pt-135 pb-150">
       <div className="shapes">
         <div className="shape">
-          <img src="/images/home_7/shapes/counter-shape1.svg" alt="" />
+          <Image src={counterShape1} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_7/shapes/counter-shape2.svg" alt="" />
+          <Image src={counterShape2} alt="" />
         </div>
       </div>
       <div className="container container-soft2">

@@ -3,6 +3,14 @@ import React, { useEffect } from "react";
 import Slider from "react-slick";
 import GLightbox from "glightbox";
 import Link from "next/link";
+import Image from "next/image";
+import userSlide from "@/assets/images/home_2/user-slide.png";
+import smile from "@/assets/images/home_2/smile.png";
+import brand1 from "@/assets/images/brand/brand-1.svg";
+import brand2 from "@/assets/images/brand/brand-2.svg";
+import brand3 from "@/assets/images/brand/brand-3.svg";
+import brand4 from "@/assets/images/brand/brand-4.svg";
+import brand5 from "@/assets/images/brand/brand-5.svg";
 
 export default function AboutVideo() {
   useEffect(() => {
@@ -32,11 +40,9 @@ export default function AboutVideo() {
               <div>
                 <div className="single-user-slide-widget">
                   <div className="widget-top">
-                    <img
-                      className="user-img"
-                      src="/images/home_2/user-slide.png"
-                      alt=""
-                    />
+                    <Image src={userSlide} className="user-img"
+                      
+                      alt="" />
                     <Link
                       className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
@@ -44,7 +50,7 @@ export default function AboutVideo() {
                       <i className="fas fa-play"></i>
                     </Link>
                     <div className="smile-icon">
-                      <img src="/images/home_2/smile.png" alt="" />
+                      <Image src={smile} alt="" />
                     </div>
                   </div>
                   <div className="widget-bottom">
@@ -62,11 +68,9 @@ export default function AboutVideo() {
               <div>
                 <div className="single-user-slide-widget">
                   <div className="widget-top">
-                    <img
-                      className="user-img"
-                      src="/images/home_2/user-slide.png"
-                      alt=""
-                    />
+                    <Image src={userSlide} className="user-img"
+                      
+                      alt="" />
                     <Link
                       className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
@@ -75,7 +79,7 @@ export default function AboutVideo() {
                       <i className="fas fa-play"></i>
                     </Link>
                     <div className="smile-icon">
-                      <img src="/images/home_2/smile.png" alt="" />
+                      <Image src={smile} alt="" />
                     </div>
                   </div>
                   <div className="widget-bottom">
@@ -93,11 +97,9 @@ export default function AboutVideo() {
               <div>
                 <div className="single-user-slide-widget">
                   <div className="widget-top">
-                    <img
-                      className="user-img"
-                      src="/images/home_2/user-slide.png"
-                      alt=""
-                    />
+                    <Image src={userSlide} className="user-img"
+                      
+                      alt="" />
                     <Link
                       className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
@@ -106,7 +108,7 @@ export default function AboutVideo() {
                       <i className="fas fa-play"></i>
                     </Link>
                     <div className="smile-icon">
-                      <img src="/images/home_2/smile.png" alt="" />
+                      <Image src={smile} alt="" />
                     </div>
                   </div>
                   <div className="widget-bottom">
@@ -134,7 +136,7 @@ export default function AboutVideo() {
                   className="client-image wow fadeInRight"
                   data-wow-delay="0.1s"
                 >
-                  <img src="/images/brand/brand-1.svg" alt="Brand " />
+                  <Image src={brand1} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
@@ -142,7 +144,7 @@ export default function AboutVideo() {
                   className="client-image wow fadeInRight"
                   data-wow-delay="0.3s"
                 >
-                  <img src="/images/brand/brand-2.svg" alt="Brand " />
+                  <Image src={brand2} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
@@ -150,7 +152,7 @@ export default function AboutVideo() {
                   className="client-image wow fadeInRight"
                   data-wow-delay="0.5s"
                 >
-                  <img src="/images/brand/brand-3.svg" alt="Brand " />
+                  <Image src={brand3} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
@@ -158,7 +160,7 @@ export default function AboutVideo() {
                   className="client-image wow fadeInRight"
                   data-wow-delay="0.1s"
                 >
-                  <img src="/images/brand/brand-4.svg" alt="Brand " />
+                  <Image src={brand4} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
@@ -166,7 +168,7 @@ export default function AboutVideo() {
                   className="client-image wow fadeInRight"
                   data-wow-delay="0.3s"
                 >
-                  <img src="/images/brand/brand-5.svg" alt="Brand " />
+                  <Image src={brand5} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
@@ -174,7 +176,7 @@ export default function AboutVideo() {
                   className="client-image wow fadeInRight"
                   data-wow-delay="0.5s"
                 >
-                  <img src="/images/brand/brand-1.svg" alt="Brand " />
+                  <Image src={brand1} alt="Brand " />
                 </div>
               </div>
             </div>

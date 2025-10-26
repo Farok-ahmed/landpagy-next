@@ -1,4 +1,8 @@
 import Link from "next/link";
+import Image from "next/image";
+import footerShape from "@/assets/images/home_4/footer-shape.svg";
+import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
+import logo from "@/assets/images/logo.svg";
 ;
 
 export default function FooterHRM() {
@@ -6,10 +10,10 @@ export default function FooterHRM() {
     <footer className="footer-hrm footer-software bg-merino">
       <div className="bg-shapes">
         <div className="shapes">
-          <img src="/images/home_4/footer-shape.svg" alt="Shape" />
+          <Image src={footerShape} alt="Shape" />
         </div>
         <div className="shapes">
-          <img src="/images/home_4/banner-shape-4.svg" alt="Shape" />
+          <Image src={bannerShape4} alt="Shape" />
         </div>
       </div>
       <div className="footer-top">
@@ -128,11 +132,9 @@ export default function FooterHRM() {
               <ul>
                 <li>
                   <Link href="/">
-                    <img
-                      className="d-md-block d-sm-inline-block"
-                      src="/images/logo.svg"
-                      alt="Footer Logo"
-                    />
+                    <Image src={logo} className="d-md-block d-sm-inline-block"
+                      
+                      alt="Footer Logo" />
                   </Link>
                 </li>
               </ul>

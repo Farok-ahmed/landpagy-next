@@ -1,3 +1,9 @@
+import Image from "next/image";
+import ctaImg1 from "@/assets/images/home_10/cta-img1.svg";
+import ctaImg2 from "@/assets/images/home_10/cta-img2.svg";
+import ctaImg3 from "@/assets/images/home_10/cta-img3.svg";
+import ctaImg4 from "@/assets/images/home_10/cta-img4.svg";
+import ctaImg5 from "@/assets/images/home_10/cta-img5.svg";
 ;
 
 export default function AppDownloadTwo({ hasSpace }) {
@@ -48,36 +54,21 @@ export default function AppDownloadTwo({ hasSpace }) {
             </div>
             <div className="col-lg-5">
               <div className="app-cta-images">
-                <img
-                  src="/images/home_10/cta-img1.svg"
-                  alt=""
+                <Image src={ctaImg1} alt=""
                   className="img wow fadeInRight"
-                  data-wow-delay="0.1s"
-                />
-                <img
-                  src="/images/home_10/cta-img2.svg"
-                  alt=""
+                  data-wow-delay="0.1s" />
+                <Image src={ctaImg2} alt=""
                   className="img wow fadeInRight"
-                  data-wow-delay="0.5s"
-                />
-                <img
-                  src="/images/home_10/cta-img3.svg"
-                  alt=""
+                  data-wow-delay="0.5s" />
+                <Image src={ctaImg3} alt=""
                   className="img wow fadeInLeft"
-                  data-wow-delay="0.7s"
-                />
-                <img
-                  src="/images/home_10/cta-img4.svg"
-                  alt=""
+                  data-wow-delay="0.7s" />
+                <Image src={ctaImg4} alt=""
                   className="img wow fadeInDown"
-                  data-wow-delay="0.9s"
-                />
-                <img
-                  src="/images/home_10/cta-img5.svg"
-                  alt=""
+                  data-wow-delay="0.9s" />
+                <Image src={ctaImg5} alt=""
                   className="img wow fadeInDown"
-                  data-wow-delay="0.3s"
-                />
+                  data-wow-delay="0.3s" />
               </div>
             </div>
           </div>

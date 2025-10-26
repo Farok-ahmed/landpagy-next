@@ -1,3 +1,7 @@
+import Image from "next/image";
+import serviceIcon1 from "@/assets/images/home_8/icons/service-icon1.svg";
+import serviceIcon2 from "@/assets/images/home_8/icons/service-icon2.svg";
+import serviceIcon3 from "@/assets/images/home_8/icons/service-icon3.svg";
 
 
 export default function HowItWorks() {
@@ -18,7 +22,7 @@ export default function HowItWorks() {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="services-item wow fadeInLeft" data-wow-delay="0.2s">
-              <img src="/images/home_8/icons/service-icon1.svg" alt="" />
+              <Image src={serviceIcon1} alt="" />
               <h3 className="service-item-title">Interchange fees</h3>
               <p className="service-item-text">
                 Any business that allows customers to make purchases with
@@ -31,7 +35,7 @@ export default function HowItWorks() {
           </div>
           <div className="col-lg-4 col-md-6 mt-sm-0 mt-5">
             <div className="services-item wow fadeInDown" data-wow-delay="0.2s">
-              <img src="/images/home_8/icons/service-icon2.svg" alt="" />
+              <Image src={serviceIcon2} alt="" />
               <h3 className="service-item-title">Our Corporate</h3>
               <p className="service-item-text">
                 Since the global financial crisis, the use of spending review
@@ -47,7 +51,7 @@ export default function HowItWorks() {
               className="services-item wow fadeInRight"
               data-wow-delay="0.2s"
             >
-              <img src="/images/home_8/icons/service-icon3.svg" alt="" />
+              <Image src={serviceIcon3} alt="" />
               <h3 className="service-item-title">European Regulation</h3>
               <p className="service-item-text">
                 Understand your growth, churn, and retention rates with

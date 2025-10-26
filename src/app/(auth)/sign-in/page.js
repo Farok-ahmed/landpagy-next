@@ -1,4 +1,13 @@
 "use client";
+import Image from "next/image";
+import shape2 from "@/assets/images/signup/shape2.svg";
+import shape3 from "@/assets/images/signup/shape3.svg";
+import shape4 from "@/assets/images/signup/shape4.svg";
+import shape1 from "@/assets/images/signup/shape1.svg";
+import icon1 from "@/assets/images/signup/icon1.svg";
+import icon2 from "@/assets/images/signup/icon2.svg";
+import icon3 from "@/assets/images/signup/icon3.svg";
+import icon4 from "@/assets/images/signup/icon4.svg";
 ;
 import ElementsLayout from "@/components/Layout/ElementsLayout";
 import Link from "next/link";
@@ -43,13 +52,13 @@ export default function SignIn() {
           <div className="sign-up-box">
             <div className="bg-shapes">
               <div className="shape">
-                <img src="/images/signup/shape2.svg" alt="Shape" />
+                <Image src={shape2} alt="Shape" />
               </div>
               <div className="shape layer" ref={parallaxOne.ref}>
-                <img src="/images/signup/shape3.svg" alt="Shape" />
+                <Image src={shape3} alt="Shape" />
               </div>
               <div className="shape">
-                <img src="/images/signup/shape4.svg" alt="Shape" />
+                <Image src={shape4} alt="Shape" />
               </div>
             </div>
             <div className="row">
@@ -73,7 +82,7 @@ export default function SignIn() {
                     ref={shape4Parallax.ref}
                   ></div>
                   <div className="shapes">
-                    <img src="/images/signup/shape1.svg" alt="Shape" />
+                    <Image src={shape1} alt="Shape" />
                   </div>
                 </div>
               </div>
@@ -86,22 +95,22 @@ export default function SignIn() {
                     <ul className="create-with-list mt-45 mb-35">
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon1.svg" alt="Icon" />
+                          <Image src={icon1} alt="Icon" />
                         </a>
                       </li>
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon2.svg" alt="Icon" />
+                          <Image src={icon2} alt="Icon" />
                         </a>
                       </li>
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon3.svg" alt="Icon" />
+                          <Image src={icon3} alt="Icon" />
                         </a>
                       </li>
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon4.svg" alt="Icon" />
+                          <Image src={icon4} alt="Icon" />
                         </a>
                       </li>
                     </ul>

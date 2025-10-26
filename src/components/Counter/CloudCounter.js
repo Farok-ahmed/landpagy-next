@@ -1,4 +1,7 @@
 "use client";
+import Image from "next/image";
+import icon1 from "@/assets/images/home_9/shapes/icon1.svg";
+import icon2 from "@/assets/images/home_9/shapes/icon2.svg";
 ;
 import CountUp from "react-countup";
 
@@ -45,7 +48,7 @@ export default function CloudCounter() {
             <div className="cloud-join-right ml-40">
               <div className="right-item mb-30">
                 <div className="w-30">
-                  <img src="/images/home_9/shapes/icon1.svg" alt="" />
+                  <Image src={icon1} alt="" />
                 </div>
                 <div className="w-70">
                   <p className="item-text">Number of registered users</p>
@@ -56,7 +59,7 @@ export default function CloudCounter() {
               </div>
               <div className="right-item">
                 <div className="w-30">
-                  <img src="/images/home_9/shapes/icon2.svg" alt="" />
+                  <Image src={icon2} alt="" />
                 </div>
                 <div className="w-70">
                   <p className="item-text">Number of files uploaded</p>

@@ -1,5 +1,13 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
+import right from "@/assets/images/home_10/shapes/right.svg";
+import border from "@/assets/images/home_10/shapes/border.svg";
+import shape5 from "@/assets/images/home_10/shapes/shape5.svg";
+import shape6 from "@/assets/images/home_10/shapes/shape6.svg";
+import shape7 from "@/assets/images/home_10/shapes/shape7.svg";
+import worksImg from "@/assets/images/home_10/works-img.png";
+import feturesImg from "@/assets/images/home_10/fetures-img.png";
 const slides = [
   {
     id: 1,
@@ -24,11 +32,9 @@ const slides = [
         we can tell you how much of your wage you can access today
         <a className="btn-more" href="/">
           Learn more
-          <img
-            className="icon"
-            src="/images/home_10/shapes/right.svg"
-            alt="Arrow"
-          />
+          <Image src={right} className="icon"
+            
+            alt="Arrow" />
         </a>
       </>
     ),
@@ -72,11 +78,9 @@ export default function AppHowItWorks() {
                 How
                 <span>
                   it Works
-                  <img
-                    className="border-shape"
-                    src="/images/home_10/shapes/border.svg"
-                    alt="Border"
-                  />
+                  <Image src={border} className="border-shape"
+                    
+                    alt="Border" />
                 </span>
               </h2>
 
@@ -102,13 +106,13 @@ export default function AppHowItWorks() {
                   <div className="shape"></div>
                   <div className="shape"></div>
                   <div className="shape">
-                    <img src="/images/home_10/shapes/shape5.svg" alt="Shape" />
+                    <Image src={shape5} alt="Shape" />
                   </div>
                   <div className="shape">
-                    <img src="/images/home_10/shapes/shape6.svg" alt="Shape" />
+                    <Image src={shape6} alt="Shape" />
                   </div>
                   <div className="shape">
-                    <img src="/images/home_10/shapes/shape7.svg" alt="Shape" />
+                    <Image src={shape7} alt="Shape" />
                   </div>
                 </div>
                 {slides.map((slide) => (
@@ -151,11 +155,9 @@ export default function AppHowItWorks() {
                 How
                 <span>
                   it Works
-                  <img
-                    className="border-shape"
-                    src="/images/home_10/shapes/border.svg"
-                    alt="Border"
-                  />
+                  <Image src={border} className="border-shape"
+                    
+                    alt="Border" />
                 </span>
               </h2>
 
@@ -166,11 +168,9 @@ export default function AppHowItWorks() {
                   salary so we can tell you how much of your wage you can access
                   today
                 </p>
-                <img
-                  className="mb-40 mt-30"
-                  src="/images/home_10/works-img.png"
-                  alt=""
-                />
+                <Image src={worksImg} className="mb-40 mt-30"
+                  
+                  alt="" />
               </div>
               <div className="app-how-item">
                 <p className="title">2. Create account</p>
@@ -179,11 +179,9 @@ export default function AppHowItWorks() {
                   salary so we can tell you how much of your wage you can access
                   today
                 </p>
-                <img
-                  className="mb-40 mt-30"
-                  src="/images/home_10/fetures-img.png"
-                  alt=""
-                />
+                <Image src={feturesImg} className="mb-40 mt-30"
+                  
+                  alt="" />
               </div>
               <div className="app-how-item">
                 <p className="title">3. Enjoy the features!</p>
@@ -193,18 +191,14 @@ export default function AppHowItWorks() {
                   today
                   <a className="btn-more" href="/">
                     Learn more
-                    <img
-                      className="icon"
-                      src="/images/home_10/shapes/right.svg"
-                      alt="Arrow"
-                    />
+                    <Image src={right} className="icon"
+                      
+                      alt="Arrow" />
                   </a>
                 </p>
-                <img
-                  className="mt-30"
-                  src="/images/home_10/works-img.png"
-                  alt="just"
-                />
+                <Image src={worksImg} className="mt-30"
+                  
+                  alt="just" />
               </div>
             </div>
           </div>

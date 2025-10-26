@@ -1,6 +1,16 @@
 "use client";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import appIntegrate1 from "@/assets/images/home_3/app-integrate-1.png";
+import appIntegrate2 from "@/assets/images/home_3/app-integrate-2.png";
+import appIntegrate3 from "@/assets/images/home_3/app-integrate-3.png";
+import appIntegrate4 from "@/assets/images/home_3/app-integrate-4.png";
+import appIntegrate5 from "@/assets/images/home_3/app-integrate-5.png";
+import appIntegrate6 from "@/assets/images/home_3/app-integrate-6.png";
+import appIntegrate7 from "@/assets/images/home_3/app-integrate-7.png";
+import appIntegrate8 from "@/assets/images/home_3/app-integrate-8.png";
+import appIntegrate9 from "@/assets/images/home_3/app-integrate-9.png";
 
 export default function IntegrationTwo() {
   const [timeCount, setTimeCount] = useState(0);
@@ -65,31 +75,31 @@ export default function IntegrationTwo() {
           <div className="order-1 col-lg-5 offset-xl-1 order-lg-2">
             <div className="mx-auto integreted-app">
               <div className="app">
-                <img src="/images/home_3/app-integrate-1.png" alt="app" />
+                <Image src={appIntegrate1} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_3/app-integrate-2.png" alt="app" />
+                <Image src={appIntegrate2} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_3/app-integrate-3.png" alt="app" />
+                <Image src={appIntegrate3} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_3/app-integrate-4.png" alt="app" />
+                <Image src={appIntegrate4} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_3/app-integrate-5.png" alt="app" />
+                <Image src={appIntegrate5} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_3/app-integrate-6.png" alt="app" />
+                <Image src={appIntegrate6} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_3/app-integrate-7.png" alt="app" />
+                <Image src={appIntegrate7} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_3/app-integrate-8.png" alt="app" />
+                <Image src={appIntegrate8} alt="app" />
               </div>
               <div className="main app">
-                <img src="/images/home_3/app-integrate-9.png" alt="app" />
+                <Image src={appIntegrate9} alt="app" />
               </div>
             </div>
           </div>

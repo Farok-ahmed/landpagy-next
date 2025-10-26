@@ -2,6 +2,9 @@
 import React, { useEffect } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
+import testimonial1 from "@/assets/images/testimonial/testimonial-1.jpg";
+import testimonial from "@/assets/images/testimonial/testimonial.png";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -69,10 +72,7 @@ const TestimonialOne = () => {
                             </p>
                             <div className="testimonial-author">
                               <div className="testimonial-author-image">
-                                <img
-                                  src="/images/testimonial/testimonial-1.jpg"
-                                  alt="Testimonial"
-                                />
+                                <Image src={testimonial1} alt="Testimonial" />
                               </div>
                               <div className="testimonial-author-name">
                                 <h4>Jesus Requena</h4>
@@ -84,10 +84,7 @@ const TestimonialOne = () => {
                       </div>
                       <div className="col-5 col-md-5">
                         <div className="testimonial-right-image">
-                          <img
-                            src="/images/testimonial/testimonial.png"
-                            alt="Testimonial Right"
-                          />
+                          <Image src={testimonial} alt="Testimonial Right" />
                         </div>
                       </div>
                     </div>

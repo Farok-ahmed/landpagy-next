@@ -1,10 +1,12 @@
+import Image from "next/image";
+import auhorImg from "@/assets/images/blog/auhor-img.png";
 ;
 
 export default function CommentCard() {
   return (
     <div className="single-post-author mb-60">
       <div className="author-img">
-        <img src="/images/blog/auhor-img.png" alt="" />
+        <Image src={auhorImg} alt="" />
       </div>
       <div className="author-body">
         <h5 className="auth-name">Ahmad Bator</h5>

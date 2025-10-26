@@ -1,4 +1,7 @@
 "use client";
+import Image from "next/image";
+import border from "@/assets/images/home_10/shapes/border.svg";
+import upRight from "@/assets/images/home_10/shapes/up-right.svg";
 ;
 import Slider from "react-slick";
 const SlickBtnPrev = ({ currentSlide, slideCount, children, ...props }) => (
@@ -53,11 +56,9 @@ export default function BlogSlider() {
               Read up on the {""}
               <span>
                 Latest.
-                <img
-                  className="border-shape"
-                  src="/images/home_10/shapes/border.svg"
-                  alt="Border"
-                />
+                <Image src={border} className="border-shape"
+                  
+                  alt="Border" />
               </span>
             </h2>
           </div>
@@ -75,11 +76,9 @@ export default function BlogSlider() {
               </p>
               <a href="/" className="item-btn">
                 Read the full article
-                <img
-                  className="icon"
-                  src="/images/home_10/shapes/up-right.svg"
-                  alt="Icon"
-                />
+                <Image src={upRight} className="icon"
+                  
+                  alt="Icon" />
               </a>
             </div>
           </div>
@@ -94,11 +93,9 @@ export default function BlogSlider() {
               </p>
               <a href="/" className="item-btn">
                 Read the full article
-                <img
-                  className="icon"
-                  src="/images/home_10/shapes/up-right.svg"
-                  alt="Icon"
-                />
+                <Image src={upRight} className="icon"
+                  
+                  alt="Icon" />
               </a>
             </div>
           </div>
@@ -113,11 +110,9 @@ export default function BlogSlider() {
               </p>
               <a href="/" className="item-btn">
                 Read the full article
-                <img
-                  className="icon"
-                  src="/images/home_10/shapes/up-right.svg"
-                  alt="Icon"
-                />
+                <Image src={upRight} className="icon"
+                  
+                  alt="Icon" />
               </a>
             </div>
           </div>
@@ -132,11 +127,9 @@ export default function BlogSlider() {
               </p>
               <a href="/" className="item-btn">
                 Read the full article
-                <img
-                  className="icon"
-                  src="/images/home_10/shapes/up-right.svg"
-                  alt="Icon"
-                />
+                <Image src={upRight} className="icon"
+                  
+                  alt="Icon" />
               </a>
             </div>
           </div>
@@ -152,11 +145,9 @@ export default function BlogSlider() {
               </p>
               <a href="/" className="item-btn">
                 Read the full article
-                <img
-                  className="icon"
-                  src="/images/home_10/shapes/up-right.svg"
-                  alt="Icon"
-                />
+                <Image src={upRight} className="icon"
+                  
+                  alt="Icon" />
               </a>
             </div>
           </div>

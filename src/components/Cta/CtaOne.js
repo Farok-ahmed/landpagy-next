@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import bannerShape4 from "@/assets/images/home_2/banner-shape-4.svg";
+import bannerShape5 from "@/assets/images/home_2/banner-shape-5.svg";
 ;
 
 export default function CtaOne() {
@@ -8,10 +11,10 @@ export default function CtaOne() {
         <div className="cta-box bg-black pt-70 pb-70">
           <div className="bg-shapes">
             <div className="shape">
-              <img src="/images/home_2/banner-shape-4.svg" alt="Shape" />
+              <Image src={bannerShape4} alt="Shape" />
             </div>
             <div className="shape">
-              <img src="/images/home_2/banner-shape-5.svg" alt="Shape" />
+              <Image src={bannerShape5} alt="Shape" />
             </div>
           </div>
           <div className="row align-items-center gy-3 gy-md-0">

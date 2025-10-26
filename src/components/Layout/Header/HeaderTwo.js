@@ -1,3 +1,6 @@
+import logo5 from "@/assets/images/logo-5.svg";
+import logo from "@/assets/images/logo.svg";
+import Image from "next/image";
 ;
 
 import Link from "next/link";
@@ -9,8 +12,8 @@ export default function HeaderTwo() {
       <nav className="navbar navbar-expand-lg menu_four sticky-nav">
         <div className="container-fluid">
           <Link className="navbar-brand header_logo" href="/">
-            <img className="main_logo" src="/images/logo.svg" alt="logo" />
-            <img className="white_logo" src="/images/logo-5.svg" alt="logo" />
+            <Image src={logo} className="main_logo"  alt="logo" />
+            <Image src={logo5} className="white_logo"  alt="logo" />
           </Link>
           <button
             className="navbar-toggler collapsed"
@@ -51,7 +54,7 @@ export default function HeaderTwo() {
                   {demoLinks.map((item, index) => (
                     <li className={`nav-item`} key={index}>
                       <Link href={item.to} className="nav-link">
-                        <img src={item.imgSrc} alt={item.alt} />
+                        <Image src={item.imgSrc} alt={item.alt} />
                         <span>{item.text}</span>
                       </Link>
                     </li>

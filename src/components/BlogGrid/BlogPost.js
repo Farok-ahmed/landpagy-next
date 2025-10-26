@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const BlogPost = ({ posts }) => {
@@ -9,7 +10,7 @@ const BlogPost = ({ posts }) => {
             className={`blog_grid_post shadow-sm wow fadeInUp`}
             style={{ animationDelay: `${index * 0.2}s` }}
           >
-            <img src={post.imageSrc} alt="" />
+            <Image src={post.imageSrc} alt="" />
             <div className="grid_post_content">
               <div className="post_tag">
                 <Link href="/blog-details">{post.readTime}</Link>
@@ -26,7 +27,7 @@ const BlogPost = ({ posts }) => {
               <p>{post.excerpt}</p>
               <div className="media post_author">
                 <div className="round_img">
-                  <img src={post.author.imageSrc} alt="" />
+                  <Image src={post.author.imageSrc} alt="" />
                 </div>
                 <div className="media-body author_text">
                   <h4>{post.author.name}</h4>

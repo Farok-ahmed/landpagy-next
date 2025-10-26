@@ -1,4 +1,26 @@
 "use client";
+import Image from "next/image";
+import shape1 from "@/assets/images/process/shape1.svg";
+import shape2 from "@/assets/images/process/shape2.svg";
+import shape3 from "@/assets/images/process/shape3.svg";
+import shape4 from "@/assets/images/process/shape4.svg";
+import shape5 from "@/assets/images/process/shape5.svg";
+import shape6 from "@/assets/images/process/shape6.svg";
+import features4 from "@/assets/images/features/features-4.png";
+import featuresObject6 from "@/assets/images/features/features-object-6.svg";
+import featuresObject7 from "@/assets/images/features/features-object-7.svg";
+import featuresObject8 from "@/assets/images/features/features-object-8.svg";
+import featuresObject9 from "@/assets/images/features/features-object-9.svg";
+import feature7 from "@/assets/images/features/feature-7.png";
+import featuresObject2 from "@/assets/images/features/features-object-2.svg";
+import featuresObject3 from "@/assets/images/features/features-object-3.svg";
+import featuresObject11 from "@/assets/images/features/features-object-11.svg";
+import featuresObject12 from "@/assets/images/features/features-object-12.svg";
+import feature from "@/assets/images/features/feature.png";
+import featuresObject1 from "@/assets/images/features/features-object-1.svg";
+import featuresObject4 from "@/assets/images/features/features-object-4.svg";
+import featuresObject5 from "@/assets/images/features/features-object-5.svg";
+import shape7 from "@/assets/images/process/shape7.svg";
 ;
 import { useParallax } from "react-scroll-parallax";
 
@@ -53,21 +75,12 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInRight"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/process/shape1.svg"
-                  alt="Shape"
-                  className="shape"
-                />
-                <img
-                  src="/images/process/shape2.svg"
-                  alt="Shape"
-                  className="shape"
-                />
-                <img
-                  src="/images/process/shape3.svg"
-                  alt="Shape"
-                  className="shape"
-                />
+                <Image src={shape1} alt="Shape"
+                  className="shape" />
+                <Image src={shape2} alt="Shape"
+                  className="shape" />
+                <Image src={shape3} alt="Shape"
+                  className="shape" />
               </div>
             </div>
           </div>
@@ -98,21 +111,12 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInLeft"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/process/shape4.svg"
-                  alt="Shape"
-                  className="shape"
-                />
-                <img
-                  src="/images/process/shape5.svg"
-                  alt="Shape"
-                  className="shape"
-                />
-                <img
-                  src="/images/process/shape6.svg"
-                  alt="Shape"
-                  className="shape"
-                />
+                <Image src={shape4} alt="Shape"
+                  className="shape" />
+                <Image src={shape5} alt="Shape"
+                  className="shape" />
+                <Image src={shape6} alt="Shape"
+                  className="shape" />
               </div>
             </div>
           </div>
@@ -140,34 +144,19 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInRight"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/features/features-4.png"
-                  alt="Features "
-                  className="shape"
-                />
-                <img
-                  src="/images/features/features-object-6.svg"
-                  alt="Features Object"
-                  className="shape"
-                />
-                <img
-                  src="/images/features/features-object-7.svg"
-                  alt="Features Object"
+                <Image src={features4} alt="Features "
+                  className="shape" />
+                <Image src={featuresObject6} alt="Features Object"
+                  className="shape" />
+                <Image src={featuresObject7} alt="Features Object"
                   className="shape object-element layer"
-                  ref={shape2Parallax.ref}
-                />
-                <img
-                  src="/images/features/features-object-8.svg"
-                  alt="Features Object"
+                  ref={shape2Parallax.ref} />
+                <Image src={featuresObject8} alt="Features Object"
                   className="shape object-element layer"
-                  ref={shape3Parallax.ref}
-                />
-                <img
-                  src="/images/features/features-object-9.svg"
-                  alt="Features Object"
+                  ref={shape3Parallax.ref} />
+                <Image src={featuresObject9} alt="Features Object"
                   className="shape object-element layer"
-                  ref={shape4Parallax.ref}
-                />
+                  ref={shape4Parallax.ref} />
               </div>
             </div>
           </div>
@@ -196,40 +185,29 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInLeft"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/features/feature-7.png"
-                  alt="Features "
-                  className="shape"
-                />
+                <Image src={feature7} alt="Features "
+                  className="shape" />
                 <img
                   className="shape object-element layer"
                   src="/images/features/features-object-10.svg "
                   alt="Features "
                   ref={shape1Parallax.ref}
                 />
-                <img
-                  className="shape"
-                  src="/images/features/features-object-2.svg"
-                  alt="Features "
-                />
-                <img
-                  className="shape object-element layer"
+                <Image src={featuresObject2} className="shape"
+                  
+                  alt="Features " />
+                <Image src={featuresObject3} className="shape object-element layer"
                   ref={shape2Parallax.ref}
-                  src="/images/features/features-object-3.svg"
-                  alt="Features "
-                />
-                <img
-                  className="shape object-element layer"
+                  
+                  alt="Features " />
+                <Image src={featuresObject11} className="shape object-element layer"
                   ref={shape3Parallax.ref}
-                  src="/images/features/features-object-11.svg"
-                  alt="Features "
-                />
-                <img
-                  className="shape object-element layer"
+                  
+                  alt="Features " />
+                <Image src={featuresObject12} className="shape object-element layer"
                   ref={shape4Parallax.ref}
-                  src="/images/features/features-object-12.svg"
-                  alt="Features "
-                />
+                  
+                  alt="Features " />
               </div>
             </div>
           </div>
@@ -256,51 +234,31 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInRight"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/features/feature.png"
-                  alt="Features "
-                  className="shape"
-                />
-                <img
-                  src="/images/features/features-object-1.svg"
-                  alt="Features Object"
+                <Image src={feature} alt="Features "
+                  className="shape" />
+                <Image src={featuresObject1} alt="Features Object"
                   className="shape object-element layer"
-                  ref={shape1Parallax.ref}
-                />
-                <img
-                  src="/images/features/features-object-2.svg"
-                  alt="Features Object"
-                  className="shape"
-                />
-                <img
-                  className="shape object-element layer"
+                  ref={shape1Parallax.ref} />
+                <Image src={featuresObject2} alt="Features Object"
+                  className="shape" />
+                <Image src={featuresObject3} className="shape object-element layer"
                   ref={shape2Parallax.ref}
-                  src="/images/features/features-object-3.svg"
-                  alt="Features Object"
-                />
-                <img
-                  src="/images/features/features-object-4.svg"
-                  alt="Features Object"
+                  
+                  alt="Features Object" />
+                <Image src={featuresObject4} alt="Features Object"
                   className="shape object-element layer"
-                  ref={shape3Parallax.ref}
-                />
-                <img
-                  src="/images/features/features-object-5.svg"
-                  alt="Features Object"
+                  ref={shape3Parallax.ref} />
+                <Image src={featuresObject5} alt="Features Object"
                   className="shape object-element layer"
-                  ref={shape4Parallax.ref}
-                />
+                  ref={shape4Parallax.ref} />
               </div>
             </div>
           </div>
         </div>
 
         <div>
-          <img
-            src="/images/process/shape7.svg"
-            alt="Border Shape"
-            className="shape-border"
-          />
+          <Image src={shape7} alt="Border Shape"
+            className="shape-border" />
           <span className="point"></span>
         </div>
       </div>

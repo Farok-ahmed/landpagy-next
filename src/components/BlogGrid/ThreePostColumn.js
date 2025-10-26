@@ -1,3 +1,10 @@
+import Image from "next/image";
+import blogGridPost7 from "@/assets/images/blog_grid/blog_grid_post7.jpg";
+import author1 from "@/assets/images/blog_grid/author_1.jpg";
+import blogGridPost8 from "@/assets/images/blog_grid/blog_grid_post8.jpg";
+import author2 from "@/assets/images/blog_grid/author_2.jpg";
+import blogGridPost9 from "@/assets/images/blog_grid/blog_grid_post9.jpg";
+import author3 from "@/assets/images/blog_grid/author_3.jpg";
 ;
 
 export default function ThreePostColumn() {
@@ -7,7 +14,7 @@ export default function ThreePostColumn() {
         <div className="row">
           <div className="col-lg-4 col-sm-6">
             <div className="blog_grid_post shadow-sm wow fadeInUp">
-              <img src="/images/blog_grid/blog_grid_post7.jpg" alt="" />
+              <Image src={blogGridPost7} alt="" />
               <div className="grid_post_content">
                 <div className="post_tag">
                   <a href="/">18 Min Read</a>
@@ -26,7 +33,7 @@ export default function ThreePostColumn() {
                 </p>
                 <div className="media post_author">
                   <div className="round_img">
-                    <img src="/images/blog_grid/author_1.jpg" alt="" />
+                    <Image src={author1} alt="" />
                   </div>
                   <div className="media-body author_text">
                     <h4>Jason Response</h4>
@@ -41,7 +48,7 @@ export default function ThreePostColumn() {
               className="blog_grid_post shadow-sm wow fadeInUp"
               data-wow-delay="0.2s"
             >
-              <img src="/images/blog_grid/blog_grid_post8.jpg" alt="" />
+              <Image src={blogGridPost8} alt="" />
               <div className="grid_post_content">
                 <div className="post_tag">
                   <a href="/">18 Min Read</a>
@@ -60,7 +67,7 @@ export default function ThreePostColumn() {
                 </p>
                 <div className="media post_author">
                   <div className="round_img">
-                    <img src="/images/blog_grid/author_2.jpg" alt="" />
+                    <Image src={author2} alt="" />
                   </div>
                   <div className="media-body author_text">
                     <h4>Druid Wensleydale</h4>
@@ -75,7 +82,7 @@ export default function ThreePostColumn() {
               className="blog_grid_post shadow-sm wow fadeInUp"
               data-wow-delay="0.4s"
             >
-              <img src="/images/blog_grid/blog_grid_post9.jpg" alt="" />
+              <Image src={blogGridPost9} alt="" />
               <div className="grid_post_content">
                 <div className="post_tag">
                   <a href="/">10 Min Read</a>
@@ -94,7 +101,7 @@ export default function ThreePostColumn() {
                 </p>
                 <div className="media post_author">
                   <div className="round_img">
-                    <img src="/images/blog_grid/author_3.jpg" alt="" />
+                    <Image src={author3} alt="" />
                   </div>
                   <div className="media-body author_text">
                     <h4>Douglas Lyphe</h4>

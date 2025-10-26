@@ -1,3 +1,13 @@
+import Image from "next/image";
+import bannerShape2 from "@/assets/images/home_4/banner-shape-2.svg";
+import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
+import feaShape from "@/assets/images/home_4/fea-shape.svg";
+import feaIcon1 from "@/assets/images/home_4/fea-icon1.svg";
+import feaIcon2 from "@/assets/images/home_4/fea-icon2.svg";
+import feaIcon3 from "@/assets/images/home_4/fea-icon3.svg";
+import feaIcon4 from "@/assets/images/home_4/fea-icon4.svg";
+import feaIcon5 from "@/assets/images/home_4/fea-icon5.svg";
+import feaIcon6 from "@/assets/images/home_4/fea-icon6.svg";
 ;
 
 export default function FeatureHRM() {
@@ -5,13 +15,13 @@ export default function FeatureHRM() {
     <section className="features-area-9 pt-125 pb-60">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/banner-shape-2.svg" alt="shape" />
+          <Image src={bannerShape2} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-4.svg" alt="shape" />
+          <Image src={bannerShape4} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/fea-shape.svg" alt="shape" />
+          <Image src={feaShape} alt="shape" />
         </div>
       </div>
 
@@ -30,11 +40,8 @@ export default function FeatureHRM() {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="features-item text-center wow fadeInLeft">
-              <img
-                src=".//images/home_4/fea-icon1.svg"
-                alt="Icon"
-                className="features-icon mx-auto mb-30"
-              />
+              <Image src={feaIcon1} alt="Icon"
+                className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Team Collaboration</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -44,11 +51,8 @@ export default function FeatureHRM() {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="features-item text-center wow fadeInUp">
-              <img
-                src=".//images/home_4/fea-icon2.svg"
-                alt="Icon"
-                className="features-icon mx-auto mb-30"
-              />
+              <Image src={feaIcon2} alt="Icon"
+                className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Time & Attendance</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -58,11 +62,8 @@ export default function FeatureHRM() {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="features-item text-center wow fadeInRight">
-              <img
-                src=".//images/home_4/fea-icon3.svg"
-                alt="Icon"
-                className="features-icon mx-auto mb-30"
-              />
+              <Image src={feaIcon3} alt="Icon"
+                className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Cloud-Based HR</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -72,11 +73,8 @@ export default function FeatureHRM() {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="features-item text-center wow fadeInLeft">
-              <img
-                src=".//images/home_4/fea-icon4.svg"
-                alt="Icon"
-                className="features-icon mx-auto mb-30"
-              />
+              <Image src={feaIcon4} alt="Icon"
+                className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Customizable Payroll</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -86,11 +84,8 @@ export default function FeatureHRM() {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="features-item text-center wow fadeInUp">
-              <img
-                src=".//images/home_4/fea-icon5.svg"
-                alt="Icon"
-                className="features-icon mx-auto mb-30"
-              />
+              <Image src={feaIcon5} alt="Icon"
+                className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Email & Scheduling</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -100,11 +95,8 @@ export default function FeatureHRM() {
           </div>
           <div className="col-lg-4 col-md-6">
             <div className="features-item text-center wow fadeInRight">
-              <img
-                src=".//images/home_4/fea-icon6.svg"
-                alt="Icon"
-                className="features-icon mx-auto mb-30"
-              />
+              <Image src={feaIcon6} alt="Icon"
+                className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Career Portal</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use

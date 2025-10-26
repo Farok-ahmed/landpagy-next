@@ -1,4 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
+import blogImg1 from "@/assets/images/home_5/blog-img1.jpg";
+import author1 from "@/assets/images/home_5/author1.png";
+import blogImg2 from "@/assets/images/home_5/blog-img2.jpg";
+import blogImg3 from "@/assets/images/home_5/blog-img3.jpg";
 ;
 
 export default function PosBlog() {
@@ -20,18 +25,12 @@ export default function PosBlog() {
         <div className="row">
           <div className="col-md-6 col-lg-4">
             <div className="blog-item">
-              <img
-                src="/images/home_5/blog-img1.jpg"
-                alt="Blog"
-                className="blog-img"
-              />
+              <Image src={blogImg1} alt="Blog"
+                className="blog-img" />
               <div className="blog-content">
                 <div className="blog-author">
-                  <img
-                    src="/images/home_5/author1.png"
-                    alt="Author"
-                    className="author-img"
-                  />
+                  <Image src={author1} alt="Author"
+                    className="author-img" />
                   <Link href="/blog-details" className="author-name">
                     Andrew Millium
                   </Link>
@@ -53,18 +52,12 @@ export default function PosBlog() {
           </div>
           <div className="col-md-6 col-lg-4">
             <div className="blog-item">
-              <img
-                src="/images/home_5/blog-img2.jpg"
-                alt="Blog"
-                className="blog-img"
-              />
+              <Image src={blogImg2} alt="Blog"
+                className="blog-img" />
               <div className="blog-content">
                 <div className="blog-author">
-                  <img
-                    src="/images/home_5/author1.png"
-                    alt="Author"
-                    className="author-img"
-                  />
+                  <Image src={author1} alt="Author"
+                    className="author-img" />
                   <Link href="/blog-details" className="author-name">
                     Andrew Millium
                   </Link>
@@ -86,18 +79,12 @@ export default function PosBlog() {
           </div>
           <div className="col-md-6 col-lg-4 mx-auto">
             <div className="blog-item">
-              <img
-                src="/images/home_5/blog-img3.jpg"
-                alt="Blog"
-                className="blog-img"
-              />
+              <Image src={blogImg3} alt="Blog"
+                className="blog-img" />
               <div className="blog-content">
                 <div className="blog-author">
-                  <img
-                    src="/images/home_5/author1.png"
-                    alt="Author"
-                    className="author-img"
-                  />
+                  <Image src={author1} alt="Author"
+                    className="author-img" />
                   <Link href="/blog-details" className="author-name">
                     Andrew Millium
                   </Link>

@@ -1,4 +1,9 @@
 import Link from "next/link";
+import Image from "next/image";
+import shape16 from "@/assets/images/home_9/shapes/shape16.svg";
+import shape17 from "@/assets/images/home_9/shapes/shape17.svg";
+import arrowForward from "@/assets/images/home_9/shapes/arrow-forward.svg";
+import logo from "@/assets/images/logo.svg";
 ;
 
 export default function CloudFooter() {
@@ -22,10 +27,10 @@ export default function CloudFooter() {
           </svg>
         </div>
         <div className="shape">
-          <img src="/images/home_9/shapes/shape16.svg" alt="" />
+          <Image src={shape16} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_9/shapes/shape17.svg" alt="" />
+          <Image src={shape17} alt="" />
         </div>
       </div>
       <div className="footer-top">
@@ -101,11 +106,9 @@ export default function CloudFooter() {
                 <form className="form-group">
                   <input type="email" placeholder="Email address" />
                   <button type="submit" className="btn btn-red">
-                    <img
-                      className="icon"
-                      src="/images/home_9/shapes/arrow-forward.svg"
-                      alt="Icon"
-                    />
+                    <Image src={arrowForward} className="icon"
+                      
+                      alt="Icon" />
                   </button>
                 </form>
                 <p className="mb-40">We promise to never spam your inbox.</p>
@@ -137,7 +140,7 @@ export default function CloudFooter() {
           <div className="row align-items-center">
             <div className="col-md-3">
               <Link href="/" className="footer-logo">
-                <img src="/images/logo.svg" alt="Logo" />
+                <Image src={logo} alt="Logo" />
               </Link>
             </div>
             <div className="col-lg-6 col-md-5">

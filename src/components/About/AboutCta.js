@@ -1,3 +1,5 @@
+import Image from "next/image";
+import shape8 from "@/assets/images/shape/shape-8.svg";
 ;
 
 export default function AboutCta() {
@@ -23,11 +25,9 @@ export default function AboutCta() {
         </div>
       </div>
       <span className="shape7"></span>
-      <img
-        className="shape8 d-none d-lg-block"
-        src="/images/shape/shape-8.svg"
-        alt="Shape"
-      />
+      <Image src={shape8} className="shape8 d-none d-lg-block"
+        
+        alt="Shape" />
     </section>
   );
 }

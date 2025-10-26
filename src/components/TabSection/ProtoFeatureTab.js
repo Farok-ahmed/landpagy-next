@@ -1,3 +1,9 @@
+import Image from "next/image";
+import feaImg from "@/assets/images/home_6/fea-img.jpg";
+import feaShape1 from "@/assets/images/home_6/fea-shape1.svg";
+import feaShape2 from "@/assets/images/home_6/fea-shape2.svg";
+import feaImg2 from "@/assets/images/home_6/fea-img2.png";
+import feaImg3 from "@/assets/images/home_6/fea-img3.png";
 
 
 const ProtoFeatureTab = () => {
@@ -76,17 +82,15 @@ const ProtoFeatureTab = () => {
                 role="tabpanel"
               >
                 <div className="main-img" data-wow-delay="0.1s">
-                  <img
-                    className="fea-img"
-                    src="/images/home_6/fea-img.jpg"
-                    alt="Ideations"
-                  />
+                  <Image src={feaImg} className="fea-img"
+                    
+                    alt="Ideations" />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2} alt="Shape2" />
                     </div>
                   </div>
                 </div>
@@ -97,17 +101,15 @@ const ProtoFeatureTab = () => {
                 role="tabpanel"
               >
                 <div className="main-img" data-wow-delay="0.1s">
-                  <img
-                    className="fea-img"
-                    src="/images/home_6/fea-img2.png"
-                    alt="Import & Export"
-                  />
+                  <Image src={feaImg2} className="fea-img"
+                    
+                    alt="Import & Export" />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2} alt="Shape2" />
                     </div>
                   </div>
                 </div>
@@ -118,17 +120,15 @@ const ProtoFeatureTab = () => {
                 role="tabpanel"
               >
                 <div className="main-img" data-wow-delay="0.1s">
-                  <img
-                    className="fea-img"
-                    src="/images/home_6/fea-img3.png"
-                    alt="Visualize fast"
-                  />
+                  <Image src={feaImg3} className="fea-img"
+                    
+                    alt="Visualize fast" />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2} alt="Shape2" />
                     </div>
                   </div>
                 </div>
@@ -139,17 +139,15 @@ const ProtoFeatureTab = () => {
                 role="tabpanel"
               >
                 <div className="main-img" data-wow-delay="0.1s">
-                  <img
-                    className="fea-img"
-                    src="/images/home_6/fea-img2.png"
-                    alt="User Testing"
-                  />
+                  <Image src={feaImg2} className="fea-img"
+                    
+                    alt="User Testing" />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2} alt="Shape2" />
                     </div>
                   </div>
                 </div>

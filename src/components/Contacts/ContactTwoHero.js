@@ -1,11 +1,15 @@
 import Link from "next/link";
+import Image from "next/image";
+import contactBg from "@/assets/images/contact_2/contact-bg.png";
+import cardIcon1 from "@/assets/images/contact_2/icons/card-icon1.svg";
+import cardIcon2 from "@/assets/images/contact_2/icons/card-icon2.svg";
 ;
 
 export default function ContactTwoHero() {
   return (
     <section className="contact-banner-2">
       <div className="shape">
-        <img src="/images/contact_2/contact-bg.png" alt="shapes" />
+        <Image src={contactBg} alt="shapes" />
       </div>
       <div className="container">
         <div className="row">
@@ -18,11 +22,9 @@ export default function ContactTwoHero() {
           <div className="col-lg-5 col-md-6">
             <div className="text-center contact-card">
               <div className="item-icon">
-                <img
-                  className="mx-auto"
-                  src="/images/contact_2/icons/card-icon1.svg"
-                  alt=""
-                />
+                <Image src={cardIcon1} className="mx-auto"
+                  
+                  alt="" />
               </div>
               <div className="item-content">
                 <h4 className="item-title">
@@ -42,11 +44,9 @@ export default function ContactTwoHero() {
           <div className="col-lg-5 col-md-6">
             <div className="text-center contact-card">
               <div className="item-icon">
-                <img
-                  className="mx-auto"
-                  src="/images/contact_2/icons/card-icon2.svg"
-                  alt=""
-                />
+                <Image src={cardIcon2} className="mx-auto"
+                  
+                  alt="" />
               </div>
               <div className="item-content">
                 <h4 className="item-title">Product and account support</h4>

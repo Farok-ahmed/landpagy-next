@@ -1,3 +1,9 @@
+import Image from "next/image";
+import bannerShape2 from "@/assets/images/shape/banner-shape2.svg";
+import bannerShape3 from "@/assets/images/shape/banner-shape3.svg";
+import bannerShape4 from "@/assets/images/shape/banner-shape4.svg";
+import bannerShape5 from "@/assets/images/shape/banner-shape5.svg";
+import bannerShape6 from "@/assets/images/shape/banner-shape6.svg";
 ;
 
 export default function HeroBannerOne() {
@@ -46,37 +52,25 @@ export default function HeroBannerOne() {
           <div className="col-md-6">
             <div className="banner-right">
               <span className="banner-shapes wow fadeInDownBig"></span>
-              <img
-                className="banner-shapes2 wow fadeInDown"
-                src="/images/shape/banner-shape2.svg"
-                alt="Shape "
-              />
-              <img
-                className="banner-shapes3 wow fadeInDownBig"
+              <Image src={bannerShape2} className="banner-shapes2 wow fadeInDown"
+                
+                alt="Shape " />
+              <Image src={bannerShape3} className="banner-shapes3 wow fadeInDownBig"
                 data-wow-duration="1.2s"
-                src="/images/shape/banner-shape3.svg"
-                alt="Shape "
-              />
-              <img
-                className="banner-shapes4 wow fadeInLeft"
-                src="/images/shape/banner-shape4.svg"
-                alt="Shape "
-              />
-              <img
-                className="banner-shapes5 wow fadeInRightBig"
-                src="/images/shape/banner-shape5.svg"
-                alt="Shape "
-              />
-              <img
-                className="banner-shapes6 wow fadeInDown"
-                src="/images/shape/banner-shape2.svg"
-                alt="Shape "
-              />
-              <img
-                className="banner-shapes7 wow fadeInRightBig"
-                src="/images/shape/banner-shape6.svg"
-                alt="Shape "
-              />
+                
+                alt="Shape " />
+              <Image src={bannerShape4} className="banner-shapes4 wow fadeInLeft"
+                
+                alt="Shape " />
+              <Image src={bannerShape5} className="banner-shapes5 wow fadeInRightBig"
+                
+                alt="Shape " />
+              <Image src={bannerShape2} className="banner-shapes6 wow fadeInDown"
+                
+                alt="Shape " />
+              <Image src={bannerShape6} className="banner-shapes7 wow fadeInRightBig"
+                
+                alt="Shape " />
             </div>
           </div>
         </div>

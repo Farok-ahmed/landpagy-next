@@ -1,3 +1,5 @@
+import Image from "next/image";
+import feature6 from "@/assets/images/features/feature-6.png";
 ;
 
 export default function MainFeatureTwo() {
@@ -7,7 +9,7 @@ export default function MainFeatureTwo() {
         <div className="row row-reverse-lg">
           <div className="col-lg-6">
             <div className="feature-image">
-              <img src="/images/features/feature-6.png" alt="Features " />
+              <Image src={feature6} alt="Features " />
             </div>
           </div>
           <div className="col-lg-6">

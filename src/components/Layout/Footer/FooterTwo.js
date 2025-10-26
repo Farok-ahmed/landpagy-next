@@ -1,3 +1,6 @@
+import Image from "next/image";
+import logo from "@/assets/images/logo.svg";
+import map from "@/assets/images/footer/map.png";
 ;
 
 export default function FooterTwo() {
@@ -8,11 +11,9 @@ export default function FooterTwo() {
           <div className="row">
             <div className="col-lg-3 col-md-6">
               <div className="footer-menu wow fadeInLeft">
-                <img
-                  className="footer-logo mb-20"
-                  src="/images/logo.svg"
-                  alt="Footer Logo"
-                />
+                <Image src={logo} className="footer-logo mb-20"
+                  
+                  alt="Footer Logo" />
                 <p>The Most Trusted Online Course Platform for WordPress.</p>
                 <ul className="social-link-bg-2 mt-30">
                   <li>
@@ -93,7 +94,7 @@ export default function FooterTwo() {
                     data-wow-delay="0.5s"
                   >
                     <h4>location</h4>
-                    <img src="/images/footer/map.png" alt="map" />
+                    <Image src={map} alt="map" />
                   </div>
                 </div>
               </div>

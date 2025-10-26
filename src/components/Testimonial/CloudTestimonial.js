@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect, useCallback, useMemo } from "react";
+import Image from "next/image";
+import right from "@/assets/images/home_9/shapes/right.svg";
 
 export default function CloudTestimonial() {
   const [activeTab, setActiveTab] = useState("user1");
@@ -116,11 +118,9 @@ export default function CloudTestimonial() {
             </h2>
             <a href="/" className="testimonial-btn mb-70">
               Learn more about our customers{" "}
-              <img
-                className="icon"
-                src="/images/home_9/shapes/right.svg"
-                alt="Icon"
-              />
+              <Image src={right} className="icon"
+                
+                alt="Icon" />
             </a>
           </div>
         </div>

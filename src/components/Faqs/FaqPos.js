@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import faqShape1 from "@/assets/images/home_5/shapes/faq-shape1.png";
+import faqShape2 from "@/assets/images/home_5/shapes/faq-shape2.png";
 ;
 
 export default function FaqPos() {
@@ -6,10 +9,10 @@ export default function FaqPos() {
     <section className="faq-area-five pt-135 pb-150">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_5/shapes/faq-shape1.png" alt="shape" />
+          <Image src={faqShape1} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/faq-shape2.png" alt="shape" />
+          <Image src={faqShape2} alt="shape" />
         </div>
       </div>
       <div className="container">

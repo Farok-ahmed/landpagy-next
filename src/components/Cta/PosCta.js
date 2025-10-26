@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import ctaShape1 from "@/assets/images/home_5/shapes/cta-shape1.svg";
+import ctaShape2 from "@/assets/images/home_5/shapes/cta-shape2.svg";
 ;
 
 export default function PosCta() {
@@ -8,10 +11,10 @@ export default function PosCta() {
         <div className="cta-box bg-mariner pt-70 pb-70">
           <div className="bg-shapes">
             <div className="shape">
-              <img src="/images/home_5/shapes/cta-shape1.svg" alt="Shape" />
+              <Image src={ctaShape1} alt="Shape" />
             </div>
             <div className="shape">
-              <img src="/images/home_5/shapes/cta-shape2.svg" alt="Shape" />
+              <Image src={ctaShape2} alt="Shape" />
             </div>
           </div>
           <div className="row align-items-center gy-3 gy-md-0">

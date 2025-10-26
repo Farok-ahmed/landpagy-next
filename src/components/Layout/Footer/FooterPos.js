@@ -1,5 +1,10 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
+import kite from "@/assets/images/home_5/icons/kite.svg";
+import women from "@/assets/images/home_5/icons/women.svg";
+import leaf from "@/assets/images/home_5/icons/leaf.svg";
+import logo7 from "@/assets/images/logo-7.svg";
 ;
 
 import { useParallax } from "react-scroll-parallax";
@@ -26,25 +31,16 @@ export default function FooterPos() {
     <footer className="footer-pos footer-software footer-hrm bg-aqua pt-120">
       <div className="bg-shapes">
         <div className="shape" ref={kiteParallax.ref}>
-          <img
-            src="/images/home_5/icons/kite.svg"
-            className="layer"
-            alt="Kite"
-          />
+          <Image src={kite} className="layer"
+            alt="Kite" />
         </div>
         <div className="shape" ref={womenParallax.ref}>
-          <img
-            src="/images/home_5/icons/women.svg"
-            className="layer"
-            alt="Women"
-          />
+          <Image src={women} className="layer"
+            alt="Women" />
         </div>
         <div className="shape" ref={leafParallax.ref}>
-          <img
-            src="/images/home_5/icons/leaf.svg"
-            className="layer"
-            alt="Leaf"
-          />
+          <Image src={leaf} className="layer"
+            alt="Leaf" />
         </div>
       </div>
       <div className="footer-top">
@@ -163,11 +159,9 @@ export default function FooterPos() {
               <ul>
                 <li>
                   <Link href="/">
-                    <img
-                      className="d-md-block d-sm-inline-block"
-                      src="/images/logo-7.svg"
-                      alt="Footer Logo"
-                    />
+                    <Image src={logo7} className="d-md-block d-sm-inline-block"
+                      
+                      alt="Footer Logo" />
                   </Link>
                 </li>
               </ul>

@@ -1,4 +1,11 @@
 "use client";
+import Image from "next/image";
+import border from "@/assets/images/home_10/shapes/border.svg";
+import right from "@/assets/images/home_10/shapes/right.svg";
+import shape1 from "@/assets/images/home_10/shapes/shape1.svg";
+import shape2 from "@/assets/images/home_10/shapes/shape2.svg";
+import bannerImg1 from "@/assets/images/home_10/banner-img1.png";
+import bannerImg2 from "@/assets/images/home_10/banner-img2.png";
 ;
 import { Parallax } from "react-scroll-parallax";
 
@@ -147,11 +154,9 @@ export default function AppLandingHero() {
                 Welcome to Landpagy Get the {""}
                 <span>
                   App Now
-                  <img
-                    className="border-shape"
-                    src="/images/home_10/shapes/border.svg"
-                    alt="Border"
-                  />
+                  <Image src={border} className="border-shape"
+                    
+                    alt="Border" />
                 </span>
                 {""} & Enjoy
               </h1>
@@ -162,11 +167,9 @@ export default function AppLandingHero() {
               </p>
               <a href="/" className="btn btn-red">
                 Try for free
-                <img
-                  className="icon"
-                  src="/images/home_10/shapes/right.svg"
-                  alt="Arrow"
-                />
+                <Image src={right} className="icon"
+                  
+                  alt="Arrow" />
               </a>
             </div>
           </div>
@@ -175,24 +178,20 @@ export default function AppLandingHero() {
             <div className="app-banner-images">
               <div className="bg-shapes">
                 <div className="banner-shape">
-                  <img src="/images/home_10/shapes/shape1.svg" alt="Shape" />
+                  <Image src={shape1} alt="Shape" />
                 </div>
                 <div className="banner-shape">
-                  <img src="/images/home_10/shapes/shape2.svg" alt="Shape" />
+                  <Image src={shape2} alt="Shape" />
                 </div>
               </div>
-              <img
-                className="main-img1 wow fadeInRight"
+              <Image src={bannerImg1} className="main-img1 wow fadeInRight"
                 data-wow-delay="0.1s"
-                src="/images/home_10/banner-img1.png"
-                alt="Banner "
-              />
-              <img
-                className="main-img2 wow fadeInRight"
+                
+                alt="Banner " />
+              <Image src={bannerImg2} className="main-img2 wow fadeInRight"
                 data-wow-delay="0.3s"
-                src="/images/home_10/banner-img2.png"
-                alt="Banner "
-              />
+                
+                alt="Banner " />
             </div>
           </div>
         </div>

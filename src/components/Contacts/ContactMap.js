@@ -1,4 +1,7 @@
 "use client";
+import Image from "next/image";
+import map from "@/assets/images/map.svg";
+import flag from "@/assets/images/flag.png";
 ;
 import Tippy from "@tippyjs/react";
 
@@ -18,7 +21,7 @@ export default function ContactMap() {
           <div className="col-12">
             <div className="map">
               <div className="map-image">
-                <img src="/images/map.svg" alt="Map" />
+                <Image src={map} alt="Map" />
               </div>
               {locations.map((location) => (
                 <div key={location.id} className="map-marking-item">
@@ -28,7 +31,7 @@ export default function ContactMap() {
                         <div id="map" className="tippy-box map-address">
                           <div className="tippy-content d-flex align-items-center">
                             <div className="flag">
-                              <img src="/images/flag.png" alt="Flag" />
+                              <Image src={flag} alt="Flag" />
                             </div>
                             <div className="address-info">
                               <h6>{location.country}</h6>

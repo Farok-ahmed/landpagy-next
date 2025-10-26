@@ -1,4 +1,19 @@
 "use client";
+import Image from "next/image";
+import treeWater from "@/assets/images/home_3/tree-water.png";
+import cloud1 from "@/assets/images/home_3/cloud-1.png";
+import cloud2 from "@/assets/images/home_3/cloud-2.png";
+import cloud3 from "@/assets/images/home_3/cloud-3.png";
+import bird from "@/assets/images/home_3/bird.png";
+import bannerBgShape1 from "@/assets/images/home_3/banner-bg-shape-1.png";
+import bannerBgShape2 from "@/assets/images/home_3/banner-bg-shape-2.png";
+import leaf from "@/assets/images/home_3/leaf.svg";
+import treeField from "@/assets/images/home_3/tree-field.png";
+import tree1 from "@/assets/images/home_3/tree-1.png";
+import tree2 from "@/assets/images/home_3/tree-2.png";
+import treeDollar from "@/assets/images/home_3/tree-dollar.png";
+import tree3 from "@/assets/images/home_3/tree-3.png";
+import tree4 from "@/assets/images/home_3/tree-4.png";
 ;
 import { useParallax } from "react-scroll-parallax";
 
@@ -31,57 +46,49 @@ export default function HeroBannerFour() {
     <section className="banner-area-3" id="banner_animation">
       <div className="banner-shape">
         <div className="shape">
-          <img
-            className="wow slideInRight"
+          <Image src={treeWater} className="wow slideInRight"
             data-wow-delay="0.4s"
-            src="/images/home_3/tree-water.png"
-            alt=""
-          />
+            
+            alt="" />
         </div>
         <div className="shape object-element">
           <div id="element1" ref={cloud1.ref}>
-            <img
-              data-depth="0.9"
+            <Image src={cloud1} data-depth="0.9"
               className="wow slideInRight layer"
               data-wow-delay="0.1s"
-              src="/images/home_3/cloud-1.png"
-              alt=""
-            />
+              
+              alt="" />
           </div>
         </div>
         <div className="shape object-element">
           <div id="element2" ref={cloud2.ref}>
-            <img
-              data-depth="0.5"
+            <Image src={cloud2} data-depth="0.5"
               className="wow slideInRight layer"
               data-wow-delay="0.25s"
-              src="/images/home_3/cloud-2.png"
-              alt=""
-            />
+              
+              alt="" />
           </div>
         </div>
         <div className="shape object-element">
           <div id="element3" ref={cloud3.ref}>
-            <img
-              data-depth="0.7"
+            <Image src={cloud3} data-depth="0.7"
               className="wow slideInRight layer"
               data-wow-delay="0.4s"
-              src="/images/home_3/cloud-3.png"
-              alt=""
-            />
+              
+              alt="" />
           </div>
         </div>
         <div className="shape" ref={bird.ref}>
-          <img src="/images/home_3/bird.png" className="layer" alt="" />
+          <Image src={bird} className="layer" alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_3/banner-bg-shape-1.png" alt="" />
+          <Image src={bannerBgShape1} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_3/banner-bg-shape-2.png" alt="" />
+          <Image src={bannerBgShape2} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_3/leaf.svg" alt="" />
+          <Image src={leaf} alt="" />
         </div>
       </div>
       <div className="container">
@@ -109,46 +116,36 @@ export default function HeroBannerFour() {
           </div>
           <div className="text-center col-xl-5 text-xl-start">
             <div className="banner-right">
-              <img
-                className="tree-field"
-                src="/images/home_3/tree-field.png"
-                alt="tree"
-              />
+              <Image src={treeField} className="tree-field"
+                
+                alt="tree" />
               <div className="tree">
-                <img
-                  className="wow zoomIn"
-                  src="/images/home_3/tree-1.png"
-                  alt="tree"
-                />
+                <Image src={tree1} className="wow zoomIn"
+                  
+                  alt="tree" />
 
                 <div className="tree-top wow zoomIn" data-wow-delay="0.55s">
-                  <img src="/images/home_3/tree-2.png" alt="tree" />
+                  <Image src={tree2} alt="tree" />
 
                   <div className="dollar wow zoomIn" data-wow-delay="0.55s">
-                    <img
-                      className="wow flip"
+                    <Image src={treeDollar} className="wow flip"
                       data-wow-delay="1.5s"
-                      src="/images/home_3/tree-dollar.png"
-                      alt="tree"
-                    />
+                      
+                      alt="tree" />
                   </div>
                 </div>
               </div>
               <div className="tree">
-                <img
-                  className="wow zoomIn"
+                <Image src={tree3} className="wow zoomIn"
                   data-wow-delay="0.3s"
-                  src="/images/home_3/tree-3.png"
-                  alt="tree"
-                />
+                  
+                  alt="tree" />
               </div>
               <div className="tree">
-                <img
-                  className="wow zoomIn"
+                <Image src={tree4} className="wow zoomIn"
                   data-wow-delay="0.5s"
-                  src="/images/home_3/tree-4.png"
-                  alt="tree"
-                />
+                  
+                  alt="tree" />
               </div>
             </div>
           </div>

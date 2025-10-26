@@ -1,3 +1,7 @@
+import Image from "next/image";
+import feaShape2 from "@/assets/images/home_4/fea-shape2.svg";
+import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
+import dashboard from "@/assets/images/home_4/dashboard.png";
 
 
 export default function WorkFlowHRM() {
@@ -5,10 +9,10 @@ export default function WorkFlowHRM() {
     <section className="features-area-three features-area-three-hrm wow fadeInUp animate__fast">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/fea-shape2.svg" alt="shape" />
+          <Image src={feaShape2} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-4.svg" alt="shape" />
+          <Image src={bannerShape4} alt="shape" />
         </div>
       </div>
       <div className="container">
@@ -90,7 +94,7 @@ export default function WorkFlowHRM() {
                 aria-labelledby="nav-carban-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/home_4/dashboard.png" alt="Features" />
+                  <Image src={dashboard} alt="Features" />
                 </div>
               </div>
               <div
@@ -100,7 +104,7 @@ export default function WorkFlowHRM() {
                 aria-labelledby="nav-timeline-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/home_4/dashboard.png" alt="Features" />
+                  <Image src={dashboard} alt="Features" />
                 </div>
               </div>
               <div
@@ -110,7 +114,7 @@ export default function WorkFlowHRM() {
                 aria-labelledby="nav-calendar-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/home_4/dashboard.png" alt="Features" />
+                  <Image src={dashboard} alt="Features" />
                 </div>
               </div>
               <div
@@ -120,7 +124,7 @@ export default function WorkFlowHRM() {
                 aria-labelledby="nav-list-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/home_4/dashboard.png" alt="Features" />
+                  <Image src={dashboard} alt="Features" />
                 </div>
               </div>
             </div>

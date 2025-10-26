@@ -1,3 +1,8 @@
+import Image from "next/image";
+import team from "@/assets/images/team/team.png";
+import team2 from "@/assets/images/team/team-2.png";
+import team3 from "@/assets/images/team/team-3.png";
+import team4 from "@/assets/images/team/team-4.png";
 ;
 
 export default function AboutTeam() {
@@ -12,44 +17,36 @@ export default function AboutTeam() {
           </div>
           <div className="col-sm-6 col-lg-3">
             <div className="team-item text-center">
-              <img
-                className="team-image"
-                src="/images/team/team.png"
-                alt="Team"
-              />
+              <Image src={team} className="team-image"
+                
+                alt="Team" />
               <h4>Cooper Dias</h4>
               <p className="font-small">Marketing Designer DURHAM, NC</p>
             </div>
           </div>
           <div className="col-sm-6 col-lg-3 mt-8 mt-sm-0">
             <div className="team-item text-center">
-              <img
-                className="team-image"
-                src="/images/team/team-2.png"
-                alt="Team"
-              />
+              <Image src={team2} className="team-image"
+                
+                alt="Team" />
               <h4>Jaylon Franci</h4>
               <p className="font-small">Marketing Designer DURHAM, NC</p>
             </div>
           </div>
           <div className="col-sm-6 col-lg-3 mt-8 mt-lg-0">
             <div className="team-item text-center">
-              <img
-                className="team-image"
-                src="/images/team/team-3.png"
-                alt="Team"
-              />
+              <Image src={team3} className="team-image"
+                
+                alt="Team" />
               <h4>Kadin Baptista</h4>
               <p className="font-small">Marketing Designer DURHAM, NC</p>
             </div>
           </div>
           <div className="col-sm-6 col-lg-3 mt-8 mt-lg-0">
             <div className="team-item text-center">
-              <img
-                className="team-image"
-                src="/images/team/team-4.png"
-                alt="Team"
-              />
+              <Image src={team4} className="team-image"
+                
+                alt="Team" />
               <h4>Ruben Press</h4>
               <p className="font-small">Marketing Designer DURHAM, NC</p>
             </div>

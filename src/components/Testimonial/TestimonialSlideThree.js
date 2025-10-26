@@ -1,6 +1,9 @@
 "use client";
 
 import Slider from "react-slick";
+import Image from "next/image";
+import auth1 from "@/assets/images/home_7/auth1.png";
+import auth2 from "@/assets/images/home_7/auth2.png";
 
 const SlickBtnPrev = ({ currentSlide, slideCount, children, ...props }) => (
   <button {...props}>{children}</button>
@@ -59,7 +62,7 @@ export default function TestimonialSlideThree() {
                 <div>
                   <div className="author d-flex align-items-center">
                     <div className="auth-img">
-                      <img src="/images/home_7/auth1.png" alt="" />
+                      <Image src={auth1} alt="" />
                     </div>
                     <div className="auth-info">
                       <p>
@@ -82,7 +85,7 @@ export default function TestimonialSlideThree() {
               <div className="slide-item">
                 <div className="author d-flex align-items-center">
                   <div className="auth-img">
-                    <img src="/images/home_7/auth2.png" alt="" />
+                    <Image src={auth2} alt="" />
                   </div>
                   <div className="auth-info">
                     <p>
@@ -104,7 +107,7 @@ export default function TestimonialSlideThree() {
               <div className="slide-item">
                 <div className="author d-flex align-items-center">
                   <div className="auth-img">
-                    <img src="/images/home_7/auth1.png" alt="" />
+                    <Image src={auth1} alt="" />
                   </div>
                   <div className="auth-info">
                     <p>
@@ -126,7 +129,7 @@ export default function TestimonialSlideThree() {
               <div className="slide-item">
                 <div className="author d-flex align-items-center">
                   <div className="auth-img">
-                    <img src="/images/home_7/auth2.png" alt="" />
+                    <Image src={auth2} alt="" />
                   </div>
                   <div className="auth-info">
                     <p>

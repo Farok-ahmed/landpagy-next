@@ -1,4 +1,10 @@
 "use client";
+import Image from "next/image";
+import features4 from "@/assets/images/features/features-4.png";
+import featuresObject6 from "@/assets/images/features/features-object-6.svg";
+import featuresObject7 from "@/assets/images/features/features-object-7.svg";
+import featuresObject8 from "@/assets/images/features/features-object-8.svg";
+import featuresObject9 from "@/assets/images/features/features-object-9.svg";
 ;
 import { useParallax } from "react-scroll-parallax";
 
@@ -37,27 +43,15 @@ export default function AboutOneHero() {
           </div>
           <div className="col-lg-6 d-lg-none">
             <div className="banner-image">
-              <img src="/images/features/features-4.png" alt="Illustrator " />
-              <img
-                src="/images/features/features-object-6.svg"
-                alt="Features Object"
-                className="features-object6 layer"
-              />
-              <img
-                src="/images/features/features-object-7.svg"
-                alt="Features Object"
-                className="features-object7 object-element layer"
-              />
-              <img
-                src="/images/features/features-object-8.svg"
-                alt="Features Object"
-                className="features-object8 object-element layer"
-              />
-              <img
-                src="/images/features/features-object-9.svg"
-                alt="Features Object"
-                className="features-object9 object-element fa-layer-group"
-              />
+              <Image src={features4} alt="Illustrator " />
+              <Image src={featuresObject6} alt="Features Object"
+                className="features-object6 layer" />
+              <Image src={featuresObject7} alt="Features Object"
+                className="features-object7 object-element layer" />
+              <Image src={featuresObject8} alt="Features Object"
+                className="features-object8 object-element layer" />
+              <Image src={featuresObject9} alt="Features Object"
+                className="features-object9 object-element fa-layer-group" />
               <span className="shape13"></span>
               <span className="shape14"></span>
               <div className="round-object2"></div>
@@ -65,30 +59,18 @@ export default function AboutOneHero() {
           </div>
         </div>
         <div className="banner-right-two banner-image d-none d-lg-block">
-          <img src="/images/features/features-4.png" alt="Illustrator " />
-          <img
-            src="/images/features/features-object-6.svg"
-            alt="Features Object"
-            className="features-object6"
-          />
-          <img
-            src="/images/features/features-object-7.svg"
-            alt="Features Object"
+          <Image src={features4} alt="Illustrator " />
+          <Image src={featuresObject6} alt="Features Object"
+            className="features-object6" />
+          <Image src={featuresObject7} alt="Features Object"
             className="features-object7 object-element"
-            ref={shape2Parallax.ref}
-          />
-          <img
-            src="/images/features/features-object-8.svg"
-            alt="Features Object"
+            ref={shape2Parallax.ref} />
+          <Image src={featuresObject8} alt="Features Object"
             className="features-object8 object-element layer"
-            ref={shape3Parallax.ref}
-          />
-          <img
-            src="/images/features/features-object-9.svg"
-            alt="Features Object"
+            ref={shape3Parallax.ref} />
+          <Image src={featuresObject9} alt="Features Object"
             className="features-object9 object-element layer"
-            ref={shape4Parallax.ref}
-          />
+            ref={shape4Parallax.ref} />
           <span className="shape13"></span>
           <span className="shape14"></span>
           <div className="round-object2"></div>

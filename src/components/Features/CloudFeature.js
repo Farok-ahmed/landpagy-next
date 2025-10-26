@@ -1,3 +1,7 @@
+import Image from "next/image";
+import featuresImg from "@/assets/images/home_9/features-img.png";
+import shape9 from "@/assets/images/home_9/shapes/shape9.svg";
+import right from "@/assets/images/home_9/shapes/right.svg";
 ;
 
 export default function CloudFeature() {
@@ -31,25 +35,17 @@ export default function CloudFeature() {
               customizations and features, such as encrypted file sharing.
             </p>
             <div className="features-images position-relative">
-              <img
-                src="/images/home_9/features-img.png"
-                alt=""
-                className="mx-auto mb-40 features-img"
-              />
-              <img
-                src="/images/home_9/shapes/shape9.svg"
-                alt="Shape"
-                className="shape"
-              />
+              <Image src={featuresImg} alt=""
+                className="mx-auto mb-40 features-img" />
+              <Image src={shape9} alt="Shape"
+                className="shape" />
             </div>
             <a href="/" className="features-btn">
               {" "}
               Learn more{" "}
-              <img
-                className="icon"
-                src="/images/home_9/shapes/right.svg"
-                alt="Icon"
-              />{" "}
+              <Image src={right} className="icon"
+                
+                alt="Icon" />{" "}
             </a>
           </div>
         </div>

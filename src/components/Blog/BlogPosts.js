@@ -1,4 +1,14 @@
 import Link from "next/link";
+import Image from "next/image";
+import post1 from "@/assets/images/blog/post1.jpg";
+import post2 from "@/assets/images/blog/post2.jpg";
+import post3 from "@/assets/images/blog/post3.jpg";
+import post4 from "@/assets/images/blog/post4.jpg";
+import post5 from "@/assets/images/blog/post5.jpg";
+import post6 from "@/assets/images/blog/post6.jpg";
+import post7 from "@/assets/images/blog/post7.jpg";
+import post8 from "@/assets/images/blog/post8.jpg";
+import post9 from "@/assets/images/blog/post9.jpg";
 ;
 
 
@@ -8,7 +18,7 @@ export default function BlogPosts() {
       <div className="row">
         <div className="col-md-12">
           <div className="top-post-item mb-30">
-            <img src="/images/blog/post1.jpg" alt="Blog Post" />
+            <Image src={post1} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Development Tips
@@ -42,7 +52,7 @@ export default function BlogPosts() {
       <div className="row">
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post2.jpg" alt="Blog Post" />
+            <Image src={post2} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Product Update
@@ -74,7 +84,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post3.jpg" alt="Blog Post" />
+            <Image src={post3} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Case Study
@@ -106,7 +116,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post4.jpg" alt="Blog Post" />
+            <Image src={post4} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Development Tips
@@ -138,7 +148,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post5.jpg" alt="Blog Post" />
+            <Image src={post5} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Creative
@@ -170,7 +180,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post6.jpg" alt="Blog Post" />
+            <Image src={post6} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Product Update
@@ -202,7 +212,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post7.jpg" alt="Blog Post" />
+            <Image src={post7} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Case Study
@@ -234,7 +244,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post8.jpg" alt="Blog Post" />
+            <Image src={post8} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Development Tips
@@ -266,7 +276,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post9.jpg" alt="Blog Post" />
+            <Image src={post9} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Creative

@@ -1,4 +1,12 @@
 "use client";
+import Image from "next/image";
+import feaIcon1 from "@/assets/images/home_8/icons/fea-icon1.svg";
+import feaIcon2 from "@/assets/images/home_8/icons/fea-icon2.svg";
+import feaIcon3 from "@/assets/images/home_8/icons/fea-icon3.svg";
+import shape2 from "@/assets/images/home_8/shape/shape2.svg";
+import shape1 from "@/assets/images/home_8/shape/shape1.svg";
+import featureImg2 from "@/assets/images/home_8/feature-img2.png";
+import featureImg3 from "@/assets/images/home_8/feature-img3.png";
 ;
 import { Parallax } from "react-scroll-parallax";
 
@@ -20,7 +28,7 @@ export default function BillingModel() {
               data-wow-delay="0.2s"
             >
               <div className="feature-item-icon">
-                <img src="/images/home_8/icons/fea-icon1.svg" alt="" />
+                <Image src={feaIcon1} alt="" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -39,7 +47,7 @@ export default function BillingModel() {
               data-wow-delay="0.2s"
             >
               <div className="feature-item-icon">
-                <img src="/images/home_8/icons/fea-icon2.svg" alt="" />
+                <Image src={feaIcon2} alt="" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -58,7 +66,7 @@ export default function BillingModel() {
               data-wow-delay="0.2s"
             >
               <div className="feature-item-icon">
-                <img src="/images/home_8/icons/fea-icon3.svg" alt="" />
+                <Image src={feaIcon3} alt="" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -78,7 +86,7 @@ export default function BillingModel() {
             <div className="feature-images" data-wow-delay="0.2s">
               <div className="bg-shapes">
                 <div className="shape">
-                  <img src="/images/home_8/shape/shape2.svg" alt="Shape" />
+                  <Image src={shape2} alt="Shape" />
                 </div>
                 <div className="shape">
                   <Parallax
@@ -87,22 +95,18 @@ export default function BillingModel() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img src="/images/home_8/shape/shape1.svg" alt="Shape" />
+                    <Image src={shape1} alt="Shape" />
                   </Parallax>
                 </div>
               </div>
-              <img
-                className="img-1 wow fadeInRight"
+              <Image src={featureImg2} className="img-1 wow fadeInRight"
                 data-wow-delay="0.3s"
-                src="/images/home_8/feature-img2.png"
-                alt="Feature "
-              />
-              <img
-                className="img-2 wow fadeInRight"
+                
+                alt="Feature " />
+              <Image src={featureImg3} className="img-2 wow fadeInRight"
                 data-wow-delay="0.5s"
-                src="/images/home_8/feature-img3.png"
-                alt="Feature "
-              />
+                
+                alt="Feature " />
             </div>
           </div>
         </div>

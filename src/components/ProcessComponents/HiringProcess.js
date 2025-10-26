@@ -1,3 +1,8 @@
+import Image from "next/image";
+import shape11 from "@/assets/images/process/shape11.svg";
+import shape12 from "@/assets/images/process/shape12.svg";
+import shape13 from "@/assets/images/process/shape13.svg";
+import shape14 from "@/assets/images/process/shape14.svg";
 ;
 
 export default function HiringProcess() {
@@ -21,16 +26,12 @@ export default function HiringProcess() {
               className="process-item-2 wow fadeInLeft"
               data-wow-delay="0.1s"
             >
-              <img
-                className="line-1"
-                src="/images/process/shape11.svg"
-                alt="Shape"
-              />
-              <img
-                className="line-2"
-                src="/images/process/shape12.svg"
-                alt="Shape"
-              />
+              <Image src={shape11} className="line-1"
+                
+                alt="Shape" />
+              <Image src={shape12} className="line-2"
+                
+                alt="Shape" />
               <span className="item-number">1</span>
               <h3 className="item-title">Talk to Our Industry Experts</h3>
               <p className="item-text">
@@ -44,11 +45,9 @@ export default function HiringProcess() {
               className="process-item-2 wow fadeInLeft"
               data-wow-delay="0.3s"
             >
-              <img
-                className="line-3"
-                src="/images/process/shape13.svg"
-                alt="Shape"
-              />
+              <Image src={shape13} className="line-3"
+                
+                alt="Shape" />
               <span className="item-number">2</span>
               <h3 className="item-title">Work With Selected Talent</h3>
               <p className="item-text">
@@ -62,11 +61,9 @@ export default function HiringProcess() {
               className="process-item-2 wow fadeInLeft"
               data-wow-delay="0.5s"
             >
-              <img
-                className="line-4"
-                src="/images/process/shape14.svg"
-                alt="Shape"
-              />
+              <Image src={shape14} className="line-4"
+                
+                alt="Shape" />
               <span className="item-number">3</span>
               <h3 className="item-title">The Right Fit, Guaranteed</h3>
               <p className="item-text">

@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import post2 from "@/assets/images/blog/post2.jpg";
+import post3 from "@/assets/images/blog/post3.jpg";
 ;
 
 export default function RelatedPost() {
@@ -8,7 +11,7 @@ export default function RelatedPost() {
 
       <div className="col-md-6">
         <div className="post-item">
-          <img src="/images/blog/post2.jpg" alt="Blog Post" />
+          <Image src={post2} alt="Blog Post" />
           <div className="post-content">
             <Link href="/" className="cate-btn">
               Product Update
@@ -39,7 +42,7 @@ export default function RelatedPost() {
       </div>
       <div className="col-md-6">
         <div className="post-item">
-          <img src="/images/blog/post3.jpg" alt="Blog Post" />
+          <Image src={post3} alt="Blog Post" />
           <div className="post-content">
             <a href="/" className="cate-btn">
               Case Study

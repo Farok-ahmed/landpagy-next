@@ -4,6 +4,11 @@ import React, { useEffect } from "react";
 import { Parallax } from "react-scroll-parallax";
 import GLightbox from "glightbox";
 import Link from "next/link";
+import Image from "next/image";
+import bannerShape2 from "@/assets/images/home_7/shapes/banner-shape2.png";
+import bannerShape3 from "@/assets/images/home_7/shapes/banner-shape3.png";
+import banner from "@/assets/images/home_7/banner.png";
+import textShape from "@/assets/images/home_7/shapes/text-shape.svg";
 
 export default function HeroBannerThree() {
   useEffect(() => {
@@ -18,7 +23,7 @@ export default function HeroBannerThree() {
     <section className="banner-area-7">
       <div className="banner-shapes">
         <div className="shape">
-          <img src="/images/home_7/shapes/banner-shape2.png" alt="shapes" />
+          <Image src={bannerShape2} alt="shapes" />
         </div>
         <div className="shape">
           <Parallax
@@ -26,11 +31,11 @@ export default function HeroBannerThree() {
             translateY={["0px", "0px"]}
             rotateY={[0, 0]}
           >
-            <img src="/images/home_7/shapes/banner-shape3.png" alt="shapes" />
+            <Image src={bannerShape3} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape wow fadeInDown">
-          <img src="/images/home_7/banner.png" alt="shapes" />
+          <Image src={banner} alt="shapes" />
         </div>
       </div>
       <div className="container container-soft2">
@@ -41,7 +46,7 @@ export default function HeroBannerThree() {
                 Create Your Desire {""}
                 <span>
                   Business.
-                  <img src="./images/home_7/shapes/text-shape.svg" alt="" />
+                  <Image src={textShape} alt="" />
                 </span>
               </h2>
               <p className="banner-para wow fadeInLeft" data-wow-delay="0.3s">

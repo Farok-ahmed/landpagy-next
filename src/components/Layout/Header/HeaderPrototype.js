@@ -1,6 +1,8 @@
-;
+import logo6 from "@/assets/images/logo-6.svg";
+import Image from "next/image";
 import Link from "next/link";
 import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+;
 
 export default function HeaderPrototype() {
   return (
@@ -8,11 +10,9 @@ export default function HeaderPrototype() {
       <nav className="navbar navbar-expand-lg menu_five sticky-nav">
         <div className="container-fluid">
           <Link className="navbar-brand header_logo" href="/">
-            <img
-              className="white_logo main_logo"
-              src="/images/logo-6.svg"
-              alt="logo"
-            />
+            <Image src={logo6} className="white_logo main_logo"
+              
+              alt="logo" />
           </Link>
           <button
             className="navbar-toggler collapsed"
@@ -53,7 +53,7 @@ export default function HeaderPrototype() {
                   {demoLinks.map((item, index) => (
                     <li className={`nav-item`} key={index}>
                       <Link href={item.to} className="nav-link">
-                        <img src={item.imgSrc} alt={item.alt} />
+                        <Image src={item.imgSrc} alt={item.alt} />
                         <span>{item.text}</span>
                       </Link>
                     </li>

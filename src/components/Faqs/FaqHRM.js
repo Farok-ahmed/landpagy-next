@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import mobileShape2 from "@/assets/images/home_4/mobile-shape2.svg";
+import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
 ;
 
 export default function FaqHRM() {
@@ -6,10 +9,10 @@ export default function FaqHRM() {
     <section className="faq-area-four pt-125">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/mobile-shape2.svg" alt="shape" />
+          <Image src={mobileShape2} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-4.svg" alt="shape" />
+          <Image src={bannerShape4} alt="shape" />
         </div>
       </div>
       <div className="container">

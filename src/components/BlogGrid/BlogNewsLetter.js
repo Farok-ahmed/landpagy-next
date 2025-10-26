@@ -1,18 +1,17 @@
+import Image from "next/image";
+import shadowAction from "@/assets/images/blog_grid/shadow_action.png";
+import man from "@/assets/images/blog_grid/man.png";
 ;
 
 export default function BlogNewsLetter() {
   return (
     <section className="doc_action_area_three">
-      <img
-        className="p_absolute shadows"
-        src="/images/blog_grid/shadow_action.png"
-        alt=""
-      />
-      <img
-        className="p_absolute b_man"
-        src="/images/blog_grid/man.png"
-        alt=""
-      />
+      <Image src={shadowAction} className="p_absolute shadows"
+        
+        alt="" />
+      <Image src={man} className="p_absolute b_man"
+        
+        alt="" />
       <div className="container blog-grid-container">
         <div className="row">
           <div className="col-lg-5">

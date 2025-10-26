@@ -1,5 +1,10 @@
 
 import CloudClient from "../Clients/CloudClient";
+import Image from "next/image";
+import shape8 from "@/assets/images/home_9/shapes/shape8.svg";
+import desktop2 from "@/assets/images/home_9/desktop2.png";
+import desktop3 from "@/assets/images/home_9/desktop3.png";
+import desktop1 from "@/assets/images/home_9/desktop1.png";
 
 export default function CloudService() {
   return (
@@ -38,15 +43,15 @@ export default function CloudService() {
               data-wow-delay="0.3s"
             >
               <div className="img">
-                <img src="/images/home_9/shapes/shape8.svg" alt="" />
+                <Image src={shape8} alt="" />
               </div>
               <div className="img">
-                <img src="/images/home_9/desktop2.png" alt="" />
+                <Image src={desktop2} alt="" />
               </div>
               <div className="img">
-                <img src="/images/home_9/desktop3.png" alt="" />
+                <Image src={desktop3} alt="" />
               </div>
-              <img src="/images/home_9/desktop1.png" alt="" />
+              <Image src={desktop1} alt="" />
             </div>
           </div>
           <div className="col-lg-6">

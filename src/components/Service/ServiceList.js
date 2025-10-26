@@ -1,3 +1,8 @@
+import Image from "next/image";
+import service1 from "@/assets/images/services/service1.png";
+import service2 from "@/assets/images/services/service2.png";
+import service3 from "@/assets/images/services/service3.png";
+import service4 from "@/assets/images/services/service4.png";
 
 
 export default function ServiceList() {
@@ -17,7 +22,7 @@ export default function ServiceList() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service1.png" alt="Service " />
+              <Image src={service1} alt="Service " />
             </div>
           </div>
           <div className="col-md-6">
@@ -45,7 +50,7 @@ export default function ServiceList() {
           </div>
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service2.png" alt="Service " />
+              <Image src={service2} alt="Service " />
             </div>
           </div>
         </div>
@@ -53,7 +58,7 @@ export default function ServiceList() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service3.png" alt="Service " />
+              <Image src={service3} alt="Service " />
             </div>
           </div>
           <div className="col-md-6">
@@ -81,7 +86,7 @@ export default function ServiceList() {
           </div>
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service4.png" alt="Service " />
+              <Image src={service4} alt="Service " />
             </div>
           </div>
         </div>

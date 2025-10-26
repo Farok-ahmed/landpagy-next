@@ -1,4 +1,13 @@
 "use client";
+import Image from "next/image";
+import feature7 from "@/assets/images/features/feature-7.png";
+import featuresObject10 from "@/assets/images/features/features-object-10.svg";
+import featuresObject2 from "@/assets/images/features/features-object-2.svg";
+import featuresObject3 from "@/assets/images/features/features-object-3.svg";
+import featuresObject11 from "@/assets/images/features/features-object-11.svg";
+import featuresObject12 from "@/assets/images/features/features-object-12.svg";
+import icon4 from "@/assets/images/icon/icon-4.svg";
+import icon5 from "@/assets/images/icon/icon-5.svg";
 ;
 import { useParallax } from "react-scroll-parallax";
 
@@ -29,36 +38,26 @@ export default function MainFeatureThree() {
         <div className="row">
           <div className="col-lg-6">
             <div className="feature-image">
-              <img src="/images/features/feature-7.png" alt="Features " />
-              <img
-                className="features-object10 object-element"
+              <Image src={feature7} alt="Features " />
+              <Image src={featuresObject10} className="features-object10 object-element"
                 ref={shape1Parallax.ref}
-                src="/images/features/features-object-10.svg"
-                alt="Features "
-              />
-              <img
-                className="features-object11"
-                src="/images/features/features-object-2.svg"
-                alt="Features "
-              />
-              <img
-                className="features-object12 object-element"
+                
+                alt="Features " />
+              <Image src={featuresObject2} className="features-object11"
+                
+                alt="Features " />
+              <Image src={featuresObject3} className="features-object12 object-element"
                 ref={shape2Parallax.ref}
-                src="/images/features/features-object-3.svg"
-                alt="Features "
-              />
-              <img
-                className="features-object13 object-element"
+                
+                alt="Features " />
+              <Image src={featuresObject11} className="features-object13 object-element"
                 ref={shape3Parallax.ref}
-                src="/images/features/features-object-11.svg"
-                alt="Features "
-              />
-              <img
-                className="features-object14 object-element"
+                
+                alt="Features " />
+              <Image src={featuresObject12} className="features-object14 object-element"
                 ref={shape4Parallax.ref}
-                src="/images/features/features-object-12.svg"
-                alt="Features "
-              />
+                
+                alt="Features " />
             </div>
           </div>
           <div className="col-lg-6">
@@ -74,7 +73,7 @@ export default function MainFeatureThree() {
               <div className="col-sm-6">
                 <div className="features-service">
                   <div className="features-icon">
-                    <img src="/images/icon/icon-4.svg" alt="Icon" />
+                    <Image src={icon4} alt="Icon" />
                     <span>Design</span>
                   </div>
                   <p>
@@ -86,7 +85,7 @@ export default function MainFeatureThree() {
               <div className="col-sm-6">
                 <div className="features-service">
                   <div className="features-icon">
-                    <img src="/images/icon/icon-5.svg" alt="Icon" />
+                    <Image src={icon5} alt="Icon" />
                     <span>Development</span>
                   </div>
                   <p>
