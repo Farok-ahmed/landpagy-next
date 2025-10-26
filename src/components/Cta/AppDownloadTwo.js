@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import ctaImg1 from "@/assets/images/home_10/cta-img1.svg";
 import ctaImg2 from "@/assets/images/home_10/cta-img2.svg";
 import ctaImg3 from "@/assets/images/home_10/cta-img3.svg";
@@ -21,35 +23,18 @@ export default function AppDownloadTwo({ hasSpace }) {
                 <h2 className="cta-title cloud-heading-2 mb-60">
                   Join the revolution. Download the app today!
                 </h2>
-                <a
-                  href="/"
-                  className="app-store-link wow fadeInLeft"
-                  data-wow-delay="0.4s"
-                  style={{
-                    visibility: "visible",
-                    animationDelay: "0.4s",
-                    animationName: "fadeInLeft",
-                  }}
-                >
+                <Link href="/" className="app-store-link wow fadeInLeft" data-wow-delay="0.4s">
                   <i className="fab fa-google-play"></i>
                   <p>
                     <span>GET IT ON</span>Google Play
                   </p>
-                </a>
-                <a
-                  href="/"
-                  className="app-store-link ml-25 wow fadeInRight"
-                  style={{
-                    visibility: "visible",
-                    animationDelay: "0.4s",
-                    animationName: "fadeInRight",
-                  }}
-                >
+                </Link>
+                <Link href="/" className="app-store-link ml-25 wow fadeInRight">
                   <i className="fab fa-apple"></i>
                   <p>
                     <span>Available on the</span>Apple Store
                   </p>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="col-lg-5">

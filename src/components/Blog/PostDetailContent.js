@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import singlePost1 from "@/assets/images/blog/single-post1.jpg";
 import singlePost2 from "@/assets/images/blog/single-post2.jpg";
 ;
@@ -6,11 +8,11 @@ import singlePost2 from "@/assets/images/blog/single-post2.jpg";
 export default function PostDetailContent() {
   return (
     <div className="single-post-item">
-      <a className="post-img" href="/">
+      <Link href="/" className="post-img">
         <Image src={singlePost1} className="mb-20"
           
           alt="Blog Post" />
-      </a>
+      </Link>
       <div className="post-content">
         <p className="post-para">
           Tomfoolery crikey bits and bobs brilliant bamboozled down the pub

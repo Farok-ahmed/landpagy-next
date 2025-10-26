@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export default function FourColumnPriceTable({ pricePageTwo }) {
@@ -86,9 +87,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <span>Alwase Free</span>
                   </div>
                   <span className="pricing-item-user">1 user</span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Continue
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -100,9 +101,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-gray-100">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Continue
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-sm-6 col-xl-3">
@@ -117,9 +118,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                   <span className="pricing-item-user">
                     Starts at $8 Includes 2 users
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -131,9 +132,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-gray-100">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-sm-6 col-xl-3">
@@ -149,9 +150,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     {" "}
                     Starts at $10.4 Includes 2 users{" "}
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -163,9 +164,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-black">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-sm-6 col-xl-3">
@@ -181,9 +182,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     {" "}
                     Starts at $16 Includes 2 users{" "}
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -195,9 +196,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-black">Track apps & URLs</li>
                     <li className="text-black">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -221,9 +222,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <span>Alwase Free</span>
                   </div>
                   <span className="pricing-item-user">1 user</span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Continue
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -235,9 +236,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-gray-100">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Continue
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -253,9 +254,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     {" "}
                     Starts at $8 Includes 2 users{" "}
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -267,9 +268,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-gray-100">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -284,9 +285,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                   <span className="pricing-item-user">
                     Starts at $10.4 Includes 2 users
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -298,9 +299,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-black">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -315,9 +316,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                   <span className="pricing-item-user">
                     Starts at $16 Includes 2 users
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -329,9 +330,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-black">Track apps & URLs</li>
                     <li className="text-black">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -350,9 +351,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <span>Alwase Free</span>
                   </div>
                   <span className="pricing-item-user">1 user</span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Continue
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -364,9 +365,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-gray-100">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Continue
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -382,9 +383,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     {" "}
                     Starts at $8 Includes 2 users{" "}
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -396,9 +397,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-gray-100">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -414,9 +415,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     {" "}
                     Starts at $10.4 Includes 2 users{" "}
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -428,9 +429,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-black">Track apps & URLs</li>
                     <li className="text-gray-100">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3">
@@ -446,9 +447,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     {" "}
                     Starts at $16 Includes 2 users{" "}
                   </span>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                   <ul>
                     <li className="text-black">Time tracking</li>
                     <li className="text-black">Activity levels</li>
@@ -460,9 +461,9 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                     <li className="text-black">Track apps & URLs</li>
                     <li className="text-black">Mobile GPS tracking=</li>
                   </ul>
-                  <a href="/" className="pricing-btn">
+                  <Link href="/" className="pricing-btn">
                     Start Free Trial
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

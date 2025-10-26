@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import userIcon1 from "@/assets/images/home_2/user-icon-1.png";
 import userIcon2 from "@/assets/images/home_2/user-icon-2.png";
 import userIcon3 from "@/assets/images/home_2/user-icon-3.png";
@@ -71,9 +73,9 @@ export default function PriceOneWithBg() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
@@ -88,9 +90,9 @@ export default function PriceOneWithBg() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
@@ -108,9 +110,9 @@ export default function PriceOneWithBg() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -131,9 +133,9 @@ export default function PriceOneWithBg() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
@@ -145,9 +147,9 @@ export default function PriceOneWithBg() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
@@ -162,9 +164,9 @@ export default function PriceOneWithBg() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

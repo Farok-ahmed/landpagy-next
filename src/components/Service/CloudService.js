@@ -1,5 +1,7 @@
 
 import CloudClient from "../Clients/CloudClient";
+import Link from "next/link";
+
 import Image from "next/image";
 import shape8 from "@/assets/images/home_9/shapes/shape8.svg";
 import desktop2 from "@/assets/images/home_9/desktop2.png";
@@ -83,19 +85,19 @@ export default function CloudService() {
                       Easy automated synchronization between your computer and
                       your Landpagy cloud. Available for Windows, Mac and Linux.
                     </p>
-                    <a className="btn-more" href="/">
+                    <Link href="/" className="btn-more">
                       {" "}
                       Learn more <i className="fas fa-arrow-right"></i>{" "}
-                    </a>
-                    <a className="btn-apple" href="/">
+                    </Link>
+                    <Link href="/" className="btn-apple">
                       <i className="fab fa-apple"></i>
-                    </a>
-                    <a className="btn-windows" href="/">
+                    </Link>
+                    <Link href="/" className="btn-windows">
                       <i className="fab fa-windows"></i>
-                    </a>
-                    <a className="btn-linux" href="/">
+                    </Link>
+                    <Link href="/" className="btn-linux">
                       <i className="fab fa-linux"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -122,19 +124,19 @@ export default function CloudService() {
                       Easy automated synchronization between your computer and
                       your Landpagy cloud. Available for Windows, Mac and Linux.
                     </p>
-                    <a className="btn-more" href="/">
+                    <Link href="/" className="btn-more">
                       {" "}
                       Learn more <i className="fas fa-arrow-right"></i>{" "}
-                    </a>
-                    <a className="btn-apple" href="/">
+                    </Link>
+                    <Link href="/" className="btn-apple">
                       <i className="fab fa-apple"></i>
-                    </a>
-                    <a className="btn-windows" href="/">
+                    </Link>
+                    <Link href="/" className="btn-windows">
                       <i className="fab fa-windows"></i>
-                    </a>
-                    <a className="btn-linux" href="/">
+                    </Link>
+                    <Link href="/" className="btn-linux">
                       <i className="fab fa-linux"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -161,19 +163,19 @@ export default function CloudService() {
                       Easy automated synchronization between your computer and
                       your Landpagy cloud. Available for Windows, Mac and Linux.
                     </p>
-                    <a className="btn-more" href="/">
+                    <Link href="/" className="btn-more">
                       {" "}
                       Learn more <i className="fas fa-arrow-right"></i>{" "}
-                    </a>
-                    <a className="btn-apple" href="/">
+                    </Link>
+                    <Link href="/" className="btn-apple">
                       <i className="fab fa-apple"></i>
-                    </a>
-                    <a className="btn-windows" href="/">
+                    </Link>
+                    <Link href="/" className="btn-windows">
                       <i className="fab fa-windows"></i>
-                    </a>
-                    <a className="btn-linux" href="/">
+                    </Link>
+                    <Link href="/" className="btn-linux">
                       <i className="fab fa-linux"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -200,19 +202,19 @@ export default function CloudService() {
                       Easy automated synchronization between your computer and
                       your Landpagy cloud. Available for Windows, Mac and Linux.
                     </p>
-                    <a className="btn-more" href="/">
+                    <Link href="/" className="btn-more">
                       {" "}
                       Learn more <i className="fas fa-arrow-right"></i>{" "}
-                    </a>
-                    <a className="btn-apple" href="/">
+                    </Link>
+                    <Link href="/" className="btn-apple">
                       <i className="fab fa-apple"></i>
-                    </a>
-                    <a className="btn-windows" href="/">
+                    </Link>
+                    <Link href="/" className="btn-windows">
                       <i className="fab fa-windows"></i>
-                    </a>
-                    <a className="btn-linux" href="/">
+                    </Link>
+                    <Link href="/" className="btn-linux">
                       <i className="fab fa-linux"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -239,19 +241,19 @@ export default function CloudService() {
                       Easy automated synchronization between your computer and
                       your Landpagy cloud. Available for Windows, Mac and Linux.
                     </p>
-                    <a className="btn-more" href="/">
+                    <Link href="/" className="btn-more">
                       {" "}
                       Learn more <i className="fas fa-arrow-right"></i>{" "}
-                    </a>
-                    <a className="btn-apple" href="/">
+                    </Link>
+                    <Link href="/" className="btn-apple">
                       <i className="fab fa-apple"></i>
-                    </a>
-                    <a className="btn-windows" href="/">
+                    </Link>
+                    <Link href="/" className="btn-windows">
                       <i className="fab fa-windows"></i>
-                    </a>
-                    <a className="btn-linux" href="/">
+                    </Link>
+                    <Link href="/" className="btn-linux">
                       <i className="fab fa-linux"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

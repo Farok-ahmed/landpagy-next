@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function PosPrice({ hasBG }) {
@@ -90,9 +91,9 @@ export default function PosPrice({ hasBG }) {
                         </li>
                       </ul>
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Try Free
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
@@ -129,9 +130,9 @@ export default function PosPrice({ hasBG }) {
                         </li>
                       </ul>
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Purchase
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
@@ -168,9 +169,9 @@ export default function PosPrice({ hasBG }) {
                         </li>
                       </ul>
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Purchase
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -213,9 +214,9 @@ export default function PosPrice({ hasBG }) {
                         </li>
                       </ul>
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Try Free
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
@@ -249,9 +250,9 @@ export default function PosPrice({ hasBG }) {
                         </li>
                       </ul>
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Purchase
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
@@ -285,9 +286,9 @@ export default function PosPrice({ hasBG }) {
                         </li>
                       </ul>
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Purchase
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

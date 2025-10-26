@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function TagWidget() {
@@ -6,37 +7,37 @@ export default function TagWidget() {
       <h4 className="widget-title">Tags</h4>
       <ul className="list-unstyled tag-list">
         <li>
-          <a href="/">WordPress</a>
+          <Link href="/">WordPress</Link>
         </li>
         <li>
-          <a href="/">web design</a>
+          <Link href="/">web design</Link>
         </li>
         <li>
-          <a href="/">ui/ux</a>
+          <Link href="/">ui/ux</Link>
         </li>
         <li>
-          <a href="/">saas</a>
+          <Link href="/">saas</Link>
         </li>
         <li>
-          <a href="/">software</a>
+          <Link href="/">software</Link>
         </li>
         <li>
-          <a href="/">creative</a>
+          <Link href="/">creative</Link>
         </li>
         <li>
-          <a href="/">product</a>
+          <Link href="/">product</Link>
         </li>
         <li>
-          <a href="/">development</a>
+          <Link href="/">development</Link>
         </li>
         <li>
-          <a href="/">design</a>
+          <Link href="/">design</Link>
         </li>
         <li>
-          <a href="/">sequrity</a>
+          <Link href="/">sequrity</Link>
         </li>
         <li>
-          <a href="/">agency</a>
+          <Link href="/">agency</Link>
         </li>
       </ul>
     </div>

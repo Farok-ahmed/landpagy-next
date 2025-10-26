@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import icon9 from "@/assets/images/icon/icon-9.svg";
 import icon10 from "@/assets/images/icon/icon-10.svg";
 import icon11 from "@/assets/images/icon/icon-11.svg";
@@ -80,9 +82,9 @@ export default function ContactWidgets() {
                   </div>
                   <div className="col-12">
                     <div className="contact-form-button">
-                      <a href="/" className="btn btn-red">
+                      <Link href="/" className="btn btn-red">
                         Book A Demo
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import formIcon from "@/assets/images/contact_2/icons/form-icon.svg";
 ;
 
@@ -126,9 +128,9 @@ export default function ContactTwoFormTab() {
                         <textarea id="textarea" placeholder=""></textarea>
                       </div>
                       <div className="contact-form-button">
-                        <a href="/" className="btn btn-red">
+                        <Link href="/" className="btn btn-red">
                           Send Message
-                        </a>
+                        </Link>
                       </div>
                     </form>
                   </div>
@@ -167,9 +169,9 @@ export default function ContactTwoFormTab() {
                         <textarea id="textarea" placeholder=""></textarea>
                       </div>
                       <div className="contact-form-button">
-                        <a href="/" className="btn btn-red">
+                        <Link href="/" className="btn btn-red">
                           Send Message
-                        </a>
+                        </Link>
                       </div>
                     </form>
                   </div>
@@ -208,9 +210,9 @@ export default function ContactTwoFormTab() {
                         <textarea id="textarea" placeholder=""></textarea>
                       </div>
                       <div className="contact-form-button">
-                        <a href="/" className="btn btn-red">
+                        <Link href="/" className="btn btn-red">
                           Send Message
-                        </a>
+                        </Link>
                       </div>
                     </form>
                   </div>
@@ -249,9 +251,9 @@ export default function ContactTwoFormTab() {
                         <textarea id="textarea" placeholder=""></textarea>
                       </div>
                       <div className="contact-form-button">
-                        <a href="/" className="btn btn-red">
+                        <Link href="/" className="btn btn-red">
                           Send Message
-                        </a>
+                        </Link>
                       </div>
                     </form>
                   </div>
@@ -290,9 +292,9 @@ export default function ContactTwoFormTab() {
                         <textarea id="textarea" placeholder=""></textarea>
                       </div>
                       <div className="contact-form-button">
-                        <a href="/" className="btn btn-red">
+                        <Link href="/" className="btn btn-red">
                           Send Message
-                        </a>
+                        </Link>
                       </div>
                     </form>
                   </div>

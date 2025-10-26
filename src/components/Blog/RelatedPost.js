@@ -27,9 +27,9 @@ export default function RelatedPost() {
             </p>
             <div className="d-flex justify-content-between">
               <div className="post-author">
-                <a href="/" className="auth-name">
+                <Link href="/" className="auth-name">
                   <i className="far fa-user-circle"></i> Zain Siphron
-                </a>
+                </Link>
               </div>
               <div className="post-date">
                 <p>
@@ -44,9 +44,9 @@ export default function RelatedPost() {
         <div className="post-item">
           <Image src={post3} alt="Blog Post" />
           <div className="post-content">
-            <a href="/" className="cate-btn">
+            <Link href="/" className="cate-btn">
               Case Study
-            </a>
+            </Link>
             <h4 className="post-title">
               <Link href="/blog-details">
                 How Ceros launched Sketch, Photoshop.
@@ -58,9 +58,9 @@ export default function RelatedPost() {
             </p>
             <div className="d-flex justify-content-between">
               <div className="post-author">
-                <a href="/" className="auth-name">
+                <Link href="/" className="auth-name">
                   <i className="far fa-user-circle"></i> Zain Siphron
-                </a>
+                </Link>
               </div>
               <div className="post-date">
                 <p>

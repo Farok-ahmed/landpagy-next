@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import shape1 from "@/assets/images/home_8/shape/shape1.svg";
 import shape2 from "@/assets/images/home_8/shape/shape2.svg";
 import featureImg1 from "@/assets/images/home_8/feature-img1.png";
@@ -61,9 +63,9 @@ export default function AutomateBilling() {
                   <i className="icon_check"></i> Proration & Invoicing
                 </li>
               </ul>
-              <a href="/" className="btn-bordered">
+              <Link href="/" className="btn-bordered">
                 Learn more <i className="arrow_right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

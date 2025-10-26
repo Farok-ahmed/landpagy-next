@@ -255,9 +255,9 @@ export default function JobList() {
       </div>
 
       <div className="text-center mt-70 wow fadeInUp">
-        <a href="/" className="btn">
+        <Link href="/" className="btn">
           More jobs
-        </a>
+        </Link>
       </div>
     </div>
   );

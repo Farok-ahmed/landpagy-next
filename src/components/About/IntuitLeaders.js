@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import leader1 from "@/assets/images/about_2/leader1.png";
 import leader2 from "@/assets/images/about_2/leader2.png";
 import leader3 from "@/assets/images/about_2/leader3.png";
@@ -52,9 +54,9 @@ export default function IntuitLeaders() {
             <div className="team-leader-more">
               <div>
                 <p className="item-name">Intuit Executive Leadership</p>
-                <a href="/" className="item-link">
+                <Link href="/" className="item-link">
                   Learn More <i className="arrow_triangle-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

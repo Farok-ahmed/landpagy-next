@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function PostTags() {
@@ -8,13 +9,13 @@ export default function PostTags() {
           <p>Tags :</p>
         </li>
         <li>
-          <a href="/">WordPress</a>
+          <Link href="/">WordPress</Link>
         </li>
         <li>
-          <a href="/">web design</a>
+          <Link href="/">web design</Link>
         </li>
         <li>
-          <a href="/">software</a>
+          <Link href="/">software</Link>
         </li>
       </ul>
     </div>

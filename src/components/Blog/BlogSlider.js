@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import border from "@/assets/images/home_10/shapes/border.svg";
 import upRight from "@/assets/images/home_10/shapes/up-right.svg";
 ;
@@ -68,87 +70,87 @@ export default function BlogSlider() {
           <div>
             <div className="single-blog">
               <h3 className="item-title">
-                <a href="/">Designed for your safety.</a>
+                <Link href="/">Designed for your safety.</Link>
               </h3>
               <p className="item-text">
                 Your security and privacy are at the heart of what we do. Learn
                 how Android protects you at every turn.
               </p>
-              <a href="/" className="item-btn">
+              <Link href="/" className="item-btn">
                 Read the full article
                 <Image src={upRight} className="icon"
                   
                   alt="Icon" />
-              </a>
+              </Link>
             </div>
           </div>
           <div>
             <div className="single-blog">
               <h3 className="item-title">
-                <a href="/">Designed for your safety.</a>
+                <Link href="/">Designed for your safety.</Link>
               </h3>
               <p className="item-text">
                 Your security and privacy are at the heart of what we do. Learn
                 how Android protects you at every turn.
               </p>
-              <a href="/" className="item-btn">
+              <Link href="/" className="item-btn">
                 Read the full article
                 <Image src={upRight} className="icon"
                   
                   alt="Icon" />
-              </a>
+              </Link>
             </div>
           </div>
           <div>
             <div className="single-blog">
               <h3 className="item-title">
-                <a href="/">Designed for your safety.</a>
+                <Link href="/">Designed for your safety.</Link>
               </h3>
               <p className="item-text">
                 Your security and privacy are at the heart of what we do. Learn
                 how Android protects you at every turn.
               </p>
-              <a href="/" className="item-btn">
+              <Link href="/" className="item-btn">
                 Read the full article
                 <Image src={upRight} className="icon"
                   
                   alt="Icon" />
-              </a>
+              </Link>
             </div>
           </div>
           <div>
             <div className="single-blog">
               <h3 className="item-title">
-                <a href="/">Designed for your safety.</a>
+                <Link href="/">Designed for your safety.</Link>
               </h3>
               <p className="item-text">
                 Your security and privacy are at the heart of what we do. Learn
                 how Android protects you at every turn.
               </p>
-              <a href="/" className="item-btn">
+              <Link href="/" className="item-btn">
                 Read the full article
                 <Image src={upRight} className="icon"
                   
                   alt="Icon" />
-              </a>
+              </Link>
             </div>
           </div>
 
           <div>
             <div className="single-blog">
               <h3 className="item-title">
-                <a href="/">Designed for your safety.</a>
+                <Link href="/">Designed for your safety.</Link>
               </h3>
               <p className="item-text">
                 Your security and privacy are at the heart of what we do. Learn
                 how Android protects you at every turn.
               </p>
-              <a href="/" className="item-btn">
+              <Link href="/" className="item-btn">
                 Read the full article
                 <Image src={upRight} className="icon"
                   
                   alt="Icon" />
-              </a>
+              </Link>
             </div>
           </div>
         </Slider>

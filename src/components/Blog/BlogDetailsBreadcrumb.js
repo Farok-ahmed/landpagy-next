@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import bannerShape1 from "@/assets/images/blog/banner-shape1.svg";
 import bannerShape2 from "@/assets/images/blog/banner-shape2.svg";
 import bannerShape3 from "@/assets/images/blog/banner-shape3.svg";
@@ -42,9 +44,9 @@ export default function BlogDetailsBreadcrumb() {
         <div className="row">
           <div className="col-lg-12">
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Development Tips
-              </a>
+              </Link>
 
               <h1 className="banner-title">
                 How Landpagy Improved Development Process 10x with Shape Up
@@ -52,9 +54,9 @@ export default function BlogDetailsBreadcrumb() {
 
               <div className="d-flex">
                 <div className="pr-20 post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Zain Siphron
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>

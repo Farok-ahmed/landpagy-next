@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import shape12 from "@/assets/images/home_9/shapes/shape12.svg";
 import shape13 from "@/assets/images/home_9/shapes/shape13.svg";
 import shape14 from "@/assets/images/home_9/shapes/shape14.svg";
@@ -79,9 +81,9 @@ export default function CloudCtaTwo() {
               </span>{" "}
               with 10GB.
             </h2>
-            <a href="/" className="btn btn-red">
+            <Link href="/" className="btn btn-red">
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
       </div>

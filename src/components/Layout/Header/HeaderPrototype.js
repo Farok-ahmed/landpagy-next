@@ -197,9 +197,9 @@ export default function HeaderPrototype() {
               </li>
             </ul>
             <div className="right-nav">
-              <a href="/" className="language-bar mr-50">
+              <Link href="/" className="language-bar mr-50">
                 <span className="active">En.</span> <span>Ru</span>
-              </a>
+              </Link>
               <Link href="/sign-in">Sign in</Link>
               <Link className="btn btn-yellow" href="/sign-up">
                 Sign Up

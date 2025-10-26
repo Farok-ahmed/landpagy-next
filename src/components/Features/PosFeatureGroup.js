@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import feaIcon1 from "@/assets/images/home_5/icons/fea-icon1.svg";
 import feaIcon2 from "@/assets/images/home_5/icons/fea-icon2.svg";
 import feaIcon3 from "@/assets/images/home_5/icons/fea-icon3.svg";
@@ -29,72 +31,72 @@ export default function PosFeatureGroup() {
             <div className="features-item text-center">
               <Image src={feaIcon1} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Clothing store
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon2} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Coffee shop
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon3} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Furniture store
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon4} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Jewelry store
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon5} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Food truck
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon6} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Gift store
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon7} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Pet store
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon8} alt=""
                 className="features-icon mx-auto mb-10" />
-              <a href="/" className="features-name">
+              <Link href="/" className="features-name">
                 Retail examples
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -33,16 +33,12 @@ export default function AboutTwoHero() {
                 world’s Best Software solution that’s available with Einstein
                 AI.
               </p>
-              <a href="/" className="btn wow fadeInLeft" data-wow-delay="0.4s">
+              <Link href="/" className="btn wow fadeInLeft" data-wow-delay="0.4s">
                 Watch Demos
-              </a>
-              <a
-                href="/"
-                className="btn btn-red wow fadeInLeft"
-                data-wow-delay="0.4s"
-              >
+              </Link>
+              <Link href="/" className="btn btn-red wow fadeInLeft" data-wow-delay="0.4s">
                 Explore Products
-              </a>
+              </Link>
             </div>
           </div>
 

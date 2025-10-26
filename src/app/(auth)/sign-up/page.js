@@ -96,24 +96,24 @@ export default function SignUp() {
 
                     <ul className="create-with-list mt-45 mb-35">
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon1} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon2} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon3} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon4} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
 
@@ -167,7 +167,7 @@ export default function SignUp() {
                         </p>
                         <p className="form-text mt-15">
                           By clicking “Sign up” you agree to our
-                          <a href="/">Terms of Service.</a>
+                          <Link href="/">Terms of Service.</Link>
                         </p>
                       </div>
                     </div>

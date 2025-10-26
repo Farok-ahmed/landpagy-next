@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import border from "@/assets/images/home_10/shapes/border.svg";
 import right from "@/assets/images/home_10/shapes/right.svg";
 import shape1 from "@/assets/images/home_10/shapes/shape1.svg";
@@ -165,12 +167,12 @@ export default function AppLandingHero() {
                 with me, gormless pukka are you taking the piss bum bag zonked
                 cup of char
               </p>
-              <a href="/" className="btn btn-red">
+              <Link href="/" className="btn btn-red">
                 Try for free
                 <Image src={right} className="icon"
                   
                   alt="Arrow" />
-              </a>
+              </Link>
             </div>
           </div>
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function PriceThree() {
@@ -37,9 +38,9 @@ export default function PriceThree() {
                   <i className="far fa-check-circle"></i> Mobile App
                 </li>
               </ul>
-              <a href="/" className="btn-bordered">
+              <Link href="/" className="btn-bordered">
                 Choose Plan
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-4">
@@ -65,9 +66,9 @@ export default function PriceThree() {
                   <i className="far fa-check-circle"></i> Mobile App
                 </li>
               </ul>
-              <a href="/" className="btn-bordered">
+              <Link href="/" className="btn-bordered">
                 Choose Plan
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-4">
@@ -93,9 +94,9 @@ export default function PriceThree() {
                   <i className="far fa-check-circle"></i> Mobile App
                 </li>
               </ul>
-              <a href="/" className="btn-bordered">
+              <Link href="/" className="btn-bordered">
                 Choose Plan
-              </a>
+              </Link>
             </div>
           </div>
         </div>

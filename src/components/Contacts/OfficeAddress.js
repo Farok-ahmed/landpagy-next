@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function OfficeAddress() {
@@ -18,10 +19,10 @@ export default function OfficeAddress() {
                   San Francisco, CA 94103
                 </p>
                 <p>
-                  <a href="/">www.zendesk.com</a>
+                  <Link href="/">www.zendesk.com</Link>
                 </p>
                 <p>
-                  <a href="/">(+10)-770-0090</a>
+                  <Link href="/">(+10)-770-0090</Link>
                 </p>
               </div>
               <div className="location-item">
@@ -32,10 +33,10 @@ export default function OfficeAddress() {
                   Amsterdam, Netherlands
                 </p>
                 <p>
-                  <a href="/">www.landpagy.nl</a>
+                  <Link href="/">www.landpagy.nl</Link>
                 </p>
                 <p>
-                  <a href="/">(+010)-770-0090</a>
+                  <Link href="/">(+010)-770-0090</Link>
                 </p>
               </div>
               <div className="location-item">
@@ -46,10 +47,10 @@ export default function OfficeAddress() {
                   Madrid ,Spain
                 </p>
                 <p>
-                  <a href="/">www.landpagy.es</a>
+                  <Link href="/">www.landpagy.es</Link>
                 </p>
                 <p>
-                  <a href="/">(+34) 00 000 0000</a>
+                  <Link href="/">(+34) 00 000 0000</Link>
                 </p>
               </div>
               <div className="location-item">
@@ -60,10 +61,10 @@ export default function OfficeAddress() {
                   Marina One West Tower
                 </p>
                 <p>
-                  <a href="/">www.landpagy.nl</a>
+                  <Link href="/">www.landpagy.nl</Link>
                 </p>
                 <p>
-                  <a href="/">(+069)-0098-087</a>
+                  <Link href="/">(+069)-0098-087</Link>
                 </p>
               </div>
             </div>

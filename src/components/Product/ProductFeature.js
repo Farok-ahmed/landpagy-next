@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import checkmark from "@/assets/images/icon/checkmark.svg";
 import allInApp from "@/assets/images/home_3/all-in-app.png";
 import icon1 from "@/assets/images/home_10/icons/icon1.svg";
@@ -78,9 +80,9 @@ export default function ProductFeature() {
                       </li>
                     </ul>
                   </div>
-                  <a href="/" className="btn btn-red">
+                  <Link href="/" className="btn btn-red">
                     Get Our POS
-                  </a>
+                  </Link>
                 </div>
                 <div className="produ">
                   <Image src={allInApp} alt="" />
@@ -113,9 +115,9 @@ export default function ProductFeature() {
                       <p>Will keep your POS software up to date.</p>
                     </div>
                   </div>
-                  <a href="/" className="btn btn-red">
+                  <Link href="/" className="btn btn-red">
                     Start Selling
-                  </a>
+                  </Link>
                 </div>
                 <div className="product-hero-box-2">
                   <Image src={feaImages2} alt="" />

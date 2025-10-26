@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import shape1 from "@/assets/images/home_9/shapes/shape1.svg";
 import shape2 from "@/assets/images/home_9/shapes/shape2.svg";
 import shape3 from "@/assets/images/home_9/shapes/shape3.svg";
@@ -93,9 +95,9 @@ export default function CloudCta() {
               </span>
               {""} with 10GB.
             </h2>
-            <a href="/" className="btn btn-red">
+            <Link href="/" className="btn btn-red">
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
       </div>

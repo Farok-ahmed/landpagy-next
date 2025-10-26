@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import topPost from "@/assets/images/blog_grid/top_post.jpg";
 import ansley from "@/assets/images/blog_grid/ansley.jpg";
 ;
@@ -16,22 +18,22 @@ export default function FullWidthPost() {
           <div className="col-lg-5 p-0">
             <div className="b_top_post_content">
               <div className="post_tag">
-                <a href="/">9 Min Read</a>
-                <a className="c_blue" href="/">
+                <Link href="/">9 Min Read</Link>
+                <Link href="/" className="c_blue">
                   WordPress
-                </a>
+                </Link>
               </div>
-              <a href="/">
+              <Link href="/">
                 <h3>10 WordPress Security Issues And How to Fix Them</h3>
-              </a>
+              </Link>
               <p>
                 Tinkety tonk old fruit bodge on your bike mate car boot my good
                 sir jolly good such a fibber up the kyver golly gosh David, naff
                 chap.!
               </p>
-              <a href="/" className="learn_btn">
+              <Link href="/" className="learn_btn">
                 Continue Reading<i className="arrow_right"></i>
-              </a>
+              </Link>
               <div className="media post_author">
                 <div className="round_img">
                   <Image src={ansley} alt="" />

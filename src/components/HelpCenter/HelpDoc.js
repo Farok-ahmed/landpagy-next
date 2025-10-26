@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
+import Link from "next/link";
+
 import GLightbox from "glightbox";
 import Image from "next/image";
 import shape5 from "@/assets/images/shape/shape-5.svg";
@@ -55,7 +57,7 @@ export default function HelpDoc() {
                 </div>
                 <div className="block-text">
                   <h4>
-                    <a href="/">How to getting started with Landpagy</a>
+                    <Link href="/">How to getting started with Landpagy</Link>
                   </h4>
                   <div className="meta-teg">
                     <span>product guide</span>
@@ -68,12 +70,12 @@ export default function HelpDoc() {
                 </div>
                 <div className="block-text">
                   <h4>
-                    <a href="/">How to use code and webhooks?</a>
+                    <Link href="/">How to use code and webhooks?</Link>
                   </h4>
                   <div className="meta-teg">
                     <span>Help doc</span>
                     <span>
-                      <a href="/">Create Lands</a>
+                      <Link href="/">Create Lands</Link>
                     </span>
                   </div>
                 </div>
@@ -84,14 +86,14 @@ export default function HelpDoc() {
                 </div>
                 <div className="block-text">
                   <h4>
-                    <a href="/">
+                    <Link href="/">
                       How do you Understand tasks at the same time?
-                    </a>
+                    </Link>
                   </h4>
                   <div className="meta-teg">
                     <span>Help doc</span>
                     <span>
-                      <a href="/">Manage Lands</a>
+                      <Link href="/">Manage Lands</Link>
                     </span>
                   </div>
                 </div>
@@ -102,14 +104,14 @@ export default function HelpDoc() {
                 </div>
                 <div className="block-text">
                   <h4>
-                    <a href="/">
+                    <Link href="/">
                       How do you identify key concepts in research?
-                    </a>
+                    </Link>
                   </h4>
                   <div className="meta-teg">
                     <span>Help doc</span>
                     <span>
-                      <a href="/">Create Lands</a>
+                      <Link href="/">Create Lands</Link>
                     </span>
                   </div>
                 </div>
@@ -120,12 +122,12 @@ export default function HelpDoc() {
                 </div>
                 <div className="block-text">
                   <h4>
-                    <a href="/">What is a lands management system?</a>
+                    <Link href="/">What is a lands management system?</Link>
                   </h4>
                   <div className="meta-teg">
                     <span>Help doc</span>
                     <span>
-                      <a href="/">Manage Lands</a>
+                      <Link href="/">Manage Lands</Link>
                     </span>
                   </div>
                 </div>
@@ -136,12 +138,12 @@ export default function HelpDoc() {
                 </div>
                 <div className="block-text">
                   <h4>
-                    <a href="/">How to getting started with Landpagy</a>
+                    <Link href="/">How to getting started with Landpagy</Link>
                   </h4>
                   <div className="meta-teg">
                     <span>Help doc</span>
                     <span>
-                      <a href="/">Account & Billing</a>
+                      <Link href="/">Account & Billing</Link>
                     </span>
                   </div>
                 </div>

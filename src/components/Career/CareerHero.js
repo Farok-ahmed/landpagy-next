@@ -64,12 +64,9 @@ export default function CareerHero() {
                     </div>
                   </div>
                   <div className="col-lg-2 col-md-3 text-md-end text-center pe-2">
-                    <a
-                      href="/"
-                      className="custom-btn theme-btn-primary_alt theme-btn"
-                    >
+                    <Link href="/" className="custom-btn theme-btn-primary_alt theme-btn">
                       Search
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

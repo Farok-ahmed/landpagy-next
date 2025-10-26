@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import blogGridPost7 from "@/assets/images/blog_grid/blog_grid_post7.jpg";
 import author1 from "@/assets/images/blog_grid/author_1.jpg";
 import blogGridPost8 from "@/assets/images/blog_grid/blog_grid_post8.jpg";
@@ -17,16 +19,16 @@ export default function ThreePostColumn() {
               <Image src={blogGridPost7} alt="" />
               <div className="grid_post_content">
                 <div className="post_tag">
-                  <a href="/">18 Min Read</a>
-                  <a className="c_blue" href="/">
+                  <Link href="/">18 Min Read</Link>
+                  <Link href="/" className="c_blue">
                     WordPress
-                  </a>
+                  </Link>
                 </div>
-                <a href="/">
+                <Link href="/">
                   <h4 className="b_title">
                     Create A WordPress Multi Step Form With weForms
                   </h4>
-                </a>
+                </Link>
                 <p>
                   The pressure to keep our skills sharp is constant. Mastering
                   new skills may...
@@ -51,16 +53,16 @@ export default function ThreePostColumn() {
               <Image src={blogGridPost8} alt="" />
               <div className="grid_post_content">
                 <div className="post_tag">
-                  <a href="/">18 Min Read</a>
-                  <a className="orange" href="/">
+                  <Link href="/">18 Min Read</Link>
+                  <Link href="/" className="orange">
                     Docy
-                  </a>
+                  </Link>
                 </div>
-                <a href="/">
+                <Link href="/">
                   <h4 className="b_title">
                     How to Create GDPR Consent Form In WordPress
                   </h4>
-                </a>
+                </Link>
                 <p>
                   The pressure to keep our skills sharp is constant. Mastering
                   new skills may...
@@ -85,16 +87,16 @@ export default function ThreePostColumn() {
               <Image src={blogGridPost9} alt="" />
               <div className="grid_post_content">
                 <div className="post_tag">
-                  <a href="/">10 Min Read</a>
-                  <a className="cat-laravel" href="/">
+                  <Link href="/">10 Min Read</Link>
+                  <Link href="/" className="cat-laravel">
                     Laravel
-                  </a>
+                  </Link>
                 </div>
-                <a href="/">
+                <Link href="/">
                   <h4 className="b_title">
                     Create Conditional Logic Forms & Publish
                   </h4>
-                </a>
+                </Link>
                 <p>
                   The pressure to keep our skills sharp is constant. Mastering
                   new skills may...
@@ -115,9 +117,9 @@ export default function ThreePostColumn() {
             className="col-lg-12 text-center wow fadeInUp"
             data-wow-delay="0.3s"
           >
-            <a href="/" className="doc_border_btn all_doc_btn">
+            <Link href="/" className="doc_border_btn all_doc_btn">
               Load More<i className="arrow_right"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

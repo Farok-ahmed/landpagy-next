@@ -1,5 +1,7 @@
 "use client";
 import React, { useState } from "react";
+import Link from "next/link";
+
 
 export default function PricingTwoHero() {
   const [activeTab, setActiveTab] = useState("monthly");
@@ -95,9 +97,9 @@ export default function PricingTwoHero() {
                 <p className="price-format">for the first year</p>
               </div>
 
-              <a href="/" className="subscribe-btn">
+              <Link href="/" className="subscribe-btn">
                 Subscribe Now
-              </a>
+              </Link>
               <p className="price-note">
                 Plus applicable sales tax. See subscription details below.*
               </p>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function CommunityLinks() {
@@ -16,16 +17,16 @@ export default function CommunityLinks() {
               </div>
               <div className="community-social">
                 <div className="community-social-item">
-                  <a href="/">
+                  <Link href="/">
                     <i className="fab fa-facebook-f"></i>
                     <span>Join 50k+ Landpagy Users on Facebook</span>
-                  </a>
+                  </Link>
                 </div>
                 <div className="community-social-item">
-                  <a href="/">
+                  <Link href="/">
                     <i className="fab fa-meetup"></i>
                     <span>Meet & Collaborate With Local Landpagy Users</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

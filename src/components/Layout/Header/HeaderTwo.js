@@ -80,9 +80,9 @@ export default function HeaderTwo() {
                     >
                       {item.submenu ? (
                         <>
-                          <a href="/" className="nav-link">
+                          <Link href="/" className="nav-link">
                             {item.name}
-                          </a>
+                          </Link>
                           <i
                             className="arrow_carrot-right mobile_dropdown_icon"
                             aria-hidden="false"
@@ -108,9 +108,9 @@ export default function HeaderTwo() {
                 </ul>
               </li>
               <li className="nav-item dropdown submenu mega-menu active">
-                <a href="/" className="nav-link dropdown-toggle">
+                <Link href="/" className="nav-link dropdown-toggle">
                   Elements
-                </a>
+                </Link>
                 <i
                   className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
@@ -119,9 +119,9 @@ export default function HeaderTwo() {
                 <ul className="container dropdown-menu">
                   {elementsLinks.container.map((item, index) => (
                     <li key={index} className="nav-item">
-                      <a href="/" className="nav-link">
+                      <Link href="/" className="nav-link">
                         {item.name}
-                      </a>
+                      </Link>
                       <i
                         className="arrow_carrot-right mobile_dropdown_icon"
                         aria-hidden="false"
@@ -197,9 +197,9 @@ export default function HeaderTwo() {
               </li>
             </ul>
             <div className="right-nav">
-              <a href="/" className="language-bar mr-50">
+              <Link href="/" className="language-bar mr-50">
                 <span className="active">En.</span> <span>Ru</span>
-              </a>
+              </Link>
               <Link href="/sign-in">Sign in</Link>
               <Link className="btn white-btn" href="/sign-up">
                 Sign Up

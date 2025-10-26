@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import feaImages1 from "@/assets/images/home_6/fea-images1.svg";
 import feaImages2 from "@/assets/images/home_6/fea-images2.svg";
 import feaImagesShape1 from "@/assets/images/home_6/fea-images-shape1.svg";
@@ -29,9 +31,9 @@ export default function ProtoFeatureTwo() {
                 high-fidelity mockup. Test different styles instantly with the
                 power
               </p>
-              <a href="/" className="btn btn-yellow">
+              <Link href="/" className="btn btn-yellow">
                 Explore Wireframe
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-xl-5 col-lg-6">
@@ -89,9 +91,9 @@ export default function ProtoFeatureTwo() {
                 and paper, Uizard can automatically transform them into
                 customizable screens for your project.
               </p>
-              <a href="/" className="btn btn-yellow">
+              <Link href="/" className="btn btn-yellow">
                 Create Prototype
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -106,9 +108,9 @@ export default function ProtoFeatureTwo() {
                 share a link to your project and start designing interactive
                 prototypes collaboratively straight from your web browser.
               </p>
-              <a href="/" className="btn btn-yellow">
+              <Link href="/" className="btn btn-yellow">
                 Collaborate Now
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6">

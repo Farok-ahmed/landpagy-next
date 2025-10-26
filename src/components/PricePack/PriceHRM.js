@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import testShape1 from "@/assets/images/home_4/test-shape1.svg";
 import integrationShape from "@/assets/images/home_4/integration-shape.svg";
 import userIcon1 from "@/assets/images/home_2/user-icon-1.png";
@@ -78,9 +80,9 @@ export default function PriceHRM() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
@@ -95,9 +97,9 @@ export default function PriceHRM() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
@@ -115,9 +117,9 @@ export default function PriceHRM() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -138,9 +140,9 @@ export default function PriceHRM() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-4 col-md-6">
@@ -152,9 +154,9 @@ export default function PriceHRM() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
@@ -169,9 +171,9 @@ export default function PriceHRM() {
                     <div className="pack-feature">
                       Up to 10 user+ $3 per user
                     </div>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

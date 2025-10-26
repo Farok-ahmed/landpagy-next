@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import shape18 from "@/assets/images/shape/shape18.svg";
 ;
 
@@ -21,7 +23,7 @@ export default function HelpFeature() {
             <div className="features-item">
               <Image src={shape18} alt="Icon" />
               <h4>
-                <a href="/">Update Landpagy newses to the latest release</a>
+                <Link href="/">Update Landpagy newses to the latest release</Link>
               </h4>
               <hr />
               <p>
@@ -34,9 +36,9 @@ export default function HelpFeature() {
             <div className="features-item">
               <Image src={shape18} alt="Icon" />
               <h4>
-                <a href="/">
+                <Link href="/">
                   Secure connection failed & Landpagy did not connect
-                </a>
+                </Link>
               </h4>
               <hr />
               <p>
@@ -49,7 +51,7 @@ export default function HelpFeature() {
             <div className="features-item">
               <Image src={shape18} alt="Icon" />
               <h4>
-                <a href="/">Insecure password warning in Landpagy</a>
+                <Link href="/">Insecure password warning in Landpagy</Link>
               </h4>
               <hr />
               <p>

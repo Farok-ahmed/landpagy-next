@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function LinkShare() {
@@ -7,24 +8,24 @@ export default function LinkShare() {
         <span>Share Now</span>
       </li>
       <li>
-        <a href="/">
+        <Link href="/">
           <i className="fab fa-facebook-f"></i>
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/">
+        <Link href="/">
           <i className="fab fa-linkedin-in"></i>
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/">
+        <Link href="/">
           <i className="fab fa-instagram"></i>
-        </a>
+        </Link>
       </li>
       <li>
-        <a href="/">
+        <Link href="/">
           <i className="fab fa-twitter"></i>
-        </a>
+        </Link>
       </li>
     </ul>
   );

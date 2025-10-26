@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
+
 import Image from "next/image";
 import right from "@/assets/images/home_10/shapes/right.svg";
 import border from "@/assets/images/home_10/shapes/border.svg";
@@ -30,12 +32,12 @@ const slides = [
       <>
         Setup your account and tell us a bit about your employment and salary so
         we can tell you how much of your wage you can access today
-        <a className="btn-more" href="/">
+        <Link href="/" className="btn-more">
           Learn more
           <Image src={right} className="icon"
             
             alt="Arrow" />
-        </a>
+        </Link>
       </>
     ),
     imgSrc: "/images/home_10/works-img.png",
@@ -189,12 +191,12 @@ export default function AppHowItWorks() {
                   Setup your account and tell us a bit about your employment and
                   salary so we can tell you how much of your wage you can access
                   today
-                  <a className="btn-more" href="/">
+                  <Link href="/" className="btn-more">
                     Learn more
                     <Image src={right} className="icon"
                       
                       alt="Arrow" />
-                  </a>
+                  </Link>
                 </p>
                 <Image src={worksImg} className="mt-30"
                   

@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import shape10 from "@/assets/images/home_9/shapes/shape10.svg";
 import shape111 from "@/assets/images/home_9/shapes/shape11-1.svg";
 import shape112 from "@/assets/images/home_9/shapes/shape11-2.svg";
@@ -189,9 +191,9 @@ export default function CloudPrice() {
                     </div>
                     <div className="price">
                       <p className="type">$1.99/month</p>
-                      <a href="/" className="btn-purchase">
+                      <Link href="/" className="btn-purchase">
                         Purchase
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="cloud-pricing-item">
@@ -207,9 +209,9 @@ export default function CloudPrice() {
                     </div>
                     <div className="price">
                       <p className="type">$4.99/month</p>
-                      <a href="/" className="btn-purchase">
+                      <Link href="/" className="btn-purchase">
                         Purchase
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="cloud-pricing-item">
@@ -226,9 +228,9 @@ export default function CloudPrice() {
                     </div>
                     <div className="price">
                       <p className="type">$9.99/month</p>
-                      <a href="/" className="btn-purchase">
+                      <Link href="/" className="btn-purchase">
                         Purchase
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -272,9 +274,9 @@ export default function CloudPrice() {
                     </div>
                     <div className="price">
                       <p className="type">$19.99/annual</p>
-                      <a href="/" className="btn-purchase">
+                      <Link href="/" className="btn-purchase">
                         Purchase
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="cloud-pricing-item">
@@ -290,9 +292,9 @@ export default function CloudPrice() {
                     </div>
                     <div className="price">
                       <p className="type">$49.99/annual</p>
-                      <a href="/" className="btn-purchase">
+                      <Link href="/" className="btn-purchase">
                         Purchase
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="cloud-pricing-item">
@@ -309,9 +311,9 @@ export default function CloudPrice() {
                     </div>
                     <div className="price">
                       <p className="type">$99.99/annual</p>
-                      <a href="/" className="btn-purchase">
+                      <Link href="/" className="btn-purchase">
                         Purchase
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

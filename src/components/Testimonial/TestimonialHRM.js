@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
+import Link from "next/link";
+
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import GLightbox from "glightbox";
@@ -94,9 +96,9 @@ export default function TestimonialHRM() {
                       <Image src={customerLogo} alt="Author Logo"
                         className="author-logo" />
                     </div>
-                    <a className="check-more" href="/">
+                    <Link href="/" className="check-more">
                       Check more collaboration in 2021
-                    </a>
+                    </Link>
                   </div>
                 </SwiperSlide>
 
@@ -116,9 +118,9 @@ export default function TestimonialHRM() {
                       <Image src={customerLogo} alt="Author Logo"
                         className="author-logo" />
                     </div>
-                    <a className="check-more" href="/">
+                    <Link href="/" className="check-more">
                       Check more collaboration in 2021
-                    </a>
+                    </Link>
                   </div>
                 </SwiperSlide>
 
@@ -138,9 +140,9 @@ export default function TestimonialHRM() {
                       <Image src={customerLogo} alt="Author Logo"
                         className="author-logo" />
                     </div>
-                    <a className="check-more" href="/">
+                    <Link href="/" className="check-more">
                       Check more collaboration in 2021
-                    </a>
+                    </Link>
                   </div>
                 </SwiperSlide>
               </Swiper>

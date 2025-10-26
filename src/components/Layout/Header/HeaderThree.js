@@ -105,9 +105,9 @@ export default function HeaderThree() {
               </li>
 
               <li className="nav-item dropdown submenu mega-menu active">
-                <a href="/" className="nav-link dropdown-toggle">
+                <Link href="/" className="nav-link dropdown-toggle">
                   Elements
-                </a>
+                </Link>
                 <i
                   className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
@@ -194,9 +194,9 @@ export default function HeaderThree() {
               </li>
             </ul>
             <div className="right-nav">
-              <a href="/" className="language-bar">
+              <Link href="/" className="language-bar">
                 <span className="active">En.</span> <span>Ru</span>
-              </a>
+              </Link>
               <Link href="/sign-in">Login</Link>
               <Link className="btn" href="/sign-up">
                 Sign Up

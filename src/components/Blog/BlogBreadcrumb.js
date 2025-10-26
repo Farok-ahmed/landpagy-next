@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import bannerShape1 from "@/assets/images/blog/banner-shape1.svg";
 import bannerShape2 from "@/assets/images/blog/banner-shape2.svg";
 import bannerShape3 from "@/assets/images/blog/banner-shape3.svg";
@@ -53,13 +55,13 @@ export default function BlogBreadcrumb() {
                 <span className="tags-label">Popular Categories:</span>
                 <ul className="list-unstyled">
                   <li>
-                    <a href="/">Development Tips</a>
+                    <Link href="/">Development Tips</Link>
                   </li>
                   <li>
-                    <a href="/">Product Update</a>
+                    <Link href="/">Product Update</Link>
                   </li>
                   <li>
-                    <a href="/">Case Study</a>
+                    <Link href="/">Case Study</Link>
                   </li>
                 </ul>
               </div>

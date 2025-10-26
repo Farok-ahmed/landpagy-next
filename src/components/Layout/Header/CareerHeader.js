@@ -80,9 +80,9 @@ export default function CareerHeader() {
                     >
                       {item.submenu ? (
                         <>
-                          <a href="/" className="nav-link">
+                          <Link href="/" className="nav-link">
                             {item.name}
-                          </a>
+                          </Link>
                           <i
                             className="arrow_carrot-right mobile_dropdown_icon"
                             aria-hidden="false"
@@ -109,9 +109,9 @@ export default function CareerHeader() {
               </li>
 
               <li className="nav-item dropdown submenu mega-menu ">
-                <a href="/" className="nav-link dropdown-toggle">
+                <Link href="/" className="nav-link dropdown-toggle">
                   Elements
-                </a>
+                </Link>
                 <i
                   className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
@@ -120,9 +120,9 @@ export default function CareerHeader() {
                 <ul className="container dropdown-menu">
                   {elementsLinks.container.map((item, index) => (
                     <li key={index} className="nav-item">
-                      <a href="/" className="nav-link">
+                      <Link href="/" className="nav-link">
                         {item.name}
-                      </a>
+                      </Link>
                       <i
                         className="arrow_carrot-right mobile_dropdown_icon"
                         aria-hidden="false"

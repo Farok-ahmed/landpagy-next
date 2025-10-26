@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import mobileShape1 from "@/assets/images/home_4/mobile-shape1.svg";
 import mobileShape2 from "@/assets/images/home_4/mobile-shape2.svg";
 ;
@@ -33,26 +35,18 @@ export default function DownloadHRM() {
           </div>
           <div className="col-md-4 col-lg-6">
             <div className="store-wrap text-md-end">
-              <a
-                href="/"
-                className="app-store-link wow fadeInLeft"
-                data-wow-delay="0.4s"
-              >
+              <Link href="/" className="app-store-link wow fadeInLeft" data-wow-delay="0.4s">
                 <i className="fab fa-google-play"></i>
                 <p>
                   <span>GET IT ON</span>Google Play
                 </p>
-              </a>
-              <a
-                href="/"
-                className="app-store-link ms-lg-4 ms-0 mt-lg-0 mt-3 wow fadeInRight"
-                data-wow-delay="0.4s"
-              >
+              </Link>
+              <Link href="/" className="app-store-link ms-lg-4 ms-0 mt-lg-0 mt-3 wow fadeInRight" data-wow-delay="0.4s">
                 <i className="fab fa-apple"></i>
                 <p>
                   <span>Available on the</span>Apple Store
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function CareerFeature() {
@@ -27,9 +28,9 @@ export default function CareerFeature() {
                 Our purpose is to help people and businesses prosper. That's why
                 we're simple and personal in all that we do.
               </p>
-              <a href="/" className="btn">
+              <Link href="/" className="btn">
                 Learn more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -42,9 +43,9 @@ export default function CareerFeature() {
                 Unique skills and diverse backgrounds allow us to grow and
                 prosper. See where you could make a difference.
               </p>
-              <a href="/" className="btn">
+              <Link href="/" className="btn">
                 Explore
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -57,9 +58,9 @@ export default function CareerFeature() {
                 Whether you're a student purusing a graduate pursuing a career,
                 put your talents to the test at Santander US.
               </p>
-              <a href="/" className="btn">
+              <Link href="/" className="btn">
                 Find out more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -72,9 +73,9 @@ export default function CareerFeature() {
                 Learn more about the comprehensive benefits packages that we are
                 offering to you and your family.
               </p>
-              <a href="/" className="btn">
+              <Link href="/" className="btn">
                 Discover
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -87,9 +88,9 @@ export default function CareerFeature() {
                 At Landpagy, we seek out all off diverse viewpoints. It's why we
                 work hard to build an inclusive environment.
               </p>
-              <a href="/" className="btn">
+              <Link href="/" className="btn">
                 Read more
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
@@ -102,9 +103,9 @@ export default function CareerFeature() {
                 When you become a member of Santander's talent community, you'll
                 receive job opportunity alerts here.
               </p>
-              <a href="/" className="btn">
+              <Link href="/" className="btn">
                 Join Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

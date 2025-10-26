@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import shape1 from "@/assets/images/home_9/shapes/shape1.svg";
 import shape2 from "@/assets/images/home_9/shapes/shape2.svg";
 import shape3 from "@/assets/images/home_9/shapes/shape3.svg";
@@ -104,13 +106,9 @@ export default function HeroCloud() {
               <p className="offer-text wow fadeInDown" data-wow-delay="0.1s">
                 Sign up and get 10 GB for free, forever!
               </p>
-              <a
-                href="/"
-                className="btn btn-red wow fadeInDown"
-                data-wow-delay="0.1s"
-              >
+              <Link href="/" className="btn btn-red wow fadeInDown" data-wow-delay="0.1s">
                 Start for free
-              </a>
+              </Link>
               <p className="meta-text wow fadeInDown" data-wow-delay="0.5s">
                 No billing information required
               </p>

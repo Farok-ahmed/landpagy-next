@@ -1,5 +1,7 @@
 "use client";
 import { React, useEffect, useRef, useState } from "react";
+import Link from "next/link";
+
 import Isotope from "isotope-layout";
 import imagesLoaded from "imagesloaded";
 import Image from "next/image";
@@ -114,12 +116,12 @@ export default function PortFolioWithFilter() {
                 <p className="new-text">New</p>
                 <Image src={softItem1} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">Business</h4>
@@ -130,12 +132,12 @@ export default function PortFolioWithFilter() {
               <div className="item-img">
                 <Image src={softItem2} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">Portfolio</h4>
@@ -146,12 +148,12 @@ export default function PortFolioWithFilter() {
               <div className="item-img">
                 <Image src={softItem3} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">Restaurant</h4>
@@ -163,12 +165,12 @@ export default function PortFolioWithFilter() {
                 <p className="new-text">New</p>
                 <Image src={softItem4} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">ECommerce</h4>
@@ -179,12 +181,12 @@ export default function PortFolioWithFilter() {
               <div className="item-img">
                 <Image src={softItem5} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">Point of Sale</h4>
@@ -195,12 +197,12 @@ export default function PortFolioWithFilter() {
               <div className="item-img">
                 <Image src={softItem6} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">CRM</h4>
@@ -212,12 +214,12 @@ export default function PortFolioWithFilter() {
                 <p className="new-text">New</p>
                 <Image src={softItem7} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">Forum</h4>
@@ -228,12 +230,12 @@ export default function PortFolioWithFilter() {
               <div className="item-img">
                 <Image src={softItem8} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">HRM</h4>
@@ -245,12 +247,12 @@ export default function PortFolioWithFilter() {
                 <p className="new-text">New</p>
                 <Image src={softItem9} alt="" />
                 <div className="item-hover">
-                  <a className="item-link" href="/">
+                  <Link href="/" className="item-link">
                     View Demo
-                  </a>
-                  <a className="item-link" href="/">
+                  </Link>
+                  <Link href="/" className="item-link">
                     View Details
-                  </a>
+                  </Link>
                 </div>
               </div>
               <h4 className="item-title">Banking</h4>

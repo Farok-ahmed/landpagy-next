@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect, useCallback, useMemo } from "react";
+import Link from "next/link";
+
 import Image from "next/image";
 import right from "@/assets/images/home_9/shapes/right.svg";
 
@@ -116,12 +118,12 @@ export default function CloudTestimonial() {
               </span>{" "}
               Teams use Landpagy Business
             </h2>
-            <a href="/" className="testimonial-btn mb-70">
+            <Link href="/" className="testimonial-btn mb-70">
               Learn more about our customers{" "}
               <Image src={right} className="icon"
                 
                 alt="Icon" />
-            </a>
+            </Link>
           </div>
         </div>
 

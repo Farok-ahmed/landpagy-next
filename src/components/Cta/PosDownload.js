@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import hardwareIcon1 from "@/assets/images/home_5/icons/hardware-icon1.svg";
 import hardwareIcon2 from "@/assets/images/home_5/icons/hardware-icon2.svg";
 import hardwareIcon3 from "@/assets/images/home_5/icons/hardware-icon3.svg";
@@ -87,22 +89,22 @@ export default function PosDownload() {
               <div className="app-wrapp">
                 <ul>
                   <li>
-                    <a href="/">
+                    <Link href="/">
                       <Image src={appleIcon} alt="Icon"
                         className="app-icon" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/">
+                    <Link href="/">
                       <Image src={androidIcon} alt="Icon"
                         className="app-icon" />
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/">
+                    <Link href="/">
                       <Image src={windowsIcon} alt="Icon"
                         className="app-icon" />
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

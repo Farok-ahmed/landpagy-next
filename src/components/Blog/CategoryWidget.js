@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function CategoryWidget() {
@@ -6,39 +7,39 @@ export default function CategoryWidget() {
       <h4 className="widget-title">Categories</h4>
       <ul className="list-unstyled categorie-list">
         <li>
-          <a href="/">
+          <Link href="/">
             Development Tips <span>(10)</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link href="/">
             Product Update <span>(9)</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link href="/">
             Case Study <span>(12)</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link href="/">
             Creative <span>(07)</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link href="/">
             Inspiration <span>(06)</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link href="/">
             Landpagy <span>(11)</span>
-          </a>
+          </Link>
         </li>
         <li>
-          <a href="/">
+          <Link href="/">
             Lifestyle <span>(05)</span>
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

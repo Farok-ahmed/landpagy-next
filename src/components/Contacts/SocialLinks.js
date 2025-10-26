@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import icon1 from "@/assets/images/contact_2/icons/icon-1.svg";
 import icon2 from "@/assets/images/contact_2/icons/icon-2.svg";
 import icon3 from "@/assets/images/contact_2/icons/icon-3.svg";
@@ -17,24 +19,24 @@ export default function SocialLinks() {
           <div className="col-12">
             <ul className="text-center social-links mb-120">
               <li>
-                <a href="/">
+                <Link href="/">
                   <i className="fab fa-facebook-f"></i>Facebook
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/">
+                <Link href="/">
                   <i className="fab fa-twitter"></i>Twitter
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/">
+                <Link href="/">
                   <i className="fab fa-linkedin-in"></i>Linkedin
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/">
+                <Link href="/">
                   <i className="fab fa-instagram"></i>Instagram
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

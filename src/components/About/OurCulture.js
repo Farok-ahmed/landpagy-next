@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function OurCulture() {
@@ -20,9 +21,9 @@ export default function OurCulture() {
                 <h4 className="item-text">
                   We don’t just value differences—we celebrate them.
                 </h4>
-                <a href="/" className="item-link">
+                <Link href="/" className="item-link">
                   Find out more
-                </a>
+                </Link>
               </div>
               <div className="culture-item">
                 <h5 className="item-title">Socially Responsible</h5>
@@ -30,10 +31,10 @@ export default function OurCulture() {
                   “Landpagy thrives because of the exceptional talent we have
                   attracted.”
                 </h4>
-                <a href="/" className="item-link">
+                <Link href="/" className="item-link">
                   Zuhura Ummha <br />
                   Chairman of the Board and CTO
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -43,18 +44,18 @@ export default function OurCulture() {
                 <h4 className="item-text">
                   At Oracle, we know that sustainability is good business.
                 </h4>
-                <a href="/" className="item-link">
+                <Link href="/" className="item-link">
                   Learn how
-                </a>
+                </Link>
               </div>
               <div className="culture-item">
                 <h5 className="item-title">Work Here</h5>
                 <h4 className="item-text">
                   Make a difference? You’ve come to the right place.
                 </h4>
-                <a href="/" className="item-link">
+                <Link href="/" className="item-link">
                   Find opportunities
-                </a>
+                </Link>
               </div>
             </div>
           </div>

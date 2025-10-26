@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import ctaShape1 from "@/assets/images/home_8/shape/cta-shape1.svg";
 import ctaShape2 from "@/assets/images/home_8/shape/cta-shape2.svg";
 import ctaShape3 from "@/assets/images/home_8/shape/cta-shape3.svg";
@@ -28,9 +30,9 @@ export default function BillingCta() {
             </p>
           </div>
           <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
-            <a href="/" className="btn-black float-start float-lg-end">
+            <Link href="/" className="btn-black float-start float-lg-end">
               Get Start Free
-            </a>
+            </Link>
           </div>
         </div>
       </div>

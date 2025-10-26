@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import featuresImg from "@/assets/images/home_9/features-img.png";
 import shape9 from "@/assets/images/home_9/shapes/shape9.svg";
 import right from "@/assets/images/home_9/shapes/right.svg";
@@ -40,13 +42,13 @@ export default function CloudFeature() {
               <Image src={shape9} alt="Shape"
                 className="shape" />
             </div>
-            <a href="/" className="features-btn">
+            <Link href="/" className="features-btn">
               {" "}
               Learn more{" "}
               <Image src={right} className="icon"
                 
                 alt="Icon" />{" "}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

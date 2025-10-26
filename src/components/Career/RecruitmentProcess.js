@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import icon1 from "@/assets/images/recruitment-proccess/icon-1.svg";
 import icon2 from "@/assets/images/recruitment-proccess/icon-2.svg";
 import icon3 from "@/assets/images/recruitment-proccess/icon-3.svg";
@@ -93,9 +95,9 @@ export default function RecruitmentProcess() {
                 You will be invited at our head office to take a skills and
                 knowledge assessment.
               </p>
-              <a href="/">
+              <Link href="/">
                 <span>Read more</span> <i className="arrow_right"></i>
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -109,9 +111,9 @@ export default function RecruitmentProcess() {
                 Find the answers to frequently asked questions about working at
                 AfrAsia.
               </p>
-              <a href="/">
+              <Link href="/">
                 <span>Read more</span> <i className="arrow_right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

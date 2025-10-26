@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import allInApp from "@/assets/images/home_3/all-in-app.png";
 ;
 
@@ -17,26 +19,18 @@ export default function AppDownload() {
               -tivity and boost your client relationship by managing your
               Customers, Finances, and Support right from your pocket.
             </p>
-            <a
-              href="/"
-              className="app-store-link wow fadeInRight"
-              data-wow-delay="0.4s"
-            >
+            <Link href="/" className="app-store-link wow fadeInRight" data-wow-delay="0.4s">
               <i className="fab fa-apple"></i>
               <p>
                 <span>Available on the</span>Apple Store
               </p>
-            </a>
-            <a
-              href="/"
-              className="app-store-link ml-25 wow fadeInLeft"
-              data-wow-delay="0.4s"
-            >
+            </Link>
+            <Link href="/" className="app-store-link ml-25 wow fadeInLeft" data-wow-delay="0.4s">
               <i className="fab fa-google-play"></i>
               <p>
                 <span>Android App On</span>Google Play
               </p>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

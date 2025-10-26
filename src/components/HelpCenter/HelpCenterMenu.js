@@ -12,9 +12,9 @@ export default function HelpCenterMenu() {
           <div className="col-12">
             <ul className="secondary-menu">
               <li className="dropdown">
-                <a href="/">
+                <Link href="/">
                   Create Lands <i className="fas fa-angle-down"></i>
-                </a>
+                </Link>
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">
@@ -85,9 +85,9 @@ export default function HelpCenterMenu() {
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="/">
+                <Link href="/">
                   Manage Lands <i className="fas fa-angle-down"></i>
-                </a>
+                </Link>
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">
@@ -158,9 +158,9 @@ export default function HelpCenterMenu() {
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="/">
+                <Link href="/">
                   Troubleshoot <i className="fas fa-angle-down"></i>
-                </a>
+                </Link>
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">
@@ -231,9 +231,9 @@ export default function HelpCenterMenu() {
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="/">
+                <Link href="/">
                   Account & Billing <i className="fas fa-angle-down"></i>
-                </a>
+                </Link>
                 <ul className="sub-menu">
                   <li>
                     <Link href="/">

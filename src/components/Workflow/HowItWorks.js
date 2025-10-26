@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import serviceIcon1 from "@/assets/images/home_8/icons/service-icon1.svg";
 import serviceIcon2 from "@/assets/images/home_8/icons/service-icon2.svg";
 import serviceIcon3 from "@/assets/images/home_8/icons/service-icon3.svg";
@@ -28,9 +30,9 @@ export default function HowItWorks() {
                 Any business that allows customers to make purchases with
                 credit/debit cards will have to pay interchange fees.
               </p>
-              <a href="/" className="btn service-btn">
+              <Link href="/" className="btn service-btn">
                 Learn more <i className="arrow_right"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mt-sm-0 mt-5">
@@ -41,9 +43,9 @@ export default function HowItWorks() {
                 Since the global financial crisis, the use of spending review
                 has risen dramatically across the Landpagey.
               </p>
-              <a href="/" className="btn service-btn">
+              <Link href="/" className="btn service-btn">
                 Learn more <i className="arrow_right"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mt-lg-0 mt-5 mx-auto">
@@ -57,9 +59,9 @@ export default function HowItWorks() {
                 Understand your growth, churn, and retention rates with
                 automatically generated reports.
               </p>
-              <a href="/" className="btn service-btn">
+              <Link href="/" className="btn service-btn">
                 Learn more <i className="arrow_right"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

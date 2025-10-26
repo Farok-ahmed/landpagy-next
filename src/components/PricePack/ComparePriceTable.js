@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function ComparePriceTable() {
@@ -80,9 +81,9 @@ export default function ComparePriceTable() {
                       <p className="saving-price">$45.25% OFF</p>
                     </div>
 
-                    <a href="/" className="subscribe-btn">
+                    <Link href="/" className="subscribe-btn">
                       Subscribe Now
-                    </a>
+                    </Link>
                     <p className="price-note">
                       Plus applicable sales tax. See subscription details
                       below.*
@@ -643,9 +644,9 @@ export default function ComparePriceTable() {
                       <p className="current-price">$99.49/year</p>
                       <p className="price-format">for the first month</p>
                       <p className="saving-price">$45.25% OFF</p>
-                      <a href="/" className="subscribe-btn">
+                      <Link href="/" className="subscribe-btn">
                         Subscribe Now
-                      </a>
+                      </Link>
                       <p className="price-note">
                         Plus applicable sales tax. See subscription details
                         below.*
@@ -661,9 +662,9 @@ export default function ComparePriceTable() {
                       <p className="current-price">$299.49/year</p>
                       <p className="price-format">for the first year</p>
                       <p className="saving-price">$45.25% OFF</p>
-                      <a href="/" className="subscribe-btn">
+                      <Link href="/" className="subscribe-btn">
                         Subscribe Now
-                      </a>
+                      </Link>
                       <p className="price-note">
                         Plus applicable sales tax. See subscription details
                         below.*
@@ -1525,9 +1526,9 @@ export default function ComparePriceTable() {
                             <p className="saving-price">$45.25% OFF</p>
                           </div>
 
-                          <a href="/" className="subscribe-btn">
+                          <Link href="/" className="subscribe-btn">
                             Subscribe Now
-                          </a>
+                          </Link>
                           <p className="price-note">
                             Plus applicable sales tax. See subscription details
                             below.*
@@ -1601,9 +1602,9 @@ export default function ComparePriceTable() {
                             <p className="saving-price">$45.25% OFF</p>
                           </div>
 
-                          <a href="/" className="subscribe-btn">
+                          <Link href="/" className="subscribe-btn">
                             Subscribe Now
-                          </a>
+                          </Link>
                           <p className="price-note">
                             Plus applicable sales tax. See subscription details
                             below.*

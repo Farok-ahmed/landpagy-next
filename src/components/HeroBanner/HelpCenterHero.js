@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import helpCenterShape from "@/assets/images/shape/help-center-shape.png";
 import helpCenterShape2 from "@/assets/images/shape/help-center-shape2.png";
 import helpCenterShape3 from "@/assets/images/shape/help-center-shape3.png";
@@ -26,13 +28,13 @@ export default function HelpCenterHero() {
               <ul className="popular-article">
                 <li className="mr-1">Popular help articles:</li>
                 <li>
-                  <a href="/">Create Lands,</a>
+                  <Link href="/">Create Lands,</Link>
                 </li>
                 <li>
-                  <a href="/">Understand tasks,</a>
+                  <Link href="/">Understand tasks,</Link>
                 </li>
                 <li>
-                  <a href="/">Troubleshoot error codes</a>
+                  <Link href="/">Troubleshoot error codes</Link>
                 </li>
               </ul>
             </div>

@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function FaqsSecondary() {
@@ -112,11 +113,11 @@ export default function FaqsSecondary() {
                 aria-labelledby="home-tab"
               >
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     We comply fully with Envato’s refund policy. We issue
                     refunds for the reasons Envato permits us to give refund and
@@ -125,11 +126,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.3s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     There are over 200 shortcodes/blocks/elements in Landpagy
                     WordPress Theme. You can use any block/element into any page
@@ -137,21 +138,21 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
                       supported?
                     </h4>
-                  </a>
+                  </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.5s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
                       license?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     According to Envato’s licensing, you can use Landpagy or any
                     other theme on only one website. If you want to use it on
@@ -159,11 +160,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     Volutpat? Magni labore dapibus minus unde fermentum illo
                     nunc, vestibulum earum eveniet, ipsam urna, excepturi!
@@ -178,11 +179,11 @@ export default function FaqsSecondary() {
                 aria-labelledby="profile-tab"
               >
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     We comply fully with Envato’s refund policy. We issue
                     refunds for the reasons Envato permits us to give refund and
@@ -191,11 +192,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.3s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     There are over 200 shortcodes/blocks/elements in Landpagy
                     WordPress Theme. You can use any block/element into any page
@@ -203,21 +204,21 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
                       supported?
                     </h4>
-                  </a>
+                  </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.5s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
                       license?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     According to Envato’s licensing, you can use Landpagy or any
                     other theme on only one website. If you want to use it on
@@ -225,11 +226,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     Volutpat? Magni labore dapibus minus unde fermentum illo
                     nunc, vestibulum earum eveniet, ipsam urna, excepturi!
@@ -244,11 +245,11 @@ export default function FaqsSecondary() {
                 aria-labelledby="contact-tab"
               >
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     We comply fully with Envato’s refund policy. We issue
                     refunds for the reasons Envato permits us to give refund and
@@ -257,11 +258,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     There are over 200 shortcodes/blocks/elements in Landpagy
                     WordPress Theme. You can use any block/element into any page
@@ -269,21 +270,21 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
                       supported?
                     </h4>
-                  </a>
+                  </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
                       license?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     According to Envato’s licensing, you can use Landpagy or any
                     other theme on only one website. If you want to use it on
@@ -291,11 +292,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     Volutpat? Magni labore dapibus minus unde fermentum illo
                     nunc, vestibulum earum eveniet, ipsam urna, excepturi!
@@ -310,11 +311,11 @@ export default function FaqsSecondary() {
                 aria-labelledby="return-tab"
               >
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     We comply fully with Envato’s refund policy. We issue
                     refunds for the reasons Envato permits us to give refund and
@@ -323,11 +324,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     There are over 200 shortcodes/blocks/elements in Landpagy
                     WordPress Theme. You can use any block/element into any page
@@ -335,21 +336,21 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
                       supported?
                     </h4>
-                  </a>
+                  </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
                       license?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     According to Envato’s licensing, you can use Landpagy or any
                     other theme on only one website. If you want to use it on
@@ -357,11 +358,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     Volutpat? Magni labore dapibus minus unde fermentum illo
                     nunc, vestibulum earum eveniet, ipsam urna, excepturi!
@@ -376,11 +377,11 @@ export default function FaqsSecondary() {
                 aria-labelledby="online-tab"
               >
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     We comply fully with Envato’s refund policy. We issue
                     refunds for the reasons Envato permits us to give refund and
@@ -389,11 +390,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     There are over 200 shortcodes/blocks/elements in Landpagy
                     WordPress Theme. You can use any block/element into any page
@@ -401,21 +402,21 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
                       supported?
                     </h4>
-                  </a>
+                  </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
                       license?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     According to Envato’s licensing, you can use Landpagy or any
                     other theme on only one website. If you want to use it on
@@ -423,11 +424,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     Volutpat? Magni labore dapibus minus unde fermentum illo
                     nunc, vestibulum earum eveniet, ipsam urna, excepturi!
@@ -442,11 +443,11 @@ export default function FaqsSecondary() {
                 aria-labelledby="technical-tab"
               >
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     We comply fully with Envato’s refund policy. We issue
                     refunds for the reasons Envato permits us to give refund and
@@ -455,11 +456,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     There are over 200 shortcodes/blocks/elements in Landpagy
                     WordPress Theme. You can use any block/element into any page
@@ -467,21 +468,21 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
                       supported?
                     </h4>
-                  </a>
+                  </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
                       license?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     According to Envato’s licensing, you can use Landpagy or any
                     other theme on only one website. If you want to use it on
@@ -489,11 +490,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     Volutpat? Magni labore dapibus minus unde fermentum illo
                     nunc, vestibulum earum eveniet, ipsam urna, excepturi!
@@ -508,11 +509,11 @@ export default function FaqsSecondary() {
                 aria-labelledby="errors-tab"
               >
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     We comply fully with Envato’s refund policy. We issue
                     refunds for the reasons Envato permits us to give refund and
@@ -521,11 +522,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     There are over 200 shortcodes/blocks/elements in Landpagy
                     WordPress Theme. You can use any block/element into any page
@@ -533,21 +534,21 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
                       supported?
                     </h4>
-                  </a>
+                  </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
                       license?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     According to Envato’s licensing, you can use Landpagy or any
                     other theme on only one website. If you want to use it on
@@ -555,11 +556,11 @@ export default function FaqsSecondary() {
                   </p>
                 </div>
                 <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
-                  <a href="/">
+                  <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
                     </h4>
-                  </a>
+                  </Link>
                   <p>
                     Volutpat? Magni labore dapibus minus unde fermentum illo
                     nunc, vestibulum earum eveniet, ipsam urna, excepturi!

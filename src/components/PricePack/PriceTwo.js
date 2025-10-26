@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function PriceTwo() {
@@ -87,9 +88,9 @@ export default function PriceTwo() {
                         Unlimitied Chat
                       </li>
                     </ul>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -124,9 +125,9 @@ export default function PriceTwo() {
                         Unlimitied Chat
                       </li>
                     </ul>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -161,9 +162,9 @@ export default function PriceTwo() {
                         Unlimitied Chat
                       </li>
                     </ul>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -204,9 +205,9 @@ export default function PriceTwo() {
                         Unlimitied Chat
                       </li>
                     </ul>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -238,9 +239,9 @@ export default function PriceTwo() {
                         Unlimitied Chat
                       </li>
                     </ul>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -272,9 +273,9 @@ export default function PriceTwo() {
                         Unlimitied Chat
                       </li>
                     </ul>
-                    <a href="/" className="btn">
+                    <Link href="/" className="btn">
                       Buy Plan
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

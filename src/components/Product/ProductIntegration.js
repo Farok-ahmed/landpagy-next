@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import productLogo1 from "@/assets/images/logo/product-logo-1.svg";
 import productLogo2 from "@/assets/images/logo/product-logo-2.svg";
 import productLogo3 from "@/assets/images/logo/product-logo-3.svg";
@@ -20,9 +22,9 @@ export default function ProductIntegration() {
               Expand your customer base by enabling new and emerging payment
               methods.
             </p>
-            <a href="/" className="btn btn-red">
+            <Link href="/" className="btn btn-red">
               Get a Quote
-            </a>
+            </Link>
           </div>
 
           <div className="product-integrations-cards">

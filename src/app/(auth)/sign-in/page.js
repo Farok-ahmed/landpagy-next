@@ -94,24 +94,24 @@ export default function SignIn() {
 
                     <ul className="create-with-list mt-45 mb-35">
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon1} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon2} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon3} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="/">
+                        <Link href="/">
                           <Image src={icon4} alt="Icon" />
-                        </a>
+                        </Link>
                       </li>
                     </ul>
 
@@ -137,9 +137,9 @@ export default function SignIn() {
                         </label>
                       </div>
                       <div className="col-6">
-                        <a className="forgot-link float-end" href="/">
+                        <Link href="/" className="forgot-link float-end">
                           Forgot Password?
-                        </a>
+                        </Link>
                       </div>
                       <div className="col-md-12 mt-30">
                         <input

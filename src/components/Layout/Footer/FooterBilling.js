@@ -84,19 +84,19 @@ export default function FooterBilling() {
                 <h4 className="widget-title">Follow Us</h4>
                 <ul className="widget-social-list">
                   <li>
-                    <a href="/">
+                    <Link href="/">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/">
+                    <Link href="/">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/">
+                    <Link href="/">
                       <i className="fab fa-google"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

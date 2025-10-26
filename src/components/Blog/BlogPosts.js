@@ -20,9 +20,9 @@ export default function BlogPosts() {
           <div className="top-post-item mb-30">
             <Image src={post1} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Development Tips
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -35,9 +35,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/blog-details" className="auth-name">
+                  <Link href="/blog-details" className="auth-name">
                     <i className="far fa-user-circle"></i> Zain Siphron
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -54,9 +54,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post2} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Product Update
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -69,9 +69,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Zain Siphron
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -86,9 +86,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post3} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Case Study
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -101,9 +101,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Zain Siphron
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -118,9 +118,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post4} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Development Tips
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -133,9 +133,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Juhan Ahamed
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -150,9 +150,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post5} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Creative
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -165,9 +165,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Eh Jewel
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -182,9 +182,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post6} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Product Update
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -197,9 +197,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Zain Siphron
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -214,9 +214,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post7} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Case Study
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -229,9 +229,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Zain Siphron
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -246,9 +246,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post8} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Development Tips
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -261,9 +261,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Juhan Ahamed
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>
@@ -278,9 +278,9 @@ export default function BlogPosts() {
           <div className="post-item">
             <Image src={post9} alt="Blog Post" />
             <div className="post-content">
-              <a href="/" className="cate-btn">
+              <Link href="/" className="cate-btn">
                 Creative
-              </a>
+              </Link>
               <h4 className="post-title">
                 <Link href="/blog-details">
                   {" "}
@@ -293,9 +293,9 @@ export default function BlogPosts() {
               </p>
               <div className="d-flex justify-content-between">
                 <div className="post-author">
-                  <a href="/" className="auth-name">
+                  <Link href="/" className="auth-name">
                     <i className="far fa-user-circle"></i> Eh Jewel
-                  </a>
+                  </Link>
                 </div>
                 <div className="post-date">
                   <p>

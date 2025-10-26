@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import ctaShape2 from "@/assets/images/home_6/cta-shape2.png";
 import ctaShape3 from "@/assets/images/home_6/cta-shape3.png";
 ;
@@ -43,13 +45,9 @@ export default function ProtoCta() {
             >
               Empower your entire team today
             </p>
-            <a
-              href="/"
-              className="cta-btn btn-yellow wow fadeInRight"
-              data-wow-delay="0.2s"
-            >
+            <Link href="/" className="cta-btn btn-yellow wow fadeInRight" data-wow-delay="0.2s">
               Try for free
-            </a>
+            </Link>
           </div>
         </div>
       </div>

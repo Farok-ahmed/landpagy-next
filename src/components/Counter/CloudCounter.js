@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import icon1 from "@/assets/images/home_9/shapes/icon1.svg";
 import icon2 from "@/assets/images/home_9/shapes/icon2.svg";
 ;
@@ -38,10 +40,10 @@ export default function CloudCounter() {
                 your data using one of the Internet’s most secure cloud and
                 communication providers.
               </p>
-              <a href="/" className="btn btn-red">
+              <Link href="/" className="btn btn-red">
                 {" "}
                 Create Account{" "}
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-6">

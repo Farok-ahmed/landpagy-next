@@ -1,3 +1,4 @@
+import Link from "next/link";
 ;
 
 export default function Pagination() {
@@ -8,19 +9,19 @@ export default function Pagination() {
           <span className="page-link">1</span>
         </li>
         <li className="page-item">
-          <a className="page-link" href="/">
+          <Link href="/" className="page-link">
             2
-          </a>
+          </Link>
         </li>
         <li className="page-item">
-          <a className="page-link" href="/">
+          <Link href="/" className="page-link">
             3
-          </a>
+          </Link>
         </li>
         <li className="page-item">
-          <a className="page-link" href="/">
+          <Link href="/" className="page-link">
             <i className="fas fa-chevron-right"></i>
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import shape8 from "@/assets/images/home_10/shapes/shape8.svg";
 import shape9 from "@/assets/images/home_10/shapes/shape9.svg";
 import border from "@/assets/images/home_10/shapes/border.svg";
@@ -121,9 +123,9 @@ export default function AppPrice() {
                         <li>Order Notifications</li>
                         <li>Landing Pages</li>
                       </ul>
-                      <a href="/" className="btn">
+                      <Link href="/" className="btn">
                         Start Free Trial
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6">
@@ -162,9 +164,9 @@ export default function AppPrice() {
                         <li>Order Notifications</li>
                         <li>Landing Pages</li>
                       </ul>
-                      <a href="/" className="btn">
+                      <Link href="/" className="btn">
                         Start Free Trial
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="mx-auto col-lg-4 col-md-6">
@@ -201,9 +203,9 @@ export default function AppPrice() {
                         <li>Order Notifications</li>
                         <li>Landing Pages</li>
                       </ul>
-                      <a href="/" className="btn">
+                      <Link href="/" className="btn">
                         Start Free Trial
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -246,9 +248,9 @@ export default function AppPrice() {
                         <li>Order Notifications</li>
                         <li>Landing Pages</li>
                       </ul>
-                      <a href="/" className="btn">
+                      <Link href="/" className="btn">
                         Start Free Trial
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="col-lg-4 col-md-6">
@@ -284,9 +286,9 @@ export default function AppPrice() {
                         <li>Order Notifications</li>
                         <li>Landing Pages</li>
                       </ul>
-                      <a href="/" className="btn">
+                      <Link href="/" className="btn">
                         Start Free Trial
-                      </a>
+                      </Link>
                     </div>
                   </div>
                   <div className="mx-auto col-lg-4 col-md-6">
@@ -320,9 +322,9 @@ export default function AppPrice() {
                         <li>Order Notifications</li>
                         <li>Landing Pages</li>
                       </ul>
-                      <a href="/" className="btn">
+                      <Link href="/" className="btn">
                         Start Free Trial
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -340,7 +342,7 @@ export default function AppPrice() {
               <h5 className="mb-10 question-title">Have any questions?</h5>
               <p className="question-text">
                 If you have any question about the pricing, feel free to
-                <a href="/">get in touch</a> with us, we will be happy to assist
+                <Link href="/">get in touch</Link> with us, we will be happy to assist
                 you.
               </p>
             </div>

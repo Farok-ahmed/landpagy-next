@@ -1,6 +1,8 @@
 "use client";
 
 import Slider from "react-slick";
+import Link from "next/link";
+
 import Image from "next/image";
 import border from "@/assets/images/home_10/shapes/border.svg";
 
@@ -120,21 +122,21 @@ export default function AppTestimonial() {
                     <span className="role">{client.role}</span>
                   </div>
                   <div className="rating">
-                    <a href="/">
+                    <Link href="/">
                       <i className="icon_star"></i>
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link href="/">
                       <i className="icon_star"></i>
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link href="/">
                       <i className="icon_star"></i>
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link href="/">
                       <i className="icon_star"></i>
-                    </a>
-                    <a href="/">
+                    </Link>
+                    <Link href="/">
                       <i className="icon_star"></i>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

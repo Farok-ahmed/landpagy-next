@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 import right from "@/assets/images/home_9/shapes/right.svg";
 import logo1 from "@/assets/images/home_9/apps/logo1.png";
 import logo7 from "@/assets/images/home_9/apps/logo7.png";
@@ -38,12 +40,12 @@ export default function CloudIntegration() {
               </span>{" "}
               with These Softwares
             </h2>
-            <a href="/" className="apps-btn mb-100">
+            <Link href="/" className="apps-btn mb-100">
               Learn more about Integration{" "}
               <Image src={right} className="icon"
                 
                 alt="Icon" />
-            </a>
+            </Link>
           </div>
         </div>
 

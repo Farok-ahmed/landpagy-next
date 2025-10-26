@@ -1,5 +1,7 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+
 import feaShape1 from "@/assets/images/home_5/shapes/fea-shape1.png";
 import feaShape2 from "@/assets/images/home_5/shapes/fea-shape2.png";
 import feaShape3 from "@/assets/images/home_5/shapes/fea-shape3.png";
@@ -41,7 +43,7 @@ export default function FeaturePos() {
                   your social media—to help you meet customers wherever they
                   shop.
                 </p>
-                <a href="/" className="features-link">
+                <Link href="/" className="features-link">
                   Start selling online
                   <svg
                     className="HoverArrow"
@@ -58,7 +60,7 @@ export default function FeaturePos() {
                       ></path>
                     </g>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="col-md-6 offset-md-1">
                 <div className="features-images">
@@ -145,7 +147,7 @@ export default function FeaturePos() {
                   your social media—to help you meet customers wherever they
                   shop.
                 </p>
-                <a href="/" className="features-link">
+                <Link href="/" className="features-link">
                   Get the tools
                   <svg
                     className="HoverArrow"
@@ -162,7 +164,7 @@ export default function FeaturePos() {
                       ></path>
                     </g>
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -175,7 +177,7 @@ export default function FeaturePos() {
                   your social media—to help you meet customers wherever they
                   shop.
                 </p>
-                <a href="/" className="features-link">
+                <Link href="/" className="features-link">
                   Start selling online
                   <svg
                     className="HoverArrow"
@@ -192,7 +194,7 @@ export default function FeaturePos() {
                       ></path>
                     </g>
                   </svg>
-                </a>
+                </Link>
               </div>
               <div className="col-md-6 offset-md-1">
                 <div className="features-images">
