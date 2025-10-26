@@ -1,6 +1,14 @@
 "use client";
+import brand10Svg from "@/assets/images/brand/brand-10.svg";
+import brand11Svg from "@/assets/images/brand/brand-11.svg";
+import brand6Svg from "@/assets/images/brand/brand-6.svg";
+import brand7Svg from "@/assets/images/brand/brand-7.svg";
+import brand8Svg from "@/assets/images/brand/brand-8.svg";
+import brand9Svg from "@/assets/images/brand/brand-9.svg";
+import userShape1Svg from "@/assets/images/home_3/user-shape-1.svg";
+import userSlider1Png from "@/assets/images/home_3/user-slider-1.png";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { Parallax } from "react-scroll-parallax";
 
 export default function AboutPayment() {
@@ -31,7 +39,7 @@ export default function AboutPayment() {
           </div>
           <div className="mt-4 col-md-6 text-end mt-md-0">
             <div className="customer-img wow fadeInLeft">
-              <img src="/images/home_3/user-slider-1.png" alt="customer-img" />
+              <Image src={userSlider1Png} alt="customer-img" />
               <div className="shape">
                 <Parallax
                   translateX={["0px", "0px"]}
@@ -40,8 +48,8 @@ export default function AboutPayment() {
                   easing="easeInOutCubic"
                   speed={-10}
                 >
-                  <img
-                    src="/images/home_3/user-shape-1.svg"
+                  <Image
+                    src={userShape1Svg}
                     className="layer"
                     alt="shape"
                   />
@@ -54,32 +62,32 @@ export default function AboutPayment() {
         <div className="row">
           <div className="col-md-4 col-lg-2">
             <div className="client-image wow fadeInRight" data-wow-delay="0.1s">
-              <img src="/images/brand/brand-6.svg" alt="brand" />
+              <Image src={brand6Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
             <div className="client-image wow fadeInRight" data-wow-delay="0.3s">
-              <img src="/images/brand/brand-7.svg" alt="brand" />
+              <Image src={brand7Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
             <div className="client-image wow fadeInRight" data-wow-delay="0.5s">
-              <img src="/images/brand/brand-8.svg" alt="brand" />
+              <Image src={brand8Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
             <div className="client-image wow fadeInRight" data-wow-delay="0.7s">
-              <img src="/images/brand/brand-9.svg" alt="brand" />
+              <Image src={brand9Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
             <div className="client-image wow fadeInRight" data-wow-delay="0.9s">
-              <img src="/images/brand/brand-10.svg" alt="brand" />
+              <Image src={brand10Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
             <div className="client-image wow fadeInRight" data-wow-delay="1.1s">
-              <img src="/images/brand/brand-11.svg" alt="brand" />
+              <Image src={brand11Svg} alt="brand" />
             </div>
           </div>
         </div>

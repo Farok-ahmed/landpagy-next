@@ -1,5 +1,8 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import features2Png from "@/assets/images/features/features-2.png";
+
 import CountUp from "react-countup";
 
 export default function FeatureTwo() {
@@ -27,7 +30,7 @@ export default function FeatureTwo() {
           </div>
           <div className="col-md-6 col-lg-7">
             <div className="features-image">
-              <img src="/images/features/features-2.png" alt="Features " />
+              <Image src={features2Png} alt="Features " />
             </div>
           </div>
         </div>

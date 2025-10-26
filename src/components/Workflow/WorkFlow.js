@@ -1,4 +1,6 @@
-import React from "react";
+﻿import Image from "next/image";
+import features3Png from "@/assets/images/features/features-3.png";
+
 
 export default function WorkFlow() {
   return (
@@ -82,7 +84,8 @@ export default function WorkFlow() {
                 aria-labelledby="nav-carban-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/features/features-3.png" alt="Features" />
+                  {/* Converted from <Image src={features3Png}> */}
+                  <Image src={features3Png} alt="Features" />
                 </div>
               </div>
               <div
@@ -92,7 +95,8 @@ export default function WorkFlow() {
                 aria-labelledby="nav-timeline-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/features/features-3.png" alt="Features" />
+                  {/* Converted from <Image src={features3Png}> */}
+                  <Image src={features3Png} alt="Features" />
                 </div>
               </div>
               <div
@@ -102,7 +106,8 @@ export default function WorkFlow() {
                 aria-labelledby="nav-calendar-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/features/features-3.png" alt="Features" />
+                  {/* Converted from <Image src={features3Png}> */}
+                  <Image src={features3Png} alt="Features" />
                 </div>
               </div>
               <div
@@ -112,7 +117,8 @@ export default function WorkFlow() {
                 aria-labelledby="nav-list-tab"
               >
                 <div className="features-tab-image">
-                  <img src="/images/features/features-3.png" alt="Features" />
+                  {/* Converted from <Image src={features3Png}> */}
+                  <Image src={features3Png} alt="Features" />
                 </div>
               </div>
             </div>

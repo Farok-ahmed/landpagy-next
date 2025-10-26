@@ -1,4 +1,10 @@
-import React from "react";
+﻿import Image from "next/image";
+import icon1Svg from "@/assets/images/home_7/icons/icon1.svg";
+import icon2Svg from "@/assets/images/home_7/icons/icon2.svg";
+import icon3Svg from "@/assets/images/home_7/icons/icon3.svg";
+import icon4Svg from "@/assets/images/home_7/icons/icon4.svg";
+import logoIconSvg from "@/assets/images/home_7/icons/logo-icon.svg";
+
 
 export default function WorkFlowThree() {
   return (
@@ -14,7 +20,7 @@ export default function WorkFlowThree() {
                 With our trusted brands, products and services, we continue to
                 evolve as emerging cyberthreats do. Our technology is powered by
                 a team of experienced experts dedicated to staying a step ahead
-                of what’s next.
+                of whatâ€™s next.
               </p>
             </div>
           </div>
@@ -24,25 +30,29 @@ export default function WorkFlowThree() {
           <ul className="solution-list">
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon1.svg" alt="Icon" />
+                {/* Converted from <Image src={icon1Svg}> */}
+                <Image src={icon1Svg} alt="Icon" />
               </span>
               <span className="text">Business Management</span>
             </li>
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon2.svg" alt="Icon" />
+                {/* Converted from <Image src={icon2Svg}> */}
+                <Image src={icon2Svg} alt="Icon" />
               </span>
               <span className="text">Software Solutions</span>
             </li>
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon3.svg" alt="Icon" />
+                {/* Converted from <Image src={icon3Svg}> */}
+                <Image src={icon3Svg} alt="Icon" />
               </span>
               <span className="text">Online Security</span>
             </li>
             <li>
               <span className="img">
-                <img src="/images/home_7/icons/icon4.svg" alt="Icon" />
+                {/* Converted from <Image src={icon4Svg}> */}
+                <Image src={icon4Svg} alt="Icon" />
               </span>
               <span className="text">E-Commerce Solutions</span>
             </li>
@@ -86,20 +96,25 @@ export default function WorkFlowThree() {
             </svg>
             <div className="icons">
               <div className="icon">
-                <img src="/images/home_7/icons/icon1.svg" alt="Icon" />
+                {/* Converted from <Image src={icon1Svg}> */}
+                <Image src={icon1Svg} alt="Icon" />
               </div>
               <div className="icon">
-                <img src="/images/home_7/icons/icon2.svg" alt="Icon" />
+                {/* Converted from <Image src={icon2Svg}> */}
+                <Image src={icon2Svg} alt="Icon" />
               </div>
               <div className="icon">
-                <img src="/images/home_7/icons/icon3.svg" alt="Icon" />
+                {/* Converted from <Image src={icon3Svg}> */}
+                <Image src={icon3Svg} alt="Icon" />
               </div>
               <div className="icon">
-                <img src="/images/home_7/icons/icon4.svg" alt="Icon" />
+                {/* Converted from <Image src={icon4Svg}> */}
+                <Image src={icon4Svg} alt="Icon" />
               </div>
             </div>
             <div className="main-img">
-              <img src="/images/home_7/icons/logo-icon.svg" alt="Logo" />
+              {/* Converted from <Image src={logoIconSvg}> */}
+              <Image src={logoIconSvg} alt="Logo" />
             </div>
           </div>
         </div>

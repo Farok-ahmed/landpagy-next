@@ -1,5 +1,12 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import icon2Svg from "@/assets/images/process/icon2.svg";
+import icon5Svg from "@/assets/images/process/icon5.svg";
+import icon1Svg from "@/assets/images/process/icon1.svg";
+import icon3Svg from "@/assets/images/process/icon3.svg";
+import icon4Svg from "@/assets/images/process/icon4.svg";
+
 import CountUp from "react-countup";
 
 export default function ProcessSteps() {
@@ -30,7 +37,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <img src="/images/process/icon1.svg" alt="" />
+                  <Image src={icon1Svg} alt="" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -71,7 +78,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <img src="/images/process/icon2.svg" alt="" />
+                  <Image src={icon2Svg} alt="" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -112,7 +119,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <img src="/images/process/icon3.svg" alt="" />
+                  <Image src={icon3Svg} alt="" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -150,7 +157,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <img src="/images/process/icon4.svg" alt="" />
+                  <Image src={icon4Svg} alt="" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -191,7 +198,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <img src="/images/process/icon5.svg" alt="" />
+                  <Image src={icon5Svg} alt="" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">

@@ -1,5 +1,11 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
+import playButtonPng from "@/assets/images/play-button.png";
+import shape17Svg from "@/assets/images/shape/shape17.svg";
+import thumbPng from "@/assets/images/thumb.png";
+import shape5Svg from "@/assets/images/shape/shape-5.svg";
+
 import GLightbox from "glightbox";
 
 export default function HelpDoc() {
@@ -18,7 +24,7 @@ export default function HelpDoc() {
           <div className="col-md-9">
             <div className="block-heading">
               <div className="block-icon">
-                <img src="/images/shape/shape-5.svg" alt="Shape" />
+                <Image src={shape5Svg} alt="Shape" />
               </div>
               <div className="block-title">
                 <h2>Getting Started</h2>
@@ -30,13 +36,13 @@ export default function HelpDoc() {
           </div>
           <div className="col-md-3">
             <div className="block-thum">
-              <img src="/images/thumb.png" alt="Thumb" />
+              <Image src={thumbPng} alt="Thumb" />
               <a
                 href="https://youtu.be/WdS4Z5Kfjgw"
                 className="play-buttons"
                 data-fancybox
               >
-                <img src="/images/play-button.png" alt="Play Button" />
+                <Image src={playButtonPng} alt="Play Button" />
               </a>
             </div>
           </div>
@@ -46,7 +52,7 @@ export default function HelpDoc() {
             <div className="block-item-wrapper">
               <div className="block-article">
                 <div className="block-icon">
-                  <img src="/images/shape/shape17.svg" alt="Shape" />
+                  <Image src={shape17Svg} alt="Shape" />
                 </div>
                 <div className="block-text">
                   <h4>
@@ -59,7 +65,7 @@ export default function HelpDoc() {
               </div>
               <div className="block-article">
                 <div className="block-icon">
-                  <img src="/images/shape/shape17.svg" alt="Shape" />
+                  <Image src={shape17Svg} alt="Shape" />
                 </div>
                 <div className="block-text">
                   <h4>
@@ -75,7 +81,7 @@ export default function HelpDoc() {
               </div>
               <div className="block-article">
                 <div className="block-icon">
-                  <img src="/images/shape/shape17.svg" alt="Shape" />
+                  <Image src={shape17Svg} alt="Shape" />
                 </div>
                 <div className="block-text">
                   <h4>
@@ -93,7 +99,7 @@ export default function HelpDoc() {
               </div>
               <div className="block-article">
                 <div className="block-icon">
-                  <img src="/images/shape/shape17.svg" alt="Shape" />
+                  <Image src={shape17Svg} alt="Shape" />
                 </div>
                 <div className="block-text">
                   <h4>
@@ -111,7 +117,7 @@ export default function HelpDoc() {
               </div>
               <div className="block-article">
                 <div className="block-icon">
-                  <img src="/images/shape/shape17.svg" alt="Shape" />
+                  <Image src={shape17Svg} alt="Shape" />
                 </div>
                 <div className="block-text">
                   <h4>
@@ -127,7 +133,7 @@ export default function HelpDoc() {
               </div>
               <div className="block-article">
                 <div className="block-icon">
-                  <img src="/images/shape/shape17.svg" alt="Shape" />
+                  <Image src={shape17Svg} alt="Shape" />
                 </div>
                 <div className="block-text">
                   <h4>

@@ -1,5 +1,24 @@
 "use client";
-import React from "react";
+import feature7Png from "@/assets/images/features/feature-7.png";
+import featurePng from "@/assets/images/features/feature.png";
+import features4Png from "@/assets/images/features/features-4.png";
+import featuresObject1Svg from "@/assets/images/features/features-object-1.svg";
+import featuresObject2Svg from "@/assets/images/features/features-object-2.svg";
+import featuresObject4Svg from "@/assets/images/features/features-object-4.svg";
+import featuresObject5Svg from "@/assets/images/features/features-object-5.svg";
+import featuresObject6Svg from "@/assets/images/features/features-object-6.svg";
+import featuresObject7Svg from "@/assets/images/features/features-object-7.svg";
+import featuresObject8Svg from "@/assets/images/features/features-object-8.svg";
+import featuresObject9Svg from "@/assets/images/features/features-object-9.svg";
+import shape1Svg from "@/assets/images/process/shape1.svg";
+import shape2Svg from "@/assets/images/process/shape2.svg";
+import shape3Svg from "@/assets/images/process/shape3.svg";
+import shape4Svg from "@/assets/images/process/shape4.svg";
+import shape5Svg from "@/assets/images/process/shape5.svg";
+import shape6Svg from "@/assets/images/process/shape6.svg";
+import shape7Svg from "@/assets/images/process/shape7.svg";
+import Image from "next/image";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function VerticalProcess() {
@@ -53,18 +72,15 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInRight"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/process/shape1.svg"
+                <Image src={shape1Svg}
                   alt="Shape"
                   className="shape"
                 />
-                <img
-                  src="/images/process/shape2.svg"
+                <Image src={shape2Svg}
                   alt="Shape"
                   className="shape"
                 />
-                <img
-                  src="/images/process/shape3.svg"
+                <Image src={shape3Svg}
                   alt="Shape"
                   className="shape"
                 />
@@ -98,18 +114,15 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInLeft"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/process/shape4.svg"
+                <Image src={shape4Svg}
                   alt="Shape"
                   className="shape"
                 />
-                <img
-                  src="/images/process/shape5.svg"
+                <Image src={shape5Svg}
                   alt="Shape"
                   className="shape"
                 />
-                <img
-                  src="/images/process/shape6.svg"
+                <Image src={shape6Svg}
                   alt="Shape"
                   className="shape"
                 />
@@ -140,30 +153,25 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInRight"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/features/features-4.png"
+                <Image src={features4Png}
                   alt="Features "
                   className="shape"
                 />
-                <img
-                  src="/images/features/features-object-6.svg"
+                <Image src={featuresObject6Svg}
                   alt="Features Object"
                   className="shape"
                 />
-                <img
-                  src="/images/features/features-object-7.svg"
+                <Image src={featuresObject7Svg}
                   alt="Features Object"
                   className="shape object-element layer"
                   ref={shape2Parallax.ref}
                 />
-                <img
-                  src="/images/features/features-object-8.svg"
+                <Image src={featuresObject8Svg}
                   alt="Features Object"
                   className="shape object-element layer"
                   ref={shape3Parallax.ref}
                 />
-                <img
-                  src="/images/features/features-object-9.svg"
+                <Image src={featuresObject9Svg}
                   alt="Features Object"
                   className="shape object-element layer"
                   ref={shape4Parallax.ref}
@@ -196,8 +204,7 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInLeft"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/features/feature-7.png"
+                <Image src={feature7Png}
                   alt="Features "
                   className="shape"
                 />
@@ -256,19 +263,16 @@ export default function VerticalProcess() {
                 className="process-images-3 wow fadeInRight"
                 data-wow-delay="0.2s"
               >
-                <img
-                  src="/images/features/feature.png"
+                <Image src={featurePng}
                   alt="Features "
                   className="shape"
                 />
-                <img
-                  src="/images/features/features-object-1.svg"
+                <Image src={featuresObject1Svg}
                   alt="Features Object"
                   className="shape object-element layer"
                   ref={shape1Parallax.ref}
                 />
-                <img
-                  src="/images/features/features-object-2.svg"
+                <Image src={featuresObject2Svg}
                   alt="Features Object"
                   className="shape"
                 />
@@ -278,14 +282,12 @@ export default function VerticalProcess() {
                   src="/images/features/features-object-3.svg"
                   alt="Features Object"
                 />
-                <img
-                  src="/images/features/features-object-4.svg"
+                <Image src={featuresObject4Svg}
                   alt="Features Object"
                   className="shape object-element layer"
                   ref={shape3Parallax.ref}
                 />
-                <img
-                  src="/images/features/features-object-5.svg"
+                <Image src={featuresObject5Svg}
                   alt="Features Object"
                   className="shape object-element layer"
                   ref={shape4Parallax.ref}
@@ -296,8 +298,7 @@ export default function VerticalProcess() {
         </div>
 
         <div>
-          <img
-            src="/images/process/shape7.svg"
+          <Image src={shape7Svg}
             alt="Border Shape"
             className="shape-border"
           />

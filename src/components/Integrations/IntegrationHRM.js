@@ -1,14 +1,29 @@
 import React from "react";
+import Image from "next/image";
+import meetAppSvg from "@/assets/images/home_4/apps2/meet-app.svg";
+import slackAppSvg from "@/assets/images/home_4/apps2/slack-app.svg";
+import testShape1Svg from "@/assets/images/home_4/test-shape1.svg";
+import integrationShapeSvg from "@/assets/images/home_4/integration-shape.svg";
+import excelAppSvg from "@/assets/images/home_4/apps2/excel-app.svg";
+import appBarsSvg from "@/assets/images/home_4/apps2/app-bars.svg";
+import msofficeAppSvg from "@/assets/images/home_4/apps2/msoffice-app.svg";
+import gmailAppSvg from "@/assets/images/home_4/apps2/gmail-app.svg";
+import shopifyAppSvg from "@/assets/images/home_4/apps2/shopify-app.svg";
+import contactAppSvg from "@/assets/images/home_4/apps2/contact-app.svg";
+import calenderAppSvg from "@/assets/images/home_4/apps2/calender-app.svg";
+import mainAppSvg from "@/assets/images/home_4/apps2/main-app.svg";
+import driveAppSvg from "@/assets/images/home_4/apps2/drive-app.svg";
+
 
 export default function IntegrationHRM() {
   return (
     <section className="app-integration-area-two pt-125 pb-120">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/test-shape1.svg" alt="shape" />
+          <Image src={testShape1Svg} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/integration-shape.svg" alt="shape" />
+          <Image src={integrationShapeSvg} alt="shape" />
         </div>
       </div>
       <div className="container">
@@ -29,37 +44,37 @@ export default function IntegrationHRM() {
           <div className="col-md-12">
             <div className="apps-area">
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/slack-app.svg" alt="app" />
+                <Image src={slackAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/contact-app.svg" alt="app" />
+                <Image src={contactAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/msoffice-app.svg" alt="app" />
+                <Image src={msofficeAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/calender-app.svg" alt="app" />
+                <Image src={calenderAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/drive-app.svg" alt="app" />
+                <Image src={driveAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/shopify-app.svg" alt="app" />
+                <Image src={shopifyAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.7s">
-                <img src="/images/home_4/apps2/excel-app.svg" alt="app" />
+                <Image src={excelAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/meet-app.svg" alt="app" />
+                <Image src={meetAppSvg} alt="app" />
               </div>
               <div className="app wow zoomIn" data-wow-delay="0.9s">
-                <img src="/images/home_4/apps2/gmail-app.svg" alt="app" />
+                <Image src={gmailAppSvg} alt="app" />
               </div>
               <div className="app main wow zoomIn" data-wow-delay="0.2s">
-                <img src="/images/home_4/apps2/main-app.svg" alt="app" />
+                <Image src={mainAppSvg} alt="app" />
               </div>
               <div className="bars">
-                <img src="/images/home_4/apps2/app-bars.svg" alt="app" />
+                <Image src={appBarsSvg} alt="app" />
               </div>
             </div>
           </div>

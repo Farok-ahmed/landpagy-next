@@ -1,5 +1,13 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import rightSvg from "@/assets/images/home_10/shapes/right.svg";
+import shape1Svg from "@/assets/images/home_10/shapes/shape1.svg";
+import bannerImg1Png from "@/assets/images/home_10/banner-img1.png";
+import shape2Svg from "@/assets/images/home_10/shapes/shape2.svg";
+import borderSvg from "@/assets/images/home_10/shapes/border.svg";
+import bannerImg2Png from "@/assets/images/home_10/banner-img2.png";
+
 import { Parallax } from "react-scroll-parallax";
 
 export default function AppLandingHero() {
@@ -175,10 +183,10 @@ export default function AppLandingHero() {
             <div className="app-banner-images">
               <div className="bg-shapes">
                 <div className="banner-shape">
-                  <img src="/images/home_10/shapes/shape1.svg" alt="Shape" />
+                  <Image src={shape1Svg} alt="Shape" />
                 </div>
                 <div className="banner-shape">
-                  <img src="/images/home_10/shapes/shape2.svg" alt="Shape" />
+                  <Image src={shape2Svg} alt="Shape" />
                 </div>
               </div>
               <img

@@ -1,4 +1,15 @@
 import React from "react";
+import Image from "next/image";
+import hardwareIcon3Svg from "@/assets/images/home_5/icons/hardware-icon3.svg";
+import hardwareIcon6Svg from "@/assets/images/home_5/icons/hardware-icon6.svg";
+import appleIconSvg from "@/assets/images/home_5/icons/apple-icon.svg";
+import windowsIconSvg from "@/assets/images/home_5/icons/windows-icon.svg";
+import androidIconSvg from "@/assets/images/home_5/icons/android-icon.svg";
+import hardwareIcon4Svg from "@/assets/images/home_5/icons/hardware-icon4.svg";
+import hardwareIcon5Svg from "@/assets/images/home_5/icons/hardware-icon5.svg";
+import hardwareIcon1Svg from "@/assets/images/home_5/icons/hardware-icon1.svg";
+import hardwareIcon2Svg from "@/assets/images/home_5/icons/hardware-icon2.svg";
+
 
 export default function PosDownload() {
   return (
@@ -21,8 +32,7 @@ export default function PosDownload() {
                 <ul className="hardware-list">
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon1.svg"
+                      <Image src={hardwareIcon1Svg}
                         alt="Icon"
                         className="hardware-icon"
                       />
@@ -31,8 +41,7 @@ export default function PosDownload() {
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon2.svg"
+                      <Image src={hardwareIcon2Svg}
                         alt="Icon"
                         className="hardware-icon"
                       />
@@ -41,8 +50,7 @@ export default function PosDownload() {
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon3.svg"
+                      <Image src={hardwareIcon3Svg}
                         alt="Icon"
                         className="hardware-icon"
                       />
@@ -55,8 +63,7 @@ export default function PosDownload() {
                 <ul className="hardware-list">
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon4.svg"
+                      <Image src={hardwareIcon4Svg}
                         alt="Icon"
                         className="hardware-icon"
                       />
@@ -65,8 +72,7 @@ export default function PosDownload() {
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon5.svg"
+                      <Image src={hardwareIcon5Svg}
                         alt="Icon"
                         className="hardware-icon"
                       />
@@ -75,8 +81,7 @@ export default function PosDownload() {
                   </li>
                   <li>
                     <p>
-                      <img
-                        src="/images/home_5/icons/hardware-icon6.svg"
+                      <Image src={hardwareIcon6Svg}
                         alt="Icon"
                         className="hardware-icon"
                       />
@@ -96,8 +101,7 @@ export default function PosDownload() {
                 <ul>
                   <li>
                     <a href="/">
-                      <img
-                        src="/images/home_5/icons/apple-icon.svg"
+                      <Image src={appleIconSvg}
                         alt="Icon"
                         className="app-icon"
                       />
@@ -105,8 +109,7 @@ export default function PosDownload() {
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        src="/images/home_5/icons/android-icon.svg"
+                      <Image src={androidIconSvg}
                         alt="Icon"
                         className="app-icon"
                       />
@@ -114,8 +117,7 @@ export default function PosDownload() {
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        src="/images/home_5/icons/windows-icon.svg"
+                      <Image src={windowsIconSvg}
                         alt="Icon"
                         className="app-icon"
                       />

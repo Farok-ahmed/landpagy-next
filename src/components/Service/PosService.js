@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+import easyStartIcon3Svg from "@/assets/images/home_5/icons/easy-start-icon3.svg";
+import easyStartIcon1Svg from "@/assets/images/home_5/icons/easy-start-icon1.svg";
+import easyStartIcon2Svg from "@/assets/images/home_5/icons/easy-start-icon2.svg";
+
 
 export default function PosService() {
   return (
@@ -19,8 +24,7 @@ export default function PosService() {
           <div className="col-lg-4 col-md-6">
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
-                <img
-                  src="/images/home_5/icons/easy-start-icon1.svg"
+                <Image src={easyStartIcon1Svg}
                   alt="Icon"
                   className="item-icon mx-auto my-auto"
                 />
@@ -35,8 +39,7 @@ export default function PosService() {
           <div className="col-lg-4 col-md-6">
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
-                <img
-                  src="/images/home_5/icons/easy-start-icon2.svg"
+                <Image src={easyStartIcon2Svg}
                   alt="Icon"
                   className="item-icon mx-auto my-auto"
                 />
@@ -51,8 +54,7 @@ export default function PosService() {
           <div className="col-lg-4 col-md-6 mt-lg-0 mt-sm-5 mx-auto">
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
-                <img
-                  src="/images/home_5/icons/easy-start-icon3.svg"
+                <Image src={easyStartIcon3Svg}
                   alt="Icon"
                   className="item-icon mx-auto my-auto"
                 />

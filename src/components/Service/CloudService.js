@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import shape8Svg from "@/assets/images/home_9/shapes/shape8.svg";
+import desktop3Png from "@/assets/images/home_9/desktop3.png";
+import desktop2Png from "@/assets/images/home_9/desktop2.png";
+import desktop1Png from "@/assets/images/home_9/desktop1.png";
+
 import CloudClient from "../Clients/CloudClient";
 
 export default function CloudService() {
@@ -38,15 +44,15 @@ export default function CloudService() {
               data-wow-delay="0.3s"
             >
               <div className="img">
-                <img src="/images/home_9/shapes/shape8.svg" alt="" />
+                <Image src={shape8Svg} alt="" />
               </div>
               <div className="img">
-                <img src="/images/home_9/desktop2.png" alt="" />
+                <Image src={desktop2Png} alt="" />
               </div>
               <div className="img">
-                <img src="/images/home_9/desktop3.png" alt="" />
+                <Image src={desktop3Png} alt="" />
               </div>
-              <img src="/images/home_9/desktop1.png" alt="" />
+              <Image src={desktop1Png} alt="" />
             </div>
           </div>
           <div className="col-lg-6">

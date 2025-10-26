@@ -1,4 +1,12 @@
 import React from "react";
+import Image from "next/image";
+import brand2Svg from "@/assets/images/brand/brand-2.svg";
+import brand1Svg from "@/assets/images/brand/brand-1.svg";
+import borderSvg from "@/assets/images/home_10/shapes/border.svg";
+import brand5Svg from "@/assets/images/brand/brand-5.svg";
+import brand4Svg from "@/assets/images/brand/brand-4.svg";
+import brand3Svg from "@/assets/images/brand/brand-3.svg";
+
 
 export default function AppClient() {
   return (
@@ -26,27 +34,27 @@ export default function AppClient() {
         <div className="row justify-content-center">
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.1s">
-              <img src="/images/brand/brand-1.svg" alt="Brand " />
+              <Image src={brand1Svg} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.3s">
-              <img src="/images/brand/brand-2.svg" alt="Brand " />
+              <Image src={brand2Svg} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.5s">
-              <img src="/images/brand/brand-3.svg" alt="Brand " />
+              <Image src={brand3Svg} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.7s">
-              <img src="/images/brand/brand-4.svg" alt="Brand " />
+              <Image src={brand4Svg} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
             <div className="client-image wow fadeInLeft" data-wow-delay="0.9s">
-              <img src="/images/brand/brand-5.svg" alt="Brand " />
+              <Image src={brand5Svg} alt="Brand " />
             </div>
           </div>
         </div>

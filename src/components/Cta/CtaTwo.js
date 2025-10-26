@@ -1,3 +1,6 @@
+import Image from "next/image";
+import ctaShapePng from "@/assets/images/home_7/shapes/cta-shape.png";
+import ctaShape2Png from "@/assets/images/home_7/shapes/cta-shape2.png";
 import Link from "next/link";
 
 export default function CtaTwo() {
@@ -5,10 +8,10 @@ export default function CtaTwo() {
     <section className="soft-cta-area pt-125 pb-130">
       <div className="shapes">
         <div className="shape">
-          <img src="/images/home_7/shapes/cta-shape.png" alt="" />
+          <Image src={ctaShapePng} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_7/shapes/cta-shape2.png" alt="" />
+          <Image src={ctaShape2Png} alt="" />
         </div>
       </div>
       <div className="container container-soft2">

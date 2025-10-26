@@ -1,4 +1,9 @@
-import React from "react";
+﻿import React from "react";
+import Image from "next/image";
+import allInAppPng from "@/assets/images/home_3/all-in-app.png";
+import checkmarkSvg from "@/assets/images/icon/checkmark.svg";
+
+
 
 export default function ProductFeature() {
   return (
@@ -21,7 +26,7 @@ export default function ProductFeature() {
                     <ul>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmarkSvg} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           <div className="text-block _16-px full-white">
@@ -31,7 +36,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmarkSvg} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           WiFi connectivity
@@ -39,7 +44,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmarkSvg} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           mobile SIM card plan
@@ -47,7 +52,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmarkSvg} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           10h battery life
@@ -55,7 +60,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img src="/images/icon/checkmark.svg" alt="" />
+                          <Image src={checkmarkSvg} alt="" />
                         </div>
                         <div className="product-tab-pointer-text">
                           5-inch HD touch screen
@@ -63,8 +68,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <img
-                            src="/images/icon/checkmark.svg"
+                          <Image src={checkmarkSvg}
                             alt=""
                             className="image contain"
                           />
@@ -80,7 +84,7 @@ export default function ProductFeature() {
                   </a>
                 </div>
                 <div className="produ">
-                  <img src="/images/home_3/all-in-app.png" alt="" />
+                  <Image src={allInAppPng} alt="" />
                 </div>
               </div>
               <div className="shadow-lg product-box-copy copy">
@@ -98,7 +102,7 @@ export default function ProductFeature() {
                       <h5 className="product-hero-box-pointer-title">
                         Phone Support
                       </h5>
-                      <p>Need some support? Don’t hesitate to call us!</p>
+                      <p>Need some support? Donâ€™t hesitate to call us!</p>
                     </div>
                     <div className="product-hero-box-pointer-item">
                       <div className="product-features-img">
@@ -129,3 +133,4 @@ export default function ProductFeature() {
     </section>
   );
 }
+

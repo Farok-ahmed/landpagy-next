@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import ctaImg3Svg from "@/assets/images/home_10/cta-img3.svg";
+import ctaImg4Svg from "@/assets/images/home_10/cta-img4.svg";
+import ctaImg1Svg from "@/assets/images/home_10/cta-img1.svg";
+import ctaImg2Svg from "@/assets/images/home_10/cta-img2.svg";
+import ctaImg5Svg from "@/assets/images/home_10/cta-img5.svg";
+
 
 export default function AppDownloadTwo({ hasSpace }) {
   return (
@@ -48,32 +55,27 @@ export default function AppDownloadTwo({ hasSpace }) {
             </div>
             <div className="col-lg-5">
               <div className="app-cta-images">
-                <img
-                  src="/images/home_10/cta-img1.svg"
+                <Image src={ctaImg1Svg}
                   alt=""
                   className="img wow fadeInRight"
                   data-wow-delay="0.1s"
                 />
-                <img
-                  src="/images/home_10/cta-img2.svg"
+                <Image src={ctaImg2Svg}
                   alt=""
                   className="img wow fadeInRight"
                   data-wow-delay="0.5s"
                 />
-                <img
-                  src="/images/home_10/cta-img3.svg"
+                <Image src={ctaImg3Svg}
                   alt=""
                   className="img wow fadeInLeft"
                   data-wow-delay="0.7s"
                 />
-                <img
-                  src="/images/home_10/cta-img4.svg"
+                <Image src={ctaImg4Svg}
                   alt=""
                   className="img wow fadeInDown"
                   data-wow-delay="0.9s"
                 />
-                <img
-                  src="/images/home_10/cta-img5.svg"
+                <Image src={ctaImg5Svg}
                   alt=""
                   className="img wow fadeInDown"
                   data-wow-delay="0.3s"

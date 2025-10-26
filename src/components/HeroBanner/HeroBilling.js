@@ -1,6 +1,21 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import logo4Svg from "@/assets/images/home_8/icons/logo4.svg";
+import addUserSvg from "@/assets/images/home_8/icons/add-user.svg";
+import shape4Svg from "@/assets/images/home_8/icons/shape4.svg";
+import bannerPng from "@/assets/images/home_8/banner.png";
+import poly1Svg from "@/assets/images/home_8/icons/Poly1.svg";
+import shape3Svg from "@/assets/images/home_8/icons/shape3.svg";
+import shape1Svg from "@/assets/images/home_8/icons/shape1.svg";
+import logo1Svg from "@/assets/images/home_8/icons/logo1.svg";
+import logo3Svg from "@/assets/images/home_8/icons/logo3.svg";
+import logo2Svg from "@/assets/images/home_8/icons/logo2.svg";
+import shape2Svg from "@/assets/images/home_8/icons/shape2.svg";
+import bannerShapeSvg from "@/assets/images/home_8/shape/banner-shape.svg";
+import poly2Svg from "@/assets/images/home_8/icons/Poly2.svg";
+
 
 import { useParallax } from "react-scroll-parallax";
 
@@ -40,49 +55,45 @@ export default function HeroBilling() {
         <div className="shape circle"></div>
         <div className="shape circle"></div>
         <div className="shape">
-          <img src="/images/home_8/icons/Poly1.svg" alt="" />
+          <Image src={poly1Svg} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_8/icons/Poly2.svg" alt="" />
+          <Image src={poly2Svg} alt="" />
         </div>
         <div className="shape wow fadeInLeft" data-wow-delay="0.2s">
-          <img src="/images/home_8/icons/logo1.svg" alt="Logo 1" />
-          <img
-            src="/images/home_8/icons/shape1.svg"
+          <Image src={logo1Svg} alt="Logo 1" />
+          <Image src={shape1Svg}
             alt="Shape 1"
             ref={shape1Parallax.ref}
             className="layer"
           />
         </div>
         <div className="shape wow fadeInLeft" data-wow-delay="0.2s">
-          <img src="/images/home_8/icons/logo2.svg" alt="Logo 2" />
-          <img
-            src="/images/home_8/icons/shape2.svg"
+          <Image src={logo2Svg} alt="Logo 2" />
+          <Image src={shape2Svg}
             alt="Shape 2"
             ref={shape2Parallax.ref}
             className="layer"
           />
         </div>
         <div className="shape wow fadeInRight" data-wow-delay="0.2s">
-          <img src="/images/home_8/icons/logo3.svg" alt="Logo 3" />
-          <img
-            src="/images/home_8/icons/shape3.svg"
+          <Image src={logo3Svg} alt="Logo 3" />
+          <Image src={shape3Svg}
             alt="Shape 3"
             ref={shape3Parallax.ref}
             className="layer"
           />
         </div>
         <div className="shape wow fadeInRight" data-wow-delay="0.2s">
-          <img src="/images/home_8/icons/logo4.svg" alt="Logo 4" />
-          <img
-            src="/images/home_8/icons/shape4.svg"
+          <Image src={logo4Svg} alt="Logo 4" />
+          <Image src={shape4Svg}
             alt="Shape 4"
             ref={shape4Parallax.ref}
             className="layer"
           />
         </div>
         <div className="shape">
-          <img src="/images/home_8/shape/banner-shape.svg" alt="" />
+          <Image src={bannerShapeSvg} alt="" />
         </div>
       </div>
       <div className="container">
@@ -100,15 +111,13 @@ export default function HeroBilling() {
                 className="btn btn-red wow fadeInDown"
                 data-wow-delay="0.4s"
               >
-                <img
-                  src="/images/home_8/icons/add-user.svg"
+                <Image src={addUserSvg}
                   alt="Icon"
                   className="icon"
                 />
                 Join Us
               </Link>
-              <img
-                src="/images/home_8/banner.png"
+              <Image src={bannerPng}
                 alt=""
                 className="mx-auto banner-img wow fadeInDown"
                 data-wow-delay="0.5s"

@@ -1,7 +1,11 @@
 "use client";
-import React, { useEffect } from "react";
+import aboutVideoPng from "@/assets/images/about_2/about-video.png";
+import aboutShapePng from "@/assets/images/about_2/shape/about-shape.png";
 import GLightbox from "glightbox";
+import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
+
 export default function AboutTwoHero() {
   useEffect(() => {
     // eslint-disable-next-line
@@ -15,7 +19,7 @@ export default function AboutTwoHero() {
     <section className="about-banner-2">
       <div className="banner-shapes">
         <div className="shape">
-          <img src="/images/about_2/shape/about-shape.png" alt="shapes" />
+          <Image src={aboutShapePng} alt="shapes" />
         </div>
       </div>
       <div className="container">
@@ -47,7 +51,7 @@ export default function AboutTwoHero() {
             <div className="banner-right wow fadeInRight" data-wow-delay="0.2s">
               <div className="video-wrapp">
                 <div className="video-img">
-                  <img src="./images/about_2/about-video.png" alt="Video" />
+                  <Image src={aboutVideoPng} alt="Video" />
                 </div>
                 <Link
                   className="play-btn"

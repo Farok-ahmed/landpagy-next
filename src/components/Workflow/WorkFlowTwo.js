@@ -1,4 +1,8 @@
-import React from "react";
+﻿import Image from "next/image";
+import feature5Png from "@/assets/images/features/feature-5.png";
+import features8Png from "@/assets/images/features/features-8.png";
+import features9Png from "@/assets/images/features/features-9.png";
+
 
 export default function WorkFlowTwo() {
   return (
@@ -10,14 +14,17 @@ export default function WorkFlowTwo() {
               <h2 className="mt-n4">Move work forward from anywhere</h2>
             </div>
             <div className="feature-image">
-              <img src="/images/features/feature-5.png" alt="Features " />
-              <img
-                src="/images/features/features-8.png"
+              {/* Converted from <Image src={feature5Png}> */}
+              <Image src={feature5Png} alt="Features " />
+              {/* Converted from <Image src={features8Png}> */}
+              <Image
+                src={features8Png}
                 alt="Features "
                 className="features8"
               />
-              <img
-                src="/images/features/features-9.png"
+              {/* Converted from <Image src={features9Png}> */}
+              <Image
+                src={features9Png}
                 alt="Features "
                 className="features9"
               />

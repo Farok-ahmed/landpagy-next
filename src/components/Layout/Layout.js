@@ -1,9 +1,11 @@
-"use client";
-import React, { useEffect, useLayoutEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { ParallaxProvider } from "react-scroll-parallax";
-import dynamic from "next/dynamic";
+﻿"use client";
+import scrollSvg from "@/assets/images/scroll.svg";
 import { animationUtils } from "@/utils";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useEffect, useLayoutEffect, useState } from "react";
+import { ParallaxProvider } from "react-scroll-parallax";
+
 
 export default function Layout({ children }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -72,7 +74,8 @@ export default function Layout({ children }) {
           {children}
           {isVisible && (
             <button className="scrollToTop" onClick={scrollToTop}>
-              <img src="/images/scroll.svg" alt="Scroll to Top" />
+              {/* Converted from <Image src={scrollSvg}> */}
+              <Image src={scrollSvg} alt="Scroll to Top" />
             </button>
           )}
         </div>

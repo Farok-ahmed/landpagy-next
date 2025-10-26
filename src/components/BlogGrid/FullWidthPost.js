@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import top_postJpg from "@/assets/images/blog_grid/top_post.jpg";
+import ansleyJpg from "@/assets/images/blog_grid/ansley.jpg";
+
 
 export default function FullWidthPost() {
   return (
@@ -33,7 +37,7 @@ export default function FullWidthPost() {
               </a>
               <div className="media post_author">
                 <div className="round_img">
-                  <img src="/images/blog_grid/ansley.jpg" alt="" />
+                  <Image src={ansleyJpg} alt="" />
                 </div>
                 <div className="media-body author_text">
                   <h4>Jason Response</h4>

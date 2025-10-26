@@ -1,5 +1,9 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import testShape3Svg from "@/assets/images/home_4/test-shape3.svg";
+import testShape2Svg from "@/assets/images/home_4/test-shape2.svg";
+
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
@@ -26,10 +30,10 @@ export default function WhyChooseHRM() {
     <section className="testimonial-area-eight pt-125 pb-140">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/test-shape2.svg" alt="shape" />
+          <Image src={testShape2Svg} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/test-shape3.svg" alt="shape" />
+          <Image src={testShape3Svg} alt="shape" />
         </div>
       </div>
 

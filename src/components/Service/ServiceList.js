@@ -1,4 +1,10 @@
-import React from "react";
+﻿import Image from "next/image";
+import service1Png from "@/assets/images/services/service1.png";
+import service2Png from "@/assets/images/services/service2.png";
+import service3Png from "@/assets/images/services/service3.png";
+import service4Png from "@/assets/images/services/service4.png";
+
+
 
 export default function ServiceList() {
   return (
@@ -8,7 +14,7 @@ export default function ServiceList() {
           <div className="col-12">
             <div className="text-center section-title">
               <span>Our services</span>
-              <h2>We’v been providing our services with proud since 2001.</h2>
+              <h2>Weâ€™v been providing our services with proud since 2001.</h2>
             </div>
           </div>
         </div>
@@ -17,7 +23,8 @@ export default function ServiceList() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service1.png" alt="Service " />
+              {/* Converted from <Image src={service1Png}> */}
+              <Image src={service1Png} alt="Service " />
             </div>
           </div>
           <div className="col-md-6">
@@ -45,7 +52,8 @@ export default function ServiceList() {
           </div>
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service2.png" alt="Service " />
+              {/* Converted from <Image src={service2Png}> */}
+              <Image src={service2Png} alt="Service " />
             </div>
           </div>
         </div>
@@ -53,7 +61,8 @@ export default function ServiceList() {
         <div className="row align-items-center">
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service3.png" alt="Service " />
+              {/* Converted from <Image src={service3Png}> */}
+              <Image src={service3Png} alt="Service " />
             </div>
           </div>
           <div className="col-md-6">
@@ -81,7 +90,8 @@ export default function ServiceList() {
           </div>
           <div className="col-md-6">
             <div className="services-img">
-              <img src="/images/services/service4.png" alt="Service " />
+              {/* Converted from <Image src={service4Png}> */}
+              <Image src={service4Png} alt="Service " />
             </div>
           </div>
         </div>

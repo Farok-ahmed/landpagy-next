@@ -1,4 +1,6 @@
-import React from "react";
+import logo2Png from "@/assets/images/logo-2.png";
+import logo3Png from "@/assets/images/logo-3.png";
+import Image from "next/image";
 
 export default function FooterOne() {
   return (
@@ -11,7 +13,8 @@ export default function FooterOne() {
                 <span>
                   The Most Trusted Online Course Platform for WordPress.
                 </span>
-                <img src="/images/logo-3.png" alt="Footer Logo" />
+                {/* Converted from <Image src={logo3Png}> */}
+                <Image src={logo3Png} alt="Footer Logo" />
               </div>
             </div>
             <div className="col-lg-8">
@@ -102,7 +105,8 @@ export default function FooterOne() {
             <div className="col-lg-5">
               <ul>
                 <li>
-                  <img src="/images/logo-2.png" alt="Logo " />
+                  {/* Converted from <Image src={logo2Png}> */}
+                  <Image src={logo2Png} alt="Logo " />
                 </li>
                 <li>
                   <span className="copyright">

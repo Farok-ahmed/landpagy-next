@@ -1,14 +1,18 @@
 import React from "react";
+import Image from "next/image";
+import bannerShape4Svg from "@/assets/images/home_2/banner-shape-4.svg";
+import bannerShape5Svg from "@/assets/images/home_2/banner-shape-5.svg";
+
 
 export default function FaqTwo() {
   return (
     <section className="faq-area-two">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_2/banner-shape-4.svg" alt="Shape" />
+          <Image src={bannerShape4Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_2/banner-shape-5.svg" alt="Shape" />
+          <Image src={bannerShape5Svg} alt="Shape" />
         </div>
       </div>
 

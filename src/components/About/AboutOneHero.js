@@ -1,5 +1,10 @@
 "use client";
-import React from "react";
+import features4Png from "@/assets/images/features/features-4.png";
+import featuresObject6Svg from "@/assets/images/features/features-object-6.svg";
+import featuresObject7Svg from "@/assets/images/features/features-object-7.svg";
+import featuresObject8Svg from "@/assets/images/features/features-object-8.svg";
+import featuresObject9Svg from "@/assets/images/features/features-object-9.svg";
+import Image from "next/image";
 import { useParallax } from "react-scroll-parallax";
 
 export default function AboutOneHero() {
@@ -37,24 +42,24 @@ export default function AboutOneHero() {
           </div>
           <div className="col-lg-6 d-lg-none">
             <div className="banner-image">
-              <img src="/images/features/features-4.png" alt="Illustrator " />
-              <img
-                src="/images/features/features-object-6.svg"
+              <Image src={features4Png} alt="Illustrator " />
+              <Image
+                src={featuresObject6Svg}
                 alt="Features Object"
                 className="features-object6 layer"
               />
-              <img
-                src="/images/features/features-object-7.svg"
+              <Image
+                src={featuresObject7Svg}
                 alt="Features Object"
                 className="features-object7 object-element layer"
               />
-              <img
-                src="/images/features/features-object-8.svg"
+              <Image
+                src={featuresObject8Svg}
                 alt="Features Object"
                 className="features-object8 object-element layer"
               />
-              <img
-                src="/images/features/features-object-9.svg"
+              <Image
+                src={featuresObject9Svg}
                 alt="Features Object"
                 className="features-object9 object-element fa-layer-group"
               />
@@ -65,26 +70,26 @@ export default function AboutOneHero() {
           </div>
         </div>
         <div className="banner-right-two banner-image d-none d-lg-block">
-          <img src="/images/features/features-4.png" alt="Illustrator " />
-          <img
-            src="/images/features/features-object-6.svg"
+          <Image src={features4Png} alt="Illustrator " />
+          <Image
+            src={featuresObject6Svg}
             alt="Features Object"
             className="features-object6"
           />
-          <img
-            src="/images/features/features-object-7.svg"
+          <Image
+            src={featuresObject7Svg}
             alt="Features Object"
             className="features-object7 object-element"
             ref={shape2Parallax.ref}
           />
-          <img
-            src="/images/features/features-object-8.svg"
+          <Image
+            src={featuresObject8Svg}
             alt="Features Object"
             className="features-object8 object-element layer"
             ref={shape3Parallax.ref}
           />
-          <img
-            src="/images/features/features-object-9.svg"
+          <Image
+            src={featuresObject9Svg}
             alt="Features Object"
             className="features-object9 object-element layer"
             ref={shape4Parallax.ref}

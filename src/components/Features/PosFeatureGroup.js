@@ -1,4 +1,14 @@
 import React from "react";
+import Image from "next/image";
+import feaIcon5Svg from "@/assets/images/home_5/icons/fea-icon5.svg";
+import feaIcon8Svg from "@/assets/images/home_5/icons/fea-icon8.svg";
+import feaIcon2Svg from "@/assets/images/home_5/icons/fea-icon2.svg";
+import feaIcon1Svg from "@/assets/images/home_5/icons/fea-icon1.svg";
+import feaIcon4Svg from "@/assets/images/home_5/icons/fea-icon4.svg";
+import feaIcon3Svg from "@/assets/images/home_5/icons/fea-icon3.svg";
+import feaIcon6Svg from "@/assets/images/home_5/icons/fea-icon6.svg";
+import feaIcon7Svg from "@/assets/images/home_5/icons/fea-icon7.svg";
+
 
 export default function PosFeatureGroup() {
   return (
@@ -18,8 +28,7 @@ export default function PosFeatureGroup() {
         <div className="row">
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon1.svg"
+              <Image src={feaIcon1Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />
@@ -30,8 +39,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon2.svg"
+              <Image src={feaIcon2Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />
@@ -42,8 +50,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon3.svg"
+              <Image src={feaIcon3Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />
@@ -54,8 +61,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon4.svg"
+              <Image src={feaIcon4Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />
@@ -66,8 +72,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon5.svg"
+              <Image src={feaIcon5Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />
@@ -78,8 +83,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon6.svg"
+              <Image src={feaIcon6Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />
@@ -90,8 +94,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon7.svg"
+              <Image src={feaIcon7Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />
@@ -102,8 +105,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <img
-                src="/images/home_5/icons/fea-icon8.svg"
+              <Image src={feaIcon8Svg}
                 alt=""
                 className="features-icon mx-auto mb-10"
               />

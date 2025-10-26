@@ -1,7 +1,9 @@
-import React from "react";
-
-import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+﻿import logo5Svg from "@/assets/images/logo-5.svg";
+import logoSvg from "@/assets/images/logo.svg";
+import Image from "next/image";
 import Link from "next/link";
+import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+
 
 export default function HeaderTwo() {
   return (
@@ -9,8 +11,8 @@ export default function HeaderTwo() {
       <nav className="navbar navbar-expand-lg menu_four sticky-nav">
         <div className="container-fluid">
           <Link className="navbar-brand header_logo" href="/">
-            <img className="main_logo" src="/images/logo.svg" alt="logo" />
-            <img className="white_logo" src="/images/logo-5.svg" alt="logo" />
+            <Image className="main_logo" src={logoSvg} alt="logo" />
+            <Image className="white_logo" src={logo5Svg} alt="logo" />
           </Link>
           <button
             className="navbar-toggler collapsed"
@@ -51,7 +53,7 @@ export default function HeaderTwo() {
                   {demoLinks.map((item, index) => (
                     <li className={`nav-item`} key={index}>
                       <Link href={item.to} className="nav-link">
-                        <img src={item.imgSrc} alt={item.alt} />
+                        <Image src={item.imgSrc} alt={item.alt} />
                         <span>{item.text}</span>
                       </Link>
                     </li>

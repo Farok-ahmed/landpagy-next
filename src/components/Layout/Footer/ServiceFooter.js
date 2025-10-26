@@ -1,6 +1,10 @@
 "use client";
+import kiteSvg from "@/assets/images/footer/kite.svg";
+import leafSvg from "@/assets/images/footer/leaf.svg";
+import womenSvg from "@/assets/images/footer/women.svg";
+import logo5Svg from "@/assets/images/logo-5.svg";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { useParallax } from "react-scroll-parallax";
 
 export default function ServiceFooter() {
@@ -26,13 +30,16 @@ export default function ServiceFooter() {
     <footer className="bg-black footer-hrm footer-common">
       <div className="bg-shapes">
         <div className="shape layer" ref={kiteParallax.ref}>
-          <img src="/images/footer/kite.svg" alt="Shape" />
+          {/* Converted from <Image src={kiteSvg}> */}
+          <Image src={kiteSvg} alt="Shape" />
         </div>
         <div className="shape layer" ref={womenParallax.ref}>
-          <img src="/images/footer/women.svg" alt="Shape" />
+          {/* Converted from <Image src={womenSvg}> */}
+          <Image src={womenSvg} alt="Shape" />
         </div>
         <div className="shape layer" ref={leafParallax.ref}>
-          <img src="/images/footer/leaf.svg" alt="Shape" />
+          {/* Converted from <Image src={leafSvg}> */}
+          <Image src={leafSvg} alt="Shape" />
         </div>
       </div>
       <div className="footer-top">
@@ -151,9 +158,10 @@ export default function ServiceFooter() {
               <ul>
                 <li>
                   <Link href="/">
-                    <img
+                    
+                    <Image
                       className="d-md-block d-sm-inline-block"
-                      src="/images/logo-5.svg"
+                      src={logo5Svg}
                       alt="Footer Logo"
                     />
                   </Link>

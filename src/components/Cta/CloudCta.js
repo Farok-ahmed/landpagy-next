@@ -1,4 +1,13 @@
 import React from "react";
+import Image from "next/image";
+import shape5Svg from "@/assets/images/home_9/shapes/shape5.svg";
+import shape6Svg from "@/assets/images/home_9/shapes/shape6.svg";
+import shape3Svg from "@/assets/images/home_9/shapes/shape3.svg";
+import shape1Svg from "@/assets/images/home_9/shapes/shape1.svg";
+import shape2Svg from "@/assets/images/home_9/shapes/shape2.svg";
+import shape7Svg from "@/assets/images/home_9/shapes/shape7.svg";
+import shape4Svg from "@/assets/images/home_9/shapes/shape4.svg";
+
 import { Parallax } from "react-scroll-parallax";
 
 export default function CloudCta() {
@@ -12,7 +21,7 @@ export default function CloudCta() {
             rotateY={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_9/shapes/shape1.svg" alt="Shape 1" />
+            <Image src={shape1Svg} alt="Shape 1" />
           </Parallax>
         </div>
         <div className="shape">
@@ -22,7 +31,7 @@ export default function CloudCta() {
             rotateY={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_9/shapes/shape2.svg" alt="Shape 2" />
+            <Image src={shape2Svg} alt="Shape 2" />
           </Parallax>
         </div>
         <div className="shape">
@@ -32,7 +41,7 @@ export default function CloudCta() {
             rotateY={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_9/shapes/shape3.svg" alt="Shape 3" />
+            <Image src={shape3Svg} alt="Shape 3" />
           </Parallax>
         </div>
         <div className="shape">
@@ -42,7 +51,7 @@ export default function CloudCta() {
             rotateY={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_9/shapes/shape4.svg" alt="Shape 4" />
+            <Image src={shape4Svg} alt="Shape 4" />
           </Parallax>
         </div>
         <div className="shape">
@@ -52,14 +61,14 @@ export default function CloudCta() {
             rotateY={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_9/shapes/shape5.svg" alt="Shape 5" />
+            <Image src={shape5Svg} alt="Shape 5" />
           </Parallax>
         </div>
         <div className="shape">
-          <img src="/images/home_9/shapes/shape6.svg" alt="Shape 6" />
+          <Image src={shape6Svg} alt="Shape 6" />
         </div>
         <div className="shape">
-          <img src="/images/home_9/shapes/shape7.svg" alt="Shape 7" />
+          <Image src={shape7Svg} alt="Shape 7" />
         </div>
       </div>
       <div className="container">

@@ -1,4 +1,13 @@
 import React from "react";
+import Image from "next/image";
+import shape9Svg from "@/assets/images/process/shape9.svg";
+import shape8Svg from "@/assets/images/process/shape8.svg";
+import icon8Svg from "@/assets/images/process/icon8.svg";
+import shape10Svg from "@/assets/images/process/shape10.svg";
+import icon7Svg from "@/assets/images/process/icon7.svg";
+import icon9Svg from "@/assets/images/process/icon9.svg";
+import icon6Svg from "@/assets/images/process/icon6.svg";
+
 
 export default function BusinessSteps() {
   return (
@@ -21,13 +30,11 @@ export default function BusinessSteps() {
               className="process-item-4 wow fadeInLeft"
               data-wow-delay="0.2s"
             >
-              <img
-                src="/images/process/shape8.svg"
+              <Image src={shape8Svg}
                 alt="Border"
                 className="line-1"
               />
-              <img
-                src="/images/process/icon6.svg"
+              <Image src={icon6Svg}
                 alt="Icon"
                 className="item-icon mx-auto"
               />
@@ -42,13 +49,11 @@ export default function BusinessSteps() {
               className="process-item-4 wow fadeInLeft"
               data-wow-delay="0.4s"
             >
-              <img
-                src="/images/process/shape9.svg"
+              <Image src={shape9Svg}
                 alt="Border"
                 className="line-2"
               />
-              <img
-                src="/images/process/icon7.svg"
+              <Image src={icon7Svg}
                 alt="Icon"
                 className="item-icon mx-auto"
               />
@@ -63,13 +68,11 @@ export default function BusinessSteps() {
               className="process-item-4 wow fadeInLeft"
               data-wow-delay="0.6s"
             >
-              <img
-                src="/images/process/shape10.svg"
+              <Image src={shape10Svg}
                 alt="Border"
                 className="line-3"
               />
-              <img
-                src="/images/process/icon8.svg"
+              <Image src={icon8Svg}
                 alt="Icon"
                 className="item-icon mx-auto"
               />
@@ -84,8 +87,7 @@ export default function BusinessSteps() {
               className="process-item-4 wow fadeInLeft"
               data-wow-delay="0.8s"
             >
-              <img
-                src="/images/process/icon9.svg"
+              <Image src={icon9Svg}
                 alt="Icon"
                 className="item-icon mx-auto"
               />

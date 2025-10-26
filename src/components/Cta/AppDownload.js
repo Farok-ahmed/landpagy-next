@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import allInAppPng from "@/assets/images/home_3/all-in-app.png";
+
 
 export default function AppDownload() {
   return (
@@ -6,7 +9,7 @@ export default function AppDownload() {
       <div className="container">
         <div className="row align-items-center gy-4 gy-lg-0">
           <div className="col-md-6 mx-auto wow fadeInLeft">
-            <img src="/images/home_3/all-in-app.png" alt="" />
+            <Image src={allInAppPng} alt="" />
           </div>
           <div className="col-lg-6 ps-lg-5 wow fadeInRight">
             <h2>All-in-one mobile app</h2>

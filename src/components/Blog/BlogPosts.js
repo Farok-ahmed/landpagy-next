@@ -1,5 +1,16 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import post1Jpg from "@/assets/images/blog/post1.jpg";
+import post2Jpg from "@/assets/images/blog/post2.jpg";
+import post7Jpg from "@/assets/images/blog/post7.jpg";
+import post3Jpg from "@/assets/images/blog/post3.jpg";
+import post6Jpg from "@/assets/images/blog/post6.jpg";
+import post4Jpg from "@/assets/images/blog/post4.jpg";
+import post9Jpg from "@/assets/images/blog/post9.jpg";
+import post5Jpg from "@/assets/images/blog/post5.jpg";
+import post8Jpg from "@/assets/images/blog/post8.jpg";
+
 
 
 export default function BlogPosts() {
@@ -8,7 +19,7 @@ export default function BlogPosts() {
       <div className="row">
         <div className="col-md-12">
           <div className="top-post-item mb-30">
-            <img src="/images/blog/post1.jpg" alt="Blog Post" />
+            <Image src={post1Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Development Tips
@@ -42,7 +53,7 @@ export default function BlogPosts() {
       <div className="row">
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post2.jpg" alt="Blog Post" />
+            <Image src={post2Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Product Update
@@ -74,7 +85,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post3.jpg" alt="Blog Post" />
+            <Image src={post3Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Case Study
@@ -106,7 +117,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post4.jpg" alt="Blog Post" />
+            <Image src={post4Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Development Tips
@@ -138,7 +149,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post5.jpg" alt="Blog Post" />
+            <Image src={post5Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Creative
@@ -170,7 +181,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post6.jpg" alt="Blog Post" />
+            <Image src={post6Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Product Update
@@ -202,7 +213,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post7.jpg" alt="Blog Post" />
+            <Image src={post7Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Case Study
@@ -234,7 +245,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post8.jpg" alt="Blog Post" />
+            <Image src={post8Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Development Tips
@@ -266,7 +277,7 @@ export default function BlogPosts() {
         </div>
         <div className="col-md-6">
           <div className="post-item">
-            <img src="/images/blog/post9.jpg" alt="Blog Post" />
+            <Image src={post9Jpg} alt="Blog Post" />
             <div className="post-content">
               <a href="/" className="cate-btn">
                 Creative

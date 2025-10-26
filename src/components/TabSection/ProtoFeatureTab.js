@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import feaShape2Svg from "@/assets/images/home_6/fea-shape2.svg";
+import feaImg2Png from "@/assets/images/home_6/fea-img2.png";
+import feaShape1Svg from "@/assets/images/home_6/fea-shape1.svg";
+import feaImg3Png from "@/assets/images/home_6/fea-img3.png";
+import feaImgJpg from "@/assets/images/home_6/fea-img.jpg";
+
 
 const ProtoFeatureTab = () => {
   return (
@@ -83,10 +90,10 @@ const ProtoFeatureTab = () => {
                   />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1Svg} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2Svg} alt="Shape2" />
                     </div>
                   </div>
                 </div>
@@ -104,10 +111,10 @@ const ProtoFeatureTab = () => {
                   />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1Svg} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2Svg} alt="Shape2" />
                     </div>
                   </div>
                 </div>
@@ -125,10 +132,10 @@ const ProtoFeatureTab = () => {
                   />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1Svg} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2Svg} alt="Shape2" />
                     </div>
                   </div>
                 </div>
@@ -146,10 +153,10 @@ const ProtoFeatureTab = () => {
                   />
                   <div className="features-shapes">
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape1.svg" alt="Shape1" />
+                      <Image src={feaShape1Svg} alt="Shape1" />
                     </div>
                     <div className="shape">
-                      <img src="/images/home_6/fea-shape2.svg" alt="Shape2" />
+                      <Image src={feaShape2Svg} alt="Shape2" />
                     </div>
                   </div>
                 </div>

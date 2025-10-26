@@ -1,5 +1,10 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import featureImg1Png from "@/assets/images/home_8/feature-img1.png";
+import shape2Svg from "@/assets/images/home_8/shape/shape2.svg";
+import shape1Svg from "@/assets/images/home_8/shape/shape1.svg";
+
 import { Parallax } from "react-scroll-parallax";
 
 export default function AutomateBilling() {
@@ -20,14 +25,14 @@ export default function AutomateBilling() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img src="/images/home_8/shape/shape1.svg" alt="" />
+                    <Image src={shape1Svg} alt="" />
                   </Parallax>
                 </div>
                 <div className="shape">
-                  <img src="/images/home_8/shape/shape2.svg" alt="" />
+                  <Image src={shape2Svg} alt="" />
                 </div>
               </div>
-              <img src="/images/home_8/feature-img1.png" alt="Feature " />
+              <Image src={featureImg1Png} alt="Feature " />
             </div>
           </div>
           <div className="col-lg-6">

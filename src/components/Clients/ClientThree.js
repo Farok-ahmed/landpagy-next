@@ -1,4 +1,12 @@
 import React from "react";
+import Image from "next/image";
+import clientsLogo4Png from "@/assets/images/home_7/brands/clients-logo4.png";
+import clientsLogo6Png from "@/assets/images/home_7/brands/clients-logo6.png";
+import clientsLogo5Png from "@/assets/images/home_7/brands/clients-logo5.png";
+import clientsLogo1Png from "@/assets/images/home_7/brands/clients-logo1.png";
+import clientsLogo2Png from "@/assets/images/home_7/brands/clients-logo2.png";
+import clientsLogo3Png from "@/assets/images/home_7/brands/clients-logo3.png";
+
 
 export default function ClientThree() {
   return (
@@ -13,7 +21,7 @@ export default function ClientThree() {
               className="clients-image wow fadeInRight"
               data-wow-delay="0.1s"
             >
-              <img src="/images/home_7/brands/clients-logo1.png" alt="brand" />
+              <Image src={clientsLogo1Png} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
@@ -21,7 +29,7 @@ export default function ClientThree() {
               className="clients-image wow fadeInRight"
               data-wow-delay="0.3s"
             >
-              <img src="/images/home_7/brands/clients-logo2.png" alt="brand" />
+              <Image src={clientsLogo2Png} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
@@ -29,7 +37,7 @@ export default function ClientThree() {
               className="clients-image wow fadeInRight"
               data-wow-delay="0.5s"
             >
-              <img src="/images/home_7/brands/clients-logo3.png" alt="brand" />
+              <Image src={clientsLogo3Png} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
@@ -37,7 +45,7 @@ export default function ClientThree() {
               className="clients-image wow fadeInRight"
               data-wow-delay="0.7s"
             >
-              <img src="/images/home_7/brands/clients-logo4.png" alt="brand" />
+              <Image src={clientsLogo4Png} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
@@ -45,7 +53,7 @@ export default function ClientThree() {
               className="clients-image wow fadeInRight"
               data-wow-delay="0.9s"
             >
-              <img src="/images/home_7/brands/clients-logo5.png" alt="brand" />
+              <Image src={clientsLogo5Png} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
@@ -53,7 +61,7 @@ export default function ClientThree() {
               className="clients-image wow fadeInRight"
               data-wow-delay="1.1s"
             >
-              <img src="/images/home_7/brands/clients-logo6.png" alt="brand" />
+              <Image src={clientsLogo6Png} alt="brand" />
             </div>
           </div>
         </div>

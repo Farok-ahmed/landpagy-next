@@ -1,5 +1,15 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import icon2Svg from "@/assets/images/signup/icon2.svg";
+import shape2Svg from "@/assets/images/signup/shape2.svg";
+import shape1Svg from "@/assets/images/signup/shape1.svg";
+import shape3Svg from "@/assets/images/signup/shape3.svg";
+import shape4Svg from "@/assets/images/signup/shape4.svg";
+import icon4Svg from "@/assets/images/signup/icon4.svg";
+import icon1Svg from "@/assets/images/signup/icon1.svg";
+import icon3Svg from "@/assets/images/signup/icon3.svg";
+
 import { useParallax } from "react-scroll-parallax";
 import Link from "next/link";
 import ElementsLayout from "@/components/Layout/ElementsLayout";
@@ -42,13 +52,13 @@ export default function SignUp() {
           <div className="sign-up-box">
             <div className="bg-shapes">
               <div className="shape">
-                <img src="/images/signup/shape2.svg" alt="Shape" />
+                <Image src={shape2Svg} alt="Shape" />
               </div>
               <div className="shape layer" ref={parallaxOne.ref}>
-                <img src="/images/signup/shape3.svg" alt="Shape" />
+                <Image src={shape3Svg} alt="Shape" />
               </div>
               <div className="shape">
-                <img src="/images/signup/shape4.svg" alt="Shape" />
+                <Image src={shape4Svg} alt="Shape" />
               </div>
             </div>
             <div className="row">
@@ -72,7 +82,7 @@ export default function SignUp() {
                     ref={shape4Parallax.ref}
                   ></div>
                   <div className="shapes">
-                    <img src="/images/signup/shape1.svg" alt="Shape" />
+                    <Image src={shape1Svg} alt="Shape" />
                   </div>
                 </div>
               </div>
@@ -88,22 +98,22 @@ export default function SignUp() {
                     <ul className="create-with-list mt-45 mb-35">
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon1.svg" alt="Icon" />
+                          <Image src={icon1Svg} alt="Icon" />
                         </a>
                       </li>
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon2.svg" alt="Icon" />
+                          <Image src={icon2Svg} alt="Icon" />
                         </a>
                       </li>
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon3.svg" alt="Icon" />
+                          <Image src={icon3Svg} alt="Icon" />
                         </a>
                       </li>
                       <li>
                         <a href="/">
-                          <img src="/images/signup/icon4.svg" alt="Icon" />
+                          <Image src={icon4Svg} alt="Icon" />
                         </a>
                       </li>
                     </ul>

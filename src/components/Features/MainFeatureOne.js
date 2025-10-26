@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import feature6Png from "@/assets/images/features/feature-6.png";
+
 
 export default function MainFeatureOne() {
   return (
@@ -7,7 +10,7 @@ export default function MainFeatureOne() {
         <div className="row">
           <div className="col-lg-6">
             <div className="feature-image">
-              <img src="/images/features/feature-6.png" alt="Features " />
+              <Image src={feature6Png} alt="Features " />
             </div>
           </div>
           <div className="col-lg-6">

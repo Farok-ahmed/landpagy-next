@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+import icon11Svg from "@/assets/images/icon/icon-11.svg";
+import icon10Svg from "@/assets/images/icon/icon-10.svg";
+import icon9Svg from "@/assets/images/icon/icon-9.svg";
+
 
 export default function ContactWidgets() {
   return (
@@ -7,13 +12,13 @@ export default function ContactWidgets() {
         <div className="row">
           <div className="col-sm-6 col-lg-4">
             <div className="contact-info">
-              <img src="/images/icon/icon-9.svg" alt="" />
+              <Image src={icon9Svg} alt="" />
               <h4>102 street 1234 Don</h4>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4">
             <div className="contact-info">
-              <img src="/images/icon/icon-10.svg" alt="" />
+              <Image src={icon10Svg} alt="" />
               <h4>
                 <a href="tel:+0123-4567 89">+0123-4567 89</a>
               </h4>
@@ -21,7 +26,7 @@ export default function ContactWidgets() {
           </div>
           <div className="mx-auto col-sm-6 col-lg-4">
             <div className="contact-info">
-              <img src="/images/icon/icon-11.svg" alt="" />
+              <Image src={icon11Svg} alt="" />
               <h4>
                 <a href="mailto:landpagy@email.com">landpagy@email.com</a>
               </h4>

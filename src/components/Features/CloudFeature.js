@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+import shape9Svg from "@/assets/images/home_9/shapes/shape9.svg";
+import rightSvg from "@/assets/images/home_9/shapes/right.svg";
+import featuresImgPng from "@/assets/images/home_9/features-img.png";
+
 
 export default function CloudFeature() {
   return (
@@ -31,13 +36,11 @@ export default function CloudFeature() {
               customizations and features, such as encrypted file sharing.
             </p>
             <div className="features-images position-relative">
-              <img
-                src="/images/home_9/features-img.png"
+              <Image src={featuresImgPng}
                 alt=""
                 className="mx-auto mb-40 features-img"
               />
-              <img
-                src="/images/home_9/shapes/shape9.svg"
+              <Image src={shape9Svg}
                 alt="Shape"
                 className="shape"
               />

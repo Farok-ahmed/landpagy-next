@@ -1,5 +1,9 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import post3Jpg from "@/assets/images/blog/post3.jpg";
+import post2Jpg from "@/assets/images/blog/post2.jpg";
+
 
 export default function RelatedPost() {
   return (
@@ -8,7 +12,7 @@ export default function RelatedPost() {
 
       <div className="col-md-6">
         <div className="post-item">
-          <img src="/images/blog/post2.jpg" alt="Blog Post" />
+          <Image src={post2Jpg} alt="Blog Post" />
           <div className="post-content">
             <Link href="/" className="cate-btn">
               Product Update
@@ -39,7 +43,7 @@ export default function RelatedPost() {
       </div>
       <div className="col-md-6">
         <div className="post-item">
-          <img src="/images/blog/post3.jpg" alt="Blog Post" />
+          <Image src={post3Jpg} alt="Blog Post" />
           <div className="post-content">
             <a href="/" className="cate-btn">
               Case Study

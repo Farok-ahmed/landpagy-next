@@ -1,5 +1,11 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import testimonial3Jpg from "@/assets/images/home_3/testimonial-3.jpg";
+import testimonial1Png from "@/assets/images/home_3/testimonial-1.png";
+import testimonialShapeSvg from "@/assets/images/home_3/testimonial-shape.svg";
+import testimonial2Jpg from "@/assets/images/home_3/testimonial-2.jpg";
+
 import { Parallax } from "react-scroll-parallax";
 import Slider from "react-slick";
 
@@ -46,8 +52,7 @@ export default function TestimonialSlideFour() {
             rotateZ={[0, 90]}
             easing="easeInQuad"
           >
-            <img
-              src="/images/home_3/testimonial-shape.svg"
+            <Image src={testimonialShapeSvg}
               className="layer"
               alt=""
             />

@@ -1,5 +1,11 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import blogImg2Jpg from "@/assets/images/home_5/blog-img2.jpg";
+import author1Png from "@/assets/images/home_5/author1.png";
+import blogImg1Jpg from "@/assets/images/home_5/blog-img1.jpg";
+import blogImg3Jpg from "@/assets/images/home_5/blog-img3.jpg";
+
 
 export default function PosBlog() {
   return (
@@ -20,15 +26,13 @@ export default function PosBlog() {
         <div className="row">
           <div className="col-md-6 col-lg-4">
             <div className="blog-item">
-              <img
-                src="/images/home_5/blog-img1.jpg"
+              <Image src={blogImg1Jpg}
                 alt="Blog"
                 className="blog-img"
               />
               <div className="blog-content">
                 <div className="blog-author">
-                  <img
-                    src="/images/home_5/author1.png"
+                  <Image src={author1Png}
                     alt="Author"
                     className="author-img"
                   />
@@ -53,15 +57,13 @@ export default function PosBlog() {
           </div>
           <div className="col-md-6 col-lg-4">
             <div className="blog-item">
-              <img
-                src="/images/home_5/blog-img2.jpg"
+              <Image src={blogImg2Jpg}
                 alt="Blog"
                 className="blog-img"
               />
               <div className="blog-content">
                 <div className="blog-author">
-                  <img
-                    src="/images/home_5/author1.png"
+                  <Image src={author1Png}
                     alt="Author"
                     className="author-img"
                   />
@@ -86,15 +88,13 @@ export default function PosBlog() {
           </div>
           <div className="col-md-6 col-lg-4 mx-auto">
             <div className="blog-item">
-              <img
-                src="/images/home_5/blog-img3.jpg"
+              <Image src={blogImg3Jpg}
                 alt="Blog"
                 className="blog-img"
               />
               <div className="blog-content">
                 <div className="blog-author">
-                  <img
-                    src="/images/home_5/author1.png"
+                  <Image src={author1Png}
                     alt="Author"
                     className="author-img"
                   />

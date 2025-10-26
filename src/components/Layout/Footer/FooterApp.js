@@ -1,5 +1,6 @@
+import logoSvg from "@/assets/images/logo.svg";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 export default function FooterApp() {
   return (
@@ -13,7 +14,8 @@ export default function FooterApp() {
                 data-wow-delay="0.7s"
               >
                 <Link href="/" className="footer-logo mb-10">
-                  <img src="/images/logo.svg" alt="Logo" />
+                  
+                  <Image src={logoSvg} alt="Logo" />
                 </Link>
                 <p className="footer-text mb-40">
                   Follow us on social media to find out the latest updates on

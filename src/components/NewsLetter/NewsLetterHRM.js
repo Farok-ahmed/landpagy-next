@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+import ctaShapeSvg from "@/assets/images/home_4/cta-shape.svg";
+import testShape3Svg from "@/assets/images/home_4/test-shape3.svg";
+import testShape2Svg from "@/assets/images/home_4/test-shape2.svg";
+
 
 export default function NewsLetterHRM() {
   return (
@@ -7,13 +12,13 @@ export default function NewsLetterHRM() {
         <div className="cta-box">
           <div className="bg-shapes">
             <div className="shape">
-              <img src="/images/home_4/test-shape3.svg" alt="" />
+              <Image src={testShape3Svg} alt="" />
             </div>
             <div className="shape">
-              <img src="/images/home_4/cta-shape.svg" alt="" />
+              <Image src={ctaShapeSvg} alt="" />
             </div>
             <div className="shape">
-              <img src="/images/home_4/test-shape2.svg" alt="" />
+              <Image src={testShape2Svg} alt="" />
             </div>
           </div>
           <div className="row align-items-center">

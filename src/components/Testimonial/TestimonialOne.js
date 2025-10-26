@@ -1,5 +1,9 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
+import testimonialPng from "@/assets/images/testimonial/testimonial.png";
+import testimonial1Jpg from "@/assets/images/testimonial/testimonial-1.jpg";
+
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -69,8 +73,7 @@ const TestimonialOne = () => {
                             </p>
                             <div className="testimonial-author">
                               <div className="testimonial-author-image">
-                                <img
-                                  src="/images/testimonial/testimonial-1.jpg"
+                                <Image src={testimonial1Jpg}
                                   alt="Testimonial"
                                 />
                               </div>
@@ -84,8 +87,7 @@ const TestimonialOne = () => {
                       </div>
                       <div className="col-5 col-md-5">
                         <div className="testimonial-right-image">
-                          <img
-                            src="/images/testimonial/testimonial.png"
+                          <Image src={testimonialPng}
                             alt="Testimonial Right"
                           />
                         </div>

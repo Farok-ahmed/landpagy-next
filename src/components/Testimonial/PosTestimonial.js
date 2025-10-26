@@ -1,5 +1,11 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import author2Png from "@/assets/images/home_5/author2.png";
+import author1Png from "@/assets/images/home_5/author1.png";
+import author3Png from "@/assets/images/home_5/author3.png";
+import quoteIconSvg from "@/assets/images/home_5/icons/quote-icon.svg";
+
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 
@@ -45,8 +51,7 @@ export default function PosTestimonial() {
           <Swiper {...swiperOptions} className="overflow-visible pb-50">
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
+                <Image src={quoteIconSvg}
                   alt="Icon"
                   className="testimonial-icon mx-auto mb-20"
                 />
@@ -57,8 +62,7 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author3.png"
+                    <Image src={author3Png}
                       alt="Man"
                       className="author-img"
                     />
@@ -71,8 +75,7 @@ export default function PosTestimonial() {
             </SwiperSlide>
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
+                <Image src={quoteIconSvg}
                   alt="Icon"
                   className="testimonial-icon mx-auto mb-20"
                 />
@@ -83,8 +86,7 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author2.png"
+                    <Image src={author2Png}
                       alt="Man"
                       className="author-img"
                     />
@@ -97,8 +99,7 @@ export default function PosTestimonial() {
             </SwiperSlide>{" "}
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
+                <Image src={quoteIconSvg}
                   alt="Icon"
                   className="testimonial-icon mx-auto mb-20"
                 />
@@ -109,8 +110,7 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author2.png"
+                    <Image src={author2Png}
                       alt="Man"
                       className="author-img"
                     />
@@ -123,8 +123,7 @@ export default function PosTestimonial() {
             </SwiperSlide>
             <SwiperSlide className="testimonial-item">
               <div className="testimonial-wrapp">
-                <img
-                  src="/images/home_5/icons/quote-icon.svg"
+                <Image src={quoteIconSvg}
                   alt="Icon"
                   className="testimonial-icon mx-auto mb-20"
                 />
@@ -135,8 +134,7 @@ export default function PosTestimonial() {
                 </p>
                 <div className="author-info">
                   <div>
-                    <img
-                      src="/images/home_5/author1.png"
+                    <Image src={author1Png}
                       alt="Man"
                       className="author-img"
                     />

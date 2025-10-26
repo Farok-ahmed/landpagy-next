@@ -1,5 +1,8 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import testimonialImagePng from "@/assets/images/testimonial/testimonial-image.png";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
@@ -31,8 +34,7 @@ export default function HelpTestimonial() {
             <SwiperSlide className=" testimonial-wrapper-four">
               <div className="testimonial-item">
                 <div className="testimonial-image">
-                  <img
-                    src="/images/testimonial/testimonial-image.png"
+                  <Image src={testimonialImagePng}
                     alt="Testimonial "
                   />
                 </div>
@@ -79,8 +81,7 @@ export default function HelpTestimonial() {
             <SwiperSlide className=" testimonial-wrapper-four">
               <div className="testimonial-item">
                 <div className="testimonial-image">
-                  <img
-                    src="/images/testimonial/testimonial-image.png"
+                  <Image src={testimonialImagePng}
                     alt="Testimonial "
                   />
                 </div>
@@ -127,8 +128,7 @@ export default function HelpTestimonial() {
             <SwiperSlide className="testimonial-wrapper-four">
               <div className="testimonial-item">
                 <div className="testimonial-image">
-                  <img
-                    src="/images/testimonial/testimonial-image.png"
+                  <Image src={testimonialImagePng}
                     alt="Testimonial "
                   />
                 </div>

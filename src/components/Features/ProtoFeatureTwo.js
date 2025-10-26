@@ -1,4 +1,15 @@
 import React from "react";
+import Image from "next/image";
+import feaImages1Svg from "@/assets/images/home_6/fea-images1.svg";
+import feaImages4Svg from "@/assets/images/home_6/fea-images4.svg";
+import feaImages2Svg from "@/assets/images/home_6/fea-images2.svg";
+import feaImagesShape2Svg from "@/assets/images/home_6/fea-images-shape2.svg";
+import feaImagesShape4Svg from "@/assets/images/home_6/fea-images-shape4.svg";
+import feaImagesShape1Svg from "@/assets/images/home_6/fea-images-shape1.svg";
+import feaShape1Svg from "@/assets/images/home_6/fea-shape1.svg";
+import feaImages3Svg from "@/assets/images/home_6/fea-images3.svg";
+import feaImagesShape3Svg from "@/assets/images/home_6/fea-images-shape3.svg";
+
 
 export default function ProtoFeatureTwo() {
   return (
@@ -27,18 +38,18 @@ export default function ProtoFeatureTwo() {
           <div className="col-xl-5 col-lg-6">
             <div className="fea-right">
               <div className="fea-images wow fadeInDown" data-wow-delay="0.1s">
-                <img src="/images/home_6/fea-images1.svg" alt="" />
+                <Image src={feaImages1Svg} alt="" />
               </div>
               <div className="fea-images wow fadeInUp" data-wow-delay="0.1s">
-                <img src="/images/home_6/fea-images2.svg" alt="" />
+                <Image src={feaImages2Svg} alt="" />
               </div>
               <div className="fea-images"></div>
               <div className="fea-images"></div>
               <div className="fea-images">
-                <img src="/images/home_6/fea-images-shape1.svg" alt="" />
+                <Image src={feaImagesShape1Svg} alt="" />
               </div>
               <div className="fea-images">
-                <img src="/images/home_6/fea-images-shape2.svg" alt="" />
+                <Image src={feaImagesShape2Svg} alt="" />
               </div>
             </div>
           </div>
@@ -50,13 +61,13 @@ export default function ProtoFeatureTwo() {
               <div className="bg-shapes">
                 <div className="fea-images"></div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-shape1.svg" alt="" />
+                  <Image src={feaShape1Svg} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape2.svg" alt="" />
+                  <Image src={feaImagesShape2Svg} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape3.svg" alt="" />
+                  <Image src={feaImagesShape3Svg} alt="" />
                 </div>
               </div>
               <img
@@ -107,13 +118,13 @@ export default function ProtoFeatureTwo() {
             <div className="fea-right-two ml-15">
               <div className="bg-shapes">
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape4.svg" alt="" />
+                  <Image src={feaImagesShape4Svg} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-shape1.svg" alt="" />
+                  <Image src={feaShape1Svg} alt="" />
                 </div>
                 <div className="fea-images">
-                  <img src="/images/home_6/fea-images-shape1.svg" alt="" />
+                  <Image src={feaImagesShape1Svg} alt="" />
                 </div>
               </div>
               <img

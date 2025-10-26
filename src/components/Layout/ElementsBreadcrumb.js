@@ -1,11 +1,12 @@
-import React from "react";
+import aboutShapePng from "@/assets/images/about_2/shape/about-shape.png";
+import Image from "next/image";
 
 export default function ElementsBreadcrumb({ title, description, wider }) {
   return (
     <section className="process-banner-area pt-150 pb-150">
-      <img
+      <Image
         className="shape"
-        src="/images/about_2/shape/about-shape.png"
+        src={aboutShapePng}
         alt="shapes"
       />
       <div className="container">

@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import productLogo1Svg from "@/assets/images/logo/product-logo-1.svg";
+import productLogo2Svg from "@/assets/images/logo/product-logo-2.svg";
+import productLogo3Svg from "@/assets/images/logo/product-logo-3.svg";
+import productLogo4Svg from "@/assets/images/logo/product-logo-4.svg";
+import productLogo5Svg from "@/assets/images/logo/product-logo-5.svg";
 
 export default function ProductIntegration() {
   return (
@@ -24,110 +30,54 @@ export default function ProductIntegration() {
               <div className="product-integrations-inside-line">
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-1.svg" alt="" />
+                    <Image src={productLogo1Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-2.svg" alt="" />
+                    <Image src={productLogo2Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-3.svg" alt="" />
+                    <Image src={productLogo3Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-4.svg" alt="" />
+                    <Image src={productLogo4Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-5.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-              <div className="product-integrations-inside-line">
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-1.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-2.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-3.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-4.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-5.svg" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="product-integrations-card-line">
-              <div className="product-integrations-inside-line">
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-1.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-2.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-3.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-4.svg" alt="" />
-                  </div>
-                </div>
-                <div className="product-integrations-card-item">
-                  <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-5.svg" alt="" />
+                    <Image src={productLogo5Svg} alt="" />
                   </div>
                 </div>
               </div>
               <div className="product-integrations-inside-line">
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-1.svg" alt="" />
+                    <Image src={productLogo1Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-2.svg" alt="" />
+                    <Image src={productLogo2Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-3.svg" alt="" />
+                    <Image src={productLogo3Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-4.svg" alt="" />
+                    <Image src={productLogo4Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-5.svg" alt="" />
+                    <Image src={productLogo5Svg} alt="" />
                   </div>
                 </div>
               </div>
@@ -136,54 +86,110 @@ export default function ProductIntegration() {
               <div className="product-integrations-inside-line">
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-1.svg" alt="" />
+                    <Image src={productLogo1Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-2.svg" alt="" />
+                    <Image src={productLogo2Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-3.svg" alt="" />
+                    <Image src={productLogo3Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-4.svg" alt="" />
+                    <Image src={productLogo4Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-5.svg" alt="" />
+                    <Image src={productLogo5Svg} alt="" />
                   </div>
                 </div>
               </div>
               <div className="product-integrations-inside-line">
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-1.svg" alt="" />
+                    <Image src={productLogo1Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-2.svg" alt="" />
+                    <Image src={productLogo2Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-3.svg" alt="" />
+                    <Image src={productLogo3Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-4.svg" alt="" />
+                    <Image src={productLogo4Svg} alt="" />
                   </div>
                 </div>
                 <div className="product-integrations-card-item">
                   <div className="product-integrations-card-image">
-                    <img src="/images/logo/product-logo-5.svg" alt="" />
+                    <Image src={productLogo5Svg} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="product-integrations-card-line">
+              <div className="product-integrations-inside-line">
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo1Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo2Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo3Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo4Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo5Svg} alt="" />
+                  </div>
+                </div>
+              </div>
+              <div className="product-integrations-inside-line">
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo1Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo2Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo3Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo4Svg} alt="" />
+                  </div>
+                </div>
+                <div className="product-integrations-card-item">
+                  <div className="product-integrations-card-image">
+                    <Image src={productLogo5Svg} alt="" />
                   </div>
                 </div>
               </div>
@@ -194,3 +200,4 @@ export default function ProductIntegration() {
     </section>
   );
 }
+

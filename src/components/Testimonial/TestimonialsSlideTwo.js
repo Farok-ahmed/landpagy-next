@@ -1,5 +1,11 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import testimonialShapePng from "@/assets/images/home_2/testimonial-shape.png";
+import bannerShape4Svg from "@/assets/images/home_2/banner-shape-4.svg";
+import testimonial2Png from "@/assets/images/home_2/testimonial-2.png";
+import testimonial1Png from "@/assets/images/home_2/testimonial-1.png";
+
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Pagination, Navigation } from "swiper/modules";
 
@@ -33,10 +39,10 @@ export default function TestimonialsSlideTwo() {
     <section className="testimonial-area-five pt-140 pb-150">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_2/banner-shape-4.svg" alt="" />
+          <Image src={bannerShape4Svg} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_2/testimonial-shape.png" alt="" />
+          <Image src={testimonialShapePng} alt="" />
         </div>
       </div>
       <div className="container">
@@ -67,7 +73,7 @@ export default function TestimonialsSlideTwo() {
               >
                 <Swiper {...swiperOptions} className="testimonial-slider-five">
                   <SwiperSlide className="single-testimonial">
-                    <img src="/images/home_2/testimonial-1.png" alt="" />
+                    <Image src={testimonial1Png} alt="" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -81,7 +87,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <img src="/images/home_2/testimonial-2.png" alt="" />
+                    <Image src={testimonial2Png} alt="" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -95,7 +101,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <img src="/images/home_2/testimonial-1.png" alt="" />
+                    <Image src={testimonial1Png} alt="" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -110,7 +116,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <img src="/images/home_2/testimonial-2.png" alt="" />
+                    <Image src={testimonial2Png} alt="" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -125,7 +131,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <img src="/images/home_2/testimonial-1.png" alt="" />
+                    <Image src={testimonial1Png} alt="" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -140,7 +146,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <img src="/images/home_2/testimonial-2.png" alt="" />
+                    <Image src={testimonial2Png} alt="" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of

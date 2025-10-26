@@ -1,15 +1,19 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import faqShape2Png from "@/assets/images/home_5/shapes/faq-shape2.png";
+import faqShape1Png from "@/assets/images/home_5/shapes/faq-shape1.png";
+
 
 export default function FaqPos() {
   return (
     <section className="faq-area-five pt-135 pb-150">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_5/shapes/faq-shape1.png" alt="shape" />
+          <Image src={faqShape1Png} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/faq-shape2.png" alt="shape" />
+          <Image src={faqShape2Png} alt="shape" />
         </div>
       </div>
       <div className="container">

@@ -1,14 +1,18 @@
 import React from "react";
+import Image from "next/image";
+import mobileShape2Svg from "@/assets/images/home_4/mobile-shape2.svg";
+import mobileShape1Svg from "@/assets/images/home_4/mobile-shape1.svg";
+
 
 export default function DownloadHRM() {
   return (
     <section className="mobile-app-area-two pt-120 pb-120">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/mobile-shape1.svg" alt="shape" />
+          <Image src={mobileShape1Svg} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/mobile-shape2.svg" alt="shape" />
+          <Image src={mobileShape2Svg} alt="shape" />
         </div>
       </div>
 

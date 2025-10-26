@@ -1,28 +1,36 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import shape6Svg from "@/assets/images/comming_soon/shape6.svg";
+import logo5Svg from "@/assets/images/logo-5.svg";
+import shape7Svg from "@/assets/images/comming_soon/shape7.svg";
+import shape9Svg from "@/assets/images/comming_soon/shape9.svg";
+import shape10Svg from "@/assets/images/comming_soon/shape10.svg";
+import shape8Svg from "@/assets/images/comming_soon/shape8.svg";
+
 
 export default function ComingSoonThree() {
   return (
     <section className="comming-soon-wrapper comming-soon-3 pt-100">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/comming_soon/shape6.svg" alt="Shape" />
+          <Image src={shape6Svg} alt="Shape" />
         </div>
         <div className="shape"></div>
         <div className="shape"></div>
         <div className="shape">
-          <img src="/images/comming_soon/shape7.svg" alt="Shape" />
+          <Image src={shape7Svg} alt="Shape" />
         </div>
         <div className="shape"></div>
         <div className="shape">
-          <img src="/images/comming_soon/shape8.svg" alt="Shape" />
+          <Image src={shape8Svg} alt="Shape" />
         </div>
         <div className="shape"></div>
         <div className="shape">
-          <img src="/images/comming_soon/shape9.svg" alt="Shape" />
+          <Image src={shape9Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape10.svg" alt="Shape" />
+          <Image src={shape10Svg} alt="Shape" />
         </div>
       </div>
 
@@ -31,7 +39,7 @@ export default function ComingSoonThree() {
           <div className="col-lg-7">
             <div className="comming-soon-inner">
               <Link href="/" className="logo">
-                <img src="/images/logo-5.svg" alt="Logo" />
+                <Image src={logo5Svg} alt="Logo" />
               </Link>
 
               <h1 className="page-title">COMING SOON</h1>

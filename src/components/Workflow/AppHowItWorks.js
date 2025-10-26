@@ -1,5 +1,14 @@
 "use client";
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
+import feturesImgPng from "@/assets/images/home_10/fetures-img.png";
+import rightSvg from "@/assets/images/home_10/shapes/right.svg";
+import shape5Svg from "@/assets/images/home_10/shapes/shape5.svg";
+import shape6Svg from "@/assets/images/home_10/shapes/shape6.svg";
+import worksImgPng from "@/assets/images/home_10/works-img.png";
+import shape7Svg from "@/assets/images/home_10/shapes/shape7.svg";
+import borderSvg from "@/assets/images/home_10/shapes/border.svg";
+
 const slides = [
   {
     id: 1,
@@ -102,13 +111,13 @@ export default function AppHowItWorks() {
                   <div className="shape"></div>
                   <div className="shape"></div>
                   <div className="shape">
-                    <img src="/images/home_10/shapes/shape5.svg" alt="Shape" />
+                    <Image src={shape5Svg} alt="Shape" />
                   </div>
                   <div className="shape">
-                    <img src="/images/home_10/shapes/shape6.svg" alt="Shape" />
+                    <Image src={shape6Svg} alt="Shape" />
                   </div>
                   <div className="shape">
-                    <img src="/images/home_10/shapes/shape7.svg" alt="Shape" />
+                    <Image src={shape7Svg} alt="Shape" />
                   </div>
                 </div>
                 {slides.map((slide) => (

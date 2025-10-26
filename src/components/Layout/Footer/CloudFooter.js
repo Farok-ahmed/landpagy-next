@@ -1,5 +1,9 @@
+import arrowForwardSvg from "@/assets/images/home_9/shapes/arrow-forward.svg";
+import shape16Svg from "@/assets/images/home_9/shapes/shape16.svg";
+import shape17Svg from "@/assets/images/home_9/shapes/shape17.svg";
+import logoSvg from "@/assets/images/logo.svg";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 export default function CloudFooter() {
   return (
@@ -22,10 +26,12 @@ export default function CloudFooter() {
           </svg>
         </div>
         <div className="shape">
-          <img src="/images/home_9/shapes/shape16.svg" alt="" />
+          {/* Converted from <Image src={shape16Svg}> */}
+          <Image src={shape16Svg} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_9/shapes/shape17.svg" alt="" />
+          {/* Converted from <Image src={shape17Svg}> */}
+          <Image src={shape17Svg} alt="" />
         </div>
       </div>
       <div className="footer-top">
@@ -101,9 +107,10 @@ export default function CloudFooter() {
                 <form className="form-group">
                   <input type="email" placeholder="Email address" />
                   <button type="submit" className="btn btn-red">
-                    <img
+                    {/* Converted from <Image src={arrowForwardSvg}> */}
+                    <Image
                       className="icon"
-                      src="/images/home_9/shapes/arrow-forward.svg"
+                      src={arrowForwardSvg}
                       alt="Icon"
                     />
                   </button>
@@ -137,7 +144,8 @@ export default function CloudFooter() {
           <div className="row align-items-center">
             <div className="col-md-3">
               <Link href="/" className="footer-logo">
-                <img src="/images/logo.svg" alt="Logo" />
+                
+                <Image src={logoSvg} alt="Logo" />
               </Link>
             </div>
             <div className="col-lg-6 col-md-5">

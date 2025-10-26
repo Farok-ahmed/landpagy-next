@@ -1,5 +1,13 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import featuresObject1Svg from "@/assets/images/features/features-object-1.svg";
+import featuresObject3Svg from "@/assets/images/features/features-object-3.svg";
+import featurePng from "@/assets/images/features/feature.png";
+import featuresObject4Svg from "@/assets/images/features/features-object-4.svg";
+import featuresObject2Svg from "@/assets/images/features/features-object-2.svg";
+import featuresObject5Svg from "@/assets/images/features/features-object-5.svg";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function FeatureOne() {
@@ -33,15 +41,13 @@ export default function FeatureOne() {
         <div className="row">
           <div className="col-lg-6">
             <div className="features-image">
-              <img src="/images/features/feature.png" alt="Features " />
-              <img
-                src="/images/features/features-object-1.svg"
+              <Image src={featurePng} alt="Features " />
+              <Image src={featuresObject1Svg}
                 alt="Features Object"
                 className="features-object1 object-element layer"
                 ref={shape1Parallax.ref}
               />
-              <img
-                src="/images/features/features-object-2.svg"
+              <Image src={featuresObject2Svg}
                 alt="Features Object"
                 className="features-object2"
               />
@@ -51,14 +57,12 @@ export default function FeatureOne() {
                 alt="Features Object"
                 ref={shape2Parallax.ref}
               />
-              <img
-                src="/images/features/features-object-4.svg"
+              <Image src={featuresObject4Svg}
                 alt="Features Object"
                 className="features-object4 object-element layer"
                 ref={shape3Parallax.ref}
               />
-              <img
-                src="/images/features/features-object-5.svg"
+              <Image src={featuresObject5Svg}
                 alt="Features Object"
                 className="features-object5 object-element layer"
                 ref={shape4Parallax.ref}

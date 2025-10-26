@@ -1,6 +1,8 @@
-import React from "react";
-import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+﻿import logo6Svg from "@/assets/images/logo-6.svg";
+import Image from "next/image";
 import Link from "next/link";
+import { demoLinks, elementsLinks, pagesLinks } from "../../../utils/data";
+
 
 export default function HeaderPrototype() {
   return (
@@ -8,9 +10,9 @@ export default function HeaderPrototype() {
       <nav className="navbar navbar-expand-lg menu_five sticky-nav">
         <div className="container-fluid">
           <Link className="navbar-brand header_logo" href="/">
-            <img
+            <Image
               className="white_logo main_logo"
-              src="/images/logo-6.svg"
+              src={logo6Svg}
               alt="logo"
             />
           </Link>
@@ -53,7 +55,7 @@ export default function HeaderPrototype() {
                   {demoLinks.map((item, index) => (
                     <li className={`nav-item`} key={index}>
                       <Link href={item.to} className="nav-link">
-                        <img src={item.imgSrc} alt={item.alt} />
+                        <Image src={item.imgSrc} alt={item.alt} />
                         <span>{item.text}</span>
                       </Link>
                     </li>

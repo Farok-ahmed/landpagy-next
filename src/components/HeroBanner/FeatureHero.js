@@ -1,4 +1,7 @@
 import React from "react";
+import Image from "next/image";
+import bannerPng from "@/assets/images/banner/banner.png";
+
 
 export default function FeatureHero() {
   return (
@@ -20,12 +23,12 @@ export default function FeatureHero() {
           </div>
           <div className="mb-8 col-md-6 d-xl-none">
             <div className="banner-right-image">
-              <img src="/images/banner/banner.png" alt="Illustrator " />
+              <Image src={bannerPng} alt="Illustrator " />
             </div>
           </div>
         </div>
         <div className="banner-right-two d-none d-xl-block">
-          <img src="/images/banner/banner.png" alt="Illustrator " />
+          <Image src={bannerPng} alt="Illustrator " />
         </div>
       </div>
     </section>

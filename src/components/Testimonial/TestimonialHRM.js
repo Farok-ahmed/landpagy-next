@@ -1,5 +1,9 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
+import testShape1Svg from "@/assets/images/home_4/test-shape1.svg";
+import testShape2Svg from "@/assets/images/home_4/test-shape2.svg";
+
 import { SwiperSlide, Swiper } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import GLightbox from "glightbox";
@@ -36,10 +40,10 @@ export default function TestimonialHRM() {
     <section className="testimonial-area-seven pt-125 pb-140">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/test-shape1.svg" alt="shape" />
+          <Image src={testShape1Svg} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/test-shape2.svg" alt="shape" />
+          <Image src={testShape2Svg} alt="shape" />
         </div>
       </div>
       <div className="container">

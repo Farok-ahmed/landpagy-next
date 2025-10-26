@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+import ctaShape3Svg from "@/assets/images/home_8/shape/cta-shape3.svg";
+import ctaShape1Svg from "@/assets/images/home_8/shape/cta-shape1.svg";
+import ctaShape2Svg from "@/assets/images/home_8/shape/cta-shape2.svg";
+
 
 export default function BillingCta() {
   return (
@@ -6,13 +11,13 @@ export default function BillingCta() {
       <div className="container position-relative overflow-hidden">
         <div className="bg-shapes">
           <div className="shape">
-            <img src="/images/home_8/shape/cta-shape1.svg" alt="" />
+            <Image src={ctaShape1Svg} alt="" />
           </div>
           <div className="shape">
-            <img src="/images/home_8/shape/cta-shape2.svg" alt="" />
+            <Image src={ctaShape2Svg} alt="" />
           </div>
           <div className="shape">
-            <img src="/images/home_8/shape/cta-shape3.svg" alt="" />
+            <Image src={ctaShape3Svg} alt="" />
           </div>
         </div>
         <div className="row align-items-center b-radius bg-pippin pl-55 pr-55 pt-65 pb-65">

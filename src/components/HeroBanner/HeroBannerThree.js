@@ -1,5 +1,10 @@
 "use client";
 import React, { useEffect } from "react";
+import Image from "next/image";
+import bannerPng from "@/assets/images/home_7/banner.png";
+import bannerShape3Png from "@/assets/images/home_7/shapes/banner-shape3.png";
+import bannerShape2Png from "@/assets/images/home_7/shapes/banner-shape2.png";
+
 
 import { Parallax } from "react-scroll-parallax";
 import GLightbox from "glightbox";
@@ -18,7 +23,7 @@ export default function HeroBannerThree() {
     <section className="banner-area-7">
       <div className="banner-shapes">
         <div className="shape">
-          <img src="/images/home_7/shapes/banner-shape2.png" alt="shapes" />
+          <Image src={bannerShape2Png} alt="shapes" />
         </div>
         <div className="shape">
           <Parallax
@@ -26,11 +31,11 @@ export default function HeroBannerThree() {
             translateY={["0px", "0px"]}
             rotateY={[0, 0]}
           >
-            <img src="/images/home_7/shapes/banner-shape3.png" alt="shapes" />
+            <Image src={bannerShape3Png} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape wow fadeInDown">
-          <img src="/images/home_7/banner.png" alt="shapes" />
+          <Image src={bannerPng} alt="shapes" />
         </div>
       </div>
       <div className="container container-soft2">

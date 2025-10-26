@@ -2,49 +2,64 @@
 import Timer from "@/components/Timer/Timer";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import shape14Svg from "@/assets/images/comming_soon/shape14.svg";
+import shape15Svg from "@/assets/images/comming_soon/shape15.svg";
+import shape20Svg from "@/assets/images/comming_soon/shape20.svg";
+import shape18Svg from "@/assets/images/comming_soon/shape18.svg";
+import shape19Svg from "@/assets/images/comming_soon/shape19.svg";
+import shape12Svg from "@/assets/images/comming_soon/shape12.svg";
+import bg3Svg from "@/assets/images/comming_soon/bg3.svg";
+import shape13Svg from "@/assets/images/comming_soon/shape13.svg";
+import shape11Svg from "@/assets/images/comming_soon/shape11.svg";
+import starSvg from "@/assets/images/comming_soon/star.svg";
+import shape16Svg from "@/assets/images/comming_soon/shape16.svg";
+import shape17Svg from "@/assets/images/comming_soon/shape17.svg";
+import logoBlackSvg from "@/assets/images/logo-black.svg";
+
 
 export default function ComingSoonFour() {
   return (
     <section className="comming-soon-wrapper comming-soon-4 pt-100">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/comming_soon/shape11.svg" alt="Shape" />
+          <Image src={shape11Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape12.svg" alt="Shape" />
+          <Image src={shape12Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape13.svg" alt="Shape" />
+          <Image src={shape13Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape14.svg" alt="Shape" />
+          <Image src={shape14Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape15.svg" alt="Shape" />
+          <Image src={shape15Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape16.svg" alt="Shape" />
+          <Image src={shape16Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape17.svg" alt="Shape" />
+          <Image src={shape17Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape18.svg" alt="Shape" />
+          <Image src={shape18Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape19.svg" alt="Shape" />
+          <Image src={shape19Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/shape20.svg" alt="Shape" />
+          <Image src={shape20Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/star.svg" alt="Shape" />
+          <Image src={starSvg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/star.svg" alt="Shape" />
+          <Image src={starSvg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/comming_soon/star.svg" alt="Shape" />
+          <Image src={starSvg} alt="Shape" />
         </div>
       </div>
 
@@ -53,7 +68,7 @@ export default function ComingSoonFour() {
           <div className="col-lg-8">
             <div className="comming-soon-inner">
               <Link href="/" className="logo">
-                <img src="/images/logo-black.svg" alt="Logo" />
+                <Image src={logoBlackSvg} alt="Logo" />
               </Link>
 
               <h1 className="page-title">Something great is coming soon</h1>
@@ -102,8 +117,7 @@ export default function ComingSoonFour() {
 
           <div className="col-lg-4">
             <div className="right-img">
-              <img
-                src="/images/comming_soon/bg3.svg"
+              <Image src={bg3Svg}
                 alt="Bg Shape"
                 className=""
               />

@@ -1,7 +1,17 @@
-"use client";
-import { React, useEffect, useRef, useState } from "react";
-import Isotope from "isotope-layout";
+﻿"use client";
+import softItem1Jpg from "@/assets/images/home_7/soft-item1.jpg";
+import softItem2Jpg from "@/assets/images/home_7/soft-item2.jpg";
+import softItem3Jpg from "@/assets/images/home_7/soft-item3.jpg";
+import softItem4Jpg from "@/assets/images/home_7/soft-item4.jpg";
+import softItem5Jpg from "@/assets/images/home_7/soft-item5.jpg";
+import softItem6Jpg from "@/assets/images/home_7/soft-item6.jpg";
+import softItem7Jpg from "@/assets/images/home_7/soft-item7.jpg";
+import softItem8Jpg from "@/assets/images/home_7/soft-item8.jpg";
+import softItem9Jpg from "@/assets/images/home_7/soft-item9.jpg";
 import imagesLoaded from "imagesloaded";
+import Isotope from "isotope-layout";
+import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 
 export default function PortFolioWithFilter() {
   const isotope = useRef();
@@ -102,7 +112,7 @@ export default function PortFolioWithFilter() {
             <div className="">
               <div className="item-img">
                 <p className="new-text">New</p>
-                <img src="/images/home_7/soft-item1.jpg" alt="" />
+                <Image src={softItem1Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -118,7 +128,7 @@ export default function PortFolioWithFilter() {
           <div className="col-md-4 col-6 business portfolio software-item">
             <div className="">
               <div className="item-img">
-                <img src="/images/home_7/soft-item2.jpg" alt="" />
+                <Image src={softItem2Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -134,7 +144,7 @@ export default function PortFolioWithFilter() {
           <div className="col-md-4 col-6 blog shop software-item">
             <div className="">
               <div className="item-img">
-                <img src="/images/home_7/soft-item3.jpg" alt="" />
+                <Image src={softItem3Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -151,7 +161,7 @@ export default function PortFolioWithFilter() {
             <div className="">
               <div className="item-img">
                 <p className="new-text">New</p>
-                <img src="/images/home_7/soft-item4.jpg" alt="" />
+                <Image src={softItem4Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -167,7 +177,7 @@ export default function PortFolioWithFilter() {
           <div className="col-md-4 col-6 shop portfolio software-item">
             <div className="">
               <div className="item-img">
-                <img src="/images/home_7/soft-item5.jpg" alt="" />
+                <Image src={softItem5Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -183,7 +193,7 @@ export default function PortFolioWithFilter() {
           <div className="col-md-4 col-6 blog software-item">
             <div className="">
               <div className="item-img">
-                <img src="/images/home_7/soft-item6.jpg" alt="" />
+                <Image src={softItem6Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -200,7 +210,7 @@ export default function PortFolioWithFilter() {
             <div className="">
               <div className="item-img">
                 <p className="new-text">New</p>
-                <img src="/images/home_7/soft-item7.jpg" alt="" />
+                <Image src={softItem7Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -216,7 +226,7 @@ export default function PortFolioWithFilter() {
           <div className="col-md-4 col-6 business software-item">
             <div className="">
               <div className="item-img">
-                <img src="/images/home_7/soft-item8.jpg" alt="" />
+                <Image src={softItem8Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo
@@ -233,7 +243,7 @@ export default function PortFolioWithFilter() {
             <div className="">
               <div className="item-img">
                 <p className="new-text">New</p>
-                <img src="/images/home_7/soft-item9.jpg" alt="" />
+                <Image src={softItem9Jpg} alt="" />
                 <div className="item-hover">
                   <a className="item-link" href="/">
                     View Demo

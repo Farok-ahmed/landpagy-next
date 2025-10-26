@@ -1,5 +1,13 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import brand6Svg from "@/assets/images/brand/brand-6.svg";
+import brand10Svg from "@/assets/images/brand/brand-10.svg";
+import brand8Svg from "@/assets/images/brand/brand-8.svg";
+import brand7Svg from "@/assets/images/brand/brand-7.svg";
+import brand11Svg from "@/assets/images/brand/brand-11.svg";
+import brand9Svg from "@/assets/images/brand/brand-9.svg";
+
 
 export default function ClientTwo() {
   return (
@@ -11,32 +19,32 @@ export default function ClientTwo() {
           </h2>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.1s">
-              <img src="/images/brand/brand-6.svg" alt="brand" />
+              <Image src={brand6Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.3s">
-              <img src="/images/brand/brand-7.svg" alt="brand" />
+              <Image src={brand7Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.5s">
-              <img src="/images/brand/brand-8.svg" alt="brand" />
+              <Image src={brand8Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.7s">
-              <img src="/images/brand/brand-9.svg" alt="brand" />
+              <Image src={brand9Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="0.9s">
-              <img src="/images/brand/brand-10.svg" alt="brand" />
+              <Image src={brand10Svg} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div className="client-image wow fadeInRight" data-wow-delay="1.1s">
-              <img src="/images/brand/brand-11.svg" alt="brand" />
+              <Image src={brand11Svg} alt="brand" />
             </div>
           </div>
         </div>

@@ -1,11 +1,16 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import cardIcon1Svg from "@/assets/images/contact_2/icons/card-icon1.svg";
+import cardIcon2Svg from "@/assets/images/contact_2/icons/card-icon2.svg";
+import contactBgPng from "@/assets/images/contact_2/contact-bg.png";
+
 
 export default function ContactTwoHero() {
   return (
     <section className="contact-banner-2">
       <div className="shape">
-        <img src="/images/contact_2/contact-bg.png" alt="shapes" />
+        <Image src={contactBgPng} alt="shapes" />
       </div>
       <div className="container">
         <div className="row">

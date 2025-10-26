@@ -1,5 +1,15 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import feature7Png from "@/assets/images/features/feature-7.png";
+import featuresObject11Svg from "@/assets/images/features/features-object-11.svg";
+import icon5Svg from "@/assets/images/icon/icon-5.svg";
+import featuresObject3Svg from "@/assets/images/features/features-object-3.svg";
+import featuresObject10Svg from "@/assets/images/features/features-object-10.svg";
+import featuresObject12Svg from "@/assets/images/features/features-object-12.svg";
+import featuresObject2Svg from "@/assets/images/features/features-object-2.svg";
+import icon4Svg from "@/assets/images/icon/icon-4.svg";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function MainFeatureThree() {
@@ -29,7 +39,7 @@ export default function MainFeatureThree() {
         <div className="row">
           <div className="col-lg-6">
             <div className="feature-image">
-              <img src="/images/features/feature-7.png" alt="Features " />
+              <Image src={feature7Png} alt="Features " />
               <img
                 className="features-object10 object-element"
                 ref={shape1Parallax.ref}
@@ -74,7 +84,7 @@ export default function MainFeatureThree() {
               <div className="col-sm-6">
                 <div className="features-service">
                   <div className="features-icon">
-                    <img src="/images/icon/icon-4.svg" alt="Icon" />
+                    <Image src={icon4Svg} alt="Icon" />
                     <span>Design</span>
                   </div>
                   <p>
@@ -86,7 +96,7 @@ export default function MainFeatureThree() {
               <div className="col-sm-6">
                 <div className="features-service">
                   <div className="features-icon">
-                    <img src="/images/icon/icon-5.svg" alt="Icon" />
+                    <Image src={icon5Svg} alt="Icon" />
                     <span>Development</span>
                   </div>
                   <p>

@@ -1,17 +1,22 @@
 import React from "react";
+import Image from "next/image";
+import bannerShape2Svg from "@/assets/images/home_4/banner-shape-2.svg";
+import bannerShape4Svg from "@/assets/images/home_4/banner-shape-4.svg";
+import feaShapeSvg from "@/assets/images/home_4/fea-shape.svg";
+
 
 export default function FeatureHRM() {
   return (
     <section className="features-area-9 pt-125 pb-60">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/banner-shape-2.svg" alt="shape" />
+          <Image src={bannerShape2Svg} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-4.svg" alt="shape" />
+          <Image src={bannerShape4Svg} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/fea-shape.svg" alt="shape" />
+          <Image src={feaShapeSvg} alt="shape" />
         </div>
       </div>
 

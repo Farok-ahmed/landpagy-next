@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import bannerShape4Svg from "@/assets/images/home_2/banner-shape-4.svg";
+import userIcon1Png from "@/assets/images/home_2/user-icon-1.png";
+import userIcon3Png from "@/assets/images/home_2/user-icon-3.png";
+import bannerShape5Svg from "@/assets/images/home_2/banner-shape-5.svg";
+import userIcon2Png from "@/assets/images/home_2/user-icon-2.png";
+
 
 export default function PriceOne({ hasShapes }) {
   return (
@@ -7,11 +14,11 @@ export default function PriceOne({ hasShapes }) {
         <div className="bg-shapes">
           <div className="shape"></div>
           <div className="shape">
-            <img src="/images/home_2/banner-shape-5.svg" alt="shape" />
+            <Image src={bannerShape5Svg} alt="shape" />
           </div>
           <div className="shape"></div>
           <div className="shape">
-            <img src="/images/home_2/banner-shape-4.svg" alt="shape" />
+            <Image src={bannerShape4Svg} alt="shape" />
           </div>
           <div className="shape"></div>
           <div className="shape"></div>
@@ -74,7 +81,7 @@ export default function PriceOne({ hasShapes }) {
                     className="pricing-item-2 wow fadeInUp"
                     data-wow-delay="0.1s"
                   >
-                    <img src="/images/home_2/user-icon-1.png" alt="icon" />
+                    <Image src={userIcon1Png} alt="icon" />
                     <h4>Startaer</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -91,7 +98,7 @@ export default function PriceOne({ hasShapes }) {
                     className="pricing-item-2 wow fadeInUp active"
                     data-wow-delay="0.3s"
                   >
-                    <img src="/images/home_2/user-icon-2.png" alt="icon" />
+                    <Image src={userIcon2Png} alt="icon" />
                     <h4>Business</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -108,7 +115,7 @@ export default function PriceOne({ hasShapes }) {
                     className="pricing-item-2 wow fadeInUp"
                     data-wow-delay="0.5s"
                   >
-                    <img src="/images/home_2/user-icon-3.png" alt="icon" />
+                    <Image src={userIcon3Png} alt="icon" />
                     <h4>Entreprise</h4>
                     <p>
                       Best planning for big entreprise any kind of large
@@ -134,7 +141,7 @@ export default function PriceOne({ hasShapes }) {
               <div className="row gy-xl-0 gy-4 pricing-item-two-cotnainer">
                 <div className="col-xl-4 col-md-6">
                   <div className="pricing-item-2">
-                    <img src="/images/home_2/user-icon-1.png" alt="icon" />
+                    <Image src={userIcon1Png} alt="icon" />
                     <h4>Startaer</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -148,7 +155,7 @@ export default function PriceOne({ hasShapes }) {
                 </div>
                 <div className="col-xl-4 col-md-6">
                   <div className="pricing-item-2 active">
-                    <img src="/images/home_2/user-icon-2.png" alt="icon" />
+                    <Image src={userIcon2Png} alt="icon" />
                     <h4>Business</h4>
                     <p>Startaer plan for small business and companies.</p>
                     <div className="price">$30.00</div>
@@ -162,7 +169,7 @@ export default function PriceOne({ hasShapes }) {
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div className="pricing-item-2">
-                    <img src="/images/home_2/user-icon-3.png" alt="icon" />
+                    <Image src={userIcon3Png} alt="icon" />
                     <h4>Entreprise</h4>
                     <p>
                       Best planning for big entreprise any kind of large

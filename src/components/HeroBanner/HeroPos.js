@@ -1,5 +1,14 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import banner1Png from "@/assets/images/home_5/banner1.png";
+import banner2Png from "@/assets/images/home_5/banner2.png";
+import bannerShape1Png from "@/assets/images/home_5/shapes/banner-shape1.png";
+import bannerShape4Png from "@/assets/images/home_5/shapes/banner-shape4.png";
+import banner3Png from "@/assets/images/home_5/banner3.png";
+import bannerShape3Png from "@/assets/images/home_5/shapes/banner-shape3.png";
+import bannerShape2Png from "@/assets/images/home_5/shapes/banner-shape2.png";
+
 import { Parallax, useParallax } from "react-scroll-parallax";
 
 export default function HeroPos() {
@@ -47,8 +56,7 @@ export default function HeroPos() {
             easing="easeInQuad"
             speed={-10}
           >
-            <img
-              src="/images/home_5/shapes/banner-shape1.png"
+            <Image src={bannerShape1Png}
               className="layer"
               alt="shapes"
             />
@@ -68,7 +76,7 @@ export default function HeroPos() {
             easing="easeInQuad"
             speed={-10}
           >
-            <img src="/images/home_5/shapes/banner-shape1.png" alt="shapes" />
+            <Image src={bannerShape1Png} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape">
@@ -94,13 +102,13 @@ export default function HeroPos() {
           </Parallax>
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/banner-shape2.png" alt="shapes" />
+          <Image src={bannerShape2Png} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/banner-shape3.png" alt="shapes" />
+          <Image src={bannerShape3Png} alt="shapes" />
         </div>
         <div className="shape">
-          <img src="/images/home_5/shapes/banner-shape4.png" alt="shapes" />
+          <Image src={bannerShape4Png} alt="shapes" />
         </div>
       </div>
 

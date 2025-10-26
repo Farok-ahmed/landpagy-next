@@ -1,5 +1,16 @@
 "use client";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import app7Svg from "@/assets/images/home_6/apps/app7.svg";
+import appMainSvg from "@/assets/images/home_6/apps/app-main.svg";
+import app6Svg from "@/assets/images/home_6/apps/app6.svg";
+import app8Svg from "@/assets/images/home_6/apps/app8.svg";
+import app2Svg from "@/assets/images/home_6/apps/app2.svg";
+import app1Svg from "@/assets/images/home_6/apps/app1.svg";
+import app3Svg from "@/assets/images/home_6/apps/app3.svg";
+import app4Svg from "@/assets/images/home_6/apps/app4.svg";
+import app5Svg from "@/assets/images/home_6/apps/app5.svg";
+
 
 export default function ProtoIntegration() {
   const [timeCount, setTimeCount] = useState(0);
@@ -58,31 +69,31 @@ export default function ProtoIntegration() {
           <div className="col-lg-5 offset-xl-1 order-1 order-lg-2">
             <div className="integreted-app mx-auto">
               <div className="app">
-                <img src="/images/home_6/apps/app1.svg" alt="app" />
+                <Image src={app1Svg} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_6/apps/app2.svg" alt="app" />
+                <Image src={app2Svg} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_6/apps/app3.svg" alt="app" />
+                <Image src={app3Svg} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_6/apps/app4.svg" alt="app" />
+                <Image src={app4Svg} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_6/apps/app5.svg" alt="app" />
+                <Image src={app5Svg} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_6/apps/app6.svg" alt="app" />
+                <Image src={app6Svg} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_6/apps/app7.svg" alt="app" />
+                <Image src={app7Svg} alt="app" />
               </div>
               <div className="app">
-                <img src="/images/home_6/apps/app8.svg" alt="app" />
+                <Image src={app8Svg} alt="app" />
               </div>
               <div className="main app">
-                <img src="/images/home_6/apps/app-main.svg" alt="app" />
+                <Image src={appMainSvg} alt="app" />
               </div>
             </div>
           </div>

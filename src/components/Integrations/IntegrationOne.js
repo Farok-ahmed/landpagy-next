@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import logo4Png from "@/assets/images/logo/logo-4.png";
+import logo2Png from "@/assets/images/logo/logo-2.png";
+import logoPng from "@/assets/images/logo/logo.png";
+import logo3Png from "@/assets/images/logo/logo-3.png";
+import logo5Png from "@/assets/images/logo/logo-5.png";
+
 
 export default function IntegrationOne() {
   return (
@@ -22,57 +29,57 @@ export default function IntegrationOne() {
                 <div className="row no-gutters">
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo.png" alt="Logo grid " />
+                      <Image src={logoPng} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-2.png" alt="Logo grid " />
+                      <Image src={logo2Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-3.png" alt="Logo grid " />
+                      <Image src={logo3Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-4.png" alt="Logo grid " />
+                      <Image src={logo4Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-5.png" alt="Logo grid " />
+                      <Image src={logo5Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo.png" alt="Logo grid " />
+                      <Image src={logoPng} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-2.png" alt="Logo grid " />
+                      <Image src={logo2Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-3.png" alt="Logo grid " />
+                      <Image src={logo3Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-4.png" alt="Logo grid " />
+                      <Image src={logo4Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-2.png" alt="Logo grid " />
+                      <Image src={logo2Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">
                     <div className="logo-grid-item">
-                      <img src="/images/logo/logo-5.png" alt="Logo grid " />
+                      <Image src={logo5Png} alt="Logo grid " />
                     </div>
                   </div>
                   <div className="col-4 col-sm-3 mb-4">

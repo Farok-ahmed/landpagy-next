@@ -1,15 +1,19 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import mobileShape2Svg from "@/assets/images/home_4/mobile-shape2.svg";
+import bannerShape4Svg from "@/assets/images/home_4/banner-shape-4.svg";
+
 
 export default function FaqHRM() {
   return (
     <section className="faq-area-four pt-125">
       <div className="bg-shapes">
         <div className="shape">
-          <img src="/images/home_4/mobile-shape2.svg" alt="shape" />
+          <Image src={mobileShape2Svg} alt="shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_4/banner-shape-4.svg" alt="shape" />
+          <Image src={bannerShape4Svg} alt="shape" />
         </div>
       </div>
       <div className="container">

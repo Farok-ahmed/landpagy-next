@@ -1,7 +1,10 @@
 "use client";
+import kiteSvg from "@/assets/images/home_5/icons/kite.svg";
+import leafSvg from "@/assets/images/home_5/icons/leaf.svg";
+import womenSvg from "@/assets/images/home_5/icons/women.svg";
+import logo7Svg from "@/assets/images/logo-7.svg";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-
 import { useParallax } from "react-scroll-parallax";
 
 export default function FooterPos() {
@@ -26,22 +29,25 @@ export default function FooterPos() {
     <footer className="footer-pos footer-software footer-hrm bg-aqua pt-120">
       <div className="bg-shapes">
         <div className="shape" ref={kiteParallax.ref}>
-          <img
-            src="/images/home_5/icons/kite.svg"
+          {/* Converted from <Image src={kiteSvg}> */}
+          <Image
+            src={kiteSvg}
             className="layer"
             alt="Kite"
           />
         </div>
         <div className="shape" ref={womenParallax.ref}>
-          <img
-            src="/images/home_5/icons/women.svg"
+          {/* Converted from <Image src={womenSvg}> */}
+          <Image
+            src={womenSvg}
             className="layer"
             alt="Women"
           />
         </div>
         <div className="shape" ref={leafParallax.ref}>
-          <img
-            src="/images/home_5/icons/leaf.svg"
+          {/* Converted from <Image src={leafSvg}> */}
+          <Image
+            src={leafSvg}
             className="layer"
             alt="Leaf"
           />
@@ -163,9 +169,10 @@ export default function FooterPos() {
               <ul>
                 <li>
                   <Link href="/">
-                    <img
+                    {/* Converted from <Image src={logo7Svg}> */}
+                    <Image
                       className="d-md-block d-sm-inline-block"
-                      src="/images/logo-7.svg"
+                      src={logo7Svg}
                       alt="Footer Logo"
                     />
                   </Link>

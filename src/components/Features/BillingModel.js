@@ -1,5 +1,14 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import shape1Svg from "@/assets/images/home_8/shape/shape1.svg";
+import featureImg2Png from "@/assets/images/home_8/feature-img2.png";
+import featureImg3Png from "@/assets/images/home_8/feature-img3.png";
+import feaIcon1Svg from "@/assets/images/home_8/icons/fea-icon1.svg";
+import shape2Svg from "@/assets/images/home_8/shape/shape2.svg";
+import feaIcon3Svg from "@/assets/images/home_8/icons/fea-icon3.svg";
+import feaIcon2Svg from "@/assets/images/home_8/icons/fea-icon2.svg";
+
 import { Parallax } from "react-scroll-parallax";
 
 export default function BillingModel() {
@@ -20,7 +29,7 @@ export default function BillingModel() {
               data-wow-delay="0.2s"
             >
               <div className="feature-item-icon">
-                <img src="/images/home_8/icons/fea-icon1.svg" alt="" />
+                <Image src={feaIcon1Svg} alt="" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -39,7 +48,7 @@ export default function BillingModel() {
               data-wow-delay="0.2s"
             >
               <div className="feature-item-icon">
-                <img src="/images/home_8/icons/fea-icon2.svg" alt="" />
+                <Image src={feaIcon2Svg} alt="" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -58,7 +67,7 @@ export default function BillingModel() {
               data-wow-delay="0.2s"
             >
               <div className="feature-item-icon">
-                <img src="/images/home_8/icons/fea-icon3.svg" alt="" />
+                <Image src={feaIcon3Svg} alt="" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -78,7 +87,7 @@ export default function BillingModel() {
             <div className="feature-images" data-wow-delay="0.2s">
               <div className="bg-shapes">
                 <div className="shape">
-                  <img src="/images/home_8/shape/shape2.svg" alt="Shape" />
+                  <Image src={shape2Svg} alt="Shape" />
                 </div>
                 <div className="shape">
                   <Parallax
@@ -87,7 +96,7 @@ export default function BillingModel() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <img src="/images/home_8/shape/shape1.svg" alt="Shape" />
+                    <Image src={shape1Svg} alt="Shape" />
                   </Parallax>
                 </div>
               </div>

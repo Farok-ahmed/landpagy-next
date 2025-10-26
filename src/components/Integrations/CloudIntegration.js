@@ -1,4 +1,17 @@
 import React from "react";
+import Image from "next/image";
+import logo5Png from "@/assets/images/home_9/apps/logo5.png";
+import rightSvg from "@/assets/images/home_9/shapes/right.svg";
+import logo8Png from "@/assets/images/home_9/apps/logo8.png";
+import logo4Png from "@/assets/images/home_9/apps/logo4.png";
+import logo2Png from "@/assets/images/home_9/apps/logo2.png";
+import logo7Png from "@/assets/images/home_9/apps/logo7.png";
+import logo3Png from "@/assets/images/home_9/apps/logo3.png";
+import logo1Png from "@/assets/images/home_9/apps/logo1.png";
+import mainAppSvg from "@/assets/images/home_9/apps/main-app.svg";
+import logo9Png from "@/assets/images/home_9/apps/logo9.png";
+import logo6Png from "@/assets/images/home_9/apps/logo6.png";
+
 
 export default function CloudIntegration() {
   return (
@@ -42,34 +55,34 @@ export default function CloudIntegration() {
             <div className="cloud-integrated-apps mx-auto">
               <div className="apps-wrapp">
                 <div className="app">
-                  <img src="/images/home_9/apps/logo1.png" alt="app" />
+                  <Image src={logo1Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo7.png" alt="app" />
+                  <Image src={logo7Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo9.png" alt="app" />
+                  <Image src={logo9Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo2.png" alt="app" />
+                  <Image src={logo2Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo4.png" alt="app" />
+                  <Image src={logo4Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo8.png" alt="app" />
+                  <Image src={logo8Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo3.png" alt="app" />
+                  <Image src={logo3Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo5.png" alt="app" />
+                  <Image src={logo5Png} alt="app" />
                 </div>
                 <div className="app">
-                  <img src="/images/home_9/apps/logo6.png" alt="app" />
+                  <Image src={logo6Png} alt="app" />
                 </div>
                 <div className="main app">
-                  <img src="/images/home_9/apps/main-app.svg" alt="app" />
+                  <Image src={mainAppSvg} alt="app" />
                 </div>
               </div>
 

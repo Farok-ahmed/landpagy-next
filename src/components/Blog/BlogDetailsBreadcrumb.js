@@ -1,5 +1,10 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import bannerShape1Svg from "@/assets/images/blog/banner-shape1.svg";
+import bannerShape2Svg from "@/assets/images/blog/banner-shape2.svg";
+import bannerShape3Svg from "@/assets/images/blog/banner-shape3.svg";
+
 import { Parallax } from "react-scroll-parallax";
 
 export default function BlogDetailsBreadcrumb() {
@@ -12,7 +17,7 @@ export default function BlogDetailsBreadcrumb() {
             translateY={["500px", "0px"]}
             rotateY={[0, 0]}
           >
-            <img src="/images/blog/banner-shape1.svg" alt="" />
+            <Image src={bannerShape1Svg} alt="" />
           </Parallax>
         </div>
         <div className="shape">
@@ -21,7 +26,7 @@ export default function BlogDetailsBreadcrumb() {
             translateY={["-500px", "0px"]}
             rotateY={[0, 0]}
           >
-            <img src="/images/blog/banner-shape2.svg" alt="" />
+            <Image src={bannerShape2Svg} alt="" />
           </Parallax>
         </div>
         <div className="shape">
@@ -30,7 +35,7 @@ export default function BlogDetailsBreadcrumb() {
             translateY={["500px", "0px"]}
             rotateY={[0, 0]}
           >
-            <img src="/images/blog/banner-shape3.svg" alt="" />
+            <Image src={bannerShape3Svg} alt="" />
           </Parallax>
         </div>
       </div>

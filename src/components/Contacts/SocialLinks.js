@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import icon3Svg from "@/assets/images/contact_2/icons/icon-3.svg";
+import icon4Svg from "@/assets/images/contact_2/icons/icon-4.svg";
+import icon2Svg from "@/assets/images/contact_2/icons/icon-2.svg";
+import icon1Svg from "@/assets/images/contact_2/icons/icon-1.svg";
+
 import { Link } from "react-router-dom";
 
 export default function SocialLinks() {
@@ -37,7 +43,7 @@ export default function SocialLinks() {
           <div className="col-lg-3 col-md-6">
             <div className="text-center follow-item">
               <div className="item-icon">
-                <img src="/images/contact_2/icons/icon-1.svg" alt="Icon" />
+                <Image src={icon1Svg} alt="Icon" />
               </div>
               <h3 className="item-title">Landpagy Careers</h3>
               <p className="item-para">Join our global team</p>
@@ -49,7 +55,7 @@ export default function SocialLinks() {
           <div className="col-lg-3 col-md-6">
             <div className="text-center follow-item">
               <div className="item-icon">
-                <img src="/images/contact_2/icons/icon-2.svg" alt="Icon" />
+                <Image src={icon2Svg} alt="Icon" />
               </div>
               <h3 className="item-title">Landpagy Blog</h3>
               <p className="item-para">Join our global team</p>
@@ -61,7 +67,7 @@ export default function SocialLinks() {
           <div className="col-lg-3 col-md-6">
             <div className="text-center follow-item">
               <div className="item-icon">
-                <img src="/images/contact_2/icons/icon-3.svg" alt="Icon" />
+                <Image src={icon3Svg} alt="Icon" />
               </div>
               <h3 className="item-title">Landpagy Proto</h3>
               <p className="item-para">Join our global team</p>
@@ -73,7 +79,7 @@ export default function SocialLinks() {
           <div className="col-lg-3 col-md-6">
             <div className="text-center follow-item">
               <div className="item-icon">
-                <img src="/images/contact_2/icons/icon-4.svg" alt="Icon" />
+                <Image src={icon4Svg} alt="Icon" />
               </div>
               <h3 className="item-title">About Landpagy</h3>
               <p className="item-para">Join our global team</p>

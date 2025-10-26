@@ -1,4 +1,11 @@
 import React from "react";
+import Image from "next/image";
+import brand4Svg from "@/assets/images/brand/brand-4.svg";
+import brand3Svg from "@/assets/images/brand/brand-3.svg";
+import brand2Svg from "@/assets/images/brand/brand-2.svg";
+import brand1Svg from "@/assets/images/brand/brand-1.svg";
+import brand5Svg from "@/assets/images/brand/brand-5.svg";
+
 
 export default function ClientBilling() {
   return (
@@ -16,19 +23,19 @@ export default function ClientBilling() {
         </div>
         <div className="row mr-60 ml-60">
           <div className="client-img wow fadeInLeft" data-wow-delay="0.1s">
-            <img src="/images/brand/brand-1.svg" alt="" />
+            <Image src={brand1Svg} alt="" />
           </div>
           <div className="client-img wow fadeInLeft" data-wow-delay="0.3s">
-            <img src="/images/brand/brand-2.svg" alt="" />
+            <Image src={brand2Svg} alt="" />
           </div>
           <div className="client-img wow fadeInLeft" data-wow-delay="0.5s">
-            <img src="/images/brand/brand-3.svg" alt="" />
+            <Image src={brand3Svg} alt="" />
           </div>
           <div className="client-img wow fadeInLeft" data-wow-delay="0.7s">
-            <img src="/images/brand/brand-4.svg" alt="" />
+            <Image src={brand4Svg} alt="" />
           </div>
           <div className="client-img wow fadeInLeft" data-wow-delay="0.9s">
-            <img src="/images/brand/brand-5.svg" alt="" />
+            <Image src={brand5Svg} alt="" />
           </div>
         </div>
       </div>

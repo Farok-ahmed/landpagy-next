@@ -1,5 +1,21 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import treeWaterPng from "@/assets/images/home_3/tree-water.png";
+import treeDollarPng from "@/assets/images/home_3/tree-dollar.png";
+import bannerBgShape1Png from "@/assets/images/home_3/banner-bg-shape-1.png";
+import treeFieldPng from "@/assets/images/home_3/tree-field.png";
+import tree1Png from "@/assets/images/home_3/tree-1.png";
+import cloud1Png from "@/assets/images/home_3/cloud-1.png";
+import leafSvg from "@/assets/images/home_3/leaf.svg";
+import tree2Png from "@/assets/images/home_3/tree-2.png";
+import bannerBgShape2Png from "@/assets/images/home_3/banner-bg-shape-2.png";
+import cloud3Png from "@/assets/images/home_3/cloud-3.png";
+import tree4Png from "@/assets/images/home_3/tree-4.png";
+import cloud2Png from "@/assets/images/home_3/cloud-2.png";
+import birdPng from "@/assets/images/home_3/bird.png";
+import tree3Png from "@/assets/images/home_3/tree-3.png";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function HeroBannerFour() {
@@ -72,16 +88,16 @@ export default function HeroBannerFour() {
           </div>
         </div>
         <div className="shape" ref={bird.ref}>
-          <img src="/images/home_3/bird.png" className="layer" alt="" />
+          <Image src={birdPng} className="layer" alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_3/banner-bg-shape-1.png" alt="" />
+          <Image src={bannerBgShape1Png} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_3/banner-bg-shape-2.png" alt="" />
+          <Image src={bannerBgShape2Png} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_3/leaf.svg" alt="" />
+          <Image src={leafSvg} alt="" />
         </div>
       </div>
       <div className="container">
@@ -122,7 +138,7 @@ export default function HeroBannerFour() {
                 />
 
                 <div className="tree-top wow zoomIn" data-wow-delay="0.55s">
-                  <img src="/images/home_3/tree-2.png" alt="tree" />
+                  <Image src={tree2Png} alt="tree" />
 
                   <div className="dollar wow zoomIn" data-wow-delay="0.55s">
                     <img

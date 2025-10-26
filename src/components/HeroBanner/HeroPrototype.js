@@ -1,5 +1,17 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import bannerShape9Svg from "@/assets/images/home_6/banner-shape9.svg";
+import bannerShape1Svg from "@/assets/images/home_6/banner-shape1.svg";
+import bannerShape7Png from "@/assets/images/home_6/banner-shape7.png";
+import bannerShape4Svg from "@/assets/images/home_6/banner-shape4.svg";
+import bannerShape10Svg from "@/assets/images/home_6/banner-shape10.svg";
+import bannerShape5Svg from "@/assets/images/home_6/banner-shape5.svg";
+import bannerShape2Png from "@/assets/images/home_6/banner-shape2.png";
+import bannerShape6Png from "@/assets/images/home_6/banner-shape6.png";
+import bannerShape3Svg from "@/assets/images/home_6/banner-shape3.svg";
+import bannerShape8Png from "@/assets/images/home_6/banner-shape8.png";
+
 import { Parallax } from "react-scroll-parallax";
 
 export default function HeroPrototype() {
@@ -7,7 +19,7 @@ export default function HeroPrototype() {
     <section className="banner-area-6 bg-proto">
       <div className="banner-shapes">
         <div className="shape wow fadeIn" data-wow-delay="0.2s">
-          <img src="/images/home_6/banner-shape1.svg" alt="shapes" />
+          <Image src={bannerShape1Svg} alt="shapes" />
         </div>
         <div className="shape">
           <Parallax
@@ -16,17 +28,17 @@ export default function HeroPrototype() {
             rotateY={[100, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_6/banner-shape2.png" alt="" />
+            <Image src={bannerShape2Png} alt="" />
           </Parallax>
         </div>
         <div className="shape wow fadeInLeft">
-          <img src="/images/home_6/banner-shape3.svg" alt="shapes" />
+          <Image src={bannerShape3Svg} alt="shapes" />
         </div>
         <div className="shape wow fadeIn" data-wow-delay="0.4s">
-          <img src="/images/home_6/banner-shape4.svg" alt="" />
+          <Image src={bannerShape4Svg} alt="" />
         </div>
         <div className="shape wow fadeIn" data-wow-delay="0.6s">
-          <img src="/images/home_6/banner-shape5.svg" alt="" />
+          <Image src={bannerShape5Svg} alt="" />
         </div>
         <div className="shape">
           <Parallax
@@ -35,20 +47,20 @@ export default function HeroPrototype() {
             rotateY={[0, 0]}
             easing="easeInQuad"
           >
-            <img src="/images/home_6/banner-shape6.png" alt="shapes" />
+            <Image src={bannerShape6Png} alt="shapes" />
           </Parallax>
         </div>
         <div className="shape">
-          <img src="/images/home_6/banner-shape7.png" alt="" />
+          <Image src={bannerShape7Png} alt="" />
         </div>
         <div className="shape">
-          <img src="/images/home_6/banner-shape8.png" alt="" />
+          <Image src={bannerShape8Png} alt="" />
         </div>
         <div className="shape wow fadeIn" data-wow-delay="0.2s">
-          <img src="/images/home_6/banner-shape9.svg" alt="shapes" />
+          <Image src={bannerShape9Svg} alt="shapes" />
         </div>
         <div className="shape wow fadeInRight">
-          <img src="/images/home_6/banner-shape10.svg" alt="shapes" />
+          <Image src={bannerShape10Svg} alt="shapes" />
         </div>
       </div>
       <div className="container">

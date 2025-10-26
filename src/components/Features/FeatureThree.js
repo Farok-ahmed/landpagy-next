@@ -1,5 +1,12 @@
 "use client";
 import React from "react";
+import Image from "next/image";
+import featuresObject8Svg from "@/assets/images/features/features-object-8.svg";
+import featuresObject7Svg from "@/assets/images/features/features-object-7.svg";
+import featuresObject9Svg from "@/assets/images/features/features-object-9.svg";
+import features4Png from "@/assets/images/features/features-4.png";
+import featuresObject6Svg from "@/assets/images/features/features-object-6.svg";
+
 import { useParallax } from "react-scroll-parallax";
 
 export default function FeatureThree() {
@@ -38,26 +45,22 @@ export default function FeatureThree() {
           </div>
           <div className="col-lg-6">
             <div className="features-image">
-              <img src="/images/features/features-4.png" alt="Features" />
-              <img
-                src="/images/features/features-object-6.svg"
+              <Image src={features4Png} alt="Features" />
+              <Image src={featuresObject6Svg}
                 alt="Features Object"
                 className="features-object6"
               />
-              <img
-                src="/images/features/features-object-7.svg"
+              <Image src={featuresObject7Svg}
                 alt="Features Object"
                 className="features-object7 object-element layer"
                 ref={shape2Parallax.ref}
               />
-              <img
-                src="/images/features/features-object-8.svg"
+              <Image src={featuresObject8Svg}
                 alt="Features Object"
                 className="features-object8 object-element layer"
                 ref={shape3Parallax.ref}
               />
-              <img
-                src="/images/features/features-object-9.svg"
+              <Image src={featuresObject9Svg}
                 alt="Features Object"
                 className="features-object9 object-element layer"
                 ref={shape4Parallax.ref}

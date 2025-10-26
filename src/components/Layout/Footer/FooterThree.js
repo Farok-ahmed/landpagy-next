@@ -1,6 +1,11 @@
 "use client";
+import leafSvg from "@/assets/images/home_5/icons/leaf.svg";
+import kiteSvg from "@/assets/images/home_6/kite.svg";
+import womenSvg from "@/assets/images/home_6/women.svg";
+import footerShapeSvg from "@/assets/images/home_7/shapes/footer-shape.svg";
+import logo5Svg from "@/assets/images/logo-5.svg";
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import { useParallax } from "react-scroll-parallax";
 
 export default function FooterThree() {
@@ -25,29 +30,33 @@ export default function FooterThree() {
     <footer className="bg-black footer-software-2 footer-common">
       <div className="bg-shapes">
         <div className="shape">
-          <img
-            src="/images/home_6/kite.svg"
+          {/* Converted from <Image src={kiteSvg}> */}
+          <Image
+            src={kiteSvg}
             alt="Kite"
             ref={kiteParallax.ref}
           />
         </div>
         <div className="shape">
-          <img
-            src="/images/home_6/women.svg"
+          {/* Converted from <Image src={womenSvg}> */}
+          <Image
+            src={womenSvg}
             alt="Women"
             ref={womenParallax.ref}
           />
         </div>
         <div className="shape">
-          <img
-            src="/images/home_5/icons/leaf.svg"
+          {/* Converted from <Image src={leafSvg}> */}
+          <Image
+            src={leafSvg}
             alt="Leaf"
             ref={leafParallax.ref}
           />
         </div>
         <div className="shape">
-          <img
-            src="/images/home_7/shapes/footer-shape.svg"
+          {/* Converted from <Image src={footerShapeSvg}> */}
+          <Image
+            src={footerShapeSvg}
             alt="Footer Shape"
           />
         </div>
@@ -168,9 +177,10 @@ export default function FooterThree() {
               <ul>
                 <li>
                   <Link href="/">
-                    <img
+                    
+                    <Image
                       className="d-md-block d-sm-inline-block"
-                      src="/images/logo-5.svg"
+                      src={logo5Svg}
                       alt="Footer Logo"
                     />
                   </Link>

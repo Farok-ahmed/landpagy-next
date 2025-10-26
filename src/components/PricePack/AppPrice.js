@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import borderSvg from "@/assets/images/home_10/shapes/border.svg";
+import shape10Svg from "@/assets/images/home_10/shapes/shape10.svg";
+import shape9Svg from "@/assets/images/home_10/shapes/shape9.svg";
+import shape8Svg from "@/assets/images/home_10/shapes/shape8.svg";
+
 
 export default function AppPrice() {
   return (
@@ -9,10 +15,10 @@ export default function AppPrice() {
         <div className="shape"></div>
         <div className="shape"></div>
         <div className="shape">
-          <img src="/images/home_10/shapes/shape8.svg" alt="Shape" />
+          <Image src={shape8Svg} alt="Shape" />
         </div>
         <div className="shape">
-          <img src="/images/home_10/shapes/shape9.svg" alt="Shape" />
+          <Image src={shape9Svg} alt="Shape" />
         </div>
       </div>
       <div className="container">
@@ -128,8 +134,7 @@ export default function AppPrice() {
                       className="app-pricing-item wow fadeInUp active"
                       data-wow-delay="0.3s"
                     >
-                      <img
-                        src="/images/home_10/shapes/shape10.svg"
+                      <Image src={shape10Svg}
                         alt="Shape"
                         className="popular-shape"
                       />
@@ -253,8 +258,7 @@ export default function AppPrice() {
                   </div>
                   <div className="col-lg-4 col-md-6">
                     <div className="app-pricing-item active">
-                      <img
-                        src="/images/home_10/shapes/shape10.svg"
+                      <Image src={shape10Svg}
                         alt="Shape"
                         className="popular-shape"
                       />
