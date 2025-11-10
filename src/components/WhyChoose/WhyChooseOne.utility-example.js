@@ -1,18 +1,24 @@
+/**
+ * ALTERNATIVE IMPLEMENTATION USING UTILITY FUNCTIONS
+ * This is an example showing how WhyChooseOne.js could be written
+ * using the gsapAnimations utility functions for cleaner code
+ */
+
 "use client";
+import Image from "next/image";
+import { useMultipleGsapReveals } from "@/hooks/useGsapReveal";
+import { createAnimationSequence } from "@/utils/gsapAnimations";
+import icon from "@/assets/images/icon/icon.svg";
 import icon2 from "@/assets/images/icon/icon-2.svg";
 import icon3 from "@/assets/images/icon/icon-3.svg";
-import icon from "@/assets/images/icon/icon.svg";
-import { useMultipleGsapReveals } from "@/hooks/useGsapReveal";
-import Image from "next/image";
 
 
-export default function WhyChooseOne() {
-  // Create refs for each animated element with staggered delays
-  const [ref1, ref2, ref3] = useMultipleGsapReveals([
-    { animation: 'fadeInUp', delay: 0, duration: 0.6 },      // animate__faster equivalent
-    { animation: 'fadeInUp', delay: 0.15, duration: 0.8 },   // animate__fast equivalent
-    { animation: 'fadeInUp', delay: 0.3, duration: 1 },      // default speed
-  ]);
+export default function WhyChooseOneUtilityExample() {
+  // Using utility function for cleaner code
+  // Creates 3 fadeInUp animations with staggered delays (0, 0.15, 0.3)
+  const [ref1, ref2, ref3] = useMultipleGsapReveals(
+    createAnimationSequence('fadeInUpFaster', 3, 0, 0.15)
+  );
 
   return (
     <section className="why-choose section-padding">

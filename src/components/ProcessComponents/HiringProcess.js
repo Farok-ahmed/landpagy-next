@@ -1,19 +1,26 @@
-import Image from "next/image";
+"use client";
 import shape11 from "@/assets/images/process/shape11.svg";
 import shape12 from "@/assets/images/process/shape12.svg";
 import shape13 from "@/assets/images/process/shape13.svg";
 import shape14 from "@/assets/images/process/shape14.svg";
-;
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 export default function HiringProcess() {
+  const refs = useGsapMultiple(4, [
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInLeft', delay: 0.1 },
+    { animation: 'fadeInLeft', delay: 0.3 },
+    { animation: 'fadeInLeft', delay: 0.5 },
+  ]);
   return (
     <section className="process-area-2 overflow-hidden pt-55">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <h2
-              className="heading-3 text-center mb-90 wow fadeInUp"
-              data-wow-delay="0.1s"
+              ref={refs[0]}
+              className="heading-3 text-center mb-90"
             >
               Hiring Made Easy
             </h2>
@@ -23,8 +30,8 @@ export default function HiringProcess() {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div
-              className="process-item-2 wow fadeInLeft"
-              data-wow-delay="0.1s"
+              ref={refs[1]}
+              className="process-item-2"
             >
               <Image src={shape11} className="line-1"
                 
@@ -42,8 +49,8 @@ export default function HiringProcess() {
           </div>
           <div className="col-lg-4 col-md-6 mt-md-0 mt-5">
             <div
-              className="process-item-2 wow fadeInLeft"
-              data-wow-delay="0.3s"
+              ref={refs[2]}
+              className="process-item-2"
             >
               <Image src={shape13} className="line-3"
                 
@@ -58,8 +65,8 @@ export default function HiringProcess() {
           </div>
           <div className="col-lg-4 col-md-6 mt-lg-0 mt-5 mx-auto">
             <div
-              className="process-item-2 wow fadeInLeft"
-              data-wow-delay="0.5s"
+              ref={refs[3]}
+              className="process-item-2"
             >
               <Image src={shape14} className="line-4"
                 

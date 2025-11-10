@@ -1,7 +1,9 @@
 "use client";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Link from "next/link";
 
+import pricingImg from "@/assets/images/home_9/pricing-img.png";
 import shape10 from "@/assets/images/home_9/shapes/shape10.svg";
 import shape111 from "@/assets/images/home_9/shapes/shape11-1.svg";
 import shape112 from "@/assets/images/home_9/shapes/shape11-2.svg";
@@ -9,11 +11,13 @@ import shape113 from "@/assets/images/home_9/shapes/shape11-3.svg";
 import shape114 from "@/assets/images/home_9/shapes/shape11-4.svg";
 import shape115 from "@/assets/images/home_9/shapes/shape11-5.svg";
 import shape116 from "@/assets/images/home_9/shapes/shape11-6.svg";
-import pricingImg from "@/assets/images/home_9/pricing-img.png";
-;
 import { Parallax } from "react-scroll-parallax";
 
 export default function CloudPrice() {
+  const refs = useGsapMultiple(2, [
+    { animation: 'fadeInLeft', delay: 0.4 },
+    { animation: 'fadeInRight', delay: 0.4 },
+  ]);
   return (
     <section className="cloud-pricing-area bg-gray pt-130 pb-140">
       <div className="container">
@@ -45,8 +49,8 @@ export default function CloudPrice() {
         <div className="row">
           <div className="col-lg-4">
             <div
-              className="cloud-pricing-images wow fadeInLeft"
-              data-wow-delay="0.4s"
+              ref={refs[0]}
+              className="cloud-pricing-images"
             >
               <div className="bg-shapes">
                 <div className="shape">
@@ -118,8 +122,8 @@ export default function CloudPrice() {
           </div>
           <div className="col-lg-8">
             <div
-              className="cloud-pricing-wrapp wow fadeInRight"
-              data-wow-delay="0.4s"
+              ref={refs[1]}
+              className="cloud-pricing-wrapp"
             >
               <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">

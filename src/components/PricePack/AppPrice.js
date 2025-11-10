@@ -1,13 +1,22 @@
+"use client";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Link from "next/link";
 
-import shape8 from "@/assets/images/home_10/shapes/shape8.svg";
-import shape9 from "@/assets/images/home_10/shapes/shape9.svg";
 import border from "@/assets/images/home_10/shapes/border.svg";
 import shape10 from "@/assets/images/home_10/shapes/shape10.svg";
-;
+import shape8 from "@/assets/images/home_10/shapes/shape8.svg";
+import shape9 from "@/assets/images/home_10/shapes/shape9.svg";
 
 export default function AppPrice() {
+  const refs = useGsapMultiple(6, [
+    { animation: 'fadeInUp', delay: 0.2 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.5 },
+    { animation: 'fadeInUp', delay: 0.3 },
+  ]);
   return (
     <section className="app-pricing-area pt-120 pb-150">
       <div className="bg-shapes">
@@ -26,8 +35,8 @@ export default function AppPrice() {
         <div className="row">
           <div className="col-lg-12">
             <h2
-              className="mb-20 text-center pricing-title cloud-heading-2 wow fadeInUp"
-              data-wow-delay="0.2s"
+              ref={refs[0]}
+              className="mb-20 text-center pricing-title cloud-heading-2"
             >
               <span>
                 Plan &
@@ -45,7 +54,7 @@ export default function AppPrice() {
         </div>
 
         <div className="row">
-          <div className="col-12 wow fadeInUp" data-wow-delay="0.3s">
+          <div ref={refs[1]} className="col-12">
             <nav>
               <div
                 className="nav justify-content-center app-pricing-switcher"
@@ -91,8 +100,8 @@ export default function AppPrice() {
                 <div className="row">
                   <div className="col-lg-4 col-md-6">
                     <div
-                      className="app-pricing-item wow fadeInUp"
-                      data-wow-delay="0.1s"
+                      ref={refs[2]}
+                      className="app-pricing-item"
                     >
                       <h4 className="item-title">The Basics</h4>
                       <p className="item-label">Free for 7 days then</p>
@@ -130,8 +139,8 @@ export default function AppPrice() {
                   </div>
                   <div className="col-lg-4 col-md-6">
                     <div
-                      className="app-pricing-item wow fadeInUp active"
-                      data-wow-delay="0.3s"
+                      ref={refs[3]}
+                      className="app-pricing-item active"
                     >
                       <Image src={shape10} alt="Shape"
                         className="popular-shape" />
@@ -171,8 +180,8 @@ export default function AppPrice() {
                   </div>
                   <div className="mx-auto col-lg-4 col-md-6">
                     <div
-                      className="app-pricing-item wow fadeInUp"
-                      data-wow-delay="0.5s"
+                      ref={refs[4]}
+                      className="app-pricing-item"
                     >
                       <h4 className="item-title">Meal Plan Pro</h4>
                       <p className="item-label">Free for 7 days then</p>
@@ -336,8 +345,8 @@ export default function AppPrice() {
         <div className="row">
           <div className="col-lg-6 offset-lg-3">
             <div
-              className="text-center app-pricing-question pt-60 wow fadeInUp"
-              data-wow-delay="0.3s"
+              ref={refs[5]}
+              className="text-center app-pricing-question pt-60"
             >
               <h5 className="mb-10 question-title">Have any questions?</h5>
               <p className="question-text">

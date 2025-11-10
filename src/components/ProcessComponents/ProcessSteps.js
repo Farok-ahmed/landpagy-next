@@ -1,18 +1,27 @@
 "use client";
-import Image from "next/image";
 import icon1 from "@/assets/images/process/icon1.svg";
 import icon2 from "@/assets/images/process/icon2.svg";
 import icon3 from "@/assets/images/process/icon3.svg";
 import icon4 from "@/assets/images/process/icon4.svg";
 import icon5 from "@/assets/images/process/icon5.svg";
-;
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 import CountUp from "react-countup";
+;
 
 export default function ProcessSteps() {
+  const processRefs = useGsapMultiple(5, [
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.5 },
+    { animation: 'fadeInUp', delay: 0.7 },
+    { animation: 'fadeInUp', delay: 0.9 },
+  ]);
+
   return (
     <section className="overflow-hidden process-area-1 pt-140 pb-140">
       <div className="container">
-        <div className="process-item-1 wow fadeInUp" data-wow-delay="0.1s">
+        <div ref={processRefs[0]} className="process-item-1">
           <div className="row">
             <div className="col-lg-6 col-md-9">
               <div className="process-item-content">
@@ -52,7 +61,7 @@ export default function ProcessSteps() {
             </div>
           </div>
         </div>
-        <div className="process-item-1 wow fadeInUp" data-wow-delay="0.3s">
+        <div ref={processRefs[1]} className="process-item-1">
           <div className="row">
             <div className="col-lg-6 col-md-9">
               <div className="process-item-content">
@@ -93,7 +102,7 @@ export default function ProcessSteps() {
             </div>
           </div>
         </div>
-        <div className="process-item-1 wow fadeInUp" data-wow-delay="0.5s">
+        <div ref={processRefs[2]} className="process-item-1">
           <div className="row">
             <div className="col-lg-6 col-md-9">
               <div className="process-item-content">
@@ -131,7 +140,7 @@ export default function ProcessSteps() {
             </div>
           </div>
         </div>
-        <div className="process-item-1 wow fadeInUp" data-wow-delay="0.7s">
+        <div ref={processRefs[3]} className="process-item-1">
           <div className="row">
             <div className="col-lg-6 col-md-9">
               <div className="process-item-content">
@@ -172,7 +181,7 @@ export default function ProcessSteps() {
             </div>
           </div>
         </div>
-        <div className="process-item-1 wow fadeInUp" data-wow-delay="0.9s">
+        <div ref={processRefs[4]} className="process-item-1">
           <div className="row">
             <div className="col-lg-6 col-md-9">
               <div className="process-item-content">

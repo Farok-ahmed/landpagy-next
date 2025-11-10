@@ -1,15 +1,18 @@
 "use client";
 
-import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
+import testItemImg1 from "@/assets/images/home_4/test-item-img1.jpg";
+import testItemImg2 from "@/assets/images/home_4/test-item-img2.jpg";
 import testShape2 from "@/assets/images/home_4/test-shape2.svg";
 import testShape3 from "@/assets/images/home_4/test-shape3.svg";
 import testShape4 from "@/assets/images/home_4/test-shape4.svg";
-import testItemImg1 from "@/assets/images/home_4/test-item-img1.jpg";
-import testItemImg2 from "@/assets/images/home_4/test-item-img2.jpg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function WhyChooseHRM() {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
+  const paragraphRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
   const swiperOptions = {
     centeredSlides: true,
     modules: [Navigation],
@@ -43,8 +46,8 @@ export default function WhyChooseHRM() {
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">Why they choose us</h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <h2 ref={headingRef}>Why they choose us</h2>
+              <p ref={paragraphRef}>
                 Nothing but our customers' opinions can describe us in the best
                 way. Here is what they said about us.
               </p>

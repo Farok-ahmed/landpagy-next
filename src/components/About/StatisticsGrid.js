@@ -1,11 +1,24 @@
 "use client";
-import Image from "next/image";
 import statistic1 from "@/assets/images/about_2/statistic1.png";
 import statistic4 from "@/assets/images/about_2/statistic4.png";
-;
+import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 import CountUp from "react-countup";
 import Slider from "react-slick";
+;
 export default function StatisticsGrid() {
+  const widget1Ref = useGsapReveal({ animation: 'fadeInUp' });
+  const widget2Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+  const widgetRightRefs = useGsapMultiple(4, [
+    { animation: 'fadeInRight', delay: 0.1 },
+    { animation: 'fadeInRight', delay: 0.3 },
+    { animation: 'fadeInRight', delay: 0.5 },
+    { animation: 'fadeInRight', delay: 0.7 },
+  ]);
+  const widgetLeftRefs = useGsapMultiple(2, [
+    { animation: 'fadeInLeft', delay: 0.1 },
+    { animation: 'fadeInLeft', delay: 0.3 },
+  ]);
   const slickOptions = {
     dots: true,
     arrows: false,
@@ -20,7 +33,7 @@ export default function StatisticsGrid() {
       <div className="container">
         <div className="row gx-2 gy-2 gy-lg-0">
           <div className="col-lg-7">
-            <div className="statistics-widget-2 wow fadeInUp">
+            <div ref={widget1Ref} className="statistics-widget-2">
               <div className="row gx-0">
                 <div className="col-7">
                   <Slider {...slickOptions} className="statistics-slider h-100">
@@ -69,8 +82,8 @@ export default function StatisticsGrid() {
           </div>
           <div className="col-lg-5">
             <div
-              className="statistics-widget-2 wow fadeInUp"
-              data-wow-delay="0.2s"
+              ref={widget2Ref}
+              className="statistics-widget-2"
             >
               <div className="widget-content widget-2">
                 <h1 className="counter">
@@ -86,8 +99,8 @@ export default function StatisticsGrid() {
             <div className="row gx-2 gy-2 gy-lg-0">
               <div className="col-lg-4 col-md-6">
                 <div
-                  className="statistics-widget-2 wow fadeInRight"
-                  data-wow-delay="0.1s"
+                  ref={widgetRightRefs[0]}
+                  className="statistics-widget-2"
                 >
                   <div className="widget-content widget-3">
                     <h1 className="counter">
@@ -99,8 +112,8 @@ export default function StatisticsGrid() {
               </div>
               <div className="col-lg-4 col-md-6">
                 <div
-                  className="statistics-widget-2 wow fadeInRight"
-                  data-wow-delay="0.3s"
+                  ref={widgetRightRefs[1]}
+                  className="statistics-widget-2"
                 >
                   <div className="widget-content widget-4">
                     <h1 className="counter">
@@ -112,8 +125,8 @@ export default function StatisticsGrid() {
               </div>
               <div className="col-lg-4">
                 <div
-                  className="statistics-widget-2 wow fadeInRight"
-                  data-wow-delay="0.5s"
+                  ref={widgetRightRefs[2]}
+                  className="statistics-widget-2"
                 >
                   <div className="widget-content widget-5">
                     <h1 className="counter">
@@ -127,8 +140,8 @@ export default function StatisticsGrid() {
           </div>
           <div className="col-lg-5">
             <div
-              className="statistics-widget-2 wow fadeInRight"
-              data-wow-delay="0.7s"
+              ref={widgetRightRefs[3]}
+              className="statistics-widget-2"
             >
               <div
                 className="widget-content widget-6"
@@ -143,8 +156,8 @@ export default function StatisticsGrid() {
         <div className="row gx-2 gy-2 gy-md-0">
           <div className="col-md-5">
             <div
-              className="statistics-widget-2 wow fadeInLeft"
-              data-wow-delay="0.1s"
+              ref={widgetLeftRefs[0]}
+              className="statistics-widget-2"
             >
               <div
                 className="widget-content widget-7"
@@ -162,8 +175,8 @@ export default function StatisticsGrid() {
           </div>
           <div className="col-md-7">
             <div
-              className="statistics-widget-2 wow fadeInLeft"
-              data-wow-delay="0.3s"
+              ref={widgetLeftRefs[1]}
+              className="statistics-widget-2"
             >
               <div className="row gx-0">
                 <div className="col-5">

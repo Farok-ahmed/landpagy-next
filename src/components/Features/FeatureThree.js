@@ -1,14 +1,16 @@
 "use client";
-import Image from "next/image";
 import features4 from "@/assets/images/features/features-4.png";
 import featuresObject6 from "@/assets/images/features/features-object-6.svg";
 import featuresObject7 from "@/assets/images/features/features-object-7.svg";
 import featuresObject8 from "@/assets/images/features/features-object-8.svg";
 import featuresObject9 from "@/assets/images/features/features-object-9.svg";
-;
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 import { useParallax } from "react-scroll-parallax";
+;
 
 export default function FeatureThree() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
   const shape2Parallax = useParallax({
     translateX: [50, -150, "easeInQuad"],
     translateY: [0, 0, "easeOutQuad"],
@@ -26,7 +28,7 @@ export default function FeatureThree() {
     rotateY: [0, 0],
   });
   return (
-    <section className="features features-area-four section-padding wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="features features-area-four section-padding">
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-lg-row">
           <div className="col-lg-6">

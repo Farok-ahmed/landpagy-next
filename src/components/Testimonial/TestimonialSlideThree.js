@@ -1,9 +1,10 @@
 "use client";
 
-import Slider from "react-slick";
-import Image from "next/image";
 import auth1 from "@/assets/images/home_7/auth1.png";
 import auth2 from "@/assets/images/home_7/auth2.png";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import Slider from "react-slick";
 
 const SlickBtnPrev = ({ currentSlide, slideCount, children, ...props }) => (
   <button {...props}>{children}</button>
@@ -13,6 +14,8 @@ const SlickBtnNext = ({ currentSlide, slideCount, children, ...props }) => (
 );
 
 export default function TestimonialSlideThree() {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
+
   const slickOptions = {
     dots: false,
     arrows: true,
@@ -48,7 +51,7 @@ export default function TestimonialSlideThree() {
         <div className="row">
           <div className="col-12">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">
+              <h2 ref={headingRef}>
                 We are Trusted <br />
                 15+ Countries Worldwide
               </h2>

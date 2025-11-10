@@ -1,8 +1,10 @@
 "use client";
-;
+import useGsapReveal from "@/hooks/useGsapReveal";
 import { useParallax } from "react-scroll-parallax";
+;
 
 export default function NewsLetterTwo() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
   const shape1Parallax = useParallax({
     translateX: [0, 0, "easeInQuad"],
     translateY: [40, 0, "easeInQuad"],
@@ -45,7 +47,7 @@ export default function NewsLetterTwo() {
     speed: -10,
   });
   return (
-    <section className="cta-area-four pt-105 pb-105 wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="cta-area-four pt-105 pb-105">
       <div className="bg-shape">
         <div className="shape layer" ref={shape1Parallax.ref}></div>
         <div className="shape layer" ref={shape2Parallax.ref}></div>

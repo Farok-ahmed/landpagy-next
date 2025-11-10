@@ -1,22 +1,27 @@
-import Image from "next/image";
-import shape3 from "@/assets/images/home_10/shapes/shape3.svg";
-import shape4 from "@/assets/images/home_10/shapes/shape4.svg";
+"use client";
 import feturesImg from "@/assets/images/home_10/fetures-img.png";
-import border from "@/assets/images/home_10/shapes/border.svg";
 import icon1 from "@/assets/images/home_10/icons/icon1.svg";
 import icon2 from "@/assets/images/home_10/icons/icon2.svg";
 import icon3 from "@/assets/images/home_10/icons/icon3.svg";
+import border from "@/assets/images/home_10/shapes/border.svg";
+import shape3 from "@/assets/images/home_10/shapes/shape3.svg";
+import shape4 from "@/assets/images/home_10/shapes/shape4.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 ;
 
 export default function AppFeature() {
+  const imagesRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.2 });
+  const contentRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.2 });
+
   return (
     <section className="overflow-hidden app-features-area pt-135 pb-190">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-5 col-md-4">
             <div
-              className="app-features-images wow fadeInLeft"
-              data-wow-delay="0.2s"
+              ref={imagesRef}
+              className="app-features-images"
             >
               <div className="bg-shapes">
                 <div className="shape"></div>
@@ -33,8 +38,8 @@ export default function AppFeature() {
           </div>
           <div className="col-lg-6 offset-lg-1 col-md-8">
             <div
-              className="app-feature-content wow fadeInRight"
-              data-wow-delay="0.2s"
+              ref={contentRef}
+              className="app-feature-content"
             >
               <h2 className="feature-title cloud-heading-2 mb-65">
                 Some of the best

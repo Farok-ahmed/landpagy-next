@@ -1,16 +1,25 @@
 "use client";
-import React, { useEffect } from "react";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useEffect } from "react";
 
-import { Parallax } from "react-scroll-parallax";
-import GLightbox from "glightbox";
-import Link from "next/link";
-import Image from "next/image";
+import banner from "@/assets/images/home_7/banner.png";
 import bannerShape2 from "@/assets/images/home_7/shapes/banner-shape2.png";
 import bannerShape3 from "@/assets/images/home_7/shapes/banner-shape3.png";
-import banner from "@/assets/images/home_7/banner.png";
 import textShape from "@/assets/images/home_7/shapes/text-shape.svg";
+import GLightbox from "glightbox";
+import Image from "next/image";
+import Link from "next/link";
+import { Parallax } from "react-scroll-parallax";
 
 export default function HeroBannerThree() {
+  const refs = useGsapMultiple(5, [
+    { animation: 'fadeInDown' },
+    { animation: 'fadeInLeft' },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.3 },
+    { animation: 'fadeInRight', delay: 0.3 },
+  ]);
+
   useEffect(() => {
     // eslint-disable-next-line
     let lightbox = GLightbox({
@@ -34,22 +43,22 @@ export default function HeroBannerThree() {
             <Image src={bannerShape3} alt="shapes" />
           </Parallax>
         </div>
-        <div className="shape wow fadeInDown">
+        <div ref={refs[0]} className="shape">
           <Image src={banner} alt="shapes" />
         </div>
       </div>
       <div className="container container-soft2">
         <div className="row">
           <div className="col-lg-6 col-md-8">
-            <div className="banner-left wow fadeInLeft">
-              <h2 className="banner-title wow fadeInLeft" data-wow-delay="0.2s">
+            <div ref={refs[1]} className="banner-left">
+              <h2 ref={refs[2]} className="banner-title">
                 Create Your Desire {""}
                 <span>
                   Business.
                   <Image src={textShape} alt="" />
                 </span>
               </h2>
-              <p className="banner-para wow fadeInLeft" data-wow-delay="0.3s">
+              <p ref={refs[3]} className="banner-para">
                 100+ Home Pages With Eye Catching Inner Pages. Over 170+
                 interface blocks.All-in-one WordPress theme that’s modern, super
                 customizable, & blazing fast.
@@ -63,7 +72,7 @@ export default function HeroBannerThree() {
             </div>
           </div>
           <div className="col-lg-6 col-md-4">
-            <div className="banner-right wow fadeInRight" data-wow-delay="0.3s">
+            <div ref={refs[4]} className="banner-right">
               <a
                 className="play-btn"
                 data-fancybox

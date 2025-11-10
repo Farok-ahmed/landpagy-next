@@ -1,12 +1,16 @@
-import Image from "next/image";
-import testShape3 from "@/assets/images/home_4/test-shape3.svg";
+"use client";
 import ctaShape from "@/assets/images/home_4/cta-shape.svg";
 import testShape2 from "@/assets/images/home_4/test-shape2.svg";
+import testShape3 from "@/assets/images/home_4/test-shape3.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 ;
 
 export default function NewsLetterHRM() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp' });
+
   return (
-    <section className="cta-area-five pt-100 pb-100 wow fadeInUp">
+    <section ref={sectionRef} className="cta-area-five pt-100 pb-100">
       <div className="container">
         <div className="cta-box">
           <div className="bg-shapes">

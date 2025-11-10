@@ -1,11 +1,9 @@
 "use client";
-import React, { useEffect, useLayoutEffect, useState } from "react";
-import { useRouter } from "next/navigation";
-import { ParallaxProvider } from "react-scroll-parallax";
-import dynamic from "next/dynamic";
-import { animationUtils } from "@/utils";
-import Image from "next/image";
 import scroll from "@/assets/images/scroll.svg";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+import { useEffect, useLayoutEffect, useState } from "react";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function Layout({ children }) {
   const [isVisible, setIsVisible] = useState(false);
@@ -61,11 +59,7 @@ export default function Layout({ children }) {
     });
   }, [router.pathname]);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      animationUtils.animaiton(); // Call the animation function only in the browser
-    }
-  }, []);
+  // WOW.js removed - animations now handled by useGsapReveal hook in individual components
 
   return (
     <>

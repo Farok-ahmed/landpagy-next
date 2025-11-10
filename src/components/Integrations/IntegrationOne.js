@@ -1,14 +1,18 @@
-import Image from "next/image";
-import logo from "@/assets/images/logo/logo.png";
+"use client";
 import logo2 from "@/assets/images/logo/logo-2.png";
 import logo3 from "@/assets/images/logo/logo-3.png";
 import logo4 from "@/assets/images/logo/logo-4.png";
 import logo5 from "@/assets/images/logo/logo-5.png";
+import logo from "@/assets/images/logo/logo.png";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 ;
 
 export default function IntegrationOne() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+
   return (
-    <section className="logo-grid-area wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="logo-grid-area">
       <div className="container-fluid">
         <div className="logo-grid-wrapper">
           <div className="row flex-column-reverse flex-lg-row align-items-center">

@@ -1,13 +1,16 @@
 "use client";
-import React, {
-  useEffect,
-  useCallback,
-  useState,
-  useMemo,
-  useRef,
+import useGsapReveal from "@/hooks/useGsapReveal";
+import {
+    useCallback,
+    useEffect,
+    useMemo,
+    useRef,
+    useState,
 } from "react";
 
 export default function DealTab() {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
+  const paragraphRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
   const [activeTab, setActiveTab] = useState("#payment-track-one");
   const timerRef = useRef(null); // Use a ref for the timer
 
@@ -69,8 +72,8 @@ export default function DealTab() {
     <section className="deal-fast-area pt-140 pb-140">
       <div className="container">
         <div className="section-title-center">
-          <h2 className="wow fadeInUp">Make more deals faster</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.2s">
+          <h2 ref={headingRef}>Make more deals faster</h2>
+          <p ref={paragraphRef}>
             Over a dozen reusable components built to provide iconography,
             dropdowns, input groups, navigation, alerts, and much more.
           </p>

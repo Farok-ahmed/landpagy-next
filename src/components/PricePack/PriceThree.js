@@ -1,22 +1,27 @@
+"use client";
+import useGsapReveal from "@/hooks/useGsapReveal";
 import Link from "next/link";
 ;
 
 export default function PriceThree() {
+  const titleRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
+  const pricingBgRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
+
   return (
     <section className="billing-pricing-area pt-120 pb-140">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <h2
-              className="text-center pricing-title wow fadeInDown mb-70"
-              data-wow-delay="0.2s"
+              ref={titleRef}
+              className="text-center pricing-title mb-70"
             >
-              Find a plan that’s right for you
+              Find a plan that's right for you
             </h2>
           </div>
         </div>
 
-        <div className="row pricing-bg wow fadeInDown" data-wow-delay="0.2s">
+        <div ref={pricingBgRef} className="row pricing-bg">
           <div className="col-md-4">
             <div className="pricing-item">
               <p className="pricing-label">Basic</p>

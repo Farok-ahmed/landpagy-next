@@ -1,20 +1,29 @@
-import Image from "next/image";
-import Link from "next/link";
-
+"use client";
 import serviceIcon1 from "@/assets/images/home_8/icons/service-icon1.svg";
 import serviceIcon2 from "@/assets/images/home_8/icons/service-icon2.svg";
 import serviceIcon3 from "@/assets/images/home_8/icons/service-icon3.svg";
+import { useMultipleGsapReveals } from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import Link from "next/link";
 
 
 export default function HowItWorks() {
+  // Create refs for animated elements - title and three service items
+  const [titleRef, item1Ref, item2Ref, item3Ref] = useMultipleGsapReveals([
+    { animation: 'fadeInDown', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInDown', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+  ]);
+
   return (
     <section className="billing-services-area pb-140">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <h2
-              className="services-title wow fadeInDown text-center mb-50"
-              data-wow-delay="0.2s"
+              ref={titleRef}
+              className="services-title text-center mb-50"
             >
               How it Works
             </h2>
@@ -23,7 +32,7 @@ export default function HowItWorks() {
 
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <div className="services-item wow fadeInLeft" data-wow-delay="0.2s">
+            <div className="services-item" ref={item1Ref}>
               <Image src={serviceIcon1} alt="" />
               <h3 className="service-item-title">Interchange fees</h3>
               <p className="service-item-text">
@@ -36,7 +45,7 @@ export default function HowItWorks() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6 mt-sm-0 mt-5">
-            <div className="services-item wow fadeInDown" data-wow-delay="0.2s">
+            <div className="services-item" ref={item2Ref}>
               <Image src={serviceIcon2} alt="" />
               <h3 className="service-item-title">Our Corporate</h3>
               <p className="service-item-text">
@@ -50,8 +59,8 @@ export default function HowItWorks() {
           </div>
           <div className="col-lg-4 col-md-6 mt-lg-0 mt-5 mx-auto">
             <div
-              className="services-item wow fadeInRight"
-              data-wow-delay="0.2s"
+              className="services-item"
+              ref={item3Ref}
             >
               <Image src={serviceIcon3} alt="" />
               <h3 className="service-item-title">European Regulation</h3>

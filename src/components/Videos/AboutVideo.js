@@ -1,18 +1,29 @@
 "use client";
-import React, { useEffect } from "react";
-import Slider from "react-slick";
-import GLightbox from "glightbox";
-import Link from "next/link";
-import Image from "next/image";
-import userSlide from "@/assets/images/home_2/user-slide.png";
-import smile from "@/assets/images/home_2/smile.png";
 import brand1 from "@/assets/images/brand/brand-1.svg";
 import brand2 from "@/assets/images/brand/brand-2.svg";
 import brand3 from "@/assets/images/brand/brand-3.svg";
 import brand4 from "@/assets/images/brand/brand-4.svg";
 import brand5 from "@/assets/images/brand/brand-5.svg";
+import smile from "@/assets/images/home_2/smile.png";
+import userSlide from "@/assets/images/home_2/user-slide.png";
+import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import GLightbox from "glightbox";
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect } from "react";
+import Slider from "react-slick";
 
 export default function AboutVideo() {
+  const videoSectionRef = useGsapReveal({ animation: 'fadeInUp' });
+  const textSectionRef = useGsapReveal({ animation: 'fadeInUp' });
+  const clientRefs = useGsapMultiple(6, [
+    { animation: 'fadeInRight', delay: 0.1 },
+    { animation: 'fadeInRight', delay: 0.3 },
+    { animation: 'fadeInRight', delay: 0.5 },
+    { animation: 'fadeInRight', delay: 0.1 },
+    { animation: 'fadeInRight', delay: 0.3 },
+    { animation: 'fadeInRight', delay: 0.5 },
+  ]);
   useEffect(() => {
     // eslint-disable-next-line
     let lightbox = GLightbox({
@@ -35,7 +46,7 @@ export default function AboutVideo() {
     <section className="user-area pt-150">
       <div className="container">
         <div className="custom-row">
-          <div className="row-item wow fadeInUp">
+          <div ref={videoSectionRef} className="row-item">
             <Slider {...settings} className="user-slider">
               <div>
                 <div className="single-user-slide-widget">
@@ -125,7 +136,7 @@ export default function AboutVideo() {
               </div>
             </Slider>
           </div>
-          <div className="row-item wow fadeInUp">
+          <div ref={textSectionRef} className="row-item">
             <h3>Trusted by more than 8,000 business in 140 countries.</h3>
             <Link className="btn" href="/testimonials">
               Meet our coustomers
@@ -133,48 +144,48 @@ export default function AboutVideo() {
             <div className="row justify-content-center mt-lg-80 mt-60">
               <div className="col-md-4">
                 <div
-                  className="client-image wow fadeInRight"
-                  data-wow-delay="0.1s"
+                  ref={clientRefs[0]}
+                  className="client-image"
                 >
                   <Image src={brand1} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
                 <div
-                  className="client-image wow fadeInRight"
-                  data-wow-delay="0.3s"
+                  ref={clientRefs[1]}
+                  className="client-image"
                 >
                   <Image src={brand2} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
                 <div
-                  className="client-image wow fadeInRight"
-                  data-wow-delay="0.5s"
+                  ref={clientRefs[2]}
+                  className="client-image"
                 >
                   <Image src={brand3} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
                 <div
-                  className="client-image wow fadeInRight"
-                  data-wow-delay="0.1s"
+                  ref={clientRefs[3]}
+                  className="client-image"
                 >
                   <Image src={brand4} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
                 <div
-                  className="client-image wow fadeInRight"
-                  data-wow-delay="0.3s"
+                  ref={clientRefs[4]}
+                  className="client-image"
                 >
                   <Image src={brand5} alt="Brand " />
                 </div>
               </div>
               <div className="col-md-4">
                 <div
-                  className="client-image wow fadeInRight"
-                  data-wow-delay="0.5s"
+                  ref={clientRefs[5]}
+                  className="client-image"
                 >
                   <Image src={brand1} alt="Brand " />
                 </div>

@@ -1,22 +1,30 @@
-import Image from "next/image";
-import shape8 from "@/assets/images/process/shape8.svg";
+"use client";
 import icon6 from "@/assets/images/process/icon6.svg";
-import shape9 from "@/assets/images/process/shape9.svg";
 import icon7 from "@/assets/images/process/icon7.svg";
-import shape10 from "@/assets/images/process/shape10.svg";
 import icon8 from "@/assets/images/process/icon8.svg";
 import icon9 from "@/assets/images/process/icon9.svg";
-;
+import shape10 from "@/assets/images/process/shape10.svg";
+import shape8 from "@/assets/images/process/shape8.svg";
+import shape9 from "@/assets/images/process/shape9.svg";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 export default function BusinessSteps() {
+  const refs = useGsapMultiple(5, [
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.4 },
+    { animation: 'fadeInLeft', delay: 0.6 },
+    { animation: 'fadeInLeft', delay: 0.8 },
+  ]);
   return (
     <section className="process-area-4 overflow-hidden pt-110 pb-140">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <h2
-              className="heading-3 text-center mb-90 wow fadeInUp"
-              data-wow-delay="0.1s"
+              ref={refs[0]}
+              className="heading-3 text-center mb-90"
             >
               Our approach to reach your business goals
             </h2>
@@ -26,8 +34,8 @@ export default function BusinessSteps() {
         <div className="row">
           <div className="col-md-3">
             <div
-              className="process-item-4 wow fadeInLeft"
-              data-wow-delay="0.2s"
+              ref={refs[1]}
+              className="process-item-4"
             >
               <Image src={shape8} alt="Border"
                 className="line-1" />
@@ -41,8 +49,8 @@ export default function BusinessSteps() {
           </div>
           <div className="col-md-3">
             <div
-              className="process-item-4 wow fadeInLeft"
-              data-wow-delay="0.4s"
+              ref={refs[2]}
+              className="process-item-4"
             >
               <Image src={shape9} alt="Border"
                 className="line-2" />
@@ -56,8 +64,8 @@ export default function BusinessSteps() {
           </div>
           <div className="col-md-3">
             <div
-              className="process-item-4 wow fadeInLeft"
-              data-wow-delay="0.6s"
+              ref={refs[3]}
+              className="process-item-4"
             >
               <Image src={shape10} alt="Border"
                 className="line-3" />
@@ -71,8 +79,8 @@ export default function BusinessSteps() {
           </div>
           <div className="col-md-3">
             <div
-              className="process-item-4 wow fadeInLeft"
-              data-wow-delay="0.8s"
+              ref={refs[4]}
+              className="process-item-4"
             >
               <Image src={icon9} alt="Icon"
                 className="item-icon mx-auto" />

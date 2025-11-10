@@ -1,12 +1,14 @@
 "use client";
 
-import { Autoplay, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 import testimonialImg1 from "@/assets/images/home_8/testimonial-img1.png";
 import testimonialImg2 from "@/assets/images/home_8/testimonial-img2.png";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import { Autoplay, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function TestimonialBilling() {
+  const titleRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
   const swiperOptions = {
     modules: [Pagination, Autoplay],
     pagination: {
@@ -40,8 +42,8 @@ export default function TestimonialBilling() {
         <div className="row">
           <div className="col-lg-12">
             <h2
-              className="testimonial-title wow fadeInDown text-center mb-60"
-              data-wow-delay="0.2s"
+              ref={titleRef}
+              className="testimonial-title text-center mb-60"
             >
               Satisfied Users
             </h2>

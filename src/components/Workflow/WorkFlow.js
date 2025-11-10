@@ -1,10 +1,15 @@
-import Image from "next/image";
+"use client";
 import features3 from "@/assets/images/features/features-3.png";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 
 export default function WorkFlow() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+  const navRef = useGsapReveal({ animation: 'fadeInUp' });
+  
   return (
-    <section className="features-area-three wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="features-area-three">
       <div className="container">
         <div className="row">
           <div className="col-12">
@@ -16,7 +21,7 @@ export default function WorkFlow() {
               </p>
             </div>
           </div>
-          <div className="col-12 wow fadeInUp">
+          <div ref={navRef} className="col-12">
             <nav>
               <div
                 className="nav justify-content-center"

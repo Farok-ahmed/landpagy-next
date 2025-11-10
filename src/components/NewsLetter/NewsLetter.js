@@ -1,10 +1,14 @@
-import Image from "next/image";
+"use client";
 import shape8 from "@/assets/images/shape/shape-8.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 ;
 
 export default function NewsLetter() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+
   return (
-    <section className="cta-area section-padding-xl bg-red-150 wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="cta-area section-padding-xl bg-red-150">
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">

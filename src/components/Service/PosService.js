@@ -1,18 +1,23 @@
-import Image from "next/image";
+"use client";
 import easyStartIcon1 from "@/assets/images/home_5/icons/easy-start-icon1.svg";
 import easyStartIcon2 from "@/assets/images/home_5/icons/easy-start-icon2.svg";
 import easyStartIcon3 from "@/assets/images/home_5/icons/easy-start-icon3.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 
 export default function PosService() {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
+  const paragraphRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+
   return (
     <section className="easy-start-area pt-135 pb-150">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">Getting Started Is Easy</h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <h2 ref={headingRef}>Getting Started Is Easy</h2>
+              <p ref={paragraphRef}>
                 Start using Landpagy POS software with a 14-day free trial and
                 get it ready for retail in 3 easy steps.
               </p>

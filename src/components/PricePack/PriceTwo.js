@@ -1,18 +1,29 @@
+"use client";
+import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Link from "next/link";
 ;
 
 export default function PriceTwo() {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
+  const paragraphRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+  const tabsRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+  const priceRefs = useGsapMultiple(3, [
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.5 },
+  ]);
+
   return (
     <section className="pricing-area-two pt-135 pb-150">
       <div className="container">
         <div className="section-title-center">
-          <h2 className="wow fadeInUp">Choose Your Plan</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.2s">
+          <h2 ref={headingRef}>Choose Your Plan</h2>
+          <p ref={paragraphRef}>
             Choose the right plan for your organization to establish and manage
             your program
           </p>
         </div>
-        <div className="text-center wow fadeInUp" data-wow-delay="0.2s">
+        <div ref={tabsRef} className="text-center">
           <ul
             className="nav nav-tabs pricing-tabs-two"
             id="myTab"
@@ -59,8 +70,8 @@ export default function PriceTwo() {
             <div className="row align-items-end gy-4 gy-lg-0">
               <div className="col-lg-4 col-md-6 order-lg-1 pe-28">
                 <div
-                  className="pricing-item-3 wow fadeInUp"
-                  data-wow-delay="0.1s"
+                  ref={priceRefs[0]}
+                  className="pricing-item-3"
                 >
                   <h5>Free</h5>
                   <div className="price-body">
@@ -96,8 +107,8 @@ export default function PriceTwo() {
               </div>
               <div className="order-3 px-3 mx-auto col-lg-4 col-md-6 order-lg-2 px-sm-0">
                 <div
-                  className="pricing-item-3 wow fadeInUp middle"
-                  data-wow-delay="0.3s"
+                  ref={priceRefs[1]}
+                  className="pricing-item-3 middle"
                 >
                   <h5>Business</h5>
                   <div className="price-body">
@@ -133,8 +144,8 @@ export default function PriceTwo() {
               </div>
               <div className="order-2 col-lg-4 col-md-6 order-lg-3 ps-28">
                 <div
-                  className="pricing-item-3 wow fadeInUp"
-                  data-wow-delay="0.5s"
+                  ref={priceRefs[2]}
+                  className="pricing-item-3"
                 >
                   <h5>Entreprise</h5>
                   <div className="price-body">

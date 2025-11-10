@@ -1,16 +1,29 @@
 "use client";
-;
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import CountUp from "react-countup";
 
 export default function DeveloperSteps() {
+  const refs = useGsapMultiple(11, [
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+  ]);
   return (
     <section className="overflow-hidden process-area-5 pb-175">
       <div className="container">
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <h2
-              className="text-center heading-3 mb-130 wow fadeInUp"
-              data-wow-delay="0.1s"
+              ref={refs[0]}
+              className="text-center heading-3 mb-130"
             >
               Landpagy Developer Process
             </h2>
@@ -23,8 +36,8 @@ export default function DeveloperSteps() {
           <div className="row flex-md-row flex-column-reverse">
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
-                className="process-rate-5 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[1]}
+                className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -37,8 +50,8 @@ export default function DeveloperSteps() {
             </div>
             <div className="col-md-9 col-lg-6">
               <div
-                className="process-content-5 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[2]}
+                className="process-content-5"
               >
                 <h3 className="content-title">
                   Excellent technical communication
@@ -57,8 +70,8 @@ export default function DeveloperSteps() {
           <div className="row flex-md-row flex-column-reverse">
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
-                className="process-rate-5 wow fadeInleft"
-                data-wow-delay="0.2s"
+                ref={refs[3]}
+                className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -71,8 +84,8 @@ export default function DeveloperSteps() {
             </div>
             <div className="col-md-9 col-lg-6">
               <div
-                className="process-content-5 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[4]}
+                className="process-content-5"
               >
                 <h3 className="content-title">Core skills and algorithms</h3>
                 <p className="content-text">
@@ -88,8 +101,8 @@ export default function DeveloperSteps() {
           <div className="row flex-md-row flex-column-reverse">
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
-                className="process-rate-5 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[5]}
+                className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -102,8 +115,8 @@ export default function DeveloperSteps() {
             </div>
             <div className="col-md-9 col-lg-6">
               <div
-                className="process-content-5 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[6]}
+                className="process-content-5"
               >
                 <h3 className="content-title">Proactive problem-solving</h3>
                 <p className="content-text">
@@ -120,8 +133,8 @@ export default function DeveloperSteps() {
           <div className="row flex-md-row flex-column-reverse">
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
-                className="process-rate-5 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[7]}
+                className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -134,8 +147,8 @@ export default function DeveloperSteps() {
             </div>
             <div className="col-md-9 col-lg-6">
               <div
-                className="process-content-5 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[8]}
+                className="process-content-5"
               >
                 <h3 className="content-title">End-to-End project execution</h3>
                 <p className="content-text">
@@ -151,8 +164,8 @@ export default function DeveloperSteps() {
           <div className="row flex-md-row flex-column-reverse">
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
-                className="process-rate-5 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[9]}
+                className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -164,8 +177,8 @@ export default function DeveloperSteps() {
             </div>
             <div className="col-md-9 col-lg-6">
               <div
-                className="process-content-5 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[10]}
+                className="process-content-5"
               >
                 <h3 className="content-title">Continued excellence</h3>
                 <p className="content-text">

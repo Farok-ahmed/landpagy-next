@@ -1,22 +1,27 @@
-import Image from "next/image";
+"use client";
 import icon1 from "@/assets/images/home_7/icons/icon1.svg";
 import icon2 from "@/assets/images/home_7/icons/icon2.svg";
 import icon3 from "@/assets/images/home_7/icons/icon3.svg";
 import icon4 from "@/assets/images/home_7/icons/icon4.svg";
 import logoIcon from "@/assets/images/home_7/icons/logo-icon.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 
 export default function WorkFlowThree() {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
+  const paragraphRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+  
   return (
     <section className="solution-area pt-135 pb-150">
       <div className="container container-soft2">
         <div className="row">
           <div className="col-12">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">
+              <h2 ref={headingRef}>
                 We create real solutions to real problems.
               </h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <p ref={paragraphRef}>
                 With our trusted brands, products and services, we continue to
                 evolve as emerging cyberthreats do. Our technology is powered by
                 a team of experienced experts dedicated to staying a step ahead

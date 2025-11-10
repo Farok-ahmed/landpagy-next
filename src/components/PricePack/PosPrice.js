@@ -1,7 +1,16 @@
+"use client";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Link from "next/link";
-;
 
 export default function PosPrice({ hasBG }) {
+  const refs = useGsapMultiple(6, [
+    { animation: 'fadeInUp' },
+    { animation: 'fadeInUp', delay: 0.2 },
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.5 },
+  ]);
   return (
     <section
       className={`choose-plan-area-three ${
@@ -10,13 +19,13 @@ export default function PosPrice({ hasBG }) {
     >
       <div className="container">
         <div className="section-title-center">
-          <h2 className="wow fadeInUp">Pick The Plan For You</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.2s">
-            Start wherever you are with your retail business and we’ll help you
+          <h2 ref={refs[0]}>Pick The Plan For You</h2>
+          <p ref={refs[1]}>
+            Start wherever you are with your retail business and we'll help you
             succeed. No hidden fees. Cancel anytime.
           </p>
         </div>
-        <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
+        <div ref={refs[2]} className="col-12">
           <nav>
             <div
               className="nav justify-content-center pricing-switcher"
@@ -59,8 +68,8 @@ export default function PosPrice({ hasBG }) {
               <div className="row gy-xl-0 gy-4 pricing-item-two-cotnainer">
                 <div className="col-xl-4 col-md-6">
                   <div
-                    className="pricing-item wow fadeInUp"
-                    data-wow-delay="0.1s"
+                    ref={refs[3]}
+                    className="pricing-item"
                   >
                     <h4>Startaer</h4>
                     <div className="price">
@@ -98,8 +107,8 @@ export default function PosPrice({ hasBG }) {
                 </div>
                 <div className="col-xl-4 col-md-6">
                   <div
-                    className="pricing-item active wow fadeInUp"
-                    data-wow-delay="0.3s"
+                    ref={refs[4]}
+                    className="pricing-item active"
                   >
                     <h4>Premium</h4>
                     <div className="price">
@@ -137,8 +146,8 @@ export default function PosPrice({ hasBG }) {
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div
-                    className="pricing-item wow fadeInUp"
-                    data-wow-delay="0.5s"
+                    ref={refs[5]}
+                    className="pricing-item"
                   >
                     <h4>Business</h4>
                     <div className="price">

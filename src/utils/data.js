@@ -1,67 +1,80 @@
+// Import home demo images
+import appDemo from "@/assets/images/home_demos/app.png";
+import billingDemo from "@/assets/images/home_demos/billing.png";
+import cloudDemo from "@/assets/images/home_demos/cloud.png";
+import helpDemo from "@/assets/images/home_demos/help.png";
+import hrmDemo from "@/assets/images/home_demos/hrm.png";
+import paymentDemo from "@/assets/images/home_demos/payment.png";
+import posDemo from "@/assets/images/home_demos/pos.png";
+import projectDemo from "@/assets/images/home_demos/project.png";
+import prototypeDemo from "@/assets/images/home_demos/proto.png";
+import software2Demo from "@/assets/images/home_demos/software-2.png";
+import softwareDemo from "@/assets/images/home_demos/software.png";
+
 const demoLinks = [
   {
     to: "/",
-    imgSrc: "/images/home_demos/project.png",
+    imgSrc: projectDemo,
     alt: "Demo",
     text: "Project Management",
   },
   {
     to: "/home-sc",
-    imgSrc: "/images/home_demos/software.png",
+    imgSrc: softwareDemo,
     alt: "Demo",
     text: "Software Company",
   },
   {
     to: "/home-sc-two",
-    imgSrc: "/images/home_demos/software-2.png",
+    imgSrc: software2Demo,
     alt: "Demo",
     text: "Software Demo Landing",
   },
   {
     to: "/home-payment",
-    imgSrc: "/images/home_demos/payment.png",
+    imgSrc: paymentDemo,
     alt: "Demo",
     text: "Payment Processing",
   },
   {
     to: "/home-billing",
-    imgSrc: "/images/home_demos/billing.png",
+    imgSrc: billingDemo,
     alt: "Demo",
     text: "Account Billing Software",
   },
   {
     to: "/home-cloud",
-    imgSrc: "/images/home_demos/cloud.png",
+    imgSrc: cloudDemo,
     alt: "Demo",
     text: "Cloud Saas",
   },
   {
     to: "/home-app",
-    imgSrc: "/images/home_demos/app.png",
+    imgSrc: appDemo,
     alt: "Demo",
     text: "Mobile App Landing",
   },
   {
     to: "/home-hrm",
-    imgSrc: "/images/home_demos/hrm.png",
+    imgSrc: hrmDemo,
     alt: "Demo",
     text: "HRM Software",
   },
   {
     to: "/home-pos",
-    imgSrc: "/images/home_demos/pos.png",
+    imgSrc: posDemo,
     alt: "Demo",
     text: "POS Software",
   },
   {
     to: "/home-prototype",
-    imgSrc: "/images/home_demos/proto.png",
+    imgSrc: prototypeDemo,
     alt: "Demo",
     text: "Prototype",
   },
   {
     to: "/home-help-center",
-    imgSrc: "/images/home_demos/help.png",
+    imgSrc: helpDemo,
     alt: "Demo",
     text: "Help Center",
   },
@@ -162,4 +175,5 @@ const jobLinks = {
   ],
 };
 
-export { demoLinks, elementsLinks, pagesLinks, blogLinks, jobLinks };
+export { blogLinks, demoLinks, elementsLinks, jobLinks, pagesLinks };
+

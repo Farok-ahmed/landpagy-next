@@ -1,30 +1,43 @@
 "use client";
-import Image from "next/image";
+import feature7 from "@/assets/images/features/feature-7.png";
+import feature from "@/assets/images/features/feature.png";
+import features4 from "@/assets/images/features/features-4.png";
+import featuresObject1 from "@/assets/images/features/features-object-1.svg";
+import featuresObject11 from "@/assets/images/features/features-object-11.svg";
+import featuresObject12 from "@/assets/images/features/features-object-12.svg";
+import featuresObject2 from "@/assets/images/features/features-object-2.svg";
+import featuresObject3 from "@/assets/images/features/features-object-3.svg";
+import featuresObject4 from "@/assets/images/features/features-object-4.svg";
+import featuresObject5 from "@/assets/images/features/features-object-5.svg";
+import featuresObject6 from "@/assets/images/features/features-object-6.svg";
+import featuresObject7 from "@/assets/images/features/features-object-7.svg";
+import featuresObject8 from "@/assets/images/features/features-object-8.svg";
+import featuresObject9 from "@/assets/images/features/features-object-9.svg";
 import shape1 from "@/assets/images/process/shape1.svg";
 import shape2 from "@/assets/images/process/shape2.svg";
 import shape3 from "@/assets/images/process/shape3.svg";
 import shape4 from "@/assets/images/process/shape4.svg";
 import shape5 from "@/assets/images/process/shape5.svg";
 import shape6 from "@/assets/images/process/shape6.svg";
-import features4 from "@/assets/images/features/features-4.png";
-import featuresObject6 from "@/assets/images/features/features-object-6.svg";
-import featuresObject7 from "@/assets/images/features/features-object-7.svg";
-import featuresObject8 from "@/assets/images/features/features-object-8.svg";
-import featuresObject9 from "@/assets/images/features/features-object-9.svg";
-import feature7 from "@/assets/images/features/feature-7.png";
-import featuresObject2 from "@/assets/images/features/features-object-2.svg";
-import featuresObject3 from "@/assets/images/features/features-object-3.svg";
-import featuresObject11 from "@/assets/images/features/features-object-11.svg";
-import featuresObject12 from "@/assets/images/features/features-object-12.svg";
-import feature from "@/assets/images/features/feature.png";
-import featuresObject1 from "@/assets/images/features/features-object-1.svg";
-import featuresObject4 from "@/assets/images/features/features-object-4.svg";
-import featuresObject5 from "@/assets/images/features/features-object-5.svg";
 import shape7 from "@/assets/images/process/shape7.svg";
-;
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 import { useParallax } from "react-scroll-parallax";
 
 export default function VerticalProcess() {
+  const refs = useGsapMultiple(10, [
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
+  ]);
+
   const shape1Parallax = useParallax({
     translateX: [100, -100, "easeInQuad"],
     translateY: [0, 0, "easeOutQuad"],
@@ -56,8 +69,8 @@ export default function VerticalProcess() {
           <div className="row">
             <div className="col-lg-6 col-md-7">
               <div
-                className="process-content-3 pt-30 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[0]}
+                className="process-content-3 pt-30"
               >
                 <span className="item-number">01</span>
                 <h3 className="item-title">Define your goals</h3>
@@ -72,8 +85,8 @@ export default function VerticalProcess() {
             </div>
             <div className="col-lg-6 col-md-5">
               <div
-                className="process-images-3 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[1]}
+                className="process-images-3"
               >
                 <Image src={shape1} alt="Shape"
                   className="shape" />
@@ -89,8 +102,8 @@ export default function VerticalProcess() {
           <div className="flex-row-reverse row">
             <div className="col-lg-6 col-md-7">
               <div
-                className="process-content-3 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[2]}
+                className="process-content-3"
               >
                 <span className="item-number">02</span>
                 <h3 className="item-title">
@@ -108,8 +121,8 @@ export default function VerticalProcess() {
             </div>
             <div className="col-lg-6 col-md-5">
               <div
-                className="process-images-3 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[3]}
+                className="process-images-3"
               >
                 <Image src={shape4} alt="Shape"
                   className="shape" />
@@ -125,8 +138,8 @@ export default function VerticalProcess() {
           <div className="row">
             <div className="col-lg-6 col-md-7">
               <div
-                className="process-content-3 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[4]}
+                className="process-content-3"
               >
                 <span className="item-number">03</span>
                 <h3 className="item-title">Plan and map your process</h3>
@@ -141,8 +154,8 @@ export default function VerticalProcess() {
             </div>
             <div className="col-lg-6 col-md-5">
               <div
-                className="process-images-3 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[5]}
+                className="process-images-3"
               >
                 <Image src={features4} alt="Features "
                   className="shape" />
@@ -165,8 +178,8 @@ export default function VerticalProcess() {
           <div className="flex-row-reverse row">
             <div className="col-lg-6 col-md-7">
               <div
-                className="process-content-3 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[6]}
+                className="process-content-3"
               >
                 <span className="item-number">04</span>
                 <h3 className="item-title">Implement the process</h3>
@@ -182,8 +195,8 @@ export default function VerticalProcess() {
             </div>
             <div className="col-lg-6 col-md-5">
               <div
-                className="process-images-3 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[7]}
+                className="process-images-3"
               >
                 <Image src={feature7} alt="Features "
                   className="shape" />
@@ -216,8 +229,8 @@ export default function VerticalProcess() {
           <div className="row">
             <div className="col-lg-6 col-md-7">
               <div
-                className="process-content-3 wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[8]}
+                className="process-content-3"
               >
                 <span className="item-number">05</span>
                 <h3 className="item-title">Monitor the results</h3>
@@ -231,8 +244,8 @@ export default function VerticalProcess() {
             </div>
             <div className="col-lg-6 col-md-5">
               <div
-                className="process-images-3 wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[9]}
+                className="process-images-3"
               >
                 <Image src={feature} alt="Features "
                   className="shape" />

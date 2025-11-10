@@ -1,10 +1,15 @@
-import Link from "next/link";
-import Image from "next/image";
+"use client";
 import footerShape from "@/assets/images/home_8/shape/footer-shape.svg";
 import logo2 from "@/assets/images/logo-2.png";
-;
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function FooterBilling() {
+  const refs = useGsapMultiple(2, [
+    { animation: 'fadeInDown', delay: 0.1 },
+    { animation: 'fadeInDown', delay: 0.3 },
+  ]);
   return (
     <footer className="footer-billing bg-black-800">
       <Image src={footerShape} alt="Shape"
@@ -14,8 +19,8 @@ export default function FooterBilling() {
           <div className="row">
             <div className="col-md-3">
               <div
-                className="footer-widget wow fadeInDown"
-                data-wow-delay="0.1s"
+                ref={refs[0]}
+                className="footer-widget"
               >
                 <Link href="/" className="mb-10 footer-logo">
                   <Image src={logo2} alt="Logo" />
@@ -28,8 +33,8 @@ export default function FooterBilling() {
             </div>
             <div className="col-md-3">
               <div
-                className="footer-widget wow fadeInDown"
-                data-wow-delay="0.3s"
+                ref={refs[1]}
+                className="footer-widget"
               >
                 <h4 className="widget-title">Company</h4>
                 <ul className="widget-link-list">

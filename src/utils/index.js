@@ -1,13 +1,5 @@
+// WOW.js has been replaced with GSAP + ScrollTrigger
+// Use the useGsapReveal hook from src/hooks/useGsapReveal.js for animations
 export const animationUtils = {
-  animaiton() {
-    if (typeof window !== "undefined") {
-      require("wowjs");
-      const WOW = window.WOW;
-      if (WOW) {
-        new WOW({
-          live: false,
-        }).init();
-      }
-    }
-  },
+  // Kept for backward compatibility - no longer needed with GSAP
 };

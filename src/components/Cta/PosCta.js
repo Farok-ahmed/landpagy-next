@@ -1,12 +1,16 @@
-import Link from "next/link";
-import Image from "next/image";
+"use client";
 import ctaShape1 from "@/assets/images/home_5/shapes/cta-shape1.svg";
 import ctaShape2 from "@/assets/images/home_5/shapes/cta-shape2.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import Link from "next/link";
 ;
 
 export default function PosCta() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp' });
+
   return (
-    <section className="cta-area-three cta-area-six wow fadeInUp">
+    <section ref={sectionRef} className="cta-area-three cta-area-six">
       <div className="container">
         <div className="cta-box bg-mariner pt-70 pb-70">
           <div className="bg-shapes">

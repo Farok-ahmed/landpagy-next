@@ -1,12 +1,16 @@
-import Image from "next/image";
+"use client";
 import feature5 from "@/assets/images/features/feature-5.png";
 import features8 from "@/assets/images/features/features-8.png";
 import features9 from "@/assets/images/features/features-9.png";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 
 export default function WorkFlowTwo() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+  
   return (
-    <section className="features-area-five section-padding wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="features-area-five section-padding">
       <div className="container">
         <div className="row">
           <div className="col-12">

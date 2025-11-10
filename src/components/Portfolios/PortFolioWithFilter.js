@@ -1,10 +1,8 @@
 "use client";
-import { React, useEffect, useRef, useState } from "react";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
-import Isotope from "isotope-layout";
-import imagesLoaded from "imagesloaded";
-import Image from "next/image";
 import softItem1 from "@/assets/images/home_7/soft-item1.jpg";
 import softItem2 from "@/assets/images/home_7/soft-item2.jpg";
 import softItem3 from "@/assets/images/home_7/soft-item3.jpg";
@@ -14,8 +12,16 @@ import softItem6 from "@/assets/images/home_7/soft-item6.jpg";
 import softItem7 from "@/assets/images/home_7/soft-item7.jpg";
 import softItem8 from "@/assets/images/home_7/soft-item8.jpg";
 import softItem9 from "@/assets/images/home_7/soft-item9.jpg";
+import imagesLoaded from "imagesloaded";
+import Isotope from "isotope-layout";
+import Image from "next/image";
 
 export default function PortFolioWithFilter() {
+  const refs = useGsapMultiple(2, [
+    { animation: 'fadeInUp' },
+    { animation: 'fadeInUp', delay: 0.2 },
+  ]);
+
   const isotope = useRef();
   const [filterKey, setFilterKey] = useState("*");
 
@@ -50,10 +56,10 @@ export default function PortFolioWithFilter() {
         <div className="row">
           <div className="col-12">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">
+              <h2 ref={refs[0]}>
                 70+ Pre-Built Demos for a Quick Start
               </h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <p ref={refs[1]}>
                 Featuring over 70 complete website packs including home pages,
                 landing pages and sales pages all designed in a clear and
                 user-friendly style.

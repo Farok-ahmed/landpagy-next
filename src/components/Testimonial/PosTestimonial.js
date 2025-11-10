@@ -1,14 +1,16 @@
 "use client";
 
+import author1 from "@/assets/images/home_5/author1.png";
+import author2 from "@/assets/images/home_5/author2.png";
+import author3 from "@/assets/images/home_5/author3.png";
+import quoteIcon from "@/assets/images/home_5/icons/quote-icon.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
-import quoteIcon from "@/assets/images/home_5/icons/quote-icon.svg";
-import author3 from "@/assets/images/home_5/author3.png";
-import author2 from "@/assets/images/home_5/author2.png";
-import author1 from "@/assets/images/home_5/author1.png";
 
 export default function PosTestimonial() {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
   const swiperOptions = {
     loop: true,
     modules: [Pagination, Autoplay],
@@ -42,7 +44,7 @@ export default function PosTestimonial() {
       <div className="container custom-container">
         <div className="row">
           <div className="section-title-center">
-            <h2 className="wow fadeInUp">Trusted by over 30,000+ merchants</h2>
+            <h2 ref={headingRef}>Trusted by over 30,000+ merchants</h2>
           </div>
         </div>
 

@@ -1,14 +1,16 @@
 "use client";
-import React, { useEffect } from "react";
+import testimonial1 from "@/assets/images/testimonial/testimonial-1.jpg";
+import testimonial from "@/assets/images/testimonial/testimonial.png";
+import useGsapReveal from "@/hooks/useGsapReveal";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
-import testimonial1 from "@/assets/images/testimonial/testimonial-1.jpg";
-import testimonial from "@/assets/images/testimonial/testimonial.png";
+import { useEffect } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const TestimonialOne = () => {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
   useEffect(() => {
     const panels = document.querySelectorAll(".panel");
     const container = document.querySelector(".scroll-container");
@@ -31,7 +33,7 @@ const TestimonialOne = () => {
   }, []);
 
   return (
-    <section className="bg-black testimonial-area testimonial wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="bg-black testimonial-area testimonial">
       <div id="fixedWrapper" className="pt-md-4">
         <div className="container">
           <div className="row">

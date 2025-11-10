@@ -1,8 +1,12 @@
+"use client";
+import useGsapReveal from "@/hooks/useGsapReveal";
 ;
 
 export default function FaqHelp() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+
   return (
-    <section className="faq-area help-center-faq wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="faq-area help-center-faq">
       <div className="container">
         <div className="row">
           <div className="col-12">

@@ -1,10 +1,11 @@
 "use client";
 
-import Slider from "react-slick";
+import useGsapReveal from "@/hooks/useGsapReveal";
 import Link from "next/link";
+import Slider from "react-slick";
 
-import Image from "next/image";
 import border from "@/assets/images/home_10/shapes/border.svg";
+import Image from "next/image";
 
 const clients = [
   {
@@ -52,6 +53,8 @@ const clients = [
 ];
 
 export default function AppTestimonial() {
+  const headingRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
+
   const slickOptions = {
     dots: true,
     arrows: false,
@@ -92,8 +95,8 @@ export default function AppTestimonial() {
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2
-              className="section-title cloud-heading-2 wow fadeInDown mb-55"
-              data-wow-delay="0.2s"
+              ref={headingRef}
+              className="section-title cloud-heading-2 mb-55"
             >
               What Our {""}
               <span>

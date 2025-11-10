@@ -1,14 +1,20 @@
+"use client";
 
-import CloudClient from "../Clients/CloudClient";
+import useGsapReveal from "@/hooks/useGsapReveal";
 import Link from "next/link";
+import CloudClient from "../Clients/CloudClient";
 
-import Image from "next/image";
-import shape8 from "@/assets/images/home_9/shapes/shape8.svg";
+import desktop1 from "@/assets/images/home_9/desktop1.png";
 import desktop2 from "@/assets/images/home_9/desktop2.png";
 import desktop3 from "@/assets/images/home_9/desktop3.png";
-import desktop1 from "@/assets/images/home_9/desktop1.png";
+import shape8 from "@/assets/images/home_9/shapes/shape8.svg";
+import Image from "next/image";
 
 export default function CloudService() {
+  const headingRef = useGsapReveal({ animation: 'fadeInDown' });
+  const imagesRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.3 });
+  const accordionRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.3 });
+
   return (
     <section className="cloud-services-area pt-45 pb-110">
       <div className="container">
@@ -16,7 +22,7 @@ export default function CloudService() {
 
         <div className="row">
           <div className="col-lg-12">
-            <h2 className="services-title cloud-heading-2 animatable fadeInDown text-center mt-100 mb-55">
+            <h2 ref={headingRef} className="services-title cloud-heading-2 text-center mt-100 mb-55">
               Available on all Your {""}
               <span>
                 Devices.
@@ -41,8 +47,8 @@ export default function CloudService() {
         <div className="row">
           <div className="col-lg-6">
             <div
-              className="accordion-images wow fadeInLeft mt-30"
-              data-wow-delay="0.3s"
+              ref={imagesRef}
+              className="accordion-images mt-30"
             >
               <div className="img">
                 <Image src={shape8} alt="" />
@@ -58,9 +64,9 @@ export default function CloudService() {
           </div>
           <div className="col-lg-6">
             <div
-              className="accordion accordion-flush cloud-accordion wow fadeInRight"
+              ref={accordionRef}
+              className="accordion accordion-flush cloud-accordion"
               id="accordionExample"
-              data-wow-delay="0.3s"
             >
               <div className="accordion-item">
                 <h2 className="accordion-header">

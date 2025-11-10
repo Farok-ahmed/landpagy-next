@@ -1,12 +1,17 @@
-import Image from "next/image";
-import feaShape2 from "@/assets/images/home_4/fea-shape2.svg";
+"use client";
 import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
 import dashboard from "@/assets/images/home_4/dashboard.png";
+import feaShape2 from "@/assets/images/home_4/fea-shape2.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 
 export default function WorkFlowHRM() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+  const tabsRef = useGsapReveal({ animation: 'fadeInUp' });
+
   return (
-    <section className="features-area-three features-area-three-hrm wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="features-area-three features-area-three-hrm">
       <div className="bg-shapes">
         <div className="shape">
           <Image src={feaShape2} alt="shape" />
@@ -26,7 +31,7 @@ export default function WorkFlowHRM() {
               </p>
             </div>
           </div>
-          <div className="col-12 wow fadeInUp">
+          <div ref={tabsRef} className="col-12">
             <nav>
               <div
                 className="nav justify-content-center"

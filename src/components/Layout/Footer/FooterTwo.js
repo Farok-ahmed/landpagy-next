@@ -1,16 +1,24 @@
-import Image from "next/image";
-import logo from "@/assets/images/logo.svg";
+"use client";
 import map from "@/assets/images/footer/map.png";
-;
+import logo from "@/assets/images/logo.svg";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 export default function FooterTwo() {
+  const refs = useGsapMultiple(5, [
+    { animation: 'fadeInLeft' },
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.5 },
+    { animation: 'fadeInUp', delay: 0.1 },
+  ]);
   return (
     <footer className="footer-software bg-linen pt-120">
       <div className="footer-top">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
-              <div className="footer-menu wow fadeInLeft">
+              <div ref={refs[0]} className="footer-menu">
                 <Image src={logo} className="footer-logo mb-20"
                   
                   alt="Footer Logo" />
@@ -43,8 +51,8 @@ export default function FooterTwo() {
               <div className="row justify-content-between">
                 <div className="col-md-4">
                   <div
-                    className="footer-menu wow fadeInUp"
-                    data-wow-delay="0.1s"
+                    ref={refs[1]}
+                    className="footer-menu"
                   >
                     <h4>Features</h4>
                     <ul>
@@ -65,8 +73,8 @@ export default function FooterTwo() {
                 </div>
                 <div className="col-md-4">
                   <div
-                    className="footer-menu wow fadeInUp"
-                    data-wow-delay="0.3s"
+                    ref={refs[2]}
+                    className="footer-menu"
                   >
                     <h4>Support</h4>
                     <ul>
@@ -90,8 +98,8 @@ export default function FooterTwo() {
                 </div>
                 <div className="col-md-4">
                   <div
-                    className="footer-menu wow fadeInUp"
-                    data-wow-delay="0.5s"
+                    ref={refs[3]}
+                    className="footer-menu"
                   >
                     <h4>location</h4>
                     <Image src={map} alt="map" />
@@ -103,7 +111,7 @@ export default function FooterTwo() {
         </div>
       </div>
       <div className="container">
-        <div className="footer-bottom wow fadeInUp" data-wow-delay="0.1s">
+        <div ref={refs[4]} className="footer-bottom">
           <div className="row align-items-center">
             <div className="col-lg-5">
               <ul>

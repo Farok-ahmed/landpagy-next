@@ -1,8 +1,15 @@
-import Image from "next/image";
+"use client";
 import aboutShape from "@/assets/images/about_2/shape/about-shape.png";
-;
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 export default function ElementsBreadcrumb({ title, description, wider }) {
+  const refs = useGsapMultiple(4, [
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+  ]);
   return (
     <section className="process-banner-area pt-150 pb-150">
       <Image src={aboutShape} className="shape"
@@ -13,25 +20,25 @@ export default function ElementsBreadcrumb({ title, description, wider }) {
           {wider ? (
             <div className="col-lg-10 offset-lg-1 text-center">
               <h1
-                className="banner-title wow fadeInUp mt-100 mb-20"
-                data-wow-delay="0.1s"
+                ref={refs[0]}
+                className="banner-title mt-100 mb-20"
               >
                 {title}
               </h1>
-              <p className="banner-text wow fadeInUp" data-wow-delay="0.3s">
+              <p ref={refs[1]} className="banner-text">
                 {description}
               </p>
             </div>
           ) : (
             <div className="col-lg-8 offset-lg-2">
               <h1
-                className="banner-title text-center wow fadeInUp mt-100"
-                data-wow-delay="0.1s"
+                ref={refs[2]}
+                className="banner-title text-center mt-100"
               >
                 {title}
               </h1>
               {description && (
-                <p className="banner-text wow fadeInUp" data-wow-delay="0.3s">
+                <p ref={refs[3]} className="banner-text">
                   {description}
                 </p>
               )}

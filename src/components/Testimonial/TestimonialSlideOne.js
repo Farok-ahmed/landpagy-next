@@ -1,10 +1,13 @@
 "use client";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import Image from "next/image";
 import testimonial1 from "@/assets/images/testimonial/testimonial-1.jpg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function TestimonialSlideOne() {
+  const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+
   const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 50,
@@ -16,7 +19,7 @@ export default function TestimonialSlideOne() {
     },
   };
   return (
-    <section className="testimonial-area testimonial-area-two bg-white-800 wow fadeInUp animate__fast">
+    <section ref={sectionRef} className="testimonial-area testimonial-area-two bg-white-800">
       <div id="testimonial-2" className="swiper-container">
         <Swiper {...swiperOptions}>
           <SwiperSlide>

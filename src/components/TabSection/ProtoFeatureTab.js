@@ -1,20 +1,25 @@
-import Image from "next/image";
+"use client";
 import feaImg from "@/assets/images/home_6/fea-img.jpg";
-import feaShape1 from "@/assets/images/home_6/fea-shape1.svg";
-import feaShape2 from "@/assets/images/home_6/fea-shape2.svg";
 import feaImg2 from "@/assets/images/home_6/fea-img2.png";
 import feaImg3 from "@/assets/images/home_6/fea-img3.png";
+import feaShape1 from "@/assets/images/home_6/fea-shape1.svg";
+import feaShape2 from "@/assets/images/home_6/fea-shape2.svg";
+import useGsapReveal from "@/hooks/useGsapReveal";
+import Image from "next/image";
 
 
 const ProtoFeatureTab = () => {
+  const headingRef = useGsapReveal({ animation: 'fadeInUp' });
+  const paragraphRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+
   return (
     <section className="features-area-13 pt-135 pb-120">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">Kick-start your next web project</h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <h2 ref={headingRef}>Kick-start your next web project</h2>
+              <p ref={paragraphRef}>
                 Pick a template and customize it with our powerful editor by
                 adding or removing pages, blocks, and elements.
               </p>

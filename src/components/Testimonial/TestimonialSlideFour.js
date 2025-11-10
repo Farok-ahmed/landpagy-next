@@ -1,12 +1,13 @@
 "use client";
 
-import { Parallax } from "react-scroll-parallax";
-import Slider from "react-slick";
-import Image from "next/image";
-import testimonialShape from "@/assets/images/home_3/testimonial-shape.svg";
 import testimonial1 from "@/assets/images/home_3/testimonial-1.png";
 import testimonial2 from "@/assets/images/home_3/testimonial-2.jpg";
 import testimonial3 from "@/assets/images/home_3/testimonial-3.jpg";
+import testimonialShape from "@/assets/images/home_3/testimonial-shape.svg";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import { Parallax } from "react-scroll-parallax";
+import Slider from "react-slick";
 
 const SlickBtnPrev = ({ currentSlide, slideCount, children, ...props }) => (
   <button className="slick-prev" {...props}>
@@ -20,6 +21,11 @@ const SlickBtnNext = ({ currentSlide, slideCount, children, ...props }) => (
 );
 
 export default function TestimonialSlideFour() {
+  const refs = useGsapMultiple(2, [
+    { animation: 'fadeInUp' },
+    { animation: 'fadeInUp' },
+  ]);
+
   const slickOptions = {
     dots: false,
     arrows: true,
@@ -55,7 +61,7 @@ export default function TestimonialSlideFour() {
               alt="" />
           </Parallax>
         </div>
-        <div className="section-title-center wow fadeInUp">
+        <div className="section-title-center" ref={refs[0]}>
           <h2>
             Why 15,000+ businesses choose <br />
             Landpagy to grow
@@ -63,7 +69,8 @@ export default function TestimonialSlideFour() {
         </div>
         <Slider
           {...slickOptions}
-          className="testimonial-slider-six position-relative wow fadeInUp"
+          ref={refs[1]}
+          className="testimonial-slider-six position-relative"
         >
           <div className="single-slide">
             <div className="row align-items-center">

@@ -1,14 +1,23 @@
+"use client";
+import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Link from "next/link";
 
-import bannerShape5 from "@/assets/images/home_2/banner-shape-5.svg";
 import bannerShape4 from "@/assets/images/home_2/banner-shape-4.svg";
+import bannerShape5 from "@/assets/images/home_2/banner-shape-5.svg";
 import userIcon1 from "@/assets/images/home_2/user-icon-1.png";
 import userIcon2 from "@/assets/images/home_2/user-icon-2.png";
 import userIcon3 from "@/assets/images/home_2/user-icon-3.png";
-;
 
 export default function PriceOne({ hasShapes }) {
+  const refs = useGsapMultiple(6, [
+    { animation: 'fadeInUp' },
+    { animation: 'fadeInUp', delay: 0.2 },
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.1 },
+    { animation: 'fadeInUp', delay: 0.3 },
+    { animation: 'fadeInUp', delay: 0.5 },
+  ]);
   return (
     <section className="choose-plan-area pt-135 pb-140">
       {hasShapes && (
@@ -27,13 +36,13 @@ export default function PriceOne({ hasShapes }) {
       )}
       <div className="container">
         <div className="section-title-center">
-          <h2 className="wow fadeInUp">Choose Your Plan</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.2s">
+          <h2 ref={refs[0]}>Choose Your Plan</h2>
+          <p ref={refs[1]}>
             Choose the right plan for your organization to establish and manage
             your program
           </p>
         </div>
-        <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
+        <div ref={refs[2]} className="col-12">
           <nav>
             <div
               className="nav justify-content-center pricing-switcher"
@@ -79,8 +88,8 @@ export default function PriceOne({ hasShapes }) {
               <div className="row gy-xl-0 gy-4 pricing-item-two-cotnainer">
                 <div className="col-xl-4 col-md-6">
                   <div
-                    className="pricing-item-2 wow fadeInUp"
-                    data-wow-delay="0.1s"
+                    ref={refs[3]}
+                    className="pricing-item-2"
                   >
                     <Image src={userIcon1} alt="icon" />
                     <h4>Startaer</h4>
@@ -96,8 +105,8 @@ export default function PriceOne({ hasShapes }) {
                 </div>
                 <div className="col-xl-4 col-md-6">
                   <div
-                    className="pricing-item-2 wow fadeInUp active"
-                    data-wow-delay="0.3s"
+                    ref={refs[4]}
+                    className="pricing-item-2 active"
                   >
                     <Image src={userIcon2} alt="icon" />
                     <h4>Business</h4>
@@ -113,8 +122,8 @@ export default function PriceOne({ hasShapes }) {
                 </div>
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div
-                    className="pricing-item-2 wow fadeInUp"
-                    data-wow-delay="0.5s"
+                    ref={refs[5]}
+                    className="pricing-item-2"
                   >
                     <Image src={userIcon3} alt="icon" />
                     <h4>Entreprise</h4>
