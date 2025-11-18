@@ -22,14 +22,14 @@ export default function BillingCta() {
           </div>
         </div>
         <div className="row align-items-center b-radius bg-pippin pl-55 pr-55 pt-65 pb-65">
-          <div className="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+          <div className="col-lg-6">
             <h2 className="cta-title mb-20">Try Landpagy for free</h2>
             <p className="cta-text">
               100% free, unlimited trial — upgrade only when you're ready to
               launch. No credit card required.
             </p>
           </div>
-          <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+          <div className="col-lg-6">
             <Link href="/" className="btn-black float-start float-lg-end">
               Get Start Free
             </Link>

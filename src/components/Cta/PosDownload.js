@@ -34,21 +34,21 @@ export default function PosDownload() {
                   <li>
                     <p>
                       <Image src={hardwareIcon1} alt="Icon"
-                        className="hardware-icon" />
+                       className="hardware-icon" />
                       Printers
                     </p>
                   </li>
                   <li>
                     <p>
                       <Image src={hardwareIcon2} alt="Icon"
-                        className="hardware-icon" />
+                       className="hardware-icon" />
                       Customer Display
                     </p>
                   </li>
                   <li>
                     <p>
                       <Image src={hardwareIcon3} alt="Icon"
-                        className="hardware-icon" />
+                       className="hardware-icon" />
                       Payment Terminals
                     </p>
                   </li>
@@ -59,21 +59,21 @@ export default function PosDownload() {
                   <li>
                     <p>
                       <Image src={hardwareIcon4} alt="Icon"
-                        className="hardware-icon" />
+                       className="hardware-icon" />
                       Cash Drawer
                     </p>
                   </li>
                   <li>
                     <p>
                       <Image src={hardwareIcon5} alt="Icon"
-                        className="hardware-icon" />
+                       className="hardware-icon" />
                       Barcode Scanner
                     </p>
                   </li>
                   <li>
                     <p>
                       <Image src={hardwareIcon6} alt="Icon"
-                        className="hardware-icon" />
+                       className="hardware-icon" />
                       NFC / RFID Readers
                     </p>
                   </li>
@@ -91,19 +91,19 @@ export default function PosDownload() {
                   <li>
                     <Link href="/">
                       <Image src={appleIcon} alt="Icon"
-                        className="app-icon" />
+                       className="app-icon" />
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
                       <Image src={androidIcon} alt="Icon"
-                        className="app-icon" />
+                       className="app-icon" />
                     </Link>
                   </li>
                   <li>
                     <Link href="/">
                       <Image src={windowsIcon} alt="Icon"
-                        className="app-icon" />
+                       className="app-icon" />
                     </Link>
                   </li>
                 </ul>

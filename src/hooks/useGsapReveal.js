@@ -42,6 +42,9 @@ export const useGsapReveal = ({
 
     const element = ref.current;
     
+    // Check if element is a valid DOM element
+    if (!(element instanceof Element)) return;
+    
     // Get all elements if it's a container with children to animate
     const elements = element.hasAttribute('data-gsap-children') 
       ? element.children 

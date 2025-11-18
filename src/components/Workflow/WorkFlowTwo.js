@@ -20,9 +20,9 @@ export default function WorkFlowTwo() {
             <div className="feature-image">
               <Image src={feature5} alt="Features " />
               <Image src={features8} alt="Features "
-                className="features8" />
+               className="features8" />
               <Image src={features9} alt="Features "
-                className="features9" />
+               className="features9" />
               <p>
                 We're here every step of the way making sure you and your team
                 deliver. We're here every step of the way making sure you and

@@ -19,13 +19,13 @@ export default function ComparePriceTable() {
                 <div className="text-center sub-padding">
                   <h3 className="plan-title">Landpagy Enterprise Plan</h3>
                   <ul
-                    className="nav nav-tabs pricing-switcher-2"
+                   className="nav nav-tabs pricing-switcher-2"
                     id="myTab"
                     role="tablist"
                   >
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link active"
+                       className="nav-link active"
                         id="monthly3-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#monthly3"
@@ -39,7 +39,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link"
+                       className="nav-link"
                         id="annual3-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#annual3"
@@ -55,7 +55,7 @@ export default function ComparePriceTable() {
 
                   <div className="tab-content" id="myTabContent">
                     <div
-                      className="tab-pane fade show active"
+                     className="tab-pane fade show active"
                       id="monthly3"
                       role="tabpanel"
                       aria-labelledby="monthly3-tab"
@@ -68,7 +68,7 @@ export default function ComparePriceTable() {
                       <p className="saving-price">$45.25% OFF</p>
                     </div>
                     <div
-                      className="tab-pane fade"
+                     className="tab-pane fade"
                       id="annual3"
                       role="tabpanel"
                       aria-labelledby="annual3-tab"
@@ -93,7 +93,7 @@ export default function ComparePriceTable() {
                   <ul className="compare-features">
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-1"
@@ -104,7 +104,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-1"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -118,7 +118,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-2"
@@ -129,7 +129,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-2"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -143,7 +143,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-4"
@@ -154,7 +154,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-4"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -168,7 +168,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-5"
@@ -179,7 +179,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-5"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -193,7 +193,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-6"
@@ -204,7 +204,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-6"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -218,7 +218,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-7"
@@ -229,7 +229,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-7"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -243,7 +243,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-8"
@@ -254,7 +254,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-8"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -268,7 +268,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-8"
@@ -279,7 +279,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-8"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -293,7 +293,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-10"
@@ -304,7 +304,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-10"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -318,7 +318,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-11"
@@ -329,7 +329,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-11"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -343,7 +343,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-12"
@@ -354,7 +354,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-12"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -368,7 +368,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-13"
@@ -379,7 +379,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-13"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -393,7 +393,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-14"
@@ -404,7 +404,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-14"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -418,7 +418,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-15"
@@ -429,7 +429,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-15"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -443,7 +443,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-16"
@@ -454,7 +454,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-16"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -468,7 +468,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-17"
@@ -479,7 +479,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-17"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -493,7 +493,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-18"
@@ -504,7 +504,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-18"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -518,7 +518,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-19"
@@ -529,7 +529,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-19"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -543,7 +543,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-20"
@@ -554,7 +554,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-20"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -568,7 +568,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-22"
@@ -579,7 +579,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-22"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -599,13 +599,13 @@ export default function ComparePriceTable() {
                 <div className="text-center sub-padding">
                   <h3 className="plan-title">Landpagy Unlimited Plus</h3>
                   <ul
-                    className="nav nav-tabs pricing-switcher-2"
+                   className="nav nav-tabs pricing-switcher-2"
                     id="myTab"
                     role="tablist"
                   >
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link active"
+                       className="nav-link active"
                         id="monthly4-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#monthly4"
@@ -619,7 +619,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="nav-item" role="presentation">
                       <button
-                        className="nav-link"
+                       className="nav-link"
                         id="annual4-tab"
                         data-bs-toggle="tab"
                         data-bs-target="#annual4"
@@ -635,7 +635,7 @@ export default function ComparePriceTable() {
 
                   <div className="tab-content" id="myTabContent">
                     <div
-                      className="tab-pane fade show active"
+                     className="tab-pane fade show active"
                       id="monthly4"
                       role="tabpanel"
                       aria-labelledby="monthly4-tab"
@@ -653,7 +653,7 @@ export default function ComparePriceTable() {
                       </p>
                     </div>
                     <div
-                      className="tab-pane fade"
+                     className="tab-pane fade"
                       id="annual4"
                       role="tabpanel"
                       aria-labelledby="annual4-tab"
@@ -675,7 +675,7 @@ export default function ComparePriceTable() {
                   <ul className="compare-features">
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-1"
@@ -686,7 +686,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-1"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -700,7 +700,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-2"
@@ -711,7 +711,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-2"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -725,7 +725,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-4"
@@ -736,7 +736,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-4"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -750,7 +750,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-5"
@@ -761,7 +761,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-5"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -775,7 +775,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-6"
@@ -786,7 +786,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-6"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -800,7 +800,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-7"
@@ -811,7 +811,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-7"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -825,7 +825,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-8"
@@ -836,7 +836,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-8"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -850,7 +850,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-8"
@@ -861,7 +861,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-8"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -875,7 +875,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-10"
@@ -886,7 +886,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-10"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -900,7 +900,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-11"
@@ -911,7 +911,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-11"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -925,7 +925,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-12"
@@ -936,7 +936,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-12"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -950,7 +950,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-13"
@@ -961,7 +961,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-13"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -975,7 +975,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-14"
@@ -986,7 +986,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-14"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1000,7 +1000,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-15"
@@ -1011,7 +1011,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-15"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1025,7 +1025,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-16"
@@ -1036,7 +1036,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-16"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1050,7 +1050,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-17"
@@ -1061,7 +1061,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-17"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1075,7 +1075,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-18"
@@ -1086,7 +1086,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-18"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1100,7 +1100,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-19"
@@ -1111,7 +1111,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-19"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1125,7 +1125,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-20"
@@ -1136,7 +1136,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-20"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1150,7 +1150,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-22"
@@ -1161,7 +1161,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-22"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1175,7 +1175,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-21"
@@ -1186,7 +1186,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-21"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1200,7 +1200,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-23"
@@ -1211,7 +1211,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-23"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1225,7 +1225,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-24"
@@ -1236,7 +1236,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-24"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1250,7 +1250,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-25"
@@ -1261,7 +1261,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-25"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1275,7 +1275,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-26"
@@ -1286,7 +1286,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-26"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1300,7 +1300,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-27"
@@ -1311,7 +1311,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-27"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1325,7 +1325,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-28"
@@ -1336,7 +1336,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-28"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1350,7 +1350,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-29"
@@ -1361,7 +1361,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-29"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1375,7 +1375,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-30"
@@ -1386,7 +1386,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-30"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1400,7 +1400,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-31"
@@ -1411,7 +1411,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-31"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1425,7 +1425,7 @@ export default function ComparePriceTable() {
                     </li>
                     <li className="feature-title">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-32"
@@ -1436,7 +1436,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-32"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1464,13 +1464,13 @@ export default function ComparePriceTable() {
                       <div className="text-center sub-padding">
                         <h3 className="plan-title">Landpagy Enterprise Plan</h3>
                         <ul
-                          className="nav nav-tabs pricing-switcher-2"
+                         className="nav nav-tabs pricing-switcher-2"
                           id="myTab"
                           role="tablist"
                         >
                           <li className="nav-item" role="presentation">
                             <button
-                              className="nav-link active"
+                             className="nav-link active"
                               id="monthly2-tab"
                               data-bs-toggle="tab"
                               data-bs-target="#monthly2"
@@ -1484,7 +1484,7 @@ export default function ComparePriceTable() {
                           </li>
                           <li className="nav-item" role="presentation">
                             <button
-                              className="nav-link"
+                             className="nav-link"
                               id="annual2-tab"
                               data-bs-toggle="tab"
                               data-bs-target="#annual2"
@@ -1500,7 +1500,7 @@ export default function ComparePriceTable() {
 
                         <div className="tab-content" id="myTabContent">
                           <div
-                            className="tab-pane fade show active"
+                           className="tab-pane fade show active"
                             id="monthly2"
                             role="tabpanel"
                             aria-labelledby="monthly2-tab"
@@ -1513,7 +1513,7 @@ export default function ComparePriceTable() {
                             <p className="saving-price">$45.25% OFF</p>
                           </div>
                           <div
-                            className="tab-pane fade"
+                           className="tab-pane fade"
                             id="annual2"
                             role="tabpanel"
                             aria-labelledby="annual2-tab"
@@ -1540,13 +1540,13 @@ export default function ComparePriceTable() {
                       <div className="text-center sub-padding">
                         <h3 className="plan-title">Landpagy Unlimited Plus</h3>
                         <ul
-                          className="nav nav-tabs pricing-switcher-2"
+                         className="nav nav-tabs pricing-switcher-2"
                           id="myTab"
                           role="tablist"
                         >
                           <li className="nav-item" role="presentation">
                             <button
-                              className="nav-link active"
+                             className="nav-link active"
                               id="monthly2-2-tab"
                               data-bs-toggle="tab"
                               data-bs-target="#monthly2-2"
@@ -1560,7 +1560,7 @@ export default function ComparePriceTable() {
                           </li>
                           <li className="nav-item" role="presentation">
                             <button
-                              className="nav-link"
+                             className="nav-link"
                               id="annual2-2-tab"
                               data-bs-toggle="tab"
                               data-bs-target="#annual2-2"
@@ -1576,7 +1576,7 @@ export default function ComparePriceTable() {
 
                         <div className="tab-content" id="myTabContent">
                           <div
-                            className="tab-pane fade show active"
+                           className="tab-pane fade show active"
                             id="monthly2-2"
                             role="tabpanel"
                             aria-labelledby="monthly2-2-tab"
@@ -1589,7 +1589,7 @@ export default function ComparePriceTable() {
                             <p className="saving-price">$45.25% OFF</p>
                           </div>
                           <div
-                            className="tab-pane fade"
+                           className="tab-pane fade"
                             id="annual2-2"
                             role="tabpanel"
                             aria-labelledby="annual2-2-tab"
@@ -1625,7 +1625,7 @@ export default function ComparePriceTable() {
 
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-1"
@@ -1636,7 +1636,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-1"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1673,7 +1673,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-2"
@@ -1684,7 +1684,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-2"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1714,7 +1714,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-3"
@@ -1725,7 +1725,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-3"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1755,7 +1755,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-4"
@@ -1766,7 +1766,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-4"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1796,7 +1796,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-5"
@@ -1807,7 +1807,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-5"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1837,7 +1837,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-6"
@@ -1848,7 +1848,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-6"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1878,7 +1878,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-7"
@@ -1889,7 +1889,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-7"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1919,7 +1919,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-8"
@@ -1930,7 +1930,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-8"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -1960,7 +1960,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-9"
@@ -1971,7 +1971,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-9"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2001,7 +2001,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-10"
@@ -2012,7 +2012,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-10"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2042,7 +2042,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-11"
@@ -2053,7 +2053,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-11"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2083,7 +2083,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-12"
@@ -2094,7 +2094,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-12"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2131,7 +2131,7 @@ export default function ComparePriceTable() {
 
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-13"
@@ -2142,7 +2142,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-13"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2175,7 +2175,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-14"
@@ -2186,7 +2186,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-14"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2216,7 +2216,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-15"
@@ -2227,7 +2227,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-15"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2264,7 +2264,7 @@ export default function ComparePriceTable() {
 
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-16"
@@ -2275,7 +2275,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-16"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2305,7 +2305,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-17"
@@ -2316,7 +2316,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-17"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2346,7 +2346,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-18"
@@ -2357,7 +2357,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-18"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2387,7 +2387,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-19"
@@ -2398,7 +2398,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-19"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2428,7 +2428,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-20"
@@ -2439,7 +2439,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-20"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2477,7 +2477,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-21"
@@ -2488,7 +2488,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-21"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2518,7 +2518,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-22"
@@ -2529,7 +2529,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-22"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2559,7 +2559,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-23"
@@ -2570,7 +2570,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-23"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2600,7 +2600,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-24"
@@ -2611,7 +2611,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-24"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2641,7 +2641,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-25"
@@ -2652,7 +2652,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-25"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2682,7 +2682,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-26"
@@ -2693,7 +2693,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-26"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2723,7 +2723,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-27"
@@ -2734,7 +2734,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-27"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2764,7 +2764,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-28"
@@ -2775,7 +2775,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-28"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2805,7 +2805,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-29"
@@ -2816,7 +2816,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-29"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2846,7 +2846,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-30"
@@ -2857,7 +2857,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-30"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2887,7 +2887,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row">
                     <td className="feature-title table-title-bg gray-bottom">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-31"
@@ -2898,7 +2898,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-31"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>
@@ -2928,7 +2928,7 @@ export default function ComparePriceTable() {
                   <tr className="feature-row red-bottom">
                     <td className="feature-title table-title-bg">
                       <button
-                        className="feature-btn collapsed"
+                       className="feature-btn collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#feature-32"
@@ -2939,7 +2939,7 @@ export default function ComparePriceTable() {
 
                       <div
                         id="feature-32"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                       >
                         <div className="feature-body">
                           <p>

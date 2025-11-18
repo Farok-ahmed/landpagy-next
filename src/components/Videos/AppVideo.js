@@ -18,7 +18,7 @@ export default function AppVideo() {
           <div className="col-12">
             <div className="app-video-wrapp">
               <a
-                className="play-btn"
+               className="play-btn"
                 href="https://www.youtube.com/watch?v=eNrCEqucHb4"
               >
                 <i className="fas fa-play"></i>

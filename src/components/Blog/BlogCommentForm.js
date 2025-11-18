@@ -26,7 +26,7 @@ export default function BlogCommentForm() {
         </div>
         <div className="col-md-12 form-group check-input">
           <input
-            className="form-check-input"
+           className="form-check-input"
             type="checkbox"
             id="flexCheckDefault"
             name="flexCheckDefault"

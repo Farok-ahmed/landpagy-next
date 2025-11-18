@@ -1,15 +1,29 @@
+"use client";
 import Link from "next/link";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function JobList() {
+  // GSAP animation refs
+  const titleRef = useGsapReveal({ animation: 'fadeInRight' });
+  const sortRef = useGsapReveal({ animation: 'fadeInLeft' });
+  const job1Ref = useGsapReveal({ animation: 'fadeInUp' });
+  const job2Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.1 });
+  const job3Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.3 });
+  const job4Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.5 });
+  const job5Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.6 });
+  const job6Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.7 });
+  const job7Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.8 });
+  const job8Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.9 });
+  const moreJobsRef = useGsapReveal({ animation: 'fadeInUp' });
+
   return (
     <div className="job-post-widget">
       <div className="mt-4 sidebar-header d-flex justify-content-between align-items-center mt-lg-0">
-        <div className="sidebar-title">
-          <h4 className="wow fadeInRight">25 job offers</h4>
+        <div className="sidebar-title" ref={titleRef}>
+          <h4>25 job offers</h4>
         </div>
 
-        <div className="sorting-select wow fadeInLeft me-1">
+        <div className="sorting-select me-1" ref={sortRef}>
           <select id="sort-select" className="nice-select-common">
             <option defaultValue="SortBy Newest">SortBy Newest</option>
             <option defaultValue="SortBy Oldest">SortBy Oldest</option>
@@ -19,7 +33,7 @@ export default function JobList() {
         </div>
       </div>
 
-      <div className="single-job-post me-1 wow fadeInUp mt-25">
+      <div className="single-job-post me-1 mt-25" ref={job1Ref}>
         <div className="post-header">
           <div>
             <h6 className="job-title">
@@ -45,8 +59,8 @@ export default function JobList() {
         </div>
       </div>
       <div
-        className="single-job-post me-1 wow fadeInUp mt-25"
-        data-wow-delay="0.1s"
+       className="single-job-post me-1 mt-25"
+        ref={job2Ref}
       >
         <div className="post-header">
           <div>
@@ -76,8 +90,8 @@ export default function JobList() {
       </div>
 
       <div
-        className="single-job-post me-1 wow fadeInUp mt-25"
-        data-wow-delay="0.3s"
+       className="single-job-post me-1 mt-25"
+        ref={job3Ref}
       >
         <div className="post-header">
           <div>
@@ -106,8 +120,8 @@ export default function JobList() {
         </div>
       </div>
       <div
-        className="single-job-post me-1 wow fadeInUp mt-25"
-        data-wow-delay="0.5s"
+       className="single-job-post me-1 mt-25"
+        ref={job4Ref}
       >
         <div className="post-header">
           <div>
@@ -134,8 +148,8 @@ export default function JobList() {
         </div>
       </div>
       <div
-        className="single-job-post me-1 wow fadeInUp mt-25"
-        data-wow-delay="0.6s"
+       className="single-job-post me-1 mt-25"
+        ref={job5Ref}
       >
         <div className="post-header">
           <div>
@@ -164,8 +178,8 @@ export default function JobList() {
         </div>
       </div>
       <div
-        className="single-job-post me-1 wow fadeInUp mt-25"
-        data-wow-delay="0.7s"
+       className="single-job-post me-1 mt-25"
+        ref={job6Ref}
       >
         <div className="post-header">
           <div>
@@ -194,8 +208,8 @@ export default function JobList() {
         </div>
       </div>
       <div
-        className="single-job-post me-1 wow fadeInUp mt-25"
-        data-wow-delay="0.8s"
+       className="single-job-post me-1 mt-25"
+        ref={job7Ref}
       >
         <div className="post-header">
           <div>
@@ -224,8 +238,8 @@ export default function JobList() {
         </div>
       </div>
       <div
-        className="single-job-post me-1 wow fadeInUp mt-25"
-        data-wow-delay="0.9s"
+       className="single-job-post me-1 mt-25"
+        ref={job8Ref}
       >
         <div className="post-header">
           <div>
@@ -254,7 +268,7 @@ export default function JobList() {
         </div>
       </div>
 
-      <div className="text-center mt-70 wow fadeInUp">
+      <div className="text-center mt-70" ref={moreJobsRef}>
         <Link href="/" className="btn">
           More jobs
         </Link>

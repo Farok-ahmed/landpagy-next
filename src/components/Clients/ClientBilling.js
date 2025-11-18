@@ -13,27 +13,27 @@ export default function ClientBilling() {
         <div className="row">
           <div className="col-lg-12">
             <p
-              className="clients-text wow fadeInDown text-center mb-65"
-              data-wow-delay="0.2s"
+             className="clients-text text-center mb-65"
+             
             >
               trusted by more than <span>600 companies</span> around the globe
             </p>
           </div>
         </div>
         <div className="row mr-60 ml-60">
-          <div className="client-img wow fadeInLeft" data-wow-delay="0.1s">
+          <div className="client-img">
             <Image src={brand1} alt="" />
           </div>
-          <div className="client-img wow fadeInLeft" data-wow-delay="0.3s">
+          <div className="client-img">
             <Image src={brand2} alt="" />
           </div>
-          <div className="client-img wow fadeInLeft" data-wow-delay="0.5s">
+          <div className="client-img">
             <Image src={brand3} alt="" />
           </div>
-          <div className="client-img wow fadeInLeft" data-wow-delay="0.7s">
+          <div className="client-img">
             <Image src={brand4} alt="" />
           </div>
-          <div className="client-img wow fadeInLeft" data-wow-delay="0.9s">
+          <div className="client-img">
             <Image src={brand5} alt="" />
           </div>
         </div>

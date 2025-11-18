@@ -96,7 +96,7 @@ export default function AppTestimonial() {
           <div className="col-lg-12 text-center">
             <h2
               ref={headingRef}
-              className="section-title cloud-heading-2 mb-55"
+             className="section-title cloud-heading-2 mb-55"
             >
               What Our {""}
               <span>
@@ -114,7 +114,7 @@ export default function AppTestimonial() {
             <div key={index}>
               <div className="single-client">
                 <img
-                  className="img-fluid rounded-circle"
+                 className="img-fluid rounded-circle"
                   src={client.imgSrc}
                   alt="client"
                 />

@@ -9,7 +9,7 @@ export default function JobSchedule() {
       <div className="pt-20 pb-20 pl-20 pr-20 widget-content">
         <div className="form-check form-check-inline mr-30">
           <input
-            className="form-check-input"
+           className="form-check-input"
             type="radio"
             name="inlineRadioOptions"
             id="fulltime"
@@ -21,7 +21,7 @@ export default function JobSchedule() {
         </div>
         <div className="form-check form-check-inline mr-30">
           <input
-            className="form-check-input"
+           className="form-check-input"
             type="radio"
             name="inlineRadioOptions"
             id="parttime"

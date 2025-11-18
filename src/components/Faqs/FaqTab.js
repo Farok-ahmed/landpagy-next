@@ -1,12 +1,16 @@
-;
+"use client";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FaqTab() {
+  const titleRef = useGsapReveal({ animation: 'fadeInUp', delay: 0 });
+  const descRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+
   return (
     <section className="faq-area-three pb-150" id="faq-area-three">
       <div className="container">
         <div className="section-title-center">
-          <h2 className="wow fadeInUp">Frequently Asked Questions</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.2s">
+          <h2 ref={titleRef}>Frequently Asked Questions</h2>
+          <p ref={descRef}>
             Aliquam interdum risus vitae lectus convallis sodales quis dignissim
             mi. Proin sem risus, aliquet in pretium eu, ultrices eu nibh.
           </p>
@@ -17,7 +21,7 @@ export default function FaqTab() {
               <ul className="nav nav-tabs">
                 <li className="nav-item">
                   <a
-                    className="nav-link active"
+                   className="nav-link active"
                     data-bs-toggle="tab"
                     href="#general"
                   >
@@ -54,7 +58,7 @@ export default function FaqTab() {
           </div>
           <div className="tab-content">
             <div
-              className="tab-pane fade show active"
+             className="tab-pane fade show active"
               id="general"
               role="tabpanel"
             >
@@ -62,12 +66,12 @@ export default function FaqTab() {
                 <div className="col-md-6 pr-lg-25">
                   <div className="accordion-three" id="paymentAccordion">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2 className="accordion-header" id="payment-headingOne">
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseOne"
@@ -79,7 +83,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseOne"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-headingOne"
                         data-bs-parent="#paymentAccordion"
                       >
@@ -95,12 +99,12 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.3s"
+                     className="accordion-item"
+                      
                     >
                       <h2 className="accordion-header" id="payment-headingTwo">
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseTwo"
@@ -112,7 +116,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseTwo"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-headingTwo"
                         data-bs-parent="#paymentAccordion"
                       >
@@ -128,15 +132,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.5s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-headingThree"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseThree"
@@ -148,7 +152,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseThree"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-headingThree"
                         data-bs-parent="#paymentAccordion"
                       >
@@ -164,12 +168,12 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.7s"
+                     className="accordion-item"
+                      
                     >
                       <h2 className="accordion-header" id="payment-headingFour">
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseFour"
@@ -181,7 +185,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseFour"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-collapseFour"
                         data-bs-parent="#paymentAccordion"
                       >
@@ -201,12 +205,12 @@ export default function FaqTab() {
                 <div className="col-md-6 pl-lg-25">
                   <div className="accordion-three" id="paymentAccordionTwo">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.9s"
+                     className="accordion-item"
+                      
                     >
                       <h2 className="accordion-header" id="payment-headingFive">
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseFive"
@@ -218,7 +222,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseFive"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-collapseFive"
                         data-bs-parent="#paymentAccordionTwo"
                       >
@@ -234,12 +238,12 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2 className="accordion-header" id="payment-headingSix">
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseSix"
@@ -251,7 +255,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseSix"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-headingSix"
                         data-bs-parent="#paymentAccordionTwo"
                       >
@@ -267,15 +271,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-headingSeven"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseSeven"
@@ -287,7 +291,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseSeven"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-headingSeven"
                         data-bs-parent="#paymentAccordionTwo"
                       >
@@ -303,15 +307,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-headingEight"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-collapseEight"
@@ -323,7 +327,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-collapseEight"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-headingEight"
                         data-bs-parent="#paymentAccordionTwo"
                       >
@@ -347,15 +351,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pr-lg-25">
                   <div className="accordion-three" id="paymentAccordionThree">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingOne"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseOne"
@@ -367,7 +371,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseOne"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-headingOne"
                         data-bs-parent="#paymentAccordionThree"
                       >
@@ -383,15 +387,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.3s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingTwo"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseTwo"
@@ -403,7 +407,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseTwo"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-headingTwo"
                         data-bs-parent="#paymentAccordionThree"
                       >
@@ -419,15 +423,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.5s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingThree"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseThree"
@@ -439,7 +443,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseThree"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-headingThree"
                         data-bs-parent="#paymentAccordionThree"
                       >
@@ -455,15 +459,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.7s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingFour"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseFour"
@@ -475,7 +479,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseFour"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-collapseFour"
                         data-bs-parent="#paymentAccordionThree"
                       >
@@ -495,15 +499,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pl-lg-25">
                   <div className="accordion-three" id="paymentAccordionFour">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.9s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingFive"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseFive"
@@ -515,7 +519,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseFive"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-collapseFive"
                         data-bs-parent="#paymentAccordionFour"
                       >
@@ -531,15 +535,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingSix"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseSix"
@@ -551,7 +555,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseSix"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-headingSix"
                         data-bs-parent="#paymentAccordionFour"
                       >
@@ -567,15 +571,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingSeven"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseSeven"
@@ -587,7 +591,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseSeven"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-headingSeven"
                         data-bs-parent="#paymentAccordionFour"
                       >
@@ -603,15 +607,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-two-headingEight"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-two-collapseEight"
@@ -623,7 +627,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-two-collapseEight"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-two-headingEight"
                         data-bs-parent="#paymentAccordionFour"
                       >
@@ -647,15 +651,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pr-lg-25">
                   <div className="accordion-three" id="paymentAccordionFive">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingOne"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseOne"
@@ -667,7 +671,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseOne"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-headingOne"
                         data-bs-parent="#paymentAccordionFive"
                       >
@@ -683,15 +687,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.3s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingTwo"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseTwo"
@@ -703,7 +707,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseTwo"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-headingTwo"
                         data-bs-parent="#paymentAccordionFive"
                       >
@@ -719,15 +723,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.5s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingThree"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseThree"
@@ -739,7 +743,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseThree"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-headingThree"
                         data-bs-parent="#paymentAccordionFive"
                       >
@@ -755,15 +759,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.7s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingFour"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseFour"
@@ -775,7 +779,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseFour"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-collapseFour"
                         data-bs-parent="#paymentAccordionFive"
                       >
@@ -795,15 +799,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pl-lg-25">
                   <div className="accordion-three" id="paymentAccordionSix">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.9s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingFive"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseFive"
@@ -815,7 +819,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseFive"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-collapseFive"
                         data-bs-parent="#paymentAccordionSix"
                       >
@@ -831,15 +835,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingSix"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseSix"
@@ -851,7 +855,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseSix"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-headingSix"
                         data-bs-parent="#paymentAccordionSix"
                       >
@@ -867,15 +871,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingSeven"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseSeven"
@@ -887,7 +891,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseSeven"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-headingSeven"
                         data-bs-parent="#paymentAccordionSix"
                       >
@@ -903,15 +907,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-three-headingEight"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-three-collapseEight"
@@ -923,7 +927,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-three-collapseEight"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-three-headingEight"
                         data-bs-parent="#paymentAccordionSix"
                       >
@@ -947,15 +951,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pr-lg-25">
                   <div className="accordion-three" id="paymentAccordionSeven">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingOne"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseOne"
@@ -967,7 +971,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseOne"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-headingOne"
                         data-bs-parent="#paymentAccordionSeven"
                       >
@@ -983,15 +987,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.3s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingTwo"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseTwo"
@@ -1003,7 +1007,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseTwo"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-headingTwo"
                         data-bs-parent="#paymentAccordionSeven"
                       >
@@ -1019,15 +1023,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.5s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingThree"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseThree"
@@ -1039,7 +1043,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseThree"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-headingThree"
                         data-bs-parent="#paymentAccordionSeven"
                       >
@@ -1055,15 +1059,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.7s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingFour"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseFour"
@@ -1075,7 +1079,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseFour"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-collapseFour"
                         data-bs-parent="#paymentAccordionSeven"
                       >
@@ -1095,15 +1099,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pl-lg-25">
                   <div className="accordion-three" id="paymentAccordionEight">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.9s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingFive"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseFive"
@@ -1115,7 +1119,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseFive"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-collapseFive"
                         data-bs-parent="#paymentAccordionEight"
                       >
@@ -1131,15 +1135,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingSix"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseSix"
@@ -1151,7 +1155,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseSix"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-headingSix"
                         data-bs-parent="#paymentAccordionEight"
                       >
@@ -1167,15 +1171,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingSeven"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseSeven"
@@ -1187,7 +1191,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseSeven"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-headingSeven"
                         data-bs-parent="#paymentAccordionEight"
                       >
@@ -1203,15 +1207,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-four-headingEight"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-four-collapseEight"
@@ -1223,7 +1227,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-four-collapseEight"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-four-headingEight"
                         data-bs-parent="#paymentAccordionEight"
                       >
@@ -1247,15 +1251,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pr-lg-25">
                   <div className="accordion-three" id="paymentAccordionNine">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingOne"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseOne"
@@ -1267,7 +1271,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseOne"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-headingOne"
                         data-bs-parent="#paymentAccordionNine"
                       >
@@ -1283,15 +1287,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.3s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingTwo"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseTwo"
@@ -1303,7 +1307,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseTwo"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-headingTwo"
                         data-bs-parent="#paymentAccordionNine"
                       >
@@ -1319,15 +1323,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.5s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingThree"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseThree"
@@ -1339,7 +1343,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseThree"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-headingThree"
                         data-bs-parent="#paymentAccordionNine"
                       >
@@ -1355,15 +1359,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.7s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingFour"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseFour"
@@ -1375,7 +1379,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseFour"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-collapseFour"
                         data-bs-parent="#paymentAccordionNine"
                       >
@@ -1395,15 +1399,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pl-lg-25">
                   <div className="accordion-three" id="paymentAccordionTen">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.9s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingFive"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseFive"
@@ -1415,7 +1419,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseFive"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-collapseFive"
                         data-bs-parent="#paymentAccordionTen"
                       >
@@ -1431,15 +1435,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingSix"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseSix"
@@ -1451,7 +1455,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseSix"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-headingSix"
                         data-bs-parent="#paymentAccordionTen"
                       >
@@ -1467,15 +1471,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingSeven"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseSeven"
@@ -1487,7 +1491,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseSeven"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-headingSeven"
                         data-bs-parent="#paymentAccordionTen"
                       >
@@ -1503,15 +1507,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-five-headingEight"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-five-collapseEight"
@@ -1523,7 +1527,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-five-collapseEight"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-five-headingEight"
                         data-bs-parent="#paymentAccordionTen"
                       >
@@ -1547,15 +1551,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pr-lg-25">
                   <div className="accordion-three" id="paymentAccordionElven">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingOne"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseOne"
@@ -1567,7 +1571,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseOne"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-headingOne"
                         data-bs-parent="#paymentAccordionElven"
                       >
@@ -1583,15 +1587,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.3s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingTwo"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseTwo"
@@ -1603,7 +1607,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseTwo"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-headingTwo"
                         data-bs-parent="#paymentAccordionElven"
                       >
@@ -1619,15 +1623,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.5s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingThree"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseThree"
@@ -1639,7 +1643,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseThree"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-headingThree"
                         data-bs-parent="#paymentAccordionElven"
                       >
@@ -1655,15 +1659,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.7s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingFour"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseFour"
@@ -1675,7 +1679,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseFour"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-collapseFour"
                         data-bs-parent="#paymentAccordionElven"
                       >
@@ -1695,15 +1699,15 @@ export default function FaqTab() {
                 <div className="col-md-6 pl-lg-25">
                   <div className="accordion-three" id="paymentAccordionTwelve">
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="0.9s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingFive"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseFive"
@@ -1715,7 +1719,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseFive"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-collapseFive"
                         data-bs-parent="#paymentAccordionTwelve"
                       >
@@ -1731,15 +1735,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingSix"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseSix"
@@ -1751,7 +1755,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseSix"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-headingSix"
                         data-bs-parent="#paymentAccordionTwelve"
                       >
@@ -1767,15 +1771,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingSeven"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseSeven"
@@ -1787,7 +1791,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseSeven"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-headingSeven"
                         data-bs-parent="#paymentAccordionTwelve"
                       >
@@ -1803,15 +1807,15 @@ export default function FaqTab() {
                       </div>
                     </div>
                     <div
-                      className="accordion-item wow fadeInUp"
-                      data-wow-delay="1.1s"
+                     className="accordion-item"
+                      
                     >
                       <h2
-                        className="accordion-header"
+                       className="accordion-header"
                         id="payment-six-headingEight"
                       >
                         <button
-                          className="accordion-button collapsed"
+                         className="accordion-button collapsed"
                           type="button"
                           data-bs-toggle="collapse"
                           data-bs-target="#payment-six-collapseEight"
@@ -1823,7 +1827,7 @@ export default function FaqTab() {
                       </h2>
                       <div
                         id="payment-six-collapseEight"
-                        className="accordion-collapse collapse"
+                       className="accordion-collapse collapse"
                         aria-labelledby="payment-six-headingEight"
                         data-bs-parent="#paymentAccordionTwelve"
                       >

@@ -34,12 +34,12 @@ export default function WorkFlowHRM() {
           <div ref={tabsRef} className="col-12">
             <nav>
               <div
-                className="nav justify-content-center"
+               className="nav justify-content-center"
                 id="nav-tab"
                 role="tablist"
               >
                 <button
-                  className="nav-link active"
+                 className="nav-link active"
                   id="nav-carban-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#nav-carban"
@@ -51,7 +51,7 @@ export default function WorkFlowHRM() {
                   HR Profile
                 </button>
                 <button
-                  className="nav-link"
+                 className="nav-link"
                   id="nav-timeline-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#nav-timeline"
@@ -63,7 +63,7 @@ export default function WorkFlowHRM() {
                   Report
                 </button>
                 <button
-                  className="nav-link"
+                 className="nav-link"
                   id="nav-calendar-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#nav-calendar"
@@ -75,7 +75,7 @@ export default function WorkFlowHRM() {
                   Schedule
                 </button>
                 <button
-                  className="nav-link"
+                 className="nav-link"
                   id="nav-list-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#nav-list"
@@ -89,11 +89,11 @@ export default function WorkFlowHRM() {
               </div>
             </nav>
             <div
-              className="tab-content features-tab-content"
+             className="tab-content features-tab-content"
               id="nav-tabContent"
             >
               <div
-                className="tab-pane fade show active"
+               className="tab-pane fade show active"
                 id="nav-carban"
                 role="tabpanel"
                 aria-labelledby="nav-carban-tab"
@@ -103,7 +103,7 @@ export default function WorkFlowHRM() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="nav-timeline"
                 role="tabpanel"
                 aria-labelledby="nav-timeline-tab"
@@ -113,7 +113,7 @@ export default function WorkFlowHRM() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="nav-calendar"
                 role="tabpanel"
                 aria-labelledby="nav-calendar-tab"
@@ -123,7 +123,7 @@ export default function WorkFlowHRM() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="nav-list"
                 role="tabpanel"
                 aria-labelledby="nav-list-tab"

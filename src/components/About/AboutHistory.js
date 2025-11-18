@@ -66,7 +66,7 @@ export default function AboutHistory() {
             <Slider
               ref={sliderRef}
               {...slickOptions}
-              className="history-wrapper"
+             className="history-wrapper"
             >
               <div className="history-item">
                 <div className="item-img">

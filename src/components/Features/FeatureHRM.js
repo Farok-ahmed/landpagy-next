@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import bannerShape2 from "@/assets/images/home_4/banner-shape-2.svg";
 import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
@@ -10,7 +11,11 @@ import feaIcon5 from "@/assets/images/home_4/fea-icon5.svg";
 import feaIcon6 from "@/assets/images/home_4/fea-icon6.svg";
 ;
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function FeatureHRM() {
+  const featureRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="features-area-9 pt-125 pb-60">
       <div className="bg-shapes">
@@ -29,8 +34,8 @@ export default function FeatureHRM() {
         <div className="row">
           <div className="col-lg-8 offset-lg-2">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">Outstanding Features</h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <h2 className="">Outstanding Features</h2>
+              <p className="">
                 Over a dozen reusable features built to provide iconography,
                 dropdowns, input groups, alerts, and much more.
               </p>
@@ -39,9 +44,9 @@ export default function FeatureHRM() {
         </div>
         <div className="row">
           <div className="col-lg-4 col-md-6">
-            <div className="features-item text-center wow fadeInLeft">
+            <div className="features-item text-center">
               <Image src={feaIcon1} alt="Icon"
-                className="features-icon mx-auto mb-30" />
+               className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Team Collaboration</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -50,9 +55,9 @@ export default function FeatureHRM() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="features-item text-center wow fadeInUp">
+            <div className="features-item text-center">
               <Image src={feaIcon2} alt="Icon"
-                className="features-icon mx-auto mb-30" />
+               className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Time & Attendance</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -61,9 +66,9 @@ export default function FeatureHRM() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="features-item text-center wow fadeInRight">
+            <div className="features-item text-center">
               <Image src={feaIcon3} alt="Icon"
-                className="features-icon mx-auto mb-30" />
+               className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Cloud-Based HR</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -72,9 +77,9 @@ export default function FeatureHRM() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="features-item text-center wow fadeInLeft">
+            <div className="features-item text-center">
               <Image src={feaIcon4} alt="Icon"
-                className="features-icon mx-auto mb-30" />
+               className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Customizable Payroll</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -83,9 +88,9 @@ export default function FeatureHRM() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="features-item text-center wow fadeInUp">
+            <div className="features-item text-center">
               <Image src={feaIcon5} alt="Icon"
-                className="features-icon mx-auto mb-30" />
+               className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Email & Scheduling</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use
@@ -94,9 +99,9 @@ export default function FeatureHRM() {
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
-            <div className="features-item text-center wow fadeInRight">
+            <div className="features-item text-center">
               <Image src={feaIcon6} alt="Icon"
-                className="features-icon mx-auto mb-30" />
+               className="features-icon mx-auto mb-30" />
               <h4 className="features-title">Career Portal</h4>
               <p className="features-text">
                 Many desktop publishing packages and web page editors now use

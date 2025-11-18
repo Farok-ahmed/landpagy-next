@@ -14,8 +14,8 @@ export default function AppClient() {
         <div className="row">
           <div className="col-lg-12">
             <h2
-              className="text-center app-clients-title cloud-heading-2 mb-35 wow fadeInUp"
-              data-wow-delay="0.3s"
+             className="text-center app-clients-title cloud-heading-2 mb-35"
+             
             >
               <span>
                 Trusted
@@ -30,27 +30,27 @@ export default function AppClient() {
 
         <div className="row justify-content-center">
           <div className="w-50 w-md-20">
-            <div className="client-image wow fadeInLeft" data-wow-delay="0.1s">
+            <div className="client-image">
               <Image src={brand1} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
-            <div className="client-image wow fadeInLeft" data-wow-delay="0.3s">
+            <div className="client-image">
               <Image src={brand2} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
-            <div className="client-image wow fadeInLeft" data-wow-delay="0.5s">
+            <div className="client-image">
               <Image src={brand3} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
-            <div className="client-image wow fadeInLeft" data-wow-delay="0.7s">
+            <div className="client-image">
               <Image src={brand4} alt="Brand " />
             </div>
           </div>
           <div className="w-50 w-md-20">
-            <div className="client-image wow fadeInLeft" data-wow-delay="0.9s">
+            <div className="client-image">
               <Image src={brand5} alt="Brand " />
             </div>
           </div>

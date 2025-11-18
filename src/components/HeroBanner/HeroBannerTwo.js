@@ -7,14 +7,17 @@ import bannerShape2 from "@/assets/images/home_2/banner-shape-2.svg";
 import bannerShape3 from "@/assets/images/home_2/banner-shape-3.svg";
 import bannerShape5 from "@/assets/images/home_2/banner-shape-5.svg";
 import heroImg from "@/assets/images/home_2/hero-img.svg";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 import { Parallax } from "react-scroll-parallax";
 
 export default function HeroBannerTwo() {
+  const leftRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0 });
+  const rightRef = useGsapReveal({ animation: 'fadeInRight', delay: 0 });
+
   return (
     <section
-      className="banner-area-2"
+     className="banner-area-2"
       style={{ backgroundImage: "url('/images/banner/banner-shape-4.svg')" }}
     >
       <div className="banner-shapes">
@@ -58,11 +61,11 @@ export default function HeroBannerTwo() {
       <div className="container">
         <div className="row align-items-center gy-lg-0 gy-4">
           <div className="col-xxl-8 col-md-7">
-            <div className="banner-left pr-60 wow fadeInLeft">
+            <div ref={leftRef} className="banner-left pr-60">
               <h1>All you need for your business</h1>
               <p className="banner-para">
                 We provide all the best features so you can stop focusing on
-                your project management and get back to your life’s work.
+                your project management and get back to your life's work.
               </p>
               <Link href="/contact-one" className="btn btn-red">
                 Request A Demo
@@ -70,7 +73,7 @@ export default function HeroBannerTwo() {
             </div>
           </div>
           <div className="col-xxl-4 col-md-5">
-            <div className="banner-right wow fadeInRight">
+            <div ref={rightRef} className="banner-right">
               <Image src={heroImg} alt="" />
             </div>
           </div>

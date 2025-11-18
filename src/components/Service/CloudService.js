@@ -34,7 +34,7 @@ export default function CloudService() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="animatable draw"
+                   className="animatable draw"
                     d="M13.4125 23.3317C96.6483 -23.0858 247.523 12.0638 201.182 49.9753C164.751 79.7798 -5.43528 98.4048 1.5241 45.3019C5.74981 13.0581 151.13 -9.16318 195.064 28.4671"
                     stroke="#EFBA34"
                   />
@@ -48,7 +48,7 @@ export default function CloudService() {
           <div className="col-lg-6">
             <div
               ref={imagesRef}
-              className="accordion-images mt-30"
+             className="accordion-images mt-30"
             >
               <div className="img">
                 <Image src={shape8} alt="" />
@@ -65,13 +65,13 @@ export default function CloudService() {
           <div className="col-lg-6">
             <div
               ref={accordionRef}
-              className="accordion accordion-flush cloud-accordion"
+             className="accordion accordion-flush cloud-accordion"
               id="accordionExample"
             >
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target=".one"
@@ -83,7 +83,7 @@ export default function CloudService() {
                 </h2>
                 <div
                   id="cloud-collapseOne"
-                  className="accordion-collapse collapse show one"
+                 className="accordion-collapse collapse show one"
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
@@ -110,7 +110,7 @@ export default function CloudService() {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target=".two"
@@ -122,7 +122,7 @@ export default function CloudService() {
                 </h2>
                 <div
                   id="cloud-collapseTwo"
-                  className="accordion-collapse collapse two"
+                 className="accordion-collapse collapse two"
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
@@ -149,7 +149,7 @@ export default function CloudService() {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target=".three"
@@ -161,7 +161,7 @@ export default function CloudService() {
                 </h2>
                 <div
                   id="cloud-collapseThree"
-                  className="accordion-collapse collapse three"
+                 className="accordion-collapse collapse three"
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
@@ -188,7 +188,7 @@ export default function CloudService() {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target=".four"
@@ -200,7 +200,7 @@ export default function CloudService() {
                 </h2>
                 <div
                   id="cloud-collapseFour"
-                  className="accordion-collapse collapse four"
+                 className="accordion-collapse collapse four"
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">
@@ -227,7 +227,7 @@ export default function CloudService() {
               <div className="accordion-item">
                 <h2 className="accordion-header">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target=".five"
@@ -239,7 +239,7 @@ export default function CloudService() {
                 </h2>
                 <div
                   id="cloud-collapseFive"
-                  className="accordion-collapse collapse five"
+                 className="accordion-collapse collapse five"
                   data-bs-parent="#accordionExample"
                 >
                   <div className="accordion-body">

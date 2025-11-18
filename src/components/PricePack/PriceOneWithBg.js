@@ -29,12 +29,12 @@ export default function PriceOneWithBg() {
         <div ref={refs[2]} className="col-12">
           <nav>
             <div
-              className="nav justify-content-center pricing-switcher"
+             className="nav justify-content-center pricing-switcher"
               id="nav-tab"
               role="tablist"
             >
               <button
-                className="nav-link active"
+               className="nav-link active"
                 id="navv-monthly-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#navv-monthly"
@@ -46,7 +46,7 @@ export default function PriceOneWithBg() {
                 Monthly
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="navv-annually-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#navv-annually"
@@ -60,11 +60,11 @@ export default function PriceOneWithBg() {
             </div>
           </nav>
           <div
-            className="tab-content features-tab-content"
+           className="tab-content features-tab-content"
             id="navv-tabContent"
           >
             <div
-              className="tab-pane fade show active"
+             className="tab-pane fade show active"
               id="navv-monthly"
               role="tabpanel"
               aria-labelledby="navv-monthly-tab"
@@ -73,7 +73,7 @@ export default function PriceOneWithBg() {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[3]}
-                    className="pricing-item-2"
+                   className="pricing-item-2"
                   >
                     <Image src={userIcon1} alt="icon" />
                     <h4>Startaer</h4>
@@ -90,7 +90,7 @@ export default function PriceOneWithBg() {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[4]}
-                    className="pricing-item-2 active"
+                   className="pricing-item-2 active"
                   >
                     <Image src={userIcon2} alt="icon" />
                     <h4>Business</h4>
@@ -107,7 +107,7 @@ export default function PriceOneWithBg() {
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div
                     ref={refs[5]}
-                    className="pricing-item-2"
+                   className="pricing-item-2"
                   >
                     <Image src={userIcon3} alt="icon" />
                     <h4>Entreprise</h4>
@@ -127,7 +127,7 @@ export default function PriceOneWithBg() {
               </div>
             </div>
             <div
-              className="tab-pane fade"
+             className="tab-pane fade"
               id="navv-annually"
               role="tabpanel"
               aria-labelledby="navv-annually-tab"

@@ -70,7 +70,7 @@ export default function TestimonialSlideFour() {
         <Slider
           {...slickOptions}
           ref={refs[1]}
-          className="testimonial-slider-six position-relative"
+         className="testimonial-slider-six position-relative"
         >
           <div className="single-slide">
             <div className="row align-items-center">

@@ -36,7 +36,7 @@ export default function AppPrice() {
           <div className="col-lg-12">
             <h2
               ref={refs[0]}
-              className="mb-20 text-center pricing-title cloud-heading-2"
+             className="mb-20 text-center pricing-title cloud-heading-2"
             >
               <span>
                 Plan &
@@ -57,12 +57,12 @@ export default function AppPrice() {
           <div ref={refs[1]} className="col-12">
             <nav>
               <div
-                className="nav justify-content-center app-pricing-switcher"
+               className="nav justify-content-center app-pricing-switcher"
                 id="nav-tab"
                 role="tablist"
               >
                 <button
-                  className="nav-link active"
+                 className="nav-link active"
                   id="app-monthly-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#app-monthly"
@@ -74,7 +74,7 @@ export default function AppPrice() {
                   Monthly
                 </button>
                 <button
-                  className="nav-link"
+                 className="nav-link"
                   id="app-annual-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#app-annual"
@@ -88,11 +88,11 @@ export default function AppPrice() {
               </div>
             </nav>
             <div
-              className="tab-content pricing-tab-content"
+             className="tab-content pricing-tab-content"
               id="nav-tabContent"
             >
               <div
-                className="tab-pane fade show active"
+               className="tab-pane fade show active"
                 id="app-monthly"
                 role="tabpanel"
                 aria-labelledby="app-monthly-tab"
@@ -101,7 +101,7 @@ export default function AppPrice() {
                   <div className="col-lg-4 col-md-6">
                     <div
                       ref={refs[2]}
-                      className="app-pricing-item"
+                     className="app-pricing-item"
                     >
                       <h4 className="item-title">The Basics</h4>
                       <p className="item-label">Free for 7 days then</p>
@@ -140,10 +140,10 @@ export default function AppPrice() {
                   <div className="col-lg-4 col-md-6">
                     <div
                       ref={refs[3]}
-                      className="app-pricing-item active"
+                     className="app-pricing-item active"
                     >
                       <Image src={shape10} alt="Shape"
-                        className="popular-shape" />
+                       className="popular-shape" />
                       <h4 className="item-title">The Standard</h4>
                       <p className="item-label">Free for 7 days then</p>
                       <p className="item-price">
@@ -181,7 +181,7 @@ export default function AppPrice() {
                   <div className="mx-auto col-lg-4 col-md-6">
                     <div
                       ref={refs[4]}
-                      className="app-pricing-item"
+                     className="app-pricing-item"
                     >
                       <h4 className="item-title">Meal Plan Pro</h4>
                       <p className="item-label">Free for 7 days then</p>
@@ -220,7 +220,7 @@ export default function AppPrice() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="app-annual"
                 role="tabpanel"
                 aria-labelledby="app-annual-tab"
@@ -265,7 +265,7 @@ export default function AppPrice() {
                   <div className="col-lg-4 col-md-6">
                     <div className="app-pricing-item active">
                       <Image src={shape10} alt="Shape"
-                        className="popular-shape" />
+                       className="popular-shape" />
                       <h4 className="item-title">The Standard</h4>
                       <p className="item-label">Free for 7 days then</p>
                       <p className="item-price">
@@ -346,7 +346,7 @@ export default function AppPrice() {
           <div className="col-lg-6 offset-lg-3">
             <div
               ref={refs[5]}
-              className="text-center app-pricing-question pt-60"
+             className="text-center app-pricing-question pt-60"
             >
               <h5 className="mb-10 question-title">Have any questions?</h5>
               <p className="question-text">

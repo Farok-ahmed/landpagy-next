@@ -72,7 +72,7 @@ export default function ProductFeature() {
                       <li>
                         <div className="product-tab-checkmark">
                           <Image src={checkmark} alt=""
-                            className="image contain" />
+                           className="image contain" />
                         </div>
                         <div className="product-tab-pointer-text">
                           built in thermal printer

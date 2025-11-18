@@ -7,7 +7,7 @@ const BlogPost = ({ posts }) => {
       {posts.map((post, index) => (
         <div className="col-lg-4 col-sm-6" key={index}>
           <div
-            className={`blog_grid_post shadow-sm wow fadeInUp`}
+           className={`blog_grid_post shadow-sm`}
             style={{ animationDelay: `${index * 0.2}s` }}
           >
             <Image src={post.imageSrc} alt="" />
@@ -15,7 +15,7 @@ const BlogPost = ({ posts }) => {
               <div className="post_tag">
                 <Link href="/blog-details">{post.readTime}</Link>
                 <Link
-                  className={`cat-${post.category.toLowerCase()}`}
+                 className={`cat-${post.category.toLowerCase()}`}
                   href="/blog-details"
                 >
                   {post.category}

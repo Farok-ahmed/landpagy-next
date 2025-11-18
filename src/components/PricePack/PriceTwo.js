@@ -25,13 +25,13 @@ export default function PriceTwo() {
         </div>
         <div ref={tabsRef} className="text-center">
           <ul
-            className="nav nav-tabs pricing-tabs-two"
+           className="nav nav-tabs pricing-tabs-two"
             id="myTab"
             role="tablist"
           >
             <li className="nav-item" role="presentation">
               <button
-                className="nav-link active"
+               className="nav-link active"
                 id="homee-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#homee"
@@ -45,7 +45,7 @@ export default function PriceTwo() {
             </li>
             <li className="nav-item" role="presentation">
               <button
-                className="nav-link"
+               className="nav-link"
                 id="profilee-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#profilee"
@@ -62,7 +62,7 @@ export default function PriceTwo() {
 
         <div className="tab-content">
           <div
-            className="tab-pane fade show active"
+           className="tab-pane fade show active"
             id="homee"
             role="tabpanel"
             aria-labelledby="homee-tab"
@@ -71,7 +71,7 @@ export default function PriceTwo() {
               <div className="col-lg-4 col-md-6 order-lg-1 pe-28">
                 <div
                   ref={priceRefs[0]}
-                  className="pricing-item-3"
+                 className="pricing-item-3"
                 >
                   <h5>Free</h5>
                   <div className="price-body">
@@ -108,7 +108,7 @@ export default function PriceTwo() {
               <div className="order-3 px-3 mx-auto col-lg-4 col-md-6 order-lg-2 px-sm-0">
                 <div
                   ref={priceRefs[1]}
-                  className="pricing-item-3 middle"
+                 className="pricing-item-3 middle"
                 >
                   <h5>Business</h5>
                   <div className="price-body">
@@ -145,7 +145,7 @@ export default function PriceTwo() {
               <div className="order-2 col-lg-4 col-md-6 order-lg-3 ps-28">
                 <div
                   ref={priceRefs[2]}
-                  className="pricing-item-3"
+                 className="pricing-item-3"
                 >
                   <h5>Entreprise</h5>
                   <div className="price-body">
@@ -182,7 +182,7 @@ export default function PriceTwo() {
             </div>
           </div>
           <div
-            className="tab-pane fade"
+           className="tab-pane fade"
             id="profilee"
             role="tabpanel"
             aria-labelledby="profilee-tab"

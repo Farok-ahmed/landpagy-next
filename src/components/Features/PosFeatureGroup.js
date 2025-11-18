@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,15 +12,19 @@ import feaIcon7 from "@/assets/images/home_5/icons/fea-icon7.svg";
 import feaIcon8 from "@/assets/images/home_5/icons/fea-icon8.svg";
 ;
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function PosFeatureGroup() {
+  const featureRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="features-area-twelve pt-135 pb-120">
       <div className="container">
         <div className="row">
           <div className="col-md-10 offset-md-1">
             <div className="section-title-center mb-35">
-              <h2 className="wow fadeInUp">Perfect POS Software</h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <h2 className="">Perfect POS Software</h2>
+              <p className="">
                 Start, run & grow your retail business with Landpagy POS
                 software for most retail stores
               </p>
@@ -30,7 +35,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon1} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Clothing store
               </Link>
@@ -39,7 +44,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon2} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Coffee shop
               </Link>
@@ -48,7 +53,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon3} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Furniture store
               </Link>
@@ -57,7 +62,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon4} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Jewelry store
               </Link>
@@ -66,7 +71,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon5} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Food truck
               </Link>
@@ -75,7 +80,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon6} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Gift store
               </Link>
@@ -84,7 +89,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon7} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Pet store
               </Link>
@@ -93,7 +98,7 @@ export default function PosFeatureGroup() {
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
               <Image src={feaIcon8} alt=""
-                className="features-icon mx-auto mb-10" />
+               className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Retail examples
               </Link>

@@ -39,12 +39,12 @@ export default function PriceHRM() {
         <div ref={refs[2]} className="col-12">
           <nav>
             <div
-              className="nav justify-content-center pricing-switcher"
+             className="nav justify-content-center pricing-switcher"
               id="nav-tab"
               role="tablist"
             >
               <button
-                className="nav-link active"
+               className="nav-link active"
                 id="nav-monthly-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-monthly"
@@ -56,7 +56,7 @@ export default function PriceHRM() {
                 Monthly
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="nav-annually-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-annually"
@@ -71,7 +71,7 @@ export default function PriceHRM() {
           </nav>
           <div className="tab-content features-tab-content" id="nav-tabContent">
             <div
-              className="tab-pane fade show active"
+             className="tab-pane fade show active"
               id="nav-monthly"
               role="tabpanel"
               aria-labelledby="nav-monthly-tab"
@@ -80,7 +80,7 @@ export default function PriceHRM() {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[3]}
-                    className="pricing-item-2"
+                   className="pricing-item-2"
                   >
                     <Image src={userIcon1} alt="icon" />
                     <h4>Startaer</h4>
@@ -97,7 +97,7 @@ export default function PriceHRM() {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[4]}
-                    className="pricing-item-2 active"
+                   className="pricing-item-2 active"
                   >
                     <Image src={userIcon2} alt="icon" />
                     <h4>Business</h4>
@@ -114,7 +114,7 @@ export default function PriceHRM() {
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div
                     ref={refs[5]}
-                    className="pricing-item-2"
+                   className="pricing-item-2"
                   >
                     <Image src={userIcon3} alt="icon" />
                     <h4>Entreprise</h4>
@@ -134,7 +134,7 @@ export default function PriceHRM() {
               </div>
             </div>
             <div
-              className="tab-pane fade"
+             className="tab-pane fade"
               id="nav-annually"
               role="tabpanel"
               aria-labelledby="nav-annually-tab"

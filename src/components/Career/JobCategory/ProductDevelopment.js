@@ -111,7 +111,7 @@ export default function ProductDevelopment() {
   return (
     <div
       id="information-systems-operations"
-      className="department"
+     className="department"
       data-department="information-systems-operations"
     >
       <h3>Product Development</h3>
@@ -120,8 +120,8 @@ export default function ProductDevelopment() {
         <div
           key={job.id}
           id={job.id}
-          className={`job wow fadeInUp ${openJobs[job.id] ? "active" : ""}`}
-          data-wow-delay="0.1s"
+         className={`job ${openJobs[job.id] ? "active" : ""}`}
+         
           data-location={job.location}
         >
           <div className="job__header" onClick={() => toggleDetails(job.id)}>
@@ -133,11 +133,11 @@ export default function ProductDevelopment() {
                     type="text"
                     name={`copy-${job.id}`}
                     defaultValue={job.link}
-                    className="copy-link hidden-input"
+                   className="copy-link hidden-input"
                   />
                   <button
                     id={`copy-${job.id}`}
-                    className="copy-button"
+                   className="copy-button"
                     onClick={() => copyToClipboard(job.id, job.link)}
                   >
                     <span className="tooltip-text">

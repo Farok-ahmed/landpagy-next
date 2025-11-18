@@ -83,7 +83,7 @@ export default function StatisticsGrid() {
           <div className="col-lg-5">
             <div
               ref={widget2Ref}
-              className="statistics-widget-2"
+             className="statistics-widget-2"
             >
               <div className="widget-content widget-2">
                 <h1 className="counter">
@@ -100,7 +100,7 @@ export default function StatisticsGrid() {
               <div className="col-lg-4 col-md-6">
                 <div
                   ref={widgetRightRefs[0]}
-                  className="statistics-widget-2"
+                 className="statistics-widget-2"
                 >
                   <div className="widget-content widget-3">
                     <h1 className="counter">
@@ -113,7 +113,7 @@ export default function StatisticsGrid() {
               <div className="col-lg-4 col-md-6">
                 <div
                   ref={widgetRightRefs[1]}
-                  className="statistics-widget-2"
+                 className="statistics-widget-2"
                 >
                   <div className="widget-content widget-4">
                     <h1 className="counter">
@@ -126,7 +126,7 @@ export default function StatisticsGrid() {
               <div className="col-lg-4">
                 <div
                   ref={widgetRightRefs[2]}
-                  className="statistics-widget-2"
+                 className="statistics-widget-2"
                 >
                   <div className="widget-content widget-5">
                     <h1 className="counter">
@@ -141,10 +141,10 @@ export default function StatisticsGrid() {
           <div className="col-lg-5">
             <div
               ref={widgetRightRefs[3]}
-              className="statistics-widget-2"
+             className="statistics-widget-2"
             >
               <div
-                className="widget-content widget-6"
+               className="widget-content widget-6"
                 style={{ background: "url(/images/about_2/statistic2.png)" }}
               >
                 <h2>Best Software Solutions Agency</h2>
@@ -157,10 +157,10 @@ export default function StatisticsGrid() {
           <div className="col-md-5">
             <div
               ref={widgetLeftRefs[0]}
-              className="statistics-widget-2"
+             className="statistics-widget-2"
             >
               <div
-                className="widget-content widget-7"
+               className="widget-content widget-7"
                 style={{ background: "url(/images/about_2/statistic3.png)" }}
               >
                 <h1 className="counter">
@@ -176,7 +176,7 @@ export default function StatisticsGrid() {
           <div className="col-md-7">
             <div
               ref={widgetLeftRefs[1]}
-              className="statistics-widget-2"
+             className="statistics-widget-2"
             >
               <div className="row gx-0">
                 <div className="col-5">

@@ -14,29 +14,41 @@ import tree2 from "@/assets/images/home_3/tree-2.png";
 import treeDollar from "@/assets/images/home_3/tree-dollar.png";
 import tree3 from "@/assets/images/home_3/tree-3.png";
 import tree4 from "@/assets/images/home_3/tree-4.png";
-;
 import { useParallax } from "react-scroll-parallax";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function HeroBannerFour() {
-  const bird = useParallax({
+  // GSAP animation refs
+  const treeWaterRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.4 });
+  const cloud1ImgRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.1 });
+  const cloud2ImgRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.25 });
+  const cloud3ImgRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.4 });
+  const tree1Ref = useGsapReveal({ animation: 'fadeIn', delay: 0 });
+  const treeTopRef = useGsapReveal({ animation: 'fadeIn', delay: 0.55 });
+  const treeDollarRef = useGsapReveal({ animation: 'fadeIn', delay: 1.5 });
+  const tree3Ref = useGsapReveal({ animation: 'fadeIn', delay: 0.3 });
+  const tree4Ref = useGsapReveal({ animation: 'fadeIn', delay: 0.5 });
+
+  // Parallax refs
+  const birdParallax = useParallax({
     translateX: [-150, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
     speed: [-10],
   });
-  const cloud1 = useParallax({
+  const cloud1Parallax = useParallax({
     translateX: [-50, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
     speed: [20],
   });
-  const cloud2 = useParallax({
+  const cloud2Parallax = useParallax({
     translateX: [-70, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
     speed: [20],
   });
-  const cloud3 = useParallax({
+  const cloud3Parallax = useParallax({
     translateX: [-50, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
@@ -45,40 +57,37 @@ export default function HeroBannerFour() {
   return (
     <section className="banner-area-3" id="banner_animation">
       <div className="banner-shape">
-        <div className="shape">
-          <Image src={treeWater} className="wow slideInRight"
-            data-wow-delay="0.4s"
-            
-            alt="" />
+        <div className="shape" ref={treeWaterRef}>
+          <Image src={treeWater} alt="" />
         </div>
         <div className="shape object-element">
-          <div id="element1" ref={cloud1.ref}>
-            <Image src={cloud1} data-depth="0.9"
-              className="wow slideInRight layer"
-              data-wow-delay="0.1s"
-              
-              alt="" />
+          <div id="element1" ref={cloud1Parallax.ref}>
+            <div ref={cloud1ImgRef}>
+              <Image src={cloud1} data-depth="0.9"
+               className="layer"
+                alt="" />
+            </div>
           </div>
         </div>
         <div className="shape object-element">
-          <div id="element2" ref={cloud2.ref}>
-            <Image src={cloud2} data-depth="0.5"
-              className="wow slideInRight layer"
-              data-wow-delay="0.25s"
-              
-              alt="" />
+          <div id="element2" ref={cloud2Parallax.ref}>
+            <div ref={cloud2ImgRef}>
+              <Image src={cloud2} data-depth="0.5"
+               className="layer"
+                alt="" />
+            </div>
           </div>
         </div>
         <div className="shape object-element">
-          <div id="element3" ref={cloud3.ref}>
-            <Image src={cloud3} data-depth="0.7"
-              className="wow slideInRight layer"
-              data-wow-delay="0.4s"
-              
-              alt="" />
+          <div id="element3" ref={cloud3Parallax.ref}>
+            <div ref={cloud3ImgRef}>
+              <Image src={cloud3} data-depth="0.7"
+               className="layer"
+                alt="" />
+            </div>
           </div>
         </div>
-        <div className="shape" ref={bird.ref}>
+        <div className="shape" ref={birdParallax.ref}>
           <Image src={bird} className="layer" alt="" />
         </div>
         <div className="shape">
@@ -120,32 +129,23 @@ export default function HeroBannerFour() {
                 
                 alt="tree" />
               <div className="tree">
-                <Image src={tree1} className="wow zoomIn"
-                  
-                  alt="tree" />
+                <div ref={tree1Ref}>
+                  <Image src={tree1} alt="tree" />
+                </div>
 
-                <div className="tree-top wow zoomIn" data-wow-delay="0.55s">
+                <div className="tree-top" ref={treeTopRef}>
                   <Image src={tree2} alt="tree" />
 
-                  <div className="dollar wow zoomIn" data-wow-delay="0.55s">
-                    <Image src={treeDollar} className="wow flip"
-                      data-wow-delay="1.5s"
-                      
-                      alt="tree" />
+                  <div className="dollar" ref={treeDollarRef}>
+                    <Image src={treeDollar} alt="tree" />
                   </div>
                 </div>
               </div>
-              <div className="tree">
-                <Image src={tree3} className="wow zoomIn"
-                  data-wow-delay="0.3s"
-                  
-                  alt="tree" />
+              <div className="tree" ref={tree3Ref}>
+                <Image src={tree3} alt="tree" />
               </div>
-              <div className="tree">
-                <Image src={tree4} className="wow zoomIn"
-                  data-wow-delay="0.5s"
-                  
-                  alt="tree" />
+              <div className="tree" ref={tree4Ref}>
+                <Image src={tree4} alt="tree" />
               </div>
             </div>
           </div>

@@ -14,7 +14,7 @@ export default function PriceThree() {
           <div className="col-lg-12">
             <h2
               ref={titleRef}
-              className="text-center pricing-title mb-70"
+             className="text-center pricing-title mb-70"
             >
               Find a plan that's right for you
             </h2>

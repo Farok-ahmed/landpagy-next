@@ -12,7 +12,7 @@ export default function HeaderThree() {
             <Image src={logo4} className="main_logo"  alt="logo" />
           </Link>
           <button
-            className="navbar-toggler collapsed"
+           className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarText"
@@ -33,7 +33,7 @@ export default function HeaderThree() {
             </span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-end"
+           className="collapse navbar-collapse justify-content-end"
             id="navbarText"
           >
             <ul className="mx-auto navbar-nav menu">
@@ -42,7 +42,7 @@ export default function HeaderThree() {
                   Home
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -62,7 +62,7 @@ export default function HeaderThree() {
                   Pages
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -70,7 +70,7 @@ export default function HeaderThree() {
                   {pagesLinks.pages.map((item, index) => (
                     <li
                       key={index}
-                      className={`nav-item ${
+                     className={`nav-item ${
                         item.submenu ? "dropdown submenu" : ""
                       }`}
                     >
@@ -80,7 +80,7 @@ export default function HeaderThree() {
                             {item.name}
                           </Link>
                           <i
-                            className="arrow_carrot-right mobile_dropdown_icon"
+                           className="arrow_carrot-right mobile_dropdown_icon"
                             aria-hidden="false"
                             data-bs-toggle="dropdown"
                           ></i>
@@ -109,7 +109,7 @@ export default function HeaderThree() {
                   Elements
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -120,7 +120,7 @@ export default function HeaderThree() {
                         {item.name}
                       </Link>
                       <i
-                        className="arrow_carrot-right mobile_dropdown_icon"
+                       className="arrow_carrot-right mobile_dropdown_icon"
                         aria-hidden="false"
                         data-bs-toggle="dropdown"
                       ></i>
@@ -143,7 +143,7 @@ export default function HeaderThree() {
                   Jobs
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -170,7 +170,7 @@ export default function HeaderThree() {
                   Blog
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>

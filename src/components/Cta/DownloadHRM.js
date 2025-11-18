@@ -21,12 +21,12 @@ export default function DownloadHRM() {
         <div className="row align-items-center">
           <div className="col-md-8 col-lg-6">
             <div className="section-title-wrap">
-              <h2 className="section-title wow fadeInUp">
+              <h2 className="section-title">
                 Ridiculously easy to use. Anywhere, Anytime.
               </h2>
               <p
-                className="section-title-para wow fadeInUp"
-                data-wow-delay="0.2s"
+               className="section-title-para"
+               
               >
                 The intuitive mobile app allows employees and managers to learn
                 how to use the app quickly.
@@ -35,13 +35,13 @@ export default function DownloadHRM() {
           </div>
           <div className="col-md-4 col-lg-6">
             <div className="store-wrap text-md-end">
-              <Link href="/" className="app-store-link wow fadeInLeft" data-wow-delay="0.4s">
+              <Link href="/" className="app-store-link">
                 <i className="fab fa-google-play"></i>
                 <p>
                   <span>GET IT ON</span>Google Play
                 </p>
               </Link>
-              <Link href="/" className="app-store-link ms-lg-4 ms-0 mt-lg-0 mt-3 wow fadeInRight" data-wow-delay="0.4s">
+              <Link href="/" className="app-store-link ms-lg-4 ms-0 mt-lg-0 mt-3">
                 <i className="fab fa-apple"></i>
                 <p>
                   <span>Available on the</span>Apple Store

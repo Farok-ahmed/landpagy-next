@@ -1,10 +1,15 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import mobileShape2 from "@/assets/images/home_4/mobile-shape2.svg";
 import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
 ;
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function FaqHRM() {
+  const faqRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="faq-area-four pt-125">
       <div className="bg-shapes">
@@ -17,8 +22,8 @@ export default function FaqHRM() {
       </div>
       <div className="container">
         <div className="section-title-center">
-          <h2 className="wow fadeInUp">Frequently Asked Questions</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.2s">
+          <h2 className="">Frequently Asked Questions</h2>
+          <p className="">
             Aliquam interdum risus vitae lectus convallis sodales quis dignissim
             mi. Proin sem risus, aliquet in pretium eu, ultrices eu nibh.
           </p>
@@ -27,13 +32,11 @@ export default function FaqHRM() {
           <div className="col-12">
             <div className="accordion" id="hrmAccordion">
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.2s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="hrmheadingOne">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#hrmcollapseOne"
                     aria-expanded="false"
@@ -44,8 +47,7 @@ export default function FaqHRM() {
                 </h2>
                 <div
                   id="hrmcollapseOne"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="hrmheadingOne"
+                 className="accordion-collapse collapse"aria-labelledby="hrmheadingOne"
                   data-bs-parent="#hrmAccordion"
                 >
                   <div className="accordion-body">
@@ -58,13 +60,11 @@ export default function FaqHRM() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.3s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="hrmheadingTwo">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#hrmcollapseTwo"
                     aria-expanded="false"
@@ -75,8 +75,7 @@ export default function FaqHRM() {
                 </h2>
                 <div
                   id="hrmcollapseTwo"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="hrmheadingTwo"
+                 className="accordion-collapse collapse"aria-labelledby="hrmheadingTwo"
                   data-bs-parent="#hrmAccordion"
                 >
                   <div className="accordion-body">
@@ -89,13 +88,11 @@ export default function FaqHRM() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.4s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="hrmheadingThree">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#hrmcollapseThree"
                     aria-expanded="false"
@@ -106,8 +103,7 @@ export default function FaqHRM() {
                 </h2>
                 <div
                   id="hrmcollapseThree"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="hrmheadingThree"
+                 className="accordion-collapse collapse"aria-labelledby="hrmheadingThree"
                   data-bs-parent="#hrmAccordion"
                 >
                   <div className="accordion-body">
@@ -120,13 +116,11 @@ export default function FaqHRM() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.5s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="hrmheadingFour">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#hrmcollapseFour"
                     aria-expanded="false"
@@ -137,8 +131,7 @@ export default function FaqHRM() {
                 </h2>
                 <div
                   id="hrmcollapseFour"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="hrmcollapseFour"
+                 className="accordion-collapse collapse"aria-labelledby="hrmcollapseFour"
                   data-bs-parent="#hrmAccordion"
                 >
                   <div className="accordion-body">
@@ -151,13 +144,11 @@ export default function FaqHRM() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.6s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="hrmheadingFive">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#hrmcollapseFive"
                     aria-expanded="false"
@@ -168,8 +159,7 @@ export default function FaqHRM() {
                 </h2>
                 <div
                   id="hrmcollapseFive"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="hrmcollapseFive"
+                 className="accordion-collapse collapse"aria-labelledby="hrmcollapseFive"
                   data-bs-parent="#hrmAccordion"
                 >
                   <div className="accordion-body">

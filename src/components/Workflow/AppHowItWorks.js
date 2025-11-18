@@ -71,7 +71,7 @@ export default function AppHowItWorks() {
     <>
       <section
         id="how_it_works_desktop"
-        className={`app-how-works-area vertical_slideshow_desktop box${activeSlide}`}
+       className={`app-how-works-area vertical_slideshow_desktop box${activeSlide}`}
       >
         <div className="container box pt-140">
           <div className="row align-items-center">
@@ -90,7 +90,7 @@ export default function AppHowItWorks() {
                 <div
                   key={slide.id}
                   id={`slideshow${slide.id}`}
-                  className={`app-how-item scroll_box ${
+                 className={`app-how-item scroll_box ${
                     activeSlide === slide.id ? "" : "scroll_disable"
                   }`}
                   onClick={() => setActiveSlide(slide.id)}
@@ -121,7 +121,7 @@ export default function AppHowItWorks() {
                   <img
                     key={slide.id}
                     id={`slideshow_img${slide.id}`}
-                    className={activeSlide === slide.id ? "" : "scroll_disable"}
+                   className={activeSlide === slide.id ? "" : "scroll_disable"}
                     src={slide.imgSrc}
                     alt={`Slide ${slide.id}`}
                   />
@@ -134,7 +134,7 @@ export default function AppHowItWorks() {
                 {slides.map((slide) => (
                   <span
                     key={slide.id}
-                    className={`pagination-bullet${slide.id} ${
+                   className={`pagination-bullet${slide.id} ${
                       activeSlide === slide.id ? "active" : ""
                     }`}
                     onClick={() => setActiveSlide(slide.id)}
@@ -148,7 +148,7 @@ export default function AppHowItWorks() {
       {/* <!--==========<MOBILE>==========--> */}
       <section
         id="how_it_works_mobile"
-        className="app-how-works-area pt-80 pb-80"
+       className="app-how-works-area pt-80 pb-80"
       >
         <div className="container">
           <div className="row">

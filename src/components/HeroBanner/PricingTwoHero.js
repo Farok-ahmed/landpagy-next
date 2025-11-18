@@ -28,14 +28,14 @@ export default function PricingTwoHero() {
             <ul className="nav nav-tabs pricing-switcher-2" role="tablist">
               {/* Add or remove "right" class based on active tab */}
               <span
-                className={`switcher-bg ${
+               className={`switcher-bg ${
                   activeTab === "annual" ? "right" : ""
                 }`}
               ></span>
 
               <li className="nav-item" role="presentation">
                 <button
-                  className={`nav-link month ${
+                 className={`nav-link month ${
                     activeTab === "monthly" ? "active" : ""
                   }`}
                   id="monthly-tab"
@@ -53,7 +53,7 @@ export default function PricingTwoHero() {
 
               <li className="nav-item" role="presentation">
                 <button
-                  className={`nav-link annual ${
+                 className={`nav-link annual ${
                     activeTab === "annual" ? "active" : ""
                   }`}
                   id="annual-tab"
@@ -71,7 +71,7 @@ export default function PricingTwoHero() {
             </ul>
             <div className="tab-content" id="myTabContent">
               <div
-                className="tab-pane fade show active"
+               className="tab-pane fade show active"
                 id="monthly"
                 role="tabpanel"
                 aria-labelledby="monthly-tab"
@@ -84,7 +84,7 @@ export default function PricingTwoHero() {
                 <p className="price-format">for the first month</p>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="annual"
                 role="tabpanel"
                 aria-labelledby="annual-tab"

@@ -7,13 +7,13 @@ export default function FaqsMain() {
         <div className="row">
           <div className="col-md-4">
             <div
-              className="faq-nav-wrapp nav justify-content-center justify-content-md-start flex-md-column flex-row nav-pills me-md-3 mb-4 mb-md-0"
+             className="faq-nav-wrapp nav justify-content-center justify-content-md-start flex-md-column flex-row nav-pills me-md-3 mb-4 mb-md-0"
               id="v-pills-tab"
               role="tablist"
               aria-orientation="vertical"
             >
               <button
-                className="nav-link active"
+               className="nav-link active"
                 id="general-faq-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#general-faq"
@@ -25,7 +25,7 @@ export default function FaqsMain() {
                 General
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="account-faq-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#account-faq"
@@ -37,7 +37,7 @@ export default function FaqsMain() {
                 Account
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="sales-faq-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#sales-faq"
@@ -49,7 +49,7 @@ export default function FaqsMain() {
                 Sales
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="support-faq-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#support-faq"
@@ -61,7 +61,7 @@ export default function FaqsMain() {
                 Support
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="license-faq-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#license-faq"
@@ -73,7 +73,7 @@ export default function FaqsMain() {
                 License
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="refund-faq-tab"
                 data-bs-toggle="pill"
                 data-bs-target="#refund-faq"
@@ -89,12 +89,12 @@ export default function FaqsMain() {
 
           <div className="col-md-8">
             <div
-              className="tab-content faq-tab-content"
+             className="tab-content faq-tab-content"
               id="v-pills-tabContent"
             >
               {/* <!--=====general tab=====--> */}
               <div
-                className="tab-pane fade show active"
+               className="tab-pane fade show active"
                 id="general-faq"
                 role="tabpanel"
                 aria-labelledby="general-faq-tab"
@@ -103,7 +103,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqOne">
                       <button
-                        className="accordion-button"
+                       className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqOne"
@@ -115,7 +115,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqOne"
-                      className="accordion-collapse collapse show"
+                     className="accordion-collapse collapse show"
                       aria-labelledby="headingFaqOne"
                       data-bs-parent="#accordionFaq"
                     >
@@ -131,7 +131,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqTwo">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqTwo"
@@ -143,7 +143,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqTwo"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqTwo"
                       data-bs-parent="#accordionFaq"
                     >
@@ -159,7 +159,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqThree">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqThree"
@@ -171,7 +171,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqThree"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqThree"
                       data-bs-parent="#accordionFaq"
                     >
@@ -187,7 +187,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFour">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFour"
@@ -199,7 +199,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFour"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFour"
                       data-bs-parent="#accordionFaq"
                     >
@@ -215,7 +215,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFive">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFive"
@@ -227,7 +227,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFive"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFive"
                       data-bs-parent="#accordionFaq"
                     >
@@ -245,7 +245,7 @@ export default function FaqsMain() {
 
               {/* <!--=====account tab=====--> */}
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="account-faq"
                 role="tabpanel"
                 aria-labelledby="account-faq-tab"
@@ -254,7 +254,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqOne2">
                       <button
-                        className="accordion-button"
+                       className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqOne2"
@@ -266,7 +266,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqOne2"
-                      className="accordion-collapse collapse show"
+                     className="accordion-collapse collapse show"
                       aria-labelledby="headingFaqOne2"
                       data-bs-parent="#accordionFaq2"
                     >
@@ -282,7 +282,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqTwo2">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqTwo2"
@@ -294,7 +294,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqTwo2"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqTwo2"
                       data-bs-parent="#accordionFaq2"
                     >
@@ -310,7 +310,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqThree2">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqThree2"
@@ -322,7 +322,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqThree2"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqThree2"
                       data-bs-parent="#accordionFaq2"
                     >
@@ -338,7 +338,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFour2">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFour2"
@@ -350,7 +350,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFour2"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFour2"
                       data-bs-parent="#accordionFaq2"
                     >
@@ -366,7 +366,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFive2">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFive2"
@@ -378,7 +378,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFive2"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFive2"
                       data-bs-parent="#accordionFaq2"
                     >
@@ -396,7 +396,7 @@ export default function FaqsMain() {
 
               {/* <!--=====sales tab=====--> */}
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="sales-faq"
                 role="tabpanel"
                 aria-labelledby="sales-faq-tab"
@@ -405,7 +405,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqOne3">
                       <button
-                        className="accordion-button"
+                       className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqOne3"
@@ -417,7 +417,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqOne3"
-                      className="accordion-collapse collapse show"
+                     className="accordion-collapse collapse show"
                       aria-labelledby="headingFaqOne3"
                       data-bs-parent="#accordionFaq3"
                     >
@@ -433,7 +433,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqTwo3">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqTwo3"
@@ -445,7 +445,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqTwo3"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqTwo3"
                       data-bs-parent="#accordionFaq3"
                     >
@@ -461,7 +461,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqThree3">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqThree3"
@@ -473,7 +473,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqThree3"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqThree3"
                       data-bs-parent="#accordionFaq3"
                     >
@@ -489,7 +489,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFour3">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFour3"
@@ -501,7 +501,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFour3"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFour3"
                       data-bs-parent="#accordionFaq3"
                     >
@@ -517,7 +517,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFive3">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFive3"
@@ -529,7 +529,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFive3"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFive3"
                       data-bs-parent="#accordionFaq3"
                     >
@@ -547,7 +547,7 @@ export default function FaqsMain() {
 
               {/* <!--=====support tab=====--> */}
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="support-faq"
                 role="tabpanel"
                 aria-labelledby="support-faq-tab"
@@ -556,7 +556,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqOne4">
                       <button
-                        className="accordion-button"
+                       className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqOne4"
@@ -568,7 +568,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqOne4"
-                      className="accordion-collapse collapse show"
+                     className="accordion-collapse collapse show"
                       aria-labelledby="headingFaqOne4"
                       data-bs-parent="#accordionFaq4"
                     >
@@ -584,7 +584,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqTwo4">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqTwo4"
@@ -596,7 +596,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqTwo4"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqTwo4"
                       data-bs-parent="#accordionFaq4"
                     >
@@ -612,7 +612,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqThree4">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqThree4"
@@ -624,7 +624,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqThree4"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqThree4"
                       data-bs-parent="#accordionFaq4"
                     >
@@ -640,7 +640,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFour4">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFour4"
@@ -652,7 +652,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFour4"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFour4"
                       data-bs-parent="#accordionFaq4"
                     >
@@ -668,7 +668,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFive4">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFive4"
@@ -680,7 +680,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFive4"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFive4"
                       data-bs-parent="#accordionFaq4"
                     >
@@ -698,7 +698,7 @@ export default function FaqsMain() {
 
               {/* <!--=====license tab=====--> */}
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="license-faq"
                 role="tabpanel"
                 aria-labelledby="license-faq-tab"
@@ -707,7 +707,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqOne5">
                       <button
-                        className="accordion-button"
+                       className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqOne5"
@@ -719,7 +719,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqOne5"
-                      className="accordion-collapse collapse show"
+                     className="accordion-collapse collapse show"
                       aria-labelledby="headingFaqOne5"
                       data-bs-parent="#accordionFaq5"
                     >
@@ -735,7 +735,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqTwo5">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqTwo5"
@@ -747,7 +747,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqTwo5"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqTwo5"
                       data-bs-parent="#accordionFaq5"
                     >
@@ -763,7 +763,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqThree5">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqThree5"
@@ -775,7 +775,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqThree5"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqThree5"
                       data-bs-parent="#accordionFaq5"
                     >
@@ -791,7 +791,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFour5">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFour5"
@@ -803,7 +803,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFour5"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFour5"
                       data-bs-parent="#accordionFaq5"
                     >
@@ -819,7 +819,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFive5">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFive5"
@@ -831,7 +831,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFive5"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFive5"
                       data-bs-parent="#accordionFaq5"
                     >
@@ -849,7 +849,7 @@ export default function FaqsMain() {
 
               {/* <!--=====refund tab=====--> */}
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="refund-faq"
                 role="tabpanel"
                 aria-labelledby="refund-faq-tab"
@@ -858,7 +858,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqOne6">
                       <button
-                        className="accordion-button"
+                       className="accordion-button"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqOne6"
@@ -870,7 +870,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqOne6"
-                      className="accordion-collapse collapse show"
+                     className="accordion-collapse collapse show"
                       aria-labelledby="headingFaqOne6"
                       data-bs-parent="#accordionFaq6"
                     >
@@ -886,7 +886,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqTwo6">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqTwo6"
@@ -898,7 +898,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqTwo6"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqTwo6"
                       data-bs-parent="#accordionFaq6"
                     >
@@ -914,7 +914,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqThree6">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqThree6"
@@ -926,7 +926,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqThree6"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqThree6"
                       data-bs-parent="#accordionFaq6"
                     >
@@ -942,7 +942,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFour6">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFour6"
@@ -954,7 +954,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFour6"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFour6"
                       data-bs-parent="#accordionFaq6"
                     >
@@ -970,7 +970,7 @@ export default function FaqsMain() {
                   <div className="accordion-item">
                     <h2 className="accordion-header" id="headingFaqFive6">
                       <button
-                        className="accordion-button collapsed"
+                       className="accordion-button collapsed"
                         type="button"
                         data-bs-toggle="collapse"
                         data-bs-target="#collapseFaqFive6"
@@ -982,7 +982,7 @@ export default function FaqsMain() {
                     </h2>
                     <div
                       id="collapseFaqFive6"
-                      className="accordion-collapse collapse"
+                     className="accordion-collapse collapse"
                       aria-labelledby="headingFaqFive6"
                       data-bs-parent="#accordionFaq6"
                     >

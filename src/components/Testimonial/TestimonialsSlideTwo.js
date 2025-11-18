@@ -67,7 +67,7 @@ export default function TestimonialsSlideTwo() {
           <div className="col-lg-12 pe-lg-0">
             <div className="slider-container">
               <div
-                className="swiper-container testimonial-slider-five"
+               className="swiper-container testimonial-slider-five"
                 id="testimonial-5"
               >
                 <Swiper {...swiperOptions} className="testimonial-slider-five">

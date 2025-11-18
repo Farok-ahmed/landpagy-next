@@ -18,48 +18,48 @@ export default function ClientThree() {
         <div className="row align-items-center">
           <div className="col-md-2 col-sm-4">
             <div
-              className="clients-image wow fadeInRight"
-              data-wow-delay="0.1s"
+             className="clients-image"
+             
             >
               <Image src={clientsLogo1} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div
-              className="clients-image wow fadeInRight"
-              data-wow-delay="0.3s"
+             className="clients-image"
+             
             >
               <Image src={clientsLogo2} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div
-              className="clients-image wow fadeInRight"
-              data-wow-delay="0.5s"
+             className="clients-image"
+             
             >
               <Image src={clientsLogo3} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div
-              className="clients-image wow fadeInRight"
-              data-wow-delay="0.7s"
+             className="clients-image"
+             
             >
               <Image src={clientsLogo4} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div
-              className="clients-image wow fadeInRight"
-              data-wow-delay="0.9s"
+             className="clients-image"
+             
             >
               <Image src={clientsLogo5} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
             <div
-              className="clients-image wow fadeInRight"
-              data-wow-delay="1.1s"
+             className="clients-image"
+             
             >
               <Image src={clientsLogo6} alt="brand" />
             </div>

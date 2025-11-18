@@ -21,7 +21,7 @@ export default function ElementsBreadcrumb({ title, description, wider }) {
             <div className="col-lg-10 offset-lg-1 text-center">
               <h1
                 ref={refs[0]}
-                className="banner-title mt-100 mb-20"
+               className="banner-title mt-100 mb-20"
               >
                 {title}
               </h1>
@@ -33,7 +33,7 @@ export default function ElementsBreadcrumb({ title, description, wider }) {
             <div className="col-lg-8 offset-lg-2">
               <h1
                 ref={refs[2]}
-                className="banner-title text-center mt-100"
+               className="banner-title text-center mt-100"
               >
                 {title}
               </h1>

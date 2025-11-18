@@ -25,7 +25,7 @@ export default function FaqOne() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="project-headingOne">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#project-collapseOne"
@@ -37,7 +37,7 @@ export default function FaqOne() {
                 </h2>
                 <div
                   id="project-collapseOne"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="project-headingOne"
                   data-bs-parent="#projectAccordion"
                 >
@@ -54,7 +54,7 @@ export default function FaqOne() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="project-headingTwo">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#project-collapseTwo"
@@ -66,7 +66,7 @@ export default function FaqOne() {
                 </h2>
                 <div
                   id="project-collapseTwo"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="project-headingTwo"
                   data-bs-parent="#projectAccordion"
                 >
@@ -83,7 +83,7 @@ export default function FaqOne() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="project-headingThree">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#project-collapseThree"
@@ -95,7 +95,7 @@ export default function FaqOne() {
                 </h2>
                 <div
                   id="project-collapseThree"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="project-headingThree"
                   data-bs-parent="#projectAccordion"
                 >
@@ -112,7 +112,7 @@ export default function FaqOne() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="project-headingFour">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#project-collapseFour"
@@ -124,7 +124,7 @@ export default function FaqOne() {
                 </h2>
                 <div
                   id="project-collapseFour"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="project-collapseFour"
                   data-bs-parent="#projectAccordion"
                 >
@@ -141,7 +141,7 @@ export default function FaqOne() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="project-headingFive">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#project-collapseFive"
@@ -153,7 +153,7 @@ export default function FaqOne() {
                 </h2>
                 <div
                   id="project-collapseFive"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="project-collapseFive"
                   data-bs-parent="#projectAccordion"
                 >

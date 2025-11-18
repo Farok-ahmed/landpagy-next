@@ -75,7 +75,7 @@ export default function OfficeAddress() {
             <iframe
               title="YouTube video player showing a music video"
               src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3988.8270523294163!2d103.8527512!3d1.2772197!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1632647635261!5m2!1sen!2sbd"
-              className="google-map"
+             className="google-map"
               style={{ border: "0" }}
               allowFullScreen=""
               loading="lazy"

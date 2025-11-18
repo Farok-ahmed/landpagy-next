@@ -16,7 +16,7 @@ export default function HeaderTwo() {
             <Image src={logo5} className="white_logo"  alt="logo" />
           </Link>
           <button
-            className="navbar-toggler collapsed"
+           className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarText"
@@ -37,7 +37,7 @@ export default function HeaderTwo() {
             </span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-end"
+           className="collapse navbar-collapse justify-content-end"
             id="navbarText"
           >
             <ul className="mx-auto navbar-nav menu">
@@ -46,7 +46,7 @@ export default function HeaderTwo() {
                   Home
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -66,7 +66,7 @@ export default function HeaderTwo() {
                   Pages
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -74,7 +74,7 @@ export default function HeaderTwo() {
                   {pagesLinks.pages.map((item, index) => (
                     <li
                       key={index}
-                      className={`nav-item ${
+                     className={`nav-item ${
                         item.submenu ? "dropdown submenu" : ""
                       }`}
                     >
@@ -84,7 +84,7 @@ export default function HeaderTwo() {
                             {item.name}
                           </Link>
                           <i
-                            className="arrow_carrot-right mobile_dropdown_icon"
+                           className="arrow_carrot-right mobile_dropdown_icon"
                             aria-hidden="false"
                             data-bs-toggle="dropdown"
                           ></i>
@@ -112,7 +112,7 @@ export default function HeaderTwo() {
                   Elements
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -123,7 +123,7 @@ export default function HeaderTwo() {
                         {item.name}
                       </Link>
                       <i
-                        className="arrow_carrot-right mobile_dropdown_icon"
+                       className="arrow_carrot-right mobile_dropdown_icon"
                         aria-hidden="false"
                         data-bs-toggle="dropdown"
                       ></i>
@@ -146,7 +146,7 @@ export default function HeaderTwo() {
                   Jobs
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -173,7 +173,7 @@ export default function HeaderTwo() {
                   Blog
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>

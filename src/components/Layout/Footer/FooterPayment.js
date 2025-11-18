@@ -2,8 +2,15 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import logo5 from "@/assets/images/logo-5.svg";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FooterPayment() {
+  const leftRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0 });
+  const menu1Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.1 });
+  const menu2Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.3 });
+  const menu3Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.5 });
+  const bottomRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.1 });
+
   const [selectedOption, setSelectedOption] = useState("english");
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,7 +30,7 @@ export default function FooterPayment() {
       <div className="footer-top">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4 wow fadeInLeft">
+            <div ref={leftRef} className="col-lg-4">
               <div className="footer-content flex-column justify-content-start align-items-start">
                 <Image src={logo5} alt="Footer Logo" />
                 <p className="mt-3">
@@ -33,7 +40,7 @@ export default function FooterPayment() {
                 <div className="custom-select-wrapper">
                   <button
                     type="button"
-                    className="custom-select-button"
+                   className="custom-select-button"
                     onClick={() => setIsOpen(!isOpen)}
                   >
                     <div>
@@ -51,7 +58,7 @@ export default function FooterPayment() {
                       {options.map((option) => (
                         <button
                           key={option.value}
-                          className="custom-select-option"
+                         className="custom-select-option"
                           onClick={() => handleSelect(option.value)}
                         >
                           {option.label}
@@ -65,8 +72,8 @@ export default function FooterPayment() {
             <div className="col-lg-8">
               <div className="row justify-content-between">
                 <div
-                  className="col-sm-6 wow fadeInUp col-md-4"
-                  data-wow-delay="0.1s"
+                  ref={menu1Ref}
+                 className="col-sm-6 col-md-4"
                 >
                   <div className="footer-menu">
                     <h4>Features</h4>
@@ -87,8 +94,8 @@ export default function FooterPayment() {
                   </div>
                 </div>
                 <div
-                  className="col-sm-6 wow fadeInUp col-md-3"
-                  data-wow-delay="0.3s"
+                  ref={menu2Ref}
+                 className="col-sm-6 col-md-3"
                 >
                   <div className="footer-menu">
                     <h4>Support</h4>
@@ -112,8 +119,8 @@ export default function FooterPayment() {
                   </div>
                 </div>
                 <div
-                  className="col-sm-6 wow fadeInUp col-md-5"
-                  data-wow-delay="0.5s"
+                  ref={menu3Ref}
+                 className="col-sm-6 col-md-5"
                 >
                   <div className="footer-menu ps-md-4">
                     <h4>Newsletter</h4>
@@ -125,7 +132,7 @@ export default function FooterPayment() {
                           <i className="icon_mail_alt"></i>
                           <input
                             type="text"
-                            className="form-control"
+                           className="form-control"
                             placeholder="Your email"
                           />
                         </div>
@@ -142,7 +149,7 @@ export default function FooterPayment() {
         </div>
       </div>
       <div className="container">
-        <div className="footer-bottom wow fadeInUp" data-wow-delay="0.1s">
+        <div ref={bottomRef} className="footer-bottom">
           <div className="row align-items-center">
             <div className="col-lg-3">
               <ul>

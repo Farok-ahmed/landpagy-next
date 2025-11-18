@@ -5,7 +5,7 @@ export default function CareerHero() {
   return (
     <section className="breadcrumb-area">
       <div
-        className="breadcrumb-widget pt-100 pb-115"
+       className="breadcrumb-widget pt-100 pb-115"
         style={{ background: "url(/images/breadcrumb.png)" }}
       >
         <div className="container blog-grid-container">
@@ -44,7 +44,7 @@ export default function CareerHero() {
                         <i className="icon_toolbox_alt"></i>
                       </span>
                       <input
-                        className="form-control"
+                       className="form-control"
                         type="text"
                         placeholder="Job title, keywords or company"
                       />
@@ -57,7 +57,7 @@ export default function CareerHero() {
                         <i className="icon_pin_alt"></i>
                       </span>
                       <input
-                        className="form-control"
+                       className="form-control"
                         type="text"
                         placeholder="Town or region"
                       />

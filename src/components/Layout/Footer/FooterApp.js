@@ -1,9 +1,18 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "@/assets/images/logo.svg";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FooterApp() {
+  const widget1Ref = useGsapReveal({ animation: 'fadeInDown', delay: 0.7 });
+  const widget2Ref = useGsapReveal({ animation: 'fadeInDown', delay: 0.5 });
+  const widget3Ref = useGsapReveal({ animation: 'fadeInDown', delay: 0.3 });
+  const widget4Ref = useGsapReveal({ animation: 'fadeInDown', delay: 0.5 });
+  const langRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
+  const menuRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
+  const copyrightRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
+
   return (
     <footer className="footer-cloud footer-app">
       <div className="app-footer-top pt-165 pb-110">
@@ -11,8 +20,8 @@ export default function FooterApp() {
           <div className="row">
             <div className="col-md-4">
               <div
-                className="footer-widget wow fadeInDown"
-                data-wow-delay="0.7s"
+                ref={widget1Ref}
+               className="footer-widget"
               >
                 <Link href="/" className="footer-logo mb-10">
                   <Image src={logo} alt="Logo" />
@@ -44,8 +53,8 @@ export default function FooterApp() {
               <div className="row">
                 <div className="col-md-4">
                   <div
-                    className="footer-widget wow fadeInDown"
-                    data-wow-delay="0.5s"
+                    ref={widget2Ref}
+                   className="footer-widget"
                   >
                     <h4 className="widget-title">Product</h4>
                     <ul className="widget-link-list">
@@ -69,8 +78,8 @@ export default function FooterApp() {
                 </div>
                 <div className="col-md-4">
                   <div
-                    className="footer-widget wow fadeInDown"
-                    data-wow-delay="0.3s"
+                    ref={widget3Ref}
+                   className="footer-widget"
                   >
                     <h4 className="widget-title">Company</h4>
                     <ul className="widget-link-list">
@@ -94,8 +103,8 @@ export default function FooterApp() {
                 </div>
                 <div className="col-md-4">
                   <div
-                    className="footer-widget wow fadeInDown"
-                    data-wow-delay="0.5s"
+                    ref={widget4Ref}
+                   className="footer-widget"
                   >
                     <h4 className="widget-title">Support</h4>
                     <ul className="widget-link-list">
@@ -128,8 +137,8 @@ export default function FooterApp() {
           <div className="row align-items-center">
             <div className="col-lg-3 col-md-2">
               <div
-                className="language-list wow fadeInDown"
-                data-wow-delay="0.2s"
+                ref={langRef}
+               className="language-list"
               >
                 <form>
                   <select id="select-lang">
@@ -143,8 +152,8 @@ export default function FooterApp() {
             </div>
             <div className="col-md-6">
               <div
-                className="footer-bottom-menu wow fadeInDown"
-                data-wow-delay="0.2s"
+                ref={menuRef}
+               className="footer-bottom-menu"
               >
                 <ul>
                   <li>
@@ -161,8 +170,8 @@ export default function FooterApp() {
             </div>
             <div className="col-lg-3 col-md-4">
               <p
-                className="copyright-text float-md-end wow fadeInDown"
-                data-wow-delay="0.2s"
+                ref={copyrightRef}
+               className="copyright-text float-md-end"
               >
                 Copyright {new Date().getFullYear()}, All Rights Reserved
               </p>

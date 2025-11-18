@@ -26,7 +26,7 @@ export default function CloudCounter() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      className="animatable draw"
+                     className="animatable draw"
                       d="M12.3913 15.8907C99.954 -22.4824 242.396 21.6662 198.813 54.8272C168.732 77.7158 1.36509 74.1514 1.36499 36.4575C1.36493 12.3477 73.6476 -1.71354 153.903 14.2707"
                       stroke="#16C79A"
                     />

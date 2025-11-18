@@ -54,8 +54,8 @@ export default function ProtoIntegration() {
         <div className="row align-items-center gy-lg-0 gy-4">
           <div className="col-lg-6 pe-lg-5 order-2 order-lg-1">
             <div
-              className="section-title-left wow fadeInLeft"
-              data-wow-delay="0.1s"
+             className="section-title-left"
+             
             >
               <h2>Integrate with your favorite apps</h2>
               <p>

@@ -1,12 +1,17 @@
+"use client";
 ;
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function FaqPrototype() {
+  const faqRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="faq-area-four faq-proto pt-135 pb-150">
       <div className="container">
         <div className="section-title-center">
-          <h2 className="wow fadeInUp">Frequently Asked Questions</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.2s">
+          <h2 className="">Frequently Asked Questions</h2>
+          <p className="">
             Aliquam interdum risus vitae lectus convallis sodales quis dignissim
             mi. Proin sem risus, aliquet in pretium eu, ultrices eu nibh.
           </p>
@@ -15,13 +20,11 @@ export default function FaqPrototype() {
           <div className="col-12">
             <div className="accordion" id="accordionFlushExample">
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.2s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne"
                     aria-expanded="false"
@@ -32,8 +35,7 @@ export default function FaqPrototype() {
                 </h2>
                 <div
                   id="flush-collapseOne"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne"
+                 className="accordion-collapse collapse"aria-labelledby="flush-headingOne"
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
@@ -46,13 +48,11 @@ export default function FaqPrototype() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.3s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="flush-headingTwo">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo"
                     aria-expanded="false"
@@ -63,8 +63,7 @@ export default function FaqPrototype() {
                 </h2>
                 <div
                   id="flush-collapseTwo"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTwo"
+                 className="accordion-collapse collapse"aria-labelledby="flush-headingTwo"
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
@@ -77,13 +76,11 @@ export default function FaqPrototype() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.4s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="flush-headingThree">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree"
                     aria-expanded="false"
@@ -94,8 +91,7 @@ export default function FaqPrototype() {
                 </h2>
                 <div
                   id="flush-collapseThree"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree"
+                 className="accordion-collapse collapse"aria-labelledby="flush-headingThree"
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
@@ -108,13 +104,11 @@ export default function FaqPrototype() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.5s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="flush-headingFour">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFour"
                     aria-expanded="false"
@@ -125,8 +119,7 @@ export default function FaqPrototype() {
                 </h2>
                 <div
                   id="flush-collapseFour"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="flush-collapseFour"
+                 className="accordion-collapse collapse"aria-labelledby="flush-collapseFour"
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">
@@ -139,13 +132,11 @@ export default function FaqPrototype() {
                 </div>
               </div>
               <div
-                className="accordion-item wow fadeInUp"
-                data-wow-delay="0.6s"
+               className="accordion-item"
               >
                 <h2 className="accordion-header" id="flush-headingFive">
                   <button
-                    className="accordion-button collapsed"
-                    type="button"
+                   className="accordion-button collapsed"type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFive"
                     aria-expanded="false"
@@ -156,8 +147,7 @@ export default function FaqPrototype() {
                 </h2>
                 <div
                   id="flush-collapseFive"
-                  className="accordion-collapse collapse"
-                  aria-labelledby="flush-collapseFive"
+                 className="accordion-collapse collapse"aria-labelledby="flush-collapseFive"
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div className="accordion-body">

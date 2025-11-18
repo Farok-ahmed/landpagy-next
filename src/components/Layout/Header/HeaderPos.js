@@ -23,7 +23,7 @@ export default function HeaderPos() {
             <Image src={logo5} className="white_logo"  alt="logo" />
           </Link>
           <button
-            className="navbar-toggler collapsed"
+           className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarText"
@@ -44,7 +44,7 @@ export default function HeaderPos() {
             </span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-end"
+           className="collapse navbar-collapse justify-content-end"
             id="navbarText"
           >
             <ul className="mx-auto navbar-nav menu">
@@ -53,7 +53,7 @@ export default function HeaderPos() {
                   Home
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -73,7 +73,7 @@ export default function HeaderPos() {
                   Pages
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -81,7 +81,7 @@ export default function HeaderPos() {
                   {pagesLinks.pages.map((item, index) => (
                     <li
                       key={index}
-                      className={`nav-item ${
+                     className={`nav-item ${
                         item.submenu ? "dropdown submenu" : ""
                       }`}
                     >
@@ -91,7 +91,7 @@ export default function HeaderPos() {
                             {item.name}
                           </Link>
                           <i
-                            className="arrow_carrot-right mobile_dropdown_icon"
+                           className="arrow_carrot-right mobile_dropdown_icon"
                             aria-hidden="false"
                             data-bs-toggle="dropdown"
                           ></i>
@@ -119,7 +119,7 @@ export default function HeaderPos() {
                   Elements
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -130,7 +130,7 @@ export default function HeaderPos() {
                         {item.name}
                       </Link>
                       <i
-                        className="arrow_carrot-right mobile_dropdown_icon"
+                       className="arrow_carrot-right mobile_dropdown_icon"
                         aria-hidden="false"
                         data-bs-toggle="dropdown"
                       ></i>
@@ -153,7 +153,7 @@ export default function HeaderPos() {
                   Jobs
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -180,7 +180,7 @@ export default function HeaderPos() {
                   Blog
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>

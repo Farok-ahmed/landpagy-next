@@ -23,7 +23,7 @@ export default function HowItWorks() {
           <div className="col-lg-12">
             <h2
               ref={titleRef}
-              className="services-title text-center mb-50"
+             className="services-title text-center mb-50"
             >
               How it Works
             </h2>
@@ -59,7 +59,7 @@ export default function HowItWorks() {
           </div>
           <div className="col-lg-4 col-md-6 mt-lg-0 mt-5 mx-auto">
             <div
-              className="services-item"
+             className="services-item"
               ref={item3Ref}
             >
               <Image src={serviceIcon3} alt="" />

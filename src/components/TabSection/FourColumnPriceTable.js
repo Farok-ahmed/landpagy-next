@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function FourColumnPriceTable({ pricePageTwo }) {
   return (
     <section
-      className={`pricing-area section-padding ${
+     className={`pricing-area section-padding ${
         pricePageTwo ? "section-padding-2" : "section-padding"
       }`}
     >
@@ -23,7 +23,7 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
             <ul className="nav nav-tabs pricing-tabs" id="myTab" role="tablist">
               <li className="nav-item" role="presentation">
                 <button
-                  className="nav-link active"
+                 className="nav-link active"
                   id="home-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#home"
@@ -37,7 +37,7 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
               </li>
               <li className="nav-item" role="presentation">
                 <button
-                  className="nav-link"
+                 className="nav-link"
                   id="profile-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#profile"
@@ -51,7 +51,7 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
               </li>
               <li className="nav-item" role="presentation">
                 <button
-                  className="nav-link"
+                 className="nav-link"
                   id="contact-tab"
                   data-bs-toggle="tab"
                   data-bs-target="#contact"
@@ -74,7 +74,7 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
         </div>
         <div className="tab-content" id="myTabContent">
           <div
-            className="tab-pane fade show active"
+           className="tab-pane fade show active"
             id="home"
             role="tabpanel"
             aria-labelledby="home-tab"
@@ -205,11 +205,11 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
             <img
               src="assets/images/most.png"
               alt=""
-              className="popular d-none d-lg-block"
+             className="popular d-none d-lg-block"
             />
           </div>
           <div
-            className="tab-pane fade"
+           className="tab-pane fade"
             id="profile"
             role="tabpanel"
             aria-labelledby="profile-tab"
@@ -338,7 +338,7 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
             </div>
           </div>
           <div
-            className="tab-pane fade"
+           className="tab-pane fade"
             id="contact"
             role="tabpanel"
             aria-labelledby="contact-tab"

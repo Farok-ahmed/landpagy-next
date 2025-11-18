@@ -75,7 +75,7 @@ export default function FeatureFour() {
       </div>
       <div className="container">
         <div className="row align-items-center gy-lg-0 gy-4">
-          <div className="col-lg-6 wow fadeInRight">
+          <div className="col-lg-6">
             <h2>Discover important insights on your dashboard</h2>
             <p>
               Aliquam interdum risus vitae lectus convallis sodales quis
@@ -84,7 +84,7 @@ export default function FeatureFour() {
             </p>
           </div>
           <div className="col-lg-6">
-            <div className="dash-img wow fadeInLeft">
+            <div className="dash-img">
               <Image src={dashboard1} alt="" />
               <Image src={dashboard2} alt="" />
               <Image src={featureShape} className="shape"

@@ -21,7 +21,7 @@ export default function ProtoCta() {
     rotateY: 0,
   });
   return (
-    <section className="cta-area-7 pt-80 pb-80 wow fadeInUp">
+    <section className="cta-area-7 pt-80 pb-80">
       <div className="bg-shapes">
         <div className="shape" ref={shape1Parallax.ref}>
           <Image src={ctaShape2} alt="Shape 1" />
@@ -34,18 +34,18 @@ export default function ProtoCta() {
         <div className="row">
           <div className="col-xl-12 text-center">
             <h2
-              className="cta-title mb-15 wow fadeInLeft"
-              data-wow-delay="0.2s"
+             className="cta-title mb-15"
+             
             >
               Get started now. It’s free.
             </h2>
             <p
-              className="title-text mb-40 wow fadeInLeft"
-              data-wow-delay="0.4s"
+             className="title-text mb-40"
+             
             >
               Empower your entire team today
             </p>
-            <Link href="/" className="cta-btn btn-yellow wow fadeInRight" data-wow-delay="0.2s">
+            <Link href="/" className="cta-btn btn-yellow">
               Try for free
             </Link>
           </div>

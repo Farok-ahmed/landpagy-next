@@ -4,7 +4,7 @@ export default function JobDetailsHero() {
   return (
     <section className="breadcrumb-area">
       <div
-        className="breadcrumb-widget pt-100 pb-10"
+       className="breadcrumb-widget pt-100 pb-10"
         style={{ background: "url(/images/breadcrumb.png)" }}
       >
         <div className="container blog-grid-container">

@@ -55,7 +55,7 @@ export default function AboutVideo() {
                       
                       alt="" />
                     <Link
-                      className="play-btn"
+                     className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
                     >
                       <i className="fas fa-play"></i>
@@ -83,7 +83,7 @@ export default function AboutVideo() {
                       
                       alt="" />
                     <Link
-                      className="play-btn"
+                     className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
                     >
                       {" "}
@@ -112,7 +112,7 @@ export default function AboutVideo() {
                       
                       alt="" />
                     <Link
-                      className="play-btn"
+                     className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
                     >
                       {" "}
@@ -145,7 +145,7 @@ export default function AboutVideo() {
               <div className="col-md-4">
                 <div
                   ref={clientRefs[0]}
-                  className="client-image"
+                 className="client-image"
                 >
                   <Image src={brand1} alt="Brand " />
                 </div>
@@ -153,7 +153,7 @@ export default function AboutVideo() {
               <div className="col-md-4">
                 <div
                   ref={clientRefs[1]}
-                  className="client-image"
+                 className="client-image"
                 >
                   <Image src={brand2} alt="Brand " />
                 </div>
@@ -161,7 +161,7 @@ export default function AboutVideo() {
               <div className="col-md-4">
                 <div
                   ref={clientRefs[2]}
-                  className="client-image"
+                 className="client-image"
                 >
                   <Image src={brand3} alt="Brand " />
                 </div>
@@ -169,7 +169,7 @@ export default function AboutVideo() {
               <div className="col-md-4">
                 <div
                   ref={clientRefs[3]}
-                  className="client-image"
+                 className="client-image"
                 >
                   <Image src={brand4} alt="Brand " />
                 </div>
@@ -177,7 +177,7 @@ export default function AboutVideo() {
               <div className="col-md-4">
                 <div
                   ref={clientRefs[4]}
-                  className="client-image"
+                 className="client-image"
                 >
                   <Image src={brand5} alt="Brand " />
                 </div>
@@ -185,7 +185,7 @@ export default function AboutVideo() {
               <div className="col-md-4">
                 <div
                   ref={clientRefs[5]}
-                  className="client-image"
+                 className="client-image"
                 >
                   <Image src={brand1} alt="Brand " />
                 </div>

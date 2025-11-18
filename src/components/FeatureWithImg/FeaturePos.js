@@ -15,15 +15,19 @@ import feaImg3 from "@/assets/images/home_5/fea-img3.jpg";
 ;
 import { Parallax } from "react-scroll-parallax";
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function FeaturePos() {
+  const featureRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="features-area-eleven pt-135 pb-90">
       <div className="container">
         <div className="row">
           <div className="col-xl-10 offset-xl-1">
             <div className="section-title-center">
-              <h2 className="wow fadeInUp">Payment Service Provider</h2>
-              <p className="wow fadeInUp" data-wow-delay="0.2s">
+              <h2 className="">Payment Service Provider</h2>
+              <p className="">
                 Landpagy helps businesses of all sizes — from small companies to
                 large enterprises — accept, process, and manage their online
                 payment processing to help maximize business opportunities.
@@ -46,8 +50,7 @@ export default function FeaturePos() {
                 <Link href="/" className="features-link">
                   Start selling online
                   <svg
-                    className="HoverArrow"
-                    width="10"
+                   className="HoverArrow"width="10"
                     height="10"
                     viewBox="0 0 10 10"
                     aria-hidden="true"
@@ -55,8 +58,7 @@ export default function FeaturePos() {
                     <g fillRule="evenodd">
                       <path className="HoverArrow__linePath" d="M0 5h7"></path>
                       <path
-                        className="HoverArrow__tipPath"
-                        d="M1 1l4 4-4 4"
+                       className="HoverArrow__tipPath"d="M1 1l4 4-4 4"
                       ></path>
                     </g>
                   </svg>
@@ -90,12 +92,12 @@ export default function FeaturePos() {
                         <Image src={feaShape2} alt="Shape" />
                       </Parallax>
                     </div>
-                    <div className="shape wow fadeInRight">
+                    <div className="shape">
                       <Image src={feaShape3} alt="Shape" />
                     </div>
                   </div>
                   <Image src={feaImg1} alt="Features"
-                    className="features-img" />
+                   className="features-img" />
                 </div>
               </div>
             </div>
@@ -130,12 +132,12 @@ export default function FeaturePos() {
                         <Image src={feaShape4} alt="Shape" />
                       </Parallax>
                     </div>
-                    <div className="shape wow fadeInRight">
+                    <div className="shape">
                       <Image src={feaShape5} alt="Shape" />
                     </div>
                   </div>
                   <Image src={feaImg2} alt="Features"
-                    className="features-img" />
+                   className="features-img" />
                 </div>
               </div>
               <div className="col-md-6 col-lg-5 offset-lg-1">
@@ -150,8 +152,7 @@ export default function FeaturePos() {
                 <Link href="/" className="features-link">
                   Get the tools
                   <svg
-                    className="HoverArrow"
-                    width="10"
+                   className="HoverArrow"width="10"
                     height="10"
                     viewBox="0 0 10 10"
                     aria-hidden="true"
@@ -159,8 +160,7 @@ export default function FeaturePos() {
                     <g fillRule="evenodd">
                       <path className="HoverArrow__linePath" d="M0 5h7"></path>
                       <path
-                        className="HoverArrow__tipPath"
-                        d="M1 1l4 4-4 4"
+                       className="HoverArrow__tipPath"d="M1 1l4 4-4 4"
                       ></path>
                     </g>
                   </svg>
@@ -180,8 +180,7 @@ export default function FeaturePos() {
                 <Link href="/" className="features-link">
                   Start selling online
                   <svg
-                    className="HoverArrow"
-                    width="10"
+                   className="HoverArrow"width="10"
                     height="10"
                     viewBox="0 0 10 10"
                     aria-hidden="true"
@@ -189,8 +188,7 @@ export default function FeaturePos() {
                     <g fillRule="evenodd">
                       <path className="HoverArrow__linePath" d="M0 5h7"></path>
                       <path
-                        className="HoverArrow__tipPath"
-                        d="M1 1l4 4-4 4"
+                       className="HoverArrow__tipPath"d="M1 1l4 4-4 4"
                       ></path>
                     </g>
                   </svg>
@@ -224,12 +222,12 @@ export default function FeaturePos() {
                         <Image src={feaShape6} alt="Shape" />
                       </Parallax>
                     </div>
-                    <div className="shape wow fadeInRight">
+                    <div className="shape">
                       <Image src={feaShape7} alt="Shape" />
                     </div>
                   </div>
                   <Image src={feaImg3} alt="Features"
-                    className="features-img" />
+                   className="features-img" />
                 </div>
               </div>
             </div>

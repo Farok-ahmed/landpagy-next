@@ -22,11 +22,27 @@ import brand8 from "@/assets/images/brand/brand-8.svg";
 import brand9 from "@/assets/images/brand/brand-9.svg";
 import brand10 from "@/assets/images/brand/brand-10.svg";
 import brand11 from "@/assets/images/brand/brand-11.svg";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 import { useParallax } from "react-scroll-parallax";
 
 export default function HeroHRM() {
+  const titleRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.2 });
+  const paraRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.3 });
+  const formRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.4 });
+  const bubble1Ref = useGsapReveal({ animation: 'zoomIn', delay: 0.1 });
+  const bubble2Ref = useGsapReveal({ animation: 'zoomIn', delay: 0.2 });
+  const bubble3Ref = useGsapReveal({ animation: 'zoomIn', delay: 0.3 });
+  const plantRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.3 });
+  const manRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.4 });
+  const floorRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.5 });
+  const brand1Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0.1 });
+  const brand2Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0.3 });
+  const brand3Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0.5 });
+  const brand4Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0.7 });
+  const brand5Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0.9 });
+  const brand6Ref = useGsapReveal({ animation: 'fadeInRight', delay: 1.1 });
+
   const shape1Parallax = useParallax({
     translateX: [25, -25, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
@@ -80,14 +96,14 @@ export default function HeroHRM() {
         <div className="row flex-column-reverse flex-md-row">
           <div className="col-lg-7 col-md-6">
             <div className="banner-left">
-              <h2 className="banner-title wow fadeInLeft" data-wow-delay="0.2s">
+              <h2 ref={titleRef} className="banner-title">
                 Entire HRM From One Platfrom
               </h2>
-              <p className="banner-para wow fadeInLeft" data-wow-delay="0.3s">
+              <p ref={paraRef} className="banner-para">
                 Crush your 2021 goals and keep moving forward with Landpagy' s
                 work management platform.
               </p>
-              <form className="form-group wow fadeInLeft" data-wow-delay="0.4s">
+              <form ref={formRef} className="form-group">
                 <input
                   type="email"
                   placeholder="Enter your email to book demo"
@@ -103,16 +119,13 @@ export default function HeroHRM() {
           </div>
           <div className="col-md-5 offset-md-1 offset-lg-0">
             <div className="banner-right">
-              <Image src={bannerBubbleIcon1} className="banner-img-1 wow zoomIn"
-                data-wow-delay="0.1s"
+              <Image src={bannerBubbleIcon1} ref={bubble1Ref} className="banner-img-1"
                 
                 alt="Icon " />
-              <Image src={bannerBubbleIcon2} className="banner-img-2 wow zoomIn"
-                data-wow-delay="0.2s"
+              <Image src={bannerBubbleIcon2} ref={bubble2Ref} className="banner-img-2"
                 
                 alt="Icon " />
-              <Image src={bannerBubbleIcon3} className="banner-img-3 wow zoomIn"
-                data-wow-delay="0.3s"
+              <Image src={bannerBubbleIcon3} ref={bubble3Ref} className="banner-img-3"
                 
                 alt="Icon " />
 
@@ -140,16 +153,13 @@ export default function HeroHRM() {
                 alt="Icon "
                 ref={shape5Parallax.ref} />
 
-              <Image src={bannerPlant} className="banner-img-9 wow fadeInRight"
-                data-wow-delay="0.3s"
+              <Image src={bannerPlant} ref={plantRef} className="banner-img-9"
                 
                 alt="Icon " />
-              <Image src={bannerMan} className="banner-img-10 wow fadeInRight"
-                data-wow-delay="0.4s"
+              <Image src={bannerMan} ref={manRef} className="banner-img-10"
                 
                 alt="Icon " />
-              <Image src={bannerFloorBg} className="banner-img-11 wow fadeInDown"
-                data-wow-delay="0.5s"
+              <Image src={bannerFloorBg} ref={floorRef} className="banner-img-11"
                 
                 alt="Icon " />
             </div>
@@ -158,32 +168,32 @@ export default function HeroHRM() {
 
         <div className="pt-0 row pt-lg-4">
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.1s">
+            <div ref={brand1Ref} className="client-image">
               <Image src={brand6} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.3s">
+            <div ref={brand2Ref} className="client-image">
               <Image src={brand7} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.5s">
+            <div ref={brand3Ref} className="client-image">
               <Image src={brand8} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.7s">
+            <div ref={brand4Ref} className="client-image">
               <Image src={brand9} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.9s">
+            <div ref={brand5Ref} className="client-image">
               <Image src={brand10} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="1.1s">
+            <div ref={brand6Ref} className="client-image">
               <Image src={brand11} alt="brand" />
             </div>
           </div>

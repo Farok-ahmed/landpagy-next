@@ -8,10 +8,14 @@ import shape1 from "@/assets/images/home_10/shapes/shape1.svg";
 import shape2 from "@/assets/images/home_10/shapes/shape2.svg";
 import bannerImg1 from "@/assets/images/home_10/banner-img1.png";
 import bannerImg2 from "@/assets/images/home_10/banner-img2.png";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import { Parallax } from "react-scroll-parallax";
 
 export default function AppLandingHero() {
+  const contentRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.3 });
+  const img1Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0.1 });
+  const img2Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0.3 });
+
   return (
     <section className="pb-20 app-banner-area pt-140">
       <div className="bg-shapes">
@@ -149,8 +153,8 @@ export default function AppLandingHero() {
         <div className="row align-items-center flex-column-reverse flex-md-row">
           <div className="col-md-7">
             <div
-              className="app-banner-content wow fadeInLeft"
-              data-wow-delay="0.3s"
+              ref={contentRef}
+             className="app-banner-content"
             >
               <h1 className="banner-title mb-35">
                 Welcome to Landpagy Get the {""}
@@ -186,12 +190,10 @@ export default function AppLandingHero() {
                   <Image src={shape2} alt="Shape" />
                 </div>
               </div>
-              <Image src={bannerImg1} className="main-img1 wow fadeInRight"
-                data-wow-delay="0.1s"
+              <Image src={bannerImg1} ref={img1Ref} className="main-img1"
                 
                 alt="Banner " />
-              <Image src={bannerImg2} className="main-img2 wow fadeInRight"
-                data-wow-delay="0.3s"
+              <Image src={bannerImg2} ref={img2Ref} className="main-img2"
                 
                 alt="Banner " />
             </div>

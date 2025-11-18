@@ -1,3 +1,4 @@
+"use client";
 /**
  * ALTERNATIVE IMPLEMENTATION USING UTILITY FUNCTIONS
  * This is an example showing how WhyChooseOne.js could be written

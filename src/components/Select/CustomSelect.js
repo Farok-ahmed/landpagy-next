@@ -44,7 +44,7 @@ const CustomSelect = ({ options, placeholder, onChange }) => {
           {options.map((option, index) => (
             <li
               key={index}
-              className={`select-option ${
+             className={`select-option ${
                 selectedOption && selectedOption.value === option.value
                   ? "selected"
                   : ""

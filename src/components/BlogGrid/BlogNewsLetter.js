@@ -25,11 +25,11 @@ export default function BlogNewsLetter() {
           <div className="col-md-10 col-lg-6 offset-lg-1">
             <form
               action="#"
-              className="footer_subscribe_form action_subscribe_form"
+             className="footer_subscribe_form action_subscribe_form"
             >
               <div className="form-group">
                 <input
-                  className="form-control"
+                 className="form-control"
                   type="email"
                   placeholder="Email Address"
                 />
@@ -39,7 +39,7 @@ export default function BlogNewsLetter() {
               </div>
               <div className="form-check">
                 <input
-                  className="form-check-input"
+                 className="form-check-input"
                   type="checkbox"
                   value=""
                   id="defaultCheck1"

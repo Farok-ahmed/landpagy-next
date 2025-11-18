@@ -40,7 +40,7 @@ export default function HelpDoc() {
               <Image src={thumb} alt="Thumb" />
               <a
                 href="https://youtu.be/WdS4Z5Kfjgw"
-                className="play-buttons"
+               className="play-buttons"
                 data-fancybox
               >
                 <Image src={playButton} alt="Play Button" />

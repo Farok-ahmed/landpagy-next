@@ -6,7 +6,7 @@ export default function JobSearchForm() {
       <div className="input-search-field input-group">
         <input
           type="text"
-          className="form-control"
+         className="form-control"
           placeholder="Job title or keywords..."
         />
         <div className="input-group-append">

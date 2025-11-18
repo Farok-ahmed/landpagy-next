@@ -52,8 +52,8 @@ export default function FooterThree() {
             <div className="col-lg-8">
               <div className="row justify-content-between">
                 <div
-                  className="col-sm-6 wow fadeInUp col-md-3"
-                  data-wow-delay="0.1s"
+                 className="col-sm-6 col-md-3"
+                 
                 >
                   <div className="footer-menu">
                     <h4>Company</h4>
@@ -77,8 +77,8 @@ export default function FooterThree() {
                   </div>
                 </div>
                 <div
-                  className="col-sm-6 wow fadeInUp col-md-3"
-                  data-wow-delay="0.2s"
+                 className="col-sm-6 col-md-3"
+                 
                 >
                   <div className="footer-menu">
                     <h4>Useful inks</h4>
@@ -102,8 +102,8 @@ export default function FooterThree() {
                   </div>
                 </div>
                 <div
-                  className="col-sm-6 wow fadeInUp col-md-3"
-                  data-wow-delay="0.3s"
+                 className="col-sm-6 col-md-3"
+                 
                 >
                   <div className="footer-menu">
                     <h4>Products</h4>
@@ -126,8 +126,8 @@ export default function FooterThree() {
               </div>
             </div>
             <div
-              className="col-sm-6 col-lg-3 offset-lg-1 wow fadeInUp"
-              data-wow-delay="0.5s"
+             className="col-sm-6 col-lg-3 offset-lg-1"
+             
             >
               <div className="footer-menu">
                 <h4>Newsletter</h4>
@@ -141,7 +141,7 @@ export default function FooterThree() {
                       <i className="icon_mail_alt"></i>
                       <input
                         type="text"
-                        className="form-control"
+                       className="form-control"
                         placeholder="Your email"
                       />
                     </div>
@@ -156,7 +156,7 @@ export default function FooterThree() {
         </div>
       </div>
       <div className="container">
-        <div className="footer-bottom wow fadeInUp" data-wow-delay="0.1s">
+        <div className="footer-bottom">
           <div className="row align-items-center">
             <div className="col-lg-3 text-sm-center text-md-start">
               <ul>

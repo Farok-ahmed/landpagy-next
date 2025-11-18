@@ -110,7 +110,7 @@ export default function CloudTestimonial() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="animatable draw"
+                   className="animatable draw"
                     d="M2.74687 18.4067C73.9377 -29.3958 233.396 32.857 150.873 62.1057C102.25 79.3392 -15.2107 62.8661 2.7469 30.511C14.4708 9.3874 95.2742 -7.64876 152.309 30.511"
                     stroke="#EFBA34"
                   />
@@ -135,7 +135,7 @@ export default function CloudTestimonial() {
               {users.slice(0, 4).map((user) => (
                 <button
                   key={user.id}
-                  className={`nav-link ${
+                 className={`nav-link ${
                     activeTab === user.id ? "active" : ""
                   }`}
                   onClick={() => handleTabClick(user.id)}
@@ -155,14 +155,14 @@ export default function CloudTestimonial() {
               {users.map((user) => (
                 <div
                   key={user.id}
-                  className={`tab-pane fade ${
+                 className={`tab-pane fade ${
                     activeTab === user.id ? "show active" : ""
                   }`}
                 >
                   <div className="user-content">
                     <div className="progress-bar-container">
                       <div
-                        className="progress-bar"
+                       className="progress-bar"
                         // Key changes on activeTab to restart animation
                       ></div>
                     </div>
@@ -183,13 +183,13 @@ export default function CloudTestimonial() {
           {/* Right Column Tabs */}
           <div className="col-lg-4 gx-lg-0">
             <div
-              className="nav nav-tabs cloud-team-tab column-2nd"
+             className="nav nav-tabs cloud-team-tab column-2nd"
               role="tablist"
             >
               {users.slice(4).map((user) => (
                 <button
                   key={user.id}
-                  className={`nav-link ${
+                 className={`nav-link ${
                     activeTab === user.id ? "active" : ""
                   }`}
                   onClick={() => handleTabClick(user.id)}

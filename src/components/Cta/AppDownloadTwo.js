@@ -13,23 +13,23 @@ export default function AppDownloadTwo({ hasSpace }) {
     <section className="app-cta-area">
       <div className="container">
         <div
-          className={`app-cta-bg ${
+         className={`app-cta-bg ${
             hasSpace ? "mt-80 mb-80 mt-lg-150 mb-lg-150" : ""
           }`}
         >
           <div className="row align-items-center">
-            <div className="col-lg-7 wow fadeInDown" data-wow-delay="0.2s">
+            <div className="col-lg-7">
               <div className="app-cta-content">
                 <h2 className="cta-title cloud-heading-2 mb-60">
                   Join the revolution. Download the app today!
                 </h2>
-                <Link href="/" className="app-store-link wow fadeInLeft" data-wow-delay="0.4s">
+                <Link href="/" className="app-store-link">
                   <i className="fab fa-google-play"></i>
                   <p>
                     <span>GET IT ON</span>Google Play
                   </p>
                 </Link>
-                <Link href="/" className="app-store-link ml-25 wow fadeInRight">
+                <Link href="/" className="app-store-link ml-25">
                   <i className="fab fa-apple"></i>
                   <p>
                     <span>Available on the</span>Apple Store
@@ -40,20 +40,20 @@ export default function AppDownloadTwo({ hasSpace }) {
             <div className="col-lg-5">
               <div className="app-cta-images">
                 <Image src={ctaImg1} alt=""
-                  className="img wow fadeInRight"
-                  data-wow-delay="0.1s" />
+                 className="img"
+                  />
                 <Image src={ctaImg2} alt=""
-                  className="img wow fadeInRight"
-                  data-wow-delay="0.5s" />
+                 className="img"
+                  />
                 <Image src={ctaImg3} alt=""
-                  className="img wow fadeInLeft"
-                  data-wow-delay="0.7s" />
+                 className="img"
+                  />
                 <Image src={ctaImg4} alt=""
-                  className="img wow fadeInDown"
-                  data-wow-delay="0.9s" />
+                 className="img"
+                  />
                 <Image src={ctaImg5} alt=""
-                  className="img wow fadeInDown"
-                  data-wow-delay="0.3s" />
+                 className="img"
+                  />
               </div>
             </div>
           </div>

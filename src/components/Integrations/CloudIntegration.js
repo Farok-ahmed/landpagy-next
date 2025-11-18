@@ -32,7 +32,7 @@ export default function CloudIntegration() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="animatable draw"
+                   className="animatable draw"
                     d="M15.1813 18.929C119.226 -20.9336 332.756 11.627 276.862 60.7958C232.086 100.185 -9.7646 99.5033 1.39234 40.2395C8.16679 4.25482 202.461 -0.375429 266.643 34.2224"
                     stroke="#EFBA34"
                   />

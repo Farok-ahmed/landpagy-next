@@ -14,7 +14,7 @@ export default function ProtoClient() {
         <div className="row">
           <div className="col-md-12">
             <div className="section-title-center">
-              <h2 className="section-heading wow fadeInUp">
+              <h2 className="section-heading">
                 Used by individuals and teams at the world's biggest companies
               </h2>
             </div>
@@ -22,32 +22,32 @@ export default function ProtoClient() {
         </div>
         <div className="row">
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.1s">
+            <div className="client-image">
               <Image src={brand6} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.3s">
+            <div className="client-image">
               <Image src={brand7} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.5s">
+            <div className="client-image">
               <Image src={brand8} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.7s">
+            <div className="client-image">
               <Image src={brand9} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="0.9s">
+            <div className="client-image">
               <Image src={brand10} alt="brand" />
             </div>
           </div>
           <div className="col-md-2 col-sm-4">
-            <div className="client-image wow fadeInRight" data-wow-delay="1.1s">
+            <div className="client-image">
               <Image src={brand11} alt="brand" />
             </div>
           </div>

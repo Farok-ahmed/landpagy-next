@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -7,13 +8,17 @@ import icon3 from "@/assets/images/recruitment-proccess/icon-3.svg";
 import icon4 from "@/assets/images/recruitment-proccess/icon-4.svg";
 ;
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function RecruitmentProcess() {
+  const procRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const procRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="recruitment-procces bg_disable pt-120 pb-100">
       <div className="container blog-grid-container">
         <div className="section-title text-start">
-          <h2 className="wow fadeInUp">Learn our recruitment process</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.3s">
+          <h2 className="">Learn our recruitment process</h2>
+          <p className="">
             Recruitment is a process of finding and attracting the potential
             resources for filling up the vacant positions in an organization. It
             sources the candidates with the abilities and attitude, which are
@@ -24,8 +29,7 @@ export default function RecruitmentProcess() {
         <div className="row pt-60 pb-100 gy-4 gy-lg-0">
           <div className="col-md-6 col-lg-3">
             <div
-              className="feature-card-widget-2 wow fadeInUp text-start py-5"
-              data-wow-delay="0.1s"
+             className="feature-card-widget-2 text-start py-5"
             >
               <Image src={icon1} className="img-fluid"
                 
@@ -39,8 +43,7 @@ export default function RecruitmentProcess() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div
-              className="feature-card-widget-2 wow fadeInUp text-start py-5"
-              data-wow-delay="0.3s"
+             className="feature-card-widget-2 text-start py-5"
             >
               <Image src={icon2} className="img-fluid"
                 
@@ -54,8 +57,7 @@ export default function RecruitmentProcess() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div
-              className="feature-card-widget-2 wow fadeInUp text-start py-5"
-              data-wow-delay="0.5s"
+             className="feature-card-widget-2 text-start py-5"
             >
               <Image src={icon3} className="img-fluid"
                 
@@ -69,8 +71,7 @@ export default function RecruitmentProcess() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div
-              className="feature-card-widget-2 wow fadeInUp text-start py-5"
-              data-wow-delay="0.7s"
+             className="feature-card-widget-2 text-start py-5"
             >
               <Image src={icon4} className="img-fluid"
                 
@@ -87,8 +88,7 @@ export default function RecruitmentProcess() {
         <div className="row our-offer gy-4 gy-md-0">
           <div className="col-md-6">
             <div
-              className="single-offer-box wow fadeInRight"
-              data-wow-delay="0.1s"
+             className="single-offer-box"
             >
               <h2>Our Offer</h2>
               <p>
@@ -103,8 +103,7 @@ export default function RecruitmentProcess() {
 
           <div className="col-md-6">
             <div
-              className="single-offer-box wow fadeInRight"
-              data-wow-delay="0.3s"
+             className="single-offer-box"
             >
               <h2>FAQ</h2>
               <p>

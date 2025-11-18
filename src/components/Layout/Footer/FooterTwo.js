@@ -52,7 +52,7 @@ export default function FooterTwo() {
                 <div className="col-md-4">
                   <div
                     ref={refs[1]}
-                    className="footer-menu"
+                   className="footer-menu"
                   >
                     <h4>Features</h4>
                     <ul>
@@ -74,7 +74,7 @@ export default function FooterTwo() {
                 <div className="col-md-4">
                   <div
                     ref={refs[2]}
-                    className="footer-menu"
+                   className="footer-menu"
                   >
                     <h4>Support</h4>
                     <ul>
@@ -99,7 +99,7 @@ export default function FooterTwo() {
                 <div className="col-md-4">
                   <div
                     ref={refs[3]}
-                    className="footer-menu"
+                   className="footer-menu"
                   >
                     <h4>location</h4>
                     <Image src={map} alt="map" />

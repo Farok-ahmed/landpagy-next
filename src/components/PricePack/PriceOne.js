@@ -45,12 +45,12 @@ export default function PriceOne({ hasShapes }) {
         <div ref={refs[2]} className="col-12">
           <nav>
             <div
-              className="nav justify-content-center pricing-switcher"
+             className="nav justify-content-center pricing-switcher"
               id="navs-tab"
               role="tablist"
             >
               <button
-                className="nav-link active"
+               className="nav-link active"
                 id="navs-monthly-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#navs-monthly"
@@ -62,7 +62,7 @@ export default function PriceOne({ hasShapes }) {
                 Monthly
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="navs-annually-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#navs-annually"
@@ -76,11 +76,11 @@ export default function PriceOne({ hasShapes }) {
             </div>
           </nav>
           <div
-            className="tab-content features-tab-content"
+           className="tab-content features-tab-content"
             id="navs-tabContent"
           >
             <div
-              className="tab-pane fade show active"
+             className="tab-pane fade show active"
               id="navs-monthly"
               role="tabpanel"
               aria-labelledby="navs-monthly-tab"
@@ -89,7 +89,7 @@ export default function PriceOne({ hasShapes }) {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[3]}
-                    className="pricing-item-2"
+                   className="pricing-item-2"
                   >
                     <Image src={userIcon1} alt="icon" />
                     <h4>Startaer</h4>
@@ -106,7 +106,7 @@ export default function PriceOne({ hasShapes }) {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[4]}
-                    className="pricing-item-2 active"
+                   className="pricing-item-2 active"
                   >
                     <Image src={userIcon2} alt="icon" />
                     <h4>Business</h4>
@@ -123,7 +123,7 @@ export default function PriceOne({ hasShapes }) {
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div
                     ref={refs[5]}
-                    className="pricing-item-2"
+                   className="pricing-item-2"
                   >
                     <Image src={userIcon3} alt="icon" />
                     <h4>Entreprise</h4>
@@ -143,7 +143,7 @@ export default function PriceOne({ hasShapes }) {
               </div>
             </div>
             <div
-              className="tab-pane fade"
+             className="tab-pane fade"
               id="navs-annually"
               role="tabpanel"
               aria-labelledby="navs-annually-tab"

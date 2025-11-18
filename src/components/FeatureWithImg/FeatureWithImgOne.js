@@ -14,7 +14,7 @@ export default function FeatureWithImgOne() {
       <div className="container coontainer-soft2">
         <div className="row align-items-center flex-column-reverse flex-lg-row">
           <div className="col-lg-6">
-            <div className="fea-content wow fadeInLeft" data-wow-delay="0.2s">
+            <div className="fea-content">
               <h2>Full Responsive & Retina Ready Theme</h2>
               <p>
                 The best place to ask for support. Solve any issue with the help
@@ -26,7 +26,7 @@ export default function FeatureWithImgOne() {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="fea-right wow fadeInRight" data-wow-delay="0.2s">
+            <div className="fea-right">
               <div className="shapes">
                 <div className="shape">
                   <Image src={feaImagesShape3} alt="" />
@@ -39,13 +39,13 @@ export default function FeatureWithImgOne() {
                 </div>
               </div>
               <Image src={feaImg1} alt=""
-                className="fea-img" />
+               className="fea-img" />
             </div>
           </div>
         </div>
         <div className="row align-items-center">
           <div className="col-lg-6">
-            <div className="fea-right wow fadeInLeft" data-wow-delay="0.2s">
+            <div className="fea-right">
               <div className="shapes">
                 <div className="shape">
                   <Image src={feaImagesShape3} alt="" />
@@ -58,13 +58,13 @@ export default function FeatureWithImgOne() {
                 </div>
               </div>
               <Image src={feaImg2} alt=""
-                className="fea-img" />
+               className="fea-img" />
             </div>
           </div>
           <div className="col-lg-6">
             <div
-              className="ml-40 fea-content wow fadeInRight"
-              data-wow-delay="0.2s"
+             className="ml-40 fea-content"
+             
             >
               <h2>Created with Drag & Drop Page Builder</h2>
               <p>
@@ -79,7 +79,7 @@ export default function FeatureWithImgOne() {
         </div>
         <div className="row align-items-center flex-column-reverse flex-lg-row">
           <div className="col-lg-6">
-            <div className="fea-content wow fadeInLeft" data-wow-delay="0.2s">
+            <div className="fea-content">
               <h2>Premium Help & Support. Get Started in Minutes!</h2>
               <p>
                 The best place to ask for support. Solve any issue with the help
@@ -91,7 +91,7 @@ export default function FeatureWithImgOne() {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="fea-right wow fadeInRight" data-wow-delay="0.2s">
+            <div className="fea-right">
               <div className="shapes">
                 <div className="shape">
                   <Image src={feaImagesShape3} alt="" />
@@ -104,7 +104,7 @@ export default function FeatureWithImgOne() {
                 </div>
               </div>
               <Image src={feaImg3} alt=""
-                className="fea-img" />
+               className="fea-img" />
             </div>
           </div>
         </div>

@@ -30,50 +30,50 @@ const ProtoFeatureTab = () => {
         <div className="row gy-4 gy-lg-0">
           <div className="col-lg-5">
             <div
-              className="features-list nav-tabs nav automated-tab2"
+             className="features-list nav-tabs nav automated-tab2"
               role="tablist"
             >
               <a
                 href="/"
-                className="nav-link active"
+               className="nav-link active"
                 aria-selected="true"
                 role="tab"
                 data-bs-toggle="tab"
                 data-bs-target="#proto-track-one"
-                data-wow-delay="0.1s"
+               
               >
                 <span className="circle"></span> Ideations
               </a>
               <a
                 href="/"
-                className="nav-link"
+               className="nav-link"
                 aria-selected="false"
                 role="tab"
                 data-bs-toggle="tab"
                 data-bs-target="#proto-track-two"
-                data-wow-delay="0.3s"
+               
               >
                 <span className="circle"></span> Import & Export
               </a>
               <a
                 href="/"
-                className="nav-link"
+               className="nav-link"
                 aria-selected="false"
                 role="tab"
                 data-bs-toggle="tab"
                 data-bs-target="#proto-track-three"
-                data-wow-delay="0.5s"
+               
               >
                 <span className="circle"></span> Visualize fast
               </a>
               <a
                 href="/"
-                className="nav-link"
+               className="nav-link"
                 aria-selected="false"
                 role="tab"
                 data-bs-toggle="tab"
                 data-bs-target="#proto-track-four"
-                data-wow-delay="0.5s"
+               
               >
                 <span className="circle"></span> User Testing
               </a>
@@ -82,11 +82,11 @@ const ProtoFeatureTab = () => {
           <div className="col-lg-7 ps-lg-0">
             <div className="features-right tab-content ml-90">
               <div
-                className="tab-pane fade show active"
+               className="tab-pane fade show active"
                 id="proto-track-one"
                 role="tabpanel"
               >
-                <div className="main-img" data-wow-delay="0.1s">
+                <div className="main-img">
                   <Image src={feaImg} className="fea-img"
                     
                     alt="Ideations" />
@@ -101,11 +101,11 @@ const ProtoFeatureTab = () => {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="proto-track-two"
                 role="tabpanel"
               >
-                <div className="main-img" data-wow-delay="0.1s">
+                <div className="main-img">
                   <Image src={feaImg2} className="fea-img"
                     
                     alt="Import & Export" />
@@ -120,11 +120,11 @@ const ProtoFeatureTab = () => {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="proto-track-three"
                 role="tabpanel"
               >
-                <div className="main-img" data-wow-delay="0.1s">
+                <div className="main-img">
                   <Image src={feaImg3} className="fea-img"
                     
                     alt="Visualize fast" />
@@ -139,11 +139,11 @@ const ProtoFeatureTab = () => {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="proto-track-four"
                 role="tabpanel"
               >
-                <div className="main-img" data-wow-delay="0.1s">
+                <div className="main-img">
                   <Image src={feaImg2} className="fea-img"
                     
                     alt="User Testing" />

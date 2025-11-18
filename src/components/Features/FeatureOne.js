@@ -42,19 +42,19 @@ export default function FeatureOne() {
             <div className="features-image">
               <Image src={feature} alt="Features " />
               <Image src={featuresObject1} alt="Features Object"
-                className="features-object1 object-element layer"
+               className="features-object1 object-element layer"
                 ref={shape1Parallax.ref} />
               <Image src={featuresObject2} alt="Features Object"
-                className="features-object2" />
+               className="features-object2" />
               <Image src={featuresObject3} className="features-object3 object-element layer"
                 
                 alt="Features Object"
                 ref={shape2Parallax.ref} />
               <Image src={featuresObject4} alt="Features Object"
-                className="features-object4 object-element layer"
+               className="features-object4 object-element layer"
                 ref={shape3Parallax.ref} />
               <Image src={featuresObject5} alt="Features Object"
-                className="features-object5 object-element layer"
+               className="features-object5 object-element layer"
                 ref={shape4Parallax.ref} />
               <div className="round-object"></div>
             </div>

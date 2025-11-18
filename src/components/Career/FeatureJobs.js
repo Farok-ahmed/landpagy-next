@@ -1,18 +1,22 @@
+"use client";
 import Link from "next/link";
 ;
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function FeatureJobs() {
+  const jobRef = useGsapReveal({ animation: "fadeInLeft" });
   return (
     <section className="feature-jobs bg_white pt-125 pb-140">
       <div className="container blog-grid-container">
         <div className="row justify-content-between align-items-center">
           <div className="col-md-6">
             <div className="section-title text-start">
-              <h2 className="mb-0 wow fadeInRight">Featured jobs</h2>
+              <h2 className="mb-0">Featured jobs</h2>
             </div>
           </div>
           <div className="col-md-4 mt-md-0 mt-3 text-md-end text-start">
-            <Link href="/jobs" className="wow fadeInLeft btn">
+            <Link href="/jobs" className="btn">
               Show All
               <i className="arrow_right"></i>
             </Link>
@@ -26,8 +30,8 @@ export default function FeatureJobs() {
                 <li className="mt-0">
                   <Link href="/job-details">
                     <div
-                      className="single-feature-job wow fadeInUp"
-                      data-wow-delay="0.1s"
+                     className="single-feature-job"
+                     
                     >
                       <h6 className="job-title">
                         Manager- Products & Marketing
@@ -47,8 +51,8 @@ export default function FeatureJobs() {
                 <li>
                   <Link href="/job-details">
                     <div
-                      className="single-feature-job wow fadeInUp"
-                      data-wow-delay="0.3s"
+                     className="single-feature-job"
+                     
                     >
                       <h6 className="job-title">
                         Investment Banking - Technology, Analyst
@@ -68,8 +72,8 @@ export default function FeatureJobs() {
                 <li>
                   <Link href="/job-details">
                     <div
-                      className="single-feature-job wow fadeInUp"
-                      data-wow-delay="0.5s"
+                     className="single-feature-job"
+                     
                     >
                       <h6 className="job-title">
                         Contact Center Representative
@@ -89,8 +93,8 @@ export default function FeatureJobs() {
                 <li>
                   <Link href="/job-details">
                     <div
-                      className="single-feature-job wow fadeInUp"
-                      data-wow-delay="0.7s"
+                     className="single-feature-job"
+                     
                     >
                       <h6 className="job-title">ITS Desktop Technician</h6>
                       <div className="d-flex flex-wrap">
@@ -110,8 +114,8 @@ export default function FeatureJobs() {
 
           <div className="col-lg-5 mt-lg-0 mt-4">
             <div
-              className="feature-job-description wow fadeInUp"
-              data-wow-delay="0.1s"
+             className="feature-job-description"
+             
             >
               <h6 className="job-title">Manager- Products & Marketing</h6>
               <div className="d-flex flex-wrap">

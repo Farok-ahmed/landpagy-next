@@ -26,12 +26,12 @@ export default function ContactTwoFormTab() {
             <div className="contact-form-2">
               <nav>
                 <div
-                  className="nav justify-content-center"
+                 className="nav justify-content-center"
                   id="nav-tab"
                   role="tablist"
                 >
                   <button
-                    className="nav-link active"
+                   className="nav-link active"
                     id="nav-general-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#nav-general"
@@ -43,7 +43,7 @@ export default function ContactTwoFormTab() {
                     General
                   </button>
                   <button
-                    className="nav-link"
+                   className="nav-link"
                     id="nav-support-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#nav-support"
@@ -55,7 +55,7 @@ export default function ContactTwoFormTab() {
                     Support
                   </button>
                   <button
-                    className="nav-link"
+                   className="nav-link"
                     id="nav-business-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#nav-business"
@@ -67,7 +67,7 @@ export default function ContactTwoFormTab() {
                     Business
                   </button>
                   <button
-                    className="nav-link"
+                   className="nav-link"
                     id="nav-partnership-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#nav-partnership"
@@ -79,7 +79,7 @@ export default function ContactTwoFormTab() {
                     Partnership
                   </button>
                   <button
-                    className="nav-link"
+                   className="nav-link"
                     id="nav-optily-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#nav-optily"
@@ -95,7 +95,7 @@ export default function ContactTwoFormTab() {
 
               <div className="tab-content" id="nav-tabContent">
                 <div
-                  className="tab-pane fade show active"
+                 className="tab-pane fade show active"
                   id="nav-general"
                   role="tabpanel"
                   aria-labelledby="nav-general-tab"
@@ -136,7 +136,7 @@ export default function ContactTwoFormTab() {
                   </div>
                 </div>
                 <div
-                  className="tab-pane fade"
+                 className="tab-pane fade"
                   id="nav-support"
                   role="tabpanel"
                   aria-labelledby="nav-support-tab"
@@ -177,7 +177,7 @@ export default function ContactTwoFormTab() {
                   </div>
                 </div>
                 <div
-                  className="tab-pane fade"
+                 className="tab-pane fade"
                   id="nav-business"
                   role="tabpanel"
                   aria-labelledby="nav-business-tab"
@@ -218,7 +218,7 @@ export default function ContactTwoFormTab() {
                   </div>
                 </div>
                 <div
-                  className="tab-pane fade"
+                 className="tab-pane fade"
                   id="nav-partnership"
                   role="tabpanel"
                   aria-labelledby="nav-partnership-tab"
@@ -259,7 +259,7 @@ export default function ContactTwoFormTab() {
                   </div>
                 </div>
                 <div
-                  className="tab-pane fade"
+                 className="tab-pane fade"
                   id="nav-optily"
                   role="tabpanel"
                   aria-labelledby="nav-optily-tab"

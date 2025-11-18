@@ -81,13 +81,13 @@ export default function DealTab() {
         <div className="row gy-4 gy-lg-0">
           <div className="col-lg-5">
             <div
-              className="info-card me-lg-5 nav-tabs nav automated-tab"
+             className="info-card me-lg-5 nav-tabs nav automated-tab"
               role="tablist"
             >
               {tabs.map((tab, index) => (
                 <a
                   key={tab.id}
-                  className={`nav-link ${activeTab === tab.id ? "active" : ""}`}
+                 className={`nav-link ${activeTab === tab.id ? "active" : ""}`}
                   aria-selected={activeTab === tab.id}
                   role="tab"
                   href={tab.id}
@@ -119,13 +119,13 @@ export default function DealTab() {
               {tabs.map((tab) => (
                 <div
                   key={tab.id}
-                  className={`tab-pane fade ${
+                 className={`tab-pane fade ${
                     activeTab === tab.id ? "show active" : ""
                   }`}
                   id={tab.id.substring(1)}
                   role="tabpanel"
                 >
-                  <div className="main-img" data-wow-delay="0.1s">
+                  <div className="main-img">
                     {tab.imgSrc.map((src, idx) => (
                       <img
                         key={idx}

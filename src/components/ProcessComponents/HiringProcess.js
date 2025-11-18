@@ -20,7 +20,7 @@ export default function HiringProcess() {
           <div className="col-12">
             <h2
               ref={refs[0]}
-              className="heading-3 text-center mb-90"
+             className="heading-3 text-center mb-90"
             >
               Hiring Made Easy
             </h2>
@@ -31,7 +31,7 @@ export default function HiringProcess() {
           <div className="col-lg-4 col-md-6">
             <div
               ref={refs[1]}
-              className="process-item-2"
+             className="process-item-2"
             >
               <Image src={shape11} className="line-1"
                 
@@ -50,7 +50,7 @@ export default function HiringProcess() {
           <div className="col-lg-4 col-md-6 mt-md-0 mt-5">
             <div
               ref={refs[2]}
-              className="process-item-2"
+             className="process-item-2"
             >
               <Image src={shape13} className="line-3"
                 
@@ -66,7 +66,7 @@ export default function HiringProcess() {
           <div className="col-lg-4 col-md-6 mt-lg-0 mt-5 mx-auto">
             <div
               ref={refs[3]}
-              className="process-item-2"
+             className="process-item-2"
             >
               <Image src={shape14} className="line-4"
                 

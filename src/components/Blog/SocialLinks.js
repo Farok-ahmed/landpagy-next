@@ -12,7 +12,7 @@ export default function SocialLinks() {
       <div className="social-item">
         <Link href="/">
           <Image src={facebookIcon} alt="Facebook Icon"
-            className="social-icon" />
+           className="social-icon" />
           <h6 className="item-number">815.5K</h6>
           <p className="item-title">Fans</p>
         </Link>
@@ -20,7 +20,7 @@ export default function SocialLinks() {
       <div className="social-item">
         <Link href="/">
           <Image src={twitterIcon} alt="Twitter Icon"
-            className="social-icon" />
+           className="social-icon" />
           <h6 className="item-number">107.2K</h6>
           <p className="item-title">Followers</p>
         </Link>
@@ -28,7 +28,7 @@ export default function SocialLinks() {
       <div className="social-item">
         <Link href="/">
           <Image src={youtubeIcon} alt="Youtube Icon"
-            className="social-icon" />
+           className="social-icon" />
           <h6 className="item-number">90.6K</h6>
           <p className="item-title">Subscribers</p>
         </Link>

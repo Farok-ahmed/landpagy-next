@@ -23,7 +23,7 @@ export default function DeveloperSteps() {
           <div className="col-lg-8 offset-lg-2">
             <h2
               ref={refs[0]}
-              className="text-center heading-3 mb-130"
+             className="text-center heading-3 mb-130"
             >
               Landpagy Developer Process
             </h2>
@@ -37,7 +37,7 @@ export default function DeveloperSteps() {
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
                 ref={refs[1]}
-                className="process-rate-5"
+               className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -51,7 +51,7 @@ export default function DeveloperSteps() {
             <div className="col-md-9 col-lg-6">
               <div
                 ref={refs[2]}
-                className="process-content-5"
+               className="process-content-5"
               >
                 <h3 className="content-title">
                   Excellent technical communication
@@ -71,7 +71,7 @@ export default function DeveloperSteps() {
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
                 ref={refs[3]}
-                className="process-rate-5"
+               className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -85,7 +85,7 @@ export default function DeveloperSteps() {
             <div className="col-md-9 col-lg-6">
               <div
                 ref={refs[4]}
-                className="process-content-5"
+               className="process-content-5"
               >
                 <h3 className="content-title">Core skills and algorithms</h3>
                 <p className="content-text">
@@ -102,7 +102,7 @@ export default function DeveloperSteps() {
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
                 ref={refs[5]}
-                className="process-rate-5"
+               className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -116,7 +116,7 @@ export default function DeveloperSteps() {
             <div className="col-md-9 col-lg-6">
               <div
                 ref={refs[6]}
-                className="process-content-5"
+               className="process-content-5"
               >
                 <h3 className="content-title">Proactive problem-solving</h3>
                 <p className="content-text">
@@ -134,7 +134,7 @@ export default function DeveloperSteps() {
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
                 ref={refs[7]}
-                className="process-rate-5"
+               className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -148,7 +148,7 @@ export default function DeveloperSteps() {
             <div className="col-md-9 col-lg-6">
               <div
                 ref={refs[8]}
-                className="process-content-5"
+               className="process-content-5"
               >
                 <h3 className="content-title">End-to-End project execution</h3>
                 <p className="content-text">
@@ -165,7 +165,7 @@ export default function DeveloperSteps() {
             <div className="col-md-3 col-lg-2 offset-lg-2">
               <div
                 ref={refs[9]}
-                className="process-rate-5"
+               className="process-rate-5"
               >
                 <p className="percent">
                   <span className="counter">
@@ -178,7 +178,7 @@ export default function DeveloperSteps() {
             <div className="col-md-9 col-lg-6">
               <div
                 ref={refs[10]}
-                className="process-content-5"
+               className="process-content-5"
               >
                 <h3 className="content-title">Continued excellence</h3>
                 <p className="content-text">

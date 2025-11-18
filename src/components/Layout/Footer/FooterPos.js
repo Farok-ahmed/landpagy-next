@@ -5,11 +5,17 @@ import kite from "@/assets/images/home_5/icons/kite.svg";
 import women from "@/assets/images/home_5/icons/women.svg";
 import leaf from "@/assets/images/home_5/icons/leaf.svg";
 import logo7 from "@/assets/images/logo-7.svg";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 import { useParallax } from "react-scroll-parallax";
 
 export default function FooterPos() {
+  const menu1Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.1 });
+  const menu2Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
+  const menu3Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.3 });
+  const menu4Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.5 });
+  const bottomRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.1 });
+
   const kiteParallax = useParallax({
     translateX: [0, 100, "easeInQuad"],
     translateY: [0, -40, "easeInQuad"],
@@ -49,8 +55,8 @@ export default function FooterPos() {
             <div className="col-lg-12">
               <div className="row justify-content-between">
                 <div
-                  className="col-sm-6 col-md-4 col-lg-3 wow fadeInUp"
-                  data-wow-delay="0.1s"
+                  ref={menu1Ref}
+                 className="col-sm-6 col-md-4 col-lg-3"
                 >
                   <div className="footer-menu">
                     <h4>Company</h4>
@@ -74,8 +80,8 @@ export default function FooterPos() {
                   </div>
                 </div>
                 <div
-                  className="col-sm-6 col-md-4 col-lg-3 wow fadeInUp"
-                  data-wow-delay="0.2s"
+                  ref={menu2Ref}
+                 className="col-sm-6 col-md-4 col-lg-3"
                 >
                   <div className="footer-menu">
                     <h4>Useful inks</h4>
@@ -99,8 +105,8 @@ export default function FooterPos() {
                   </div>
                 </div>
                 <div
-                  className="col-sm-6 col-md-4 col-lg-3 wow fadeInUp"
-                  data-wow-delay="0.3s"
+                  ref={menu3Ref}
+                 className="col-sm-6 col-md-4 col-lg-3"
                 >
                   <div className="footer-menu">
                     <h4>Products</h4>
@@ -121,8 +127,8 @@ export default function FooterPos() {
                   </div>
                 </div>
                 <div
-                  className="col-sm-6 col-md-4 col-lg-3 wow fadeInUp"
-                  data-wow-delay="0.5s"
+                  ref={menu4Ref}
+                 className="col-sm-6 col-md-4 col-lg-3"
                 >
                   <div className="footer-menu">
                     <h4>Newsletter</h4>
@@ -136,7 +142,7 @@ export default function FooterPos() {
                           <i className="icon_mail_alt"></i>
                           <input
                             type="text"
-                            className="form-control hrm-input"
+                           className="form-control hrm-input"
                             placeholder="Your email:"
                           />
                         </div>
@@ -153,7 +159,7 @@ export default function FooterPos() {
         </div>
       </div>
       <div className="container">
-        <div className="footer-bottom wow fadeInUp" data-wow-delay="0.1s">
+        <div ref={bottomRef} className="footer-bottom">
           <div className="row align-items-center">
             <div className="col-lg-3 text-sm-center text-md-start">
               <ul>

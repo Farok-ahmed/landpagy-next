@@ -13,7 +13,7 @@ export default function PosPrice({ hasBG }) {
   ]);
   return (
     <section
-      className={`choose-plan-area-three ${
+     className={`choose-plan-area-three ${
         hasBG ? "bg-price pt-125 pb-140" : "pt-135 pb-150"
       }`}
     >
@@ -28,12 +28,12 @@ export default function PosPrice({ hasBG }) {
         <div ref={refs[2]} className="col-12">
           <nav>
             <div
-              className="nav justify-content-center pricing-switcher"
+             className="nav justify-content-center pricing-switcher"
               id="nav-tab"
               role="tablist"
             >
               <button
-                className="nav-link active"
+               className="nav-link active"
                 id="nav-monthly-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-monthly"
@@ -45,7 +45,7 @@ export default function PosPrice({ hasBG }) {
                 Monthly
               </button>
               <button
-                className="nav-link"
+               className="nav-link"
                 id="nav-annually-tab"
                 data-bs-toggle="tab"
                 data-bs-target="#nav-annually"
@@ -60,7 +60,7 @@ export default function PosPrice({ hasBG }) {
           </nav>
           <div className="tab-content features-tab-content" id="nav-tabContent">
             <div
-              className="tab-pane fade show active"
+             className="tab-pane fade show active"
               id="nav-monthly"
               role="tabpanel"
               aria-labelledby="nav-monthly-tab"
@@ -69,7 +69,7 @@ export default function PosPrice({ hasBG }) {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[3]}
-                    className="pricing-item"
+                   className="pricing-item"
                   >
                     <h4>Startaer</h4>
                     <div className="price">
@@ -108,7 +108,7 @@ export default function PosPrice({ hasBG }) {
                 <div className="col-xl-4 col-md-6">
                   <div
                     ref={refs[4]}
-                    className="pricing-item active"
+                   className="pricing-item active"
                   >
                     <h4>Premium</h4>
                     <div className="price">
@@ -147,7 +147,7 @@ export default function PosPrice({ hasBG }) {
                 <div className="mx-auto col-xl-4 col-md-6">
                   <div
                     ref={refs[5]}
-                    className="pricing-item"
+                   className="pricing-item"
                   >
                     <h4>Business</h4>
                     <div className="price">
@@ -186,7 +186,7 @@ export default function PosPrice({ hasBG }) {
               </div>
             </div>
             <div
-              className="tab-pane fade"
+             className="tab-pane fade"
               id="nav-annually"
               role="tabpanel"
               aria-labelledby="nav-annually-tab"

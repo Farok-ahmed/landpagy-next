@@ -10,14 +10,24 @@ import bannerShape7 from "@/assets/images/home_6/banner-shape7.png";
 import bannerShape8 from "@/assets/images/home_6/banner-shape8.png";
 import bannerShape9 from "@/assets/images/home_6/banner-shape9.svg";
 import bannerShape10 from "@/assets/images/home_6/banner-shape10.svg";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import { Parallax } from "react-scroll-parallax";
 
 export default function HeroPrototype() {
+  const shape1Ref = useGsapReveal({ animation: 'fadeIn', delay: 0.2 });
+  const shape3Ref = useGsapReveal({ animation: 'fadeInLeft', delay: 0 });
+  const shape4Ref = useGsapReveal({ animation: 'fadeIn', delay: 0.4 });
+  const shape5Ref = useGsapReveal({ animation: 'fadeIn', delay: 0.6 });
+  const shape9Ref = useGsapReveal({ animation: 'fadeIn', delay: 0.2 });
+  const shape10Ref = useGsapReveal({ animation: 'fadeInRight', delay: 0 });
+  const titleRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.2 });
+  const paraRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.3 });
+  const formRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.4 });
+
   return (
     <section className="banner-area-6 bg-proto">
       <div className="banner-shapes">
-        <div className="shape wow fadeIn" data-wow-delay="0.2s">
+        <div ref={shape1Ref} className="shape">
           <Image src={bannerShape1} alt="shapes" />
         </div>
         <div className="shape">
@@ -30,13 +40,13 @@ export default function HeroPrototype() {
             <Image src={bannerShape2} alt="" />
           </Parallax>
         </div>
-        <div className="shape wow fadeInLeft">
+        <div ref={shape3Ref} className="shape">
           <Image src={bannerShape3} alt="shapes" />
         </div>
-        <div className="shape wow fadeIn" data-wow-delay="0.4s">
+        <div ref={shape4Ref} className="shape">
           <Image src={bannerShape4} alt="" />
         </div>
-        <div className="shape wow fadeIn" data-wow-delay="0.6s">
+        <div ref={shape5Ref} className="shape">
           <Image src={bannerShape5} alt="" />
         </div>
         <div className="shape">
@@ -55,10 +65,10 @@ export default function HeroPrototype() {
         <div className="shape">
           <Image src={bannerShape8} alt="" />
         </div>
-        <div className="shape wow fadeIn" data-wow-delay="0.2s">
+        <div ref={shape9Ref} className="shape">
           <Image src={bannerShape9} alt="shapes" />
         </div>
-        <div className="shape wow fadeInRight">
+        <div ref={shape10Ref} className="shape">
           <Image src={bannerShape10} alt="shapes" />
         </div>
       </div>
@@ -66,14 +76,14 @@ export default function HeroPrototype() {
         <div className="row flex-column-reverse flex-md-row">
           <div className="col-lg-10 offset-lg-1">
             <div className="text-center banner-center">
-              <h1 className="banner-title wow fadeInDown" data-wow-delay="0.2s">
+              <h1 ref={titleRef} className="banner-title">
                 Prototype, wireframe & collaboration. All-in-one.
               </h1>
-              <p className="banner-para wow fadeInDown" data-wow-delay="0.3s">
+              <p ref={paraRef} className="banner-para">
                 Creating wireframes/interactive prototypes with built-in widgets
                 and templates, by simply drag-and-drop.
               </p>
-              <form className="form-group fadeInUp" data-wow-delay="0.4s">
+              <form ref={formRef} className="form-group">
                 <input type="email" placeholder="Enter your email address " />
                 <button type="submit" className="btn btn-yellow">
                   Try Free

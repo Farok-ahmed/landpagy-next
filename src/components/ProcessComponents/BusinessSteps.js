@@ -24,7 +24,7 @@ export default function BusinessSteps() {
           <div className="col-lg-8 offset-lg-2">
             <h2
               ref={refs[0]}
-              className="heading-3 text-center mb-90"
+             className="heading-3 text-center mb-90"
             >
               Our approach to reach your business goals
             </h2>
@@ -35,12 +35,12 @@ export default function BusinessSteps() {
           <div className="col-md-3">
             <div
               ref={refs[1]}
-              className="process-item-4"
+             className="process-item-4"
             >
               <Image src={shape8} alt="Border"
-                className="line-1" />
+               className="line-1" />
               <Image src={icon6} alt="Icon"
-                className="item-icon mx-auto" />
+               className="item-icon mx-auto" />
               <h3 className="item-title">Ideate</h3>
               <p className="item-text">
                 Turn your idea from concept to most valuable player.
@@ -50,12 +50,12 @@ export default function BusinessSteps() {
           <div className="col-md-3">
             <div
               ref={refs[2]}
-              className="process-item-4"
+             className="process-item-4"
             >
               <Image src={shape9} alt="Border"
-                className="line-2" />
+               className="line-2" />
               <Image src={icon7} alt="Icon"
-                className="item-icon mx-auto" />
+               className="item-icon mx-auto" />
               <h3 className="item-title">Design</h3>
               <p className="item-text">
                 Sketch out the product to align the user needs
@@ -65,12 +65,12 @@ export default function BusinessSteps() {
           <div className="col-md-3">
             <div
               ref={refs[3]}
-              className="process-item-4"
+             className="process-item-4"
             >
               <Image src={shape10} alt="Border"
-                className="line-3" />
+               className="line-3" />
               <Image src={icon8} alt="Icon"
-                className="item-icon mx-auto" />
+               className="item-icon mx-auto" />
               <h3 className="item-title">Develop</h3>
               <p className="item-text">
                 Convert the designs into a live application
@@ -80,10 +80,10 @@ export default function BusinessSteps() {
           <div className="col-md-3">
             <div
               ref={refs[4]}
-              className="process-item-4"
+             className="process-item-4"
             >
               <Image src={icon9} alt="Icon"
-                className="item-icon mx-auto" />
+               className="item-icon mx-auto" />
               <h3 className="item-title">Deploy</h3>
               <p className="item-text">
                 Launching the application to the market

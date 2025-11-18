@@ -19,8 +19,8 @@ export default function ProtoFeatureTwo() {
         <div className="row align-items-center flex-column-reverse flex-lg-row mb-160">
           <div className="col-xl-7 col-lg-6">
             <div
-              className="fea-item pr-50 wow fadeInLeft"
-              data-wow-delay="0.1s"
+             className="fea-item pr-50"
+             
             >
               <p className="item-subtitle">Design tool</p>
               <h4 className="item-title">
@@ -38,10 +38,10 @@ export default function ProtoFeatureTwo() {
           </div>
           <div className="col-xl-5 col-lg-6">
             <div className="fea-right">
-              <div className="fea-images wow fadeInDown" data-wow-delay="0.1s">
+              <div className="fea-images">
                 <Image src={feaImages1} alt="" />
               </div>
-              <div className="fea-images wow fadeInUp" data-wow-delay="0.1s">
+              <div className="fea-images">
                 <Image src={feaImages2} alt="" />
               </div>
               <div className="fea-images"></div>
@@ -71,16 +71,16 @@ export default function ProtoFeatureTwo() {
                   <Image src={feaImagesShape3} alt="" />
                 </div>
               </div>
-              <Image src={feaImages3} className="fea-left-img wow fadeInLeft"
-                data-wow-delay="0.1s"
+              <Image src={feaImages3} className="fea-left-img"
+               
                 
                 alt="" />
             </div>
           </div>
           <div className="col-lg-6">
             <div
-              className="fea-item ml-65 wow fadeInRight"
-              data-wow-delay="0.1s"
+             className="fea-item ml-65"
+             
             >
               <p className="item-subtitle">Beyond Prototype</p>
               <h4 className="item-title">
@@ -100,7 +100,7 @@ export default function ProtoFeatureTwo() {
 
         <div className="row align-items-center flex-column-reverse flex-lg-row">
           <div className="col-lg-6">
-            <div className="fea-item wow fadeInLeft" data-wow-delay="0.1s">
+            <div className="fea-item">
               <p className="item-subtitle">Get feedback instantly</p>
               <h4 className="item-title">Real-time collaboration</h4>
               <p className="item-text pr-50">
@@ -126,8 +126,8 @@ export default function ProtoFeatureTwo() {
                   <Image src={feaImagesShape1} alt="" />
                 </div>
               </div>
-              <Image src={feaImages4} className="fea-right-img wow fadeInRight"
-                data-wow-delay="0.1s"
+              <Image src={feaImages4} className="fea-right-img"
+               
                 
                 alt="" />
             </div>

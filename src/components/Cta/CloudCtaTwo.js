@@ -73,7 +73,7 @@ export default function CloudCtaTwo() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="animatable draw"
+                   className="animatable draw"
                     d="M8.66837 13.6685C61.285 -18.3672 168.407 17.1404 105.103 45.7818C55.8244 68.0772 -15.794 49.2105 4.09327 23.0387C15.1944 8.4296 61.8283 -0.720028 101.716 12.2351"
                     stroke="#EFBA34"
                   />

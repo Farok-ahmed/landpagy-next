@@ -107,7 +107,7 @@ export default function JobDescriptions() {
 
       <div className="d-flex justify-content-between border-top pt-40">
         <button
-          className="btn btn-red"
+         className="btn btn-red"
           data-bs-toggle="modal"
           data-bs-target="#applyModal"
         >

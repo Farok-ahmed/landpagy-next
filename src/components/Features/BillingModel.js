@@ -24,8 +24,8 @@ export default function BillingModel() {
         <div className="row">
           <div className="col-lg-6">
             <div
-              className="mb-40 feature-item wow fadeInLeft"
-              data-wow-delay="0.2s"
+             className="mb-40 feature-item"
+             
             >
               <div className="feature-item-icon">
                 <Image src={feaIcon1} alt="" />
@@ -43,8 +43,8 @@ export default function BillingModel() {
               </div>
             </div>
             <div
-              className="mb-40 feature-item wow fadeInLeft"
-              data-wow-delay="0.2s"
+             className="mb-40 feature-item"
+             
             >
               <div className="feature-item-icon">
                 <Image src={feaIcon2} alt="" />
@@ -62,8 +62,8 @@ export default function BillingModel() {
               </div>
             </div>
             <div
-              className="mb-40 feature-item wow fadeInLeft"
-              data-wow-delay="0.2s"
+             className="mb-40 feature-item"
+             
             >
               <div className="feature-item-icon">
                 <Image src={feaIcon3} alt="" />
@@ -83,7 +83,7 @@ export default function BillingModel() {
           </div>
 
           <div className="col-lg-6">
-            <div className="feature-images" data-wow-delay="0.2s">
+            <div className="feature-images">
               <div className="bg-shapes">
                 <div className="shape">
                   <Image src={shape2} alt="Shape" />
@@ -99,12 +99,12 @@ export default function BillingModel() {
                   </Parallax>
                 </div>
               </div>
-              <Image src={featureImg2} className="img-1 wow fadeInRight"
-                data-wow-delay="0.3s"
+              <Image src={featureImg2} className="img-1"
+               
                 
                 alt="Feature " />
-              <Image src={featureImg3} className="img-2 wow fadeInRight"
-                data-wow-delay="0.5s"
+              <Image src={featureImg3} className="img-2"
+               
                 
                 alt="Feature " />
             </div>

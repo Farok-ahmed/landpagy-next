@@ -1,3 +1,4 @@
+"use client";
 ;
 
 import Administration from "./JobCategory/Administration";
@@ -7,20 +8,25 @@ import ProductDevelopment from "./JobCategory/ProductDevelopment";
 import WebDesign from "./JobCategory/WebDesign";
 import WebDevelopment from "./JobCategory/WebDevelopment";
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function OpenPosition() {
+  const posRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const posRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
+  const posRef3 = useGsapReveal({ animation: "fadeInUp", delay: 0.2 });
   return (
     <section className="career-tabs-area pt-90 pb-100">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="text-center section-title">
-              <span className="wow fadeInUp" data-wow-delay="0.1s">
+              <span className="">
                 Careers
               </span>
-              <h2 className="wow fadeInUp" data-wow-delay="0.3s">
+              <h2 className="">
                 Open Positions
               </h2>
-              <p className="wow fadeInUp" data-wow-delay="0.5s">
+              <p className="">
                 Hey, you! To sum it up: we believe in people’s power to
                 contribute to the greater good and make their time worth it. So,
                 scroll through our open positions, and if you recognize a place
@@ -34,8 +40,7 @@ export default function OpenPosition() {
           <div className="col-md-12">
             <div className="career__nav">
               <select
-                className="form-select wow fadeInLeft"
-                data-wow-delay="0.3s"
+               className="form-select"
                 id="jobs-department"
                 name="department"
               >
@@ -53,8 +58,7 @@ export default function OpenPosition() {
               </select>
 
               <select
-                className="form-select wow fadeInRight"
-                data-wow-delay="0.3s"
+               className="form-select"
                 id="jobs-locations"
                 name="locations"
               >

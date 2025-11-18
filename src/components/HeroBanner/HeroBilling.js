@@ -14,11 +14,19 @@ import shape4 from "@/assets/images/home_8/icons/shape4.svg";
 import bannerShape from "@/assets/images/home_8/shape/banner-shape.svg";
 import addUser from "@/assets/images/home_8/icons/add-user.svg";
 import banner from "@/assets/images/home_8/banner.png";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 import { useParallax } from "react-scroll-parallax";
 
 export default function HeroBilling() {
+  const shape1LeftRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.2 });
+  const shape2LeftRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.2 });
+  const shape3RightRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.2 });
+  const shape4RightRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.2 });
+  const titleRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.3 });
+  const btnRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.4 });
+  const imgRef = useGsapReveal({ animation: 'fadeInDown', delay: 0.5 });
+
   const shape1Parallax = useParallax({
     translateX: [-20, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
@@ -59,29 +67,29 @@ export default function HeroBilling() {
         <div className="shape">
           <Image src={poly2} alt="" />
         </div>
-        <div className="shape wow fadeInLeft" data-wow-delay="0.2s">
+        <div ref={shape1LeftRef} className="shape">
           <Image src={logo1} alt="Logo 1" />
           <Image src={shape1} alt="Shape 1"
             ref={shape1Parallax.ref}
-            className="layer" />
+           className="layer" />
         </div>
-        <div className="shape wow fadeInLeft" data-wow-delay="0.2s">
+        <div ref={shape2LeftRef} className="shape">
           <Image src={logo2} alt="Logo 2" />
           <Image src={shape2} alt="Shape 2"
             ref={shape2Parallax.ref}
-            className="layer" />
+           className="layer" />
         </div>
-        <div className="shape wow fadeInRight" data-wow-delay="0.2s">
+        <div ref={shape3RightRef} className="shape">
           <Image src={logo3} alt="Logo 3" />
           <Image src={shape3} alt="Shape 3"
             ref={shape3Parallax.ref}
-            className="layer" />
+           className="layer" />
         </div>
-        <div className="shape wow fadeInRight" data-wow-delay="0.2s">
+        <div ref={shape4RightRef} className="shape">
           <Image src={logo4} alt="Logo 4" />
           <Image src={shape4} alt="Shape 4"
             ref={shape4Parallax.ref}
-            className="layer" />
+           className="layer" />
         </div>
         <div className="shape">
           <Image src={bannerShape} alt="" />
@@ -92,23 +100,23 @@ export default function HeroBilling() {
           <div className="col-lg-12">
             <div className="text-center banner-content pt-80">
               <h1
-                className="banner-title wow fadeInDown mb-35"
-                data-wow-delay="0.3s"
+                ref={titleRef}
+               className="banner-title mb-35"
               >
                 Best Accounts Billing Software
               </h1>
               <Link
                 href="/sign-up"
-                className="btn btn-red wow fadeInDown"
-                data-wow-delay="0.4s"
+                ref={btnRef}
+               className="btn btn-red"
               >
                 <Image src={addUser} alt="Icon"
-                  className="icon" />
+                 className="icon" />
                 Join Us
               </Link>
               <Image src={banner} alt=""
-                className="mx-auto banner-img wow fadeInDown"
-                data-wow-delay="0.5s" />
+                ref={imgRef}
+               className="mx-auto banner-img" />
             </div>
           </div>
         </div>

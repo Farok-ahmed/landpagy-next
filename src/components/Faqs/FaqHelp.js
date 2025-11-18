@@ -23,7 +23,7 @@ export default function FaqHelp() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingOne">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseOne"
@@ -35,7 +35,7 @@ export default function FaqHelp() {
                 </h2>
                 <div
                   id="flush-collapseOne"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="flush-headingOne"
                   data-bs-parent="#accordionFlushExample"
                 >
@@ -52,7 +52,7 @@ export default function FaqHelp() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingTwo">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseTwo"
@@ -64,7 +64,7 @@ export default function FaqHelp() {
                 </h2>
                 <div
                   id="flush-collapseTwo"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="flush-headingTwo"
                   data-bs-parent="#accordionFlushExample"
                 >
@@ -81,7 +81,7 @@ export default function FaqHelp() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingThree">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseThree"
@@ -93,7 +93,7 @@ export default function FaqHelp() {
                 </h2>
                 <div
                   id="flush-collapseThree"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="flush-headingThree"
                   data-bs-parent="#accordionFlushExample"
                 >
@@ -110,7 +110,7 @@ export default function FaqHelp() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingFour">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFour"
@@ -122,7 +122,7 @@ export default function FaqHelp() {
                 </h2>
                 <div
                   id="flush-collapseFour"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="flush-collapseFour"
                   data-bs-parent="#accordionFlushExample"
                 >
@@ -139,7 +139,7 @@ export default function FaqHelp() {
               <div className="accordion-item">
                 <h2 className="accordion-header" id="flush-headingFive">
                   <button
-                    className="accordion-button collapsed"
+                   className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#flush-collapseFive"
@@ -151,7 +151,7 @@ export default function FaqHelp() {
                 </h2>
                 <div
                   id="flush-collapseFive"
-                  className="accordion-collapse collapse"
+                 className="accordion-collapse collapse"
                   aria-labelledby="flush-collapseFive"
                   data-bs-parent="#accordionFlushExample"
                 >

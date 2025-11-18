@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,9 +7,11 @@ import helpCenterShape2 from "@/assets/images/shape/help-center-shape2.png";
 import helpCenterShape3 from "@/assets/images/shape/help-center-shape3.png";
 import helpCenterShape4 from "@/assets/images/shape/help-center-shape4.png";
 import shape16 from "@/assets/images/shape/shape16.svg";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function HelpCenterHero() {
+  const shape16Ref = useGsapReveal({ animation: 'fadeInTopLeft', delay: 0 });
+
   return (
     <section className="banner-area help-page-banner">
       <div className="container">
@@ -53,7 +56,7 @@ export default function HelpCenterHero() {
       <Image src={helpCenterShape4} className="help-center-shape4"
         
         alt="" />
-      <Image src={shape16} className="shape16 animate__animated wow animate__fadeInTopLeft animate__slow"
+      <Image src={shape16} ref={shape16Ref} className="shape16"
         
         alt="" />
     </section>

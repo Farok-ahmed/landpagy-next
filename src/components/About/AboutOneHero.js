@@ -45,13 +45,13 @@ export default function AboutOneHero() {
             <div className="banner-image">
               <Image src={features4} alt="Illustrator " />
               <Image src={featuresObject6} alt="Features Object"
-                className="features-object6 layer" />
+               className="features-object6 layer" />
               <Image src={featuresObject7} alt="Features Object"
-                className="features-object7 object-element layer" />
+               className="features-object7 object-element layer" />
               <Image src={featuresObject8} alt="Features Object"
-                className="features-object8 object-element layer" />
+               className="features-object8 object-element layer" />
               <Image src={featuresObject9} alt="Features Object"
-                className="features-object9 object-element fa-layer-group" />
+               className="features-object9 object-element fa-layer-group" />
               <span className="shape13"></span>
               <span className="shape14"></span>
               <div className="round-object2"></div>
@@ -61,15 +61,15 @@ export default function AboutOneHero() {
         <div className="banner-right-two banner-image d-none d-lg-block">
           <Image src={features4} alt="Illustrator " />
           <Image src={featuresObject6} alt="Features Object"
-            className="features-object6" />
+           className="features-object6" />
           <Image src={featuresObject7} alt="Features Object"
-            className="features-object7 object-element"
+           className="features-object7 object-element"
             ref={shape2Parallax.ref} />
           <Image src={featuresObject8} alt="Features Object"
-            className="features-object8 object-element layer"
+           className="features-object8 object-element layer"
             ref={shape3Parallax.ref} />
           <Image src={featuresObject9} alt="Features Object"
-            className="features-object9 object-element layer"
+           className="features-object9 object-element layer"
             ref={shape4Parallax.ref} />
           <span className="shape13"></span>
           <span className="shape14"></span>

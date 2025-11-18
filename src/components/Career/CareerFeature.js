@@ -1,13 +1,18 @@
+"use client";
 import Link from "next/link";
 ;
 
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+
 export default function CareerFeature() {
+  const featureRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="job-feature-area pt-200 pb-145">
       <div className="container pt-40">
         <div className="section-title text-start pt-0 pt-md-0">
-          <h2 className="wow fadeInUp">Forget the expected</h2>
-          <p className="wow fadeInUp" data-wow-delay="0.3s">
+          <h2 className="">Forget the expected</h2>
+          <p className="">
             Banca is one of the world’s leading international banks. Whether you
             are looking for a first job or taking the next step in your career,
             we offer many ways for you to realise your ambitions. Come and work
@@ -19,10 +24,7 @@ export default function CareerFeature() {
 
         <div className="row gy-4 mt-30">
           <div className="col-md-6 col-lg-4">
-            <div
-              className="feature-card-widget-7 wow fadeInUp"
-              data-wow-delay="0.1s"
-            >
+            <div className="feature-card-widget-7" ref={featureRef1}>
               <h4>Who We Are</h4>
               <p>
                 Our purpose is to help people and businesses prosper. That's why
@@ -34,10 +36,7 @@ export default function CareerFeature() {
             </div>
           </div>
           <div className="col-md-6 col-lg-4">
-            <div
-              className="feature-card-widget-7 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
+            <div className="feature-card-widget-7" ref={featureRef2}>
               <h4>Career Areas</h4>
               <p>
                 Unique skills and diverse backgrounds allow us to grow and
@@ -50,8 +49,8 @@ export default function CareerFeature() {
           </div>
           <div className="col-md-6 col-lg-4">
             <div
-              className="feature-card-widget-7 wow fadeInUp"
-              data-wow-delay="0.5s"
+             className="feature-card-widget-7"
+             
             >
               <h4>Student Opportunities</h4>
               <p>
@@ -65,8 +64,8 @@ export default function CareerFeature() {
           </div>
           <div className="col-md-6 col-lg-4">
             <div
-              className="feature-card-widget-7 wow fadeInUp"
-              data-wow-delay="0.7s"
+             className="feature-card-widget-7"
+             
             >
               <h4>Benefits</h4>
               <p>
@@ -80,8 +79,8 @@ export default function CareerFeature() {
           </div>
           <div className="col-md-6 col-lg-4">
             <div
-              className="feature-card-widget-7 wow fadeInUp"
-              data-wow-delay="0.9s"
+             className="feature-card-widget-7"
+             
             >
               <h4>Diversity & Inclusion</h4>
               <p>
@@ -95,8 +94,8 @@ export default function CareerFeature() {
           </div>
           <div className="col-md-6 col-lg-4">
             <div
-              className="feature-card-widget-7 wow fadeInUp"
-              data-wow-delay="1.1s"
+             className="feature-card-widget-7"
+             
             >
               <h4>Join Our Community</h4>
               <p>

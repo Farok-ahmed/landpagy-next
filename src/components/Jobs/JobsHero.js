@@ -5,7 +5,7 @@ export default function JobsHero() {
   return (
     <section className="breadcrumb-area">
       <div
-        className="breadcrumb-widget pt-100"
+       className="breadcrumb-widget pt-100"
         style={{ background: "url(/images/breadcrumb.png)" }}
       >
         <div className="container blog-grid-container">

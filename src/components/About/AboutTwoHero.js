@@ -57,7 +57,7 @@ export default function AboutTwoHero() {
                   <Image src={aboutVideo} alt="Video" />
                 </div>
                 <Link
-                  className="play-btn"
+                 className="play-btn"
                   href="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"
                 >
                   <i className="fas fa-play"></i>

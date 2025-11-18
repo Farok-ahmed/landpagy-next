@@ -78,7 +78,7 @@ export default function TestimonialHRM() {
                 
                 alt="" />
               <a
-                className="play-btn"
+               className="play-btn"
                 href="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"
               >
                 <i className="fas fa-play"></i>
@@ -102,7 +102,7 @@ export default function TestimonialHRM() {
                         <span>Ariful Haque, </span> UI designer
                       </p>
                       <Image src={customerLogo} alt="Author Logo"
-                        className="author-logo" />
+                       className="author-logo" />
                     </div>
                     <Link href="/" className="check-more">
                       Check more collaboration in 2021
@@ -124,7 +124,7 @@ export default function TestimonialHRM() {
                         <span>Ariful Haque, </span> UI designer
                       </p>
                       <Image src={customerLogo} alt="Author Logo"
-                        className="author-logo" />
+                       className="author-logo" />
                     </div>
                     <Link href="/" className="check-more">
                       Check more collaboration in 2021
@@ -146,7 +146,7 @@ export default function TestimonialHRM() {
                         <span>Ariful Haque, </span> UI designer
                       </p>
                       <Image src={customerLogo} alt="Author Logo"
-                        className="author-logo" />
+                       className="author-logo" />
                     </div>
                     <Link href="/" className="check-more">
                       Check more collaboration in 2021

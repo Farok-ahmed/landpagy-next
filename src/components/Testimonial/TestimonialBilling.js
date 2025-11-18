@@ -43,7 +43,7 @@ export default function TestimonialBilling() {
           <div className="col-lg-12">
             <h2
               ref={titleRef}
-              className="testimonial-title text-center mb-60"
+             className="testimonial-title text-center mb-60"
             >
               Satisfied Users
             </h2>

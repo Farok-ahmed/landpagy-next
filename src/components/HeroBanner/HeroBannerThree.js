@@ -74,7 +74,7 @@ export default function HeroBannerThree() {
           <div className="col-lg-6 col-md-4">
             <div ref={refs[4]} className="banner-right">
               <a
-                className="play-btn"
+               className="play-btn"
                 data-fancybox
                 href="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"
               >

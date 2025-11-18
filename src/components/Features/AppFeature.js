@@ -21,7 +21,7 @@ export default function AppFeature() {
           <div className="col-lg-5 col-md-4">
             <div
               ref={imagesRef}
-              className="app-features-images"
+             className="app-features-images"
             >
               <div className="bg-shapes">
                 <div className="shape"></div>
@@ -39,7 +39,7 @@ export default function AppFeature() {
           <div className="col-lg-6 offset-lg-1 col-md-8">
             <div
               ref={contentRef}
-              className="app-feature-content"
+             className="app-feature-content"
             >
               <h2 className="feature-title cloud-heading-2 mb-65">
                 Some of the best

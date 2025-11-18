@@ -48,15 +48,15 @@ export default function FeatureThree() {
             <div className="features-image">
               <Image src={features4} alt="Features" />
               <Image src={featuresObject6} alt="Features Object"
-                className="features-object6" />
+               className="features-object6" />
               <Image src={featuresObject7} alt="Features Object"
-                className="features-object7 object-element layer"
+               className="features-object7 object-element layer"
                 ref={shape2Parallax.ref} />
               <Image src={featuresObject8} alt="Features Object"
-                className="features-object8 object-element layer"
+               className="features-object8 object-element layer"
                 ref={shape3Parallax.ref} />
               <Image src={featuresObject9} alt="Features Object"
-                className="features-object9 object-element layer"
+               className="features-object9 object-element layer"
                 ref={shape4Parallax.ref} />
             </div>
           </div>

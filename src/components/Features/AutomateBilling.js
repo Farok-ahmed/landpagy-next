@@ -15,8 +15,8 @@ export default function AutomateBilling() {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div
-              className="features-images wow fadeInLeft"
-              data-wow-delay="0.2s"
+             className="features-images"
+             
             >
               <div className="bg-shapes">
                 <div className="shape">
@@ -38,8 +38,8 @@ export default function AutomateBilling() {
           </div>
           <div className="col-lg-6">
             <div
-              className="features-content wow fadeInRight"
-              data-wow-delay="0.2s"
+             className="features-content"
+             
             >
               <h2 className="mb-10 features-item-title">
                 Automate Recurring Billing

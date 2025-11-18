@@ -18,8 +18,8 @@ export default function CtaTwo() {
         <div className="row">
           <div className="col-12">
             <div
-              className="text-center section-title wow fadeInDown"
-              data-wow-delay="0.2s"
+             className="text-center section-title"
+             
             >
               <h2>Looking for a Custom Design Landing Page?</h2>
               <p>We can create it as per your requirements.</p>

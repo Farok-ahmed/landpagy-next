@@ -16,7 +16,7 @@ export default function CareerHeader() {
             <Image src={logo5} className="white_logo"  alt="logo" />
           </Link>
           <button
-            className="navbar-toggler collapsed"
+           className="navbar-toggler collapsed"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarText"
@@ -37,7 +37,7 @@ export default function CareerHeader() {
             </span>
           </button>
           <div
-            className="collapse navbar-collapse justify-content-end"
+           className="collapse navbar-collapse justify-content-end"
             id="navbarText"
           >
             <ul className="mx-auto navbar-nav menu">
@@ -46,7 +46,7 @@ export default function CareerHeader() {
                   Home
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -66,7 +66,7 @@ export default function CareerHeader() {
                   Pages
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -74,7 +74,7 @@ export default function CareerHeader() {
                   {pagesLinks.pages.map((item, index) => (
                     <li
                       key={index}
-                      className={`nav-item ${
+                     className={`nav-item ${
                         item.submenu ? "dropdown submenu" : ""
                       }`}
                     >
@@ -84,7 +84,7 @@ export default function CareerHeader() {
                             {item.name}
                           </Link>
                           <i
-                            className="arrow_carrot-right mobile_dropdown_icon"
+                           className="arrow_carrot-right mobile_dropdown_icon"
                             aria-hidden="false"
                             data-bs-toggle="dropdown"
                           ></i>
@@ -113,7 +113,7 @@ export default function CareerHeader() {
                   Elements
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -124,7 +124,7 @@ export default function CareerHeader() {
                         {item.name}
                       </Link>
                       <i
-                        className="arrow_carrot-right mobile_dropdown_icon"
+                       className="arrow_carrot-right mobile_dropdown_icon"
                         aria-hidden="false"
                         data-bs-toggle="dropdown"
                       ></i>
@@ -147,7 +147,7 @@ export default function CareerHeader() {
                   Jobs
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>
@@ -174,7 +174,7 @@ export default function CareerHeader() {
                   Blog
                 </Link>
                 <i
-                  className="arrow_carrot-right mobile_dropdown_icon"
+                 className="arrow_carrot-right mobile_dropdown_icon"
                   aria-hidden="false"
                   data-bs-toggle="dropdown"
                 ></i>

@@ -7,10 +7,17 @@ import bannerShape4 from "@/assets/images/home_5/shapes/banner-shape4.png";
 import banner1 from "@/assets/images/home_5/banner1.png";
 import banner2 from "@/assets/images/home_5/banner2.png";
 import banner3 from "@/assets/images/home_5/banner3.png";
-;
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import { Parallax, useParallax } from "react-scroll-parallax";
 
 export default function HeroPos() {
+  const leftRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0 });
+  const titleRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.2 });
+  const paraRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.3 });
+  const formRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.4 });
+  const subContentRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.5 });
+  const rightRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.3 });
+
   const shape4Parallax = useParallax({
     translateX: [0, 0, "easeInQuad"],
     translateY: [15, -15, "easeOutQuad"],
@@ -112,21 +119,21 @@ export default function HeroPos() {
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-md-row">
           <div className="col-md-7">
-            <div className="banner-left wow fadeInLeft">
-              <h1 className="banner-title wow fadeInLeft" data-wow-delay="0.2s">
+            <div ref={leftRef} className="banner-left">
+              <h1 ref={titleRef} className="banner-title">
                 Most Powerful & Advanced POS
               </h1>
-              <p className="banner-para wow fadeInLeft" data-wow-delay="0.3s">
+              <p ref={paraRef} className="banner-para">
                 Landpagy is a leading retail POS software in the cloud with
                 everything you need to run & grow.
               </p>
-              <form className="form-group wow fadeInLeft" data-wow-delay="0.4s">
+              <form ref={formRef} className="form-group">
                 <input type="email" placeholder="Your Email" />
                 <button type="submit" className="btn btn-indigo">
                   Get Started
                 </button>
               </form>
-              <ul className="sub-content wow fadeInLeft">
+              <ul ref={subContentRef} className="sub-content">
                 <li>
                   <p>
                     <i className="fas fa-check-circle"></i> 14-day trial
@@ -146,17 +153,17 @@ export default function HeroPos() {
             </div>
           </div>
           <div className="col-md-5">
-            <div className="banner-right wow fadeInRight" data-wow-delay="0.3s">
+            <div ref={rightRef} className="banner-right">
               <Image src={banner1} ref={shape4Parallax.ref}
-                className="banner-img-1 layer"
+               className="banner-img-1 layer"
                 
                 alt="Banner " />
               <Image src={banner2} ref={shape5Parallax.ref}
-                className="banner-img-2 layer"
+               className="banner-img-2 layer"
                 
                 alt="Banner " />
               <Image src={banner3} ref={shape6Parallax.ref}
-                className="banner-img-3 layer"
+               className="banner-img-3 layer"
                 
                 alt="Banner " />
             </div>

@@ -15,7 +15,7 @@ export default function ThreePostColumn() {
       <div className="container blog-grid-container">
         <div className="row">
           <div className="col-lg-4 col-sm-6">
-            <div className="blog_grid_post shadow-sm wow fadeInUp">
+            <div className="blog_grid_post shadow-sm">
               <Image src={blogGridPost7} alt="" />
               <div className="grid_post_content">
                 <div className="post_tag">
@@ -47,8 +47,8 @@ export default function ThreePostColumn() {
           </div>
           <div className="col-lg-4 col-sm-6">
             <div
-              className="blog_grid_post shadow-sm wow fadeInUp"
-              data-wow-delay="0.2s"
+             className="blog_grid_post shadow-sm"
+             
             >
               <Image src={blogGridPost8} alt="" />
               <div className="grid_post_content">
@@ -81,8 +81,8 @@ export default function ThreePostColumn() {
           </div>
           <div className="col-lg-4 col-sm-6">
             <div
-              className="blog_grid_post shadow-sm wow fadeInUp"
-              data-wow-delay="0.4s"
+             className="blog_grid_post shadow-sm"
+             
             >
               <Image src={blogGridPost9} alt="" />
               <div className="grid_post_content">
@@ -114,8 +114,8 @@ export default function ThreePostColumn() {
             </div>
           </div>
           <div
-            className="col-lg-12 text-center wow fadeInUp"
-            data-wow-delay="0.3s"
+           className="col-lg-12 text-center"
+           
           >
             <Link href="/" className="doc_border_btn all_doc_btn">
               Load More<i className="arrow_right"></i>

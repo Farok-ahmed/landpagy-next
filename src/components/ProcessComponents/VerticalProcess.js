@@ -70,7 +70,7 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-7">
               <div
                 ref={refs[0]}
-                className="process-content-3 pt-30"
+               className="process-content-3 pt-30"
               >
                 <span className="item-number">01</span>
                 <h3 className="item-title">Define your goals</h3>
@@ -86,14 +86,14 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-5">
               <div
                 ref={refs[1]}
-                className="process-images-3"
+               className="process-images-3"
               >
                 <Image src={shape1} alt="Shape"
-                  className="shape" />
+                 className="shape" />
                 <Image src={shape2} alt="Shape"
-                  className="shape" />
+                 className="shape" />
                 <Image src={shape3} alt="Shape"
-                  className="shape" />
+                 className="shape" />
               </div>
             </div>
           </div>
@@ -103,7 +103,7 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-7">
               <div
                 ref={refs[2]}
-                className="process-content-3"
+               className="process-content-3"
               >
                 <span className="item-number">02</span>
                 <h3 className="item-title">
@@ -122,14 +122,14 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-5">
               <div
                 ref={refs[3]}
-                className="process-images-3"
+               className="process-images-3"
               >
                 <Image src={shape4} alt="Shape"
-                  className="shape" />
+                 className="shape" />
                 <Image src={shape5} alt="Shape"
-                  className="shape" />
+                 className="shape" />
                 <Image src={shape6} alt="Shape"
-                  className="shape" />
+                 className="shape" />
               </div>
             </div>
           </div>
@@ -139,7 +139,7 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-7">
               <div
                 ref={refs[4]}
-                className="process-content-3"
+               className="process-content-3"
               >
                 <span className="item-number">03</span>
                 <h3 className="item-title">Plan and map your process</h3>
@@ -155,20 +155,20 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-5">
               <div
                 ref={refs[5]}
-                className="process-images-3"
+               className="process-images-3"
               >
                 <Image src={features4} alt="Features "
-                  className="shape" />
+                 className="shape" />
                 <Image src={featuresObject6} alt="Features Object"
-                  className="shape" />
+                 className="shape" />
                 <Image src={featuresObject7} alt="Features Object"
-                  className="shape object-element layer"
+                 className="shape object-element layer"
                   ref={shape2Parallax.ref} />
                 <Image src={featuresObject8} alt="Features Object"
-                  className="shape object-element layer"
+                 className="shape object-element layer"
                   ref={shape3Parallax.ref} />
                 <Image src={featuresObject9} alt="Features Object"
-                  className="shape object-element layer"
+                 className="shape object-element layer"
                   ref={shape4Parallax.ref} />
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-7">
               <div
                 ref={refs[6]}
-                className="process-content-3"
+               className="process-content-3"
               >
                 <span className="item-number">04</span>
                 <h3 className="item-title">Implement the process</h3>
@@ -196,12 +196,12 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-5">
               <div
                 ref={refs[7]}
-                className="process-images-3"
+               className="process-images-3"
               >
                 <Image src={feature7} alt="Features "
-                  className="shape" />
+                 className="shape" />
                 <img
-                  className="shape object-element layer"
+                 className="shape object-element layer"
                   src="/images/features/features-object-10.svg "
                   alt="Features "
                   ref={shape1Parallax.ref}
@@ -230,7 +230,7 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-7">
               <div
                 ref={refs[8]}
-                className="process-content-3"
+               className="process-content-3"
               >
                 <span className="item-number">05</span>
                 <h3 className="item-title">Monitor the results</h3>
@@ -245,24 +245,24 @@ export default function VerticalProcess() {
             <div className="col-lg-6 col-md-5">
               <div
                 ref={refs[9]}
-                className="process-images-3"
+               className="process-images-3"
               >
                 <Image src={feature} alt="Features "
-                  className="shape" />
+                 className="shape" />
                 <Image src={featuresObject1} alt="Features Object"
-                  className="shape object-element layer"
+                 className="shape object-element layer"
                   ref={shape1Parallax.ref} />
                 <Image src={featuresObject2} alt="Features Object"
-                  className="shape" />
+                 className="shape" />
                 <Image src={featuresObject3} className="shape object-element layer"
                   ref={shape2Parallax.ref}
                   
                   alt="Features Object" />
                 <Image src={featuresObject4} alt="Features Object"
-                  className="shape object-element layer"
+                 className="shape object-element layer"
                   ref={shape3Parallax.ref} />
                 <Image src={featuresObject5} alt="Features Object"
-                  className="shape object-element layer"
+                 className="shape object-element layer"
                   ref={shape4Parallax.ref} />
               </div>
             </div>
@@ -271,7 +271,7 @@ export default function VerticalProcess() {
 
         <div>
           <Image src={shape7} alt="Border Shape"
-            className="shape-border" />
+           className="shape-border" />
           <span className="point"></span>
         </div>
       </div>

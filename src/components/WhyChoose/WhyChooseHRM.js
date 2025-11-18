@@ -58,7 +58,7 @@ export default function WhyChooseHRM() {
         <div>
           <Swiper
             {...swiperOptions}
-            className="overflow-visible testimonial-slider-eight"
+           className="overflow-visible testimonial-slider-eight"
           >
             <SwiperSlide>
               <div className="testimonial-item">
@@ -68,7 +68,7 @@ export default function WhyChooseHRM() {
                     <Image src={testShape4} alt="" />
                   </div>
                   <Image src={testItemImg1} alt="User"
-                    className="testimonial-item-img" />
+                   className="testimonial-item-img" />
                 </div>
                 <div className="testimonial-content">
                   <i className="testimonial-icon icon_quotations mb-25"></i>
@@ -92,7 +92,7 @@ export default function WhyChooseHRM() {
                     <Image src={testShape4} alt="" />
                   </div>
                   <Image src={testItemImg2} alt="User"
-                    className="testimonial-item-img" />
+                   className="testimonial-item-img" />
                 </div>
                 <div className="testimonial-content">
                   <i className="testimonial-icon icon_quotations mb-25"></i>

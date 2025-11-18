@@ -12,7 +12,7 @@ export default function FaqsSecondary() {
               <ul className="nav nav-tabs" id="myTab" role="tablist">
                 <li className="nav-item" role="presentation">
                   <a
-                    className="nav-link active"
+                   className="nav-link active"
                     id="home-tab"
                     data-bs-toggle="tab"
                     href="#home"
@@ -25,7 +25,7 @@ export default function FaqsSecondary() {
                 </li>
                 <li className="nav-item" role="presentation">
                   <a
-                    className="nav-link"
+                   className="nav-link"
                     id="profile-tab"
                     data-bs-toggle="tab"
                     href="#profile"
@@ -38,7 +38,7 @@ export default function FaqsSecondary() {
                 </li>
                 <li className="nav-item" role="presentation">
                   <a
-                    className="nav-link"
+                   className="nav-link"
                     id="return-tab"
                     data-bs-toggle="tab"
                     href="#return"
@@ -51,7 +51,7 @@ export default function FaqsSecondary() {
                 </li>
                 <li className="nav-item" role="presentation">
                   <a
-                    className="nav-link"
+                   className="nav-link"
                     id="contact-tab"
                     data-bs-toggle="tab"
                     href="#contact"
@@ -64,7 +64,7 @@ export default function FaqsSecondary() {
                 </li>
                 <li className="nav-item" role="presentation">
                   <a
-                    className="nav-link"
+                   className="nav-link"
                     id="online-tab"
                     data-bs-toggle="tab"
                     href="#online"
@@ -77,7 +77,7 @@ export default function FaqsSecondary() {
                 </li>
                 <li className="nav-item" role="presentation">
                   <a
-                    className="nav-link"
+                   className="nav-link"
                     id="technical-tab"
                     data-bs-toggle="tab"
                     href="#technical"
@@ -90,7 +90,7 @@ export default function FaqsSecondary() {
                 </li>
                 <li className="nav-item" role="presentation">
                   <a
-                    className="nav-link"
+                   className="nav-link"
                     id="errors-tab"
                     data-bs-toggle="tab"
                     href="#errors"
@@ -107,12 +107,12 @@ export default function FaqsSecondary() {
           <div className="col-lg-8">
             <div className="tab-content question_list" id="myTabContent">
               <div
-                className="tab-pane fade show active"
+               className="tab-pane fade show active"
                 id="home"
                 role="tabpanel"
                 aria-labelledby="home-tab"
               >
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
@@ -125,7 +125,7 @@ export default function FaqsSecondary() {
                     guarantee refunds.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.3s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
@@ -137,7 +137,7 @@ export default function FaqsSecondary() {
                     as you want.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
@@ -146,7 +146,7 @@ export default function FaqsSecondary() {
                   </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.5s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
@@ -159,7 +159,7 @@ export default function FaqsSecondary() {
                     multiple websites, you must buy multiple licenses.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
@@ -173,12 +173,12 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="profile"
                 role="tabpanel"
                 aria-labelledby="profile-tab"
               >
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
@@ -191,7 +191,7 @@ export default function FaqsSecondary() {
                     guarantee refunds.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.3s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
@@ -203,7 +203,7 @@ export default function FaqsSecondary() {
                     as you want.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
@@ -212,7 +212,7 @@ export default function FaqsSecondary() {
                   </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.5s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
@@ -225,7 +225,7 @@ export default function FaqsSecondary() {
                     multiple websites, you must buy multiple licenses.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
@@ -239,12 +239,12 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="contact"
                 role="tabpanel"
                 aria-labelledby="contact-tab"
               >
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
@@ -257,7 +257,7 @@ export default function FaqsSecondary() {
                     guarantee refunds.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
@@ -269,7 +269,7 @@ export default function FaqsSecondary() {
                     as you want.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
@@ -278,7 +278,7 @@ export default function FaqsSecondary() {
                   </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
@@ -291,7 +291,7 @@ export default function FaqsSecondary() {
                     multiple websites, you must buy multiple licenses.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
@@ -305,12 +305,12 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="return"
                 role="tabpanel"
                 aria-labelledby="return-tab"
               >
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
@@ -323,7 +323,7 @@ export default function FaqsSecondary() {
                     guarantee refunds.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
@@ -335,7 +335,7 @@ export default function FaqsSecondary() {
                     as you want.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
@@ -344,7 +344,7 @@ export default function FaqsSecondary() {
                   </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
@@ -357,7 +357,7 @@ export default function FaqsSecondary() {
                     multiple websites, you must buy multiple licenses.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
@@ -371,12 +371,12 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="online"
                 role="tabpanel"
                 aria-labelledby="online-tab"
               >
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
@@ -389,7 +389,7 @@ export default function FaqsSecondary() {
                     guarantee refunds.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
@@ -401,7 +401,7 @@ export default function FaqsSecondary() {
                     as you want.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
@@ -410,7 +410,7 @@ export default function FaqsSecondary() {
                   </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
@@ -423,7 +423,7 @@ export default function FaqsSecondary() {
                     multiple websites, you must buy multiple licenses.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
@@ -437,12 +437,12 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="technical"
                 role="tabpanel"
                 aria-labelledby="technical-tab"
               >
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
@@ -455,7 +455,7 @@ export default function FaqsSecondary() {
                     guarantee refunds.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
@@ -467,7 +467,7 @@ export default function FaqsSecondary() {
                     as you want.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
@@ -476,7 +476,7 @@ export default function FaqsSecondary() {
                   </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
@@ -489,7 +489,7 @@ export default function FaqsSecondary() {
                     multiple websites, you must buy multiple licenses.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?
@@ -503,12 +503,12 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-                className="tab-pane fade"
+               className="tab-pane fade"
                 id="errors"
                 role="tabpanel"
                 aria-labelledby="errors-tab"
               >
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.2s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       What is your refund policy and terms and conditions?
@@ -521,7 +521,7 @@ export default function FaqsSecondary() {
                     guarantee refunds.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.4s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many shortcodes/blocks/elements are there in Landpagy?
@@ -533,7 +533,7 @@ export default function FaqsSecondary() {
                     as you want.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.6s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is Landpagy Gutenberg compatible and latest WordPress
@@ -542,7 +542,7 @@ export default function FaqsSecondary() {
                   </Link>
                   <p>Yes, Landpagy is compatible with Gutenberg.</p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.8s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       How many websites can I use Landpagy in with a regular
@@ -555,7 +555,7 @@ export default function FaqsSecondary() {
                     multiple websites, you must buy multiple licenses.
                   </p>
                 </div>
-                <div className="ques_item wow fadeInUp" data-wow-delay="0.9s">
+                <div className="ques_item">
                   <Link href="/">
                     <h4>
                       Is there a warranty on my item or a guarantee on my item?

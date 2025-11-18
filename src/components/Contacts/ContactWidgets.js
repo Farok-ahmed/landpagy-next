@@ -44,7 +44,7 @@ export default function ContactWidgets() {
                       <label htmlFor="topic">Topic</label>
                       <select
                         id="topic"
-                        className="nice-select-common select-topic"
+                       className="nice-select-common select-topic"
                       >
                         <option data-display="Please select a topic">
                           Please select a topic

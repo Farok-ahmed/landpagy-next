@@ -29,7 +29,7 @@ export default function PosService() {
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
                 <Image src={easyStartIcon1} alt="Icon"
-                  className="item-icon mx-auto my-auto" />
+                 className="item-icon mx-auto my-auto" />
               </div>
               <h4 className="item-title">Upload</h4>
               <p className="item-content">
@@ -42,7 +42,7 @@ export default function PosService() {
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
                 <Image src={easyStartIcon2} alt="Icon"
-                  className="item-icon mx-auto my-auto" />
+                 className="item-icon mx-auto my-auto" />
               </div>
               <h4 className="item-title">Customize</h4>
               <p className="item-content">
@@ -55,7 +55,7 @@ export default function PosService() {
             <div className="easy-start-item text-center">
               <div className="item-icon-wrap">
                 <Image src={easyStartIcon3} alt="Icon"
-                  className="item-icon mx-auto my-auto" />
+                 className="item-icon mx-auto my-auto" />
               </div>
               <h4 className="item-title">Connect hardware</h4>
               <p className="item-content">

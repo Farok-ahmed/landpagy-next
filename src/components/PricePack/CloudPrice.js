@@ -35,7 +35,7 @@ export default function CloudPrice() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    className="animatable draw"
+                   className="animatable draw"
                     d="M14.3231 6.11344C76.5807 -15.8595 166.546 32.3538 129.57 53.4949C100.5 70.1151 -12.1598 58.7405 2.48812 20.5742C11.3823 -2.60027 108.832 2.45841 129.774 36.7172"
                     stroke="#EFBA34"
                   />
@@ -50,7 +50,7 @@ export default function CloudPrice() {
           <div className="col-lg-4">
             <div
               ref={refs[0]}
-              className="cloud-pricing-images"
+             className="cloud-pricing-images"
             >
               <div className="bg-shapes">
                 <div className="shape">
@@ -123,12 +123,12 @@ export default function CloudPrice() {
           <div className="col-lg-8">
             <div
               ref={refs[1]}
-              className="cloud-pricing-wrapp"
+             className="cloud-pricing-wrapp"
             >
               <nav>
                 <div className="nav nav-tabs" id="nav-tab" role="tablist">
                   <button
-                    className="nav-link active"
+                   className="nav-link active"
                     id="cloud-monthly-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#cloud-monthly"
@@ -141,7 +141,7 @@ export default function CloudPrice() {
                     Billed monthly
                   </button>
                   <button
-                    className="nav-link"
+                   className="nav-link"
                     id="cloud-annually-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#cloud-annually"
@@ -157,7 +157,7 @@ export default function CloudPrice() {
               </nav>
               <div className="tab-content">
                 <div
-                  className="tab-pane fade show active"
+                 className="tab-pane fade show active"
                   id="cloud-monthly"
                   role="tabpanel"
                   aria-labelledby="cloud-monthly-tab"
@@ -240,7 +240,7 @@ export default function CloudPrice() {
                 </div>
 
                 <div
-                  className="tab-pane fade"
+                 className="tab-pane fade"
                   id="cloud-annually"
                   role="tabpanel"
                   aria-labelledby="cloud-annually-tab"

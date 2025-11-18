@@ -71,43 +71,43 @@ export default function PortFolioWithFilter() {
           <div className="text-center col-md-12">
             <ul className="software-titles">
               <li
-                className={`${filterKey === "*" ? "active" : ""}`}
+               className={`${filterKey === "*" ? "active" : ""}`}
                 onClick={handleFilterKeyChange("*")}
               >
                 All
               </li>
               <li
-                className={`${filterKey === "creative" ? "active" : ""}`}
+               className={`${filterKey === "creative" ? "active" : ""}`}
                 onClick={handleFilterKeyChange("creative")}
               >
                 Creative
               </li>
               <li
-                className={`${filterKey === "business" ? "active" : ""}`}
+               className={`${filterKey === "business" ? "active" : ""}`}
                 onClick={handleFilterKeyChange("business")}
               >
                 Business
               </li>
               <li
-                className={`${filterKey === "blog" ? "active" : ""}`}
+               className={`${filterKey === "blog" ? "active" : ""}`}
                 onClick={handleFilterKeyChange("blog")}
               >
                 Blog/Magazine
               </li>
               <li
-                className={`${filterKey === "portfolio" ? "active" : ""}`}
+               className={`${filterKey === "portfolio" ? "active" : ""}`}
                 onClick={handleFilterKeyChange("portfolio")}
               >
                 Portfolio
               </li>
               <li
-                className={`${filterKey === "new" ? "active" : ""}`}
+               className={`${filterKey === "new" ? "active" : ""}`}
                 onClick={handleFilterKeyChange("new")}
               >
                 New
               </li>
               <li
-                className={`${filterKey === "shop" ? "active" : ""}`}
+               className={`${filterKey === "shop" ? "active" : ""}`}
                 onClick={handleFilterKeyChange("shop")}
               >
                 Shop

@@ -6,21 +6,25 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function FooterBilling() {
-  const refs = useGsapMultiple(2, [
+  const refs = useGsapMultiple(6, [
     { animation: 'fadeInDown', delay: 0.1 },
     { animation: 'fadeInDown', delay: 0.3 },
+    { animation: 'fadeInDown', delay: 0.5 },
+    { animation: 'fadeInDown', delay: 0.7 },
+    { animation: 'fadeInLeft', delay: 0.2 },
+    { animation: 'fadeInRight', delay: 0.2 },
   ]);
   return (
     <footer className="footer-billing bg-black-800">
       <Image src={footerShape} alt="Shape"
-        className="shape" />
+       className="shape" />
       <div className="footer-top pt-125 pb-125">
         <div className="container">
           <div className="row">
             <div className="col-md-3">
               <div
                 ref={refs[0]}
-                className="footer-widget"
+               className="footer-widget"
               >
                 <Link href="/" className="mb-10 footer-logo">
                   <Image src={logo2} alt="Logo" />
@@ -34,7 +38,7 @@ export default function FooterBilling() {
             <div className="col-md-3">
               <div
                 ref={refs[1]}
-                className="footer-widget"
+               className="footer-widget"
               >
                 <h4 className="widget-title">Company</h4>
                 <ul className="widget-link-list">
@@ -58,8 +62,8 @@ export default function FooterBilling() {
             </div>
             <div className="col-md-3">
               <div
-                className="footer-widget wow fadeInDown"
-                data-wow-delay="0.5s"
+                ref={refs[2]}
+               className="footer-widget"
               >
                 <h4 className="widget-title">Support</h4>
                 <ul className="widget-link-list">
@@ -83,8 +87,8 @@ export default function FooterBilling() {
             </div>
             <div className="col-md-3">
               <div
-                className="footer-widget wow fadeInDown"
-                data-wow-delay="0.7s"
+                ref={refs[3]}
+               className="footer-widget"
               >
                 <h4 className="widget-title">Follow Us</h4>
                 <ul className="widget-social-list">
@@ -115,8 +119,8 @@ export default function FooterBilling() {
           <div className="row">
             <div className="col-md-4">
               <div
-                className="language-list wow fadeInLeft"
-                data-wow-delay="0.2s"
+                ref={refs[4]}
+               className="language-list"
               >
                 <form>
                   <i className="fas fa-globe-americas me-1 d-inline-block"></i>
@@ -131,8 +135,8 @@ export default function FooterBilling() {
             </div>
             <div className="col-md-8">
               <p
-                className="copyright-text float-start float-md-end wow fadeInRight"
-                data-wow-delay="0.2s"
+                ref={refs[5]}
+               className="copyright-text float-start float-md-end"
               >
                 &copy; {new Date().getFullYear()} Landpagy. All rights reserved.
               </p>
