@@ -12,7 +12,7 @@ export default function ClientThree() {
   return (
     <section className="clients-banner-area pt-110 pb-110">
       <div className="shape">
-        <Image src={clientsShape} alt="" />
+        <Image src={clientsShape} alt="Decorative image" />
       </div>
       <div className="container container-soft2">
         <div className="row align-items-center">

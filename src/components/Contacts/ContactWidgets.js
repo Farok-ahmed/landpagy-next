@@ -13,13 +13,13 @@ export default function ContactWidgets() {
         <div className="row">
           <div className="col-sm-6 col-lg-4">
             <div className="contact-info">
-              <Image src={icon9} alt="" />
+              <Image src={icon9} alt="Decorative image" />
               <h4>102 street 1234 Don</h4>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4">
             <div className="contact-info">
-              <Image src={icon10} alt="" />
+              <Image src={icon10} alt="Decorative image" />
               <h4>
                 <a href="tel:+0123-4567 89">+0123-4567 89</a>
               </h4>
@@ -27,7 +27,7 @@ export default function ContactWidgets() {
           </div>
           <div className="mx-auto col-sm-6 col-lg-4">
             <div className="contact-info">
-              <Image src={icon11} alt="" />
+              <Image src={icon11} alt="Decorative image" />
               <h4>
                 <a href="mailto:landpagy@email.com">landpagy@email.com</a>
               </h4>

@@ -121,7 +121,7 @@ export default function ContactTwoFormTab() {
                       </div>
                       <div className="contact-form-email">
                         <label htmlFor="email">Email*</label>
-                        <input type="text" id="email" placeholder="" />
+                        <input type="email" id="email" placeholder="" />
                       </div>
                       <div className="contact-form-message">
                         <label htmlFor="textarea">Message*</label>
@@ -162,7 +162,7 @@ export default function ContactTwoFormTab() {
                       </div>
                       <div className="contact-form-email">
                         <label htmlFor="email">Email*</label>
-                        <input type="text" id="email" placeholder="" />
+                        <input type="email" id="email" placeholder="" />
                       </div>
                       <div className="contact-form-message">
                         <label htmlFor="textarea">Message*</label>
@@ -203,7 +203,7 @@ export default function ContactTwoFormTab() {
                       </div>
                       <div className="contact-form-email">
                         <label htmlFor="email">Email*</label>
-                        <input type="text" id="email" placeholder="" />
+                        <input type="email" id="email" placeholder="" />
                       </div>
                       <div className="contact-form-message">
                         <label htmlFor="textarea">Message*</label>
@@ -244,7 +244,7 @@ export default function ContactTwoFormTab() {
                       </div>
                       <div className="contact-form-email">
                         <label htmlFor="email">Email*</label>
-                        <input type="text" id="email" placeholder="" />
+                        <input type="email" id="email" placeholder="" />
                       </div>
                       <div className="contact-form-message">
                         <label htmlFor="textarea">Message*</label>
@@ -285,7 +285,7 @@ export default function ContactTwoFormTab() {
                       </div>
                       <div className="contact-form-email">
                         <label htmlFor="email">Email*</label>
-                        <input type="text" id="email" placeholder="" />
+                        <input type="email" id="email" placeholder="" />
                       </div>
                       <div className="contact-form-message">
                         <label htmlFor="textarea">Message*</label>

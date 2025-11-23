@@ -53,7 +53,7 @@ export default function AboutVideo() {
                   <div className="widget-top">
                     <Image src={userSlide} className="user-img"
                       
-                      alt="" />
+                      alt="Decorative image" />
                     <Link
                      className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
@@ -61,7 +61,7 @@ export default function AboutVideo() {
                       <i className="fas fa-play"></i>
                     </Link>
                     <div className="smile-icon">
-                      <Image src={smile} alt="" />
+                      <Image src={smile} alt="Decorative image" />
                     </div>
                   </div>
                   <div className="widget-bottom">
@@ -81,7 +81,7 @@ export default function AboutVideo() {
                   <div className="widget-top">
                     <Image src={userSlide} className="user-img"
                       
-                      alt="" />
+                      alt="Decorative image" />
                     <Link
                      className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
@@ -90,7 +90,7 @@ export default function AboutVideo() {
                       <i className="fas fa-play"></i>
                     </Link>
                     <div className="smile-icon">
-                      <Image src={smile} alt="" />
+                      <Image src={smile} alt="Decorative image" />
                     </div>
                   </div>
                   <div className="widget-bottom">
@@ -110,7 +110,7 @@ export default function AboutVideo() {
                   <div className="widget-top">
                     <Image src={userSlide} className="user-img"
                       
-                      alt="" />
+                      alt="Decorative image" />
                     <Link
                      className="play-btn"
                       href="https://www.youtube.com/watch?v=xcJtL7QggTI"
@@ -119,7 +119,7 @@ export default function AboutVideo() {
                       <i className="fas fa-play"></i>
                     </Link>
                     <div className="smile-icon">
-                      <Image src={smile} alt="" />
+                      <Image src={smile} alt="Decorative image" />
                     </div>
                   </div>
                   <div className="widget-bottom">

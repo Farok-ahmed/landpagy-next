@@ -26,7 +26,7 @@ export default function IntuitLeaders() {
           <div className="col-lg-3 col-md-6">
             <div className="team-leader-item text-center">
               <div className="item-img">
-                <Image src={leader1} alt="" />
+                <Image src={leader1} alt="Decorative image" />
               </div>
               <h4 className="item-title">EH Jewel</h4>
               <p className="item-sub-title">CEO, Spider Themes</p>
@@ -35,7 +35,7 @@ export default function IntuitLeaders() {
           <div className="col-lg-3 col-md-6">
             <div className="team-leader-item text-center">
               <div className="item-img">
-                <Image src={leader2} alt="" />
+                <Image src={leader2} alt="Decorative image" />
               </div>
               <h4 className="item-title">Mina Panna</h4>
               <p className="item-sub-title">HR Manager</p>
@@ -44,7 +44,7 @@ export default function IntuitLeaders() {
           <div className="col-lg-3 col-md-6">
             <div className="team-leader-item text-center">
               <div className="item-img">
-                <Image src={leader3} alt="" />
+                <Image src={leader3} alt="Decorative image" />
               </div>
               <h4 className="item-title">Ariful Haque</h4>
               <p className="item-sub-title">UX/UI Designer</p>

@@ -13,7 +13,7 @@ export default function FullWidthPost() {
           <div className="col-lg-7 p_top_img">
             <Image src={topPost} className="p_img"
               
-              alt="" />
+              alt="Decorative image" />
           </div>
           <div className="col-lg-5 p-0">
             <div className="b_top_post_content">
@@ -36,7 +36,7 @@ export default function FullWidthPost() {
               </Link>
               <div className="media post_author">
                 <div className="round_img">
-                  <Image src={ansley} alt="" />
+                  <Image src={ansley} alt="Decorative image" />
                 </div>
                 <div className="media-body author_text">
                   <h4>Jason Response</h4>

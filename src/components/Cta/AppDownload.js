@@ -10,7 +10,7 @@ export default function AppDownload() {
       <div className="container">
         <div className="row align-items-center gy-4 gy-lg-0">
           <div className="col-md-6 mx-auto">
-            <Image src={allInApp} alt="" />
+            <Image src={allInApp} alt="Decorative image" />
           </div>
           <div className="col-lg-6 ps-lg-5">
             <h2>All-in-one mobile app</h2>

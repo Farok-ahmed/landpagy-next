@@ -55,7 +55,7 @@ export default function HeroBannerThree() {
                 Create Your Desire {""}
                 <span>
                   Business.
-                  <Image src={textShape} alt="" />
+                  <Image src={textShape} alt="Decorative image" />
                 </span>
               </h2>
               <p ref={refs[3]} className="banner-para">

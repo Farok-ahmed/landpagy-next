@@ -33,7 +33,7 @@ export default function HowItWorks() {
         <div className="row">
           <div className="col-lg-4 col-md-6">
             <div className="services-item" ref={item1Ref}>
-              <Image src={serviceIcon1} alt="" />
+              <Image src={serviceIcon1} alt="Interchange fees icon" />
               <h3 className="service-item-title">Interchange fees</h3>
               <p className="service-item-text">
                 Any business that allows customers to make purchases with
@@ -46,7 +46,7 @@ export default function HowItWorks() {
           </div>
           <div className="col-lg-4 col-md-6 mt-sm-0 mt-5">
             <div className="services-item" ref={item2Ref}>
-              <Image src={serviceIcon2} alt="" />
+              <Image src={serviceIcon2} alt="Corporate icon" />
               <h3 className="service-item-title">Our Corporate</h3>
               <p className="service-item-text">
                 Since the global financial crisis, the use of spending review
@@ -62,7 +62,7 @@ export default function HowItWorks() {
              className="services-item"
               ref={item3Ref}
             >
-              <Image src={serviceIcon3} alt="" />
+              <Image src={serviceIcon3} alt="European regulation icon" />
               <h3 className="service-item-title">European Regulation</h3>
               <p className="service-item-text">
                 Understand your growth, churn, and retention rates with

@@ -16,7 +16,7 @@ export default function ThreePostColumn() {
         <div className="row">
           <div className="col-lg-4 col-sm-6">
             <div className="blog_grid_post shadow-sm">
-              <Image src={blogGridPost7} alt="" />
+              <Image src={blogGridPost7} alt="Decorative image" />
               <div className="grid_post_content">
                 <div className="post_tag">
                   <Link href="/">18 Min Read</Link>
@@ -35,7 +35,7 @@ export default function ThreePostColumn() {
                 </p>
                 <div className="media post_author">
                   <div className="round_img">
-                    <Image src={author1} alt="" />
+                    <Image src={author1} alt="Decorative image" />
                   </div>
                   <div className="media-body author_text">
                     <h4>Jason Response</h4>
@@ -50,7 +50,7 @@ export default function ThreePostColumn() {
              className="blog_grid_post shadow-sm"
              
             >
-              <Image src={blogGridPost8} alt="" />
+              <Image src={blogGridPost8} alt="Decorative image" />
               <div className="grid_post_content">
                 <div className="post_tag">
                   <Link href="/">18 Min Read</Link>
@@ -69,7 +69,7 @@ export default function ThreePostColumn() {
                 </p>
                 <div className="media post_author">
                   <div className="round_img">
-                    <Image src={author2} alt="" />
+                    <Image src={author2} alt="Decorative image" />
                   </div>
                   <div className="media-body author_text">
                     <h4>Druid Wensleydale</h4>
@@ -84,7 +84,7 @@ export default function ThreePostColumn() {
              className="blog_grid_post shadow-sm"
              
             >
-              <Image src={blogGridPost9} alt="" />
+              <Image src={blogGridPost9} alt="Decorative image" />
               <div className="grid_post_content">
                 <div className="post_tag">
                   <Link href="/">10 Min Read</Link>
@@ -103,7 +103,7 @@ export default function ThreePostColumn() {
                 </p>
                 <div className="media post_author">
                   <div className="round_img">
-                    <Image src={author3} alt="" />
+                    <Image src={author3} alt="Decorative image" />
                   </div>
                   <div className="media-body author_text">
                     <h4>Douglas Lyphe</h4>

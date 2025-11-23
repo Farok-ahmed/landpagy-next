@@ -10,10 +10,10 @@ export default function InnovateCounter() {
     <section className="soft-counter-area pt-135 pb-150">
       <div className="shapes">
         <div className="shape">
-          <Image src={counterShape1} alt="" />
+          <Image src={counterShape1} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={counterShape2} alt="" />
+          <Image src={counterShape2} alt="Decorative image" />
         </div>
       </div>
       <div className="container container-soft2">

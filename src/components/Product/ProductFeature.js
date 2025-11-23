@@ -29,7 +29,7 @@ export default function ProductFeature() {
                     <ul>
                       <li>
                         <div className="product-tab-checkmark">
-                          <Image src={checkmark} alt="" />
+                          <Image src={checkmark} alt="Decorative image" />
                         </div>
                         <div className="product-tab-pointer-text">
                           <div className="text-block _16-px full-white">
@@ -39,7 +39,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <Image src={checkmark} alt="" />
+                          <Image src={checkmark} alt="Decorative image" />
                         </div>
                         <div className="product-tab-pointer-text">
                           WiFi connectivity
@@ -47,7 +47,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <Image src={checkmark} alt="" />
+                          <Image src={checkmark} alt="Decorative image" />
                         </div>
                         <div className="product-tab-pointer-text">
                           mobile SIM card plan
@@ -55,7 +55,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <Image src={checkmark} alt="" />
+                          <Image src={checkmark} alt="Decorative image" />
                         </div>
                         <div className="product-tab-pointer-text">
                           10h battery life
@@ -63,7 +63,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <Image src={checkmark} alt="" />
+                          <Image src={checkmark} alt="Decorative image" />
                         </div>
                         <div className="product-tab-pointer-text">
                           5-inch HD touch screen
@@ -71,7 +71,7 @@ export default function ProductFeature() {
                       </li>
                       <li>
                         <div className="product-tab-checkmark">
-                          <Image src={checkmark} alt=""
+                          <Image src={checkmark} alt="Decorative image"
                            className="image contain" />
                         </div>
                         <div className="product-tab-pointer-text">
@@ -85,7 +85,7 @@ export default function ProductFeature() {
                   </Link>
                 </div>
                 <div className="produ">
-                  <Image src={allInApp} alt="" />
+                  <Image src={allInApp} alt="Decorative image" />
                 </div>
               </div>
               <div className="shadow-lg product-box-copy copy">
@@ -98,7 +98,7 @@ export default function ProductFeature() {
                   <div className="product-hero-box-pointers">
                     <div className="product-hero-box-pointer-item">
                       <div className="product-features-img">
-                        <Image src={icon1} alt="" />
+                        <Image src={icon1} alt="Decorative image" />
                       </div>
                       <h5 className="product-hero-box-pointer-title">
                         Phone Support
@@ -107,7 +107,7 @@ export default function ProductFeature() {
                     </div>
                     <div className="product-hero-box-pointer-item">
                       <div className="product-features-img">
-                        <Image src={icon2} alt="" />
+                        <Image src={icon2} alt="Decorative image" />
                       </div>
                       <h5 className="product-hero-box-pointer-title">
                         Remote Updates
@@ -120,7 +120,7 @@ export default function ProductFeature() {
                   </Link>
                 </div>
                 <div className="product-hero-box-2">
-                  <Image src={feaImages2} alt="" />
+                  <Image src={feaImages2} alt="Decorative image" />
                 </div>
               </div>
               <div className="product-dotted-line down"></div>

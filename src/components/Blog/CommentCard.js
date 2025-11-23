@@ -6,7 +6,7 @@ export default function CommentCard() {
   return (
     <div className="single-post-author mb-60">
       <div className="author-img">
-        <Image src={auhorImg} alt="" />
+        <Image src={auhorImg} alt="Decorative image" />
       </div>
       <div className="author-body">
         <h5 className="auth-name">Ahmad Bator</h5>

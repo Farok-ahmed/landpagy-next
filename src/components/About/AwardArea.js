@@ -30,7 +30,7 @@ export default function AwardArea() {
                 <div className="item-img">
                   <Image src={award1} className="mx-auto"
                     
-                    alt="" />
+                    alt="Decorative image" />
                 </div>
                 <p className="item-text">
                   Ranked 11 on Fortune's 100 best companies to work.
@@ -42,7 +42,7 @@ export default function AwardArea() {
                 <div className="item-img">
                   <Image src={award2} className="mx-auto"
                     
-                    alt="" />
+                    alt="Decorative image" />
                 </div>
                 <p className="item-text">
                   People Magazine Companies awards for services.
@@ -54,7 +54,7 @@ export default function AwardArea() {
                 <div className="item-img">
                   <Image src={award3} className="mx-auto"
                     
-                    alt="" />
+                    alt="Decorative image" />
                 </div>
                 <p className="item-text">
                   Forbes America’s 2019 best employers for diversity.

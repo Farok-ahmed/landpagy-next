@@ -204,7 +204,7 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
             </div>
             <img
               src="assets/images/most.png"
-              alt=""
+              alt="Decorative image"
              className="popular d-none d-lg-block"
             />
           </div>

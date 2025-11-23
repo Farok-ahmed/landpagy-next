@@ -15,13 +15,13 @@ export default function NewsLetterHRM() {
         <div className="cta-box">
           <div className="bg-shapes">
             <div className="shape">
-              <Image src={testShape3} alt="" />
+              <Image src={testShape3} alt="Decorative image" />
             </div>
             <div className="shape">
-              <Image src={ctaShape} alt="" />
+              <Image src={ctaShape} alt="Decorative image" />
             </div>
             <div className="shape">
-              <Image src={testShape2} alt="" />
+              <Image src={testShape2} alt="Decorative image" />
             </div>
           </div>
           <div className="row align-items-center">

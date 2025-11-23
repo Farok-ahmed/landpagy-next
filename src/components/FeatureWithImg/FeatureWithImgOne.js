@@ -29,16 +29,16 @@ export default function FeatureWithImgOne() {
             <div className="fea-right">
               <div className="shapes">
                 <div className="shape">
-                  <Image src={feaImagesShape3} alt="" />
+                  <Image src={feaImagesShape3} alt="Decorative image" />
                 </div>
                 <div className="shape">
-                  <Image src={feaShape1} alt="" />
+                  <Image src={feaShape1} alt="Decorative image" />
                 </div>
                 <div className="shape">
-                  <Image src={feaImagesShape1} alt="" />
+                  <Image src={feaImagesShape1} alt="Decorative image" />
                 </div>
               </div>
-              <Image src={feaImg1} alt=""
+              <Image src={feaImg1} alt="Decorative image"
                className="fea-img" />
             </div>
           </div>
@@ -48,16 +48,16 @@ export default function FeatureWithImgOne() {
             <div className="fea-right">
               <div className="shapes">
                 <div className="shape">
-                  <Image src={feaImagesShape3} alt="" />
+                  <Image src={feaImagesShape3} alt="Decorative image" />
                 </div>
                 <div className="shape">
-                  <Image src={feaShape1} alt="" />
+                  <Image src={feaShape1} alt="Decorative image" />
                 </div>
                 <div className="shape">
-                  <Image src={feaImagesShape1} alt="" />
+                  <Image src={feaImagesShape1} alt="Decorative image" />
                 </div>
               </div>
-              <Image src={feaImg2} alt=""
+              <Image src={feaImg2} alt="Decorative image"
                className="fea-img" />
             </div>
           </div>
@@ -94,16 +94,16 @@ export default function FeatureWithImgOne() {
             <div className="fea-right">
               <div className="shapes">
                 <div className="shape">
-                  <Image src={feaImagesShape3} alt="" />
+                  <Image src={feaImagesShape3} alt="Decorative image" />
                 </div>
                 <div className="shape">
-                  <Image src={feaShape1} alt="" />
+                  <Image src={feaShape1} alt="Decorative image" />
                 </div>
                 <div className="shape">
-                  <Image src={feaImagesShape1} alt="" />
+                  <Image src={feaImagesShape1} alt="Decorative image" />
                 </div>
               </div>
-              <Image src={feaImg3} alt=""
+              <Image src={feaImg3} alt="Decorative image"
                className="fea-img" />
             </div>
           </div>

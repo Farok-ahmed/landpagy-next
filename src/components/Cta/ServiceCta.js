@@ -11,16 +11,16 @@ export default function ServiceCta() {
     <section className="services-cta-area pt-90 pb-100">
       <div className="bg-shapes">
         <div className="shape">
-          <Image src={shape1} alt="" />
+          <Image src={shape1} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={shape2} alt="" />
+          <Image src={shape2} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={shape3} alt="" />
+          <Image src={shape3} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={shape4} alt="" />
+          <Image src={shape4} alt="Decorative image" />
         </div>
       </div>
       <div className="container">

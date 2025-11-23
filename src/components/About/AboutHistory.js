@@ -70,7 +70,7 @@ export default function AboutHistory() {
             >
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history1} alt="" />
+                  <Image src={history1} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Birth of a Landpagy startup</h4>
@@ -83,7 +83,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history3} alt="" />
+                  <Image src={history3} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Landpagy think about future</h4>
@@ -96,7 +96,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history2} alt="" />
+                  <Image src={history2} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -109,7 +109,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history1} alt="" />
+                  <Image src={history1} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Birth of a Landpagy startup</h4>
@@ -122,7 +122,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history3} alt="" />
+                  <Image src={history3} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">Landpagy think about future</h4>
@@ -135,7 +135,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history2} alt="" />
+                  <Image src={history2} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -148,7 +148,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history1} alt="" />
+                  <Image src={history1} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -161,7 +161,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history2} alt="" />
+                  <Image src={history2} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>
@@ -174,7 +174,7 @@ export default function AboutHistory() {
               </div>
               <div className="history-item">
                 <div className="item-img">
-                  <Image src={history1} alt="" />
+                  <Image src={history1} alt="Decorative image" />
                 </div>
                 <div className="item-content">
                   <h4 className="item-title">software solution company</h4>

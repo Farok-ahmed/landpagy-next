@@ -26,11 +26,11 @@ export default function AutomateBilling() {
                     rotateY={[0, 0]}
                     easing="easeInQuad"
                   >
-                    <Image src={shape1} alt="" />
+                    <Image src={shape1} alt="Decorative image" />
                   </Parallax>
                 </div>
                 <div className="shape">
-                  <Image src={shape2} alt="" />
+                  <Image src={shape2} alt="Decorative image" />
                 </div>
               </div>
               <Image src={featureImg1} alt="Feature " />

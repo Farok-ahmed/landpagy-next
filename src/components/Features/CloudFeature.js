@@ -37,7 +37,7 @@ export default function CloudFeature() {
               customizations and features, such as encrypted file sharing.
             </p>
             <div className="features-images position-relative">
-              <Image src={featuresImg} alt=""
+              <Image src={featuresImg} alt="Decorative image"
                className="mx-auto mb-40 features-img" />
               <Image src={shape9} alt="Shape"
                className="shape" />

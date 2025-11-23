@@ -12,13 +12,13 @@ export default function BillingCta() {
       <div className="container position-relative overflow-hidden">
         <div className="bg-shapes">
           <div className="shape">
-            <Image src={ctaShape1} alt="" />
+            <Image src={ctaShape1} alt="Decorative image" />
           </div>
           <div className="shape">
-            <Image src={ctaShape2} alt="" />
+            <Image src={ctaShape2} alt="Decorative image" />
           </div>
           <div className="shape">
-            <Image src={ctaShape3} alt="" />
+            <Image src={ctaShape3} alt="Decorative image" />
           </div>
         </div>
         <div className="row align-items-center b-radius bg-pippin pl-55 pr-55 pt-65 pb-65">

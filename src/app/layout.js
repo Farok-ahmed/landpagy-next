@@ -20,17 +20,16 @@ import Layout from "@/components/Layout/Layout";
 export const metadata = {
   title: "Landpagy - Saas & Software Landing Page",
   description: "Bootstrap 5 HTML Template",
+  icons: {
+    icon: "/images/favicon.ico",
+    shortcut: "/images/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <link
-        rel="shortcut icon"
-        href="/images/favicon.ico"
-        type="image/x-icon"
-      />
-      <body suppressHydrationWarning={true}>
+      <body>
         <Layout>{children}</Layout>
         <BootstrapClient />
       </body>

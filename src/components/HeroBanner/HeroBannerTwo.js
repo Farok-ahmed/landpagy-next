@@ -74,7 +74,7 @@ export default function HeroBannerTwo() {
           </div>
           <div className="col-xxl-4 col-md-5">
             <div ref={rightRef} className="banner-right">
-              <Image src={heroImg} alt="" />
+              <Image src={heroImg} alt="Decorative image" />
             </div>
           </div>
         </div>

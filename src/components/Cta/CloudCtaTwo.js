@@ -38,7 +38,7 @@ export default function CloudCtaTwo() {
             speed={-10}
           >
             <Image src={shape12} className="layer"
-              alt="" />
+              alt="Decorative image" />
           </Parallax>
         </div>
         <div className="shape">
@@ -50,11 +50,11 @@ export default function CloudCtaTwo() {
             speed={-10}
           >
             <Image src={shape13} className="layer"
-              alt="" />
+              alt="Decorative image" />
           </Parallax>
         </div>
         <div className="shape">
-          <Image src={shape14} alt="" />
+          <Image src={shape14} alt="Decorative image" />
         </div>
       </div>
       <div className="container">

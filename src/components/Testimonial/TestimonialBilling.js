@@ -56,7 +56,7 @@ export default function TestimonialBilling() {
               <SwiperSlide>
                 <div className="testimonial-content">
                   <div className="testimonial-img">
-                    <Image src={testimonialImg1} alt="" />
+                    <Image src={testimonialImg1} alt="Decorative image" />
                   </div>
                   <div className="testimonial-text">
                     <p className="author-text">
@@ -72,7 +72,7 @@ export default function TestimonialBilling() {
               <SwiperSlide>
                 <div className="testimonial-content">
                   <div className="testimonial-img">
-                    <Image src={testimonialImg2} alt="" />
+                    <Image src={testimonialImg2} alt="Decorative image" />
                   </div>
                   <div className="testimonial-text">
                     <p className="author-text">
@@ -88,7 +88,7 @@ export default function TestimonialBilling() {
               <SwiperSlide>
                 <div className="testimonial-content">
                   <div className="testimonial-img">
-                    <Image src={testimonialImg1} alt="" />
+                    <Image src={testimonialImg1} alt="Decorative image" />
                   </div>
                   <div className="testimonial-text">
                     <p className="author-text">

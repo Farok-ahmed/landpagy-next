@@ -24,7 +24,7 @@ export default function ContactTwoHero() {
               <div className="item-icon">
                 <Image src={cardIcon1} className="mx-auto"
                   
-                  alt="" />
+                  alt="Decorative image" />
               </div>
               <div className="item-content">
                 <h4 className="item-title">
@@ -46,7 +46,7 @@ export default function ContactTwoHero() {
               <div className="item-icon">
                 <Image src={cardIcon2} className="mx-auto"
                   
-                  alt="" />
+                  alt="Decorative image" />
               </div>
               <div className="item-content">
                 <h4 className="item-title">Product and account support</h4>

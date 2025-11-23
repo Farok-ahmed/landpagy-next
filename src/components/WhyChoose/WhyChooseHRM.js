@@ -65,7 +65,7 @@ export default function WhyChooseHRM() {
                 <div className="img-box">
                   <div className="img-shape"></div>
                   <div className="img-shape">
-                    <Image src={testShape4} alt="" />
+                    <Image src={testShape4} alt="Decorative shape" />
                   </div>
                   <Image src={testItemImg1} alt="User"
                    className="testimonial-item-img" />
@@ -89,7 +89,7 @@ export default function WhyChooseHRM() {
                 <div className="img-box">
                   <div className="img-shape"></div>
                   <div className="img-shape">
-                    <Image src={testShape4} alt="" />
+                    <Image src={testShape4} alt="Decorative shape" />
                   </div>
                   <Image src={testItemImg2} alt="User"
                    className="testimonial-item-img" />

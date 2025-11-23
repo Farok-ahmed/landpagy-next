@@ -34,7 +34,7 @@ export default function PosFeatureGroup() {
         <div className="row">
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon1} alt=""
+              <Image src={feaIcon1} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Clothing store
@@ -43,7 +43,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon2} alt=""
+              <Image src={feaIcon2} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Coffee shop
@@ -52,7 +52,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon3} alt=""
+              <Image src={feaIcon3} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Furniture store
@@ -61,7 +61,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon4} alt=""
+              <Image src={feaIcon4} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Jewelry store
@@ -70,7 +70,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon5} alt=""
+              <Image src={feaIcon5} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Food truck
@@ -79,7 +79,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon6} alt=""
+              <Image src={feaIcon6} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Gift store
@@ -88,7 +88,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon7} alt=""
+              <Image src={feaIcon7} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Pet store
@@ -97,7 +97,7 @@ export default function PosFeatureGroup() {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="features-item text-center">
-              <Image src={feaIcon8} alt=""
+              <Image src={feaIcon8} alt="Decorative image"
                className="features-icon mx-auto mb-10" />
               <Link href="/" className="features-name">
                 Retail examples

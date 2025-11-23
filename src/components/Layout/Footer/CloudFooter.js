@@ -27,10 +27,10 @@ export default function CloudFooter() {
           </svg>
         </div>
         <div className="shape">
-          <Image src={shape16} alt="" />
+          <Image src={shape16} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={shape17} alt="" />
+          <Image src={shape17} alt="Decorative image" />
         </div>
       </div>
       <div className="footer-top">

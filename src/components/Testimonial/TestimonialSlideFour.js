@@ -58,7 +58,7 @@ export default function TestimonialSlideFour() {
             easing="easeInQuad"
           >
             <Image src={testimonialShape} className="layer"
-              alt="" />
+              alt="Decorative image" />
           </Parallax>
         </div>
         <div className="section-title-center" ref={refs[0]}>

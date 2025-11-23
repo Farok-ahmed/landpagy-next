@@ -85,11 +85,11 @@ export default function FeatureFour() {
           </div>
           <div className="col-lg-6">
             <div className="dash-img">
-              <Image src={dashboard1} alt="" />
-              <Image src={dashboard2} alt="" />
+              <Image src={dashboard1} alt="Decorative image" />
+              <Image src={dashboard2} alt="Decorative image" />
               <Image src={featureShape} className="shape"
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
         </div>

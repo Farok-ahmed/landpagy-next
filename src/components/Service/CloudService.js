@@ -51,15 +51,15 @@ export default function CloudService() {
              className="accordion-images mt-30"
             >
               <div className="img">
-                <Image src={shape8} alt="" />
+                <Image src={shape8} alt="Decorative image" />
               </div>
               <div className="img">
-                <Image src={desktop2} alt="" />
+                <Image src={desktop2} alt="Decorative image" />
               </div>
               <div className="img">
-                <Image src={desktop3} alt="" />
+                <Image src={desktop3} alt="Decorative image" />
               </div>
-              <Image src={desktop1} alt="" />
+              <Image src={desktop1} alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-6">

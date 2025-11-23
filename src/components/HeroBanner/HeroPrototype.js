@@ -37,17 +37,17 @@ export default function HeroPrototype() {
             rotateY={[100, 0]}
             easing="easeInQuad"
           >
-            <Image src={bannerShape2} alt="" />
+            <Image src={bannerShape2} alt="Decorative image" />
           </Parallax>
         </div>
         <div ref={shape3Ref} className="shape">
           <Image src={bannerShape3} alt="shapes" />
         </div>
         <div ref={shape4Ref} className="shape">
-          <Image src={bannerShape4} alt="" />
+          <Image src={bannerShape4} alt="Decorative image" />
         </div>
         <div ref={shape5Ref} className="shape">
-          <Image src={bannerShape5} alt="" />
+          <Image src={bannerShape5} alt="Decorative image" />
         </div>
         <div className="shape">
           <Parallax
@@ -60,10 +60,10 @@ export default function HeroPrototype() {
           </Parallax>
         </div>
         <div className="shape">
-          <Image src={bannerShape7} alt="" />
+          <Image src={bannerShape7} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={bannerShape8} alt="" />
+          <Image src={bannerShape8} alt="Decorative image" />
         </div>
         <div ref={shape9Ref} className="shape">
           <Image src={bannerShape9} alt="shapes" />

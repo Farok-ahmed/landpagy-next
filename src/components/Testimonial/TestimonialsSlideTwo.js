@@ -38,10 +38,10 @@ export default function TestimonialsSlideTwo() {
     <section className="testimonial-area-five pt-140 pb-150">
       <div className="bg-shapes">
         <div className="shape">
-          <Image src={bannerShape4} alt="" />
+          <Image src={bannerShape4} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={testimonialShape} alt="" />
+          <Image src={testimonialShape} alt="Decorative image" />
         </div>
       </div>
       <div className="container">
@@ -72,7 +72,7 @@ export default function TestimonialsSlideTwo() {
               >
                 <Swiper {...swiperOptions} className="testimonial-slider-five">
                   <SwiperSlide className="single-testimonial">
-                    <Image src={testimonial1} alt="" />
+                    <Image src={testimonial1} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -86,7 +86,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <Image src={testimonial2} alt="" />
+                    <Image src={testimonial2} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -100,7 +100,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <Image src={testimonial1} alt="" />
+                    <Image src={testimonial1} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -115,7 +115,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <Image src={testimonial2} alt="" />
+                    <Image src={testimonial2} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -130,7 +130,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <Image src={testimonial1} alt="" />
+                    <Image src={testimonial1} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of
@@ -145,7 +145,7 @@ export default function TestimonialsSlideTwo() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial ">
-                    <Image src={testimonial2} alt="" />
+                    <Image src={testimonial2} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “After a comprehensive vetting process with a number of

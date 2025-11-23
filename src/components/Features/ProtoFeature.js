@@ -28,7 +28,7 @@ export default function ProtoFeature() {
               <h4 className="item-title">Get your essential integrations</h4>
               <Image src={feaIcon1} className="mx-auto"
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -38,7 +38,7 @@ export default function ProtoFeature() {
               <h4 className="item-title">Support for any device</h4>
               <Image src={feaIcon2} className="mx-auto"
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -48,7 +48,7 @@ export default function ProtoFeature() {
               <h4 className="item-title">Import content from web</h4>
               <Image src={feaIcon3} className="mx-auto"
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -58,7 +58,7 @@ export default function ProtoFeature() {
               <h4 className="item-title">Smart masking option</h4>
               <Image src={feaIcon4} className="mx-auto"
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -68,7 +68,7 @@ export default function ProtoFeature() {
               <h4 className="item-title">Reusable components</h4>
               <Image src={feaIcon5} className="mx-auto"
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-4 col-md-6">
@@ -78,7 +78,7 @@ export default function ProtoFeature() {
               <h4 className="item-title">CSS variables checker</h4>
               <Image src={feaIcon6} className="mx-auto"
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
         </div>

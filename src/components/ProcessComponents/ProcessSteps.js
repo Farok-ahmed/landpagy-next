@@ -45,7 +45,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <Image src={icon1} alt="" />
+                  <Image src={icon1} alt="Decorative image" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -86,7 +86,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <Image src={icon2} alt="" />
+                  <Image src={icon2} alt="Decorative image" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -127,7 +127,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <Image src={icon3} alt="" />
+                  <Image src={icon3} alt="Decorative image" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -165,7 +165,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <Image src={icon4} alt="" />
+                  <Image src={icon4} alt="Decorative image" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">
@@ -206,7 +206,7 @@ export default function ProcessSteps() {
             <div className="col-lg-5 offset-lg-1 col-md-3">
               <div className="process-item-progress">
                 <div className="icon">
-                  <Image src={icon5} alt="" />
+                  <Image src={icon5} alt="Decorative image" />
                   <i className="arrow_carrot-down"></i>
                 </div>
                 <div className="meta">

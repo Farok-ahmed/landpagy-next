@@ -8,10 +8,10 @@ export default function CtaTwo() {
     <section className="soft-cta-area pt-125 pb-130">
       <div className="shapes">
         <div className="shape">
-          <Image src={ctaShape} alt="" />
+          <Image src={ctaShape} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={ctaShape2} alt="" />
+          <Image src={ctaShape2} alt="Decorative image" />
         </div>
       </div>
       <div className="container container-soft2">

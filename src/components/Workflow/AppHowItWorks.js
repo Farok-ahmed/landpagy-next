@@ -172,7 +172,7 @@ export default function AppHowItWorks() {
                 </p>
                 <Image src={worksImg} className="mb-40 mt-30"
                   
-                  alt="" />
+                  alt="Decorative image" />
               </div>
               <div className="app-how-item">
                 <p className="title">2. Create account</p>
@@ -183,7 +183,7 @@ export default function AppHowItWorks() {
                 </p>
                 <Image src={feturesImg} className="mb-40 mt-30"
                   
-                  alt="" />
+                  alt="Decorative image" />
               </div>
               <div className="app-how-item">
                 <p className="title">3. Enjoy the features!</p>

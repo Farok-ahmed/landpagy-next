@@ -65,7 +65,7 @@ export default function TestimonialSlideThree() {
                 <div>
                   <div className="author d-flex align-items-center">
                     <div className="auth-img">
-                      <Image src={auth1} alt="" />
+                      <Image src={auth1} alt="Decorative image" />
                     </div>
                     <div className="auth-info">
                       <p>
@@ -88,7 +88,7 @@ export default function TestimonialSlideThree() {
               <div className="slide-item">
                 <div className="author d-flex align-items-center">
                   <div className="auth-img">
-                    <Image src={auth2} alt="" />
+                    <Image src={auth2} alt="Decorative image" />
                   </div>
                   <div className="auth-info">
                     <p>
@@ -110,7 +110,7 @@ export default function TestimonialSlideThree() {
               <div className="slide-item">
                 <div className="author d-flex align-items-center">
                   <div className="auth-img">
-                    <Image src={auth1} alt="" />
+                    <Image src={auth1} alt="Decorative image" />
                   </div>
                   <div className="auth-info">
                     <p>
@@ -132,7 +132,7 @@ export default function TestimonialSlideThree() {
               <div className="slide-item">
                 <div className="author d-flex align-items-center">
                   <div className="auth-img">
-                    <Image src={auth2} alt="" />
+                    <Image src={auth2} alt="Decorative image" />
                   </div>
                   <div className="auth-info">
                     <p>

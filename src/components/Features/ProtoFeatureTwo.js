@@ -39,18 +39,18 @@ export default function ProtoFeatureTwo() {
           <div className="col-xl-5 col-lg-6">
             <div className="fea-right">
               <div className="fea-images">
-                <Image src={feaImages1} alt="" />
+                <Image src={feaImages1} alt="Decorative image" />
               </div>
               <div className="fea-images">
-                <Image src={feaImages2} alt="" />
+                <Image src={feaImages2} alt="Decorative image" />
               </div>
               <div className="fea-images"></div>
               <div className="fea-images"></div>
               <div className="fea-images">
-                <Image src={feaImagesShape1} alt="" />
+                <Image src={feaImagesShape1} alt="Decorative image" />
               </div>
               <div className="fea-images">
-                <Image src={feaImagesShape2} alt="" />
+                <Image src={feaImagesShape2} alt="Decorative image" />
               </div>
             </div>
           </div>
@@ -62,19 +62,19 @@ export default function ProtoFeatureTwo() {
               <div className="bg-shapes">
                 <div className="fea-images"></div>
                 <div className="fea-images">
-                  <Image src={feaShape1} alt="" />
+                  <Image src={feaShape1} alt="Decorative image" />
                 </div>
                 <div className="fea-images">
-                  <Image src={feaImagesShape2} alt="" />
+                  <Image src={feaImagesShape2} alt="Decorative image" />
                 </div>
                 <div className="fea-images">
-                  <Image src={feaImagesShape3} alt="" />
+                  <Image src={feaImagesShape3} alt="Decorative image" />
                 </div>
               </div>
               <Image src={feaImages3} className="fea-left-img"
                
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-6">
@@ -117,19 +117,19 @@ export default function ProtoFeatureTwo() {
             <div className="fea-right-two ml-15">
               <div className="bg-shapes">
                 <div className="fea-images">
-                  <Image src={feaImagesShape4} alt="" />
+                  <Image src={feaImagesShape4} alt="Decorative image" />
                 </div>
                 <div className="fea-images">
-                  <Image src={feaShape1} alt="" />
+                  <Image src={feaShape1} alt="Decorative image" />
                 </div>
                 <div className="fea-images">
-                  <Image src={feaImagesShape1} alt="" />
+                  <Image src={feaImagesShape1} alt="Decorative image" />
                 </div>
               </div>
               <Image src={feaImages4} className="fea-right-img"
                
                 
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
         </div>

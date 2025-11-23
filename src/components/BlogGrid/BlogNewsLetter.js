@@ -8,10 +8,10 @@ export default function BlogNewsLetter() {
     <section className="doc_action_area_three">
       <Image src={shadowAction} className="p_absolute shadows"
         
-        alt="" />
+        alt="Decorative image" />
       <Image src={man} className="p_absolute b_man"
         
-        alt="" />
+        alt="Decorative image" />
       <div className="container blog-grid-container">
         <div className="row">
           <div className="col-lg-5">

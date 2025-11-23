@@ -9,10 +9,10 @@ export default function AboutCta() {
     <section className="about-cta-area">
       <div className="bg-shapes">
         <div className="shape">
-          <Image src={ctaShape1} alt="" />
+          <Image src={ctaShape1} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={ctaShape2} alt="" />
+          <Image src={ctaShape2} alt="Decorative image" />
         </div>
       </div>
       <div className="container">

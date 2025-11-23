@@ -58,14 +58,14 @@ export default function HeroBannerFour() {
     <section className="banner-area-3" id="banner_animation">
       <div className="banner-shape">
         <div className="shape" ref={treeWaterRef}>
-          <Image src={treeWater} alt="" />
+          <Image src={treeWater} alt="Decorative image" />
         </div>
         <div className="shape object-element">
           <div id="element1" ref={cloud1Parallax.ref}>
             <div ref={cloud1ImgRef}>
               <Image src={cloud1} data-depth="0.9"
                className="layer"
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function HeroBannerFour() {
             <div ref={cloud2ImgRef}>
               <Image src={cloud2} data-depth="0.5"
                className="layer"
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
         </div>
@@ -83,21 +83,21 @@ export default function HeroBannerFour() {
             <div ref={cloud3ImgRef}>
               <Image src={cloud3} data-depth="0.7"
                className="layer"
-                alt="" />
+                alt="Decorative image" />
             </div>
           </div>
         </div>
         <div className="shape" ref={birdParallax.ref}>
-          <Image src={bird} className="layer" alt="" />
+          <Image src={bird} className="layer" alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={bannerBgShape1} alt="" />
+          <Image src={bannerBgShape1} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={bannerBgShape2} alt="" />
+          <Image src={bannerBgShape2} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={leaf} alt="" />
+          <Image src={leaf} alt="Decorative image" />
         </div>
       </div>
       <div className="container">

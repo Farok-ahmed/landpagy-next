@@ -50,7 +50,7 @@ export default function CloudCounter() {
             <div className="cloud-join-right ml-40">
               <div className="right-item mb-30">
                 <div className="w-30">
-                  <Image src={icon1} alt="" />
+                  <Image src={icon1} alt="Decorative image" />
                 </div>
                 <div className="w-70">
                   <p className="item-text">Number of registered users</p>
@@ -61,7 +61,7 @@ export default function CloudCounter() {
               </div>
               <div className="right-item">
                 <div className="w-30">
-                  <Image src={icon2} alt="" />
+                  <Image src={icon2} alt="Decorative image" />
                 </div>
                 <div className="w-70">
                   <p className="item-text">Number of files uploaded</p>

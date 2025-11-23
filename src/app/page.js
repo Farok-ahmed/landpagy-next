@@ -3,7 +3,6 @@ import FaqOne from "@/components/Faqs/FaqOne";
 import FeatureOne from "@/components/Features/FeatureOne";
 import FeatureThree from "@/components/Features/FeatureThree";
 import FeatureTwo from "@/components/Features/FeatureTwo";
-// import FeatureTwo from "@/components/Features/FeatureTwo";
 import HeroBannerOne from "@/components/HeroBanner/HeroBannerOne";
 import IntegrationOne from "@/components/Integrations/IntegrationOne";
 import FooterOne from "@/components/Layout/Footer/FooterOne";

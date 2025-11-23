@@ -18,7 +18,7 @@ export default function BlogDetailsBreadcrumb() {
             translateY={["500px", "0px"]}
             rotateY={[0, 0]}
           >
-            <Image src={bannerShape1} alt="" />
+            <Image src={bannerShape1} alt="Decorative image" />
           </Parallax>
         </div>
         <div className="shape">
@@ -27,7 +27,7 @@ export default function BlogDetailsBreadcrumb() {
             translateY={["-500px", "0px"]}
             rotateY={[0, 0]}
           >
-            <Image src={bannerShape2} alt="" />
+            <Image src={bannerShape2} alt="Decorative image" />
           </Parallax>
         </div>
         <div className="shape">
@@ -36,7 +36,7 @@ export default function BlogDetailsBreadcrumb() {
             translateY={["500px", "0px"]}
             rotateY={[0, 0]}
           >
-            <Image src={bannerShape3} alt="" />
+            <Image src={bannerShape3} alt="Decorative image" />
           </Parallax>
         </div>
       </div>

@@ -22,19 +22,19 @@ export default function ClientBilling() {
         </div>
         <div className="row mr-60 ml-60">
           <div className="client-img">
-            <Image src={brand1} alt="" />
+            <Image src={brand1} alt="Decorative image" />
           </div>
           <div className="client-img">
-            <Image src={brand2} alt="" />
+            <Image src={brand2} alt="Decorative image" />
           </div>
           <div className="client-img">
-            <Image src={brand3} alt="" />
+            <Image src={brand3} alt="Decorative image" />
           </div>
           <div className="client-img">
-            <Image src={brand4} alt="" />
+            <Image src={brand4} alt="Decorative image" />
           </div>
           <div className="client-img">
-            <Image src={brand5} alt="" />
+            <Image src={brand5} alt="Decorative image" />
           </div>
         </div>
       </div>

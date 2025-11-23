@@ -11,7 +11,7 @@ export default function RecentPosts() {
     <div className="recent-news-widget mb-50">
       <h4 className="widget-title">Reacent News</h4>
       <div className="news-item">
-        <Image src={news1} alt="" />
+        <Image src={news1} alt="Decorative image" />
         <div className="news-body">
           <Link href="/blog-details">
             <h5 className="news-title">
@@ -24,7 +24,7 @@ export default function RecentPosts() {
         </div>
       </div>
       <div className="news-item">
-        <Image src={news2} alt="" />
+        <Image src={news2} alt="Decorative image" />
         <div className="news-body">
           <Link href="/blog-details">
             <h5 className="news-title">10 Classic Summer Vacations</h5>
@@ -35,7 +35,7 @@ export default function RecentPosts() {
         </div>
       </div>
       <div className="news-item">
-        <Image src={news3} alt="" />
+        <Image src={news3} alt="Decorative image" />
         <div className="news-body">
           <Link href="/blog-details">
             <h5 className="news-title">
@@ -48,7 +48,7 @@ export default function RecentPosts() {
         </div>
       </div>
       <div className="news-item">
-        <Image src={news4} alt="" />
+        <Image src={news4} alt="Decorative image" />
         <div className="news-body">
           <Link href="/blog-details">
             <h5 className="news-title">

@@ -36,7 +36,7 @@ export default function ServiceTestimonial() {
   return (
     <section className="bg-white testimonial-area-five service-testimonial-area">
       <div className="shapes">
-        <Image src={leafTop} alt="" />
+        <Image src={leafTop} alt="Decorative image" />
       </div>
       <div className="container">
         <div className="row">
@@ -72,7 +72,7 @@ export default function ServiceTestimonial() {
               <div className="testimonial-slider-five">
                 <Swiper {...swiperOptions}>
                   <SwiperSlide className="single-testimonial">
-                    <Image src={testimonial1} alt="" />
+                    <Image src={testimonial1} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “Landpagy performance gets an upgrade. Faster patch
@@ -84,7 +84,7 @@ export default function ServiceTestimonial() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial">
-                    <Image src={testimonial2} alt="" />
+                    <Image src={testimonial2} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “Landpagy performance gets an upgrade. Faster patch
@@ -97,7 +97,7 @@ export default function ServiceTestimonial() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial">
-                    <Image src={testimonial1} alt="" />
+                    <Image src={testimonial1} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “Landpagy performance gets an upgrade. Faster patch
@@ -109,7 +109,7 @@ export default function ServiceTestimonial() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial">
-                    <Image src={testimonial2} alt="" />
+                    <Image src={testimonial2} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “Landpagy performance gets an upgrade. Faster patch
@@ -122,7 +122,7 @@ export default function ServiceTestimonial() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial">
-                    <Image src={testimonial1} alt="" />
+                    <Image src={testimonial1} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “Landpagy performance gets an upgrade. Faster patch
@@ -134,7 +134,7 @@ export default function ServiceTestimonial() {
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="single-testimonial">
-                    <Image src={testimonial2} alt="" />
+                    <Image src={testimonial2} alt="Decorative image" />
                     <div className="testimonial-content">
                       <p>
                         “Landpagy performance gets an upgrade. Faster patch

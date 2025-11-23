@@ -28,7 +28,7 @@ export default function BillingModel() {
              
             >
               <div className="feature-item-icon">
-                <Image src={feaIcon1} alt="" />
+                <Image src={feaIcon1} alt="Decorative image" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -47,7 +47,7 @@ export default function BillingModel() {
              
             >
               <div className="feature-item-icon">
-                <Image src={feaIcon2} alt="" />
+                <Image src={feaIcon2} alt="Decorative image" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">
@@ -66,7 +66,7 @@ export default function BillingModel() {
              
             >
               <div className="feature-item-icon">
-                <Image src={feaIcon3} alt="" />
+                <Image src={feaIcon3} alt="Decorative image" />
               </div>
               <div className="feature-item-content">
                 <h3 className="feature-item-subtitle">

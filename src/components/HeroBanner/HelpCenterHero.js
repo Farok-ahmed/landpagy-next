@@ -46,19 +46,19 @@ export default function HelpCenterHero() {
       </div>
       <Image src={helpCenterShape} className="help-center-shape"
         
-        alt="" />
+        alt="Decorative image" />
       <Image src={helpCenterShape2} className="help-center-shape2"
         
-        alt="" />
+        alt="Decorative image" />
       <Image src={helpCenterShape3} className="help-center-shape3"
         
-        alt="" />
+        alt="Decorative image" />
       <Image src={helpCenterShape4} className="help-center-shape4"
         
-        alt="" />
+        alt="Decorative image" />
       <Image src={shape16} ref={shape16Ref} className="shape16"
         
-        alt="" />
+        alt="Decorative image" />
     </section>
   );
 }

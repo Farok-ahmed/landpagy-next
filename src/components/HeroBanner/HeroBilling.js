@@ -62,10 +62,10 @@ export default function HeroBilling() {
         <div className="shape circle"></div>
         <div className="shape circle"></div>
         <div className="shape">
-          <Image src={poly1} alt="" />
+          <Image src={poly1} alt="Decorative image" />
         </div>
         <div className="shape">
-          <Image src={poly2} alt="" />
+          <Image src={poly2} alt="Decorative image" />
         </div>
         <div ref={shape1LeftRef} className="shape">
           <Image src={logo1} alt="Logo 1" />
@@ -92,7 +92,7 @@ export default function HeroBilling() {
            className="layer" />
         </div>
         <div className="shape">
-          <Image src={bannerShape} alt="" />
+          <Image src={bannerShape} alt="Decorative image" />
         </div>
       </div>
       <div className="container">
@@ -114,7 +114,7 @@ export default function HeroBilling() {
                  className="icon" />
                 Join Us
               </Link>
-              <Image src={banner} alt=""
+              <Image src={banner} alt="Decorative image"
                 ref={imgRef}
                className="mx-auto banner-img" />
             </div>

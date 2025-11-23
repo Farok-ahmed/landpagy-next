@@ -15,22 +15,22 @@ export default function InstagramWidget() {
       <h4 className="widget-title">Instragram</h4>
       <div className="instagram-items">
         <Link href="/" className="instagram-item">
-          <Image src={insta1} alt="" />
+          <Image src={insta1} alt="Decorative image" />
         </Link>
         <Link href="/" className="instagram-item">
-          <Image src={insta2} alt="" />
+          <Image src={insta2} alt="Decorative image" />
         </Link>
         <Link href="/" className="instagram-item">
-          <Image src={insta3} alt="" />
+          <Image src={insta3} alt="Decorative image" />
         </Link>
         <Link href="/" className="instagram-item">
-          <Image src={insta4} alt="" />
+          <Image src={insta4} alt="Decorative image" />
         </Link>
         <Link href="/" className="instagram-item">
-          <Image src={insta5} alt="" />
+          <Image src={insta5} alt="Decorative image" />
         </Link>
         <Link href="/" className="instagram-item">
-          <Image src={insta6} alt="" />
+          <Image src={insta6} alt="Decorative image" />
         </Link>
       </div>
     </div>

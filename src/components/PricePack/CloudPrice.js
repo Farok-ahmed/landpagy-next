@@ -117,7 +117,7 @@ export default function CloudPrice() {
                   </Parallax>
                 </div>
               </div>
-              <Image src={pricingImg} alt="" />
+              <Image src={pricingImg} alt="Decorative image" />
             </div>
           </div>
           <div className="col-lg-8">

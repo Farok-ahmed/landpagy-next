@@ -76,7 +76,7 @@ export default function TestimonialHRM() {
             <div ref={refs[2]} className="customer-video">
               <Image src={customerVideo} className="customer-img"
                 
-                alt="" />
+                alt="Decorative image" />
               <a
                className="play-btn"
                 href="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"

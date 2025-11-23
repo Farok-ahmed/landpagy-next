@@ -39,19 +39,19 @@ export default function AppDownloadTwo({ hasSpace }) {
             </div>
             <div className="col-lg-5">
               <div className="app-cta-images">
-                <Image src={ctaImg1} alt=""
+                <Image src={ctaImg1} alt="Decorative image"
                  className="img"
                   />
-                <Image src={ctaImg2} alt=""
+                <Image src={ctaImg2} alt="Decorative image"
                  className="img"
                   />
-                <Image src={ctaImg3} alt=""
+                <Image src={ctaImg3} alt="Decorative image"
                  className="img"
                   />
-                <Image src={ctaImg4} alt=""
+                <Image src={ctaImg4} alt="Decorative image"
                  className="img"
                   />
-                <Image src={ctaImg5} alt=""
+                <Image src={ctaImg5} alt="Decorative image"
                  className="img"
                   />
               </div>

@@ -10,7 +10,7 @@ const BlogPost = ({ posts }) => {
            className={`blog_grid_post shadow-sm`}
             style={{ animationDelay: `${index * 0.2}s` }}
           >
-            <Image src={post.imageSrc} alt="" />
+            <Image src={post.imageSrc} alt="Decorative image" />
             <div className="grid_post_content">
               <div className="post_tag">
                 <Link href="/blog-details">{post.readTime}</Link>
@@ -27,7 +27,7 @@ const BlogPost = ({ posts }) => {
               <p>{post.excerpt}</p>
               <div className="media post_author">
                 <div className="round_img">
-                  <Image src={post.author.imageSrc} alt="" />
+                  <Image src={post.author.imageSrc} alt="Decorative image" />
                 </div>
                 <div className="media-body author_text">
                   <h4>{post.author.name}</h4>
