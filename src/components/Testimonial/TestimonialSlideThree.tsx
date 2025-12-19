@@ -2,7 +2,7 @@
 
 import auth1 from "@/assets/images/home_7/auth1.png";
 import auth2 from "@/assets/images/home_7/auth2.png";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Slider from "react-slick";
 

@@ -10,7 +10,7 @@ import {
 } from "../../../utils/data";
 ;
 
-export default function HeaderOne({ pricingTwoMenu }) {
+export default function HeaderOne({ pricingTwoMenu }: { pricingTwoMenu?: boolean }) {
   return (
     <header className="header-area">
       <nav

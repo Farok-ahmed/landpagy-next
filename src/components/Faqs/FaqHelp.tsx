@@ -1,5 +1,5 @@
 "use client";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 ;
 
 export default function FaqHelp() {

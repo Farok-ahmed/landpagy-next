@@ -88,7 +88,7 @@ export default function CloudTestimonial() {
   }, [activeTab, startAutoTabSwitch]);
 
   // Handle manual tab click
-  const handleTabClick = (tabId) => {
+  const handleTabClick = (tabId: string) => {
     setActiveTab(tabId);
   };
 
@@ -140,9 +140,11 @@ export default function CloudTestimonial() {
                   }`}
                   onClick={() => handleTabClick(user.id)}
                 >
-                  <img
+                  <Image
                     src={`/images/home_9/users/${user.logo}`}
                     alt={user.name}
+                    width={60}
+                    height={60}
                   />
                 </button>
               ))}
@@ -167,9 +169,11 @@ export default function CloudTestimonial() {
                       ></div>
                     </div>
                     <div className="user-img">
-                      <img
+                      <Image
                         src={`/images/home_9/users/${user.logo}`}
                         alt={user.name}
+                        width={80}
+                        height={80}
                       />
                     </div>
                     <p className="user-quote">{user.quote}</p>
@@ -194,9 +198,11 @@ export default function CloudTestimonial() {
                   }`}
                   onClick={() => handleTabClick(user.id)}
                 >
-                  <img
+                  <Image
                     src={`/images/home_9/users/${user.logo}`}
                     alt={user.name}
+                    width={60}
+                    height={60}
                   />
                 </button>
               ))}

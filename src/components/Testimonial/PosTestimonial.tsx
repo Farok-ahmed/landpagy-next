@@ -4,7 +4,7 @@ import author1 from "@/assets/images/home_5/author1.png";
 import author2 from "@/assets/images/home_5/author2.png";
 import author3 from "@/assets/images/home_5/author3.png";
 import quoteIcon from "@/assets/images/home_5/icons/quote-icon.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

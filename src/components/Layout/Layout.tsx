@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 
-export default function Layout({ children }) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   const [isVisible, setIsVisible] = useState(false);
   const router = useRouter();
 

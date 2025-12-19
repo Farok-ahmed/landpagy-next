@@ -1,6 +1,6 @@
 "use client";
 
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Link from "next/link";
 import Slider from "react-slick";
 
@@ -113,10 +113,12 @@ export default function AppTestimonial() {
           {clients.map((client, index) => (
             <div key={index}>
               <div className="single-client">
-                <img
+                <Image
                  className="img-fluid rounded-circle"
                   src={client.imgSrc}
                   alt="client"
+                  width={80}
+                  height={80}
                 />
                 <p className="quote">{client.quote}</p>
                 <div className="client-info">

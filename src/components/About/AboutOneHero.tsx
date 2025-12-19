@@ -64,13 +64,13 @@ export default function AboutOneHero() {
            className="features-object6" />
           <Image src={featuresObject7} alt="Features Object"
            className="features-object7 object-element"
-            ref={shape2Parallax.ref} />
+            ref={shape2Parallax.ref as React.RefObject<HTMLImageElement>} />
           <Image src={featuresObject8} alt="Features Object"
            className="features-object8 object-element layer"
-            ref={shape3Parallax.ref} />
+            ref={shape3Parallax.ref as React.RefObject<HTMLImageElement>} />
           <Image src={featuresObject9} alt="Features Object"
            className="features-object9 object-element layer"
-            ref={shape4Parallax.ref} />
+            ref={shape4Parallax.ref as React.RefObject<HTMLImageElement>} />
           <span className="shape13"></span>
           <span className="shape14"></span>
           <div className="round-object2"></div>

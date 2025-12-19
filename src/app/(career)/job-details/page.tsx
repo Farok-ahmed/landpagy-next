@@ -27,7 +27,7 @@ export default function page() {
       <div
         className="modal job-application-modal fade"
         id="applyModal"
-        tabIndex="-1"
+        tabIndex={-1}
         aria-labelledby="applyModalLabel"
         aria-hidden="true"
       >
@@ -104,8 +104,8 @@ export default function page() {
                     <textarea
                       className="form-control"
                       id="modalMsg"
-                      cols="30"
-                      rows="4"
+                      cols={30}
+                      rows={4}
                     ></textarea>
                   </div>
 

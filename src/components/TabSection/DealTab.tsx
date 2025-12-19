@@ -1,5 +1,6 @@
 "use client";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 import {
     useCallback,
     useEffect,
@@ -97,9 +98,11 @@ export default function DealTab() {
                   }}
                 >
                   <div className="icon">
-                    <img
+                    <Image
                       src={`/images/home_3/fast-deal-${index + 1}.svg`}
                       alt="Track key events icon"
+                      width={40}
+                      height={40}
                     />
                   </div>
                   <div className="info-txt">
@@ -127,10 +130,12 @@ export default function DealTab() {
                 >
                   <div className="main-img">
                     {tab.imgSrc.map((src, idx) => (
-                      <img
+                      <Image
                         key={idx}
                         src={src}
                         alt={`Payment track ${idx + 1}`}
+                        width={400}
+                        height={300}
                       />
                     ))}
                   </div>

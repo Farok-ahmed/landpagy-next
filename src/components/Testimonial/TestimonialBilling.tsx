@@ -2,7 +2,7 @@
 
 import testimonialImg1 from "@/assets/images/home_8/testimonial-img1.png";
 import testimonialImg2 from "@/assets/images/home_8/testimonial-img2.png";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

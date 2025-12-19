@@ -1,7 +1,7 @@
 "use client";
 
 import testimonial1 from "@/assets/images/testimonial/testimonial-1.jpg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 

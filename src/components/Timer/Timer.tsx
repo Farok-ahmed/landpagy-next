@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-export default function Timer({ endTime }) {
+export default function Timer({ endTime }: { endTime: string }) {
   const [timeLeft, setTimeLeft] = useState({
     days: "00",
     hours: "00",

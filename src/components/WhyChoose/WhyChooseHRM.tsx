@@ -5,7 +5,7 @@ import testItemImg2 from "@/assets/images/home_4/test-item-img2.jpg";
 import testShape2 from "@/assets/images/home_4/test-shape2.svg";
 import testShape3 from "@/assets/images/home_4/test-shape3.svg";
 import testShape4 from "@/assets/images/home_4/test-shape4.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";

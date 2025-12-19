@@ -8,14 +8,13 @@ import history2 from "@/assets/images/about_2/history2.png";
 
 export default function AboutHistory() {
   const [slideIndex, setSlideIndex] = useState(0);
-  const sliderRef = useRef(null);
+  const sliderRef = useRef<Slider>(null);
 
   const calculatePillStyle = () => {
+    // Simplified calculation that doesn't rely on internal slider properties
     if (sliderRef.current) {
-      const sliderWidth = sliderRef.current.innerSlider.list.clientWidth;
-      const slidesToShow = sliderRef.current.innerSlider.props.slidesToShow;
-      const slideWidth = sliderWidth / slidesToShow;
-      const newLeft = ((slideWidth * slideIndex) / sliderWidth) * 450;
+      const slidesToShow = 3; // Default value from slickOptions
+      const newLeft = (slideIndex / slidesToShow) * 450;
       return {
         animation: `slideInfinite 5s linear infinite`,
         transform: `translateX(${newLeft}px)`,
@@ -45,7 +44,7 @@ export default function AboutHistory() {
         },
       },
     ],
-    afterChange: (current) => setSlideIndex(current),
+    afterChange: (current: number) => setSlideIndex(current),
   };
   useEffect(() => {
     // Update the pill style when slideIndex changes

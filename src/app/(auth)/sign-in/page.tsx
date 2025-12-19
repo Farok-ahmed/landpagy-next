@@ -17,7 +17,7 @@ export default function SignIn() {
   const parallaxOne = useParallax({
     translateX: [0, -20, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
-    rotateY: 0,
+    rotateY: [0, 0],
     speed: -10,
   });
   const shape1Parallax = useParallax({
@@ -54,7 +54,7 @@ export default function SignIn() {
               <div className="shape">
                 <Image src={shape2} alt="Shape" />
               </div>
-              <div className="shape layer" ref={parallaxOne.ref}>
+              <div className="shape layer" ref={parallaxOne.ref as React.RefObject<HTMLDivElement>}>
                 <Image src={shape3} alt="Shape" />
               </div>
               <div className="shape">
@@ -66,20 +66,20 @@ export default function SignIn() {
                 <div className="form-images d-lg-block d-none">
                   <div
                     className="shapes layer object-element"
-                    ref={shape1Parallax.ref}
+                    ref={shape1Parallax.ref as React.RefObject<HTMLDivElement>}
                   ></div>
                   <div className="shapes object-element"></div>
                   <div
                     className="shapes layer object-element"
-                    ref={shape2Parallax.ref}
+                    ref={shape2Parallax.ref as React.RefObject<HTMLDivElement>}
                   ></div>
                   <div
                     className="shapes object-element layer"
-                    ref={shape3Parallax.ref}
+                    ref={shape3Parallax.ref as React.RefObject<HTMLDivElement>}
                   ></div>
                   <div
                     className="shapes object-element layer"
-                    ref={shape4Parallax.ref}
+                    ref={shape4Parallax.ref as React.RefObject<HTMLDivElement>}
                   ></div>
                   <div className="shapes">
                     <Image src={shape1} alt="Shape" />

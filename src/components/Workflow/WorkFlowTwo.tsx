@@ -2,7 +2,7 @@
 import feature5 from "@/assets/images/features/feature-5.png";
 import features8 from "@/assets/images/features/features-8.png";
 import features9 from "@/assets/images/features/features-9.png";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
 

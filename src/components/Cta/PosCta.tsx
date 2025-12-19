@@ -1,7 +1,7 @@
 "use client";
 import ctaShape1 from "@/assets/images/home_5/shapes/cta-shape1.svg";
 import ctaShape2 from "@/assets/images/home_5/shapes/cta-shape2.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Link from "next/link";
 ;

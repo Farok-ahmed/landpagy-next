@@ -1,6 +1,6 @@
 "use client";
 import features3 from "@/assets/images/features/features-3.png";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
 

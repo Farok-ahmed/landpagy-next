@@ -2,7 +2,7 @@
 import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
 import dashboard from "@/assets/images/home_4/dashboard.png";
 import feaShape2 from "@/assets/images/home_4/fea-shape2.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
 

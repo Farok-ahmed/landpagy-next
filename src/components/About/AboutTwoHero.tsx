@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import GLightbox from "glightbox";
-import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useGsapReveal, useGsapMultiple } from "@/hooks/useGsapReveal";
 import Link from "next/link";
 import Image from "next/image";
 import aboutShape from "@/assets/images/about_2/shape/about-shape.png";

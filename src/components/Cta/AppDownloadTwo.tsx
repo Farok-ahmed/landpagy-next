@@ -8,7 +8,7 @@ import ctaImg4 from "@/assets/images/home_10/cta-img4.svg";
 import ctaImg5 from "@/assets/images/home_10/cta-img5.svg";
 ;
 
-export default function AppDownloadTwo({ hasSpace }) {
+export default function AppDownloadTwo({ hasSpace }: { hasSpace?: boolean }) {
   return (
     <section className="app-cta-area">
       <div className="container">

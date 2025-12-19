@@ -1,7 +1,7 @@
 "use client";
 import testimonial1 from "@/assets/images/testimonial/testimonial-1.jpg";
 import testimonial from "@/assets/images/testimonial/testimonial.png";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";

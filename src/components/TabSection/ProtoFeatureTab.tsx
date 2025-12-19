@@ -4,7 +4,7 @@ import feaImg2 from "@/assets/images/home_6/fea-img2.png";
 import feaImg3 from "@/assets/images/home_6/fea-img3.png";
 import feaShape1 from "@/assets/images/home_6/fea-shape1.svg";
 import feaShape2 from "@/assets/images/home_6/fea-shape2.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
 

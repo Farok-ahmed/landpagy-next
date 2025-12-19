@@ -2,7 +2,7 @@
 import ctaShape from "@/assets/images/home_4/cta-shape.svg";
 import testShape2 from "@/assets/images/home_4/test-shape2.svg";
 import testShape3 from "@/assets/images/home_4/test-shape3.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 ;
 

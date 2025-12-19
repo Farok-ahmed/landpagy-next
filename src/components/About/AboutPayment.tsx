@@ -7,7 +7,7 @@ import brand8 from "@/assets/images/brand/brand-8.svg";
 import brand9 from "@/assets/images/brand/brand-9.svg";
 import userShape1 from "@/assets/images/home_3/user-shape-1.svg";
 import userSlider1 from "@/assets/images/home_3/user-slider-1.png";
-import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useGsapReveal, useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Link from "next/link";
 import { Parallax } from "react-scroll-parallax";
@@ -30,13 +30,13 @@ export default function AboutPayment() {
     <section className="user-area-two pt-150">
       <div className="container">
         <div className="section-title-center">
-          <h2 ref={headingRef}>
+          <h2 ref={headingRef as React.RefObject<HTMLHeadingElement>}>
             Over 15,000+ companies across 89 countries use landpagy
           </h2>
         </div>
         <div className="pt-20 pb-40 row pb-lg-70">
           <div className="col-md-6">
-            <div ref={feedRef} className="customer-feed">
+            <div ref={feedRef as React.RefObject<HTMLDivElement>} className="customer-feed">
               <p>
                 "After a comprehensive vetting process with a number of globally
                 recognized vendors, Exponea stood out as the clear best choice
@@ -52,7 +52,7 @@ export default function AboutPayment() {
             </div>
           </div>
           <div className="mt-4 col-md-6 text-end mt-md-0">
-            <div ref={imageRef} className="customer-img">
+            <div ref={imageRef as React.RefObject<HTMLDivElement>} className="customer-img">
               <Image src={userSlider1} alt="customer-img" />
               <div className="shape">
                 <Parallax
@@ -72,32 +72,32 @@ export default function AboutPayment() {
 
         <div className="row">
           <div className="col-md-4 col-lg-2">
-            <div ref={brandRefs[0]} className="client-image">
+            <div ref={brandRefs[0] as React.RefObject<HTMLDivElement>} className="client-image">
               <Image src={brand6} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
-            <div ref={brandRefs[1]} className="client-image">
+            <div ref={brandRefs[1] as React.RefObject<HTMLDivElement>} className="client-image">
               <Image src={brand7} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
-            <div ref={brandRefs[2]} className="client-image">
+            <div ref={brandRefs[2] as React.RefObject<HTMLDivElement>} className="client-image">
               <Image src={brand8} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
-            <div ref={brandRefs[3]} className="client-image">
+            <div ref={brandRefs[3] as React.RefObject<HTMLDivElement>} className="client-image">
               <Image src={brand9} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
-            <div ref={brandRefs[4]} className="client-image">
+            <div ref={brandRefs[4] as React.RefObject<HTMLDivElement>} className="client-image">
               <Image src={brand10} alt="brand" />
             </div>
           </div>
           <div className="col-md-4 col-lg-2">
-            <div ref={brandRefs[5]} className="client-image">
+            <div ref={brandRefs[5] as React.RefObject<HTMLDivElement>} className="client-image">
               <Image src={brand11} alt="brand" />
             </div>
           </div>

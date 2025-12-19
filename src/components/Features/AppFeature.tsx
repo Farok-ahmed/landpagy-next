@@ -6,7 +6,7 @@ import icon3 from "@/assets/images/home_10/icons/icon3.svg";
 import border from "@/assets/images/home_10/shapes/border.svg";
 import shape3 from "@/assets/images/home_10/shapes/shape3.svg";
 import shape4 from "@/assets/images/home_10/shapes/shape4.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 ;
 

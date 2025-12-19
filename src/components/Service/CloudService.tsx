@@ -1,6 +1,6 @@
 "use client";
 
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Link from "next/link";
 import CloudClient from "../Clients/CloudClient";
 

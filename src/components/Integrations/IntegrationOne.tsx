@@ -4,7 +4,7 @@ import logo3 from "@/assets/images/logo/logo-3.png";
 import logo4 from "@/assets/images/logo/logo-4.png";
 import logo5 from "@/assets/images/logo/logo-5.png";
 import logo from "@/assets/images/logo/logo.png";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 ;
 

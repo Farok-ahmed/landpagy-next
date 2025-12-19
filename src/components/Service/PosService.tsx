@@ -2,7 +2,7 @@
 import easyStartIcon1 from "@/assets/images/home_5/icons/easy-start-icon1.svg";
 import easyStartIcon2 from "@/assets/images/home_5/icons/easy-start-icon2.svg";
 import easyStartIcon3 from "@/assets/images/home_5/icons/easy-start-icon3.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
 

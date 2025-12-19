@@ -9,7 +9,7 @@ import userIcon1 from "@/assets/images/home_2/user-icon-1.png";
 import userIcon2 from "@/assets/images/home_2/user-icon-2.png";
 import userIcon3 from "@/assets/images/home_2/user-icon-3.png";
 
-export default function PriceOne({ hasShapes }) {
+export default function PriceOne({ hasShapes }: { hasShapes?: boolean }) {
   const refs = useGsapMultiple(6, [
     { animation: 'fadeInUp' },
     { animation: 'fadeInUp', delay: 0.2 },

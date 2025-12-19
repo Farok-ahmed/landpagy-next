@@ -8,6 +8,8 @@ import RelatedPost from "@/components/Blog/RelatedPost";
 import RecentPosts from "@/components/BlogGrid/RecentPosts";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function BlogDetails() {
@@ -50,37 +52,43 @@ export default function BlogDetails() {
 
                 <div className="social-link-widget mb-55">
                   <div className="social-item">
-                    <a href="/">
-                      <img
+                    <Link href="/">
+                      <Image
                         src="/images/blog/facebook-icon.svg"
                         alt="Facebook Icon"
                         className="social-icon"
+                        width={24}
+                        height={24}
                       />
                       <h6 className="item-number">815.5K</h6>
                       <p className="item-title">Fans</p>
-                    </a>
+                    </Link>
                   </div>
                   <div className="social-item">
-                    <a href="/">
-                      <img
+                    <Link href="/">
+                      <Image
                         src="/images/blog/twitter-icon.svg"
                         alt="Twitter Icon"
                         className="social-icon"
+                        width={24}
+                        height={24}
                       />
                       <h6 className="item-number">107.2K</h6>
                       <p className="item-title">Followers</p>
-                    </a>
+                    </Link>
                   </div>
                   <div className="social-item">
-                    <a href="/">
-                      <img
+                    <Link href="/">
+                      <Image
                         src="/images/blog/youtube-icon.svg"
                         alt="Youtube Icon"
                         className="social-icon"
+                        width={24}
+                        height={24}
                       />
                       <h6 className="item-number">90.6K</h6>
                       <p className="item-title">Subscribers</p>
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
@@ -88,39 +96,39 @@ export default function BlogDetails() {
                   <h4 className="widget-title">Categories</h4>
                   <ul className="list-unstyled categorie-list">
                     <li>
-                      <a href="/">
+                      <Link href="/">
                         Development Tips <span>(10)</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/">
+                      <Link href="/">
                         Product Update <span>(9)</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/">
+                      <Link href="/">
                         Case Study <span>(12)</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/">
+                      <Link href="/">
                         Creative <span>(07)</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/">
+                      <Link href="/">
                         Inspiration <span>(06)</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/">
+                      <Link href="/">
                         Landpagy <span>(11)</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/">
+                      <Link href="/">
                         Lifestyle <span>(05)</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -131,37 +139,37 @@ export default function BlogDetails() {
                   <h4 className="widget-title">Tags</h4>
                   <ul className="list-unstyled tag-list">
                     <li>
-                      <a href="/">WordPress</a>
+                      <Link href="/">WordPress</Link>
                     </li>
                     <li>
-                      <a href="/">web design</a>
+                      <Link href="/">web design</Link>
                     </li>
                     <li>
-                      <a href="/">ui/ux</a>
+                      <Link href="/">ui/ux</Link>
                     </li>
                     <li>
-                      <a href="/">saas</a>
+                      <Link href="/">saas</Link>
                     </li>
                     <li>
-                      <a href="/">software</a>
+                      <Link href="/">software</Link>
                     </li>
                     <li>
-                      <a href="/">creative</a>
+                      <Link href="/">creative</Link>
                     </li>
                     <li>
-                      <a href="/">product</a>
+                      <Link href="/">product</Link>
                     </li>
                     <li>
-                      <a href="/">development</a>
+                      <Link href="/">development</Link>
                     </li>
                     <li>
-                      <a href="/">design</a>
+                      <Link href="/">design</Link>
                     </li>
                     <li>
-                      <a href="/">sequrity</a>
+                      <Link href="/">sequrity</Link>
                     </li>
                     <li>
-                      <a href="/">agency</a>
+                      <Link href="/">agency</Link>
                     </li>
                   </ul>
                 </div>
@@ -169,24 +177,24 @@ export default function BlogDetails() {
                 <div className="instagram-widget">
                   <h4 className="widget-title">Instragram</h4>
                   <div className="instagram-items">
-                    <a href="/" className="instagram-item">
-                      <img src="/images/blog/insta1.png" alt="" />
-                    </a>
-                    <a href="/" className="instagram-item">
-                      <img src="/images/blog/insta2.png" alt="" />
-                    </a>
-                    <a href="/" className="instagram-item">
-                      <img src="/images/blog/insta3.png" alt="" />
-                    </a>
-                    <a href="/" className="instagram-item">
-                      <img src="/images/blog/insta4.png" alt="" />
-                    </a>
-                    <a href="/" className="instagram-item">
-                      <img src="/images/blog/insta5.png" alt="" />
-                    </a>
-                    <a href="/" className="instagram-item">
-                      <img src="/images/blog/insta6.png" alt="" />
-                    </a>
+                    <Link href="/" className="instagram-item">
+                      <Image src="/images/blog/insta1.png" alt="Instagram 1" width={100} height={100} />
+                    </Link>
+                    <Link href="/" className="instagram-item">
+                      <Image src="/images/blog/insta2.png" alt="Instagram 2" width={100} height={100} />
+                    </Link>
+                    <Link href="/" className="instagram-item">
+                      <Image src="/images/blog/insta3.png" alt="Instagram 3" width={100} height={100} />
+                    </Link>
+                    <Link href="/" className="instagram-item">
+                      <Image src="/images/blog/insta4.png" alt="Instagram 4" width={100} height={100} />
+                    </Link>
+                    <Link href="/" className="instagram-item">
+                      <Image src="/images/blog/insta5.png" alt="Instagram 5" width={100} height={100} />
+                    </Link>
+                    <Link href="/" className="instagram-item">
+                      <Image src="/images/blog/insta6.png" alt="Instagram 6" width={100} height={100} />
+                    </Link>
                   </div>
                 </div>
               </div>

@@ -4,7 +4,7 @@ import icon2 from "@/assets/images/home_7/icons/icon2.svg";
 import icon3 from "@/assets/images/home_7/icons/icon3.svg";
 import icon4 from "@/assets/images/home_7/icons/icon4.svg";
 import logoIcon from "@/assets/images/home_7/icons/logo-icon.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
 

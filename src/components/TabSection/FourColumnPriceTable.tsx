@@ -1,7 +1,8 @@
+import Image from "next/image";
 import Link from "next/link";
 
 
-export default function FourColumnPriceTable({ pricePageTwo }) {
+export default function FourColumnPriceTable({ pricePageTwo }: { pricePageTwo?: boolean }) {
   return (
     <section
      className={`pricing-area section-padding ${
@@ -202,10 +203,12 @@ export default function FourColumnPriceTable({ pricePageTwo }) {
                 </div>
               </div>
             </div>
-            <img
-              src="assets/images/most.png"
+            <Image
+              src="/assets/images/most.png"
               alt="Decorative image"
-             className="popular d-none d-lg-block"
+              className="popular d-none d-lg-block"
+              width={100}
+              height={50}
             />
           </div>
           <div

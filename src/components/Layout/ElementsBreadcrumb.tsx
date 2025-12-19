@@ -3,7 +3,7 @@ import aboutShape from "@/assets/images/about_2/shape/about-shape.png";
 import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
-export default function ElementsBreadcrumb({ title, description, wider }) {
+export default function ElementsBreadcrumb({ title, description, wider }: { title: string; description?: string; wider?: boolean }) {
   const refs = useGsapMultiple(4, [
     { animation: 'fadeInUp', delay: 0.1 },
     { animation: 'fadeInUp', delay: 0.3 },

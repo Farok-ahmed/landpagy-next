@@ -4,7 +4,7 @@ import featuresObject6 from "@/assets/images/features/features-object-6.svg";
 import featuresObject7 from "@/assets/images/features/features-object-7.svg";
 import featuresObject8 from "@/assets/images/features/features-object-8.svg";
 import featuresObject9 from "@/assets/images/features/features-object-9.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import { useParallax } from "react-scroll-parallax";
 ;

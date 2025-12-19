@@ -1,6 +1,6 @@
 "use client";
 import shape8 from "@/assets/images/shape/shape-8.svg";
-import useGsapReveal from "@/hooks/useGsapReveal";
+import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 ;
 

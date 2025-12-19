@@ -118,12 +118,14 @@ export default function AppHowItWorks() {
                   </div>
                 </div>
                 {slides.map((slide) => (
-                  <img
+                  <Image
                     key={slide.id}
                     id={`slideshow_img${slide.id}`}
                    className={activeSlide === slide.id ? "" : "scroll_disable"}
                     src={slide.imgSrc}
                     alt={`Slide ${slide.id}`}
+                    width={300}
+                    height={600}
                   />
                 ))}
               </div>
