@@ -9,13 +9,13 @@ import feaIcon3 from "@/assets/images/home_4/fea-icon3.svg";
 import feaIcon4 from "@/assets/images/home_4/fea-icon4.svg";
 import feaIcon5 from "@/assets/images/home_4/fea-icon5.svg";
 import feaIcon6 from "@/assets/images/home_4/fea-icon6.svg";
-;
+
 
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FeatureHRM() {
-  const featureRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
+  const _featureRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const _featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="features-area-9 pt-125 pb-60">
       <div className="bg-shapes">

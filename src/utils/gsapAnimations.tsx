@@ -179,7 +179,7 @@ export const wowToGsap = (wowClass, speedClass = null, delay = 0) => {
   };
 };
 
-export default {
+const gsapAnimations = {
   ANIMATION_SPEEDS,
   ANIMATION_DELAYS,
   TRIGGER_POSITIONS,
@@ -189,3 +189,6 @@ export default {
   createMixedSequence,
   wowToGsap,
 };
+
+export default gsapAnimations;
+

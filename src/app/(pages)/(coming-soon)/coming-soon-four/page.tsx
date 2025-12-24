@@ -15,7 +15,6 @@ import shape20 from "@/assets/images/comming_soon/shape20.svg";
 import star from "@/assets/images/comming_soon/star.svg";
 import logoBlack from "@/assets/images/logo-black.svg";
 import bg3 from "@/assets/images/comming_soon/bg3.svg";
-;
 
 export default function ComingSoonFour() {
   return (

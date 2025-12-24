@@ -1,5 +1,4 @@
 import Link from "next/link";
-;
 
 export default function FaqsSecondary() {
   return (
@@ -11,8 +10,8 @@ export default function FaqsSecondary() {
               <h3>FAQ topics</h3>
               <ul className="nav nav-tabs" id="myTab" role="tablist">
                 <li className="nav-item" role="presentation">
-                  <a
-                   className="nav-link active"
+                  <Link
+                    className="nav-link active"
                     id="home-tab"
                     data-bs-toggle="tab"
                     href="#home"
@@ -21,11 +20,11 @@ export default function FaqsSecondary() {
                     aria-selected="true"
                   >
                     License
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item" role="presentation">
-                  <a
-                   className="nav-link"
+                  <Link
+                    className="nav-link"
                     id="profile-tab"
                     data-bs-toggle="tab"
                     href="#profile"
@@ -34,11 +33,11 @@ export default function FaqsSecondary() {
                     aria-selected="false"
                   >
                     Using Landpagy
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item" role="presentation">
-                  <a
-                   className="nav-link"
+                  <Link
+                    className="nav-link"
                     id="return-tab"
                     data-bs-toggle="tab"
                     href="#return"
@@ -47,11 +46,11 @@ export default function FaqsSecondary() {
                     aria-selected="false"
                   >
                     Returns
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item" role="presentation">
-                  <a
-                   className="nav-link"
+                  <Link
+                    className="nav-link"
                     id="contact-tab"
                     data-bs-toggle="tab"
                     href="#contact"
@@ -60,11 +59,11 @@ export default function FaqsSecondary() {
                     aria-selected="false"
                   >
                     Pricing & Support
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item" role="presentation">
-                  <a
-                   className="nav-link"
+                  <Link
+                    className="nav-link"
                     id="online-tab"
                     data-bs-toggle="tab"
                     href="#online"
@@ -73,11 +72,11 @@ export default function FaqsSecondary() {
                     aria-selected="false"
                   >
                     Purchasing Online
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item" role="presentation">
-                  <a
-                   className="nav-link"
+                  <Link
+                    className="nav-link"
                     id="technical-tab"
                     data-bs-toggle="tab"
                     href="#technical"
@@ -86,11 +85,11 @@ export default function FaqsSecondary() {
                     aria-selected="false"
                   >
                     Technical
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item" role="presentation">
-                  <a
-                   className="nav-link"
+                  <Link
+                    className="nav-link"
                     id="errors-tab"
                     data-bs-toggle="tab"
                     href="#errors"
@@ -99,7 +98,7 @@ export default function FaqsSecondary() {
                     aria-selected="false"
                   >
                     Errors
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -107,7 +106,7 @@ export default function FaqsSecondary() {
           <div className="col-lg-8">
             <div className="tab-content question_list" id="myTabContent">
               <div
-               className="tab-pane fade show active"
+                className="tab-pane fade show active"
                 id="home"
                 role="tabpanel"
                 aria-labelledby="home-tab"
@@ -173,7 +172,7 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-               className="tab-pane fade"
+                className="tab-pane fade"
                 id="profile"
                 role="tabpanel"
                 aria-labelledby="profile-tab"
@@ -239,7 +238,7 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-               className="tab-pane fade"
+                className="tab-pane fade"
                 id="contact"
                 role="tabpanel"
                 aria-labelledby="contact-tab"
@@ -305,7 +304,7 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-               className="tab-pane fade"
+                className="tab-pane fade"
                 id="return"
                 role="tabpanel"
                 aria-labelledby="return-tab"
@@ -371,7 +370,7 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-               className="tab-pane fade"
+                className="tab-pane fade"
                 id="online"
                 role="tabpanel"
                 aria-labelledby="online-tab"
@@ -437,7 +436,7 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-               className="tab-pane fade"
+                className="tab-pane fade"
                 id="technical"
                 role="tabpanel"
                 aria-labelledby="technical-tab"
@@ -503,7 +502,7 @@ export default function FaqsSecondary() {
                 </div>
               </div>
               <div
-               className="tab-pane fade"
+                className="tab-pane fade"
                 id="errors"
                 role="tabpanel"
                 aria-labelledby="errors-tab"

@@ -7,13 +7,13 @@ import Image from "next/image";
 import aboutShape from "@/assets/images/about_2/shape/about-shape.png";
 import aboutVideo from "@/assets/images/about_2/about-video.png";
 export default function AboutTwoHero() {
-  const titleRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.2 });
-  const paraRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.3 });
+  const titleRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.2 }) as React.RefObject<HTMLHeadingElement>;
+  const paraRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0.3 }) as React.RefObject<HTMLParagraphElement>;
   const buttonRefs = useGsapMultiple(2, [
     { animation: 'fadeInLeft', delay: 0.4 },
     { animation: 'fadeInLeft', delay: 0.4 },
-  ]);
-  const bannerRightRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.2 });
+  ]) as React.RefObject<HTMLAnchorElement>[];
+  const bannerRightRef = useGsapReveal({ animation: 'fadeInRight', delay: 0.2 }) as React.RefObject<HTMLDivElement>;
   useEffect(() => {
     // eslint-disable-next-line
     let lightbox = GLightbox({

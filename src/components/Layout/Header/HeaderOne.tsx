@@ -8,9 +8,12 @@ import {
     jobLinks,
     pagesLinks,
 } from "../../../utils/data";
-;
 
-export default function HeaderOne({ pricingTwoMenu }: { pricingTwoMenu?: boolean }) {
+interface HeaderOneProps {
+  pricingTwoMenu?: boolean;
+}
+
+export default function HeaderOne({ pricingTwoMenu }: HeaderOneProps) {
   return (
     <header className="header-area">
       <nav

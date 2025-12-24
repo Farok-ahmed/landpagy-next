@@ -77,12 +77,12 @@ export default function TestimonialHRM() {
               <Image src={customerVideo} className="customer-img"
                 
                 alt="Decorative image" />
-              <a
+              <Link
                className="play-btn"
                 href="https://www.youtube.com/watch?v=8Q1OPYfTJ1c"
               >
                 <i className="fas fa-play"></i>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-md-6">

@@ -3,6 +3,7 @@ import map from "@/assets/images/footer/map.png";
 import logo from "@/assets/images/logo.svg";
 import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function FooterTwo() {
   const refs = useGsapMultiple(5, [
@@ -25,24 +26,24 @@ export default function FooterTwo() {
                 <p>The Most Trusted Online Course Platform for WordPress.</p>
                 <ul className="social-link-bg-2 mt-30">
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-linkedin-in"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-instagram"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -57,16 +58,16 @@ export default function FooterTwo() {
                     <h4>Features</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                     </ul>
                   </div>
@@ -79,19 +80,19 @@ export default function FooterTwo() {
                     <h4>Support</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                     </ul>
                   </div>
@@ -126,13 +127,13 @@ export default function FooterTwo() {
               <div className="footer-bottom-menu">
                 <ul className="justify-content-lg-end">
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link href="#">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link href="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Legal Notice</a>
+                    <Link href="#">Legal Notice</Link>
                   </li>
                 </ul>
               </div>

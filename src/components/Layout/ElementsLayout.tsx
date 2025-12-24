@@ -2,7 +2,11 @@
 import ServiceFooter from "./Footer/ServiceFooter";
 import HeaderOne from "./Header/HeaderOne";
 
-export default function ElementsLayout({ children }: { children: React.ReactNode }) {
+interface ElementsLayoutProps {
+  children: React.ReactNode;
+}
+
+export default function ElementsLayout({ children }: ElementsLayoutProps) {
   return (
     <>
       <HeaderOne />

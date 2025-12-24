@@ -4,7 +4,7 @@ import shape16 from "@/assets/images/home_9/shapes/shape16.svg";
 import shape17 from "@/assets/images/home_9/shapes/shape17.svg";
 import arrowForward from "@/assets/images/home_9/shapes/arrow-forward.svg";
 import logo from "@/assets/images/logo.svg";
-;
+
 
 export default function CloudFooter() {
   return (
@@ -74,10 +74,10 @@ export default function CloudFooter() {
                         <Link href="/contact-two">Cookies</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy & terms</a>
+                        <Link href="#">Privacy & terms</Link>
                       </li>
                       <li>
-                        <a href="#">Sitemap</a>
+                        <Link href="#">Sitemap</Link>
                       </li>
                     </ul>
                   </div>
@@ -87,13 +87,13 @@ export default function CloudFooter() {
                     <h4 className="widget-title">Download</h4>
                     <ul className="widget-link-list">
                       <li>
-                        <a href="#">Drive for Mac/PC</a>
+                        <Link href="#">Drive for Mac/PC</Link>
                       </li>
                       <li>
-                        <a href="#">Drive for Android</a>
+                        <Link href="#">Drive for Android</Link>
                       </li>
                       <li>
-                        <a href="#">Drive for iOS</a>
+                        <Link href="#">Drive for iOS</Link>
                       </li>
                     </ul>
                   </div>
@@ -114,19 +114,19 @@ export default function CloudFooter() {
                 <p className="mb-40">We promise to never spam your inbox.</p>
                 <ul className="widget-social-list">
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-google"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

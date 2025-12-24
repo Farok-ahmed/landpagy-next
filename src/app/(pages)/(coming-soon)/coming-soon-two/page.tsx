@@ -6,7 +6,6 @@ import shape3 from "@/assets/images/comming_soon/shape3.svg";
 import shape4 from "@/assets/images/comming_soon/shape4.svg";
 import shape5 from "@/assets/images/comming_soon/shape5.svg";
 import logo5 from "@/assets/images/logo-5.svg";
-;
 
 export default function ComingSoonTwo() {
   return (

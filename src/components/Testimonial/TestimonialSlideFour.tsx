@@ -9,12 +9,12 @@ import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import Slider from "react-slick";
 
-const SlickBtnPrev = ({ currentSlide, slideCount, children, ...props }) => (
+const SlickBtnPrev = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }) => (
   <button className="slick-prev" {...props}>
     {children}
   </button>
 );
-const SlickBtnNext = ({ currentSlide, slideCount, children, ...props }) => (
+const SlickBtnNext = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }) => (
   <button className="slick-next" {...props}>
     {children}
   </button>

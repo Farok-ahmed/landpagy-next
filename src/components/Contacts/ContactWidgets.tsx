@@ -1,10 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import icon9 from "@/assets/images/icon/icon-9.svg";
 import icon10 from "@/assets/images/icon/icon-10.svg";
 import icon11 from "@/assets/images/icon/icon-11.svg";
-;
 
 export default function ContactWidgets() {
   return (
@@ -21,7 +19,7 @@ export default function ContactWidgets() {
             <div className="contact-info">
               <Image src={icon10} alt="Decorative image" />
               <h4>
-                <a href="tel:+0123-4567 89">+0123-4567 89</a>
+                  <Link href="tel:+0123-4567 89">+0123-4567 89</Link>
               </h4>
             </div>
           </div>
@@ -29,7 +27,7 @@ export default function ContactWidgets() {
             <div className="contact-info">
               <Image src={icon11} alt="Decorative image" />
               <h4>
-                <a href="mailto:landpagy@email.com">landpagy@email.com</a>
+                <Link href="mailto:landpagy@email.com">landpagy@email.com</Link>
               </h4>
             </div>
           </div>

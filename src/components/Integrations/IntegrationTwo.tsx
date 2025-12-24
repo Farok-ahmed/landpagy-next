@@ -1,7 +1,4 @@
 "use client";
-import Link from "next/link";
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
 import appIntegrate1 from "@/assets/images/home_3/app-integrate-1.png";
 import appIntegrate2 from "@/assets/images/home_3/app-integrate-2.png";
 import appIntegrate3 from "@/assets/images/home_3/app-integrate-3.png";
@@ -11,9 +8,12 @@ import appIntegrate6 from "@/assets/images/home_3/app-integrate-6.png";
 import appIntegrate7 from "@/assets/images/home_3/app-integrate-7.png";
 import appIntegrate8 from "@/assets/images/home_3/app-integrate-8.png";
 import appIntegrate9 from "@/assets/images/home_3/app-integrate-9.png";
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export default function IntegrationTwo() {
-  const [timeCount, setTimeCount] = useState(0);
+  const [timeCount, setTimeCount] = useState<number>(0);
 
   useEffect(() => {
     const interval = setInterval(() => {

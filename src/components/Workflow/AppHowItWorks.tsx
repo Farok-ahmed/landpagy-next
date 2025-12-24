@@ -1,15 +1,15 @@
 "use client";
-import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
-import Image from "next/image";
-import right from "@/assets/images/home_10/shapes/right.svg";
+import feturesImg from "@/assets/images/home_10/fetures-img.png";
 import border from "@/assets/images/home_10/shapes/border.svg";
+import right from "@/assets/images/home_10/shapes/right.svg";
 import shape5 from "@/assets/images/home_10/shapes/shape5.svg";
 import shape6 from "@/assets/images/home_10/shapes/shape6.svg";
 import shape7 from "@/assets/images/home_10/shapes/shape7.svg";
 import worksImg from "@/assets/images/home_10/works-img.png";
-import feturesImg from "@/assets/images/home_10/fetures-img.png";
+import Image from "next/image";
 const slides = [
   {
     id: 1,
@@ -45,7 +45,7 @@ const slides = [
 ];
 
 export default function AppHowItWorks() {
-  const [activeSlide, setActiveSlide] = useState(1);
+  const [activeSlide, setActiveSlide] = useState<number>(1);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -121,11 +121,11 @@ export default function AppHowItWorks() {
                   <Image
                     key={slide.id}
                     id={`slideshow_img${slide.id}`}
-                   className={activeSlide === slide.id ? "" : "scroll_disable"}
+                    className={activeSlide === slide.id ? "" : "scroll_disable"}
                     src={slide.imgSrc}
                     alt={`Slide ${slide.id}`}
-                    width={300}
-                    height={600}
+                    width={500}
+                    height={500}
                   />
                 ))}
               </div>

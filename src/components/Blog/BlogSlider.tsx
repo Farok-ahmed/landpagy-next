@@ -6,10 +6,10 @@ import border from "@/assets/images/home_10/shapes/border.svg";
 import upRight from "@/assets/images/home_10/shapes/up-right.svg";
 ;
 import Slider from "react-slick";
-const SlickBtnPrev = ({ currentSlide, slideCount, children, ...props }) => (
+const SlickBtnPrev = ({ children, ...props }) => (
   <button {...props}>{children}</button>
 );
-const SlickBtnNext = ({ currentSlide, slideCount, children, ...props }) => (
+const SlickBtnNext = ({ children, ...props }) => (
   <button {...props}>{children}</button>
 );
 

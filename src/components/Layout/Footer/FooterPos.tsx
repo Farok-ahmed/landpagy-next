@@ -176,13 +176,13 @@ export default function FooterPos() {
               <div className="footer-bottom-menu">
                 <ul className="">
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link href="#">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link href="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Legal Notice</a>
+                    <Link href="#">Legal Notice</Link>
                   </li>
                 </ul>
               </div>
@@ -190,24 +190,24 @@ export default function FooterPos() {
             <div className="col-lg-3">
               <ul className="social-link-bg-2">
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

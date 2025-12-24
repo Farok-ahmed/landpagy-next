@@ -11,8 +11,8 @@ import icon4 from "@/assets/images/recruitment-proccess/icon-4.svg";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function RecruitmentProcess() {
-  const procRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const procRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
+  const _procRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const _procRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="recruitment-procces bg_disable pt-120 pb-100">
       <div className="container blog-grid-container">

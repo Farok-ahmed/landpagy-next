@@ -201,11 +201,11 @@ export default function VerticalProcess() {
                 <Image src={feature7} alt="Features "
                  className="shape" />
                 <Image
-                 className="shape object-element layer"
+                  className="shape object-element layer"
                   src="/images/features/features-object-10.svg"
-                  alt="Features "
-                  width={100}
-                  height={100}
+                  alt="Features"
+                  width={200}
+                  height={200}
                   ref={shape1Parallax.ref}
                 />
                 <Image src={featuresObject2} className="shape"

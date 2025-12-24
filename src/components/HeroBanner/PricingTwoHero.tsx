@@ -1,10 +1,10 @@
 "use client";
-import React, { useState } from "react";
 import Link from "next/link";
+import { useState } from "react";
 
 
 export default function PricingTwoHero() {
-  const [activeTab, setActiveTab] = useState("monthly");
+  const [activeTab, setActiveTab] = useState<string>("monthly");
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);

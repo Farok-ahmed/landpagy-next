@@ -30,28 +30,28 @@ export default function HeroBilling() {
   const shape1Parallax = useParallax({
     translateX: [-20, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
-    rotateY: 0,
+    rotateY: [0, 0],
     speed: -10,
   });
 
   const shape2Parallax = useParallax({
     translateX: [-30, 0, "easeInQuad"],
     translateY: [0, 0],
-    rotateY: 0,
+    rotateY: [0, 0],
     speed: -10,
   });
 
   const shape3Parallax = useParallax({
     translateX: [30, 0, "easeInQuad"],
     translateY: [0, 0],
-    rotateY: 0,
+    rotateY: [0, 0],
     speed: -10,
   });
 
   const shape4Parallax = useParallax({
     translateX: [20, 0, "easeInQuad"],
     translateY: [0, 0],
-    rotateY: 0,
+    rotateY: [0, 0],
     speed: -10,
   });
   return (

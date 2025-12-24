@@ -1,7 +1,18 @@
 import React, { useEffect, useState } from "react";
 
-export default function Timer({ endTime }: { endTime: string }) {
-  const [timeLeft, setTimeLeft] = useState({
+interface TimerProps {
+  endTime: string | Date;
+}
+
+interface TimeLeft {
+  days: string | number;
+  hours: string | number;
+  minutes: string | number;
+  seconds: string | number;
+}
+
+export default function Timer({ endTime }: TimerProps) {
+  const [timeLeft, setTimeLeft] = useState<TimeLeft>({
     days: "00",
     hours: "00",
     minutes: "00",

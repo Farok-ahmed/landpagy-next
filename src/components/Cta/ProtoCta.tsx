@@ -12,13 +12,13 @@ export default function ProtoCta() {
   const shape1Parallax = useParallax({
     translateX: [-10, 0],
     translateY: [0, 0],
-    rotateY: 0,
+    rotateY: [0, 0],
   });
 
   const shape2Parallax = useParallax({
     translateX: [10, 0],
     translateY: [0, 0],
-    rotateY: 0,
+    rotateY: [0, 0],
   });
   return (
     <section className="cta-area-7 pt-80 pb-80">

@@ -2,13 +2,13 @@
 import Image from "next/image";
 import bannerShape4 from "@/assets/images/home_2/banner-shape-4.svg";
 import bannerShape5 from "@/assets/images/home_2/banner-shape-5.svg";
-;
+
 
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FaqTwo() {
-  const faqRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
+  const _faqRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const _faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="faq-area-two">
       <div className="bg-shapes">

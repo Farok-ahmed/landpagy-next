@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const jobs = [
   {
@@ -107,16 +107,16 @@ const jobs = [
   },
 ];
 export default function Administration() {
-  const [openJobs, setOpenJobs] = useState({}); // State to handle open status for each job
-  const [tooltipText, setTooltipText] = useState({});
+  const [openJobs, setOpenJobs] = useState<Record<string, boolean>>({}); // State to handle open status for each job
+  const [tooltipText, setTooltipText] = useState<Record<string, string>>({});
 
-  const toggleDetails = (id) => {
+  const toggleDetails = (id: string) => {
     setOpenJobs((prev) => ({
       ...prev,
       [id]: !prev[id], // Toggle the value for the specific job id
     }));
   };
-  const copyToClipboard = (id, link) => {
+  const copyToClipboard = (id: string, link: string) => {
     navigator.clipboard.writeText(link).then(
       () => {
         // Change tooltip text to "Copied!" on success

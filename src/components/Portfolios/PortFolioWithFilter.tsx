@@ -22,8 +22,8 @@ export default function PortFolioWithFilter() {
     { animation: 'fadeInUp', delay: 0.2 },
   ]);
 
-  const isotope = useRef();
-  const [filterKey, setFilterKey] = useState("*");
+  const isotope = useRef<Isotope | null>(null);
+  const [filterKey, setFilterKey] = useState<string>("*");
 
   useEffect(() => {
     isotope.current = new Isotope(".software-list", {

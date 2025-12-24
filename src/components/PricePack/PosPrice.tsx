@@ -2,7 +2,11 @@
 import { useGsapMultiple } from "@/hooks/useGsapReveal";
 import Link from "next/link";
 
-export default function PosPrice({ hasBG }: { hasBG?: boolean }) {
+interface PosPriceProps {
+  hasBG?: boolean;
+}
+
+export default function PosPrice({ hasBG }: PosPriceProps) {
   const refs = useGsapMultiple(6, [
     { animation: 'fadeInUp' },
     { animation: 'fadeInUp', delay: 0.2 },

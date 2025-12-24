@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FeatureJobs() {
-  const jobRef = useGsapReveal({ animation: "fadeInLeft" });
+  const _jobRef = useGsapReveal({ animation: "fadeInLeft" });
   return (
     <section className="feature-jobs bg_white pt-125 pb-140">
       <div className="container blog-grid-container">

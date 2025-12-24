@@ -13,19 +13,19 @@ export default function FooterThree() {
   const kiteParallax = useParallax({
     translateX: [0, 100, "easeInQuad"],
     translateY: [0, -100, "easeInQuad"],
-    rotateY: 0,
+    rotateY: [0, 0],
   });
 
   const womenParallax = useParallax({
     translateX: [0, 100, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
-    rotateY: 0,
+    rotateY: [0, 0],
   });
 
   const leafParallax = useParallax({
     translateX: [0, 100, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
-    rotateY: 0,
+    rotateY: [0, 0],
   });
   return (
     <footer className="bg-black footer-software-2 footer-common">
@@ -84,19 +84,19 @@ export default function FooterThree() {
                     <h4>Useful inks</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                     </ul>
                   </div>
@@ -109,16 +109,16 @@ export default function FooterThree() {
                     <h4>Products</h4>
                     <ul>
                       <li>
-                        <a href="#">Scheduling</a>
+                        <Link href="#">Scheduling</Link>
                       </li>
                       <li>
-                        <a href="#">Employee</a>
+                        <Link href="#">Employee</Link>
                       </li>
                       <li>
-                        <a href="#">Team Messaging</a>
+                        <Link href="#">Team Messaging</Link>
                       </li>
                       <li>
-                        <a href="#">Digital Timesheets</a>
+                        <Link href="#">Digital Timesheets</Link>
                       </li>
                     </ul>
                   </div>
@@ -173,13 +173,13 @@ export default function FooterThree() {
               <div className="footer-bottom-menu">
                 <ul className="">
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link href="#">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link href="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Legal Notice</a>
+                    <Link href="#">Legal Notice</Link>
                   </li>
                 </ul>
               </div>
@@ -187,24 +187,24 @@ export default function FooterThree() {
             <div className="col-lg-3">
               <ul className="social-link-bg-2">
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

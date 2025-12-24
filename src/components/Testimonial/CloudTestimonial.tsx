@@ -1,12 +1,12 @@
 "use client";
-import React, { useState, useEffect, useCallback, useMemo } from "react";
 import Link from "next/link";
+import { useCallback, useEffect, useMemo, useState } from "react";
 
-import Image from "next/image";
 import right from "@/assets/images/home_9/shapes/right.svg";
+import Image from "next/image";
 
 export default function CloudTestimonial() {
-  const [activeTab, setActiveTab] = useState("user1");
+  const [activeTab, setActiveTab] = useState<string>("user1");
   const users = useMemo(
     () => [
       {

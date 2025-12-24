@@ -6,7 +6,7 @@ import feaShape1 from "@/assets/images/home_6/fea-shape1.svg";
 import feaShape2 from "@/assets/images/home_6/fea-shape2.svg";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
-
+import Link from "next/link";
 
 const ProtoFeatureTab = () => {
   const headingRef = useGsapReveal({ animation: 'fadeInUp' });
@@ -33,7 +33,7 @@ const ProtoFeatureTab = () => {
              className="features-list nav-tabs nav automated-tab2"
               role="tablist"
             >
-              <a
+              <Link
                 href="/"
                className="nav-link active"
                 aria-selected="true"
@@ -43,8 +43,8 @@ const ProtoFeatureTab = () => {
                
               >
                 <span className="circle"></span> Ideations
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/"
                className="nav-link"
                 aria-selected="false"
@@ -54,8 +54,8 @@ const ProtoFeatureTab = () => {
                
               >
                 <span className="circle"></span> Import & Export
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/"
                className="nav-link"
                 aria-selected="false"
@@ -65,8 +65,8 @@ const ProtoFeatureTab = () => {
                
               >
                 <span className="circle"></span> Visualize fast
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/"
                className="nav-link"
                 aria-selected="false"
@@ -76,7 +76,7 @@ const ProtoFeatureTab = () => {
                
               >
                 <span className="circle"></span> User Testing
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-lg-7 ps-lg-0">

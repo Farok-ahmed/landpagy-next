@@ -8,8 +8,8 @@ import RelatedPost from "@/components/Blog/RelatedPost";
 import RecentPosts from "@/components/BlogGrid/RecentPosts";
 import FooterOne from "@/components/Layout/Footer/FooterOne";
 import HeaderOne from "@/components/Layout/Header/HeaderOne";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import React from "react";
 
 export default function BlogDetails() {
@@ -57,8 +57,8 @@ export default function BlogDetails() {
                         src="/images/blog/facebook-icon.svg"
                         alt="Facebook Icon"
                         className="social-icon"
-                        width={24}
-                        height={24}
+                        width={32}
+                        height={32}
                       />
                       <h6 className="item-number">815.5K</h6>
                       <p className="item-title">Fans</p>
@@ -70,8 +70,8 @@ export default function BlogDetails() {
                         src="/images/blog/twitter-icon.svg"
                         alt="Twitter Icon"
                         className="social-icon"
-                        width={24}
-                        height={24}
+                        width={32}
+                        height={32}
                       />
                       <h6 className="item-number">107.2K</h6>
                       <p className="item-title">Followers</p>
@@ -83,8 +83,8 @@ export default function BlogDetails() {
                         src="/images/blog/youtube-icon.svg"
                         alt="Youtube Icon"
                         className="social-icon"
-                        width={24}
-                        height={24}
+                        width={32}
+                        height={32}
                       />
                       <h6 className="item-number">90.6K</h6>
                       <p className="item-title">Subscribers</p>
@@ -178,22 +178,22 @@ export default function BlogDetails() {
                   <h4 className="widget-title">Instragram</h4>
                   <div className="instagram-items">
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta1.png" alt="Instagram 1" width={100} height={100} />
+                      <Image src="/images/blog/insta1.png" alt="" width={80} height={80} />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta2.png" alt="Instagram 2" width={100} height={100} />
+                      <Image src="/images/blog/insta2.png" alt="" width={80} height={80} />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta3.png" alt="Instagram 3" width={100} height={100} />
+                      <Image src="/images/blog/insta3.png" alt="" width={80} height={80} />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta4.png" alt="Instagram 4" width={100} height={100} />
+                      <Image src="/images/blog/insta4.png" alt="" width={80} height={80} />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta5.png" alt="Instagram 5" width={100} height={100} />
+                      <Image src="/images/blog/insta5.png" alt="" width={80} height={80} />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta6.png" alt="Instagram 6" width={100} height={100} />
+                      <Image src="/images/blog/insta6.png" alt="" width={80} height={80} />
                     </Link>
                   </div>
                 </div>

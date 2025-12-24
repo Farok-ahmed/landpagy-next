@@ -8,8 +8,19 @@ if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
 }
 
-interface GsapRevealOptions {
-  animation?: string;
+type AnimationType = 
+  | 'fadeIn' 
+  | 'fadeInUp' 
+  | 'fadeInDown' 
+  | 'fadeInLeft' 
+  | 'fadeInRight'
+  | 'fadeInUpBig'
+  | 'fadeInDownBig'
+  | 'fadeInLeftBig'
+  | 'fadeInRightBig';
+
+interface UseGsapRevealOptions {
+  animation?: AnimationType;
   delay?: number;
   duration?: number;
   trigger?: string;
@@ -42,8 +53,8 @@ export const useGsapReveal = ({
   trigger = "top 80%",
   once = true,
   stagger = 0,
-}: GsapRevealOptions = {}) => {
-  const ref = useRef<HTMLElement>(null);
+}: UseGsapRevealOptions = {}) => {
+  const ref = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     // Only run on client side
@@ -123,55 +134,82 @@ export const useGsapReveal = ({
  * @param {Array} configs - Array of animation configurations
  * @returns {Array} - Array of refs for each animation
  */
-export const useMultipleGsapReveals = (configs: GsapRevealOptions[]) => {
-  // Create refs for all possible configurations (max 20)
-  const ref0 = useGsapReveal(configs[0] || {});
-  const ref1 = useGsapReveal(configs[1] || {});
-  const ref2 = useGsapReveal(configs[2] || {});
-  const ref3 = useGsapReveal(configs[3] || {});
-  const ref4 = useGsapReveal(configs[4] || {});
-  const ref5 = useGsapReveal(configs[5] || {});
-  const ref6 = useGsapReveal(configs[6] || {});
-  const ref7 = useGsapReveal(configs[7] || {});
-  const ref8 = useGsapReveal(configs[8] || {});
-  const ref9 = useGsapReveal(configs[9] || {});
-  const ref10 = useGsapReveal(configs[10] || {});
-  const ref11 = useGsapReveal(configs[11] || {});
-  const ref12 = useGsapReveal(configs[12] || {});
-  const ref13 = useGsapReveal(configs[13] || {});
-  const ref14 = useGsapReveal(configs[14] || {});
-  const ref15 = useGsapReveal(configs[15] || {});
-  const ref16 = useGsapReveal(configs[16] || {});
-  const ref17 = useGsapReveal(configs[17] || {});
-  const ref18 = useGsapReveal(configs[18] || {});
-  const ref19 = useGsapReveal(configs[19] || {});
-  
-  const allRefs = [ref0, ref1, ref2, ref3, ref4, ref5, ref6, ref7, ref8, ref9,
-                   ref10, ref11, ref12, ref13, ref14, ref15, ref16, ref17, ref18, ref19];
-  
-  return allRefs.slice(0, configs.length);
+export const useMultipleGsapReveals = (configs: UseGsapRevealOptions[]) => {
+  // Create all refs upfront - hooks must be called unconditionally
+  const refsArray: React.RefObject<HTMLElement>[] = [];
+  for (let i = 0; i < configs.length; i++) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    refsArray.push(useRef<HTMLElement>(null));
+  }
+
+  useEffect(() => {
+    // Define animation variants
+    const animations = {
+      fadeIn: {
+        from: { opacity: 0 },
+        to: { opacity: 1 },
+      },
+      fadeInUp: {
+        from: { opacity: 0, y: 60 },
+        to: { opacity: 1, y: 0 },
+      },
+      fadeInDown: {
+        from: { opacity: 0, y: -60 },
+        to: { opacity: 1, y: 0 },
+      },
+      fadeInLeft: {
+        from: { opacity: 0, x: -60 },
+        to: { opacity: 1, x: 0 },
+      },
+      fadeInRight: {
+        from: { opacity: 0, x: 60 },
+        to: { opacity: 1, x: 0 },
+      },
+    };
+
+    refsArray.forEach((ref, index) => {
+      if (ref.current) {
+        const config = configs[index] || {};
+        const animation = config.animation || 'fadeInUp';
+        const delay = config.delay || 0;
+        const duration = config.duration || 0.8;
+        const animationConfig = animations[animation] || animations.fadeInUp;
+
+        gsap.fromTo(
+          ref.current,
+          animationConfig.from,
+          {
+            ...animationConfig.to,
+            duration,
+            delay,
+            scrollTrigger: {
+              trigger: ref.current,
+              start: 'top 80%',
+              toggleActions: 'play none none none',
+            },
+          }
+        );
+      }
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  return refsArray;
 };
 
 // Backwards-compatible alias used during WOW.js to GSAP migration batches
-export const useGsapMultiple = (countOrConfigs: number | GsapRevealOptions[], maybeConfigs?: GsapRevealOptions[]) => {
-  // Determine configs array
-  let configs: GsapRevealOptions[];
-  if (Array.isArray(countOrConfigs)) {
-    configs = countOrConfigs;
-  } else if (Array.isArray(maybeConfigs)) {
-    configs = maybeConfigs;
-  } else {
-    const total = typeof countOrConfigs === "number" ? countOrConfigs : 0;
-    configs = Array.from({ length: total }, () => ({}));
-  }
-  
-  // Pad to 20 elements for consistent hook calls
-  const paddedConfigs = [...configs];
-  while (paddedConfigs.length < 20) {
-    paddedConfigs.push({});
-  }
-  
-  return useMultipleGsapReveals(paddedConfigs).slice(0, configs.length);
+export const useGsapMultiple = (
+  countOrConfigs: number | UseGsapRevealOptions[], 
+  maybeConfigs?: UseGsapRevealOptions[]
+) => {
+  // Determine the final configs array before calling hook
+  const finalConfigs: UseGsapRevealOptions[] = Array.isArray(countOrConfigs)
+    ? countOrConfigs
+    : Array.isArray(maybeConfigs)
+    ? maybeConfigs
+    : Array.from({ length: countOrConfigs }, () => ({}));
+
+  return useMultipleGsapReveals(finalConfigs);
 };
 
 /**
@@ -184,7 +222,7 @@ export const useGsapMultiple = (countOrConfigs: number | GsapRevealOptions[], ma
  * const sectionRef = useGsapSection({ animation: 'fadeInUp' });
  * return <section ref={sectionRef}>...</section>
  */
-export const useGsapSection = (options: GsapRevealOptions = {}) => {
+export const useGsapSection = (options: UseGsapRevealOptions = {}) => {
   return useGsapReveal({
     animation: options.animation || "fadeInUp",
     delay: options.delay || 0,

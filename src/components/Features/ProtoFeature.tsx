@@ -11,7 +11,7 @@ import feaIcon6 from "@/assets/images/home_6/fea-icon6.svg";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function ProtoFeature() {
-  const featureRef = useGsapReveal({ animation: "fadeInUp" });
+  const _featureRef = useGsapReveal({ animation: "fadeInUp" });
   return (
     <section className="more-features-area bg-proto pt-135 pb-120">
       <div className="container">

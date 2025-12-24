@@ -32,19 +32,19 @@ export default function FooterApp() {
                 </p>
                 <ul className="widget-social-list">
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-facebook-f"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-twitter"></i>
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#">
+                    <Link href="#">
                       <i className="fab fa-google"></i>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -157,13 +157,13 @@ export default function FooterApp() {
               >
                 <ul>
                   <li>
-                    <a href="#">Terms &amp; Conditions</a>
+                    <Link href="#">Terms &amp; Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link href="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Legal Notice</a>
+                    <Link href="#">Legal Notice</Link>
                   </li>
                 </ul>
               </div>

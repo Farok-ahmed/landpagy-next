@@ -114,7 +114,7 @@ export default function AppTestimonial() {
             <div key={index}>
               <div className="single-client">
                 <Image
-                 className="img-fluid rounded-circle"
+                  className="img-fluid rounded-circle"
                   src={client.imgSrc}
                   alt="client"
                   width={80}

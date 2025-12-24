@@ -1,14 +1,14 @@
 "use client";
-import React, { useRef, useState, useEffect } from "react";
-import Slider from "react-slick";
-import Image from "next/image";
 import history1 from "@/assets/images/about_2/history1.png";
-import history3 from "@/assets/images/about_2/history3.png";
 import history2 from "@/assets/images/about_2/history2.png";
+import history3 from "@/assets/images/about_2/history3.png";
+import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+import Slider from "react-slick";
 
 export default function AboutHistory() {
-  const [slideIndex, setSlideIndex] = useState(0);
-  const sliderRef = useRef<Slider>(null);
+  const [slideIndex, setSlideIndex] = useState<number>(0);
+  const sliderRef = useRef<Slider | null>(null);
 
   const calculatePillStyle = () => {
     // Simplified calculation that doesn't rely on internal slider properties

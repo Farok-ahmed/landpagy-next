@@ -53,7 +53,7 @@ export default function SignUp() {
               <div className="shape">
                 <Image src={shape2} alt="Shape" />
               </div>
-              <div className="shape layer" ref={parallaxOne.ref as React.RefObject<HTMLDivElement>}>
+              <div className="shape layer" ref={parallaxOne.ref as any}>
                 <Image src={shape3} alt="Shape" />
               </div>
               <div className="shape">
@@ -65,20 +65,20 @@ export default function SignUp() {
                 <div className="form-images d-lg-block d-none">
                   <div
                     className="shapes object-element layer"
-                    ref={shape1Parallax.ref as React.RefObject<HTMLDivElement>}
+                    ref={shape1Parallax.ref as any}
                   ></div>
                   <div className="shapes object-element"></div>
                   <div
                     className="shapes object-element layer"
-                    ref={shape2Parallax.ref as React.RefObject<HTMLDivElement>}
+                    ref={shape2Parallax.ref as any}
                   ></div>
                   <div
                     className="shapes object-element layer"
-                    ref={shape3Parallax.ref as React.RefObject<HTMLDivElement>}
+                    ref={shape3Parallax.ref as any}
                   ></div>
                   <div
                     className="shapes object-element layer"
-                    ref={shape4Parallax.ref as React.RefObject<HTMLDivElement>}
+                    ref={shape4Parallax.ref as any}
                   ></div>
                   <div className="shapes">
                     <Image src={shape1} alt="Shape" />

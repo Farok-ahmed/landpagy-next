@@ -1,16 +1,27 @@
 "use client";
-import React, { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
-const CustomSelect = ({ options, placeholder, onChange }) => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [selectedOption, setSelectedOption] = useState(null);
-  const dropdownRef = useRef(null);
+interface Option {
+  value: string;
+  label: string;
+}
+
+interface CustomSelectProps {
+  options: Option[];
+  placeholder?: string;
+  onChange?: (_option: Option) => void;
+}
+
+const CustomSelect = ({ options, placeholder, onChange }: CustomSelectProps) => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [selectedOption, setSelectedOption] = useState<Option | null>(null);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
 
   const handleToggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
-  const handleOptionClick = (option) => {
+  const handleOptionClick = (option: Option) => {
     setSelectedOption(option);
     setIsOpen(false);
     if (onChange) {
@@ -18,8 +29,8 @@ const CustomSelect = ({ options, placeholder, onChange }) => {
     }
   };
 
-  const handleClickOutside = (event) => {
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+  const handleClickOutside = (event: MouseEvent) => {
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
       setIsOpen(false);
     }
   };

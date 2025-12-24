@@ -1,6 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import Image from "next/image";
+import appMain from "@/assets/images/home_6/apps/app-main.svg";
 import app1 from "@/assets/images/home_6/apps/app1.svg";
 import app2 from "@/assets/images/home_6/apps/app2.svg";
 import app3 from "@/assets/images/home_6/apps/app3.svg";
@@ -9,10 +8,11 @@ import app5 from "@/assets/images/home_6/apps/app5.svg";
 import app6 from "@/assets/images/home_6/apps/app6.svg";
 import app7 from "@/assets/images/home_6/apps/app7.svg";
 import app8 from "@/assets/images/home_6/apps/app8.svg";
-import appMain from "@/assets/images/home_6/apps/app-main.svg";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function ProtoIntegration() {
-  const [timeCount, setTimeCount] = useState(0);
+  const [timeCount, setTimeCount] = useState<number>(0);
 
   useEffect(() => {
     const interval = setInterval(() => {

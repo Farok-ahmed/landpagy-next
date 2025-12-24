@@ -1,7 +1,4 @@
-"use client";
-
-// Test component - placeholder for react-scrollmagic animations
-// The react-scrollmagic and react-gsap packages need to be installed to use this component
+import { Controller, Scene, Tween } from 'react-gsap';
 
 export default function Test() {
   return (

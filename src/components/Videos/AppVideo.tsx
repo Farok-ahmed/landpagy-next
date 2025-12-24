@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 import GLightbox from "glightbox";
+import Link from "next/link";
 
 export default function AppVideo() {
   useEffect(() => {
@@ -17,12 +18,12 @@ export default function AppVideo() {
         <div className="row">
           <div className="col-12">
             <div className="app-video-wrapp">
-              <a
+              <Link
                className="play-btn"
                 href="https://www.youtube.com/watch?v=eNrCEqucHb4"
               >
                 <i className="fas fa-play"></i>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -6,9 +6,12 @@ import ctaImg2 from "@/assets/images/home_10/cta-img2.svg";
 import ctaImg3 from "@/assets/images/home_10/cta-img3.svg";
 import ctaImg4 from "@/assets/images/home_10/cta-img4.svg";
 import ctaImg5 from "@/assets/images/home_10/cta-img5.svg";
-;
 
-export default function AppDownloadTwo({ hasSpace }: { hasSpace?: boolean }) {
+interface AppDownloadTwoProps {
+  hasSpace?: boolean;
+}
+
+export default function AppDownloadTwo({ hasSpace }: AppDownloadTwoProps) {
   return (
     <section className="app-cta-area">
       <div className="container">

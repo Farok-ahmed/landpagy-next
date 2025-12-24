@@ -1,5 +1,6 @@
 "use client";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
+import Link from "next/link";
 
 export default function FaqTab() {
   const titleRef = useGsapReveal({ animation: 'fadeInUp', delay: 0 });
@@ -20,45 +21,45 @@ export default function FaqTab() {
             <div className="col-12">
               <ul className="nav nav-tabs">
                 <li className="nav-item">
-                  <a
-                   className="nav-link active"
+                  <Link
+                    className="nav-link active"
                     data-bs-toggle="tab"
                     href="#general"
                   >
                     General
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#payment">
+                  <Link className="nav-link" data-bs-toggle="tab" href="#payment">
                     Payment Gatway
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#feature">
+                  <Link className="nav-link" data-bs-toggle="tab" href="#feature">
                     Features
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#billing">
+                  <Link className="nav-link" data-bs-toggle="tab" href="#billing">
                     Billing Problem
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#account">
+                  <Link className="nav-link" data-bs-toggle="tab" href="#account">
                     Account
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" data-bs-toggle="tab" href="#service">
+                  <Link className="nav-link" data-bs-toggle="tab" href="#service">
                     Services
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
           <div className="tab-content">
             <div
-             className="tab-pane fade show active"
+              className="tab-pane fade show active"
               id="general"
               role="tabpanel"
             >

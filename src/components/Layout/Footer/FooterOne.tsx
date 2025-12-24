@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 import logo3 from "@/assets/images/logo-3.png";
 import logo2 from "@/assets/images/logo-2.png";
-;
 
 export default function FooterOne() {
   return (
@@ -24,22 +24,22 @@ export default function FooterOne() {
                     <h4>Features</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                     </ul>
                   </div>
@@ -49,22 +49,22 @@ export default function FooterOne() {
                     <h4>Company</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                     </ul>
                   </div>
@@ -74,22 +74,22 @@ export default function FooterOne() {
                     <h4>Support</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                     </ul>
                   </div>
@@ -118,13 +118,13 @@ export default function FooterOne() {
               <div className="footer-bottom-menu">
                 <ul>
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link href="#">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link href="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Legal Notice</a>
+                    <Link href="#">Legal Notice</Link>
                   </li>
                 </ul>
               </div>
@@ -132,19 +132,19 @@ export default function FooterOne() {
             <div className="col-lg-2">
               <ul className="social-link-bg">
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-google-plus-g"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

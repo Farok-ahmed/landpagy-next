@@ -18,8 +18,8 @@ import { Parallax } from "react-scroll-parallax";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FeaturePos() {
-  const featureRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
+  const _featureRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const _featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="features-area-eleven pt-135 pb-90">
       <div className="container">

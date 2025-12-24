@@ -38,13 +38,13 @@ export default function HelpDoc() {
           <div className="col-md-3">
             <div className="block-thum">
               <Image src={thumb} alt="Thumb" />
-              <a
+              <Link
                 href="https://youtu.be/WdS4Z5Kfjgw"
                className="play-buttons"
                 data-fancybox
               >
                 <Image src={playButton} alt="Play Button" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

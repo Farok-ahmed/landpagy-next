@@ -1,8 +1,9 @@
 "use client";
-import React, { useState } from "react";
-import Image from "next/image";
 import logo5 from "@/assets/images/logo-5.svg";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
+import Image from "next/image";
+import { useState } from "react";
+import Link from "next/link";
 
 export default function FooterPayment() {
   const leftRef = useGsapReveal({ animation: 'fadeInLeft', delay: 0 });
@@ -11,8 +12,8 @@ export default function FooterPayment() {
   const menu3Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.5 });
   const bottomRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.1 });
 
-  const [selectedOption, setSelectedOption] = useState("english");
-  const [isOpen, setIsOpen] = useState(false);
+  const [selectedOption, setSelectedOption] = useState<string>("english");
+  const [isOpen, setIsOpen] = useState<boolean>(false);
 
   const options = [
     { value: "english", label: "English" },
@@ -79,16 +80,16 @@ export default function FooterPayment() {
                     <h4>Features</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                     </ul>
                   </div>
@@ -101,19 +102,19 @@ export default function FooterPayment() {
                     <h4>Support</h4>
                     <ul>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                       <li>
-                        <a href="#">Develop</a>
+                        <Link href="#">Develop</Link>
                       </li>
                       <li>
-                        <a href="#">Design</a>
+                        <Link href="#">Design</Link>
                       </li>
                       <li>
-                        <a href="#">Social media</a>
+                        <Link href="#">Social media</Link>
                       </li>
                     </ul>
                   </div>
@@ -164,13 +165,13 @@ export default function FooterPayment() {
               <div className="footer-bottom-menu">
                 <ul className="justify-content-lg-center">
                   <li>
-                    <a href="#">Terms & Conditions</a>
+                    <Link href="#">Terms & Conditions</Link>
                   </li>
                   <li>
-                    <a href="#">Privacy Policy</a>
+                    <Link href="#">Privacy Policy</Link>
                   </li>
                   <li>
-                    <a href="#">Legal Notice</a>
+                    <Link href="#">Legal Notice</Link>
                   </li>
                 </ul>
               </div>
@@ -178,24 +179,24 @@ export default function FooterPayment() {
             <div className="mt-2 text-center col-lg-3 text-lg-end mt-lg-0">
               <ul className="flex-row social-link-bg-2 justify-content-lg-end justify-content-center">
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-facebook-f"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-linkedin-in"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="#">
                     <i className="fab fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

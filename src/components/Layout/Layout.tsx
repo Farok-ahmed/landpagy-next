@@ -5,8 +5,12 @@ import { useRouter } from "next/navigation";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
-  const [isVisible, setIsVisible] = useState(false);
+interface LayoutProps {
+  children: React.ReactNode;
+}
+
+export default function Layout({ children }: LayoutProps) {
+  const [isVisible, setIsVisible] = useState<boolean>(false);
   const router = useRouter();
 
   // Function to handle scroll to top

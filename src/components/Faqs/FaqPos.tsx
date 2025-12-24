@@ -3,13 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import faqShape1 from "@/assets/images/home_5/shapes/faq-shape1.png";
 import faqShape2 from "@/assets/images/home_5/shapes/faq-shape2.png";
-;
 
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function FaqPos() {
-  const faqRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
+  const _faqRef1 = useGsapReveal({ animation: "fadeInUp" });
+  const _faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="faq-area-five pt-135 pb-150">
       <div className="bg-shapes">
