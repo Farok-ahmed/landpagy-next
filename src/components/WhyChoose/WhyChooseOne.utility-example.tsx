@@ -18,7 +18,7 @@ export default function WhyChooseOneUtilityExample() {
   // Using utility function for cleaner code
   // Creates 3 fadeInUp animations with staggered delays (0, 0.15, 0.3)
   const [ref1, ref2, ref3] = useMultipleGsapReveals(
-    createAnimationSequence('fadeInUpFaster', 3, 0, 0.15)
+    createAnimationSequence('fadeInUp', 3, 0, 0.15) as any
   );
 
   return (

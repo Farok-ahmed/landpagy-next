@@ -6,7 +6,7 @@ import brand4 from "@/assets/images/brand/brand-4.svg";
 import brand5 from "@/assets/images/brand/brand-5.svg";
 import smile from "@/assets/images/home_2/smile.png";
 import userSlide from "@/assets/images/home_2/user-slide.png";
-import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useGsapReveal, useGsapMultiple } from "@/hooks/useGsapReveal";
 import GLightbox from "glightbox";
 import Image from "next/image";
 import Link from "next/link";

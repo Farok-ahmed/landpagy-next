@@ -22,7 +22,7 @@ export default function FooterPayment() {
     { value: "german", label: "German" },
   ];
 
-  const handleSelect = (value) => {
+  const handleSelect = (value: string) => {
     setSelectedOption(value);
     setIsOpen(false);
   };

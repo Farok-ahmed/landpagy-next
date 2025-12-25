@@ -9,19 +9,19 @@ export default function BlogCommentForm() {
       </p>
       <form className="row" action="#" method="post">
         <div className="col-md-6 form-group">
-          <input type="text" className="form-control" id="name" required="" />
+          <input type="text" className="form-control" id="name" required />
           <label className="floating-label">Full Name *</label>
         </div>
         <div className="col-md-6 form-group">
-          <input type="email" className="form-control" id="email" required="" />
+          <input type="email" className="form-control" id="email" required />
           <label className="floating-label">Email *</label>
         </div>
         <div className="col-md-12 form-group">
-          <input type="text" className="form-control" id="web" required="" />
+          <input type="text" className="form-control" id="web" required />
           <label className="floating-label">Website (Optional)</label>
         </div>
         <div className="col-md-12 form-group">
-          <textarea className="form-control message" required=""></textarea>
+          <textarea className="form-control message" required></textarea>
           <label className="floating-label">Comment type...</label>
         </div>
         <div className="col-md-12 form-group check-input">

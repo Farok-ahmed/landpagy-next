@@ -5,7 +5,7 @@ import component3 from "@/assets/images/home_3/component-3.svg";
 import component4 from "@/assets/images/home_3/component-4.svg";
 import component5 from "@/assets/images/home_3/component-5.svg";
 import component6 from "@/assets/images/home_3/component-6.svg";
-import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useGsapReveal, useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 
 

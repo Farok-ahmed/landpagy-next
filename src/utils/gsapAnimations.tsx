@@ -93,7 +93,7 @@ export const ANIMATION_PRESETS = {
 };
 
 // Staggered animations helper
-export const createStaggeredConfig = (baseAnimation, count, staggerDelay = 0.1) => {
+export const createStaggeredConfig = (baseAnimation: keyof typeof ANIMATION_PRESETS, count: number, staggerDelay = 0.1) => {
   return Array.from({ length: count }, (_, index) => ({
     ...ANIMATION_PRESETS[baseAnimation],
     delay: index * staggerDelay,
@@ -114,8 +114,8 @@ export const createStaggeredConfig = (baseAnimation, count, staggerDelay = 0.1) 
  * );
  */
 export const createAnimationSequence = (
-  baseAnimation,
-  count,
+  baseAnimation: keyof typeof ANIMATION_PRESETS,
+  count: number,
   startDelay = 0,
   staggerDelay = 0.15
 ) => {
@@ -136,8 +136,8 @@ export const createAnimationSequence = (
  *   createMixedSequence(['fadeInLeft', 'fadeInDown', 'fadeInRight'], 0.2)
  * );
  */
-export const createMixedSequence = (animations, baseDelay = 0) => {
-  return animations.map((animName) => ({
+export const createMixedSequence = (animations: (keyof typeof ANIMATION_PRESETS)[], baseDelay = 0) => {
+  return animations.map((animName: keyof typeof ANIMATION_PRESETS) => ({
     ...ANIMATION_PRESETS[animName],
     delay: baseDelay,
   }));
@@ -156,7 +156,7 @@ export const createMixedSequence = (animations, baseDelay = 0) => {
  * // WOW: <div className="wow fadeInUp animate__fast" data-wow-delay="0.2s">
  * // GSAP: const ref = useGsapReveal(wowToGsap('fadeInUp', 'animate__fast', 0.2));
  */
-export const wowToGsap = (wowClass, speedClass = null, delay = 0) => {
+export const wowToGsap = (wowClass: keyof typeof ANIMATION_PRESETS, speedClass: string | null = null, delay = 0) => {
   const baseConfig = ANIMATION_PRESETS[wowClass] || ANIMATION_PRESETS.fadeIn;
   
   let duration = baseConfig.duration;
@@ -169,7 +169,7 @@ export const wowToGsap = (wowClass, speedClass = null, delay = 0) => {
       'animate__slow': ANIMATION_SPEEDS.slow,
       'animate__slower': ANIMATION_SPEEDS.slower,
     };
-    duration = speedMap[speedClass] || duration;
+    duration = (speedMap as any)[speedClass] || duration;
   }
 
   return {

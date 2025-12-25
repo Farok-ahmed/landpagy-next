@@ -7,12 +7,7 @@ import brand9 from "@/assets/images/brand/brand-9.svg";
 import brand10 from "@/assets/images/brand/brand-10.svg";
 import brand11 from "@/assets/images/brand/brand-11.svg";
 
-
-import { useGsapReveal } from "@/hooks/useGsapReveal";
-
 export default function PosClient() {
-  const _clientRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const _clientRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="clients-area pt-135">
       <div className="container">

@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import bannerShape2 from "@/assets/images/shape/banner-shape2.svg";
 import bannerShape3 from "@/assets/images/shape/banner-shape3.svg";
@@ -61,22 +62,22 @@ export default function HeroBannerOne() {
           <div className="col-md-6">
             <div className="banner-right">
               <span ref={shape1Ref} className="banner-shapes"></span>
-              <Image src={bannerShape2} ref={shape2Ref} className="banner-shapes2"
+              <Image src={bannerShape2} ref={shape2Ref as React.RefObject<HTMLImageElement>} className="banner-shapes2"
                 
                 alt="Shape " />
-              <Image src={bannerShape3} ref={shape3Ref} className="banner-shapes3"
+              <Image src={bannerShape3} ref={shape3Ref as React.RefObject<HTMLImageElement>} className="banner-shapes3"
                 
                 alt="Shape " />
-              <Image src={bannerShape4} ref={shape4Ref} className="banner-shapes4"
+              <Image src={bannerShape4} ref={shape4Ref as React.RefObject<HTMLImageElement>} className="banner-shapes4"
                 
                 alt="Shape " />
-              <Image src={bannerShape5} ref={shape5Ref} className="banner-shapes5"
+              <Image src={bannerShape5} ref={shape5Ref as React.RefObject<HTMLImageElement>} className="banner-shapes5"
                 
                 alt="Shape " />
-              <Image src={bannerShape2} ref={shape6Ref} className="banner-shapes6"
+              <Image src={bannerShape2} ref={shape6Ref as React.RefObject<HTMLImageElement>} className="banner-shapes6"
                 
                 alt="Shape " />
-              <Image src={bannerShape6} ref={shape7Ref} className="banner-shapes7"
+              <Image src={bannerShape6} ref={shape7Ref as React.RefObject<HTMLImageElement>} className="banner-shapes7"
                 
                 alt="Shape " />
             </div>

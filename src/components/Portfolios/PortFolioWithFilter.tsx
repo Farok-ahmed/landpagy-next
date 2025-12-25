@@ -37,7 +37,9 @@ export default function PortFolioWithFilter() {
 
     // Initialize imagesLoaded
     imagesLoaded(".software-list").on("progress", () => {
-      isotope.current.layout();
+      if (isotope.current) {
+        isotope.current.layout();
+      }
     });
   }, []);
   // handling filter key change
@@ -49,7 +51,7 @@ export default function PortFolioWithFilter() {
     }
   }, [filterKey]);
 
-  const handleFilterKeyChange = (key) => () => setFilterKey(key);
+  const handleFilterKeyChange = (key: string) => () => setFilterKey(key);
   return (
     <section className="software-area pb-105">
       <div className="container container-soft2">

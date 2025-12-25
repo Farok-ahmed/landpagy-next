@@ -20,7 +20,7 @@ export default function FooterPos() {
     translateX: [0, 100, "easeInQuad"],
     translateY: [0, -40, "easeInQuad"],
     rotateY: [0, 0],
-    speed: [-10],
+    speed: -10,
   });
   const womenParallax = useParallax({
     translateX: [0, 300, "easeInQuad"],
@@ -36,15 +36,15 @@ export default function FooterPos() {
   return (
     <footer className="footer-pos footer-software footer-hrm bg-aqua pt-120">
       <div className="bg-shapes">
-        <div className="shape" ref={kiteParallax.ref}>
+        <div className="shape" ref={kiteParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={kite} className="layer"
             alt="Kite" />
         </div>
-        <div className="shape" ref={womenParallax.ref}>
+        <div className="shape" ref={womenParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={women} className="layer"
             alt="Women" />
         </div>
-        <div className="shape" ref={leafParallax.ref}>
+        <div className="shape" ref={leafParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={leaf} className="layer"
             alt="Leaf" />
         </div>

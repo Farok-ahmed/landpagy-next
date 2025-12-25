@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Link from "next/link";
 import { useParallax } from "react-scroll-parallax";
 import Image from "next/image";
@@ -30,13 +31,13 @@ export default function ServiceFooter() {
   return (
     <footer className="bg-black footer-hrm footer-common">
       <div className="bg-shapes">
-        <div className="shape layer" ref={kiteParallax.ref}>
+        <div className="shape layer" ref={kiteParallax.ref as React.RefObject<HTMLDivElement>}>
           <Image src={kite} alt="Shape" />
         </div>
-        <div className="shape layer" ref={womenParallax.ref}>
+        <div className="shape layer" ref={womenParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={women} alt="Shape" />
         </div>
-        <div className="shape layer" ref={leafParallax.ref}>
+        <div className="shape layer" ref={leafParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={leaf} alt="Shape" />
         </div>
       </div>

@@ -1,5 +1,4 @@
 "use client";
-;
 
 import Administration from "./JobCategory/Administration";
 import InformationSystem from "./JobCategory/InformationSystem";
@@ -8,12 +7,7 @@ import ProductDevelopment from "./JobCategory/ProductDevelopment";
 import WebDesign from "./JobCategory/WebDesign";
 import WebDevelopment from "./JobCategory/WebDevelopment";
 
-import { useGsapReveal } from "@/hooks/useGsapReveal";
-
 export default function OpenPosition() {
-  const _posRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const _posRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
-  const _posRef3 = useGsapReveal({ animation: "fadeInUp", delay: 0.2 });
   return (
     <section className="career-tabs-area pt-90 pb-100">
       <div className="container">

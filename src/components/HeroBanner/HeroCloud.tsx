@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -112,7 +113,7 @@ export default function HeroCloud() {
               <p ref={offerRef} className="offer-text">
                 Sign up and get 10 GB for free, forever!
               </p>
-              <Link href="/" ref={btnRef} className="btn btn-red">
+              <Link href="/" ref={btnRef as unknown as React.RefObject<HTMLAnchorElement>} className="btn btn-red">
                 Start for free
               </Link>
               <p ref={metaRef} className="meta-text">

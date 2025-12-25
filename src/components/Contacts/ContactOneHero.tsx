@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import shape13 from "@/assets/images/shape/shape13.svg";
 import shape14 from "@/assets/images/shape/shape14.svg";
@@ -31,7 +32,7 @@ export default function ContactOneHero() {
       <Image src={shape14} className="shape14"  alt="Shape" />
       <Image src={shape15} className="shape15"  alt="Shape" />
       <Image src={pricingShape7} className="shape16 object-element"
-        ref={shape4Parallax.ref}
+        ref={shape4Parallax.ref as React.Ref<HTMLImageElement>}
         
         alt="Shape" />
 

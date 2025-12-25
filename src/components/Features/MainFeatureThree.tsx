@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import feature7 from "@/assets/images/features/feature-7.png";
 import featuresObject10 from "@/assets/images/features/features-object-10.svg";
@@ -40,22 +41,22 @@ export default function MainFeatureThree() {
             <div className="feature-image">
               <Image src={feature7} alt="Features " />
               <Image src={featuresObject10} className="features-object10 object-element"
-                ref={shape1Parallax.ref}
+                ref={shape1Parallax.ref as React.RefObject<HTMLImageElement>}
                 
                 alt="Features " />
               <Image src={featuresObject2} className="features-object11"
                 
                 alt="Features " />
               <Image src={featuresObject3} className="features-object12 object-element"
-                ref={shape2Parallax.ref}
+                ref={shape2Parallax.ref as React.RefObject<HTMLImageElement>}
                 
                 alt="Features " />
               <Image src={featuresObject11} className="features-object13 object-element"
-                ref={shape3Parallax.ref}
+                ref={shape3Parallax.ref as React.RefObject<HTMLImageElement>}
                 
                 alt="Features " />
               <Image src={featuresObject12} className="features-object14 object-element"
-                ref={shape4Parallax.ref}
+                ref={shape4Parallax.ref as React.RefObject<HTMLImageElement>}
                 
                 alt="Features " />
             </div>

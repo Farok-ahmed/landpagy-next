@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function PricingTwoHero() {
   const [activeTab, setActiveTab] = useState<string>("monthly");
 
-  const handleTabClick = (tab) => {
+  const handleTabClick = (tab: string) => {
     setActiveTab(tab);
   };
 

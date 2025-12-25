@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import treeWater from "@/assets/images/home_3/tree-water.png";
 import cloud1 from "@/assets/images/home_3/cloud-1.png";
@@ -34,25 +35,25 @@ export default function HeroBannerFour() {
     translateX: [-150, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
-    speed: [-10],
+    speed: -10,
   });
   const cloud1Parallax = useParallax({
     translateX: [-50, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
-    speed: [20],
+    speed: 20,
   });
   const cloud2Parallax = useParallax({
     translateX: [-70, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
-    speed: [20],
+    speed: 20,
   });
   const cloud3Parallax = useParallax({
     translateX: [-50, 0, "easeInQuad"],
     translateY: [0, 0, "easeInQuad"],
     rotateY: [0, 0],
-    speed: [20],
+    speed: 20,
   });
   return (
     <section className="banner-area-3" id="banner_animation">
@@ -61,7 +62,7 @@ export default function HeroBannerFour() {
           <Image src={treeWater} alt="Decorative image" />
         </div>
         <div className="shape object-element">
-          <div id="element1" ref={cloud1Parallax.ref}>
+          <div id="element1" ref={cloud1Parallax.ref as React.RefObject<HTMLDivElement>}>
             <div ref={cloud1ImgRef}>
               <Image src={cloud1} data-depth="0.9"
                className="layer"
@@ -70,7 +71,7 @@ export default function HeroBannerFour() {
           </div>
         </div>
         <div className="shape object-element">
-          <div id="element2" ref={cloud2Parallax.ref}>
+          <div id="element2" ref={cloud2Parallax.ref as React.RefObject<HTMLDivElement>}>
             <div ref={cloud2ImgRef}>
               <Image src={cloud2} data-depth="0.5"
                className="layer"
@@ -79,7 +80,7 @@ export default function HeroBannerFour() {
           </div>
         </div>
         <div className="shape object-element">
-          <div id="element3" ref={cloud3Parallax.ref}>
+          <div id="element3" ref={cloud3Parallax.ref as React.RefObject<HTMLDivElement>}>
             <div ref={cloud3ImgRef}>
               <Image src={cloud3} data-depth="0.7"
                className="layer"
@@ -87,7 +88,7 @@ export default function HeroBannerFour() {
             </div>
           </div>
         </div>
-        <div className="shape" ref={birdParallax.ref}>
+        <div className="shape" ref={birdParallax.ref as React.RefObject<HTMLDivElement>}>
           <Image src={bird} className="layer" alt="Decorative image" />
         </div>
         <div className="shape">

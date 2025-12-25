@@ -5,7 +5,7 @@ import brand6 from "@/assets/images/brand/brand-6.svg";
 import brand7 from "@/assets/images/brand/brand-7.svg";
 import brand8 from "@/assets/images/brand/brand-8.svg";
 import brand9 from "@/assets/images/brand/brand-9.svg";
-import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useGsapReveal, useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Link from "next/link";
 ;

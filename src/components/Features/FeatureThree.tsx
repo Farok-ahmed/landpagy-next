@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import features4 from "@/assets/images/features/features-4.png";
 import featuresObject6 from "@/assets/images/features/features-object-6.svg";
 import featuresObject7 from "@/assets/images/features/features-object-7.svg";
@@ -15,7 +16,7 @@ export default function FeatureThree() {
     translateX: [50, -150, "easeInQuad"],
     translateY: [0, 0, "easeOutQuad"],
     rotateY: [0, 0],
-    speed: [-10],
+    speed: -10,
   });
   const shape3Parallax = useParallax({
     translateX: [0, 0, "easeInQuad"],
@@ -51,13 +52,13 @@ export default function FeatureThree() {
                className="features-object6" />
               <Image src={featuresObject7} alt="Features Object"
                className="features-object7 object-element layer"
-                ref={shape2Parallax.ref} />
+                ref={shape2Parallax.ref as React.RefObject<HTMLImageElement>} />
               <Image src={featuresObject8} alt="Features Object"
                className="features-object8 object-element layer"
-                ref={shape3Parallax.ref} />
+                ref={shape3Parallax.ref as React.RefObject<HTMLImageElement>} />
               <Image src={featuresObject9} alt="Features Object"
                className="features-object9 object-element layer"
-                ref={shape4Parallax.ref} />
+                ref={shape4Parallax.ref as React.RefObject<HTMLImageElement>} />
             </div>
           </div>
         </div>

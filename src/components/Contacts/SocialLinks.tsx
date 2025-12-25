@@ -5,8 +5,6 @@ import icon1 from "@/assets/images/contact_2/icons/icon-1.svg";
 import icon2 from "@/assets/images/contact_2/icons/icon-2.svg";
 import icon3 from "@/assets/images/contact_2/icons/icon-3.svg";
 import icon4 from "@/assets/images/contact_2/icons/icon-4.svg";
-;
-import { Link } from "react-router-dom";
 
 export default function SocialLinks() {
   return (
@@ -48,7 +46,7 @@ export default function SocialLinks() {
               </div>
               <h3 className="item-title">Landpagy Careers</h3>
               <p className="item-para">Join our global team</p>
-              <Link to="/career" className="item-link">
+              <Link href="/career" className="item-link">
                 Learn More<i className="arrow_right"></i>
               </Link>
             </div>
@@ -60,7 +58,7 @@ export default function SocialLinks() {
               </div>
               <h3 className="item-title">Landpagy Blog</h3>
               <p className="item-para">Join our global team</p>
-              <Link to="/jobs" className="item-link">
+              <Link href="/jobs" className="item-link">
                 Learn More<i className="arrow_right"></i>
               </Link>
             </div>
@@ -72,7 +70,7 @@ export default function SocialLinks() {
               </div>
               <h3 className="item-title">Landpagy Proto</h3>
               <p className="item-para">Join our global team</p>
-              <Link to="/jobs" className="item-link">
+              <Link href="/jobs" className="item-link">
                 Learn More<i className="arrow_right"></i>
               </Link>
             </div>
@@ -84,7 +82,7 @@ export default function SocialLinks() {
               </div>
               <h3 className="item-title">About Landpagy</h3>
               <p className="item-para">Join our global team</p>
-              <Link to="/career" className="item-link">
+              <Link href="/career" className="item-link">
                 Learn More<i className="arrow_right"></i>
               </Link>
             </div>

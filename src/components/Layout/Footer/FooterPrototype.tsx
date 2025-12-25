@@ -32,13 +32,13 @@ export default function FooterPrototype() {
   return (
     <footer className="bg-black footer-proto footer-common">
       <div className="bg-shapes">
-        <div className="shape" ref={kiteParallax.ref}>
+        <div className="shape" ref={kiteParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={kite} alt="Kite" />
         </div>
-        <div className="shape" ref={womenParallax.ref}>
+        <div className="shape" ref={womenParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={women} alt="Women" />
         </div>
-        <div className="shape" ref={leafParallax.ref}>
+        <div className="shape" ref={leafParallax.ref as React.Ref<HTMLDivElement>}>
           <Image src={leaf} alt="Leaf" />
         </div>
       </div>

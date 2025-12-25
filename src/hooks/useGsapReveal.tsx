@@ -17,7 +17,9 @@ type AnimationType =
   | 'fadeInUpBig'
   | 'fadeInDownBig'
   | 'fadeInLeftBig'
-  | 'fadeInRightBig';
+  | 'fadeInRightBig'
+  | 'zoomIn'
+  | 'fadeInTopRight';
 
 interface UseGsapRevealOptions {
   animation?: AnimationType;
@@ -46,7 +48,7 @@ interface UseGsapRevealOptions {
  * const ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
  * return <div ref={ref}>Animated content</div>
  */
-export const useGsapReveal = ({
+export const useGsapReveal = <T extends HTMLElement = HTMLDivElement>({
   animation = "fadeIn",
   delay = 0,
   duration = 0.8,
@@ -54,7 +56,7 @@ export const useGsapReveal = ({
   once = true,
   stagger = 0,
 }: UseGsapRevealOptions = {}) => {
-  const ref = useRef<HTMLElement | null>(null);
+  const ref = useRef<T | null>(null);
 
   useEffect(() => {
     // Only run on client side
@@ -91,6 +93,30 @@ export const useGsapReveal = ({
       fadeInRight: {
         from: { opacity: 0, x: 60 },
         to: { opacity: 1, x: 0 },
+      },
+      fadeInUpBig: {
+        from: { opacity: 0, y: 100 },
+        to: { opacity: 1, y: 0 },
+      },
+      fadeInDownBig: {
+        from: { opacity: 0, y: -100 },
+        to: { opacity: 1, y: 0 },
+      },
+      fadeInLeftBig: {
+        from: { opacity: 0, x: -100 },
+        to: { opacity: 1, x: 0 },
+      },
+      fadeInRightBig: {
+        from: { opacity: 0, x: 100 },
+        to: { opacity: 1, x: 0 },
+      },
+      zoomIn: {
+        from: { opacity: 0, scale: 0.8 },
+        to: { opacity: 1, scale: 1 },
+      },
+      fadeInTopRight: {
+        from: { opacity: 0, x: 60, y: -60 },
+        to: { opacity: 1, x: 0, y: 0 },
       },
     };
 
@@ -134,17 +160,17 @@ export const useGsapReveal = ({
  * @param {Array} configs - Array of animation configurations
  * @returns {Array} - Array of refs for each animation
  */
-export const useMultipleGsapReveals = (configs: UseGsapRevealOptions[]) => {
+export const useMultipleGsapReveals = <T extends HTMLElement = HTMLDivElement>(configs: UseGsapRevealOptions[]) => {
   // Create all refs upfront - hooks must be called unconditionally
-  const refsArray: React.RefObject<HTMLElement>[] = [];
+  const refsArray: React.RefObject<T | null>[] = [];
   for (let i = 0; i < configs.length; i++) {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    refsArray.push(useRef<HTMLElement>(null));
+    refsArray.push(useRef<T>(null));
   }
 
   useEffect(() => {
     // Define animation variants
-    const animations = {
+    const animations: Record<string, { from: object; to: object }> = {
       fadeIn: {
         from: { opacity: 0 },
         to: { opacity: 1 },
@@ -163,6 +189,22 @@ export const useMultipleGsapReveals = (configs: UseGsapRevealOptions[]) => {
       },
       fadeInRight: {
         from: { opacity: 0, x: 60 },
+        to: { opacity: 1, x: 0 },
+      },
+      fadeInUpBig: {
+        from: { opacity: 0, y: 100 },
+        to: { opacity: 1, y: 0 },
+      },
+      fadeInDownBig: {
+        from: { opacity: 0, y: -100 },
+        to: { opacity: 1, y: 0 },
+      },
+      fadeInLeftBig: {
+        from: { opacity: 0, x: -100 },
+        to: { opacity: 1, x: 0 },
+      },
+      fadeInRightBig: {
+        from: { opacity: 0, x: 100 },
         to: { opacity: 1, x: 0 },
       },
     };
@@ -198,7 +240,7 @@ export const useMultipleGsapReveals = (configs: UseGsapRevealOptions[]) => {
 };
 
 // Backwards-compatible alias used during WOW.js to GSAP migration batches
-export const useGsapMultiple = (
+export const useGsapMultiple = <T extends HTMLElement = HTMLDivElement>(
   countOrConfigs: number | UseGsapRevealOptions[], 
   maybeConfigs?: UseGsapRevealOptions[]
 ) => {
@@ -209,7 +251,7 @@ export const useGsapMultiple = (
     ? maybeConfigs
     : Array.from({ length: countOrConfigs }, () => ({}));
 
-  return useMultipleGsapReveals(finalConfigs);
+  return useMultipleGsapReveals<T>(finalConfigs);
 };
 
 /**

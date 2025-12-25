@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,7 +11,7 @@ import shape16 from "@/assets/images/shape/shape16.svg";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function HelpCenterHero() {
-  const shape16Ref = useGsapReveal({ animation: 'fadeInTopLeft', delay: 0 });
+  const shape16Ref = useGsapReveal({ animation: 'fadeInLeft', delay: 0 });
 
   return (
     <section className="banner-area help-page-banner">
@@ -56,7 +57,7 @@ export default function HelpCenterHero() {
       <Image src={helpCenterShape4} className="help-center-shape4"
         
         alt="Decorative image" />
-      <Image src={shape16} ref={shape16Ref} className="shape16"
+      <Image src={shape16} ref={shape16Ref as React.RefObject<HTMLImageElement>} className="shape16"
         
         alt="Decorative image" />
     </section>

@@ -13,7 +13,7 @@ export default function ServiceTestimonial() {
     modules: [Navigation, Pagination],
     pagination: {
       el: ".swiper-pagination",
-      type: "fraction",
+      type: "fraction" as const,
     },
     navigation: {
       nextEl: ".swiper-button-next",

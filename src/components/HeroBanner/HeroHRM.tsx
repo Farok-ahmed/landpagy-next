@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import bannerShape1 from "@/assets/images/home_4/banner-shape-1.svg";
@@ -103,7 +104,7 @@ export default function HeroHRM() {
                 Crush your 2021 goals and keep moving forward with Landpagy' s
                 work management platform.
               </p>
-              <form ref={formRef} className="form-group">
+              <form ref={formRef as unknown as React.RefObject<HTMLFormElement>} className="form-group">
                 <input
                   type="email"
                   placeholder="Enter your email to book demo"
@@ -119,47 +120,47 @@ export default function HeroHRM() {
           </div>
           <div className="col-md-5 offset-md-1 offset-lg-0">
             <div className="banner-right">
-              <Image src={bannerBubbleIcon1} ref={bubble1Ref} className="banner-img-1"
+              <Image src={bannerBubbleIcon1} ref={bubble1Ref as React.Ref<HTMLImageElement>} className="banner-img-1"
                 
                 alt="Icon " />
-              <Image src={bannerBubbleIcon2} ref={bubble2Ref} className="banner-img-2"
+              <Image src={bannerBubbleIcon2} ref={bubble2Ref as React.Ref<HTMLImageElement>} className="banner-img-2"
                 
                 alt="Icon " />
-              <Image src={bannerBubbleIcon3} ref={bubble3Ref} className="banner-img-3"
+              <Image src={bannerBubbleIcon3} ref={bubble3Ref as React.Ref<HTMLImageElement>} className="banner-img-3"
                 
                 alt="Icon " />
 
               <Image src={bannerFrame} className="banner-img-4 layer"
                 
                 alt="Icon "
-                ref={shape1Parallax.ref} />
+                ref={shape1Parallax.ref as React.Ref<HTMLImageElement>} />
 
               <Image src={bannerFrame2} className="banner-img-5 layer"
                 
                 alt="Icon "
-                ref={shape2Parallax.ref} />
+                ref={shape2Parallax.ref as React.Ref<HTMLImageElement>} />
               <Image src={bannerFrame3} className="banner-img-6 layer"
                 
                 alt="Icon "
-                ref={shape3Parallax.ref} />
+                ref={shape3Parallax.ref as React.Ref<HTMLImageElement>} />
 
               <Image src={bannerWindow} className="banner-img-7 layer"
                 
                 alt="Icon "
-                ref={shape4Parallax.ref} />
+                ref={shape4Parallax.ref as React.RefObject<HTMLImageElement>} />
 
               <Image src={bannerWindow2} className="banner-img-8 layer"
                 
                 alt="Icon "
-                ref={shape5Parallax.ref} />
+                ref={shape5Parallax.ref as React.RefObject<HTMLImageElement>} />
 
-              <Image src={bannerPlant} ref={plantRef} className="banner-img-9"
+              <Image src={bannerPlant} ref={plantRef as React.Ref<HTMLImageElement>} className="banner-img-9"
                 
                 alt="Icon " />
-              <Image src={bannerMan} ref={manRef} className="banner-img-10"
+              <Image src={bannerMan} ref={manRef as React.Ref<HTMLImageElement>} className="banner-img-10"
                 
                 alt="Icon " />
-              <Image src={bannerFloorBg} ref={floorRef} className="banner-img-11"
+              <Image src={bannerFloorBg} ref={floorRef as React.Ref<HTMLImageElement>} className="banner-img-11"
                 
                 alt="Icon " />
             </div>

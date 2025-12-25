@@ -1,7 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const BlogPost = ({ posts }) => {
+interface Author {
+  imageSrc: string;
+  name: string;
+  date: string;
+}
+
+interface Post {
+  imageSrc: string;
+  readTime: string;
+  category: string;
+  title: string;
+  excerpt: string;
+  author: Author;
+}
+
+interface BlogPostProps {
+  posts: Post[];
+}
+
+const BlogPost = ({ posts }: BlogPostProps) => {
   return (
     <>
       {posts.map((post, index) => (

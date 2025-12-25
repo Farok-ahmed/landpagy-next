@@ -4,12 +4,7 @@ import Image from "next/image";
 import mobileShape2 from "@/assets/images/home_4/mobile-shape2.svg";
 import bannerShape4 from "@/assets/images/home_4/banner-shape-4.svg";
 
-
-import { useGsapReveal } from "@/hooks/useGsapReveal";
-
 export default function FaqHRM() {
-  const _faqRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const _faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="faq-area-four pt-125">
       <div className="bg-shapes">

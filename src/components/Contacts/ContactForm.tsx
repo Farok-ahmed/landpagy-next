@@ -12,6 +12,7 @@ interface FormData {
 }
 
 interface FormErrors {
+  [key: string]: string | undefined;
   name?: string;
   email?: string;
   message?: string;

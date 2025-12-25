@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,10 +24,10 @@ export default function ProtoCta() {
   return (
     <section className="cta-area-7 pt-80 pb-80">
       <div className="bg-shapes">
-        <div className="shape" ref={shape1Parallax.ref}>
+        <div className="shape" ref={shape1Parallax.ref as React.RefObject<HTMLDivElement>}>
           <Image src={ctaShape2} alt="Shape 1" />
         </div>
-        <div className="shape" ref={shape2Parallax.ref}>
+        <div className="shape" ref={shape2Parallax.ref as React.RefObject<HTMLDivElement>}>
           <Image src={ctaShape3} alt="Shape 2" />
         </div>
       </div>

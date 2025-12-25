@@ -14,7 +14,7 @@ export default function TestimonialsSlideTwo() {
     modules: [Pagination, Navigation],
     pagination: {
       el: ".swiper-pagination",
-      type: "fraction",
+      type: "fraction" as const,
     },
     navigation: {
       nextEl: ".swiper-button-next",

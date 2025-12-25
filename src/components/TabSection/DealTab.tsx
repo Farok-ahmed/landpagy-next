@@ -1,5 +1,6 @@
 "use client";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
+import Image from "next/image";
 import {
     useCallback,
     useEffect,
@@ -7,14 +8,12 @@ import {
     useRef,
     useState,
 } from "react";
-import Link from "next/link";
-import Image from "next/image";
 
 export default function DealTab() {
   const headingRef = useGsapReveal({ animation: 'fadeInUp' });
   const paragraphRef = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });
-  const [activeTab, setActiveTab] = useState<string>("#payment-track-one");
-  const timerRef = useRef<NodeJS.Timeout | null>(null); // Use a ref for the timer
+  const [activeTab, setActiveTab] = useState("#payment-track-one");
+  const timerRef = useRef<number | null>(null); // Use a ref for the timer
 
   const tabs = useMemo(
     () => [
@@ -45,7 +44,7 @@ export default function DealTab() {
 
   const startAutoTabSwitch = useCallback(() => {
     const nextTab = () => {
-      timerRef.current = setTimeout(() => {
+      timerRef.current = window.setTimeout(() => {
         setActiveTab((prevTab) => {
           const currentIndex = tabs.findIndex((tab) => tab.id === prevTab);
           const nextIndex = (currentIndex + 1) % tabs.length;
@@ -60,12 +59,12 @@ export default function DealTab() {
   useEffect(() => {
     startAutoTabSwitch();
     return () => {
-      clearTimeout(timerRef.current); // Cleanup the timeout when the component unmounts or dependencies change
+      window.clearTimeout(timerRef.current ?? undefined); // Cleanup the timeout when the component unmounts or dependencies change
     };
   }, [startAutoTabSwitch]); // Only depend on the function, not on state
 
-  const handleTabClick = (tabId) => {
-    clearTimeout(timerRef.current); // Clear the current timer when a tab is clicked
+  const handleTabClick = (tabId: string) => {
+    window.clearTimeout(timerRef.current ?? undefined); // Clear the current timer when a tab is clicked
     setActiveTab(tabId);
     startAutoTabSwitch(); // Restart the auto-switching after a manual click
   };
@@ -87,7 +86,7 @@ export default function DealTab() {
               role="tablist"
             >
               {tabs.map((tab, index) => (
-                <Link
+                <a
                   key={tab.id}
                  className={`nav-link ${activeTab === tab.id ? "active" : ""}`}
                   aria-selected={activeTab === tab.id}
@@ -102,8 +101,8 @@ export default function DealTab() {
                     <Image
                       src={`/images/home_3/fast-deal-${index + 1}.svg`}
                       alt="Track key events icon"
-                      width={48}
-                      height={48}
+                      width={40}
+                      height={40}
                     />
                   </div>
                   <div className="info-txt">
@@ -114,7 +113,7 @@ export default function DealTab() {
                     </p>
                   </div>
                   <div className="progress-bar"></div>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
@@ -135,8 +134,8 @@ export default function DealTab() {
                         key={idx}
                         src={src}
                         alt={`Payment track ${idx + 1}`}
-                        width={800}
-                        height={600}
+                        width={400}
+                        height={300}
                       />
                     ))}
                   </div>

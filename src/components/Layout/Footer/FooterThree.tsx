@@ -32,15 +32,15 @@ export default function FooterThree() {
       <div className="bg-shapes">
         <div className="shape">
           <Image src={kite} alt="Kite"
-            ref={kiteParallax.ref} />
+            ref={kiteParallax.ref as React.Ref<HTMLImageElement>} />
         </div>
         <div className="shape">
           <Image src={women} alt="Women"
-            ref={womenParallax.ref} />
+            ref={womenParallax.ref as React.Ref<HTMLImageElement>} />
         </div>
         <div className="shape">
           <Image src={leaf} alt="Leaf"
-            ref={leafParallax.ref} />
+            ref={leafParallax.ref as React.Ref<HTMLImageElement>} />
         </div>
         <div className="shape">
           <Image src={footerShape} alt="Footer Shape" />

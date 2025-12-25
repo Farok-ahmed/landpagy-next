@@ -11,12 +11,7 @@ import feaIcon6 from "@/assets/images/home_5/icons/fea-icon6.svg";
 import feaIcon7 from "@/assets/images/home_5/icons/fea-icon7.svg";
 import feaIcon8 from "@/assets/images/home_5/icons/fea-icon8.svg";
 
-
-import { useGsapReveal } from "@/hooks/useGsapReveal";
-
 export default function PosFeatureGroup() {
-  const _featureRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const _featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="features-area-twelve pt-135 pb-120">
       <div className="container">

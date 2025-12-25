@@ -119,7 +119,6 @@ function generateMigrationCode(className, delay = '0', duration = null) {
 
 function analyzeMigration(componentPath) {
   const content = fs.readFileSync(componentPath, 'utf8');
-  const lines = content.split('\n');
   const analysis = {
     imports: [],
     animations: [],
@@ -128,7 +127,6 @@ function analyzeMigration(componentPath) {
 
   // Check for existing imports
   const hasUseGsapImport = content.includes("import useGsapReveal") || content.includes("from '@/hooks/useGsapReveal'");
-  const hasUseRefImport = content.includes("import { useRef") || content.includes("import { useRef,");
 
   if (!hasUseGsapImport) {
     analysis.imports.push("import useGsapReveal from '@/hooks/useGsapReveal';");
@@ -136,8 +134,6 @@ function analyzeMigration(componentPath) {
 
   // Find all WOW animations
   const wowRegex = /className=["']([^"']*\bwow\b[^"']*)["']/g;
-  const delayRegex = /data-wow-delay=["']([^"']*)["']/g;
-  const durationRegex = /data-wow-duration=["']([^"']*)["']/g;
 
   let match;
   let elementIndex = 0;
@@ -202,62 +198,62 @@ function generateMigrationReport() {
   const componentsDir = path.join(process.cwd(), 'src', 'components');
   const results = scanDirectory(componentsDir);
 
-  console.log('\n========================================');
-  console.log('WOW.js to GSAP Migration Report');
-  console.log('========================================\n');
+  console.warn('\n========================================');
+  console.warn('WOW.js to GSAP Migration Report');
+  console.warn('========================================\n');
 
-  console.log(`Found ${results.length} file(s) with WOW.js usage:\n`);
+  console.warn(`Found ${results.length} file(s) with WOW.js usage:\n`);
 
   results.forEach((result, index) => {
-    console.log(`${index + 1}. ${result.file}`);
-    console.log(`   Patterns found: ${result.matches.join(', ')}`);
-    console.log('');
+    console.warn(`${index + 1}. ${result.file}`);
+    console.warn(`   Patterns found: ${result.matches.join(', ')}`);
+    console.warn('');
   });
 
-  console.log('\n========================================');
-  console.log('Detailed Migration Guide');
-  console.log('========================================\n');
+  console.warn('\n========================================');
+  console.warn('Detailed Migration Guide');
+  console.warn('========================================\n');
 
   // Show detailed analysis for first 5 files
   const detailedAnalysis = results.slice(0, 5);
   
-  detailedAnalysis.forEach((result, index) => {
+  detailedAnalysis.forEach((result) => {
     const fullPath = path.join(process.cwd(), result.file);
     const analysis = analyzeMigration(fullPath);
 
-    console.log(`\n\n📄 ${result.file}`);
-    console.log('─'.repeat(60));
+    console.warn(`\n\n📄 ${result.file}`);
+    console.warn('─'.repeat(60));
     
     if (analysis.imports.length > 0) {
-      console.log('\n📦 Required Imports:');
-      analysis.imports.forEach(imp => console.log(`   ${imp}`));
+      console.warn('\n📦 Required Imports:');
+      analysis.imports.forEach(imp => console.warn(`   ${imp}`));
     }
 
     if (analysis.animations.length > 0) {
-      console.log('\n🎨 Animations to Migrate:');
+      console.warn('\n🎨 Animations to Migrate:');
       analysis.animations.forEach((anim, i) => {
-        console.log(`\n   Animation ${i + 1}:`);
-        console.log(`   Original: className="${anim.originalClass}"`);
-        if (anim.delay !== '0') console.log(`   Delay: ${anim.delay}s`);
-        console.log(`   Migration: ${anim.hookCall}`);
-        console.log(`   Add to element: ${anim.refAttr}`);
+        console.warn(`\n   Animation ${i + 1}:`);
+        console.warn(`   Original: className="${anim.originalClass}"`);
+        if (anim.delay !== '0') console.warn(`   Delay: ${anim.delay}s`);
+        console.warn(`   Migration: ${anim.hookCall}`);
+        console.warn(`   Add to element: ${anim.refAttr}`);
       });
     }
 
     if (analysis.recommendations.length > 0) {
-      console.log('\n💡 Recommendations:');
-      analysis.recommendations.forEach(rec => console.log(`   • ${rec}`));
+      console.warn('\n💡 Recommendations:');
+      analysis.recommendations.forEach(rec => console.warn(`   • ${rec}`));
     }
   });
 
-  console.log('\n\n========================================');
-  console.log('Next Steps');
-  console.log('========================================\n');
-  console.log('1. Review the files listed above');
-  console.log('2. Use the migration patterns to convert each component');
-  console.log('3. Test animations after migration');
-  console.log('4. Remove WOW.js classes and data attributes');
-  console.log('5. Run the project to ensure no errors\n');
+  console.warn('\n\n========================================');
+  console.warn('Next Steps');
+  console.warn('========================================\n');
+  console.warn('1. Review the files listed above');
+  console.warn('2. Use the migration patterns to convert each component');
+  console.warn('3. Test animations after migration');
+  console.warn('4. Remove WOW.js classes and data attributes');
+  console.warn('5. Run the project to ensure no errors\n');
 
   // Save detailed report to file
   const reportPath = path.join(process.cwd(), 'WOW_MIGRATION_REPORT.json');
@@ -273,7 +269,7 @@ function generateMigrationReport() {
     }))
   }, null, 2));
 
-  console.log(`📊 Detailed report saved to: ${reportPath}\n`);
+  console.warn(`📊 Detailed report saved to: ${reportPath}\n`);
 }
 
 // Run the migration report

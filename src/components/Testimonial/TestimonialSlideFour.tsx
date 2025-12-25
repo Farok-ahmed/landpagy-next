@@ -9,12 +9,12 @@ import Image from "next/image";
 import { Parallax } from "react-scroll-parallax";
 import Slider from "react-slick";
 
-const SlickBtnPrev = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }) => (
+const SlickBtnPrev = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }: { currentSlide?: number; slideCount?: number; children?: React.ReactNode; [key: string]: any }) => (
   <button className="slick-prev" {...props}>
     {children}
   </button>
 );
-const SlickBtnNext = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }) => (
+const SlickBtnNext = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }: { currentSlide?: number; slideCount?: number; children?: React.ReactNode; [key: string]: any }) => (
   <button className="slick-next" {...props}>
     {children}
   </button>
@@ -69,7 +69,7 @@ export default function TestimonialSlideFour() {
         </div>
         <Slider
           {...slickOptions}
-          ref={refs[1]}
+          ref={refs[1] as any}
          className="testimonial-slider-six position-relative"
         >
           <div className="single-slide">

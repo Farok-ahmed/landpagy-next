@@ -12,14 +12,9 @@ import feaImg2 from "@/assets/images/home_5/fea-img2.jpg";
 import feaShape6 from "@/assets/images/home_5/shapes/fea-shape6.png";
 import feaShape7 from "@/assets/images/home_5/shapes/fea-shape7.png";
 import feaImg3 from "@/assets/images/home_5/fea-img3.jpg";
-;
 import { Parallax } from "react-scroll-parallax";
 
-import { useGsapReveal } from "@/hooks/useGsapReveal";
-
 export default function FeaturePos() {
-  const _featureRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const _featureRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="features-area-eleven pt-135 pb-90">
       <div className="container">

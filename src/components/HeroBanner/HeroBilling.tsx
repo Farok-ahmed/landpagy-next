@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import poly1 from "@/assets/images/home_8/icons/Poly1.svg";
@@ -70,25 +71,25 @@ export default function HeroBilling() {
         <div ref={shape1LeftRef} className="shape">
           <Image src={logo1} alt="Logo 1" />
           <Image src={shape1} alt="Shape 1"
-            ref={shape1Parallax.ref}
+            ref={shape1Parallax.ref as React.RefObject<HTMLImageElement>}
            className="layer" />
         </div>
         <div ref={shape2LeftRef} className="shape">
           <Image src={logo2} alt="Logo 2" />
           <Image src={shape2} alt="Shape 2"
-            ref={shape2Parallax.ref}
+            ref={shape2Parallax.ref as React.RefObject<HTMLImageElement>}
            className="layer" />
         </div>
         <div ref={shape3RightRef} className="shape">
           <Image src={logo3} alt="Logo 3" />
           <Image src={shape3} alt="Shape 3"
-            ref={shape3Parallax.ref}
+            ref={shape3Parallax.ref as React.RefObject<HTMLImageElement>}
            className="layer" />
         </div>
         <div ref={shape4RightRef} className="shape">
           <Image src={logo4} alt="Logo 4" />
           <Image src={shape4} alt="Shape 4"
-            ref={shape4Parallax.ref}
+            ref={shape4Parallax.ref as React.RefObject<HTMLImageElement>}
            className="layer" />
         </div>
         <div className="shape">
@@ -107,7 +108,7 @@ export default function HeroBilling() {
               </h1>
               <Link
                 href="/sign-up"
-                ref={btnRef}
+                ref={btnRef as unknown as React.RefObject<HTMLAnchorElement>}
                className="btn btn-red"
               >
                 <Image src={addUser} alt="Icon"
@@ -115,7 +116,7 @@ export default function HeroBilling() {
                 Join Us
               </Link>
               <Image src={banner} alt="Decorative image"
-                ref={imgRef}
+                ref={imgRef as React.RefObject<HTMLImageElement>}
                className="mx-auto banner-img" />
             </div>
           </div>

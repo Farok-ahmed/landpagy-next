@@ -6,10 +6,10 @@ import { useGsapReveal } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import Slider from "react-slick";
 
-const SlickBtnPrev = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }) => (
+const SlickBtnPrev = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }: { currentSlide?: number; slideCount?: number; children?: React.ReactNode; [key: string]: any }) => (
   <button {...props}>{children}</button>
 );
-const SlickBtnNext = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }) => (
+const SlickBtnNext = ({ currentSlide: _currentSlide, slideCount: _slideCount, children, ...props }: { currentSlide?: number; slideCount?: number; children?: React.ReactNode; [key: string]: any }) => (
   <button {...props}>{children}</button>
 );
 

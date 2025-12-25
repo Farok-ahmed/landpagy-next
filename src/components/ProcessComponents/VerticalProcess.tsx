@@ -163,13 +163,13 @@ export default function VerticalProcess() {
                  className="shape" />
                 <Image src={featuresObject7} alt="Features Object"
                  className="shape object-element layer"
-                  ref={shape2Parallax.ref} />
+                  ref={shape2Parallax.ref as React.Ref<HTMLImageElement>} />
                 <Image src={featuresObject8} alt="Features Object"
                  className="shape object-element layer"
-                  ref={shape3Parallax.ref} />
+                  ref={shape3Parallax.ref as React.Ref<HTMLImageElement>} />
                 <Image src={featuresObject9} alt="Features Object"
                  className="shape object-element layer"
-                  ref={shape4Parallax.ref} />
+                  ref={shape4Parallax.ref as React.Ref<HTMLImageElement>} />
               </div>
             </div>
           </div>
@@ -206,21 +206,21 @@ export default function VerticalProcess() {
                   alt="Features"
                   width={200}
                   height={200}
-                  ref={shape1Parallax.ref}
+                  ref={shape1Parallax.ref as React.Ref<HTMLImageElement>}
                 />
                 <Image src={featuresObject2} className="shape"
                   
                   alt="Features " />
                 <Image src={featuresObject3} className="shape object-element layer"
-                  ref={shape2Parallax.ref}
+                  ref={shape2Parallax.ref as React.Ref<HTMLImageElement>}
                   
                   alt="Features " />
                 <Image src={featuresObject11} className="shape object-element layer"
-                  ref={shape3Parallax.ref}
+                  ref={shape3Parallax.ref as React.Ref<HTMLImageElement>}
                   
                   alt="Features " />
                 <Image src={featuresObject12} className="shape object-element layer"
-                  ref={shape4Parallax.ref}
+                  ref={shape4Parallax.ref as React.Ref<HTMLImageElement>}
                   
                   alt="Features " />
               </div>
@@ -253,19 +253,19 @@ export default function VerticalProcess() {
                  className="shape" />
                 <Image src={featuresObject1} alt="Features Object"
                  className="shape object-element layer"
-                  ref={shape1Parallax.ref} />
+                  ref={shape1Parallax.ref as React.Ref<HTMLImageElement>} />
                 <Image src={featuresObject2} alt="Features Object"
                  className="shape" />
                 <Image src={featuresObject3} className="shape object-element layer"
-                  ref={shape2Parallax.ref}
+                  ref={shape2Parallax.ref as React.Ref<HTMLImageElement>}
                   
                   alt="Features Object" />
                 <Image src={featuresObject4} alt="Features Object"
                  className="shape object-element layer"
-                  ref={shape3Parallax.ref} />
+                  ref={shape3Parallax.ref as React.Ref<HTMLImageElement>} />
                 <Image src={featuresObject5} alt="Features Object"
                  className="shape object-element layer"
-                  ref={shape4Parallax.ref} />
+                  ref={shape4Parallax.ref as React.Ref<HTMLImageElement>} />
               </div>
             </div>
           </div>

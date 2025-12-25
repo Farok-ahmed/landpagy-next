@@ -1,5 +1,5 @@
 "use client";
-import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useGsapReveal, useGsapMultiple } from "@/hooks/useGsapReveal";
 import Link from "next/link";
 ;
 

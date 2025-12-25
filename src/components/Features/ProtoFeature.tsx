@@ -6,12 +6,8 @@ import feaIcon3 from "@/assets/images/home_6/fea-icon3.svg";
 import feaIcon4 from "@/assets/images/home_6/fea-icon4.svg";
 import feaIcon5 from "@/assets/images/home_6/fea-icon5.svg";
 import feaIcon6 from "@/assets/images/home_6/fea-icon6.svg";
-;
-
-import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function ProtoFeature() {
-  const _featureRef = useGsapReveal({ animation: "fadeInUp" });
   return (
     <section className="more-features-area bg-proto pt-135 pb-120">
       <div className="container">

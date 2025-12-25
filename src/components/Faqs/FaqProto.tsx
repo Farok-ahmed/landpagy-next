@@ -1,11 +1,6 @@
 "use client";
 
-
-import { useGsapReveal } from "@/hooks/useGsapReveal";
-
 export default function FaqProto() {
-  const _faqRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const _faqRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="faq-area-four faq-proto pt-135 pb-150">
       <div className="container">

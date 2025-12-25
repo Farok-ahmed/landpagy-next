@@ -41,7 +41,7 @@ export default function TestimonialHRM() {
         spaceBetween: 10,
       },
       768: {
-        slidesPerView: "auto",
+        slidesPerView: "auto" as const,
         centeredSlides: false,
         spaceBetween: 60,
       },

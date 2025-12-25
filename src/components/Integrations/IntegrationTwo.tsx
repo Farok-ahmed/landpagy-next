@@ -38,13 +38,15 @@ export default function IntegrationTwo() {
           translateY = parseFloat(values[5]);
         }
 
-        app.style.transform = `translateX(${translateX}px) translateY(${translateY}px) rotate(-${
+        (app as HTMLElement).style.transform = `translateX(${translateX}px) translateY(${translateY}px) rotate(-${
           45 * timeCount
         }deg)`;
       });
 
       const integretedApp = document.querySelector(".integreted-app");
-      integretedApp.style.transform = `rotate(${45 * timeCount}deg)`;
+      if (integretedApp) {
+        (integretedApp as HTMLElement).style.transform = `rotate(${45 * timeCount}deg)`;
+      }
     };
 
     rotateApps();

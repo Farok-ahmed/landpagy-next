@@ -49,14 +49,14 @@ export default function NewsLetterTwo() {
   return (
     <section ref={sectionRef} className="cta-area-four pt-105 pb-105">
       <div className="bg-shape">
-        <div className="shape layer" ref={shape1Parallax.ref}></div>
-        <div className="shape layer" ref={shape2Parallax.ref}></div>
-        <div className="shape layer" ref={shape3Parallax.ref}></div>
-        <div className="shape layer" ref={shape4Parallax.ref}></div>
-        <div className="shape layer" ref={shape5Parallax.ref}></div>
-        <div className="shape layer" ref={shape6Parallax.ref}></div>
-        <div className="shape layer" ref={shape7Parallax.ref}></div>
-        <div className="shape layer" ref={shape8Parallax.ref}></div>
+        <div className="shape layer" ref={shape1Parallax.ref as React.Ref<HTMLDivElement>}></div>
+        <div className="shape layer" ref={shape2Parallax.ref as React.Ref<HTMLDivElement>}></div>
+        <div className="shape layer" ref={shape3Parallax.ref as React.Ref<HTMLDivElement>}></div>
+        <div className="shape layer" ref={shape4Parallax.ref as React.Ref<HTMLDivElement>}></div>
+        <div className="shape layer" ref={shape5Parallax.ref as React.Ref<HTMLDivElement>}></div>
+        <div className="shape layer" ref={shape6Parallax.ref as React.Ref<HTMLDivElement>}></div>
+        <div className="shape layer" ref={shape7Parallax.ref as React.Ref<HTMLDivElement>}></div>
+        <div className="shape layer" ref={shape8Parallax.ref as React.Ref<HTMLDivElement>}></div>
       </div>
       <div className="container">
         <div className="row">

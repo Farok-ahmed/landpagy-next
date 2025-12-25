@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -190,10 +191,10 @@ export default function AppLandingHero() {
                   <Image src={shape2} alt="Shape" />
                 </div>
               </div>
-              <Image src={bannerImg1} ref={img1Ref} className="main-img1"
+              <Image src={bannerImg1} ref={img1Ref as React.RefObject<HTMLImageElement>} className="main-img1"
                 
                 alt="Banner " />
-              <Image src={bannerImg2} ref={img2Ref} className="main-img2"
+              <Image src={bannerImg2} ref={img2Ref as React.RefObject<HTMLImageElement>} className="main-img2"
                 
                 alt="Banner " />
             </div>

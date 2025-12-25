@@ -1,7 +1,7 @@
 "use client";
 import scroll from "@/assets/images/scroll.svg";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { usePathname } from "next/navigation";
 import { useEffect, useLayoutEffect, useState } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 
@@ -11,7 +11,7 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const [isVisible, setIsVisible] = useState<boolean>(false);
-  const router = useRouter();
+  const pathname = usePathname();
 
   // Function to handle scroll to top
   const scrollToTop = () => {
@@ -61,7 +61,7 @@ export default function Layout({ children }: LayoutProps) {
       left: 0,
       behavior: "instant",
     });
-  }, [router.pathname]);
+  }, [pathname]);
 
   // WOW.js removed - animations now handled by useGsapReveal hook in individual components
 

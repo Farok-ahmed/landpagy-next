@@ -32,7 +32,7 @@ const colors = {
 };
 
 function log(message, color = 'reset') {
-  console.log(colors[color] + message + colors.reset);
+  console.warn(colors[color] + message + colors.reset);
 }
 
 // Animation mappings
@@ -54,7 +54,6 @@ const SPEEDS = {
 
 function parseWowClass(classString) {
   const animations = [];
-  const delays = [];
   
   // Extract animation types
   Object.keys(ANIMATIONS).forEach(anim => {

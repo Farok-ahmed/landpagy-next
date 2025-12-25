@@ -1,15 +1,16 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
 
 import border from "@/assets/images/home_10/shapes/border.svg";
 import upRight from "@/assets/images/home_10/shapes/up-right.svg";
 ;
 import Slider from "react-slick";
-const SlickBtnPrev = ({ children, ...props }) => (
+const SlickBtnPrev = ({ children, ...props }: { children: React.ReactNode } & React.ButtonHTMLAttributes<HTMLButtonElement>) => (
   <button {...props}>{children}</button>
 );
-const SlickBtnNext = ({ children, ...props }) => (
+const SlickBtnNext = ({ children, ...props }: { children: React.ReactNode } & React.ButtonHTMLAttributes<HTMLButtonElement>) => (
   <button {...props}>{children}</button>
 );
 

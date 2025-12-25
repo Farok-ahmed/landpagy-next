@@ -44,7 +44,7 @@ export default function BlogNewsLetter() {
                   value=""
                   id="defaultCheck1"
                 />
-                <label className="form-check-label" for="defaultCheck1">
+                <label className="form-check-label" htmlFor="defaultCheck1">
                   I agree to the Docy Terms & Conditions
                 </label>
               </div>

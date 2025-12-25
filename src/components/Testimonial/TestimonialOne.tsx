@@ -15,6 +15,8 @@ const TestimonialOne = () => {
     const panels = document.querySelectorAll(".panel");
     const container = document.querySelector(".scroll-container");
 
+    if (!container) return;
+
     const ctx = gsap.to(panels, {
       xPercent: -100 * (panels.length - 1),
       ease: "none",
@@ -23,7 +25,7 @@ const TestimonialOne = () => {
         trigger: container,
         pin: container,
         scrub: 3,
-        end: () => "+=" + container.offsetWidth,
+        end: () => "+=" + (container as HTMLElement).offsetWidth,
       },
     });
 

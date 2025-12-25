@@ -6,13 +6,8 @@ import icon1 from "@/assets/images/recruitment-proccess/icon-1.svg";
 import icon2 from "@/assets/images/recruitment-proccess/icon-2.svg";
 import icon3 from "@/assets/images/recruitment-proccess/icon-3.svg";
 import icon4 from "@/assets/images/recruitment-proccess/icon-4.svg";
-;
-
-import { useGsapReveal } from "@/hooks/useGsapReveal";
 
 export default function RecruitmentProcess() {
-  const _procRef1 = useGsapReveal({ animation: "fadeInUp" });
-  const _procRef2 = useGsapReveal({ animation: "fadeInUp", delay: 0.1 });
   return (
     <section className="recruitment-procces bg_disable pt-120 pb-100">
       <div className="container blog-grid-container">

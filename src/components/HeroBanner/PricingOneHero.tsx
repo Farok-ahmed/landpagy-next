@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import bannerShape6 from "@/assets/images/shape/banner-shape6.svg";
 import shape3 from "@/assets/images/shape/shape-3.svg";
@@ -22,7 +23,7 @@ export default function PricingOneHero() {
     translateX: [300, -150, "easeInQuad"],
     translateY: [0, 0, "easeOutQuad"],
     rotateY: [0, 0],
-    speed: [-10],
+    speed: -10,
   });
   const shape3Parallax = useParallax({
     translateX: [0, 0, "easeInQuad"],
@@ -51,7 +52,7 @@ export default function PricingOneHero() {
         </div>
       </div>
       <span ref={shape1Ref} className="banner-shapes"></span>
-      <Image src={bannerShape6} ref={shape4Ref} className="pricing-shape-4"
+      <Image src={bannerShape6} ref={shape4Ref as React.Ref<HTMLImageElement>} className="pricing-shape-4"
         
         alt="Shape " />
       <Image src={shape3} className="pricing-shape-3"
@@ -60,11 +61,11 @@ export default function PricingOneHero() {
       <Image src={featuresObject8} className="pricing-shape-5 object-element layer"
         
         alt="Pricing Banner Shape"
-        ref={shape3Parallax.ref} />
+        ref={shape3Parallax.ref as React.Ref<HTMLImageElement>} />
       <Image src={featuresObject9} className="pricing-shape-12 object-element layer"
         
         alt="Pricing Banner Shape"
-        ref={shape4Parallax.ref} />
+        ref={shape4Parallax.ref as React.Ref<HTMLImageElement>} />
       <Image src={pricingShape2} className="pricing-shape-6"
         
         alt="Pricing Banner Shape" />
@@ -74,14 +75,14 @@ export default function PricingOneHero() {
       <Image src={pricingShape4} className="pricing-shape-8"
         
         alt="Pricing Banner Shape" />
-      <Image src={pricingShape5} ref={shape9Ref} className="pricing-shape-9"
+      <Image src={pricingShape5} ref={shape9Ref as React.Ref<HTMLImageElement>} className="pricing-shape-9"
         
         alt="Pricing Banner Shape" />
       <Image src={pricingShape6} className="pricing-shape-10"
         
         alt="Pricing Banner Shape" />
       <Image src={pricingShape7} className="pricing-shape-11 object-element"
-        ref={shape2Parallax.ref}
+        ref={shape2Parallax.ref as React.RefObject<HTMLImageElement>}
         
         alt="Pricing Banner Shape" />
     </section>

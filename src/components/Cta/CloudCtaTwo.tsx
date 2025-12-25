@@ -1,3 +1,4 @@
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -26,9 +27,9 @@ export default function CloudCtaTwo() {
   return (
     <section className="cloud-cta-area bg-blue-light pt-130 pb-140">
       <div className="bg-shapes">
-        <div className="shape" ref={shape1Parallax.ref}></div>
-        <div className="shape" ref={shape2Parallax.ref}></div>
-        <div className="shape" ref={shape3Parallax.ref}></div>
+        <div className="shape" ref={shape1Parallax.ref as React.RefObject<HTMLDivElement>}></div>
+        <div className="shape" ref={shape2Parallax.ref as React.RefObject<HTMLDivElement>}></div>
+        <div className="shape" ref={shape3Parallax.ref as React.RefObject<HTMLDivElement>}></div>
         <div className="shape">
           <Parallax
             translateX={["-80px", "80px"]}

@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Image from "next/image";
 import feature from "@/assets/images/features/feature.png";
 import featuresObject1 from "@/assets/images/features/features-object-1.svg";
@@ -43,19 +44,19 @@ export default function FeatureOne() {
               <Image src={feature} alt="Features " />
               <Image src={featuresObject1} alt="Features Object"
                className="features-object1 object-element layer"
-                ref={shape1Parallax.ref} />
+                ref={shape1Parallax.ref as React.RefObject<HTMLImageElement>} />
               <Image src={featuresObject2} alt="Features Object"
                className="features-object2" />
               <Image src={featuresObject3} className="features-object3 object-element layer"
                 
                 alt="Features Object"
-                ref={shape2Parallax.ref} />
+                ref={shape2Parallax.ref as React.RefObject<HTMLImageElement>} />
               <Image src={featuresObject4} alt="Features Object"
                className="features-object4 object-element layer"
-                ref={shape3Parallax.ref} />
+                ref={shape3Parallax.ref as React.RefObject<HTMLImageElement>} />
               <Image src={featuresObject5} alt="Features Object"
                className="features-object5 object-element layer"
-                ref={shape4Parallax.ref} />
+                ref={shape4Parallax.ref as React.RefObject<HTMLImageElement>} />
               <div className="round-object"></div>
             </div>
           </div>

@@ -1459,7 +1459,7 @@ export default function ComparePriceTable() {
                 <tbody>
                   {/* <!--======== MAIN PLAN ROW ========--> */}
                   <tr>
-                    <th colSpan="2"></th>
+                    <th colSpan={2}></th>
                     <td className="product-plan table-bg">
                       <div className="text-center sub-padding">
                         <h3 className="plan-title">Landpagy Enterprise Plan</h3>
@@ -1617,7 +1617,7 @@ export default function ComparePriceTable() {
                   {/* <!--======== DEVICE SECURITY ========--> */}
                   {/* <!-- table-row-1 --> */}
                   <tr className="feature-row red-top gray-bottom">
-                    <th rowSpan="12" className="feature-type">
+                    <th rowSpan={12} className="feature-type">
                       <span className="section-text nowrap">
                         Device Security
                       </span>
@@ -2123,7 +2123,7 @@ export default function ComparePriceTable() {
                   {/* <!--======== ONLINE PRIVACY ========--> */}
                   {/* <!-- table-row-13 --> */}
                   <tr className="feature-row red-top gray-bottom">
-                    <th rowSpan="3" className="feature-type">
+                    <th rowSpan={3} className="feature-type">
                       <span className="section-text nowrap">
                         Online Privacy
                       </span>
@@ -2256,7 +2256,7 @@ export default function ComparePriceTable() {
                   {/* <!--======== IDENTITY THEFT PROTECTION========--> */}
                   {/* <!-- table-row-16 --> */}
                   <tr className="feature-row red-top gray-bottom">
-                    <th rowSpan="17" className="feature-type">
+                    <th rowSpan={17} className="feature-type">
                       <span className="section-text nowrap">
                         Identity Theft Protection
                       </span>

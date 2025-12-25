@@ -83,7 +83,7 @@ export default function HeroPrototype() {
                 Creating wireframes/interactive prototypes with built-in widgets
                 and templates, by simply drag-and-drop.
               </p>
-              <form ref={formRef} className="form-group">
+              <form ref={formRef as React.Ref<HTMLFormElement>} className="form-group">
                 <input type="email" placeholder="Enter your email address " />
                 <button type="submit" className="btn btn-yellow">
                   Try Free

@@ -1,11 +1,11 @@
 "use client";
 import statistic1 from "@/assets/images/about_2/statistic1.png";
 import statistic4 from "@/assets/images/about_2/statistic4.png";
-import useGsapReveal, { useGsapMultiple } from "@/hooks/useGsapReveal";
+import { useGsapReveal, useGsapMultiple } from "@/hooks/useGsapReveal";
 import Image from "next/image";
 import CountUp from "react-countup";
 import Slider from "react-slick";
-;
+
 export default function StatisticsGrid() {
   const widget1Ref = useGsapReveal({ animation: 'fadeInUp' });
   const widget2Ref = useGsapReveal({ animation: 'fadeInUp', delay: 0.2 });

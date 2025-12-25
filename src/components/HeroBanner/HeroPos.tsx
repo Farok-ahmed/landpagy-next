@@ -127,13 +127,13 @@ export default function HeroPos() {
                 Landpagy is a leading retail POS software in the cloud with
                 everything you need to run & grow.
               </p>
-              <form ref={formRef} className="form-group">
+              <form ref={formRef as React.Ref<HTMLFormElement>} className="form-group">
                 <input type="email" placeholder="Your Email" />
                 <button type="submit" className="btn btn-indigo">
                   Get Started
                 </button>
               </form>
-              <ul ref={subContentRef} className="sub-content">
+              <ul ref={subContentRef as React.Ref<HTMLUListElement>} className="sub-content">
                 <li>
                   <p>
                     <i className="fas fa-check-circle"></i> 14-day trial
@@ -154,15 +154,15 @@ export default function HeroPos() {
           </div>
           <div className="col-md-5">
             <div ref={rightRef} className="banner-right">
-              <Image src={banner1} ref={shape4Parallax.ref}
+              <Image src={banner1} ref={shape4Parallax.ref as React.Ref<HTMLImageElement>}
                className="banner-img-1 layer"
                 
                 alt="Banner " />
-              <Image src={banner2} ref={shape5Parallax.ref}
+              <Image src={banner2} ref={shape5Parallax.ref as React.Ref<HTMLImageElement>}
                className="banner-img-2 layer"
                 
                 alt="Banner " />
-              <Image src={banner3} ref={shape6Parallax.ref}
+              <Image src={banner3} ref={shape6Parallax.ref as React.Ref<HTMLImageElement>}
                className="banner-img-3 layer"
                 
                 alt="Banner " />
