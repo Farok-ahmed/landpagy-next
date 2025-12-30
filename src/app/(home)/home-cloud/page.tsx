@@ -1,18 +1,19 @@
 "use client";
+
 import React, { useEffect } from "react";
 import CloudCounter from "@/components/Counter/CloudCounter";
 import CloudCtaTwo from "@/components/Cta/CloudCtaTwo";
 import CloudFeature from "@/components/Features/CloudFeature";
 import HeroCloud from "@/components/HeroBanner/HeroCloud";
 import CloudIntegration from "@/components/Integrations/CloudIntegration";
-import CloudFooter from "@/components/Layout/Footer/CloudFooter";
-import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import CloudPrice from "@/components/PricePack/CloudPrice";
 import CloudService from "@/components/Service/CloudService";
 import CloudTestimonial from "@/components/Testimonial/CloudTestimonial";
 
 export default function HomeCloud() {
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     const handleScroll = () => {
       const offset = window.scrollY + window.innerHeight;
       const animatables = document.querySelectorAll(".animatable");
@@ -42,8 +43,7 @@ export default function HomeCloud() {
     };
   }, []);
   return (
-    <div>
-      <HeaderOne />
+    <>
       <HeroCloud />
       <CloudService />
       <CloudFeature />
@@ -52,7 +52,6 @@ export default function HomeCloud() {
       <CloudIntegration />
       <CloudCtaTwo />
       <CloudCounter />
-      <CloudFooter />
-    </div>
+    </>
   );
 }

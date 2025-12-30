@@ -37,3 +37,5 @@ declare module '*.bmp' {
   const content: any;
   export default content;
 }
+
+declare module 'bootstrap/dist/js/bootstrap.bundle.min.js';

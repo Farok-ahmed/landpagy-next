@@ -6,14 +6,10 @@ import OurStory from "@/components/About/OurStory";
 import OurValue from "@/components/About/OurValue";
 import AboutOneClient from "@/components/Clients/AboutOneClient";
 import AboutCounter from "@/components/Counter/AboutCounter";
-import FooterOne from "@/components/Layout/Footer/FooterOne";
-import HeaderOne from "@/components/Layout/Header/HeaderOne";
-;
 
 export default function AboutOne() {
   return (
-    <div>
-      <HeaderOne />
+    <>
       <AboutOneHero />
       <AboutCounter />
       <OurStory />
@@ -22,7 +18,6 @@ export default function AboutOne() {
       <AboutTeam />
       <AboutOneClient />
       <AboutCta />
-      <FooterOne />
-    </div>
+    </>
   );
 }

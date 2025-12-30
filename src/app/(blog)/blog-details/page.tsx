@@ -6,16 +6,13 @@ import PostDetailContent from "@/components/Blog/PostDetailContent";
 import PostTags from "@/components/Blog/PostTags";
 import RelatedPost from "@/components/Blog/RelatedPost";
 import RecentPosts from "@/components/BlogGrid/RecentPosts";
-import FooterOne from "@/components/Layout/Footer/FooterOne";
-import HeaderOne from "@/components/Layout/Header/HeaderOne";
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 
 export default function BlogDetails() {
   return (
-    <div>
-      <HeaderOne />
+    <>
       <BlogDetailsBreadcrumb />
       <section className="blog-post-area pt-100 pb-140">
         <div className="container">
@@ -178,22 +175,52 @@ export default function BlogDetails() {
                   <h4 className="widget-title">Instragram</h4>
                   <div className="instagram-items">
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta1.png" alt="" width={80} height={80} />
+                      <Image
+                        src="/images/blog/insta1.png"
+                        alt=""
+                        width={80}
+                        height={80}
+                      />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta2.png" alt="" width={80} height={80} />
+                      <Image
+                        src="/images/blog/insta2.png"
+                        alt=""
+                        width={80}
+                        height={80}
+                      />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta3.png" alt="" width={80} height={80} />
+                      <Image
+                        src="/images/blog/insta3.png"
+                        alt=""
+                        width={80}
+                        height={80}
+                      />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta4.png" alt="" width={80} height={80} />
+                      <Image
+                        src="/images/blog/insta4.png"
+                        alt=""
+                        width={80}
+                        height={80}
+                      />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta5.png" alt="" width={80} height={80} />
+                      <Image
+                        src="/images/blog/insta5.png"
+                        alt=""
+                        width={80}
+                        height={80}
+                      />
                     </Link>
                     <Link href="/" className="instagram-item">
-                      <Image src="/images/blog/insta6.png" alt="" width={80} height={80} />
+                      <Image
+                        src="/images/blog/insta6.png"
+                        alt=""
+                        width={80}
+                        height={80}
+                      />
                     </Link>
                   </div>
                 </div>
@@ -202,7 +229,6 @@ export default function BlogDetails() {
           </div>
         </div>
       </section>
-      <FooterOne />
-    </div>
+    </>
   );
 }

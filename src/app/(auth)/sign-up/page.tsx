@@ -9,7 +9,6 @@ import icon2 from "@/assets/images/signup/icon2.svg";
 import icon3 from "@/assets/images/signup/icon3.svg";
 import icon4 from "@/assets/images/signup/icon4.svg";
 ;
-import ElementsLayout from "@/components/Layout/ElementsLayout";
 import Link from "next/link";
 import { useParallax } from "react-scroll-parallax";
 
@@ -45,7 +44,7 @@ export default function SignUp() {
     speed: -10,
   });
   return (
-    <ElementsLayout>
+    <>
       <section className="overflow-hidden sign-up-wrapper pt-215 pb-165">
         <div className="container">
           <div className="sign-up-box">
@@ -178,6 +177,6 @@ export default function SignUp() {
           </div>
         </div>
       </section>
-    </ElementsLayout>
+    </>
   );
 }

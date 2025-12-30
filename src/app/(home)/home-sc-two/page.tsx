@@ -5,8 +5,6 @@ import ClientTwo from "@/components/Clients/ClientTwo";
 import InnovateCounter from "@/components/Counter/InnovateCounter";
 import CtaTwo from "@/components/Cta/CtaTwo";
 import FeatureWithImgOne from "@/components/FeatureWithImg/FeatureWithImgOne";
-import FooterThree from "@/components/Layout/Footer/FooterThree";
-import HeaderTwo from "@/components/Layout/Header/HeaderTwo";
 import TestimonialSlideThree from "@/components/Testimonial/TestimonialSlideThree";
 import WorkFlowThree from "@/components/Workflow/WorkFlowThree";
 import dynamic from "next/dynamic";
@@ -25,8 +23,7 @@ const HeroBannerThree = dynamic(
 
 export default function HomeScTwo() {
   return (
-    <div>
-      <HeaderTwo />
+    <>
       <HeroBannerThree />
       <ClientTwo />
       <PortFolioWithFilter />
@@ -36,7 +33,6 @@ export default function HomeScTwo() {
       <FeatureWithImgOne />
       <TestimonialSlideThree />
       <CtaTwo />
-      <FooterThree />
-    </div>
+    </>
   );
 }

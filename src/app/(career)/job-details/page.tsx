@@ -1,16 +1,12 @@
 import JobDescriptions from "@/components/Jobs/JobDescriptions";
 import JobDetailsHero from "@/components/Jobs/JobDetailsHero";
 import JobSummary from "@/components/Jobs/JobSummary";
-import FooterOne from "@/components/Layout/Footer/FooterOne";
-import CareerHeader from "@/components/Layout/Header/CareerHeader";
 import Image from "next/image";
 import iconUpload from "@/assets/images/icon_upload.svg";
-;
 
 export default function page() {
   return (
-    <div>
-      <CareerHeader />
+    <>
       <JobDetailsHero />
       <section className="job-application-area pt-110 pb-120 bg_white">
         <div className="container blog-grid-container">
@@ -118,9 +114,11 @@ export default function page() {
 
                     <div id="dropzone" className="dropzone">
                       <div className="dz-message">
-                        <Image src={iconUpload} className="mx-auto"
-                          
-                          alt="upload" />
+                        <Image
+                          src={iconUpload}
+                          className="mx-auto"
+                          alt="upload"
+                        />
                         <h4 className="dz-button">Drag and Drop files here</h4>
                         <p className="dz-custom-upload-text">or browse to</p>
                         <div className="theme-btn theme-btn-primary_alt mt-3">
@@ -150,7 +148,6 @@ export default function page() {
           </div>
         </div>
       </div>
-      <FooterOne />
-    </div>
+    </>
   );
 }

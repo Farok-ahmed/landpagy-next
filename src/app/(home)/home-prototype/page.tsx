@@ -5,15 +5,12 @@ import ProtoFeature from "@/components/Features/ProtoFeature";
 import ProtoFeatureTwo from "@/components/Features/ProtoFeatureTwo";
 import HeroPrototype from "@/components/HeroBanner/HeroPrototype";
 import ProtoIntegration from "@/components/Integrations/ProtoIntegration";
-import FooterPrototype from "@/components/Layout/Footer/FooterPrototype";
-import HeaderPrototype from "@/components/Layout/Header/HeaderPrototype";
 import ProtoFeatureTab from "@/components/TabSection/ProtoFeatureTab";
 import PosTestimonial from "@/components/Testimonial/PosTestimonial";
 
 export default function HomeProtoType() {
   return (
-    <div>
-      <HeaderPrototype />
+    <>
       <HeroPrototype />
       <ProtoFeatureTab />
       <ProtoFeature />
@@ -23,7 +20,6 @@ export default function HomeProtoType() {
       <PosTestimonial />
       <ProtoClient />
       <ProtoCta />
-      <FooterPrototype />
-    </div>
+    </>
   );
 }

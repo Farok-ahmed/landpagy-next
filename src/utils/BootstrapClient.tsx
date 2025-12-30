@@ -2,9 +2,12 @@
 
 import { useEffect } from "react";
 
-function BootstrapClient() {
+function BootstrapClient(): null {
   useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+    const loadBootstrap = async (): Promise<void> => {
+      await import("bootstrap/dist/js/bootstrap.bundle.min.js");
+    };
+    loadBootstrap();
   }, []);
 
   return null;

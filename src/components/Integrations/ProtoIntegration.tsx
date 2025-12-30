@@ -23,7 +23,10 @@ export default function ProtoIntegration() {
   }, []);
 
   useEffect(() => {
-    const rotateApps = () => {
+    if (typeof window === "undefined" || typeof document === "undefined")
+      return;
+
+    const rotateApps = (): void => {
       const apps = document.querySelectorAll(".integreted-app .app");
       apps.forEach((app) => {
         const transform = window.getComputedStyle(app).transform;

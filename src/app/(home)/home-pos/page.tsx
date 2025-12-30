@@ -6,17 +6,13 @@ import FaqPos from "@/components/Faqs/FaqPos";
 import PosFeatureGroup from "@/components/Features/PosFeatureGroup";
 import FeaturePos from "@/components/FeatureWithImg/FeaturePos";
 import HeroPos from "@/components/HeroBanner/HeroPos";
-import FooterPos from "@/components/Layout/Footer/FooterPos";
-import HeaderPos from "@/components/Layout/Header/HeaderPos";
 import PosPrice from "@/components/PricePack/PosPrice";
 import PosService from "@/components/Service/PosService";
 import PosTestimonial from "@/components/Testimonial/PosTestimonial";
-;
 
 export default function HomePos() {
   return (
-    <div>
-      <HeaderPos />
+    <>
       <HeroPos />
       <FeaturePos />
       <PosFeatureGroup />
@@ -28,7 +24,6 @@ export default function HomePos() {
       <FaqPos />
       <PosClient />
       <PosCta />
-      <FooterPos />
-    </div>
+    </>
   );
 }
