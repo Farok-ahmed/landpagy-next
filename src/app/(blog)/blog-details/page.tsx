@@ -172,7 +172,7 @@ export default function BlogDetails() {
                 </div>
 
                 <div className="instagram-widget">
-                  <h4 className="widget-title">Instragram</h4>
+                  <h4 className="widget-title">Instagram</h4>
                   <div className="instagram-items">
                     <Link href="/" className="instagram-item">
                       <Image

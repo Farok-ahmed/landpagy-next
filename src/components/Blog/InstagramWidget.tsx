@@ -12,7 +12,7 @@ import insta6 from "@/assets/images/blog/insta6.png";
 export default function InstagramWidget() {
   return (
     <div className="instagram-widget">
-      <h4 className="widget-title">Instragram</h4>
+      <h4 className="widget-title">Instagram</h4>
       <div className="instagram-items">
         <Link href="/" className="instagram-item">
           <Image src={insta1} alt="Decorative image" />

@@ -36,6 +36,8 @@ const CustomSelect = ({ options, placeholder, onChange }: CustomSelectProps) => 
   };
 
   useEffect(() => {
+    if (typeof document === "undefined") return;
+    
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);

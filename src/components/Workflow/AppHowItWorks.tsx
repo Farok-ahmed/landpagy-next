@@ -48,6 +48,8 @@ export default function AppHowItWorks() {
   const [activeSlide, setActiveSlide] = useState<number>(1);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const windowHeight = window.innerHeight;
