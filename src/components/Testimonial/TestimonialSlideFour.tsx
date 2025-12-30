@@ -67,11 +67,11 @@ export default function TestimonialSlideFour() {
             Landpagy to grow
           </h2>
         </div>
-        <Slider
-          {...slickOptions}
-          ref={refs[1] as any}
-         className="testimonial-slider-six position-relative"
-        >
+        <div ref={refs[1]}>
+          <Slider
+            {...slickOptions}
+            className="testimonial-slider-six position-relative"
+          >
           <div className="single-slide">
             <div className="row align-items-center">
               <div className="col-sm-8 col-lg-5">
@@ -138,7 +138,8 @@ export default function TestimonialSlideFour() {
               </div>
             </div>
           </div>
-        </Slider>
+          </Slider>
+        </div>
       </div>
     </section>
   );

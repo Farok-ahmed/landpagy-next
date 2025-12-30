@@ -157,7 +157,7 @@ export default function HeaderTwo() {
                     </Link>
                   </li>
                   <li className="nav-item">
-                    <Link href="/job-post" className="nav-link">
+                    <Link href="/jobs" className="nav-link">
                       Jobs
                     </Link>
                   </li>

@@ -210,7 +210,8 @@ export const useMultipleGsapReveals = <T extends HTMLElement = HTMLDivElement>(c
     };
 
     refsArray.forEach((ref, index) => {
-      if (ref.current) {
+      // Ensure ref.current is a valid DOM element (not a React component instance)
+      if (ref.current && ref.current instanceof Element && typeof ref.current.getBoundingClientRect === 'function') {
         const config = configs[index] || {};
         const animation = config.animation || 'fadeInUp';
         const delay = config.delay || 0;

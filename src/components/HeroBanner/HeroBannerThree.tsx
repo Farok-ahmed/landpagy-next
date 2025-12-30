@@ -63,7 +63,7 @@ export default function HeroBannerThree() {
                 interface blocks.All-in-one WordPress theme that’s modern, super
                 customizable, & blazing fast.
               </p>
-              <Link href="/price-one" className="btn border-btn">
+              <Link href="/pricing-table-one" className="btn border-btn">
                 Buy Now
               </Link>
               <Link href="/contact-one" className="btn white-btn">

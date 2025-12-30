@@ -5,28 +5,42 @@ import { useGsapReveal } from "@/hooks/useGsapReveal";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Image from "next/image";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const TestimonialOne = () => {
   const sectionRef = useGsapReveal({ animation: 'fadeInUp', duration: 0.8 });
+  const containerRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
-    const panels = document.querySelectorAll(".panel");
-    const container = document.querySelector(".scroll-container");
+    if (!containerRef.current || !wrapperRef.current) return;
 
-    if (!container) return;
+    const container = containerRef.current;
+    const wrapper = wrapperRef.current;
+    const panels = wrapper.querySelectorAll(".panel");
 
-    const ctx = gsap.to(panels, {
-      xPercent: -100 * (panels.length - 1),
-      ease: "none",
-      scrollTrigger: {
-        start: "center center",
-        trigger: container,
-        pin: container,
-        scrub: 3,
-        end: () => "+=" + (container as HTMLElement).offsetWidth,
-      },
+    if (panels.length === 0) return;
+
+    // Calculate the total scroll distance (wrapper width minus container visible width)
+    const getScrollAmount = () => {
+      return -(wrapper.scrollWidth - container.offsetWidth);
+    };
+
+    const ctx = gsap.context(() => {
+      gsap.to(wrapper, {
+        x: getScrollAmount,
+        ease: "none",
+        scrollTrigger: {
+          trigger: container,
+          start: "center center",
+          end: () => `+=${wrapper.scrollWidth - container.offsetWidth}`,
+          pin: true,
+          scrub: 1,
+          invalidateOnRefresh: true,
+        },
+      });
     });
 
     return () => {
@@ -49,8 +63,8 @@ const TestimonialOne = () => {
           </div>
         </div>
         <div className="container">
-          <div id="scroll-container" className="scroll-container">
-            <div className="scroll-wrapper">
+          <div ref={containerRef} id="scroll-container" className="scroll-container">
+            <div ref={wrapperRef} className="scroll-wrapper">
               {Array.from({ length: 3 }).map((_, index) => (
                 <div className="panel max-width" key={index}>
                   <div className="testimonial-wrapper">
